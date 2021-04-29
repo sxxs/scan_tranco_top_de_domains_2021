@@ -1,0 +1,479 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.allianz.de",
+      "expires": 1650463291,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31550402,
+      "name": "sat_track",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 14,
+      "value": "false"
+    },
+    {
+      "domain": ".allianz.de",
+      "expires": 1626696090,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7783201,
+      "name": "OPTOUTMULTI",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 21,
+      "value": "0:1%7Cc1:1"
+    },
+    {
+      "domain": "www.allianz.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cookie_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 18,
+      "value": "true"
+    },
+    {
+      "domain": ".allianz.de",
+      "expires": 1650456091,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 273,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+14%3A01%3A31+GMT%2B0200+(Central+European+Summer+Time)&version=6.14.0&hosts=&consentId=5fdb6c35-d4aa-4ebc-8453-f15737de51f4&interactionCount=0&landingPath=https%3A%2F%2Fwww.allianz.de%2F&groups=1%3A1%2C2%3A0%2C4%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.allianz.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "39b999d82688a4b1117544b58ebcedaf41766c1e6ae3c8828dcf160137352434",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "QuoVadis Global SSL ICA G3",
+        "countryName": "BM",
+        "organizationName": "QuoVadis Limited"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1643883720.0,
+      "not_valid_before": 1612347139.0,
+      "serial_number": 6500218123241333273566778724560029209243195091,
+      "subject": {
+        "commonName": "allianz.de",
+        "countryName": "DE",
+        "localityName": "M\u00fcnchen",
+        "organizationName": "Allianz Technology SE",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.allianz.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4-aem"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://allianz.de/",
+    "https://www.allianz.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://allianz.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/vendorlib/patternlab/resources/fonts/allianz-neo/AllianzNeoW04-Regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/vendorlib/patternlab/resources/fonts/allianz-icons/Allianz-Icons.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/vendorlib/patternlab/resources/fonts/allianz-neo/AllianzNeoW04-Light.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/vendorlib/patternlab/resources/fonts/allianz-neo/AllianzNeoW04-SemiBold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/vendorlib/patternlab/resources/fonts/allianz-neo/AllianzNeoW04-Bold.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azonetrust/AZD/oneTrust_production/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/gdpr/head.min.957251459ad129e3c9a31103b4d02348.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm3/prod/97527f1ab2da/894b91984cbc/launch-41aafd4e64f9.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azutils/prod/azutils/azutils.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azutils/prod/atl/atl-create-internal.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/main.min.d7d5ee21dce15839ff99345a34609314.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/azde/aem-core/clientlibs/dedicated/main.min.45d6cb092ef4c44537615ff605624de7.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/head.min.8d44b0680769576d86d15cfdacf52af8.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/azde/aem-core/clientlibs/dedicated/head.min.51aa2e95c1a849435706c5f058e93a65.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/aem-core/resources/images/1px.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/_jcr_content/root/stage/stageimage.img.60.1280.jpeg/1610371952533/mutter-schaut-mit-sohn-in-iphone.jpeg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://prod.innovations-chat.allianz.de/chat-window/chat-window.liveperson.js?v=1.4.5"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/azde/aem-core/clientlibs/dedicated/components/clientlib-userAssistant.min.4fcdba2c01a72b7bd31b2fc2b5ff8d80.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/gdpr/main.min.5935fda004491d4eca4b97b0d2e03301.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/main.min.ce9434a7d928f4e5e329032fd4f6e0fa.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/azde/aem-core/clientlibs/dedicated/main.min.22f6a7c3e64678891b472abe84d43eca.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azonetrust/AZD/oneTrust_production/consent/1668964e-5449-4848-853f-d5c40f316e90/1668964e-5449-4848-853f-d5c40f316e90.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm3/prod/97527f1ab2da/894b91984cbc/cdfef58708da/EX2e8e3fe332e54f36b6393c31cab7a00f-libraryCode_source.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm1/allianz-deutschland/int-allianzde-prod/prod/utag.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azutils/prod/scripts/util.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azonetrust/AZD/oneTrust_production/scripttemplates/6.14.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/libs/granite/csrf/token.json"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/etc.clientlibs/onemarketing/platform/clientlibs/vendorlib/patternlab/resources/fonts/allianz-icons/Allianz-Icons.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm3/prod/97527f1ab2da/894b91984cbc/cdfef58708da/RC0449222da0a342cfbdda2f3a4b333e12-source.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm3/prod/97527f1ab2da/894b91984cbc/cdfef58708da/RC65f6209ee3104f9ba33ad4eacc9c26bb-source.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azutils/prod/azutils/azutils_plugins.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azonetrust/AZD/oneTrust_production/consent/1668964e-5449-4848-853f-d5c40f316e90/2254cc68-a54f-4561-a6f4-e5e4123b8ac9/de.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm3/prod/97527f1ab2da/894b91984cbc/cdfef58708da/RC2ee1e76bf4e7475c8f113ccbd8704a58-source.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/tgm3/prod/97527f1ab2da/894b91984cbc/cdfef58708da/RC60d3237e829e4643ac4da1f875e1abb6-source.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/content/dam/onemarketing/azde/azd/user-assistant/allianz-ua-a4-kontakt-blue-initial-komprimiert_01_desktop.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azonetrust/AZD/oneTrust_production/scripttemplates/6.14.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azonetrust/AZD/oneTrust_production/scripttemplates/6.14.0/assets/otPcCenter.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azutils/prod/cookie-whitelist/CookieWhitelistService.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allianz.de/azutils/prod/cookie-whitelist/executeAllianzDe.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "azd.marketing.adobe.com"
+      ],
+      "header_value": "frame-ancestors 'self' azd.marketing.adobe.com"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://allianz.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,1194 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.thomann.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "sid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 35,
+      "value": "e94a58c3a18c700b3d801dea72a042be"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.thomann.de/intl/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "59eb5a70feebbc0f8d9b75cb535a6362122ec051a831c925e0db1827cf827934",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648763999.0,
+      "not_valid_before": 1615762800.0,
+      "serial_number": 19507031962219377045872981809838483846,
+      "subject": {
+        "commonName": "*.thomann.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.thomann.de/intl/compinfo_imprint.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": "16.10.2",
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://thomann.de/",
+    "https://www.thomann.de/",
+    "https://www.thomann.de/intl/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://thomann.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/intl/index.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400i&subset=latin-ext,latin"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Lora"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/nc/css/oo__rev43.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/tr/css/tr-reset__rev2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/tr/css/nc-fix__rev2552.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/tr/css/vendor__rev2538.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/tr/css/legacy__rev2552.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/tr/css/style__rev2909.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/script/vendor__rev2089.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/script/thoapp__rev2695.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics//images/cookie/oma_with_thomann_cookies.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/logos/thomann-cyan-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/gb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/fr.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/es.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/at.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/it.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/dk.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/se.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/fi.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/nl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/be.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/lu.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/pt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/ie.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/gr.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/pl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/cz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/ro.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/flags/hu.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/misc/loader-black.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/badges/warranty.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/badges/money_back.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/badges/shipping.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/badges/biggest_warehouse.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/common/badges/service_repair.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/n.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.static-thomann.de/pics/images/misc/placeholder.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T3LLKX"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/icons/icons.svg?v=74"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/fender.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/behringer.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/yamaha.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/roland.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/rode.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/blackmagic_design.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/shure.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/sennheiser.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/beyerdynamic.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/focusrite.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/k_und_m.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/ibanez.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/boss.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/presonus.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/zoom.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/gibson.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/korg.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/akg.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/neumann.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/cordial.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/epiphone.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/tc_electronic.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/universal_audio.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/nativeinstruments.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/arturia.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/esp.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/mackie.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/audio_technica.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/marshall.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/alesis.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/tc_helicon.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/daddario.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/tascam.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/ik_multimedia.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/akai_professional.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/kawai.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/gretsch.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/steinberg.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/prs.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x46/pics/herstlogos/m_audio.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/convert/pics/images/comp/sidebar/thomann_fb_fans_home_rs.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/tr/img/social_icon_facebook.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb180x180/pics/prod/235937.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb180x180/pics/prod/174334.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb180x180/pics/prod/467950.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb180x180/pics/prod/514740.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb180x180/pics/prod/468428.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb72x72/pics/sbpics/200r/1703.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb72x72/pics/sbpics/200r/1832.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb72x72/pics/sbpics/200r/1119.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/510532.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/508384.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/507622.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/510681.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/511585.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/515320.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/512296.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/471571.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/515332.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/513844.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/511582.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb38x38/pics/prod/500443.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/510532.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/508384.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/507622.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/510681.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/511585.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/515320.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/512296.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/471571.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/515332.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/513844.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/511582.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb100x100/pics/prod/500443.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/convert/pics/images/misc/bugs.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/static/icons/svg/global/visa.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb//txteaser800--ce6d334853ca7e15e5913cd274536e0a/pics/cms/image/teasertool/de/6871/electric_guitars_topseller.webp?d=elV3elV0VUtOeWgydDRlS0NRRWQ4K2psRFhJSjNOQ2pHSSs5eUlEdzVUYWpIOWMrMWkxckVPZ1c2d0NXckxaZTdyVGlISkZ0bWwvcmdON3RGV2o0QVdGbi9SbGovNThaTDFXcjFRb3RXMXliVkMzNVNhNnZHZG9mSUJIQzRzaW8rN1BmZXYvOWNsM1V3NjNMYzdubE1aaDc2S2ZqRUk3cmpZSndOWUdxV1JTcHJiTW5ZWmdwaGZaREhXQktNK05xVXFrUDhxL3NlZ29MUHdZNk9Dak9NUmpxaGYvazY5RkVHVmJseUlQaGhKUjhPeVNmc1JUVmlCR0tjeVJXZ2Z5YTNkeTVSTS9GbmoxYjlDd3dvM3R6c21PY1plVW9hMFp1a2dkckRkOHdjWlVYdVUzT2wyYzNBZz09"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/blog/wp-content/uploads/2021/04/homestudio_header_770x425-1-268x150.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/blog/wp-content/uploads/2021/03/hinweise_header_Shop_770x425px-268x150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/blog/wp-content/uploads/2021/04/Quiz_guitarsongs_header_770x425-268x150.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.thomann.de/blog/wp-content/uploads/2222/04/HelloNewGear_header_770x425_april2021-268x150.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb300x/pics/cms/image/teasertool/en/translate_amazon_payments/tour_amazon_payments.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb300x/pics/cms/image/teasertool/en/translate_wir_machen_mobil_m_thomann.de/tour_new_mobile_shop.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb300x/pics/cms/image/teasertool/en/translate_thomann_bei_facebook/tour_thomann_bei_facebook.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb300x/pics/cms/image/teasertool/en/translate_thomann_geschenkgutscheine/tour_thomann_gift_vouchers.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb//txteaser800--eb29fc81fbd61733af1021b6800ef566/pics/cms/image/teasertool/de/6871/behringer_x32.webp?d=elV3elV0VUtOeWhqMWtYQTJNTDRlTDh4R1h2djVHZkM2QmJyQUphc3RsNDBUWXNzazhtczM2aUJpdHVqMGYvMXBqZnBFem9ncGVNNUovcjJVeDYwcCs1Z1h4a2hZOGdtQURhZnEyQ3Fsajg0TmhtdXRTb1YzWEJOV200WTBJYzRNSTVkSzBsTm5Fc1ExNERocDkzRUhScEJDazJqcEYrUEpSMnM4YW0yd2RBMzVaNnliWXNFMFVoaTl1azYzRzE4aHNheFBFY2JHcWdXUEVuYVlJRFpaY0pzVitVNkdQeEVXK2dQbnE0ZWhrc3JYSDJnemowQW5oQzZyM250azZpOGNtR0IrN2IzZFRyb0Z1c0FscXkyWG9ZYXg4WEJKSUs1WEVNT05VejlLbjlER1pwWGhPWXVkWS9zcmdjWFhaZ3o%3D"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb//txteaser800--34b7d74f6b67f988dac9731af82fd6d3/pics/cms/image/teasertool/de/6871/studio_monitore_topseller.webp?d=elV3elV0VUtOeWgydDRlS0NRRWQ4K2psRFhJSjNOQ2pqZUJOMDI0YytLNmpIOWMrMWkxckVKL2F3dVJoRXVEc3VkQmNrWHlXMHZQcmdON3RGV2o0QWRVZnhHZlRpSVp1cDVtb1crNTlOL00yR1lLczFBVDFBdGJZN1dQdVhGWEFSU3Zzc0NidWh0UDBkc01oVXQ5cW83L09ZdjBhZmphdktNaktTSU5KTHIxZ1ZSdytFSmU3dXVNY0FTM1ZRd0h6WmltTVdPZ3FSZnhkNWV1U2lWU3pxelJMc3Y4QjgrSGtsZHpmOEV0Z2JoS212TTRwc054cUsvbzhHbXAyeGhrZ0d0clNsV3QwZkgwSGlPNXZHRkU5ODNNZ29DY2ovY0NobXhFbWhtbEg3dFdqVHl1ZFRTOFhrLy9zYzlUeVVydmo%3D"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/gi.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/dr.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/ta.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/st.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/sw.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/pa.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/li.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/dj.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/vi.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/mi.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/sp.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/bl.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/tr.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/no.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/ca.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb/thumb150x150/pics/images/category/icons/main/ka.webp"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://thumbs.static-thomann.de/thumb//txteaser800--7d873793e52fc51a6e375b5fee7f504c/pics/cms/image/teasertool/de/6871/stage_piano_topsellers.webp?d=ODRDS2RHVml0RU1Ud0M1eWZ3dENWNzh4R1h2djVHZkM2QmJyQUphc3RsNDBUWXNzazhtczM2aUJpdHVqMGYvMXBqZnBFem9ncGVNNUovcjJVeDYwcCs1Z1h4a2hZOGdtQURhZnEyQ3Fsajg0TmhtdXRTb1YzWEJOV200WTBJYzRNSTVkSzBsTm5Fc1ExNERocDkzRUhScEJDazJqcEYrUEpSMnM4YW0yd2RBMzVaNnliWXNFMGNWTmFtUkFLMFRHYXZicWRnZWdnWkpkNWV1U2lWU3pxelJMc3Y4QjgrSGtsZHpmOEV0Z2JoS212TTRwc054cUsxRlY4L3VsV25ET2N5Zk5lL1pXUlpSNWs0VXVzNGZVZUpTVnQvRjUrK3diUEp4M0ZDcDg5WS9nZEJNQkFpVHAvc2Myb1V4aWlsL2g%3D"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://thomann.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "images.static-thomann.de",
+      "thumbs.static-thomann.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 134
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "www.googletagmanager.com"
+    ]
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "actionnetwork.org",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_can2_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 267,
+      "value": "BAh7CEkiD3Nlc3Npb25faWQGOgZFVEkiJTFiMTgxZDIzY2Y0MzJiNzYzNjM1ZTRmNTJjOTg4NjZmBjsAVEkiDWxvY2F0aW9uBjsARkkiB2RlBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMWVKQ0hmVUY4UGFsMEtpeWRUQUJFekM1THlDQm9JOHBPcUVNU01Wb1psYms9BjsARg%3D%3D--90f0af1bfdbbb15ffd2136d23f7136d057119cc4"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.gruene.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e87a61dfa134d09bcc4c634624773a54be7fbfda97c33793fafc979d96762f87",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1624388991.0,
+      "not_valid_before": 1616616591.0,
+      "serial_number": 369452663674764355279455238081508773019178,
+      "subject": {
+        "commonName": "gruene-production.e13n.com"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.gruene.de/service/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://gruene.de/",
+    "https://gruene.de/",
+    "https://www.gruene.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://gruene.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gruene.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/webpack-runtime-d8757b0b59a6e10286ae.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/styles-9b6f388623a2ec93d35f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/framework-64cc76c2584951c8db93.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/app-803b158b7fccbd846aa8.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/29107295-385bbd5b0960e9d4c8b9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/54b82ca6-bdadfffb36cb52a46b41.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/ac1c44fc-112d43de38fc8be4d4b9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/commons-20d7924dccef46d37520.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/6554b53ebf756b90855f29ce17f9590ba1488e7f-95a3e47f1020ad026e88.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/0fa415c96a483ae113a5c1ecb4e47ac59015c9fb-1b89ae71b524e93feea1.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/cb9fae27d123796da914f8936ae85e7e7771e39e-829f902068705f690adf.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/component---src-templates-home-index-tsx-d282dd463e5ab87ba388.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/app-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/index/page-data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://gruene.matomo.cloud/matomo.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/static/PTSans-Regular-822510285d4e61e3fe62bd7d5b96c588.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/static/PTSans-BoldItalic-ea51f2730dfaabee1f75df8854fbc289.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/static/PTSans-Bold-243e47dbe06ff72f0d85496472802b7c.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/static/Arvo_Gruen_2015_10-2e8de746a090dc1870ba6283bdb495ca.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/fb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/Gruene_Logo_4c_aufTransparent_hellesBlaugrnaufweiss-01.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/EGP-logo-Shape_flat-bottom.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://gruene.matomo.cloud/plugins/HeatmapSessionRecording/configs.php?idsite=1&trackerid=LrKTIW&url=https%3A%2F%2Fwww.gruene.de%2F"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/widgets/v3/form/haltet-mich-auf-dem-laufenden-home-header?format=js&source=widget&clear_id=true"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/__cdn/eu-west-1/prd-images/GIFs-12.gif?signature=1cf65c4d7428de352c9ebf64cc43e9c14e2b2983"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/__cdn/eu-west-1/prd-images/20210416_Personenseiten_Artikelheader2.jpg?quality=85&width=1000&height=550&mode=crop&signature=8abfdf44e2868cf7141befec58c2e385b7e20dc3"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/aktiv-werden/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/suche/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/aktiv-werden/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/suche/page-data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/component---src-pages-search-index-tsx-ba8e9ba2924bb1b0cbd6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/component---src-templates-become-active-index-tsx-f48dbc21733557bea611.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/widgets/v3/form/haltet-mich-auf-dem-laufenden-home-header?format=js&source=widget&clear_id=true&js_inner=true"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/widgets/v3/form/es-beginnt-mitdir?format=js&source=widget&clear_id=true"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/widgets/v3/form/es-beginnt-mitdir?format=js&source=widget&clear_id=true&js_inner=true"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/includes/js/jquery-min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/includes/js/jquery-min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/includes/js/can-embed.js?v=27"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/includes/js/can-embed.js?v=27"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/images/spinner8.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/images/logo_sm.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://actionnetwork.org/includes/js/intl-tel-input/js/utils.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/unsere-kanzlerkandidatin-annalena-baerbock/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/unsere-kanzlerkandidatin-annalena-baerbock/page-data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/component---src-templates-articles-index-tsx-2e7bac466a3121f7359c.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/wahlprogramm-zur-bundestagswahl-2021/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/wahlprogramm-zur-bundestagswahl-2021/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/gruene-agrarminister-innen-erreichen-mehr-geld-fuer-umwelt-tier-und-klima/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/gruene-agrarminister-innen-erreichen-mehr-geld-fuer-umwelt-tier-und-klima/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/fuenf-punkte-plan-fuer-saubere-politik-und-transparenz/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/artikel/fuenf-punkte-plan-fuer-saubere-politik-und-transparenz/page-data.json"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/__cdn/eu-west-1/prd-images/20210419_AN_Signup.jpg?quality=85&width=1000&height=950&mode=crop&signature=b9a4b7a256e884ada7f18b940336bf4d51816642"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/GRUENE_Topic_Oekologie.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/GRUENE_Topic_Soziales.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/GRUENE_Topic_Wirtschaft.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/GRUENE_Topic_Demokratie.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cms.gruene.de/uploads/images/GRUENE_Topic_Europa.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/webpack-runtime-d8757b0b59a6e10286ae.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/styles-9b6f388623a2ec93d35f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/framework-64cc76c2584951c8db93.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/app-803b158b7fccbd846aa8.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/29107295-385bbd5b0960e9d4c8b9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/54b82ca6-bdadfffb36cb52a46b41.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/ac1c44fc-112d43de38fc8be4d4b9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/commons-20d7924dccef46d37520.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/6554b53ebf756b90855f29ce17f9590ba1488e7f-95a3e47f1020ad026e88.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/0fa415c96a483ae113a5c1ecb4e47ac59015c9fb-1b89ae71b524e93feea1.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/cb9fae27d123796da914f8936ae85e7e7771e39e-829f902068705f690adf.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/component---src-templates-home-index-tsx-d282dd463e5ab87ba388.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/app-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gruene.de/page-data/index/page-data.json"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://gruene.de\r",
+  "third_parties": {
+    "fqdns": [
+      "actionnetwork.org",
+      "gruene.matomo.cloud"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 13
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "gruene.matomo.cloud"
+    ]
+  }
+}

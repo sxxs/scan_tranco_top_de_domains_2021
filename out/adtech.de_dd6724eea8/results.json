@@ -1,0 +1,209 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".verizonmedia.com",
+      "expires": 1618919983.995292,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 9000.995291948318,
+      "name": "GUCS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 12,
+      "value": "AXB-d6uV"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_b277b575-7acd-43f7-a38f-b517aa8de52c",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "75be4cfd074285ce81fdb2535c0a964dd780aca09e360de11a3ee93660c45b85",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 High Assurance Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1620165599.0,
+      "not_valid_before": 1606172400.0,
+      "serial_number": 4618567957122387076968716984409157281,
+      "subject": {
+        "commonName": "consent.oath.com",
+        "countryName": "US",
+        "localityName": "Sunnyvale",
+        "organizationName": "Oath Inc",
+        "stateOrProvinceName": "California"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://adtech.de/",
+    "https://www.oath.com/advertising/publishers/ad-server",
+    "https://www.verizonmedia.com/advertising/publishers/solutions",
+    "https://guce.verizonmedia.com/consent?brandType=nonEu&gcrumb=cH53q5U&done=https%3A%2F%2Fwww.verizonmedia.com%2Fadvertising%2Fpublishers%2Fsolutions",
+    "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_b277b575-7acd-43f7-a38f-b517aa8de52c"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://adtech.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.oath.com/advertising/publishers/ad-server"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.verizonmedia.com/advertising/publishers/solutions"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://guce.verizonmedia.com/consent?brandType=nonEu&gcrumb=cH53q5U&done=https%3A%2F%2Fwww.verizonmedia.com%2Fadvertising%2Fpublishers%2Fsolutions"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_b277b575-7acd-43f7-a38f-b517aa8de52c"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/css/site-ltr-f5af91e0.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/mi/verizonmedia/assets/images/verizon-logo-1.0.1.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/js/site-02d621ab.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/images/mobile_23b3568c821a2a5c.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://adtech.de\r",
+  "third_parties": {
+    "fqdns": [
+      "guce.verizonmedia.com",
+      "s.yimg.com",
+      "www.oath.com",
+      "www.verizonmedia.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

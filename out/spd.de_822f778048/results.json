@@ -1,0 +1,453 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.spd.de",
+      "expires": 1650377841,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31456801,
+      "name": "interferenceIdentifier",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 33,
+      "value": "20210419_jw"
+    },
+    {
+      "domain": ".spd.de",
+      "expires": 1652883441,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.1.db3e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "49860637d18e8fba.1618928241.1.1618928241.1618928241."
+    },
+    {
+      "domain": ".spd.de",
+      "expires": 1618930041,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.1.db3e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": "www.spd.de",
+      "expires": 1650464241,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "fonts-loaded",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "true"
+    },
+    {
+      "domain": "www.spd.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 35,
+      "value": "vq1g1tn01bh63fbckdftabmnlh"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.spd.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "3e84d72c990728a1d1cd66d2491abe667e9e5814cf2e6eec2c507bb809ad9baf",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639263599.0,
+      "not_valid_before": 1604962800.0,
+      "serial_number": 119385588218241423395330107887892703559,
+      "subject": {
+        "commonName": "*.spd.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.spd.de/site/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://spd.de/",
+    "https://spd.de/",
+    "https://www.spd.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://spd.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://spd.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/Stylesheets/styles.css?1618498328"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/Images/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd_bpt/Resources/Public/dist/img/icons/ic_facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd_bpt/Resources/Public/dist/img/icons/ic_twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd_bpt/Resources/Public/dist/img/icons/ic_youtube.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd_bpt/Resources/Public/dist/img/icons/ic_instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd_bpt/Resources/Public/dist/img/icons/ic_telegram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/Images/logo_spe_dt.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3temp/assets/vhs-assets-main.js?1618912478"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://analytics.spd.de/matomo.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/global_assets/fonts/OpenSans-ExtraBold.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/fileadmin/Bilder/Grafiken/SPD_zukunftsprogramm_stoerer_abc_v2.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://analytics.spd.de/matomo.php?action_name=www.spd.de%2FSozialdemokratische%20Partei%20Deutschlands%20(SPD)&idsite=1&rec=1&r=192733&h=16&m=17&s=21&url=https%3A%2F%2Fwww.spd.de%2F&_id=49860637d18e8fba&_idts=1618928241&_idvc=1&_idn=1&_refts=0&_viewts=1618928241&send_image=1&cookie=1&res=800x600&gt_ms=94&pv_id=ltdWMw"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/fileadmin/_processed_/b/7/csm_Scholz_Hufnagl_SPD_Start_Jan_7ade193d98.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/global_assets/fonts/OpenSans-Regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/global_assets/fonts/OpenSans-Semibold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/global_assets/fonts/OpenSans-Bold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/typo3conf/ext/spd/Resources/Public/global_assets/fonts/OpenSans-Light.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.spd.de/nocache/1/?type=15780165415&cid=1140"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "https://altruja.de",
+        "https://dataservices.spd.de",
+        "wss://ws-eu.pusher.com",
+        "https://pusher01.spd.de",
+        "https://socialwall.spd.de",
+        "https://cdn01.spd.de"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "font-src": [
+        "'self'",
+        "https://fonts.gstatic.com",
+        "https://dataservices.spd.de"
+      ],
+      "frame-ancestors": [
+        "'self'",
+        "https://analytics.spd.de"
+      ],
+      "frame-src": [
+        "'self'",
+        "https://dpa-electionslive.s3.amazonaws.com",
+        "https://analytics.spd.de",
+        "https://w.soundcloud.com",
+        "https://player.vimeo.com",
+        "https://www.youtube-nocookie.com",
+        "https://api.spendino.de",
+        "https://storify.com",
+        "https://streaming.b1group.de",
+        "https://www.youtube.com",
+        "https://live.soziale-demokratie.live",
+        "https://www.blitzvideoserver.de",
+        "https://api.spd.de",
+        "https://app.contentflow.live",
+        "https://streaming.talk42.de",
+        "https://playout.3qsdn.com",
+        "https://sdn-global-live-http-cache.3qsdn.com",
+        "https://widget.whatsbroadcast.com",
+        "https://ghb2017.limequery.com",
+        "https://limequery.spd.de",
+        "https://www.verbavoice.ne",
+        "https://em.altruja.de",
+        "https://live.flyp.tv",
+        "https://us-central1-contentflow-2.cloudfunctions.net",
+        "https://domhost.it-television.net",
+        "https://wb.messengerpeople.com",
+        "https://hd-livestream.de",
+        "https://stream.liverecords.net",
+        "https://www.sachsen-fernsehen.de",
+        "https://open.spotify.com",
+        "https://widget.whappodo.com",
+        "https://embed.contentflow.net",
+        "https://sipg.micropayment.de"
+      ],
+      "header_value": "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://api.spendino.de https://analytics.spd.de https://maps.googleapis.com https://altruja.de https://dataservices.spd.de https://www.verbavoice.net https://live.flyp.tv https://cdn01.spd.de ; img-src 'self' data: https://analytics.spd.de https://csi.gstatic.com https://maps.googleapis.com https://maps.gstatic.com https://em.altruja.de https://socialwall.spd.de https://cdn01.spd.de ; frame-ancestors 'self' https://analytics.spd.de ; default-src 'self' ; frame-src 'self' https://dpa-electionslive.s3.amazonaws.com https://analytics.spd.de https://w.soundcloud.com https://player.vimeo.com https://www.youtube-nocookie.com https://api.spendino.de https://storify.com https://streaming.b1group.de https://www.youtube.com https://live.soziale-demokratie.live https://www.blitzvideoserver.de https://api.spd.de https://app.contentflow.live https://streaming.talk42.de https://playout.3qsdn.com https://sdn-global-live-http-cache.3qsdn.com https://widget.whatsbroadcast.com https://ghb2017.limequery.com https://limequery.spd.de https://www.verbavoice.ne https://em.altruja.de https://live.flyp.tv https://us-central1-contentflow-2.cloudfunctions.net https://domhost.it-television.net https://wb.messengerpeople.com https://hd-livestream.de https://stream.liverecords.net https://www.sachsen-fernsehen.de https://open.spotify.com https://widget.whappodo.com https://embed.contentflow.net https://sipg.micropayment.de ; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://analytics.spd.de https://dataservices.spd.de https://cdn01.spd.de ; connect-src 'self' https://altruja.de https://dataservices.spd.de wss://ws-eu.pusher.com https://pusher01.spd.de https://socialwall.spd.de https://cdn01.spd.de ; object-src 'self' data: ; media-src 'self' data: https://cdn01.spd.de ; font-src 'self' https://fonts.gstatic.com https://dataservices.spd.de ;",
+      "img-src": [
+        "'self'",
+        "data:",
+        "https://analytics.spd.de",
+        "https://csi.gstatic.com",
+        "https://maps.googleapis.com",
+        "https://maps.gstatic.com",
+        "https://em.altruja.de",
+        "https://socialwall.spd.de",
+        "https://cdn01.spd.de"
+      ],
+      "media-src": [
+        "'self'",
+        "data:",
+        "https://cdn01.spd.de"
+      ],
+      "object-src": [
+        "'self'",
+        "data:"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "https://api.spendino.de",
+        "https://analytics.spd.de",
+        "https://maps.googleapis.com",
+        "https://altruja.de",
+        "https://dataservices.spd.de",
+        "https://www.verbavoice.net",
+        "https://live.flyp.tv",
+        "https://cdn01.spd.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://fonts.googleapis.com",
+        "https://analytics.spd.de",
+        "https://dataservices.spd.de",
+        "https://cdn01.spd.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16070400",
+      "includeSubDomains": false,
+      "max-age": 16070400,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://spd.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

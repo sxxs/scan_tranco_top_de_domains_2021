@@ -1,0 +1,673 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.deutschlandfunk.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "X-Mapping-hphojkgb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 50,
+      "value": "F403F133D43D036F19BDC11C378A39E3"
+    },
+    {
+      "domain": "www.deutschlandfunk.de",
+      "expires": 1653152283,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34308000,
+      "name": "atuserid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 194,
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2212babfc7-dcdc-43f6-bc1b-bcdf77e1bc56%22%2C%22options%22%3A%7B%22end%22%3A%222022-05-21T16%3A58%3A03.451Z%22%2C%22path%22%3A%22%2F%22%7D%7D"
+    },
+    {
+      "domain": ".deutschlandfunk.de",
+      "expires": 1619629084,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784801,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618851484072"
+    },
+    {
+      "domain": "www.deutschlandfunk.de",
+      "expires": 1621443484,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599201,
+      "name": "ard_mediathek_player_settings",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 124,
+      "value": "%7B%22changedVolumeValue%22%3A1%2C%22changedMuteValue%22%3Afalse%2C%22lastUsedPlug-in%22%3A1%7D"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1643319777.227044,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 24475494.227044106,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00284322a234cbf8f607db69c0001%3B607db69c%3B61f311e1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.deutschlandfunk.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "287705b834470303f2a4769a9312b05c95d1e2a1a328a8cd52dd1766b75f2708",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1664575199.0,
+      "not_valid_before": 1593640800.0,
+      "serial_number": 824074493511472649782550710097872702,
+      "subject": {
+        "commonName": "www.deutschlandfunk.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.deutschlandradio.de/impressum.223.de.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://deutschlandfunk.de/",
+    "https://www.deutschlandfunk.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://deutschlandfunk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/css.php?files=dlf2015.css,fonts.graphik.css,dlf2015.beitrag.css,dlf2015.chosen.css,dlf2015.jquery.bxslider.css,colorbox4.css,ardplayer.main.css,dlf2015.custom.css,aus-der-audiothek.css,aus-der-audiothek-dlf.css,optin.css,responsive-main.css,responsive-main.suche.css,responsive-dlf-main.css,responsive.dlf.header.css,responsive.dlf.footer.css,responsive.dlf.dlfcontainer.css,responsive.dlf.portale.css,responsive.dlf.beitragsseiten.css,responsive.dlf.startseite.css,responsive.dlf.podcasts.css,responsive.dlf.podcast.css,responsive.dlf.diversepages.css,responsive.dlf.frequenzen.css,responsive.dlf.boxes.css,responsive.dlf.slider.css&c8ea6d6"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/script/smarttag.js?rev=c8ea6d6"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/js.php?files=script/jquery-2.1.4.min.js,script/jquery-ui-1.11.3.min.js,script/jquery.cookie.js,script/jquery.pjax.js,script/tracking.js,script/xhr.js,script/jquery.bxslider.min.js,script/dlf2015/dlf2015.script.js,script/chosen.jquery.min.js,script/dlf2015/dlf2015.custom.js,script/dlf2015/dlf2015.responsive.js,script/popup.js,script/jquery.lightboxMhtml.js,script/jquery.gallery.js,script/aod/jquery.mkdraod.interface.js,script/nprogress.js,script/jquery.colorbox-min.js,privacy/privacy-common.js,privacy/privacy-thirdparty.js,privacy/privacy-tracking.js,microtypography/microtype.js,ardplayer/base/js/libs/jquery.tools-1.2.7.min.js,ardplayer/base/js/libs/swfobject.js,ardplayer/base/js/libs/mm.useractivity.js,ardplayer/base/js/libs/json2.js,ardplayer/base/js/libs/shortcut.js,ardplayer/base/js/libs/bigscreen.min.js,ardplayer/base/js/libs/hls-0.7.11.light.min.js,ardplayer/base/js/libs/TweenLite.min.js,ardplayer/base/js/libs/Draggable.min.js,ardplayer/base/js/libs/CSSPlugin.min.js,ardplayer/js/base.min.js,script/ardplayer-namespace-fix.js,script/audioplayer.js,script/dlf-audioplayer.js,script/flexible-slider.js&rev=c8ea6d6"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/floatsearch_icon.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/search_icon.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/b/b8f83701f1b69721fd0e7d5151010d88v1_mincrop_575x325_b3535db83dc50e27c1bb1392364c95a2.jpg?key=b239e7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/5/52aa31a907a260c1bbb72ae69a1b95b5v1_max_565x318_b3535db83dc50e27c1bb1392364c95a2.jpg?key=c5671f"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/0/0ed585f43f8ffd0b4593ad7c8e1d2670v1_max_465x262_b3535db83dc50e27c1bb1392364c95a2.png?key=7def13"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/8/84df7da95835172d378d4c3b028aa9f7v1_max_465x262_b3535db83dc50e27c1bb1392364c95a2.jpg?key=d33d4a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/a/a69ed7bbc33fa6d4c838964d094e743av1_max_465x261_b3535db83dc50e27c1bb1392364c95a2.jpg?key=d7f983"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/a/abfd50bb757dba44ef4667d64514f212v1_max_465x261_b3535db83dc50e27c1bb1392364c95a2.jpg?key=410911"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/2/28118383c74a5b2082b2c2b5553e5648v1_max_465x262_b3535db83dc50e27c1bb1392364c95a2.jpg?key=6fc256"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/0/07a374ebb9b27524ee3c4e415c484a21v1_max_465x262_b3535db83dc50e27c1bb1392364c95a2.jpg?key=e41a3b"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/1/1961769b7a34eb74d15ef2606fdb33ccv1_max_305x171_b3535db83dc50e27c1bb1392364c95a2.jpg?key=09e124"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/8/84c29c528bb947cad5991e6943c1cb4bv1_max_305x129_b3535db83dc50e27c1bb1392364c95a2.jpg?key=dd6511"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/index.media.44770426bd28e891ee6995d408dfdf50v2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/7/7e5fa94644c29fabfcac3ab7544d4a5cv1_max_305x129_b3535db83dc50e27c1bb1392364c95a2.jpg?key=95d54e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/7/7a09cbe206d7c19dadd391eab3f51c5dv1_max_200x113_b3535db83dc50e27c1bb1392364c95a2.jpg?key=a5223c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/9/9e58c2ea43a27050e49c6b94162d0061v1_max_200x113_b3535db83dc50e27c1bb1392364c95a2.jpg?key=049b96"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/markus-soder-ministerprasident-von-bayern-und-csu.media.96fa7796370ce7506b3c7d2cab316ae5v1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/7/7cfe2ecb4426bfe58fdc1803ed5d208fv1_max_200x112_b3535db83dc50e27c1bb1392364c95a2.jpg?key=9a6354"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/4/45ede09acc30d31a6969b5854ee71f7av1_max_200x113_b3535db83dc50e27c1bb1392364c95a2.jpg?key=522146"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/css.php?files=dlf2015.css,fonts.graphik.css,dlf2015.beitrag.css,dlf2015.chosen.css,dlf2015.jquery.bxslider.css,dlf2015.custom.css&c8ea6d6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/print.css?c8ea6d6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/8/8879111b7fbd37147104067125ebdd28v1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=120edf"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/2/2680929c5673c8cf8d013a9e52c9e053v1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=3b8653"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/e/ea453f523e4e43afc6e27cb9a268c9bev1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=07fbd5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/6/6033118d04d7c98b9a61bed93aa6d0dfv1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=500863"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/f/f2eed071c85e540378b5ecfcb722f95av1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=4873c2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/7/7cfe2ecb4426bfe58fdc1803ed5d208fv1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=87c27f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/1/142be822c90e97bbf8c511b6065988c9v1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=0c017b"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/b/bc102c23a17b4a473f6d3399fd2a433ev1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=b6e076"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/f/f1969b2a8bf47eca2fd6a80a7a90ef1ev1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=187dfa"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/0/0cfc0c84a34faea541d83d49744f4ecbv1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=64205a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/5/52c54698b8687e7833d121bba10be5f3v1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=a0343a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/c/c61e29f7d08f3f36e12287019213359dv1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=697895"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/2/26c135ba673096837bbab465d0dcc81ev1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=4f29d6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/e/ea48fbe29cb8b314e39d122031c54b88v1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=306046"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/b/bfbc916ddc2b524f0efac2b0212db08dv1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=671035"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/thumbs/a/a473dde36fa0c278f40aec17ed775305v1_max_270x152_b3535db83dc50e27c1bb1392364c95a2.jpg?key=71159e"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/menu-responsive.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/logo.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/fonts/graphik/Graphik-Regular-Web.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/fonts/graphik/Graphik-Medium-Web.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?_=1618851483430"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/playicon.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/arrowclose.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/dlf2015/img/dlf_playbutton.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1279.xiti.com/hit.xiti?s=537348&idclient=12babfc7-dcdc-43f6-bc1b-bcdf77e1bc56&ts=1618851483584&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x58x3&lng=en-US&idp=1858036667609&jv=0&p=Startseite&s2=3&pid=&pchap=Startseite&pidt=202104190000&stc=%7B%22site_version%22%3A%22desktop%22%2C%22pub_datum%22%3A%222021-04-19%22%2C%22category1%22%3A3%2C%22page_name%22%3A%22Startseite%22%2C%22typ%22%3A%22andere%22%7D&ref="
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/media/files/9/96fa7796370ce7506b3c7d2cab316ae5v1.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/conf/PluginDetections.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/conf/ErrorMessages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/mandanten/ard/img/postercontrol.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/img/play.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/img/posterframe-m.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=dradio&co=www.deutschlandradio.de%252FDeutschlandfunk%252FStartseite&cp=dlf_home&sv=ke&fb=undefined&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.deutschlandfunk.de&xy=800x600x24&lo=DE%2FBerlin&cb=0018&i2=0018c9f3b43f98df8607db69b&ep=1645717629&vr=423&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618851484075&ev=&cs=q3bje6&mo=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/img/dvr_right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/img/pause.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?_=1618851483431"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/base/img/soundaddon.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1279.xiti.com/hit.xiti?s=537348&idclient=12babfc7-dcdc-43f6-bc1b-bcdf77e1bc56&ts=1618851484120&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x58x4&lng=en-US&plyr=0&p=%3A%3A%3A%3A%20%5B0%5D&a=play&type=audio&s2=3&m1=0&m5=int&m6=clip&prich=Startseite&s2rich=3"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1279.xiti.com/hit.xiti?s=537348&idclient=12babfc7-dcdc-43f6-bc1b-bcdf77e1bc56&ts=1618851484137&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x58x4&lng=en-US&plyr=0&p=%3A%3A%3A%3A%20%5B0%5D&a=info&type=audio&s2=3&m1=0&m5=int&m6=clip&prich=Startseite&s2rich=3"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandfunk.de/themes/dradio/ardplayer/mandanten/ard/img/buffering.gif"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=dradio&co=www.deutschlandradio.de%252FDeutschlandfunk%252FStartseite&cp=dlf_home&sv=ke&fb=undefined&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.deutschlandfunk.de&xy=800x600x24&lo=DE%2FBerlin&cb=0018&i2=0018c9f3b43f98df8607db69b&ep=1645717629&vr=423&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618851484075&ev=&cs=q3bje6&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=dradio&co=&cp=012&sv=ke&fb=undefined&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.deutschlandfunk.de&xy=800x600x24&lo=DE%2FBerlin&cb=0018&i2=0018be4053a2846b1607db69c&ep=1641608190&vr=423&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618851484207&ev=&cs=6gd1hd&mo=1"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1279.xiti.com/hit.xiti?s=537348&idclient=12babfc7-dcdc-43f6-bc1b-bcdf77e1bc56&ts=1618851494122&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x58x14&lng=en-US&plyr=0&p=%3A%3A%3A%3A%20%5B0%5D&a=refresh&type=audio&s2=3&m1=0&m5=int&m6=clip"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://deutschlandfunk.de\r",
+  "third_parties": {
+    "fqdns": [
+      "de.ioam.de",
+      "logs1279.xiti.com",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 7,
+    "trackers": [
+      "de.ioam.de",
+      "logs1279.xiti.com"
+    ]
+  }
+}

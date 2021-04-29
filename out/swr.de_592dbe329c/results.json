@@ -1,0 +1,757 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".xiti.com",
+      "expires": 1652979200.748675,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135201.74867511,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "DDEE34FE-452B-4E36-9540-8C0D2AE85BC3"
+    },
+    {
+      "domain": "www.swr.de",
+      "expires": 1652979200,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135201,
+      "name": "_cb_ls",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 7,
+      "value": "1"
+    },
+    {
+      "domain": ".swr.de",
+      "expires": 1619628800,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784801,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618851200974"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1647990535.396997,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 29146536.396996975,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003cffe8589a4ff8e607db5810001%3B607db581%3B623a5707"
+    },
+    {
+      "domain": ".swr.de",
+      "expires": 1681923201,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079202,
+      "name": "_bb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 27,
+      "value": "607db5818692b79224831fe3"
+    },
+    {
+      "domain": ".swr.de",
+      "expires": 1681923201,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079202,
+      "name": "_bb_t",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 11,
+      "value": "%5B%5D"
+    },
+    {
+      "domain": "www.swr.de",
+      "expires": 1652979201,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135202,
+      "name": "_cb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 20,
+      "value": "CMTPPqCG6GGzJdcDw"
+    },
+    {
+      "domain": "www.swr.de",
+      "expires": 1652979201,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135202,
+      "name": "_chartbeat2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 74,
+      "value": ".1618851201587.1618851201587.1.D9zf0cCzObIJCQYF-JCRzQtpDu360l.1"
+    },
+    {
+      "domain": "www.swr.de",
+      "expires": 1618853001,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_cb_svref",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 13,
+      "value": "null"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 6,
+    "first_party_short": 1,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de",
+      "xiti.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.swr.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "06cd3d023954c8fc49522e53344287e64de6ca86be0ca249503bbf9a318c1a7e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1625435999.0,
+      "not_valid_before": 1612998000.0,
+      "serial_number": 4996511228753670217819565147313912751,
+      "subject": {
+        "commonName": "www.swr.de",
+        "countryName": "DE",
+        "localityName": "Stuttgart",
+        "organizationName": "Suedwestrundfunk Anstalt des oeffentlichen Rechts"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_ECDSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.swr.de/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://swr.de/",
+    "https://www.swr.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://swr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/fonts/TheMixC5-4_SemiLight.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/fonts/TheMixC5-5_Plain.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/fonts/TheMixC5-6_SemiBold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/fonts/TheMixC5-3_Light.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/fonts/TheMixC5-7_Bold.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/polyfill/v2/polyfill.min.js?flags=gated&rum=false&features=document,Array.prototype.forEach,Array.prototype.includes,CustomEvent,Navigator.prototype.geolocation,navigator.geolocation,HTMLPictureElement,IntersectionObserver,IntersectionObserverEntry,NodeList.prototype.forEach,Object.entries,Object.values,URL,default,es6,"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/lazyload.min.js?fded0d9701bf4f76e7742858eaac91ac"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/atInternet-5.17.1/smarttag.min.js?058911f9b2c81310639478a4a66c0fe9"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/common.min.js?4aeb54c057146f41e6c247247539fab0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/swr.min.js?864fd9a48060ea57cdabcda5df183909"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/common-bunchbox.min.js?bc3aa194f238b7e1c4e0a041cbfcc743"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/css/swr.min.css?05c6792e7126f38df8a719b62d3d7bdb"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/css/swr-header.min.css?713c3b69392dec97d9908dadfaf6e999"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/css/swr-print.min.css?29a56ab1228999a5f034192d685ff666"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/polyfill/v2/polyfill.min.js?features=document,Array.prototype.forEach,Array.prototype.includes,CustomEvent,Navigator.prototype.geolocation,navigator.geolocation,HTMLPictureElement,IntersectionObserver,IntersectionObserverEntry,NodeList.prototype.forEach,Object.entries,Object.values,URL,default,es6,&flags=gated&rum=false&ua=chrome%2F89.0.0"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/dasding/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/swraktuell/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/swr1/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/swr2/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/swr3/logo-rot.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/swr4/logo.svg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.chartbeat.com/js/chartbeat_mab_image.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/logos/SWR_klein.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/logos/willkommen_beim_swr_ws.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/lupe.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/wetter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/verkehr.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/video-24px.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/audio-24px.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/gallery-24px.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/logos/logoARD_2019.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851200682&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x20&lng=en-US&idp=1853201319996&jv=0&p=S%C3%BCdwestrundfunk__SWR.de&s2=1&x1=DESWR/BADN0_WEB_SWRCMS_swr-de-homepage-100&x2=%C3%9Cbersichtsseite&x3=S%C3%BCdwestrundfunk__SWR.de&x5=swr.de&x6=Nein&x7=Nein&x8=1&x11=20180405110614&x12=keiner%20Redaktion%20zugeordnet&pid=SWR2742006013&pchap=SWR%20Home&pidt=20210407132917&tag=[Bildung%20und%20Erziehung,Gesellschaft,Gesundheit%20und%20Mensch,Kultur,Medien,Politik,Landespolitik%20Baden-W%C3%BCrttemberg,Landespolitik%20Rheinland-Pfalz,Rezepte,Soziales,Sport,Umwelt%20und%20Natur,Ungl%C3%BCcke%20und%20Katastrophen,Verkehr%20und%20Mobilit%C3%A4t,Wetter%20und%20Klima,Wirtschaft%20und%20Finanzen,Wissenschaft%20und%20Forschung]&ref="
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851200722&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x20&lng=en-US&ati=PUB-[SWR825743060]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fnotbremse-ab-montag-in-bw-100.html%5D&type=AT"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851200727&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x20&lng=en-US&ati=PUB-[SWR825743060]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fnotbremse-ab-montag-in-bw-100.html%5D&type=AT"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/css/theme-swrglobal.min.css?x04InmlsT9"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/css/playerleiste.min.css?evRZWVv5"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/common-audioplayer.min.js?kSxC6lk"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/swr-playerbar.min.js?evRZWVv5"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/js/swr-teaserkarussell.min.js?evRZWVv5"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cdn.bunchbox.co/5c921d8d5954af76549a18ce.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851200682&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x20&lng=en-US&idp=1853201319996&jv=0&p=S%C3%BCdwestrundfunk__SWR.de&s2=1&x1=DESWR/BADN0_WEB_SWRCMS_swr-de-homepage-100&x2=%C3%9Cbersichtsseite&x3=S%C3%BCdwestrundfunk__SWR.de&x5=swr.de&x6=Nein&x7=Nein&x8=1&x11=20180405110614&x12=keiner%20Redaktion%20zugeordnet&pid=SWR2742006013&pchap=SWR%20Home&pidt=20210407132917&tag=[Bildung%20und%20Erziehung,Gesellschaft,Gesundheit%20und%20Mensch,Kultur,Medien,Politik,Landespolitik%20Baden-W%C3%BCrttemberg,Landespolitik%20Rheinland-Pfalz,Rezepte,Soziales,Sport,Umwelt%20und%20Natur,Ungl%C3%BCcke%20und%20Katastrophen,Verkehr%20und%20Mobilit%C3%A4t,Wetter%20und%20Klima,Wirtschaft%20und%20Finanzen,Wissenschaft%20und%20Forschung]&ref=&Rdt=On"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851200727&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x20&lng=en-US&ati=PUB-[SWR825743060]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fnotbremse-ab-montag-in-bw-100.html%5D&type=AT&Rdt=On"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851200722&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x20&lng=en-US&ati=PUB-[SWR825743060]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fnotbremse-ab-montag-in-bw-100.html%5D&type=AT&Rdt=On"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/1618745528305%2Csymbolbild-click-and-collect-einzelhandel-bw-100~_v-23x10@2dM_-89ad2f435b0c63e533f249d4b0ac1f956e12b097.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/1618841363750%2Cannalena-baerbock-gruene-kanzlerkandidatin-100~_v-16x9@2dXS_-b9bac15fe0af001f663131e7814653aed0ad7167.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/swraktuell/rheinland-pfalz/1618846991763%2Ccorona-situation-in-rheinland-pfalz-104~_v-16x9@2dXS_-b9bac15fe0af001f663131e7814653aed0ad7167.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/1618585983355%2Cschule-stuttgart-geschlossen-marienschule-100~_v-16x9@2dXS_-b9bac15fe0af001f663131e7814653aed0ad7167.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=swr&cp=Seite%2Fstationaer&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.swr.de&xy=800x600x24&lo=DE%2FBerlin&cb=0014&i2=00147325212bd741e607db580&ep=1646543622&vr=423&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618851200977&ev=&cs=rne04j&mo=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=swr.de&domain=swr.de&path=%2Findex.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/~webradio/swraktuell/playerbar/swraktuell-playerbar-100~playerbarContainer.json"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/icons/scroll_pfeil.svg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=swr&cp=Seite%2Fstationaer&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.swr.de&xy=800x600x24&lo=DE%2FBerlin&cb=0014&i2=00147325212bd741e607db580&ep=1646543622&vr=423&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618851200977&ev=&cs=rne04j&mo=1&sr=71"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://www.swr3.de/assets/swr3/blank.mp3"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://www.swr3.de/assets/swr3/blank.mp3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/swraktuell/radio/1618844162278,schuld-sind-immer-die-anderen-versagt-der-foederalismus-in-der-krise-102~_v-1x1@2dXS_-9a91314e681c924f29ec89ca45e4e12f5b1d728e.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/common/arrow.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/assets/images/swr/playerleiste/swraktuell/play.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://www.swr.de/5e8d567c-9d19-4e02-b55d-545109eb6360"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.chartbeat.com/js/chartbeat.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ping.chartbeat.net/ping?h=swr.de&p=%2Findex.html&u=CMTPPqCG6GGzJdcDw&d=swr.de&g=57320&g0=No%20Section&g1=SWR.de&n=1&f=00001&c=0&x=0&m=0&y=10864&o=785&w=600&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=1596&t=gfejJDOp3diiFM9vBXA1X-x1oDj&V=126&i=S%C3%BCdwestrundfunk%20%7C%20SWR.de&tz=-120&sn=1&sv=D9zf0cCzObIJCQYF-JCRzQtpDu360l&sd=1&im=067b2cf3&_"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/sport/mehr-sport/reiten/1618843593911%2Cdorothee-schneider-trauert-um-stute-fohlenhofs-rockn-rose-102~_v-23x10@2dXS_-5c29f6b137b4e1345c0bc4870966f303842012ad.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr.de/wissen/1616694691397%2Cingenuity-mars-helikopter-100~_v-23x10@2dXS_-5c29f6b137b4e1345c0bc4870966f303842012ad.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.swr3.de/aktuell/nachrichten/1618824161524%2Cdicle-verliert-vater-corona-102~_v-23x10@2dXS_-5c29f6b137b4e1345c0bc4870966f303842012ad.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1241.xiti.com/hit.xiti?s=487212&ts=1618851201997&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x53x21&lng=en-US&ati=PUB-[SWR825743060]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fnotbremse-ab-montag-in-bw-100.html%5D,PUB-[SWR4158785642]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fannalena-baerbock-gruene-kanzlerkandidatin-fuer-bundestagswahl-100.html%5D,PUB-[SWR2496317992]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Frheinland-pfalz%2Fzahl-der-corona-infizierten-in-rheinland-pfalz-100.html%5D,PUB-[SWR157852671]---asterus----%5Bhttps%3A%2F%2Fwww.swr.de%2Fswraktuell%2Fbaden-wuerttemberg%2Fschuloeffnung-wechselunterricht-fernunterricht-notbremse-inzidenz-100.html%5D&type=AT"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ping.chartbeat.net/ping?h=swr.de&p=%2Findex.html&u=CMTPPqCG6GGzJdcDw&d=swr.de&g=57320&g0=No%20Section&g1=SWR.de&n=1&f=00001&c=0.25&x=290&m=290&y=10864&o=785&w=600&j=30&R=1&W=0&I=0&E=5&e=5&r=&b=1596&t=gfejJDOp3diiFM9vBXA1X-x1oDj&V=126&tz=-120&sn=2&sv=D9zf0cCzObIJCQYF-JCRzQtpDu360l&sd=1&im=067b2cf3&_"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://swr.de\r",
+  "third_parties": {
+    "fqdns": [
+      "",
+      "cdn.bunchbox.co",
+      "de.ioam.de",
+      "logs1241.xiti.com",
+      "mab.chartbeat.com",
+      "ping.chartbeat.net",
+      "script.ioam.de",
+      "static.chartbeat.com",
+      "www.swr3.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 19
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 15,
+    "trackers": [
+      "cdn.bunchbox.co",
+      "de.ioam.de",
+      "logs1241.xiti.com",
+      "mab.chartbeat.com",
+      "ping.chartbeat.net",
+      "static.chartbeat.com"
+    ]
+  }
+}

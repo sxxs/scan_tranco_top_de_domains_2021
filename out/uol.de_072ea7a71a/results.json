@@ -1,0 +1,620 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://uol.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "722a8c32322a7553a0f8cb0de6449a76acfe779425eb5b24d7040545ae432032",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1669452798.0,
+      "not_valid_before": 1598255598.0,
+      "serial_number": 10951713825155511279370561129,
+      "subject": {
+        "commonName": "uol.de",
+        "countryName": "DE",
+        "localityName": "Oldenburg",
+        "organizationName": "Carl von Ossietzky Universitaet Oldenburg",
+        "organizationalUnitName": "IT-Dienste",
+        "stateOrProvinceName": "Niedersachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://uol.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uol.de/",
+    "https://uol.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uol.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Css/fonts.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1610473610"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3temp/assets/compressed/merged-b655739ded1f2d12d74608bc18958557-e569b7e29cc66ddcb862fb1118a9e7e1.css.gzip?1617979709"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3temp/assets/compressed/merged-d5394e75dcc109692e25d5e5c7e1f928-665a201fbbb5034c3b00c4a4136b55d6.js.gzip?1616995904"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Images/UOL-Logo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Images/studip_logo_64.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/9/6/csm_iStock-1205507403_Virus_16x9_c6947e7215.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/4/2/csm_Deine_Partneruniversita__ten_2_953c0a2114.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/e/a/csm_YT_Thumbnail_Antworten_zum_Semesterstart_cef243e204.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/0/9/csm_Academiegebouw_Groningen_NL_Wustje_kl_f570dc9593.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/3/d/csm_050_ls_Korallen_ICBM_21760b9508.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/0/0/csm_SmartHelm_Pressebild_Torsten_von_Reeken_80ba8023b7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/c/1/csm_momotenko_ds_3ff5a3b67d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/3/f/csm_ems-banner-10-12_80f2b698a5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/2/3/csm_20200118_165343_ecd16f3bd4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/2/5/csm_Podcast_Buero_1_4aa6e4e55b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/f/a/csm_210215_uni001_e1b7fbdd23.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/0/b/csm_hoersaal-a14-remmers-martin-b-01-18__1__57268f19de.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/e/c/csm_MicrosoftTeams-image__2__hell_0cfbefcfcb.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/e/d/csm_Beschaeftigtenbefragung2021_a48b27159e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/d/7/csm_daniel_drews_2_27a9e1fb2d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/d/d/csm_chris-montgomery-smgTvepind4-unsplash_c4f8751616.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/f/8/csm_210_cb_daad_2020_beybin_tunc_2_neu_5f7818f79a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/a/5/csm_Interview_AStA_cd4eec3bf5.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/4/6/csm_062_xx_Heike_Wehrheim_ds_a02d21ae88.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/a/b/csm_047_ls_Neuberufung_Langenbruch_ds_d46b6ef054.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/d/7/csm_046_ls_Rauch_ds_4a034e9505.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/a/a/csm_035_ls_Berufung_Sauermann_4b33e9bb37.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/9/2/csm_000_uk_Licandro_ds_c5cb77fc9e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/2/1/csm_000_junike_ds_64117f3f96.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/5/6/csm_186_isr_DanielSonntag_0484d196a8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/5/a/csm_190-ds-liedvogel_DSC0390_14f610b6d3.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3temp/assets/compressed/merged-54c4b49499d191e6342aa93d94bfd516-c88a573ba8b23ab69d6502e1bcc1a21c.js.gzip?1617733967"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Fonts/nunito-sans-ext/nunito-sans-v5-latin-ext_latin-300.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Fonts/nunito-sans-ext/nunito-sans-v5-latin-ext_latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Images/uo_studieren_schloss.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Images/hg-3leute.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Images/uol_hg_netz.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/2/a/csm_uniOL-erstsemester-147-20161010-LUKASLEHMANN-DE__1__a689dcbdb3.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/6/3/csm_wiese-a5-studierende-campus-leben-2012_303895e190.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/b/3/csm_uniOL-erstsemester-039-20161010-LUKASLEHMANN-DE_2_5fcbbc2071.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/6/c/csm_IHJO_Logo_3_Negativ-weiss_edf3e3ea96.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/c/2/csm_UGO-Exzellente-Forschung-2020_def4d340d8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/e/1/csm_UGO-Herausragende-Promotion-2020_eab3b9c5aa.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/1/8/csm_DJI_0200-Panorama_44c142a57b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/user_upload/ihjo/foto-5.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://analyse.uol.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/user_upload/aktuelles/medizin/uni-medizin-960-start.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Fonts/nunito-sans-ext/nunito-sans-v5-latin-ext_latin-600.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/uniolslider/Resources/Public/Images/960x540/studium.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/uniolslider/Resources/Public/Images/960x540/1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/user_upload/uni/startseite/_banner/gruender/gruenderuni-960.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/uniolslider/Resources/Public/Images/960x540/Slider_C3L-960.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/uniolslider/Resources/Public/Images/960x540/kustodien02-960.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/info-coronavirus?type=91"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Images/YT-Button.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/ihjo-1?type=88"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/typo3conf/ext/unioltemplate/Resources/Public/Assets/Fonts/nunito-sans-ext/nunito-sans-v5-latin-ext_latin-italic.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/aktuell/meldung.js?_=1618924898704"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/f/7/csm_SchuelerWissen_4471c50a6d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/e/f/csm_Karrierewege_e9182ac80f.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/5/e/csm_InnovationsWerkstatt_92036b2467.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/6/d/csm_InnoManagement_19fec202e4.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/4/a/csm_InnoLaborDigital_960f8cf87a.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/2/b/csm_InnoMobil-1_1014552c26.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uol.de/fileadmin/_processed/2/2/csm_BlogLab_c7f41c0149.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://analyse.uol.de/piwik/piwik.php?action_name=Carl%20von%20Ossietzky%20Universit%C3%A4t%20Oldenburg%20%E2%80%94%20Carl%20von%20Ossietzky%20Universit%C3%A4t%20Oldenburg&idsite=1&rec=1&r=155601&h=15&m=21&s=39&url=https%3A%2F%2Fuol.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=Ffna1r&pf_net=63.674999997601844&pf_srv=262.3450000101002&pf_tfr=19.384999992325902"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://analyse.uol.de/piwik/piwik.php?action_name=Carl%20von%20Ossietzky%20Universit%C3%A4t%20Oldenburg%20%E2%80%94%20Carl%20von%20Ossietzky%20Universit%C3%A4t%20Oldenburg&idsite=1&rec=1&r=631585&h=15&m=21&s=39&url=https%3A%2F%2Fuol.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=R6pJVQ&pf_net=63.674999997601844&pf_srv=262.3450000101002&pf_tfr=19.384999992325902"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uol.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

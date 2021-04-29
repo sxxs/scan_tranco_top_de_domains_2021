@@ -1,0 +1,660 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "edeka.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "EDEKA_LB",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 169,
+      "value": "!ZzAJmPGWEogfB0//O68x7REz+vqOxgwxZicdHYfC9+W1CS3YstXl2lg3yN/xeOW469d42sY+JnI3ZzvBrRpStdLIGAL/UJISB9q/MCoal3VJ18ZiMJCRPu979kOMbPtTSMCNGuoX4EqRs9gf0UIQKIi3RGfpPLk="
+    },
+    {
+      "domain": "www.edeka.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "28450C29F9A8DE52E92AA8320E26A157"
+    },
+    {
+      "domain": "www.edeka.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "EDEKA_LB",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 169,
+      "value": "!H1q+FVcoS6AJTkn/O68x7REz+vqOxuSPsWc/n7Z1RWSLe/kpzLUeJfO591KQJvxKOmkVF3KlKnA39mEw/xDhCVsy5J96Sq+gAM6na+A9BBbrjPzewgrmKYWFc+lQdur/npv/KIJIMmblyCUMSYh86peeK576GN0="
+    },
+    {
+      "domain": ".edeka.de",
+      "expires": 1652873179,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "TCPID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 26,
+      "value": "121421326194485166880"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.edeka.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e054c43b28d5fbc3e28e9a5b03ee3e857681529b78354e114b2549a181905b8f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1642460399.0,
+      "not_valid_before": 1610319600.0,
+      "serial_number": 14518205022781045419095531514060338533,
+      "subject": {
+        "commonName": "www.edeka.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "EDEKA Verband kaufmaennischer Genossenschaften e.V.",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.edeka.de/modulseiten/impressum-edeka/impressum_edeka_zentrale.jsp",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://edeka.de/",
+    "https://www.edeka.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://edeka.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/css/core.css?version=1.8.227"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/features/recipes/css/recipes.css?version=1.8.227"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/features/homepage/css/homepage.css?version=1.8.227"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/specials/styleguide/css/styleguide.css?version=1.8.227"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/js-vendor/modernizr/modernizr-custom.js?version=1.8.227"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/responsive/javascript/dateformat.js?release=2931169"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/responsive/javascript/jquery-321min.js?release=2931169"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/responsive/javascript/responsive-custom.js?release=7878137"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.tagcommander.com/5030/tc_DigitalesMarketingAP053028_22.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.tagcommander.com/5030/tc_DigitalesMarketingAP053028_20.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/organisms/m401-header/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/organisms/m401-header/claim.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/responsive/eh-teaser-angebote-navi-angebote.png?imwidth=380&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-e-h/rez-edeka-erdbeer-rucola-salat-rezept-e-h-1-1.jpg?imwidth=380&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2020/kw-22/firstspirit-1589789393533hg.jpg?imwidth=960&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2020/kw-22/firstspirit-1589960631468ed-projekt-buehne-schmuckelemete-mitte-02.png?imwidth=320&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-15/ed-grillen-2021-hp-kampagnenteaser-steak-hg-01.jpg?imwidth=960&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-15/ed-nachhaltigkeit-2021-magazinteaser-hg.jpg?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-15/ed-nachhaltigkeit-2021-magazinteaser-logo.png?imwidth=120&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-15/ed-nachhaltigkeit-2021-magazinteaser-badge.png?imwidth=100&imdensity=1&impolicy=high-quality"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/drogerie/drogerie-flight-2021/dove/210209-edeka-flightspring-dove-1920x1080-magazinteaser.png?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/drogerie/drogerie-flight-2021/dove/dove-ribbon-seal-foil-effect-gold-v4-11.14.56.png?imwidth=120&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/unsere-marken/qualitaet-und-frische-aus-erster-hand/2021/aepfel-april/ed-frische-2021-03-aepfel-magazinteaser/ed-frische-2021-03-aepfel-magazinteaser-hg-01.jpg?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/unsere-marken/qualitaet-und-frische-aus-erster-hand/2021/aepfel-april/ed-frische-2021-03-aepfel-magazinteaser/ed-frische-2021-03-aepfel-magazinteaser-logo-01.png?imwidth=120&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-16/mondelez-magazinteaser.png?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-16/ke-dairygold-edeka-raffle-spring-2021-magazinteaser-hg-rz-02.png?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-16/ke-dairygold-edeka-raffle-spring-2021-magazinteaser-badge-rz-02.png?imwidth=100&imdensity=1&impolicy=high-quality"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-16/magazinteaser-1920x1080-niklas.jpg?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-16/olympia-logo-2021-1-1.png?imwidth=120&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2021/kw-16/badge-400x400-reifeleistung.png?imwidth=100&imdensity=1&impolicy=high-quality"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-i-p/rez-edeka-linseneintopf-mit-veganem-hack-rezept-i-p.jpg?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-a-d/rez-edeka-babka-rezept-a-d.jpg?imwidth=960&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-u-z/rez-edeka-vegetarische-fruehlingsrollen-rezept-u-z-1-1.jpg?imwidth=380&imdensity=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-i-p/rez-edeka-lollo-an-mangodressing-rezept-i-p-1-1.jpg?imwidth=380&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/01-rezeptbilder/rezeptbilder-i-p/rez-edeka-omelette-mit-champignons-rezept-i-p.jpg?imwidth=640&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/homepage/2020/rezeptbuehne/rez-edeka-gruene-sommer-minestrone-rezept-e-h-4-1.jpg?imwidth=960&imdensity=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/organisms/m402-footer/app-store.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/organisms/m402-footer/google-play.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/images/claim.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/js/core.js?version=1.8.227"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/features/homepage/js/homepage.js?version=1.8.227"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/features/recipes/js/recipes.js?version=1.8.227"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tag.aticdn.net/592713/smarttag.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/images/bg-dark.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/fonts/worksans-regular/worksans-regular.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/fonts/plak-black-condensed/plak-black-condensed.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy/5030/privacy_v2_6.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/global/core/assets/icons/icons-sprite.svg?version=1.8.226"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/eh/service/eh/offers"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/features/homepage/assets/icons/icons-sprite.svg?version=1.8.226"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/b2c-design/features/recipes/assets/icons/icons-sprite.svg?version=1.8.226"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://wareneingang.edeka.de/hit.xiti?s=592713&idclient=27922cf7-2fba-417e-b294-4441b947c8c1&ts=1618917979717&vtag=5.22.0&ptag=js&r=800x600x24x24&re=800x600&hl=13x26x19&lng=en-US&idp=1326197766443&jv=0&p=EDEKA::Homepage_EZ&s2=1&x1=[EZ]&x2=[]&x3=&x4=[responsive]&x5=&x6=[]&x7=[]&x8=&x9=&x10=[Homepage_EZ]&x11=1&x12=[Homepage]&x13=[/]&x14=[]&x15=[]&x16=[]&x17=[]&x19=[false]&ref="
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-2-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-1-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-8-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-10-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-4-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-5-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-3-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-6-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-9-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/angebote/tz-angebote-je-kw/kw16/ez/nt-kw16-7-2.png?imwidth=480&imdensity=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.edeka.de/media/edeka-zentrale/responsive/eh-teaser-angebote-navi-angebote.png?imwidth=760&imdensity=1"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://privacy.trustcommander.net/privacy-consent/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self'"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31556926",
+      "includeSubDomains": false,
+      "max-age": 31556926,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://edeka.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.tagcommander.com",
+      "cdn.trustcommander.net",
+      "privacy.trustcommander.net",
+      "tag.aticdn.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "cdn.trustcommander.net",
+      "tag.aticdn.net"
+    ]
+  }
+}

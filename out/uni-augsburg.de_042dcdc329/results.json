@@ -1,0 +1,484 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "uni-augsburg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 16,
+      "value": "apache_2"
+    },
+    {
+      "domain": "www.uni-augsburg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 16,
+      "value": "apache_2"
+    },
+    {
+      "domain": "www.uni-augsburg.de",
+      "expires": 1650454920.808571,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543200.8085711,
+      "name": "django_language",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "en"
+    },
+    {
+      "domain": "assets.uni-augsburg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 15,
+      "value": "asset_2"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-augsburg.de/en/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0b364687846a3b167087564ca70553e429256d5e66c2574ea46805cc2e8a6028",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1634975329.0,
+      "not_valid_before": 1563781729.0,
+      "serial_number": 10315783060226095535621150729,
+      "subject": {
+        "commonName": "uni-augsburg.de",
+        "countryName": "DE",
+        "localityName": "Augsburg",
+        "organizationName": "Universitaet Augsburg",
+        "organizationalUnitName": "Rechenzentrum",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-augsburg.de/en/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-augsburg.de/",
+    "https://uni-augsburg.de/",
+    "https://www.uni-augsburg.de/",
+    "https://www.uni-augsburg.de/en/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-augsburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uni-augsburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-augsburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-augsburg.de/en/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/css/third_party/bootstrap.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/css/third_party/datatables.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/css/third_party/responsive.dataTables.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/CACHE/css/eb0a75000505.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/highContrast.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/mail_decode.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/img/unia_logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/img/unia_logo_nav.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/CACHE/css/64430ce6d9e8.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/56/de/56def95f-f374-403e-8730-67b8bc39c1e3/p7164373_co_2.jpg__600x375_q85_crop_subject_location-1662%2C1488_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/85/28/8528098e-8847-4d90-b8f4-92e003c0cdf0/change_in_leaf_area.jpg__600x375_q85_crop_subject_location-960%2C539_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/ec/1e/ec1e0920-4ee5-4d4d-9598-759b1739e594/asparagus-hills-4071851_1280.jpg__600x375_q85_crop_subject_location-640%2C384_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/41/22/4122b01d-0421-4876-98c2-711ad684bdfb/pm-bild.png__600x375_q85_crop_subject_location-480%2C480_subsampling-2_upscale.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/ac/ee/aceed225-6088-4f5a-aaf4-3162f4139303/teaserbild_corona.jpg__600x375_q85_crop_subject_location-600%2C349_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/59/90/59900500-05a5-483b-b891-7b01d1efe578/6_-_gaugler_-_haxe_ausschnitt.jpg__600x375_q85_crop_subject_location-3120%2C2080_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/af/9f/af9f994c-292d-40fb-9c1f-8b0f777be092/bildschirmfoto_2020-11-05_um_140932.png__600x375_q85_crop_subject_location-574%2C212_subsampling-2_upscale.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/04/48/0448e631-9f4b-4331-9824-1dfc17ec8dfe/flood_.jpg__600x375_q85_crop_subject_location-329%2C200_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/fe/72/fe72a07c-e5c9-4372-9a1f-a8a63893f5ff/dsc_2984newnew.jpg__600x375_q85_crop_subject_location-2318%2C1744_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/59/ea/59ea3740-bc77-442b-9ac3-181ac72cce18/colourbox6082077.jpg__600x375_q85_crop_subject_location-2743%2C994_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/36/ac/36acaa69-1de8-4802-96e0-b529b0249f25/experiment_pressemitteilung.jpg__600x375_q85_crop_subject_location-1667%2C1508_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/82/56/8256228b-ab55-488d-9c19-205f0802e88a/teaserbild_einschreibung.jpg__600x375_q85_crop_subject_location-600%2C349_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/third_party/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/third_party/popper.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/third_party/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/third_party/modernizr.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/third_party/slick.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/third_party/datatables.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/js/layout.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/components/target_group_switch/target_group_switch.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/components/footer/footer.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/5d/54/5d54440a-a720-4ba9-b550-1d8ffc1645ee/dynamischer_campus_2_neu_neu.jpg__1920x570_q85_crop_subject_location-1418%2C878_subsampling-2_upscale.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/img/patterns/vertical-waves.gif?346d180b0edb"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/img/patterns/wormz.gif?346d180b0edb"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/fonts/unia.ttf?uqavl4&23abc5d634da"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/fonts/Archivo-Regular.woff2?130af76e9bc3"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/fonts/ArchivoNarrow-Regular.woff2?346d180b0edb"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/fonts/PTSerif-Bold.woff2?130af76e9bc3"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.uni-augsburg.de/static/unia/fonts/Archivo-Bold.woff2?130af76e9bc3"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-augsburg.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

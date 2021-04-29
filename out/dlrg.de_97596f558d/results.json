@@ -1,0 +1,800 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "YSC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "UDmeJvhDNAo"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1634482762.5298,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 15559201.529799938,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "zs_uoSkCJ3M"
+    },
+    {
+      "domain": "zwrd-k.dlrg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 35,
+      "value": "e7dd3b1naiu6fi98cbe8mnflg1"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1652626763.732695,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 33703202.7326951,
+      "name": "IDE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 67,
+      "value": "AHWqTUmIQMhq4F5g8mN2whqV1f1bmyh7e8UqWeiAIF-IRuI6wY4kj8YWfr_O7tew"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 2,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net",
+      "youtube.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dlrg.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ca7e434f9172b63526001075e6e4088cee4300268ef868a80a902f900dd081fb",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626127972.0,
+      "not_valid_before": 1618351972.0,
+      "serial_number": 317340444418085271639760406824654062489526,
+      "subject": {
+        "commonName": "dlrg.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dlrg.de/impressum-und-genderhinweis/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dlrg.de/",
+    "https://www.dlrg.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://dlrg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/css/stamm.css?1618340959"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/typo3temp/assets/css/d42b6e1bdf.css?1600459908"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/DLRG-Logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/ring.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/5/c/csm_Header_Jet_DLRG_Jugend-min_a47cc7a7fe.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/4/5/csm_dlrg-podcast-banner_eebc6e514e.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/3/3/csm_Header_Startseite_Patenschaft_DLRG_2ac973b446.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/9/8/csm_Badestellenkennzeichnung2_baa2eff4b1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/4/0/csm_20130718_SWA4897-Slider_34df4f54e7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/typo3temp/assets/_processed_/5/2/csm_stetsImBlick_e3eaa19d54.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/1/0/csm_dlrg-baederpolitik-slider_1bffa89d3e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/5/c/csm_Rettungsschwimmerinnen_65b1b766be.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/contact-blue.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/envelope_blue.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/newsletter.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/e/1/csm_DSCF4268_1b797aaddc.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/whiteArrow.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/9/0/csm_Bfd-homepage_819693c8d6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/8/7/csm_SR2-1600-1050_fc3e5f4606.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/e/b/csm_DLRG_Rettungsschwimmerin_Rettungsbrett_ca92c9ce2a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/1/8/csm_dlrg-rettetdiebaeder-divider_de3249b308.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/ol.5.3.0.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/dlrg-map.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/dlrg-location.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/ol.5.3.0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/ol-tilecache.3.0.2.bundle.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/dlrg-map.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/GeoService/assets/dlrg-location.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/0/5/csm_dlrg-rettungsschwimmerin-frau-maedchen-laufen-strand-wasser-funkgeraet-bikini-v2_81a8e14cac.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/hintergrundbilder/spender.webp"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/fileadmin/_processed_/2/1/csm_Spendenmodul_DLRG_Rettungsboje_e7e64a8436.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/js/main.js?1618340953"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/typo3conf/ext/dlrg_spendenshop/Resources/Public/Js/shop.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/fancybox/jquery.fancybox.min.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/menu.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/Asset/assetService.php?db=1600000&aid=00006429&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/Asset/assetService.php?db=1600000&aid=00006426&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/Asset/assetService.php?db=1600000&aid=00006424&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/Asset/assetService.php?db=1600000&aid=00006423&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/Apps/Asset/assetService.php?db=1600000&aid=00006412&v=p&width=800"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/font/dlrg_regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/font/dlrg_bold.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dlrg.net/global/Apps/Asset/assetService.php?db=1600000&aid=00006426&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dlrg.net/global/Apps/Asset/assetService.php?db=1600000&aid=00006429&v=p&width=800"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://services.dlrg.net/service.php?doc=poi&strict=1&limit=5000"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zwrd-k.dlrg.de/service.php?doc=poi&strict=1&typ=WRK&limit=5000&callback=jsonp1916294109"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/embed/CQPnzCvKExc"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/images/hintergrundbilder/spendenelementBig.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/fontawesome/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dlrg.net/global/Apps/Asset/assetService.php?db=1600000&aid=00006424&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dlrg.net/global/Apps/Asset/assetService.php?db=1600000&aid=00006423&v=p&width=800"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dlrg.net/global/Apps/Asset/assetService.php?db=1600000&aid=00006412&v=p&width=800"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/67/42/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/67/43/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/68/42/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/68/43/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/66/42/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/67/41/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/66/43/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/68/41/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/66/41/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/69/42/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/69/43/7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://map.dlrg.net/69/41/7"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/global/layout/2019/fontawesome/fa-brands-400.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dlrg.de/basket.json?tx_dlrgspendenshop_shop%5Baction%5D=getState&tx_dlrgspendenshop_shop%5Bcontroller%5D=Basket&cHash=e1738a9f8e576f95bb6a1530f5dba33e"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.dlrg.de/global/layout/2019/images/maps/Gliederung.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.dlrg.de/global/layout/2019/images/maps/Jugend.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.dlrg.de/global/layout/2019/images/maps/Wachstation.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/id"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.doubleclick.net/instream/ad_status.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwnilBIHEiGVKHg1YFfdnSKwADXpvdc25ai5O3Cmq=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi_webp/CQPnzCvKExc/maxresdefault.webp"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube.com/generate_204?RPORCg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://dlrg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "dlrg.net",
+      "fonts.gstatic.com",
+      "googleads.g.doubleclick.net",
+      "i.ytimg.com",
+      "map.dlrg.net",
+      "services.dlrg.net",
+      "static.doubleclick.net",
+      "www.google.com",
+      "www.gstatic.com",
+      "www.youtube.com",
+      "yt3.ggpht.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 35
+  },
+  "tracking": {
+    "num_tracker_cookies": 3,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "googleads.g.doubleclick.net",
+      "static.doubleclick.net",
+      "www.youtube.com"
+    ]
+  }
+}

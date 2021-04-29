@@ -1,0 +1,415 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "statistik.bmz.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 48,
+      "value": "830d5ce6a14153758a441f730c4382988c42db8a"
+    },
+    {
+      "domain": "www.bmz.de",
+      "expires": 1652876687,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.36.80e7",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 66,
+      "value": "1764c293bffcf6a9.1618921487.1.1618921487.1618921487."
+    },
+    {
+      "domain": "www.bmz.de",
+      "expires": 1618923287,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.36.80e7",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bmz.de/de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "dac75e4d63760be70ed32d1e1e5d1c0cf9ad2305529db47f15bcae67625d70a3",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "AlphaSSL CA - SHA256 - G2",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1635855133.0,
+      "not_valid_before": 1601551022.0,
+      "serial_number": 36765147978167323366274497735,
+      "subject": {
+        "commonName": "*.bmz.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_ECDSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bmz.de/de/service/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.6.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bmz.de/",
+    "https://www.bmz.de/",
+    "https://www.bmz.de/de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://bmz.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/de"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/crblob/8904/4393d2716d690939a2c991b31be00866/bundesserifweb-regular-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/crblob/8898/61e2119fd105b8794c77305288f0ff42/bundesserifweb-bold-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/crblob/8896/0acbe0caf7544c307aa2661ec6efc4c3/bundessansweb-regular-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/crblob/8890/734bcd773ecd479e4a5894c794017e94/bundessansweb-bold-woff2-data.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/themes/bmz/css/theme.default.min-438-29.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/themes/bmz/css/theme.print.min-442-30.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/crblob/742/04c07b64be5eed66b09c09fc9b612905/icons-sprite-svg-data.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/js/964/0/e57ea893511c3c8884ff2cb5d220baa/body.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/70888/3x2/990/660/d98a1a2c83ab99745c72217bfd1c61ae/ju/worldearthweek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/70740/3x2/990/660/8daf576622784472fc81944ffbe2b56a/FB/210414-pk-weltbewoelkerungsbericht.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/59772/1x1/574/574/7aec4a228266946b2f3972edabb876d9/MK/210225-rede-bundestag.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/16038/1x1/574/574/9c1efe170d98a48fb35d96516a5ef8ba/Ju/reichstag-aussen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/70986/1x1/574/574/459a80c8d5c22ec0bfd2c80e4064386c/ap/projekt-geothermie-ostafrika-01-1920.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/20050/1x1/574/574/b44a467756a0cce878c57512305f81d2/VK/fischer-mauretanien.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/60090/16x9/576/324/8d6338be54725370a5b3892f7ef96acd/Po/pressekonferenz-lieferkettengesetz.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/70820/16x9/576/324/87bfa24a5738e2f2795a28a405929044/pj/erde.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/31074/16x9/576/324/6d43d29b34440f4f4e0079f6d5ad22de/BA/duerre-antonio-alba.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/blob/8520/ac6afab92a58e79dbb66537dd2b6fc1a/sdg-image-01-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8522/1x1/574/574/7d0a639927b77bc10784fe3b53e66f50/eP/sdg-image-02.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8524/1x1/574/574/ed5e67900379759499fdc612bfcf081a/zp/sdg-image-03.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8526/1x1/574/574/f3672712892536b8bb21a3b2ee6c424c/TA/sdg-image-04.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8528/1x1/574/574/a14737c153bf63e1c3067b306e7801/sQ/sdg-image-05.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8530/1x1/574/574/a51f584bf2dbb66d9c7d4ba4ab994f8b/oY/sdg-image-06.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8532/1x1/574/574/f60c19915b4a8af1cbcf22382b4c8e59/Fe/sdg-image-07.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/8534/1x1/574/574/17d92ab4ba6188ee1ea8ba6d762dfc66/ZF/sdg-image-08.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://statistik.bmz.de/matomo.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/de/962-962?view=asStaticResults&tabcontentid=30772&fetchType=static&offset=0&limit=6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/48078/16x9/576/324/372e3d9ec0dc5f249dcd0c25ff736732/wQ/portraet-mueller-aktuell.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/70784/16x9/576/324/6b6b9394316601c7e80c740fd5947374/RP/210415-prevent.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://statistik.bmz.de/matomo.php?action_name=Bundesministerium%20f%C3%BCr%20wirtschaftliche%20Zusammenarbeit%20und%20Entwicklung&idsite=36&rec=1&r=672886&h=14&m=24&s=47&url=https%3A%2F%2Fwww.bmz.de%2Fde&_id=1764c293bffcf6a9&_idts=1618921487&_idvc=1&_idn=0&_refts=0&_viewts=1618921487&send_image=1&cookie=1&res=800x600&gt_ms=51&pv_id=jo3WCx"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/66790/16x9/576/324/6877c42ca54e8c504489912702a6117d/XZ/portraet-gerd-mueller-05.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bmz.de/resource/image/66458/3x2/990/660/3e6e247df8cff87d2183e840e47a050e/ev/portraet-gerd-mueller-besuch-zar-wald.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bmz.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

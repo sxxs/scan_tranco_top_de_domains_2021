@@ -1,0 +1,475 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.uni-stuttgart.de",
+      "expires": 1652806659,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.72.2dcb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 66,
+      "value": "37071fa3faff3684.1618851459.1.1618851459.1618851459."
+    },
+    {
+      "domain": "www.uni-stuttgart.de",
+      "expires": 1618853259,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.72.2dcb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-stuttgart.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8d2165631ab93cc2bef25e2e41eb2922250a7fdfca1a8e4c76ad3b64593c268b",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1669564514.0,
+      "not_valid_before": 1598367314.0,
+      "serial_number": 10953774618345407363956310084,
+      "subject": {
+        "commonName": "www.uni-stuttgart.de",
+        "countryName": "DE",
+        "localityName": "Stuttgart",
+        "organizationName": "Universitaet Stuttgart",
+        "organizationalUnitName": "TIK",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-stuttgart.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-stuttgart.de/",
+    "http://www.uni-stuttgart.de/",
+    "https://www.uni-stuttgart.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://uni-stuttgart.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.uni-stuttgart.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/css/styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/css/tik.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/css/jquery-ui/jquery-ui-1.11.4.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/css/fancybox/jquery.fancybox357.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/css/footer/footer.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/bootstrap.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/aperto-bootstrap-ie-workaround.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/tik.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/jquery-ui/jquery-ui-1.11.4.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.mailtools/resources/js/rot13.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/fancybox/jquery.fancybox357.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/tippy-popper/popper.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/js/tippy-popper/tippy.min.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/svg/logo-start-de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/svg/logo-start-inverted-de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/svg/logo-de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/svg/logo-inverted-de.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/easydb-Campus_Vaihingen_007_sommersemester.jpg?__scale=w:1170,h:658,cx:0,cy:100,cw:1920,ch:1079"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/raumfahrt/sojus-simulator.jpg?__scale=w:1170,h:658,cx:0,cy:0,cw:2000,ch:1124"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/forschung/forschung-leben/1-2021/img/titelbild.jpg?__scale=w:1170,h:658,cx:0,cy:104,cw:2000,ch:1124"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/presseinfo/img-presseinfo/21_21_bioresources-biomat.jpg?__scale=w:1170,h:658,cx:0,cy:0,cw:2000,ch:1124"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/roboter-nachdenklich.jpg?__scale=w:1170,h:658,cx:73,cy:0,cw:1774,ch:998"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/coronavirus.jpeg?__scale=w:220,h:220,cx:106,cy:0,cw:427,ch:427"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/veranstaltung/img-veranstaltungen/tu9.PNG?__scale=w:320,h:320,cx:0,cy:14,cw:665,ch:665"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/Humboldt_srinivasan_grafik2.jpg.png?__scale=w:220,h:220,cx:222,cy:0,cw:159,ch:159"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/forschung/forschung-leben/1-2021/img/augmented-reality/ar-maschine.jpg?__scale=w:220,h:220,cx:47,cy:61,cw:1476,ch:1476"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/presseinfo/img-presseinfo/29_21_transmissionselektronenmikroskop-komplett.jpg?__scale=w:220,h:220,cx:11,cy:400,cw:349,ch:349"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/presseinfo/img-presseinfo/_21_dressel_quantenfluessigkeit.JPG?__scale=w:220,h:220,cx:260,cy:0,cw:1050,ch:1050"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/presse/img/final_Schaut.jpg?__scale=w:220,h:220,cx:0,cy:214,cw:2000,ch:2000"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hochschulsport.uni-stuttgart.de/img/workout-1931107.jpg?__scale=w:220,h:220,cx:333,cy:0,cw:1333,ch:1333"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/buero.jpg?__scale=w:220,h:220,cx:0,cy:0,cw:1333,ch:1333"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/img/2021_01_22_Uni_Jeltsch_133.jpg?__scale=w:320,h:320,cx:334,cy:0,cw:1331,ch:1331"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/forschung/forschung-leben/2-2020/img/img-antriebe/birke.jpg?__scale=w:320,h:320,cx:0,cy:0,cw:1290,ch:1290"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/fonts/univers/db1e9a24-d371-4686-ba25-77b32a84e0db.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/sprites/sprites-icons-sprite.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/png/video-default.png?__scale=w:650,h:400,c:transparent,t:3"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/fonts/univers/73d8af9e-4b82-4953-81a5-8941aed30297.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/fonts/univers/50f62374-c967-49bb-8dba-0c8b7f7b50cf.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/img/sprites/dropdown-arrows.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/universitaet/aktuelles/presseinfo/img-presseinfo/Imagefilm-still.PNG"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/system/modules/de.stuttgart.uni.v3.basics/resources/css/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-stuttgart.de/piwik/piwik.php?action_name=Universit%C3%A4t%20Stuttgart&idsite=72&rec=1&r=243437&h=18&m=57&s=39&url=https%3A%2F%2Fwww.uni-stuttgart.de%2F&_id=37071fa3faff3684&_idts=1618851459&_idvc=1&_idn=0&_refts=0&_viewts=1618851459&send_image=1&cookie=1&res=800x600&gt_ms=55&pv_id=Z0xOgk"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000;",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-stuttgart.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

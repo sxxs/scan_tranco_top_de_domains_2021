@@ -1,0 +1,377 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.tagesschau.de",
+      "expires": 1653150767,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34308001,
+      "name": "atuserid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 194,
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2276cba081-4a9b-418a-9181-fbf7e81c1579%22%2C%22options%22%3A%7B%22end%22%3A%222022-05-21T16%3A32%3A47.350Z%22%2C%22path%22%3A%22%2F%22%7D%7D"
+    },
+    {
+      "domain": "www.tagesschau.de",
+      "expires": 1634574767.750825,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15732001.750824928,
+      "name": "atidvisitor",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 191,
+      "value": "%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-595936-%22%7D%2C%22options%22%3A%7B%22path%22%3A%22%2F%22%2C%22session%22%3A15724800%2C%22end%22%3A15724800%7D%7D"
+    },
+    {
+      "domain": ".tagesschau.de",
+      "expires": 1619627568,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784802,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618849968003"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1643970040.119991,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 25127274.119991064,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00280cfa89a14185d607db0b00001%3B607db0b0%3B61fcfdf8"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.tagesschau.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "966a2eb280ffee0e94ab106ea89230a4c13dd912833a2d7dd6818d266ac3cac6",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636671599.0,
+      "not_valid_before": 1606258800.0,
+      "serial_number": 8589184296035033827766340733749733141,
+      "subject": {
+        "commonName": "www.tagesschau.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "Norddeutscher Rundfunk",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.tagesschau.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://tagesschau.de/",
+    "https://www.tagesschau.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://tagesschau.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/laschet-soeder-119~_v-gross20x9.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/css/main-66432bda54e1b3a3cc213dede68c035d27d31076.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/vendor-66432bda54e1b3a3cc213dede68c035d27d31076.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/main-66432bda54e1b3a3cc213dede68c035d27d31076.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/css/iestyles-66432bda54e1b3a3cc213dede68c035d27d31076.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/image/lazy-image-placeholder.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/sui.html?optin=false&ps=de1&optin=false&m=no_mediaid&r=www.tagesschau.de"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/ipa/v1/web/headerapp/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/icon/ts_watermark_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/icon/extern--fill-emotional.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/fonts/TheSansC5-4_SemiLight.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/fonts/TheSansC5-6_SemiBold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/res/assets/fonts/TheSansC5-4iSemiLightIta.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/sui.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/suigenerator?optin=false&ps=de1&optin=false&m=no_mediaid&r=www.tagesschau.de&f=json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1413.xiti.com/hit.xiti?s=595936&idclient=76cba081-4a9b-418a-9181-fbf7e81c1579&ts=1618849967753&vtag=5.18.1&ptag=js&r=800x600x24x24&re=800x600&hl=18x32x47&lng=en-US&idp=1832471985238&p=&s2=1&x1=[]&x2=[https%3A%2F%2Fwww.tagesschau.de%2F]&x3=[tagesschau-homepage100]&x4=[]&x5=[9b69e96b-cd39-4a46-816d-0b44518a4290]&x6=[tsIndex]&x7=[]&x8=[tagesschau]&x11=[%2F]&x13=[2021-04-19T11%3A03%3A24]&x14=[Web]&x15=[]&x16=[]&x17=[Nein]&x18=[ARD-aktuell]&x19=[]&x20=[]&ref="
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/soeder-541~_v-videowebm.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/laschet-307~_v-videowebm.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/baerbock-155~_v-gross20x9.jpg"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cf7022861f98acc050d06afee967c94735e27094682e551687c9dae6.trk.sensic.net/tp.gif?m=no_mediaid&r=www.tagesschau.de&p=de-config"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cf7022861f98acc050d06afee967c94735e27094682e551687c9dae6.trk.sensic.net/tp.gif?m=no_mediaid&r=www.tagesschau.de&p=de-config"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=tagessch&cp=tagesschstat&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.tagesschau.de&xy=800x600x24&lo=DE%2FBerlin&cb=0009&i2=00094fc8c2a13e798607db0af&ep=1643948634&vr=423&id=30n7mb&i3=nocookie&n1=3&dntt=0&lt=1618849968007&ev=&cs=6ta1gc&mo=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/bearbock-habeck-101~_v-videowebm.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=tagessch&cp=tagesschstat&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.tagesschau.de&xy=800x600x24&lo=DE%2FBerlin&cb=0009&i2=00094fc8c2a13e798607db0af&ep=1643948634&vr=423&id=30n7mb&i3=nocookie&n1=3&dntt=0&lt=1618849968007&ev=&cs=6ta1gc&mo=1&sr=71"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://tagesschau.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cf7022861f98acc050d06afee967c94735e27094682e551687c9dae6.trk.sensic.net",
+      "de-config.sensic.net",
+      "de.ioam.de",
+      "logs1413.xiti.com",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 8,
+    "trackers": [
+      "cf7022861f98acc050d06afee967c94735e27094682e551687c9dae6.trk.sensic.net",
+      "de-config.sensic.net",
+      "de.ioam.de",
+      "logs1413.xiti.com"
+    ]
+  }
+}

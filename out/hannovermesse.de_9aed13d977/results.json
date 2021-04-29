@@ -1,0 +1,673 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "hannovermesse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "RSERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 13,
+      "value": "rb11"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SRVWEBK",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 19,
+      "value": "web-08|YH6eb"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SESSION",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 55,
+      "value": "NzkzNDFhMDYtZTJkYy00YzUwLTk3ZmItNjI0NTI5ZmE5Mzhh"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": 1624094828.271267,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 5191201.271266937,
+      "name": "emos_optout",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 12,
+      "value": "1"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "FILES",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 8,
+      "value": "f01"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": 1650446829,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "sas_optout",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 11,
+      "value": "1"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": 1650446829,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "dmag_cookie_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 20,
+      "value": "0"
+    },
+    {
+      "domain": "www.hannovermesse.de",
+      "expires": 1650446829,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "dmag_longlife_remember",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 23,
+      "value": "0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hannovermesse.de/en/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ec16a1ab6e477445a6f5326f88dfccea7b09490a54ee00fab3dfcf7b6f190ace",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1637189999.0,
+      "not_valid_before": 1605159536.0,
+      "serial_number": 50252296492379208850364933263373073037,
+      "subject": {
+        "commonName": "*.hannovermesse.de",
+        "countryName": "DE",
+        "localityName": "Hannover",
+        "organizationName": "Deutsche Messe AG",
+        "organizationalUnitName": "Informatik",
+        "stateOrProvinceName": "NI"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hannovermesse.de/en/deutsche-messe/imprint/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hannovermesse.de/",
+    "http://www.hannovermesse.de/",
+    "https://www.hannovermesse.de/",
+    "http://www.hannovermesse.de/en/",
+    "https://www.hannovermesse.de/en/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hannovermesse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.hannovermesse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.hannovermesse.de/en/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/en/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/css/styles-app-dark.css?v=8391302"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/css/styles-hannovermesse.css?v=8391302"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d35ojb8dweouoy.cloudfront.net/loader/loader.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/js/vendor.js?v=8391304"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/js/vendorsgsap.js?v=8391304"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/js/bootstrap.js?v=8391304"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PLPKMSX"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/fonts/33e44c-0-0-woff.woff?v=1618230340253"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d35ojb8dweouoy.cloudfront.net/configs/00002971-3e7fd93a-50e4-35ce-a4bf-d0cc619ddf84/1762/latest.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/js/emos3.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/js/econda-media-minimal.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/news/social-wall/socials-3.jpg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/fonts/348350-0-0-woff.woff?v=1618230340253"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/fonts/dmag-icons-woff.woff?v=1618230340253"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/fonts/39f39c-0-0-woff.woff?v=1618230340253"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/fonts/348350-2-0-woff.woff?v=1618230340253"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/bilder/messe/hannover-messe/logo-hannovermesse.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/bilder/messe/hannover-messe/logo-mobile-hannovermesse.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/presse/2021/press-summary_4_3_tablet_706_530.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/startseite/hm21-hup-13-1573392_4_3_tablet_706_530.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/rahmenprogramm/awards/hermes-award/award_4_3_tablet_706_530.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/ausstellung/partnerland-indonesien/indonesien-visual_4_3_tablet_706_530.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/layout/bilder/messe/hannover-messe/background/keyvisual-marketing-m-hannovermesse.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/presse/2021/preview/preview-21-dr-koeckler_3_2_tablet_706_470.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.youtube.com/vi/PiyfeR9cyUA/maxresdefault.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/ueber-uns/worldwide/industry_3_2_tablet_706_470.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/ueber-uns/worldwide/logistics_3_2_tablet_706_470.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/ueber-uns/worldwide/energy_3_2_tablet_706_470.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-i-j/ien_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-k/konradin-verlag_1_1_mobile_408_408.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-m/mm-maschinemarkt_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-m/mi-connect_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-s/sps-magazin_1_1_mobile_408_408.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-u-v/vde-verlag_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-u-v/vdi-nachrichten_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-u-v/vereinigte-fachverlage_1_1_mobile_408_408.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-w/weka-business-medien_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hannovermesse.de/files/files/001/media/bilder/logos/logos-partner-w/weka-fachmedien_1_1_mobile_408_408.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ced.sascdn.com/tag/1044/smart.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d35ojb8dweouoy.cloudfront.net/core/core.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d35ojb8dweouoy.cloudfront.net/plugins/arp.sdk/arp.sdk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.smartadserver.com/ac?nwid=1044&siteid=341081&pgid=1193155&fmtid=24062,66177,85948&async=1&oc=1&tmstp=4786704394&tgt=keyword%3Dnull&sh=600&sw=800&pgDomain=https%3A%2F%2Fwww.hannovermesse.de%2Fen%2F&noadcbk=sas.noad&isLazy=0&isAdRefresh=0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/a?id=GTM-PLPKMSX&cv=32&v=3&t=t&pid=340007029&rv=472&es=1&e=gtm.js&eid=1&tc=67&tr=1html.1html.1html.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1html.1html.1html.1html.1html.1html.1html.1html.1html.1html&ti=1html.1html.1html.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1lcl.1cl.1html.1html.1html.1html.1html.1html.1html.1html.1html.1html&z=0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/a?id=GTM-PLPKMSX&cv=32&v=3&t=t&pid=340007029&rv=472&es=1&e=gtm.dom&eid=28&tc=67&z=0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d35ojb8dweouoy.cloudfront.net/plugins/arp.privacy.v2/arp.privacy.v2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.smartadserver.com/ac?nwid=1044&siteid=341081&pgid=1193155&fmtid=24062%2C66177%2C85948&async=1&oc=1&tmstp=4786704394&tgt=keyword%3Dnull&sh=600&sw=800&pgDomain=https%3A%2F%2Fwww.hannovermesse.de%2Fen%2F&noadcbk=sas.noad&isLazy=0&isAdRefresh=0&cklb=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.smartadserver.com/h/nshow?siteid=341081&pgid=1193155&fmtid=24062&tag=sas_24062&tmstp=4786704394&visit=S&acd=1618910829565&opid=89491466-fde0-4426-80b9-7af6c5e62dae&opdt=1618910829565&ckid=0&async=1&pubid=19&systgt=%24qc%3D72405136%3B%24ql%3DMedium%3B%24qpc%3D96047%3B%24qt%3D25_176_1007t%3B%24dma%3D0%3B%24b%3D16890%3B%24o%3D99999%3B%24sw%3D800%3B%24sh%3D600&tgt=%24dt%3D1t%3Bkeyword%3Dnull&pgDomain=https%3A%2F%2Fwww.hannovermesse.de%2Fen%2F&noadcbk=sas.noad&gdpr=1&hmfp=54.6&insid=10130966%2C&capp=0%2C&mcrdbt=1%2C"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.smartadserver.com/h/nshow?siteid=341081&pgid=1193155&fmtid=85948&tag=sas_85948&tmstp=4786704394&visit=S&acd=1618910829565&opid=858bf15a-0a1d-4053-9161-22fa42d8cd9b&opdt=1618910829565&ckid=0&async=1&pubid=19&systgt=%24qc%3D72405136%3B%24ql%3DMedium%3B%24qpc%3D96047%3B%24qt%3D25_176_1007t%3B%24dma%3D0%3B%24b%3D16890%3B%24o%3D99999%3B%24sw%3D800%3B%24sh%3D600&tgt=%24dt%3D1t%3Bkeyword%3Dnull&pgDomain=https%3A%2F%2Fwww.hannovermesse.de%2Fen%2F&noadcbk=sas.noad&gdpr=1&insid=10130975%2C&capp=0%2C&mcrdbt=0%2C"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.smartadserver.com/h/aip?siteid=341081&pgid=1193155&fmtid=66177&tmstp=4786704394&visit=s&ckid=0&pubid=19&statid=19&systgt=%24qc%3d72405136%3b%24ql%3dMedium%3b%24qpc%3d96047%3b%24qt%3d25_176_1007t%3b%24dma%3d0%3b%24b%3d16890%3b%24o%3d99999%3b%24sw%3d800%3b%24sh%3d600&tgt=%24dt%3d1t%3bkeyword%3dnull&rnd=8084367691"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ced-ns.sascdn.com/diff/templates/ts/dist/banner/sas-banner-1.2.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://creatives.sascdn.com/diff/1044/10130966/Banner_Key_visual_1146x90Pixel_9ea902f7-af56-47bc-80d0-5f4a5d6e84fc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://creatives.sascdn.com/diff/1044/10130975/Banner_Key_visual_1146x90Pixel_9ea902f7-af56-47bc-80d0-5f4a5d6e84fc.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=300; includeSubDomains;",
+      "includeSubDomains": true,
+      "max-age": 300,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://hannovermesse.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ced-ns.sascdn.com",
+      "ced.sascdn.com",
+      "creatives.sascdn.com",
+      "d35ojb8dweouoy.cloudfront.net",
+      "img.youtube.com",
+      "www.googletagmanager.com",
+      "www.smartadserver.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 18
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 12,
+    "trackers": [
+      "ced-ns.sascdn.com",
+      "ced.sascdn.com",
+      "creatives.sascdn.com",
+      "www.googletagmanager.com",
+      "www.smartadserver.com"
+    ]
+  }
+}

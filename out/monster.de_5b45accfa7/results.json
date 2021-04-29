@@ -1,0 +1,664 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".monster.de",
+      "expires": 1681996437,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079202,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.2088507468.1618924438"
+    },
+    {
+      "domain": ".monster.de",
+      "expires": 1619010837,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.223924701.1618924438"
+    },
+    {
+      "domain": "identity.monster.com",
+      "expires": 1650482037.814922,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 31564802.814922094,
+      "name": "did",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 94,
+      "value": "s%3Av0%3A43c5efc0-a1da-11eb-b430-df31dff89b76.zI1wObjMdisZyPA1GAIfMeTYll%2BKhXlFTrbaXfa3wOA"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618925337.877247,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 8102.877247095108,
+      "name": "test_cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "CheckForPermission"
+    },
+    {
+      "domain": ".monster.de",
+      "expires": 1650460437,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 297,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+15%3A13%3A57+GMT%2B0200+(Central+European+Summer+Time)&version=6.12.0&hosts=&consentId=20c3cf11-e62b-4f32-b8c5-c74d0298c2fe&interactionCount=0&landingPath=https%3A%2F%2Fwww.monster.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.monster.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 1,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "gtm20",
+        "tracking_id": "UA-156675793-13"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "19f21da48a6e08135c08f3e0e0ad799e883542981fed05a77e8412ebdb021fca",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Amazon",
+        "countryName": "US",
+        "organizationName": "Amazon",
+        "organizationalUnitName": "Server CA 1B"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636455600.0,
+      "not_valid_before": 1602194400.0,
+      "serial_number": 12495998448035160431246619360998259888,
+      "subject": {
+        "commonName": "*.monster.com"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.monster.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://monster.de/",
+    "https://www.monster.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://monster.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/static/Proxima-Nova-Regular-4fd5dbc75ae47fb6106136686596b7cb.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/webpack-runtime-7b705db4f6c9dab03ccd.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/framework-1c6b30789be16f36537c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/dc6a8720040df98778fe970bf6c000a41750d3ae-c35f1d2439c5e37af005.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/app-4b574cf6e23abae943e4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/5e8164b9-e3e3c31f7761e485dd1b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/df3a4cf5-35d7563e27655f95beea.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/a77304d18e1a96ffb80d070b2764e31abc9ae050-59635a3482cd77b76289.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/component---src-pages-index-tsx-ce906f706658f2e29056.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/page-data/index/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/page-data/app-data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/44-8804deaa8c8bc555abd9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/43-92d612903c43e887a382.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/28-6f306c5e6fa3c2f2a0b8.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/27-a7e4eb70a08298cc8a0b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/26-8643a3d4f5b4c079c8fa.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/25-50c14a19d490008b9add.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://services.mwwnxtdevus.monster.io/jobs-svx-service/v2/user-info/ip"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TTZS5RQ"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/26-8643a3d4f5b4c079c8fa.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/25-50c14a19d490008b9add.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/27-a7e4eb70a08298cc8a0b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/28-6f306c5e6fa3c2f2a0b8.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/43-92d612903c43e887a382.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://services.mwwnxtdevus.monster.io/jobs-svx-service/v2/user-info/ip"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/CareerAdvice/Career-Advice-Position1@2x-01.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/CareerAdvice/Career-Advice-Position2@2x-01.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/CareerAdvice/Career-Advice-Position3@2x-01.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/CareerAdvice/Career-Advice-Position4@2x-01.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/CareerAdvice/Career-Advice-Position5@2x-01.webp"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/static/Proxima-Nova-Regular-4fd5dbc75ae47fb6106136686596b7cb.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/static/Proxima-Nova-SemiBold-3eee75173a9a847b13743ac8039f2af5.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/static/Proxima-Nova-Bold-baf47cd7b5f286b3ffdb0098d0ff6055.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/24-8d09f6c5383c38e9fb39.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/24-8d09f6c5383c38e9fb39.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/AppCard/monster-app-graphic@2x-01.webp"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://privacy-policy.truste.com/privacy-seal/seal?rid=41e11b22-90b9-444d-a07c-d808e95fde9a"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P9C4FMZ&l=dataLayer"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/29-a68625370d46b4d13ed0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/36-8fa795278f852b24d90a.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.monster.de/reactPlayerPreview-0f3fc8ee1416f38472c0.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://identity.monster.com/authorize?client_id=TyTen2P5hVQC8rPzyI6qU0eNclC2y4YK&audience=profiles-profile-app-service&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=web_message&state=Q1NZeWRuU21obDM5RmlVX0s4eU1tZExUZC0ySFlxZnFiUFFTUVl3Sm1Lbw%3D%3D&nonce=dFhBWllYcS1CTk41TUdOS2R2cG0uazdWRFZDXzNjbExRNTZMTFo4b1lMMA%3D%3D&redirect_uri=https%3A%2F%2Fwww.monster.de&code_challenge=gctY5SmsMR7DbreyvXCFspsLLWODwIdfP78Pi0xF9OE&code_challenge_method=S256&prompt=none&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuOS4wIn0%3D"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/d6f68dbe-23bf-4188-9b2c-aa0ce7961df5/d6f68dbe-23bf-4188-9b2c-aa0ce7961df5.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://noembed.com/embed?url=https://www.youtube.com/watch?v=gRuk0f3Yweo"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.12.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi/gRuk0f3Yweo/hqdefault.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/d6f68dbe-23bf-4188-9b2c-aa0ce7961df5/45df1f1d-f3bc-4016-961d-26f743f5d7ba/de.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ad.doubleclick.net/ddm/adj/N511801.197812NSO.CODESRV/B21375186.223991149;sz=1x2;ord=1143595482969311048204?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.12.0/assets/otFlat.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.12.0/assets/v2/otPcCenter.json"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ade.googlesyndication.com/ddm/activity/src=6569839;type=seeke000;cat=de_se0;ord=3005408972276;gtm=2wg472;gcs=G10-;~oref=https%3A%2F%2Fwww.monster.de%2F?"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ade.googlesyndication.com/ddm/activity/src=6569839;dc_pre=CKLZpsDzjPACFQuUmgodlY4IdQ;type=seeke000;cat=de_se0;ord=3005408972276;gtm=2wg472;gcs=G10-;~oref=https%3A%2F%2Fwww.monster.de%2F?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://services.mwwnxtdevus.monster.io/jobs-svx-service/v2/user-info/ip"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/r20210415/r20110914/elements/html/omrhp.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjstxtPYi32CYIJapMwqoTCdOy0S4RLWLsC-Gl2KkARc1B7a8qs3EJ6xbL3ROjvKAErani8WGSdpXwxg5EDw39TuotVO7b9xpWU4B2vP9qJBTloyf6yIkmSYwXD3-&sig=Cg0ArKJSzHnYY2zDTCtvEAE&urlfix=1&omid=0&rm=1&ctpt=1&cbvp=1&cisv=r20210415.48989&adurl="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://monster.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ad.doubleclick.net",
+      "ade.googlesyndication.com",
+      "cdn.cookielaw.org",
+      "googleads4.g.doubleclick.net",
+      "i.ytimg.com",
+      "identity.monster.com",
+      "noembed.com",
+      "pagead2.googlesyndication.com",
+      "privacy-policy.truste.com",
+      "services.mwwnxtdevus.monster.io",
+      "www.google-analytics.com",
+      "www.googletagmanager.com",
+      "www.googletagservices.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 23
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 16,
+    "trackers": [
+      "ad.doubleclick.net",
+      "ade.googlesyndication.com",
+      "cdn.cookielaw.org",
+      "googleads4.g.doubleclick.net",
+      "pagead2.googlesyndication.com",
+      "privacy-policy.truste.com",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

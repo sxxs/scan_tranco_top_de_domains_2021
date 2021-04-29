@@ -1,0 +1,687 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "louis.de",
+      "expires": 1618929348.928527,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10800.928527116776,
+      "name": "FGTServer",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 71,
+      "value": "3D469B458A1A84CFD30CD7DCC28C44112E3F1A29D164CF470692F6180C60B8"
+    },
+    {
+      "domain": "www.louis.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "mobileDetected",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 15,
+      "value": "0"
+    },
+    {
+      "domain": ".www.louis.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "sessionId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 43,
+      "value": "902xTsxLgp6LXImtR6lf7g1uTwaWsP26Uz"
+    },
+    {
+      "domain": ".www.louis.de",
+      "expires": 1934285749.503403,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 315367201.50340295,
+      "name": "AUTH_API_ANONYMOUS_TOKEN",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 56,
+      "value": "24df7edd25fbe53ec50940d034a99e9b"
+    },
+    {
+      "domain": "www.louis.de",
+      "expires": 1618936551.085621,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 18003.085621118546,
+      "name": "_v",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 9,
+      "value": "9.18.55"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.louis.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8ec82b99572f863204bd1572ae50d98fa3449cb545210270b9975f2635f4d692",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1635458399.0,
+      "not_valid_before": 1606950000.0,
+      "serial_number": 8720685311531854118876062713162937608,
+      "subject": {
+        "commonName": "www.louis.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "Detlev Louis Motorrad-Vertriebsgesellschaft mbH",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.louis.de/service/louis/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://louis.de/",
+    "https://www.louis.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://louis.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.louis.de/"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/URW/URWDINCond-BlackItalic.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/URW/URWDINCond-BlackItalic.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/URW/URWDINCond-BlackItalic.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/Roboto/Roboto-Medium.ttf"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/louis-icons/louis-icons.ttf"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/louis-icons/louis-icons.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/fonts/Roboto_Condensed/RobotoCondensed-Light.ttf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/s/Jonnitto.PrettyEmbedHelper/Styles/Main.css?bust=833e5c62"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/css/shop.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/s/Jonnitto.PrettyEmbedHelper/Scripts/Main.js?bust=8ffdc9f9"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.louis.de/assets/vendor/js/035c9447398f8b7d9108.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn2.louis.de/assets/60.243.0/js/shop.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/js/event.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn2.louis.de/assets/60.243.0/img/flags/DE.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn2.louis.de/assets/60.243.0/img/logo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/3de4dead5ec1cdd89c73fa7492a43c956c2bd64a/HJC-Logo-weiss_18-299x100.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/03d119ec164acd06d9274e133029a62b13a7eac3/givi-logo-1c-neg_002_18_100pxl-292x100.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/67cb13e2a27ffd1f04f57423846efaa75973ae61/Motoism-Logo-BLK_002_20_100pxl-345x100.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/1f3c287a86d2a9e4bb0ef0fb76cc920592d214b2/nexx-logo-4c-neg_002_18_100pxl-923x100.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/52c8fe752a001b79b770bcef084b1c0ea474380e/DID-logo-1c-neg_002_18_100pxl-265x100.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/acc8c3dcd8787f1f4f04b8235a6b95093e93ecd9/saisonhighlights-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/2ea26bc9e9ccc5576f6a582fb92787adf13aec14/hjc-neuheiten-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/947bd2f57c7d9af950392753018d22d5722ed34c/neuheiten-givi-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/77a06db809714530f9337b14388b975436f21983/motoism-neuheiten-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/953025552c687710e8790f69b8197be0a789f7c0/nexx-sx60-ice-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/b5404763aa735612280268d33ea44aee79f862f4/accessoires-sammel-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/99f5e891f4bce4f0c369b298202f0f875d456f0d/did-kettensaetze-2000x1124-1200x674.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/1fc4adca1da946580cad9b74f899fb42c940545e/Kracher-MTR-S12-2472x1391-1200x675.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/f78df4bc3cfb051d88f4775b2e48dd9b3f544a6c/tile-test-2647x972-1200x441.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/20bdb7dc542bfef8d992568b89fcb336639b41a2/Filialeroeffnung-942x941-942x941.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/53b108c54b47029a43d31d80db895a65a4f98a86/NBL_21-2-2800x1575-1200x675.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/14b719e1fd4868b3c2411e0d0ff6b2d744425e0d/Kawasaki-ZH2-Green-2020_RED_20-1630x1630-1200x1200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/6df0cda10e7a1322f88d1a164c96988735c6944d/Test-Tile-04-500x500.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/aa0c91cb5e0618571fab8b3861bcbd1a74884c30/louis-filiale-finden-2800x1574-1200x675.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/assets/60.243.0/img/loading.gif"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.louis.de/translations/1.232.0/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.louis.de/api/article-list/v1/slider/home-page/recommendations"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.louis.de/api/article-list/v1/slider/home-page/sales"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.louis.de/api/article-list/v1/slider/recently-viewed"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn4.louis.de/r/cb7887778ff8f16774829bba0762ade91221ed4f/Carsten-1989x1325-1200x799.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.louis.de/api/product-comparison/v1/article-groups"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "child-src": [
+        "'self'",
+        "maps.louis.de",
+        "maps.louis.at",
+        "maps.louis.ie",
+        "maps.louis.nl",
+        "maps.louis.eu",
+        "maps.louis.be",
+        "maps.louis-moto.fr",
+        "maps.louis-moto.co.uk",
+        "maps.louis-moto.it",
+        "maps.louis-moto.dk",
+        "maps.louis.pl",
+        "https://*.googleadservices.com",
+        "https://googleads.g.doubleclick.net",
+        "https://*.google.com",
+        "https://*.google.de"
+      ],
+      "default-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "cdn1.louis.de",
+        "cdn2.louis.de",
+        "cdn3.louis.de",
+        "cdnxl1.louis.de",
+        "cdn4.louis.de",
+        "www.louis.de",
+        "www.louis.be",
+        "osm.louis.de",
+        "osm.louis.at",
+        "osm.louis.ie",
+        "osm.louis.nl",
+        "osm.louis.eu",
+        "osm.louis.be",
+        "osm.louis-moto.fr",
+        "osm.louis-moto.co.uk",
+        "osm.louis-moto.it",
+        "osm.louis-moto.dk",
+        "osm.louis.pl",
+        "x9t5he7.r.louis.de",
+        "x9t5he7.r.louis.at",
+        "x9t5he7.r.louis.ie",
+        "x9t5he7.r.louis.nl",
+        "x9t5he7.r.louis.eu",
+        "x9t5he7.r.louis.be",
+        "x9t5he7.r.louis-moto.fr",
+        "x9t5he7.r.louis-moto.co.uk",
+        "x9t5he7.r.louis-moto.it",
+        "x9t5he7.r.louis-moto.dk",
+        "x9t5he7.r.louis.pl",
+        "https://*.googleapis.com",
+        "https://*.gstatic.com",
+        "https://*.googleusercontent.com",
+        "https://*.google-analytics.com",
+        "https://*.googleadservices.com",
+        "https://*.googletagmanager.com",
+        "https://tagmanager.google.com",
+        "https://stats.g.doubleclick.net",
+        "https://googleads.g.doubleclick.net",
+        "https://bat.r.msn.com",
+        "https://bat.bing.com",
+        "https://content.cptrack.de",
+        "https://sale.cptrack.de",
+        "https://*.trustedshops.com",
+        "https://trustbadge.api.etrusted.com",
+        "https://fonts.gstatic.com",
+        "https://s.kk-resources.com",
+        "https://s.kelkoogroup.net",
+        "https://s1.cnnx.io",
+        "https://js.cnnx.link",
+        "https://containertags.belboon.de"
+      ],
+      "font-src": [
+        "'self'",
+        "cdn1.louis.de",
+        "cdn2.louis.de",
+        "cdn3.louis.de",
+        "cdnxl1.louis.de",
+        "cdn4.louis.de",
+        "https://*.trustedshops.com",
+        "data:"
+      ],
+      "frame-src": [
+        "'self'",
+        "maps.louis.de",
+        "maps.louis.at",
+        "maps.louis.ie",
+        "maps.louis.nl",
+        "maps.louis.eu",
+        "maps.louis.be",
+        "maps.louis-moto.fr",
+        "maps.louis-moto.co.uk",
+        "maps.louis-moto.it",
+        "maps.louis-moto.dk",
+        "maps.louis.pl",
+        "x9t5he7.r.louis.de",
+        "x9t5he7.r.louis.at",
+        "x9t5he7.r.louis.ie",
+        "x9t5he7.r.louis.nl",
+        "x9t5he7.r.louis.eu",
+        "x9t5he7.r.louis.be",
+        "x9t5he7.r.louis-moto.fr",
+        "x9t5he7.r.louis-moto.co.uk",
+        "x9t5he7.r.louis-moto.it",
+        "x9t5he7.r.louis-moto.dk",
+        "x9t5he7.r.louis.pl",
+        "https://*.googleadservices.com",
+        "https://*.googletagmanager.com",
+        "https://googleads.g.doubleclick.net",
+        "https://servedby.flashtalking.com",
+        "https://*.youtube.com/",
+        "https://*.google.com",
+        "https://*.google.de"
+      ],
+      "header_value": "default-src 'self' 'unsafe-eval' 'unsafe-inline' cdn1.louis.de cdn2.louis.de cdn3.louis.de cdnxl1.louis.de cdn4.louis.de www.louis.de www.louis.be osm.louis.de osm.louis.at osm.louis.ie osm.louis.nl osm.louis.eu osm.louis.be osm.louis-moto.fr osm.louis-moto.co.uk osm.louis-moto.it osm.louis-moto.dk osm.louis.pl x9t5he7.r.louis.de x9t5he7.r.louis.at x9t5he7.r.louis.ie x9t5he7.r.louis.nl x9t5he7.r.louis.eu x9t5he7.r.louis.be x9t5he7.r.louis-moto.fr x9t5he7.r.louis-moto.co.uk x9t5he7.r.louis-moto.it x9t5he7.r.louis-moto.dk x9t5he7.r.louis.pl https://*.googleapis.com https://*.gstatic.com https://*.googleusercontent.com https://*.google-analytics.com https://*.googleadservices.com https://*.googletagmanager.com https://tagmanager.google.com https://stats.g.doubleclick.net https://googleads.g.doubleclick.net https://bat.r.msn.com https://bat.bing.com https://content.cptrack.de https://sale.cptrack.de https://*.trustedshops.com https://trustbadge.api.etrusted.com https://fonts.gstatic.com https://s.kk-resources.com https://s.kelkoogroup.net https://s1.cnnx.io https://js.cnnx.link https://containertags.belboon.de; style-src 'self' 'unsafe-inline' cdn1.louis.de cdn2.louis.de cdn3.louis.de cdnxl1.louis.de cdn4.louis.de www.louis.de https://*.googleapis.com https://*.googleusercontent.com https://widgets.trustedshops.com https://tagmanager.google.com; font-src 'self' cdn1.louis.de cdn2.louis.de cdn3.louis.de cdnxl1.louis.de cdn4.louis.de https://*.trustedshops.com data:; img-src 'self' cdn1.louis.de cdn2.louis.de cdn3.louis.de cdnxl1.louis.de cdn4.louis.de www.louis.de www.trustedshops.com www.trustedshops.fr www.trustedshops.de www.trustedshops.co.uk data: https://*.googleapis.com https://*.googletagmanager.com https://*.gstatic.com https://*.google-analytics.com https://*.googleadservices.com https://googleads.g.doubleclick.net https://ad.doubleclick.net https://bat.r.msn.com https://bat.bing.com https://widgets.trustedshops.com https://www.bizrate.com https://fm.flashtalking.com https://servedby.flashtalking.com https://*.youtube.com https://*.ytimg.com https://s.kelkoogroup.net https://*.google.com https://*.google.de; child-src 'self' maps.louis.de maps.louis.at maps.louis.ie maps.louis.nl maps.louis.eu maps.louis.be maps.louis-moto.fr maps.louis-moto.co.uk maps.louis-moto.it maps.louis-moto.dk maps.louis.pl https://*.googleadservices.com https://googleads.g.doubleclick.net https://*.google.com https://*.google.de; frame-src 'self' maps.louis.de maps.louis.at maps.louis.ie maps.louis.nl maps.louis.eu maps.louis.be maps.louis-moto.fr maps.louis-moto.co.uk maps.louis-moto.it maps.louis-moto.dk maps.louis.pl x9t5he7.r.louis.de x9t5he7.r.louis.at x9t5he7.r.louis.ie x9t5he7.r.louis.nl x9t5he7.r.louis.eu x9t5he7.r.louis.be x9t5he7.r.louis-moto.fr x9t5he7.r.louis-moto.co.uk x9t5he7.r.louis-moto.it x9t5he7.r.louis-moto.dk x9t5he7.r.louis.pl https://*.googleadservices.com https://*.googletagmanager.com https://googleads.g.doubleclick.net https://servedby.flashtalking.com https://*.youtube.com/ https://*.google.com https://*.google.de;",
+      "img-src": [
+        "'self'",
+        "cdn1.louis.de",
+        "cdn2.louis.de",
+        "cdn3.louis.de",
+        "cdnxl1.louis.de",
+        "cdn4.louis.de",
+        "www.louis.de",
+        "www.trustedshops.com",
+        "www.trustedshops.fr",
+        "www.trustedshops.de",
+        "www.trustedshops.co.uk",
+        "data:",
+        "https://*.googleapis.com",
+        "https://*.googletagmanager.com",
+        "https://*.gstatic.com",
+        "https://*.google-analytics.com",
+        "https://*.googleadservices.com",
+        "https://googleads.g.doubleclick.net",
+        "https://ad.doubleclick.net",
+        "https://bat.r.msn.com",
+        "https://bat.bing.com",
+        "https://widgets.trustedshops.com",
+        "https://www.bizrate.com",
+        "https://fm.flashtalking.com",
+        "https://servedby.flashtalking.com",
+        "https://*.youtube.com",
+        "https://*.ytimg.com",
+        "https://s.kelkoogroup.net",
+        "https://*.google.com",
+        "https://*.google.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "cdn1.louis.de",
+        "cdn2.louis.de",
+        "cdn3.louis.de",
+        "cdnxl1.louis.de",
+        "cdn4.louis.de",
+        "www.louis.de",
+        "https://*.googleapis.com",
+        "https://*.googleusercontent.com",
+        "https://widgets.trustedshops.com",
+        "https://tagmanager.google.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://louis.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

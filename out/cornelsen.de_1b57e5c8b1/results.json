@@ -1,0 +1,564 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".cornelsen.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "frontend",
+      "path": "/shop",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 34,
+      "value": "01nd2o2klvmm4373aaaplaflji"
+    },
+    {
+      "domain": ".cornelsen.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ecpdTimestamp",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 23,
+      "value": "1618933070"
+    },
+    {
+      "domain": ".econda-monitor.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "emos-session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 44,
+      "value": "AXjv7j095xbYNqSlaKFczz2zSTV0mxHK"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "econda-monitor.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.cornelsen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "25d6d216c1c7927af7566ae3dc3ce4f0625047038ea40ae754539adad6fb9392",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Amazon",
+        "countryName": "US",
+        "organizationName": "Amazon",
+        "organizationalUnitName": "Server CA 1B"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1644101999.0,
+      "not_valid_before": 1609974000.0,
+      "serial_number": 1360423090711942288174441192198218690,
+      "subject": {
+        "commonName": "cornelsen.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.cornelsen.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://cornelsen.de/",
+    "https://cornelsen.de/",
+    "https://www.cornelsen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://cornelsen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cornelsen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/main.css?bust=3df5585b"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Images/cornelsen-logo.svg?bust=216004c8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/a/0/d/1/a0d1be547866669e859d621bdc374681f0d85068/0001100000220_DIGI_CVINHO_210309_001_COR-ILLU_Entscheiden_Header-2250x1000-992x442.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/1/c/d/d/1cddb069846cd81d68c73f67787d1a214d747fa7/0001100000220_DIGI_11.554621557-H-4901x2178-360x160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/9/f/3/3/9f33d1514e58180534b34855eca2b8fbd5150945/karriere-im-cornelsen-verlag-7952x3534-360x160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/e/8/3/e/e83e843f54c7fa444ede40825b2ee45967e98241/jugendliche-kamp-head-1125x500-360x160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/8/a/7/d/8a7de4cf9767bb9994976e3c03fbcea6622ccf28/eltern-01-kampagne-1125x500-360x160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/f/6/d/3/f6d349b7b21c84e1213634496e3be3783cdf6720/erwachsenenbildung-cornelsen-deutsch-als-fremdsprache-1125x500-360x160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/3/0/4/b/304b58e095743e0719320bceed3dc21a28953e9a/lehrmaterial-fuer-unternehmen-von-cornelsen-6720x2987-360x160.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.DesignKitPortals/Images/trust_payment_icons/logo-footer-ehi.png?bust=50ea8483"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.DesignKitPortals/Images/payment_provider/logo-footer-dhl.svg?bust=f2e2d148"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.DesignKitPortals/Images/payment_provider/logo-footer-paypal.svg?bust=8b676454"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.DesignKitPortals/Images/payment_provider/logo-footer-visa.svg?bust=94de1376"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.DesignKitPortals/Images/payment_provider/logo-footer-mastercard.svg?bust=c676b125"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.DesignKitPortals/Images/payment_provider/logo-footer-paydirect.svg?bust=1736227a"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Tracking/JavaScript/prod/tracking.min.js?bust=8de89a9f"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Tracking/JavaScript/tracking-init.js?bust=70b83305"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Neos.Neos/JavaScript/LastVisitedNode.js?bust=45f0ece1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/runtime/widget-runtime.js?bust=80027e5b"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/sal/app.js?bust=521e7211"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/ecp/index.js?bust=8e0ed2e4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/main.js?bust=bf07843e"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/designkitportals-webcomponents/element-loader.js?bust=bb2d24ea"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/consent-manager/cornelsen-consent-manager.js?bust=71be390c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/1/1/8/3/1183d0b56722e473629f52d6f5d9c40dde235c08/schulschliessung-2012-kampagnenheader-1-1496x195.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cornelsen.de/_Resources/Persistent/7/2/f/1/72f1fd45674893219daf4f082f154209a94bfa56/0001100000220_DIGI_CV_210119_01_75_jahre_landingpage_header_schmetterlinge-1496x394.jpg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/cv-icons.188c4c2.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/CV_SourceSans_Regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/CV_SourceSans_Semibold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/CV_SourceSans_Light.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/ecp/widgets.min.css?bust=e7cead38"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/skin/frontend/scg/default/js/ecp/widget-endpoints.json"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/Dist/cv_uni_icon_linie.woff"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/ccustomer/oauth/autoLogin?timestamp=1618933070"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/designkitportals-webcomponents/vendor/webcomponents-loader.js?bust=bb2d24ea"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/_Resources/Static/Packages/Cornelsen.Webkatalog/JavaScript/designkitportals-webcomponents/components/index.js?bust=4faa4a4?bust=bb2d24ea"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://id.cornelsen.de/oxauth/restv1/authorize?redirect_uri=https%3A%2F%2Fwww.cornelsen.de%2Fshop%2Fccustomer%2Foauth%2FautoLoginCallback&prompt=none&state=c19b0eb0374a75847ec8eb10fa1d21fd&scope=openid%20inum%20user_name%20cv_sap_kdnr&response_type=code&approval_prompt=auto&client_id=%40%2138C4.659F.8000.3A79%210001%217F12.03E3%210008%214CDC.484A.AFED.595F"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/capi/rest/customer?version=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/capi/rest/message?version=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/capi/rest/wishlist?version=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/capi/rest/cart?maxItems=5&version=1"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.cornelsen.de/shop/ccustomer/oauth/autoLoginCallback?error_description=The+Authorization+Server+requires+End-User+authentication.+This+error+MAY+be+returned+when+the+prompt+parameter+in+the+Authorization+Request+is+set+to+none+to+request+that+the+Authorization+Server+should+not+display+any+user+interfaces+to+the+End-User%2C+but+the+Authorization+Request+cannot+be+completed+without+displaying+a+user+interface+for+user+authentication.&state=c19b0eb0374a75847ec8eb10fa1d21fd&error=login_required"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.econda-monitor.de/l/0000286e/t/e9ea2f1a-6dc1-3966-b4b5-bd7e03fde168?v=4&emrid=AXjv7j09WwyCwq8tC*6fQR3RBmRMQuKy&emsid=AXjv7j095xbYNqSlaKFczz2zSTV0mxHK&emnc=1&emtn=1&emhost=www.cornelsen.de&tpct=1&vclt=0&prv=2&d=eyJsYW5naWQiOiJkZSIsImNvdW50cnlpZCI6ImRlIiwic2l0ZWlkIjoiY29ybmVsc2VuLmRlIiwiZnJvbnRlbmQiOltbImRlc2t0b3AiXV0sImNvbnRlbnQiOiJDb3JuZWxzZW4gVmVybGFnIiwicG9ydGFsIjpbWyJDb3JuZWxzZW4gVmVybGFnIl1dLCJ0cmFja2luZ2xpYiI6IjAuOC4wIiwidXJsIjpbWyJ3d3cuY29ybmVsc2VuLmRlIl1dLCJlbnRyeXBhZ2UyIjpbWyJ3d3cuY29ybmVsc2VuLmRlIl1dLCJpY2FtcHYiOltbImtleS12aXN1YWwvZWluZmFjaC1lbnRzY2hlaWRlbi9Db3JuZWxzZW4gVmVybGFnIl0sWyJoZXJvL0RpZ2l0YWwgdW50ZXJyaWNodGVuL0Nvcm5lbHNlbiBWZXJsYWciXSxbInNpbXBsZS9VbnRlcnJpY2h0IHZvcmJlcmVpdGVuL0Nvcm5lbHNlbiBWZXJsYWciXSxbInNpbXBsZS9MZWhyd2Vya2UgZW50ZGVja2VuL0Nvcm5lbHNlbiBWZXJsYWciXSxbInNpbXBsZS9TaWNoIGZvcnRiaWxkZW4vQ29ybmVsc2VuIFZlcmxhZyJdLFsic2ltcGxlL0JlcmF0dW5nIGZpbmRlbi9Db3JuZWxzZW4gVmVybGFnIl0sWyJtYXJrZXRpbmcvc2NodWxzY2hsaWVzc3VuZy9Db3JuZWxzZW4gVmVybGFnIl0sWyJtYXJrZXRpbmcvNzUtamFocmUvQ29ybmVsc2VuIFZlcmxhZyJdLFsiaGVyby9pbnN0aXR1dGlvbmVuL0Nvcm5lbHNlbiBWZXJsYWciXSxbImhlcm8vc2Now7xsZXIvQ29ybmVsc2VuIFZlcmxhZyJdLFsiaGVyby9lbHRlcm4vQ29ybmVsc2VuIFZlcmxhZyJdLFsiaGVyby9lcndhY2hzZW5lbmJpbGR1bmcvQ29ybmVsc2VuIFZlcmxhZyJdLFsiaGVyby91bnRlcm5laG1lbi9Db3JuZWxzZW4gVmVybGFnIl1dLCJwYWdlSWQiOiI0MjA5OWI0YWYwMjFlNTNmZDhmZDRlMDU2YzI1NjhkN2MyZTNmZmE4Iiwic291cmNlIjoiZGlyZWN0Iiwic3dzaCI6IjgwMHg2MDAiLCJ0eiI6LTIsIm50IjowLCJlbW9zViI6ImM1Ni40Iiwic2Nyb2xsIjpbMCwwLDgwMCw2MDAsMV19SVQ"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "connect-src": [
+        "https://www.econda-monitor.de",
+        "'self'",
+        "https://*.cornelsen.de"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "font-src": [
+        "https://tagmanager.google.com",
+        "https://fonts.gstatic.com",
+        "data:",
+        "'self'",
+        "https://*.cornelsen.de"
+      ],
+      "form-action": [
+        "'self'"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "frame-src": [
+        "https://monitor.econda-monitor.de",
+        "https://www.googletagmanager.com/ns.html",
+        "'self'",
+        "https://*.cornelsen.de",
+        "https://www.youtube-nocookie.com",
+        "https://w.soundcloud.com",
+        "https://docs.google.com/gview"
+      ],
+      "header_value": "default-src 'self' ; connect-src https://www.econda-monitor.de 'self' https://*.cornelsen.de ; font-src https://tagmanager.google.com https://fonts.gstatic.com data: 'self' https://*.cornelsen.de ; frame-src https://monitor.econda-monitor.de https://www.googletagmanager.com/ns.html 'self' https://*.cornelsen.de https://www.youtube-nocookie.com https://w.soundcloud.com https://docs.google.com/gview ; img-src https://monitor.econda-monitor.de https://www.googletagmanager.com https://ssl.gstatic.com https://www.gstatic.com 'self' https://*.cornelsen.de data: ; object-src 'none' ; script-src https://monitor.econda-monitor.de https://www.googletagmanager.com https://tagmanager.google.com 'self' https://*.cornelsen.de 'unsafe-eval' data: ; style-src https://tagmanager.google.com https://fonts.googleapis.com 'self' https://*.cornelsen.de 'unsafe-inline' ; base-uri 'self' ; form-action 'self' ; frame-ancestors 'self' ; report-uri /__csp-report ;",
+      "img-src": [
+        "https://monitor.econda-monitor.de",
+        "https://www.googletagmanager.com",
+        "https://ssl.gstatic.com",
+        "https://www.gstatic.com",
+        "'self'",
+        "https://*.cornelsen.de",
+        "data:"
+      ],
+      "object-src": [
+        "'none'"
+      ],
+      "report-uri": [
+        "/__csp-report"
+      ],
+      "script-src": [
+        "https://monitor.econda-monitor.de",
+        "https://www.googletagmanager.com",
+        "https://tagmanager.google.com",
+        "'self'",
+        "https://*.cornelsen.de",
+        "'unsafe-eval'",
+        "data:"
+      ],
+      "style-src": [
+        "https://tagmanager.google.com",
+        "https://fonts.googleapis.com",
+        "'self'",
+        "https://*.cornelsen.de",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://cornelsen.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.econda-monitor.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 1
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "www.econda-monitor.de"
+    ]
+  }
+}

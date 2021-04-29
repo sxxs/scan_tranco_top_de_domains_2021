@@ -1,0 +1,423 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.cdu.de",
+      "expires": 1618935040.247838,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14401.247838020325,
+      "name": "XSRF-TOKEN",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 340,
+      "value": "eyJpdiI6InkyV0Q3NlJhdEJoSWtxUFpqMTgvQWc9PSIsInZhbHVlIjoiVE9oOWF4SGJvcVZtNGlrcWR5N0FxYkNwdG81bjduUG1IemkyVDBVaWdWbHh6Q2lNK0RReXZRQTVoQy9WODJjM1QxRGZnTjNjRFhLejViR1ZvdndCaDBYWkxOVFUraEdQZXNOOXdiV1NsZ05XQXpwWnJHQitPWHZOTmRTejUvNnQiLCJtYWMiOiJhOWQ5NTFhZmExYmZlOTc0MmMxNTI1ZjNlOTkwMjg3ZjcxOTNkZjc4M2IzMjQyOTE0MzI3NjBlYTFkM2I3MjU2In0%3D"
+    },
+    {
+      "domain": "www.cdu.de",
+      "expires": 1618935040.247937,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14401.247936964035,
+      "name": "cdu_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 341,
+      "value": "eyJpdiI6IlYyVjhIZVBmWVpESVY2dlVVejJFTHc9PSIsInZhbHVlIjoiUG9oT1dDcnF1bGZ3T2lsRXJlSGZyNVdEZWgya1Q1QU5YcHRpUlRxR0pFc0xpdGVHNkR3U21kc3U3OGp1VmVsUFE2NE0xRGJhaDBGckJuV2lWQlRLMzkyekN2dFg3QkdFdVFZZ2ZBcU52bWc3bFpMc0Zmb0pLZ01icmV2VExuQWgiLCJtYWMiOiI4ZmM1ZjlmYThiMTAxODllN2M3NWI2MjVjMzIxNjgzOTQyNGNlMTgyYmE1MTFiMzQ0Y2ZkYzNhN2Y1YjcxYjRhIn0%3D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.cdu.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2322b7c5acad37f0334386bfd77eba3a44d592a4ba23baf4871f5fab90926aaf",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621802279.0,
+      "not_valid_before": 1614029879.0,
+      "serial_number": 349926702166521092126428911415214932054513,
+      "subject": {
+        "commonName": "www.cdu.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.cdu.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://cdu.de/",
+    "http://www.cdu.de/",
+    "https://www.cdu.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://cdu.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.cdu.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/css/app.css?id=2a001df62ab93d4311fc"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/tuIllCJdKqy0c8n1UJbXd/6a8bc37cf56ce70354954aeb6cfd7745/q64_Zml0PWZpbGw=/ci_123058_1_.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/1FGaGdnUMuRX5FAdSJ384i/8707ae70e763f16e98ee2034d44d5992/q64_Zml0PWZpbGw=/A9_00537.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/7bwQjV87V2VBkAqt7GJaO6/1a19e61484093041bd9784dcd7562de6/q64_Zml0PWZpbGw=/202103241320__6TK0436_ed_c.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/caret-dot.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/45vsIV7lSXoajOZ9aAC5XP/e2550ddb45c9761f5f939c1d21adc038/q64_dz02MDAmaD00MTAmZml0PWZpbGw=/CDU_DE_Bild_CDU_Website.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/o9objspA1t1LCx9mwLjc0/1402417ab59f20d33cb9aa205ec41822/q64_dz02MDAmaD00MTAmZml0PWZpbGw=/image001.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/1lBJfiVy3zUjnLJftLbovi/0a3920aa394f96e88a551699817e9337/q64_dz02MDAmaD00MTAmZml0PWZpbGw=/web_ci_128229.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/nvKLQOr11FrHASrsB9KYh/3e235e2305baa30f6939d0fa7434ecb2/q64_dz0zMDAmaD0zMDAmZml0PWZpbGw=/210316_Textkacheln_unsere_Ziele_1200x1200px_fb_ig_converted3.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/6se94gGqP1nRsXQXua8xjr/2938663d780e74e4f1379a273d4c97b8/q64_dz0zMDAmaD0zMDAmZml0PWZpbGw=/210316_Textkacheln_unsere_Ziele_1200x1200px_fb_ig_converted.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/svgs/logo-evp.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/noodler.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/js/manifest.js?id=3c768977c2574a34506e"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/js/vendor.js?id=8fef60df3bda1f7c2183"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/js/app.js?id=ee447f218893bacc8bdd"
+    },
+    {
+      "mime_type": "video/webm",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://www.cdu.de/assets/videos/parteitag--mobil.webm"
+    },
+    {
+      "mime_type": "video/webm",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://www.cdu.de/assets/videos/parteitag.webm"
+    },
+    {
+      "mime_type": "video/webm",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://www.cdu.de/assets/videos/pinning-erklaerung.webm"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/fonts/kievit/CDUKievitWeb-Medium.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/circle-caret.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/cdu-circle.svg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/fonts/kievit/CDUKievitWeb-MediumItalic.woff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/484A5jWZGxxTwkz5zDVU9h/dcd45114c0155b9e30efd5d4806d8d15/q64_dz0xMjAwJmg9NjQ0JmZpdD1maWxs/A9_00537.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/4k8QHpXe3Vz8uIq69Ititb/edefeef448ad0fe3af5e99bd2f49bf9e/q64_dz0xMjAwJmg9NjQ0JmZpdD1maWxs/A9_09459.JPG"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/3v5kucc2wbzRndbkx6gDTi/5e5552b1dedae9f4ad48ea708ded8cf9/q64_dz0xMjAwJmg9NjQ0JmZpdD1maWxs/laschet.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/1HvAyFGzwmb8azWsYrlkS5/96ba1bb2a834cd391b83a389da06cbac/q64_dz0xMjAwJmg9NjQ0JmZpdD1maWxs/Chaperon_0M8A3090.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/cache/images/images.ctfassets.net/nwwnl7ifahow/5P2MhZmGCEHWXnbM2NMXno/d6609fe8cc753d94ea36921cf67a3bb3/q64_dz0xMjAwJmg9NjQ0JmZpdD1maWxs/Bildschirmfoto_2021-03-25_um_12.41.30.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/twitter-preview.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.cdu.de/images/general/network-connection-black.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/1a9503a1-5698-414b-976a-d1857306d600/cc.js?renew=false&referer=www.cdu.de&dnt=false&forceshow=false&cbid=1a9503a1-5698-414b-976a-d1857306d600&brandid=Cookiebot&framework="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload;",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://cdu.de\r",
+  "third_parties": {
+    "fqdns": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "maxcdn.bootstrapcdn.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com"
+    ]
+  }
+}

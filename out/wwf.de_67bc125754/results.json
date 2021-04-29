@@ -1,0 +1,793 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".econda-monitor.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "emos-session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 44,
+      "value": "AXjvAsB_DBkHA2XK1AsVLdS7QXpy8FqM"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "econda-monitor.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.wwf.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0686e6e4f3d9472b300a7d4f7aca58d900e7fa2ebb8342011a730e3bebb1c08e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1653818400.0,
+      "not_valid_before": 1590703200.0,
+      "serial_number": 11011836855888347254753225226354220022,
+      "subject": {
+        "commonName": "www.wwf.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "WWF Deutschland",
+        "organizationalUnitName": "IT",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.wwf.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://wwf.de/",
+    "https://www.wwf.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://wwf.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/css/main.css?1618909561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3temp/assets/js/5508b6c4f0.js?1571752280"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/static/emos3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/main.js?1618909561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/2/d/csm_elefant-verletzt-versorgung-wunden-c-elephant-aware_c6b0c16d3a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/2/b/csm_panzer-nashorn-kalb-chitwan-nepal-WW299601-c-Ola-Jennersten-WWF-Sweden_22192384f8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/4/d/csm_teller-huelsenfruechte-karotten-essen-1006499678-c-GettyImages_f8cfb879bc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/b/7/csm_KV-Wald-Faultier-original-c-GettyImages_61e2223a30.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/7/9/csm_panzernashorn-nepal-chitwan-nationalpark-WW191699-c-michel-gunther-wwf_1562949391.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/8/f/csm_kongo-dzanga-sangha-elefanten-WW171860-c-carlos-drews-wwf_e2a8f1df6a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/e/c/csm_rauch-schornstein-c-global-warming-images-wwf_620824c58b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/3/1/csm_Waldzerstoerung-Amazonas-strasse-c-andre-dib-wwf-brasilien_cd0688c831.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/b/a/csm_Prinz-Philip-Duke-of-Edinburgh-c-WWF-Canon-WWF-International_e502a0064b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/6/d/csm_Seaspiracy-Netflix-Dokumentation-c-Netflix_c0619b30e2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/6/7/csm_wald-nebel-nourages-naturreservat-WW2120931-c-Emmanuel-Rondeau-WWF-Frankreich_a914a00e03.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/c/9/csm_amur-tiger-WW255652-c-ola-jennersten-wwf-schweden_636b047e42.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/f/2/csm_Korallen-c-GettyImages_0255d14cb5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/c/c/csm_windkraftraeder-andalusien-WW130814-c-global-warming-images-wwf_0bccab1f93.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/2/9/csm_waelder-amazonas-regenwald-kolumbien-WW2134856-c-luis-barreto-wwf-uk_73be44fc00.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/3/a/csm_naturreservat-kolumbien-WW184841-c-kevin-scha%CC%88fer-wwf_cf40252b18.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/d/d/csm_Maehdrescher-Feld-Boden-c-Getty-Images_a803314ea5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/a/9/csm_Reflektionen-im-Fluss-Neuseeland-WW184722-c-Karin-Jacobi-WWF_e4db805204.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/0/0/csm_reichtagsgebaeude-berlin-c-GettyImages_eb49ccdce8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/b/9/csm_wochenmarkt-gemuese-stand-c-iStock-GettyImages_ff967996df.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/d/6/csm_bastard-schildkroete-meer-wasser-costa_rica-pazifik-WW22521-c-naturepl.com-solvin-zankle-wwf_4a03a6a290.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/0/5/csm_Panda-Search-Desktop_384a360203.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/3/4/csm_wwf-weltretter-header_14ad554253.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/8/e/csm_schildkr%C3%B6te-schwimmt-WW184614-c-J%C3%BCrgen-Freund-WWF_7b5697db4c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/e/c/csm_Koala-Queensland-Australien-c-WWF_a847b0fb37.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/e/9/csm_Panda-Baum-WW230176-c-brad-josephs-wwf-us_f1adf49941.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/c/8/csm_kanu-menschenrecht-WW170802-c-brent-stirton-getty-images-wwf_fd3366cb17.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/8/8/csm_Frau-mit-Chamaeleon-WW1112134-c-Jonathan-Caramanus-Green-Renaissance-WWF-UK_6b6471166c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/e/8/csm_tierwelt-live-logo-c-tierwelt-live_90057d7aa7.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/user_upload/Footer/logo_wwf_footer.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/user_upload/Footer/logo-tuv-PM-footer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/user_upload/Footer/logo-tuv-fundraising-footer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/user_upload/Footer/logo-transparency-footer.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/svg/sprite.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/8/0/csm_sonnenaufgang-kenia-WW2106435-c-diana-rudenko-wwf_a7fcf4488c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/9/7/csm_pinguine-antarktis-WW2104796-c-chris-johnson-wwf-aus_0a68d3de77.jpg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/fonts/wwf-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/fonts/open-sans-v16-latin-regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/fonts/open-sans-v16-latin-600.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/fonts/open-sans-v16-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/polyfill.bundle.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.econda-monitor.de/l/000028b4/t/713a145d-3b0f-3493-83c5-8c7434c64234?v=4&emrid=AXjvAsB_aLHV2le8CAdF7H8jiCsWXqoP&emsid=AXjvAsB_DBkHA2XK1AsVLdS7QXpy8FqM&emnc=1&emtn=1&emhost=www.wwf.de&tpct=1&vclt=0&prv=2&d=eyJzaXRlaWQiOiJ3d2YuZGUiLCJjb250ZW50IjoiU3RhcnQiLCJzb3VyY2UiOiJkaXJlY3QiLCJzd3NoIjoiODAweDYwMCIsInR6IjotMiwibnQiOjAsImVtb3NWIjoicDU2LjQifR65"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.econda-monitor.de/l/000028b4/t/713a145d-3b0f-3493-83c5-8c7434c64234?v=4&emrid=AXjvAsCHbCVqSC49CsecaSO4oFNWH3fk&emsid=AXjvAsB_DBkHA2XK1AsVLdS7QXpy8FqM&emnc=1&emtn=1&emhost=www.wwf.de&tpct=1&vclt=0&prv=2&d=eyJlY19FdmVudCI6W3sidHlwZSI6InZpZXciLCJwaWQiOiI5OUlTQkkwODAyIiwibmFtZSI6IldhbGQiLCJwcmljZSI6NzUsImdyb3VwIjoiUHJvamVrdHNwZW5kZSIsImNvdW50IjoxLCJ2YXIxIjoiV2FsZCIsInZhcjIiOm51bGwsInZhcjMiOm51bGx9XSwiZW1vc1YiOiJwNTYuNCIsInBsUmVxSWQiOiJBWGp2QXNCX2FMSFYybGU4Q0FkRjdIOGppQ3NXWHFvUCJ9P_8"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/OldQTgk5F/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/OldQTgk5F/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=OldQTgk5F"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/12.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/16.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/17.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/css/5.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/5.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/css/3.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/3.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/css/7.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/7.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/15.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/11.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/4.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/10.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/13.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/css/8.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/8.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/css/9.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/9.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/6.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/14.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/1618908772/js/instantpage.bundle.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/OldQTgk5F/latest/de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/OldQTgk5F/latest/de.json"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/rss/feed-20794/feed.xml"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-LidbZ8VS@1.0.0,0a9x1NfRm@1.0.0,0qcrTROcn@1.0.0,1ufQRZW4o@1.0.0,2Svr5fMZs@1.0.0,2mtSL49PN@1.0.0,4l5b-d5X4@1.0.0,5eHrv6J4e@1.0.0,5pysBGb2l@1.0.0,6-qobRfu@3.1.0,6NuToRYkK@1.0.0,6PCDZyHBA@1.0.0,6y5fEhlSW@1.0.0,6zHkboapC@1.0.0,7QBiDa-mR@1.0.0,9V8bg4D63@9.6.5,9XWgJQ3cG@1.0.0,9ldudh8S8@1.0.0,AE2VrEbeY@1.0.0,AVrTOH1dH@1.0.0,BJ59EidsWQ@25.5.22,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BTZJ2Ws5K@1.0.0,CNc45oJve@1.0.0,CWHphhpUe@1.0.0,CguMb4Rq@4.0.2,DE1qIDmjd@1.0.0,Dw4Od5lN8@1.0.0,F0BLRpD9K@1.0.0,FPZz1xJI@4.2.0,G47k4Ne9E@6.2.0,GE_kDvc0Iz@1.0.0,H1Vl5NidjWX@40.15.35,HgQZRqLNj@1.0.0,HkYNq4sdjbm@10.2.4,Hko_qNsui-Q@14.4.15,HkocEodjb7@52.10.26,HyEX5Nidi-m@12.4.1,HyeqVsdjWX@16.3.10,Hysgc4odiZ7@13.6.3,ISisEzEbx@1.0.0,J39GyuWQq@12.4.4,KAkHLuaii@2.2.0,L0qLhnRbE@1.0.0,LA65SqAhX@1.0.0,LBg41LBkk@1.0.0,MG6mo4hTJ@1.2.0,MI1Vel1CX@1.0.0,N0ShBN1wM@1.0.0,NKpsBu0O4@1.0.0,O9h2RkyGu@1.0.0,OqcPtmOSU@1.0.0,PSA7naUEN@1.0.0,PoeAYzQQ6@1.0.0,RdUJkeAeB@1.0.0,S1_9Vsuj-Q@15.6.8,S5QPdg7ZZ@1.0.0,SJFe9NousWX@11.9.5,SJXtq4iOoZX@10.4.4,SJwfMvizE@8.1.1,SZmMgjWgC@1.0.0,SkEscVsusbX@6.1.0,SkPc5EjOsWm@6.1.0,Skj79NodobQ@8.1.1,Sy1naC5nN@6.3.0,Sy7BcNo_ib7@4.2.1,Syg-54jdiZX@9.4.0,UswY75_s1@1.0.0,VrlMqVIEb@1.0.0,XYQZBUojc@9.5.1,YC4wMZ6PL@1.0.0,YyjPA7P-F@1.0.0,Z0TcXjY0P@1.3.1,aXnTc_Y3n@4.2.1,ag4dwQGni@1.0.0,cRFaW-jck@1.0.0,dN6-tWrz-@1.0.0,e82BGiXwH@1.0.0,eUGxVXa0N@1.0.0,euob-JtXI@1.0.0,gkEBFID-V@5.2.2,iVTAGV51C@1.0.0,k2UxoC18N@1.0.0,kQn8Y9ZWD@1.0.0,ko1w5PpFl@23.10.10,pw8N3E0iE@1.0.0,qvkzz7qPe@7.4.5,rJJjcVouoZ7@8.3.3,tCHxN4mKA@1.0.0,uJyv6-Nm@2.0.0,uMYQ3agOt@1.0.0,uq6pM0B2_@1.0.0,vVZWURup5@1.0.0,wF8c7NmAJ@1.0.0,wPelMX-rA@1.0.0,ws1ldvnXg@1.0.0,y_CgpAsi6@1.0.0,zZj2rG-lK@1.0.0,z_R7gfxbo@1.0.0,zeNSr-i3o@1.0.0,zqWojrT0P@15.7.6,zxtBJFrRG@1.0.0"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-LidbZ8VS@1.0.0,0a9x1NfRm@1.0.0,0qcrTROcn@1.0.0,1ufQRZW4o@1.0.0,2Svr5fMZs@1.0.0,2mtSL49PN@1.0.0,4l5b-d5X4@1.0.0,5eHrv6J4e@1.0.0,5pysBGb2l@1.0.0,6-qobRfu@3.1.0,6NuToRYkK@1.0.0,6PCDZyHBA@1.0.0,6y5fEhlSW@1.0.0,6zHkboapC@1.0.0,7QBiDa-mR@1.0.0,9V8bg4D63@9.6.5,9XWgJQ3cG@1.0.0,9ldudh8S8@1.0.0,AE2VrEbeY@1.0.0,AVrTOH1dH@1.0.0,BJ59EidsWQ@25.5.22,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BTZJ2Ws5K@1.0.0,CNc45oJve@1.0.0,CWHphhpUe@1.0.0,CguMb4Rq@4.0.2,DE1qIDmjd@1.0.0,Dw4Od5lN8@1.0.0,F0BLRpD9K@1.0.0,FPZz1xJI@4.2.0,G47k4Ne9E@6.2.0,GE_kDvc0Iz@1.0.0,H1Vl5NidjWX@40.15.35,HgQZRqLNj@1.0.0,HkYNq4sdjbm@10.2.4,Hko_qNsui-Q@14.4.15,HkocEodjb7@52.10.26,HyEX5Nidi-m@12.4.1,HyeqVsdjWX@16.3.10,Hysgc4odiZ7@13.6.3,ISisEzEbx@1.0.0,J39GyuWQq@12.4.4,KAkHLuaii@2.2.0,L0qLhnRbE@1.0.0,LA65SqAhX@1.0.0,LBg41LBkk@1.0.0,MG6mo4hTJ@1.2.0,MI1Vel1CX@1.0.0,N0ShBN1wM@1.0.0,NKpsBu0O4@1.0.0,O9h2RkyGu@1.0.0,OqcPtmOSU@1.0.0,PSA7naUEN@1.0.0,PoeAYzQQ6@1.0.0,RdUJkeAeB@1.0.0,S1_9Vsuj-Q@15.6.8,S5QPdg7ZZ@1.0.0,SJFe9NousWX@11.9.5,SJXtq4iOoZX@10.4.4,SJwfMvizE@8.1.1,SZmMgjWgC@1.0.0,SkEscVsusbX@6.1.0,SkPc5EjOsWm@6.1.0,Skj79NodobQ@8.1.1,Sy1naC5nN@6.3.0,Sy7BcNo_ib7@4.2.1,Syg-54jdiZX@9.4.0,UswY75_s1@1.0.0,VrlMqVIEb@1.0.0,XYQZBUojc@9.5.1,YC4wMZ6PL@1.0.0,YyjPA7P-F@1.0.0,Z0TcXjY0P@1.3.1,aXnTc_Y3n@4.2.1,ag4dwQGni@1.0.0,cRFaW-jck@1.0.0,dN6-tWrz-@1.0.0,e82BGiXwH@1.0.0,eUGxVXa0N@1.0.0,euob-JtXI@1.0.0,gkEBFID-V@5.2.2,iVTAGV51C@1.0.0,k2UxoC18N@1.0.0,kQn8Y9ZWD@1.0.0,ko1w5PpFl@23.10.10,pw8N3E0iE@1.0.0,qvkzz7qPe@7.4.5,rJJjcVouoZ7@8.3.3,tCHxN4mKA@1.0.0,uJyv6-Nm@2.0.0,uMYQ3agOt@1.0.0,uq6pM0B2_@1.0.0,vVZWURup5@1.0.0,wF8c7NmAJ@1.0.0,wPelMX-rA@1.0.0,ws1ldvnXg@1.0.0,y_CgpAsi6@1.0.0,zZj2rG-lK@1.0.0,z_R7gfxbo@1.0.0,zeNSr-i3o@1.0.0,zqWojrT0P@15.7.6,zxtBJFrRG@1.0.0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/e/c/csm_rauch-schornstein-c-global-warming-images-wwf_29fc4d4c3f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/8/1/csm_Alpenstrandl%C3%A4ufer-vor-D%C3%BCne-Spiekeroog-Wattenmeer-c-Hans-Ulrich-R%C3%B6sner-WWF_58370649ea.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/8/3/csm_reichstagsgebaeude-c-iStock-GettyImages_9a2fb0e27f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/_processed_/4/1/csm_waelder-rodung-borneo-WW212422-c-simon_rawles-wwf_141df4365f.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.13.0/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PDH2LGJ&gtm_auth=RaxAi5KXYwA7Dz4u40byHg&gtm_preview=env-2&gtm_cookies_win=x"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/fileadmin/user_upload/Bilder_und_Videos/Logos/WWF-Logo-Large-RGB-72dpi.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wwf.de/typo3conf/ext/bra_projectfiles/Resources/Public/Frontend/assets/static/emos3.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade,no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin,sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block\n1; mode=block",
+      "is_active": true,
+      "mode": "block\n1; mode=block"
+    }
+  },
+  "site_url": "http://wwf.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "www.econda-monitor.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 16
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 16,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "www.econda-monitor.de",
+      "www.googletagmanager.com"
+    ]
+  }
+}

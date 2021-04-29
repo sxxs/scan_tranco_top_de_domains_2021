@@ -1,0 +1,774 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".stimme.de",
+      "expires": 1650206255,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31284001,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 119,
+      "value": "0017130f1670d0d90607ee72f:1650206255884:1618929455884:.stimme.de:2:stimme:homepage:noevent:1618929455884:nn3h36"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1644658879.040165,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 25736625.040164948,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c177cb707f0fd4607ee72f0001%3B607ee730%3B620780bf"
+    },
+    {
+      "domain": "www.stimme.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "deviceSize",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 19,
+      "value": "800x600x1"
+    },
+    {
+      "domain": "www.stimme.de",
+      "expires": 1618929756,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7502,
+      "name": "outbrain_cid_fetch",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 22,
+      "value": "true"
+    },
+    {
+      "domain": "www.stimme.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "fCMS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
+      "size": 30,
+      "value": "ld7kktt884v7ipj40rr3ecj6hm"
+    },
+    {
+      "domain": ".stimme.de",
+      "expires": 1621348655,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618929456425"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 3,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.stimme.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5c423bc33a8b2cbb2980ce47502cafa085ab04bd8eeeb061c925b7dd6d74201c",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636110000.0,
+      "not_valid_before": 1565128800.0,
+      "serial_number": 3568736459059927284729240694510006373,
+      "subject": {
+        "commonName": "*.stimme.de",
+        "countryName": "DE",
+        "localityName": "Heilbronn",
+        "organizationName": "Heilbronner Stimme GmbH & Co. KG",
+        "organizationalUnitName": "Digitale Medien",
+        "stateOrProvinceName": "Baden-Wurttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.stimme.de/meta/ueberuns/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://stimme.de/",
+    "http://www.stimme.de/",
+    "https://www.stimme.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://stimme.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.stimme.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-stub-latest.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/data/styles/css/main/main.css?v=20210217"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsLib_Init/load/init.js?version=1618307245"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static1.heilbronnerstimme.de/_/styles/ajaxlogin.css?version=1618307245"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/stimmede_jubilaeum.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/_/pics/spacer.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/consent-icons.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static3.heilbronnerstimme.de/storage/image/5/7/4/5/3485475_default_1v-I93_T2NNTS.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/misc/jubi-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/misc/icons/youtube.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backoffice.transmatico.com/get/?token=f028c555234560d1940f2cd321876d8a&domain=themenwelten.stimme.de&schemas=wide-bar&service=articleteasers&scriptid=trm-widget-a0MXKC9NJMd_ULpjC0lfgb"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_/scripts/fcmsuser/dynamicobjectloader.js?version=1618307245"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-latest.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-latest.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/extlib_lazysizes/load/extlib_lazysizes.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/extlib_jquery/load/extlib_jquery.js?version=1618307245"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://amplify.outbrain.com/cp/obtp.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/sprites_top.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/sprites_maerkte.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/sprites_default.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_Customer/load/fcmsUser_Customer.js?version=1618307245"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/shadow-left-small.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsLib_Core/load/fcmsLib_Core.js?version=1618307245"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/layout/2017/sprites_media.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/script/Magnific_Popup_js/load/Magnific_Popup_js.js?version=20200505100104"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tr.outbrain.com/cachedClickId?marketerId=00ddd2b0e5e7e14e765307d74a6489cdec"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tr.outbrain.com/unifiedPixel?marketerId=00ddd2b0e5e7e14e765307d74a6489cdec&obApiVersion=1.1&obtpVersion=1.4.1&name=PAGE_VIEW&dl=https%3A%2F%2Fwww.stimme.de%2F&optOut=false&bust=09984149839140968"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_Core/load/fcmsUser_Core.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsLib_Skeleton/load/fcmsLib_Skeleton.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/extlib_fastdom/load/extlib_fastdom.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsLib_Utils/load/fcmsLib_Utils.js?version=1618307245"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static1.heilbronnerstimme.de/data/js/scriptloader.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/stimme.de/settings.json?"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=stimme&cp=homepage&mg=yes&sv=ke&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.stimme.de&xy=800x600x24&lo=DE%2FBerlin&cb=0017&i2=0017130f1670d0d90607ee72f&ep=1649366361&vr=424&id=30n7mb&i3=0017130f1670d0d90607ee72f%3A1650206255884%3A1618929455884%3A.stimme.de%3A1%3Astimme%3Ahomepage%3Anoevent%3A1618929455884&n1=1&dntt=0&lt=1618929455885&ev=&cs=r1l6mm&mo=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://me.ioam.de/soziodata2.php?sc=edc23d361fd13607ee72fcaf8683a390&st=stimme&id=30n7mb"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_User/load/fcmsUser_User.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/script/shariff.min/load/shariff.min.js?version=20200505100104"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/img/lazyload_loader.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=stimme&cp=homepage&mg=yes&sv=ke&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.stimme.de&xy=800x600x24&lo=DE%2FBerlin&cb=0017&i2=0017130f1670d0d90607ee72f&ep=1649366361&vr=424&id=30n7mb&i3=0017130f1670d0d90607ee72f%3A1650206255884%3A1618929455884%3A.stimme.de%3A1%3Astimme%3Ahomepage%3Anoevent%3A1618929455884&n1=1&dntt=0&lt=1618929455885&ev=&cs=r1l6mm&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/data/js/mediaCheck-min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/2013.03.11/hoverintent.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/data/js/snet.lib.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/data/js/main.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/data/styles/css/extra/print.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/shariff/shariff.complete.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/stimme.de/style.css?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/stimme.de/vendor-list-en.json?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/stimme.de/translation-en.json?"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsLib_User/load/fcmsLib_User.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/extlib_pure/load/extlib_pure.js?version=1618307245"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/storage/image/1/4/1/7/3467141_default-top_1vHidI_iyaZkC.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/storage/image/4/4/6/4/3514644_default-top_1wt67g_1KityV.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static3.heilbronnerstimme.de/storage/image/5/5/9/6/3516955_default-top_1wvpA-_5N4a1A.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static1.heilbronnerstimme.de/storage/image/3/7/1/7/3517173_default-top_1wvG4u_8FoTko.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/misc/vl/Aboshop_Werbung_CoBa_1290x260px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static3.heilbronnerstimme.de/storage/image/8/7/3/5/3405378_default-vorschau_1uIg5o_eaOfFc.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/_fWS/json/customer/0/getLoginLogoutBoxHtml/?getLoginLogoutBoxHtml=91571618929456344"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/stimme.de.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stimme.de/stupl/pics/logos/stimmede_logo_2020.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d2wu036mkcz52n.cloudfront.net/i?v=1&sr=800x600&vp=800x600&cd=24&md=false&h=16&t=16%3A37%3A36&d=2021-04-20&u=https%253A%252F%252Fwww.stimme.de%252F&do=www.stimme.de&ud=%22NxjrNJFYM5U0TJyV8jyX%22&type=%22pu%22&tte=0&domain=%22stimme.de%22&amp=0&pr=-1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://unpkg.com/swiper/swiper-bundle.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://unpkg.com/swiper/swiper-bundle.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_Layout/load/fcmsUser_Layout.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://unpkg.com/swiper@6.5.7/swiper-bundle.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://unpkg.com/swiper@6.5.7/swiper-bundle.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_Utils/load/fcmsUser_Utils.js?version=1618307245"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_Statistic/load/fcmsUser_Statistic.js?version=1618307245"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/lib/templates/index.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static2.heilbronnerstimme.de/_fWS/jsoninplainout/javascript/fcmsUser_Embed/load/fcmsUser_Embed.js?version=1618307245"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static3.heilbronnerstimme.de/storage/image/8/2/2/7/3517228_default-vorschau_1wvH7l_B39Brc.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://stimme.de\r",
+  "third_parties": {
+    "fqdns": [
+      "amplify.outbrain.com",
+      "backoffice.transmatico.com",
+      "cdn.opencmp.net",
+      "cdnjs.cloudflare.com",
+      "cdntrf.com",
+      "d2wu036mkcz52n.cloudfront.net",
+      "de.ioam.de",
+      "me.ioam.de",
+      "polyfill.io",
+      "script.ioam.de",
+      "static1.heilbronnerstimme.de",
+      "static2.heilbronnerstimme.de",
+      "static3.heilbronnerstimme.de",
+      "tr.outbrain.com",
+      "trmcdn.eu",
+      "unpkg.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 55
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 22,
+    "trackers": [
+      "amplify.outbrain.com",
+      "cdn.opencmp.net",
+      "cdntrf.com",
+      "d2wu036mkcz52n.cloudfront.net",
+      "de.ioam.de",
+      "static2.heilbronnerstimme.de"
+    ]
+  }
+}

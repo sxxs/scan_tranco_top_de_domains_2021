@@ -1,0 +1,582 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.schule-bw.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ffd23abdefbaf3743af1913d801e8a95f40127ed44627eb47ea6934dd8eb8369",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1646002799.0,
+      "not_valid_before": 1611702000.0,
+      "serial_number": 219470625127915015764787439357493875146,
+      "subject": {
+        "commonName": "*.schule-bw.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.schule-bw.de/ueber-uns/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://schule-bw.de/",
+    "https://www.schule-bw.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://schule-bw.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/css/bootstrap.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/TooltipStylesInspiration/css/normalize.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/TooltipStylesInspiration/css/demo.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/TooltipStylesInspiration/css/tooltip-classic.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/dsgvo-video-embed/dsgvo-video-embed.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/royalslider/royalslider.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/icheck/skins/minimal/red.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/mmenu/css/mmenu.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/mmenu/css/mburger.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/bootstrapselect/css/bootstrap-select.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/js/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/bootstrapselect/js/bootstrap-select.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/js/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/royalslider/jquery.royalslider.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/masonry.pkgd.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/mmenu/js/mmenu.polyfills.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/mmenu/js/mmenu.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/mmenu/js/mburger.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/js/base.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/icheck/icheck.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/dsgvo-video-embed/dsgvo-video-embed.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/js/shave.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++plone++production/++unique++2020-12-03T20:02:39.697052/default.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++plone++rer.cookieconsent/++unique++2020-12-03%2020%3A02%3A39.696490/cookiepolicy.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de//++theme++plonetheme.lbs/css/lbs.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++plone++production/++unique++2020-12-03T20:02:39.697052/default.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++plone++rer.cookieconsent/++unique++2020-12-03%2020%3A02%3A39.696490/cookiepolicy.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/img/lbs-logo-neu2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/img/48px-logobw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/img/lbs-logo-2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/startpage/chemie/@@images/68b68cf5-e90f-4520-a7b2-f7346da6e36f.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/startpage/religion/@@images/2f12bb61-f830-4a7e-97f9-51668fc854c2.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/startpage/franzoesisch/@@images/9df91a11-21ff-40d9-a37b-6ea22e627b25.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/moodle-kurse-fernlernen/@@images/Teaser.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/informationen-zum-coronavirus/@@images/Teaser.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/pruefungsvorbereitung/@@images/Teaser.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/online-unterricht/@@images/Teaser.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/angebote_externer_anbieter/@@images/Teaser.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/ueber-uns/homepage-teaser-lbs/schulschliessungen-wegen-pandemie/@@images/Teaser.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/assimilation-und-verfolgung-von-juden-um-1900/@@images/55195647-16a2-4cec-ae1c-03cb13f8c94f.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/checkout-klasse-10rs/@@images/0927ddae-0d7f-46ff-b9b4-21f963fb345b.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/kursstufe-wege-in-die-moderne/@@images/28e35e5a-78d6-4d92-99a6-54dd8c56c9c9.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/ein-quiz-ueber-die-usa/@@images/6fd1dfd3-a2fb-4af0-a776-3d454df234bd.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/zeitplanung/@@images/87320235-531d-49c1-8835-b61cd794071c.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/sysdata/sysimg/neues.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/militarismus-nationalismus-pazifismus-sozialismus-zwei-wege-ins-20-jahrhundert/@@images/b81a0338-1bbe-497e-aff5-884d215f9314.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/ludwig-pfau-demokr-oppositioneller-u-kritischer-journalist-im-kaiserreich/@@images/614ea0ff-6fe2-497a-9490-b00179d93036.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/service-und-tools/aktuelles/neu-auf-dem-server/bestellmenge/@@images/ba52654b-6b78-4c2a-891d-ed47d958eebf.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/ueber-uns/homepage-teaser-lbs/unsere-aktuelle-statistik/@@images/Teaser.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/ueber-uns/homepage-teaser-lbs/interaktive-uebungen/@@images/Teaser.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/ueber-uns/homepage-teaser-lbs/unser-team/@@images/Teaser.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/img/blogger.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/img/footer-logo-01.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/img/footer-logo-02.png"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de//++theme++plonetheme.lbs/css/roboto/roboto-regular.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de//++theme++plonetheme.lbs/css/roboto/roboto-bold.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/fonts/fontawesome-webfont.woff2?v=4.6.3"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de//++theme++plonetheme.lbs/css/roboto/roboto-italic.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de//++theme++plonetheme.lbs/css/roboto/roboto-light.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://statistik.schule-bw.de/piwik.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++resource++rer.cookieconsent.resources/cookiepolicy.css"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/plonejsi18n?domain=widgets&language=de"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/icheck/skins/minimal/red.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.schule-bw.de/++theme++plonetheme.lbs/lib/royalslider/grab.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://statistik.schule-bw.de/piwik.php?action_name=Landesbildungsserver%20Baden-W%C3%BCrttemberg&idsite=1&rec=1&r=562493&h=15&m=22&s=59&url=https%3A%2F%2Fwww.schule-bw.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=ZX7mnN&pf_net=56.394999992335215&pf_srv=22.059999988414347&pf_tfr=16.6800000006333"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://schule-bw.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

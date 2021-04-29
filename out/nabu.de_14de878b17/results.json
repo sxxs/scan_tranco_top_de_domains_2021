@@ -1,0 +1,782 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.nabu.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 35,
+      "value": "shdjs9j5ib6s16ponsi917nci0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.nabu.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "b7c2ff907c25f6dc65291036d3f7bf37e0be72b0fb6cc7f58d65e8dfeb2162e1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1629021600.0,
+      "not_valid_before": 1560722400.0,
+      "serial_number": 5118908073618727961178540927195991026,
+      "subject": {
+        "commonName": "*.nabu.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.nabu.de/wir-ueber-uns/impressum.html?rev=footer",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://nabu.de/",
+    "https://www.nabu.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://nabu.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/merge.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/style.css?v=186"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/merge.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/custom.js?v=186"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.js?pids=embhl"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/klaro/config_bv.js?v=0.7.18.nabu28"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/klaro/klaro-no-css.js?v=0.7.18.nabu28"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/klaro/klaro.min.css?v=0.7.18.nabu28"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/logo.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/200819-jb-teaserbild.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/menschen/familie/150511-nabu-familie-2-christine-kuchem.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/voegel/schnaepperverwandte/blaukehlchen/141104-nabu-blaukehlchen-frank-derer.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/voegel/meisen-beutelmeisen/151005-nabu-blaumeisenfuetterung-rita-priemer.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/pilze/180704-nabu-buchenschleimruebling-wilfried-martin.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/pflanzen/wildpflanzen/waldkraeuter/160406-nabu-scharbockskraut-helge-may.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/natur-landschaft/lebensraeume/wald/laubwald/200915-nabu-marianne-steiner-picasa.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/umwelt/klima-wetter/klimawandel/151211-nabu-gletscher-spitzbergen-christoph-kasulke2.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/210318_rotschenkel_matthias_sch__f_680x453.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/170929-nabu-schneeleo-cathal-o-donoghue-680x453.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/210408-nabu-infohotline-eric-neuling-680x453.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/lurche/kroeten/200213-nabu-erdkroeten-karl-heinz-fuldner.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/saeugetiere/meeressaeuger/160518-nabu-schweinswal-willi-rolfes3.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/umwelt/verkehr/verkehrstraeger/oepnv/fittosize_766_383_fc3fb4466ad2a9438da8ea4e8bd9dcb0_140930-nabu-strassenbahnbaustelle-helge-may.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/saeugetiere/raubtiere/hundeartige/wolf/210419_nina_uebegriffe_welt_766x383.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/artenschutz/vogelschutz/krankheiten/200408-nabu-blaumeise-otto-schaefer766x383b.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/projekte-aktionen/stunde-der-gartenvoegel/210211_sdg_banner_766x383.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/umwelt/verkehr/20210406-nabu-keyvisual-b__ndnis-sozialvertr__gliche-mobilit__tswende-elisabeth-deim_766x383.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/umwelt/verkehr/strassen-bruecken/autobahn/fittosize_766_383_c824b8dede921197813fe955f20176a0_150306-nabu-ahrtalbruecke-helge-may2.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/natur-landschaft/lebensraeume/aecker/getreideaecker/150721-nabu-klatschmohnacker-klemens-karkow766x383.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/natur-landschaft/landnutzung/landwirtschaft/170602-nabu-pestizide-shutterstockleonideremeychuk766x383.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu-netz.de/fileadmin/Dateien/Bilder/NABU_allgemein/Personen/Sonstige/Starkmacherseminar-Fortgeschrittene-Charlotte-Blum-605.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu-netz.de/fileadmin/user_upload/150611-nabu-sommerlicher-staudengarten-helge-may-766x383.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://blogs.nabu.de/base/wp-content/uploads/2021/03/Autobahn_2-340x226.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://blogs.nabu.de/base/wp-content/uploads/2021/02/container-5466008_1920-pixabay-Elchinator-340x226.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://blogs.nabu.de/base/wp-content/uploads/2021/02/NH_Vielfalt-im-Garten_NABU-Blog_Header-340x226.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://blogs.nabu.de/base/wp-content/uploads/2021/01/129347844_202855351446283_1324268037132586801_o-340x226.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://blogs.nabu.de/zugvoegel/wp-content/uploads/sites/10/2019/09/Melanie_TT19_01B-340x226.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://blogs.nabu.de/base/wp-content/uploads/2021/01/DSCF9344_klein-340x226.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/deutschlandkarte2.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/jscalendar/calendar-blue.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/jscalendar/calendar.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/jscalendar/lang/calendar-de.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/modules/jscalendar/calendar-setup.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/voegel/stoerche/weissstorch/flug/140808-nabu-weissstorch-frank-derer17.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/oekologisch-leben/festtage/130102-nabu-ostereier-helge-may940x300.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/170920-hope-schneeleo300b.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/lurche/kroeten/200213-nabu-erdkroete-benjamin-harders940x300.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/210408-nabu-infohotline2-eric-neuling-940x300.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/saeugetiere/meeressaeuger/160518-nabu-schweinswal-willi-rolfes940x300.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/oekologisch-leben/festtage/130102-nabu-ostereier-helge-may.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/projekte-aktionen/vogel-des-jahres/jubilaeum/top-ten/210114_nabu-vogelwahl-teaser_680x453.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/saeugetiere/toter_elefant_680x453.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/naju/fittosize_240_240_f159840bd968b9a13c9d39aaa226598f_najuversum_1x1.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/arten/tiere/saeugetiere/nagetiere/fittosize_240_240_bebd5f2d830969eb7ddff3c39f9aa200_150527-nabu-eichhoernchen-frank-derer2.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/quadrat-geschenk-blau.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/regional/nrw/nabu/150108-mitglied-werden-freisteller.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/nabu/fundraising/171204-haenfling-freisteller.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/sonstiges/monatsfoto/210407_aurorapaar_sandra_malz_680x453.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/imperia/md/nabu/images/natur-landschaft/lebensraeume/aecker/getreideaecker/150721-nabu-klatschmohnacker-klemens-karkow2.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/Union_Jack.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/link_facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/link_twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/link_instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/link_youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/link_mail.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/print.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.Styles.css?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.Core.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.pub.Config.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/search.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/list-point2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/nabu-netz2.png"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/font1.ttf"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/font3.ttf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/rs_nabu_skin/RsNabuStyles.css"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/fontawesome-webfont.woff?v=4.2.0;charset=utf-8"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/font2.ttf"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/prev.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/next.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/loading.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/close.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/css/fa-brands-400.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/small-map.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/images/tab-slider.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.lib.Facade.adapter.jquery.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.Common.Settings.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.PlayerAPI.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.HL.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/ReadSpeaker.ui.js?v=2.5.8.3406"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/mods/enlargeHL/ReadSpeaker.enlargeHL.js?v=...3406"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nabu.de/css_nabu/2014/js/readspeaker/mods/enlargeHL/ReadSpeaker.enlargeHL.css?v=...3406"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://nabu.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.nabu-netz.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

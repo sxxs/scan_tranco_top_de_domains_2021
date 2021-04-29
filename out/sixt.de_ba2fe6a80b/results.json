@@ -1,0 +1,831 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".sixt.de",
+      "expires": 1621522422.298546,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599200.298546076,
+      "name": "__cfduid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 51,
+      "value": "d7a82c9e1ba35e164ab08a1157e2a35501618930422"
+    },
+    {
+      "domain": "www.sixt.de",
+      "expires": 1641048823,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 22125601,
+      "name": "sx_page_loaded",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": "www.sixt.de",
+      "expires": 1641048823,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 22125601,
+      "name": "sx_script_loaded",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "1"
+    },
+    {
+      "domain": ".sixt.de",
+      "expires": 1634482425,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15559203,
+      "name": "optimizelyEndUserId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 54,
+      "value": "oeu1618930425074r0.4621252668501179"
+    },
+    {
+      "domain": "rum.optimizely.com",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "optimizelyRumLB",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 16,
+      "value": "1"
+    },
+    {
+      "domain": "rum.optimizely.com",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "AWSELB",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 176,
+      "value": "799B7FFB1A5DA8D5E09A5D5213B368BD54D987883D4B3B3193567422FA84E59605DE048B6A4B6B488C4DAEFC462F7170F3506CF8FBBF97BF49DB8D376740696C04BFC790186C2218CD3B9501BF25DCB35AD498690F"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 2,
+    "trackers": [
+      "optimizely.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.sixt.de/",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [],
+          "functionName": "e.getCanvasFingerprint",
+          "location": {
+            "columnNumber": 236975,
+            "lineNumber": 0
+          },
+          "url": "https://www.sixt.de/ibe/main.173be9c027e81672321f.js"
+        },
+        {
+          "args": [],
+          "functionName": "e.getFingerprint",
+          "location": {
+            "columnNumber": 236153,
+            "lineNumber": 0
+          },
+          "url": "https://www.sixt.de/ibe/main.173be9c027e81672321f.js"
+        },
+        {
+          "args": [],
+          "functionName": "a",
+          "location": {
+            "columnNumber": 407553,
+            "lineNumber": 0
+          },
+          "url": "https://www.sixt.de/ibe/main.173be9c027e81672321f.js"
+        },
+        {
+          "args": [
+            {},
+            {
+              "baseURL": "https://web-api.orange.sixt.com",
+              "headers": {
+                "common": {
+                  "Accept": "application/json, text/plain, */*"
+                },
+                "delete": {},
+                "get": {},
+                "head": {},
+                "patch": {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                },
+                "post": {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                },
+                "put": {
+                  "Content-Type": "application/x-www-form-urlencoded"
+                }
+              },
+              "maxBodyLength": -1,
+              "maxContentLength": -1,
+              "method": "get",
+              "reduxSourceAction": {
+                "payload": {
+                  "request": {
+                    "method": "GET",
+                    "url": "https://web-api.orange.sixt.com/v2/apps/campaign?trucks=false"
+                  }
+                },
+                "type": "GET-INITIAL-SETTINGS_REQUEST"
+              },
+              "responseType": "json",
+              "timeout": 0,
+              "transformRequest": [
+                null
+              ],
+              "transformResponse": [
+                null
+              ],
+              "url": "https://web-api.orange.sixt.com/v2/apps/campaign?trucks=false",
+              "xsrfCookieName": "XSRF-TOKEN",
+              "xsrfHeaderName": "X-XSRF-TOKEN"
+            }
+          ],
+          "functionName": "r.interceptors.request",
+          "location": {
+            "columnNumber": 1900914,
+            "lineNumber": 0
+          },
+          "url": "https://www.sixt.de/ibe/main.173be9c027e81672321f.js"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "cmKDv3(nkZX./@27hil%!&^B~jd5c2p49obFfG)dc18ec*#ga",
+            2,
+            15
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "cmKDv3(nkZX./@27hil%!&^B~jd5c2p49obFfG)dc18ec*#ga",
+            4,
+            17
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": null,
+      "all_set_js": null,
+      "any_set_js": null,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": true
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "6c874abab4cb72feefc255c24a7b2ef4bbd12d2514042430f4798f1030bf8ea1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Cloudflare Inc ECC CA-3",
+        "countryName": "US",
+        "organizationName": "Cloudflare, Inc."
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1633168800.0,
+      "not_valid_before": 1601589600.0,
+      "serial_number": 11439710635037049415977604513022951761,
+      "subject": {
+        "commonName": "sni.cloudflaressl.com",
+        "countryName": "US",
+        "localityName": "San Francisco",
+        "organizationName": "Cloudflare, Inc.",
+        "stateOrProvinceName": "CA"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.sixt.de/informationen/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://sixt.de/",
+    "https://www.sixt.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://sixt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCQYbw.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1ryd6DMGb8.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/robotocondensed/v19/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYbw.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/rokkitt/v20/qFdb35qfgYFjGy5hukqqhw5XeRgdi1oVcKDMGb8.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/webpack-runtime-606e6418b1619daf6593.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/framework-b3009e484785ae60741c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/app-3be6b77cf77aa9adb0bc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/styles-d90b842fc7c1bdce8fc9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/32bf900419fdf6b64d348616629cb13d5be441ef-ab3a00fefede234538b0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/1eb17fa71617544c39a010b5a485231470b9203b-0cf3c98164a64766ea2c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/component---src-templates-home-js-6e80e045f8b4244c6d60.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/page-data/www.sixt.de/page-data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/page-data/app-data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/skeleton-bundle.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://eum.instana.io/eum.min.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/de662619-1d24-4f67-8af9-ecc8406d9ad5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/96ac5ce6-89c7-4321-84be-d693c60eaf73.jpg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxM.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc-.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYaQ.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/static2/webfonts/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc-.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/73173312-6f3b-4f3f-a309-0c08a6343eec.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sx-content-labs.sixt.io/Assets/dsgvo2.js?vers=20200428"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/bootstrapper.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://web-api.orange.sixt.com/v2/apps/sos"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/b850b7ce-66d9-4f73-9f72-c38e9b5015c9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/35cfa529-339c-4e87-b1ec-91613ef7c56f.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/49f0ea1d-9bb3-4168-806b-7405fbcecf80.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/e4ace2f9-aa7d-40cc-80b1-11dd97001403.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect?v=1&t=event&tid=UA-6642128-30&cid=1531017413.1618930423&aip=1&dl=https://www.sixt.de/&ec=banner_tracking&ea=sx_page_loaded&el=sx_cookie_notice_0&el2=sx_cookie_dismiss_0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect?v=1&t=event&tid=UA-6642128-30&cid=877922241.1618930423&aip=1&dl=https://www.sixt.de/&ec=banner_tracking&ea=sx_script_loaded&el=sx_cookie_notice_0&el2=sx_cookie_dismiss_0"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/bootstrapper.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/runtime~main.863813c0b984bdb692cd.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/vendors.bd0d7f8cebdd4627ddad.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/main.863813c0b984bdb692cd.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/main.173be9c027e81672321f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/commons.6ee624dea05b5aa882f9.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/commons.863813c0b984bdb692cd.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/87.b8f796db7a28757bcb56.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/datafiles/SBhoY85bNkfBW5tKNLeiQd.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.optimizely.com/js/17885742318.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-AppViewBundle.863813c0b984bdb692cd.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-AppViewBundle.1cc5d07448398586841c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/95.696a3073222b05beaf24.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-Plus-ReservationViewDesktopBundle.a702e89961e42c1b918c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-Plus-Home-HomeDesktopContainerBundle.79ed22d0efb4f19fdf92.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://a8220014372.cdn.optimizely.com/client_storage/a8220014372.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-Plus-OfferList-Desktop-container-OfferListContainerDesktopBundle.863813c0b984bdb692cd.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-Plus-OfferList-Desktop-container-OfferListContainerDesktopBundle.f43aebeed18a7cd41407.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/26.b46dbf7c450570d445e8.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-Plus-PersonalDetails-PersonalDetailsBundle.863813c0b984bdb692cd.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sixt.de/ibe/App-Plus-PersonalDetails-PersonalDetailsBundle.a758521e27d0754653a6.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://web-api.orange.sixt.com/v2/apps/campaign?trucks=false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://web-api.orange.sixt.com/v2/apps/campaign?trucks=false"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://eum-eu-west-1.instana.io/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://logx.optimizely.com/v1/events"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/65c2cc0d-0174-4045-ac2f-7d9c660400db.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://rum.optimizely.com/rum"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://eum-eu-west-1.instana.io/"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://rum.optimizely.com/rum"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://eum-eu-west-1.instana.io/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/ac80671a-4df2-4d96-807c-03cb931705fd.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.sixt.io/cms/originals/4424c2a1-30c9-4d29-8cf6-a45797eb4179.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://sixt.de\r",
+  "third_parties": {
+    "fqdns": [
+      "a8220014372.cdn.optimizely.com",
+      "cdn.optimizely.com",
+      "cdn.sixt.io",
+      "eum-eu-west-1.instana.io",
+      "eum.instana.io",
+      "logx.optimizely.com",
+      "rum.optimizely.com",
+      "sx-content-labs.sixt.io",
+      "web-api.orange.sixt.com",
+      "www.google-analytics.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 25
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "a8220014372.cdn.optimizely.com",
+      "cdn.optimizely.com",
+      "eum-eu-west-1.instana.io",
+      "eum.instana.io",
+      "logx.optimizely.com",
+      "rum.optimizely.com",
+      "www.google-analytics.com"
+    ]
+  }
+}

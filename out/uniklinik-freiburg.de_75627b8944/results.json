@@ -1,0 +1,687 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uniklinik-freiburg.de/de.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8ec38b2741354a1183bc10b4d3d0eba2b65c7b8d098ccbb8502ca1878193c2f6",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1641915314.0,
+      "not_valid_before": 1607614514.0,
+      "serial_number": 11124288940163513614044554982,
+      "subject": {
+        "commonName": "www.uniklinik-freiburg.de",
+        "countryName": "DE",
+        "localityName": "Freiburg im Breisgau",
+        "organizationName": "Universitaetsklinikum Freiburg",
+        "organizationalUnitName": "Klinikrechenzentrum",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uniklinik-freiburg.de/footernavigation/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uniklinik-freiburg.de/",
+    "https://www.uniklinik-freiburg.de/",
+    "https://www.uniklinik-freiburg.de/de.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uniklinik-freiburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/de.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_cpm/Resources/Public/Stylesheets/styles.css?1594300028"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/magnific-popup.css?1594300016"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/basic.css?1613726613"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/newsfeed.css?1594300016"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/datepicker/jquery-ui-1.8.21.custom.css?1594300016"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/jgd-dropdown/jquery.jgd.dropdown.css?1594300016"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/Vendor/shariff/shariff.complete.css?1594300016"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/viewport.css?1594300016"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/home-2019.css?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/respond.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/modernizr.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/swfobject.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery-ui-1.10.4.custom.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.ui.datepicker.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.ui.datepicker-lang.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.detectmobilebrowser.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.jqplugin.1.0.2.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.easing.1.3.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.fullscreenr.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/overlay.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/toolbox.expose.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.lightbox.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.jgd.dropdown.as.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.validationEngine.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/newsfeed.js?1611045381"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/functions.js?1613395825"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.scrollable.min.js?1603445937"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.scrollable.autoscroll.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/ce_content_slider.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/ce_content_slider_new.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/ce_content_slider_new2.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/jquery.magnific-popup.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/home-2019.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/js/5508b6c4f0.js?1584114152"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/fileadmin/buehnenbilder/start_index.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/logo.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/UKF_Spendenkampagne_Button_Logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/fileadmin/_processed_/4/e/csm_Corona_2_ecba2c1e53.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/scroll-down.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/_processed_/9/d/csm_Herzschmerz_5b78c1d0c7.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/_processed_/f/e/csm_Neurodermitis_4_Arzt-und-Patientin_istock%40hisa-nishiya_9470caae88.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/_processed_/b/3/csm_Leber_7a3764c335.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/_processed_/0/c/csm_Schwangerschaftsdiabetes_OM_cf2b754c3f.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/_processed_/f/8/csm_Hebammenwissenschaft_3abb909ddf.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/_processed_/b/6/csm_Schweigend_Sprechen_lernen_07ba937ead.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/fileadmin/_processed_/9/0/csm_UKD_Startseite_20190410_Grafiken1_1ed07d2b42.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/fileadmin/_processed_/4/9/csm_UKD_Startseite_20190410_Grafiken4_8b0f0b4418.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/fileadmin/_processed_/2/0/csm_UKD_Startseite_20190410_Grafiken2_c2be01a2f9.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/jquery.datetimepicker.min.js?1615198332"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/parsley.min.js?1615198332"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.js?1615198332"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1615198332"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/powermail_cond/Resources/Public/JavaScript/PowermailCondition.min.js?1542389828"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/Vendor/shariff/shariff.min.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/JavaScript/mfg.js?1594300016"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3temp/assets/js/c6d1c1dc79.js?1582809232"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_cpm/Resources/Public/JavaScript/oil-1.3.5/oil.1.3.5as-RELEASE.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/print.css?1613726613"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/opensans/OpenSans-Regular-webfont.woff"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/logo.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sprites.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/eng24.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/rus24.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/UKF_Spendenkampagne_Button_Bg.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-1.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-2.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-3.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-5.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-6.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-9.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/sidebar-nav-icon-4.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/images/icon-fuss_instagram.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/opensans/OpenSans-Light-webfont.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Resources/Public/StyleSheets/opensans/OpenSans-Bold-webfont.woff"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://www.uniklinik-freiburg.de/fileadmin/01_Home_neu/Flug_Uniklinik_2020_Deutsch_HD_MP4_Homepage_mittlere_Bitrate.mp4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Extension/as_cpm/Resources/Public/JavaScript/oil-chunks/1.1.3.5-RELEASE.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uniklinik-freiburg.de/typo3conf/ext/as_template/Extension/as_cpm/Resources/Public/JavaScript/oil-chunks/0.1.3.5-RELEASE.chunk.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31556926",
+      "includeSubDomains": false,
+      "max-age": 31556926,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uniklinik-freiburg.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

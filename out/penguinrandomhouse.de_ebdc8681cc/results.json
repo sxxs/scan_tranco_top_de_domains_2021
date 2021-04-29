@@ -1,0 +1,956 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "XSRF-TOKEN",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 46,
+      "value": "3605b0a4-eebe-46f3-89df-987f3c911f0f"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 53,
+      "value": "47576E871AEB95144DCBAD3097CEEA16.mainworker"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": 1650460258.486051,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201.486051083,
+      "name": "watchlist",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 117,
+      "value": "eyJrZXkiOiIwMWEyNGVlMTEyMjI0MTNhOGMyYjlmNDA3YjUyYjBiMCIsIndhdGNobGlzdElkIjoxNjE4OTI0MjU4MTM4LCJjb3VudCI6MH0="
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "prh.authenticated",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 18,
+      "value": "0"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "prh.cscConfirmed",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 17,
+      "value": "0"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "prh.authorAlertConfirmed",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 25,
+      "value": "0"
+    },
+    {
+      "domain": ".penguinrandomhouse.de",
+      "expires": 1681996258,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 29,
+      "value": "GA1.2.538025986.1618924259"
+    },
+    {
+      "domain": ".penguinrandomhouse.de",
+      "expires": 1619010658,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.2108256943.1618924259"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": 1650460259,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "_uc_referrer",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 18,
+      "value": "direct"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": 1650460259,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "_uc_last_referrer",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 23,
+      "value": "direct"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": 1650460259,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "_uc_initial_landing_page",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 60,
+      "value": "https%3A//www.penguinrandomhouse.de/"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": 1618927859,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10802,
+      "name": "_uc_current_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 23,
+      "value": "true"
+    },
+    {
+      "domain": "www.penguinrandomhouse.de",
+      "expires": 1650460259,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "_uc_visits",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 11,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 7,
+    "first_party_short": 6,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.penguinrandomhouse.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": false,
+      "any_set_js": false,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": false,
+    "trackers": [
+      {
+        "anonymize_ip": false,
+        "name": "t0",
+        "tracking_id": "UA-8151500-5"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0ead9e04d0805d6c79664e26a871eeb02c185d0c6f818a616d410e57b5fb60d2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1644879599.0,
+      "not_valid_before": 1614121200.0,
+      "serial_number": 14090268582890605251872081219312628587,
+      "subject": {
+        "commonName": "*.penguinrandomhouse.de",
+        "countryName": "DE",
+        "localityName": "G\u00fctersloh",
+        "organizationName": "Penguin Random House Verlagsgruppe GmbH"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.penguinrandomhouse.de/Impressum-Verlagsgruppe-Random-House/aid63189.rhd",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://penguinrandomhouse.de/",
+    "https://www.penguinrandomhouse.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://penguinrandomhouse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/css/bundle.css?v=MS4yNS4zLXJoLXJlbGF1bmNo"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/js/async.js?path=/webjars/rh-relaunch&v=MS4yNS4zLXJoLXJlbGF1bmNo&minified=true"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/img/publishers/penguin_randomhouse.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/prh_fullbanner_1140x360px_kuestenkrimis_91720.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/garten_1140x360_91189.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/lesefruehling_640x360_91546.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/prh_halfbanner_640x360px_truecrime_91545.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/img/logo_penguin-randomhouse-footer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/img/logo_jetzteinbuch.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/img/logo_buylocal.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/img/logo_freewordsturkey.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TKJKXRR"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/fonts/rh18-icons.woff2?u5c6382a8"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/fonts/ShiftWeb-Light.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/fonts/FortWeb-Book.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/rh-responsiveWeb-web/webjars/rh-relaunch/1.25.3/assets/fonts/FortWeb-Bold.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/gtm/js?id=GTM-KGPFLWZ&cid=538025986.1618924259"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/webjars/rh-relaunch/assets/js/jquery-check.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/webjars/rh-relaunch/assets/js/popper.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://layover.penguinrandomhouse.de/rh-cookieconsent.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/cookiebanner/1.gif?source=www.penguinrandomhouse.de&variant=Kontrollpixel"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/webjars/rh-relaunch/assets/js/external.min.js?v=MS4yNS4zLXJoLXJlbGF1bmNo"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/webjars/rh-relaunch/assets/js/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.penguinrandomhouse.de/webjars/rh-relaunch/assets/js/bundle.min.js?v=MS4yNS4zLXJoLXJlbGF1bmNo"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api.js?onload=onloadCallbackRecaptcha&render=explicit"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/edition/cover/195px/9783442491964.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/edition/cover/195px/9783734110214.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/edition/cover/195px/9783764507527.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/edition/cover/195px/9783442759217.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/edition/cover/195px/9783517303116.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/edition/cover/195px/9783809027393.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/fleck_1140x360_91536.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/kankimaeki_1140x360_91538.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/lipinska_1140x360_91540.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/nicholas_1140x360_91542.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/360x204px_teasergridbanner_ostern2020_91174.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/360x204px_teasergridbannerebook2020_90756.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.penguinrandomhouse.de/content/attachment/webteaser/360x204px_teasergridbanner_april_91301.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "http://*.issuu.com",
+        "https://*.issuu.com",
+        "http://*.digitalstores.net",
+        "https://*.digitalstores.net",
+        "https://www.facebook.com",
+        "https://*.randomhouse.de",
+        "https://www.google.com",
+        "https://www.google.de",
+        "https://www.google.at",
+        "https://www.google.ch",
+        "https://www.google-analytics.com",
+        "https://*.g.doubleclick.net",
+        "http://*.playbuzz.com",
+        "https://*.playbuzz.com",
+        "https://*.addthis.com",
+        "http://*.addthis.com",
+        "http://www.google-analytics.com",
+        "http://*.hotjar.com:*",
+        "https://*.hotjar.com:*",
+        "https://vc.hotjar.io:*",
+        "wss://*.hotjar.com",
+        "https://ct.pinterest.com",
+        "https://book-base.de",
+        "https://*.tiktok.com"
+      ],
+      "default-src": [
+        "'self'",
+        "https://s.pinimg.com",
+        "youtube.com",
+        "www.youtube.com",
+        "https://youtube.com",
+        "https://www.youtube.com",
+        "https://ajax.googleapis.com",
+        "maps.googleapis.com",
+        "csi.gstatic.com",
+        "www.google-analytics.com",
+        "https://www.google-analytics.com",
+        "https://www.googletagmanager.com",
+        "https://tagmanager.google.com",
+        "*.g.doubleclick.net",
+        "https://*.g.doubleclick.net",
+        "www.bic-media.com",
+        "http://w.soundcloud.com",
+        "https://*.soundcloud.com",
+        "http://platform.instagram.com",
+        "https://platform.instagram.com",
+        "https://randomhouse.scnem.com",
+        "https://cloudbridge.eu",
+        "http://cloudbridge.eu",
+        "https://sharingbox.rhspecial.de",
+        "https://*.google.com",
+        "https://www.youtube-nocookie.com",
+        "https://s7.addthis.com",
+        "https://www.facebook.com/",
+        "https://vars.hotjar.com/",
+        "https://cdn.podigee.com/",
+        "https://open.spotify.com",
+        "https://platform.twitter.com",
+        "https://syndication.twitter.com",
+        "https://*.instagram.com",
+        "https://*.pinterest.com"
+      ],
+      "font-src": [
+        "'self'",
+        "fonts.gstatic.com",
+        "https://use.typekit.net/",
+        "https://cdn.podlove.org/",
+        "http://script.hotjar.com",
+        "https://script.hotjar.com",
+        "https://*.podigee.com"
+      ],
+      "frame-ancestors": [
+        "'self'",
+        "https://open.spotify.com",
+        "http://rhdemobilepreview:28080/",
+        "http://rhdemobilepreview:28081/"
+      ],
+      "frame-src": [
+        "'self'",
+        "https://audionow.de/",
+        "https://open.spotify.com",
+        "https://www.youtube-nocookie.com/",
+        "https://vars.hotjar.com/",
+        "https://www.facebook.com/",
+        "https://s7.addthis.com/",
+        "https://s.pinimg.com",
+        "youtube.com",
+        "www.youtube.com",
+        "https://youtube.com",
+        "https://www.youtube.com",
+        "https://ajax.googleapis.com",
+        "maps.googleapis.com",
+        "csi.gstatic.com",
+        "www.google-analytics.com",
+        "https://www.google-analytics.com",
+        "https://www.googletagmanager.com",
+        "https://tagmanager.google.com",
+        "*.g.doubleclick.net",
+        "https://*.g.doubleclick.net",
+        "www.bic-media.com",
+        "http://w.soundcloud.com",
+        "https://*.soundcloud.com",
+        "http://platform.instagram.com",
+        "https://platform.instagram.com",
+        "https://randomhouse.scnem.com",
+        "https://penguinrandomhouse.scnem2.com",
+        "https://cloudbridge.eu",
+        "http://cloudbridge.eu",
+        "https://sharingbox.rhspecial.de",
+        "https://*.google.com",
+        "https://www.youtube-nocookie.com",
+        "https://s7.addthis.com",
+        "https://cdn.podigee.com/",
+        "https://*.twitter.com",
+        "https://*.instagram.com",
+        "https://*.pinterest.com",
+        "https://*.audionow.de",
+        "https://book-base.de"
+      ],
+      "header_value": "default-src 'self' https://s.pinimg.com youtube.com  www.youtube.com https://youtube.com  https://www.youtube.com  https://ajax.googleapis.com maps.googleapis.com csi.gstatic.com www.google-analytics.com https://www.google-analytics.com https://www.googletagmanager.com https://tagmanager.google.com *.g.doubleclick.net https://*.g.doubleclick.net www.bic-media.com http://w.soundcloud.com https://*.soundcloud.com http://platform.instagram.com https://platform.instagram.com https://randomhouse.scnem.com https://cloudbridge.eu http://cloudbridge.eu https://sharingbox.rhspecial.de https://*.google.com https://www.youtube-nocookie.com https://s7.addthis.com https://www.facebook.com/ https://vars.hotjar.com/ https://cdn.podigee.com/ https://open.spotify.com https://platform.twitter.com https://syndication.twitter.com https://*.instagram.com https://*.pinterest.com; connect-src 'self' http://*.issuu.com https://*.issuu.com http://*.digitalstores.net https://*.digitalstores.net https://www.facebook.com https://*.randomhouse.de  https://www.google.com https://www.google.de https://www.google.at https://www.google.ch https://www.google-analytics.com https://*.g.doubleclick.net http://*.playbuzz.com https://*.playbuzz.com  https://*.addthis.com http://*.addthis.com http://www.google-analytics.com http://*.hotjar.com:* https://*.hotjar.com:* https://vc.hotjar.io:* wss://*.hotjar.com https://ct.pinterest.com https://book-base.de https://*.tiktok.com; font-src 'self' fonts.gstatic.com https://use.typekit.net/ https://cdn.podlove.org/ http://script.hotjar.com https://script.hotjar.com https://*.podigee.com; frame-ancestors 'self' https://open.spotify.com http://rhdemobilepreview:28080/ http://rhdemobilepreview:28081/ ; frame-src 'self' https://audionow.de/ https://open.spotify.com https://www.youtube-nocookie.com/ https://vars.hotjar.com/ https://www.facebook.com/ https://s7.addthis.com/ https://s.pinimg.com youtube.com  www.youtube.com https://youtube.com  https://www.youtube.com  https://ajax.googleapis.com maps.googleapis.com csi.gstatic.com www.google-analytics.com https://www.google-analytics.com https://www.googletagmanager.com https://tagmanager.google.com *.g.doubleclick.net https://*.g.doubleclick.net www.bic-media.com http://w.soundcloud.com https://*.soundcloud.com http://platform.instagram.com https://platform.instagram.com https://randomhouse.scnem.com https://penguinrandomhouse.scnem2.com https://cloudbridge.eu http://cloudbridge.eu https://sharingbox.rhspecial.de  https://*.google.com  https://www.youtube-nocookie.com https://s7.addthis.com  https://cdn.podigee.com/  https://*.twitter.com https://*.instagram.com https://*.pinterest.com https://*.audionow.de https://book-base.de; img-src 'self' data: www.google-analytics.com csi.gstatic.com https://*.outbrain.com/ https://image.isu.pub www.googletagmanager.com *.g.doubleclick.net https://syndication.twitter.com https://o.twimg.com http://platform.twitter.com https://*.twimg.com http://randomhouse.scnem.com https://penguinrandomhouse.scnem2.com https://randomhouse.scnem.com https://www.randomhouse.de https://pixel.quantserve.com https://*.google.com https://www.google.at https://www.google.ch https://www.google.dk https://www.facebook.com https://www.googleadservices.com https://www.google.de https://*.g.doubleclick.net https://*.playbuzz.com http://*.playbuzz.com https://www.google-analytics.com https://www.addthis.com https://*.pinterest.com https://cx.atdmt.com https://cs.lkqd.net ttps://maps.gstatic.com https://maps.googleapis.com https://*.hotjar.com http://*.hotjar.com  https://*.smartadserver.com https://www.penguinrandomhouse.de https://book-base.de; manifest-src 'self' data: www.google-analytics.com csi.gstatic.com https://*.outbrain.com/ https://image.isu.pub www.googletagmanager.com *.g.doubleclick.net https://syndication.twitter.com https://o.twimg.com http://platform.twitter.com https://*.twimg.com http://randomhouse.scnem.com https://penguinrandomhouse.scnem2.com https://randomhouse.scnem.com https://www.randomhouse.de https://pixel.quantserve.com https://*.google.com https://www.google.at https://www.google.ch https://www.google.dk https://www.facebook.com https://www.googleadservices.com https://www.google.de https://*.g.doubleclick.net https://*.playbuzz.com http://*.playbuzz.com https://www.google-analytics.com https://www.addthis.com https://*.pinterest.com https://cx.atdmt.com https://cs.lkqd.net ttps://maps.gstatic.com https://maps.googleapis.com https://*.hotjar.com http://*.hotjar.com  https://*.smartadserver.com https://www.penguinrandomhouse.de https://book-base.de; media-src 'self' 10.4.91.62 www.penguinrandomhouse.de https://book-base.de; object-src 'self' 10.4.91.62 www.penguinrandomhouse.de; report-to /ContentSecurityPolicyReporter; script-src 'self' https://*.outbrain.com/ https://s.pinimg.com rhspecials.penguinrandomhouse.de www.penguinrandomhouse.de 'unsafe-eval' 'unsafe-inline' http://e.issuu.com/embed.js https://e.issuu.com/embed.js https://*.googleapis.com *.googleapis.com csi.gstatic.com www.google-analytics.com https://www.google-analytics.com http://www.googletagmanager.com https://www.googletagmanager.com https://tagmanager.google.com http://platform.instagram.com https://platform.instagram.com http://platform.twitter.com https://platform.twitter.com https://cdn.syndication.twimg.com https://randomhouse.scnem.com http://randomhouse.scnem.com  https://penguinrandomhouse.scnem2.com https://sharingbox.rhspecial.de https://secure.quantserve.com https://rules.quantcount.com  https://*.google.com https://www.google.de https://www.google.at https://www.google.ch https://www.gstatic.com https://connect.facebook.net  https://cdn.adrtx.net  http://vgrh.stage.digitalstores.net https://stage.digitalstores.net https://www.googleadservices.com https://layover.penguinrandomhouse.de  https://layover.randomhouse.de https://www.bic-media.com https://*.g.doubleclick.net https://www.facebook.com https://*.playbuzz.com http://*.playbuzz.com https://cdnjs.cloudflare.com https://s7.addthis.com http://s7.addthis.com http://m.addthisedge.com https://v1.addthisedge.com https://v1.addthis.com http://m.addthis.com youtube.com  www.youtube.com https://youtube.com  https://www.youtube.com http://tagmanager.google.com https://s.ytimg.com https://*.podigee.com https://randomhouse.digitalstores.net/pbs.2.js https://cdn.podlove.org  https://*.hotjar.com https://www.instagram.com https://*.pinterest.com https://*.tiktok.com; style-src 'self' 'unsafe-inline' tagmanager.google.com fonts.googleapis.com http://platform.twitter.com https://*.twimg.com  https://res-format-story.playbuzz.com https://optimize.google.com https://*.typekit.net https://cdn.podlove.org/ https://*.podigee.com; worker-src *",
+      "img-src": [
+        "'self'",
+        "data:",
+        "www.google-analytics.com",
+        "csi.gstatic.com",
+        "https://*.outbrain.com/",
+        "https://image.isu.pub",
+        "www.googletagmanager.com",
+        "*.g.doubleclick.net",
+        "https://syndication.twitter.com",
+        "https://o.twimg.com",
+        "http://platform.twitter.com",
+        "https://*.twimg.com",
+        "http://randomhouse.scnem.com",
+        "https://penguinrandomhouse.scnem2.com",
+        "https://randomhouse.scnem.com",
+        "https://www.randomhouse.de",
+        "https://pixel.quantserve.com",
+        "https://*.google.com",
+        "https://www.google.at",
+        "https://www.google.ch",
+        "https://www.google.dk",
+        "https://www.facebook.com",
+        "https://www.googleadservices.com",
+        "https://www.google.de",
+        "https://*.g.doubleclick.net",
+        "https://*.playbuzz.com",
+        "http://*.playbuzz.com",
+        "https://www.google-analytics.com",
+        "https://www.addthis.com",
+        "https://*.pinterest.com",
+        "https://cx.atdmt.com",
+        "https://cs.lkqd.net",
+        "ttps://maps.gstatic.com",
+        "https://maps.googleapis.com",
+        "https://*.hotjar.com",
+        "http://*.hotjar.com",
+        "https://*.smartadserver.com",
+        "https://www.penguinrandomhouse.de",
+        "https://book-base.de"
+      ],
+      "manifest-src": [
+        "'self'",
+        "data:",
+        "www.google-analytics.com",
+        "csi.gstatic.com",
+        "https://*.outbrain.com/",
+        "https://image.isu.pub",
+        "www.googletagmanager.com",
+        "*.g.doubleclick.net",
+        "https://syndication.twitter.com",
+        "https://o.twimg.com",
+        "http://platform.twitter.com",
+        "https://*.twimg.com",
+        "http://randomhouse.scnem.com",
+        "https://penguinrandomhouse.scnem2.com",
+        "https://randomhouse.scnem.com",
+        "https://www.randomhouse.de",
+        "https://pixel.quantserve.com",
+        "https://*.google.com",
+        "https://www.google.at",
+        "https://www.google.ch",
+        "https://www.google.dk",
+        "https://www.facebook.com",
+        "https://www.googleadservices.com",
+        "https://www.google.de",
+        "https://*.g.doubleclick.net",
+        "https://*.playbuzz.com",
+        "http://*.playbuzz.com",
+        "https://www.google-analytics.com",
+        "https://www.addthis.com",
+        "https://*.pinterest.com",
+        "https://cx.atdmt.com",
+        "https://cs.lkqd.net",
+        "ttps://maps.gstatic.com",
+        "https://maps.googleapis.com",
+        "https://*.hotjar.com",
+        "http://*.hotjar.com",
+        "https://*.smartadserver.com",
+        "https://www.penguinrandomhouse.de",
+        "https://book-base.de"
+      ],
+      "media-src": [
+        "'self'",
+        "10.4.91.62",
+        "www.penguinrandomhouse.de",
+        "https://book-base.de"
+      ],
+      "object-src": [
+        "'self'",
+        "10.4.91.62",
+        "www.penguinrandomhouse.de"
+      ],
+      "report-to": [
+        "/ContentSecurityPolicyReporter"
+      ],
+      "script-src": [
+        "'self'",
+        "https://*.outbrain.com/",
+        "https://s.pinimg.com",
+        "rhspecials.penguinrandomhouse.de",
+        "www.penguinrandomhouse.de",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "http://e.issuu.com/embed.js",
+        "https://e.issuu.com/embed.js",
+        "https://*.googleapis.com",
+        "*.googleapis.com",
+        "csi.gstatic.com",
+        "www.google-analytics.com",
+        "https://www.google-analytics.com",
+        "http://www.googletagmanager.com",
+        "https://www.googletagmanager.com",
+        "https://tagmanager.google.com",
+        "http://platform.instagram.com",
+        "https://platform.instagram.com",
+        "http://platform.twitter.com",
+        "https://platform.twitter.com",
+        "https://cdn.syndication.twimg.com",
+        "https://randomhouse.scnem.com",
+        "http://randomhouse.scnem.com",
+        "https://penguinrandomhouse.scnem2.com",
+        "https://sharingbox.rhspecial.de",
+        "https://secure.quantserve.com",
+        "https://rules.quantcount.com",
+        "https://*.google.com",
+        "https://www.google.de",
+        "https://www.google.at",
+        "https://www.google.ch",
+        "https://www.gstatic.com",
+        "https://connect.facebook.net",
+        "https://cdn.adrtx.net",
+        "http://vgrh.stage.digitalstores.net",
+        "https://stage.digitalstores.net",
+        "https://www.googleadservices.com",
+        "https://layover.penguinrandomhouse.de",
+        "https://layover.randomhouse.de",
+        "https://www.bic-media.com",
+        "https://*.g.doubleclick.net",
+        "https://www.facebook.com",
+        "https://*.playbuzz.com",
+        "http://*.playbuzz.com",
+        "https://cdnjs.cloudflare.com",
+        "https://s7.addthis.com",
+        "http://s7.addthis.com",
+        "http://m.addthisedge.com",
+        "https://v1.addthisedge.com",
+        "https://v1.addthis.com",
+        "http://m.addthis.com",
+        "youtube.com",
+        "www.youtube.com",
+        "https://youtube.com",
+        "https://www.youtube.com",
+        "http://tagmanager.google.com",
+        "https://s.ytimg.com",
+        "https://*.podigee.com",
+        "https://randomhouse.digitalstores.net/pbs.2.js",
+        "https://cdn.podlove.org",
+        "https://*.hotjar.com",
+        "https://www.instagram.com",
+        "https://*.pinterest.com",
+        "https://*.tiktok.com"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "tagmanager.google.com",
+        "fonts.googleapis.com",
+        "http://platform.twitter.com",
+        "https://*.twimg.com",
+        "https://res-format-story.playbuzz.com",
+        "https://optimize.google.com",
+        "https://*.typekit.net",
+        "https://cdn.podlove.org/",
+        "https://*.podigee.com"
+      ],
+      "worker-src": [
+        "*"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubdomains",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-FROM https://randomhouse.scnem.com/ https://penguinrandomhouse.scnem.com/ https://shop.randomhouse.de https://www.sinnliche-seiten.de/ https://sinnliche-seiten.de/ https://www.randomhouse.de/ https://www.penguinrandomhouse.de/ https://randomhouse.de/ https://www.buchgeschenkefinder.de/ https://buchgeschenkefinder.de/  http://rhdemobilepreview http://rhdemobilepreview:28080",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://penguinrandomhouse.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ajax.googleapis.com",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.googletagmanager.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 6
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

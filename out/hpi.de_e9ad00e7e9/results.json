@@ -1,0 +1,803 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".google.com",
+      "expires": 1634735584.882805,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15818401.882805109,
+      "name": "NID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 178,
+      "value": "213=H1QiH_PjefPR2jOGjiWH8Ux7yeszTw0bH4yRwPpanMwiaR2WMkkRfTy-C6kBvDsJImktt3Deg4NSlytqYwWHaRTTiDwvWdgyaI_Mzf757UsSXoJe1mv3STUl7UF3J83Ef4AL2Jmf354sz7_d_e5m1vbtU-33yNzfYguYGkXCL5g"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://hpi.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5a6402921d93fb3ee5ee53a7695dc3ebb3bcb8bd872f73f3ebffcdf88d24aca4",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1633235681.0,
+      "not_valid_before": 1562042081.0,
+      "serial_number": 10283692304283795851197106773,
+      "subject": {
+        "commonName": "hpi.de",
+        "countryName": "DE",
+        "localityName": "Potsdam",
+        "organizationName": "Universitaet Potsdam",
+        "organizationalUnitName": "HPI",
+        "stateOrProvinceName": "Brandenburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://hpi.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hpi.de/",
+    "https://hpi.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hpi.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3temp/assets/css/1a788a9a49.css?1582119707"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/webfont.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/lagecy/csc.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/bootstrap_hpi.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/colorbox/colorbox.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/screen_headeranpassung.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/flowplayer/flowplayer.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/ext/tx_dscoverview.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/responsiveslides.css?1582106612"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/doubleclick_player/Resources/Public/Styles/doubleclickVideo.css?1609929133"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/yb_hpiutils/Resources/Public/css/googlesearch.css?1391695411"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/yb_videoplayer/Resources/Public/css/videoplayer.css?1555315197"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/hpi/css/we_cookie_consent/we_cookie_consent_style.css?1607511672"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/ci_university/Resources/Public/Styles/university.css?1537427088"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/jquery-1.10.x-1.10.x.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/basic-jquery-slider.min.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/responsiveslides.min.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/yb_hpiutils/Resources/Public/js/googlesearchde.js?1391774674"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/yb_videoplayer/Resources/Public/openhpi_player/es6/webcomponents-bundle.js?1525824061"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/yb_videoplayer/Resources/Public/openhpi_player/es6/video-player.js?1555057384"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/yb_videoplayer/Resources/Public/JS/yb_videoplayer.js?1585214780"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3temp/assets/js/e9e07c5ca0.js?1582107951"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/screen.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/user_upload/hpi/bilder/hintergruende/startseite_hintergrund_1920x1200.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/img/HPI-Favicon-33x33.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/img/SDG_Favicon_44x44.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/img/hpi_logo_srgb_wb_sl1_web80.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/img/SDG_100x100.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/img/claim.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/7/7/csm_Justus-Eilers_1020x420_978a6ab1cb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/d/e/csm_20210412_PSK_SoSe2021_1020x420_a11a253c0f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/f/b/csm_20210401_Theoretische-Informatik_1020x420_b3159285f6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/1/1/csm_20210309_Barberini_Projekt_1020x420_f22f6cdced.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/6/6/csm_20210413_CovRadar_1020x420_3a424637b5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/2/d/csm_20210331_Projekt-AI-Rescue_1020x420_b5534496bc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/7/d/csm_20210302_Disputation_Loster_1020x420_579240d117.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/e/f/csm_2021-01-01_Pape_Disputation_1020x420_c80635b6cb.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/9/f/csm_Studieninformationstag_1020_420_9e03cf0f04.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/1/6/csm_Veranstaltungen-allgemein_a53512e197.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/3/a/csm_news_bewerbungsstart2021_1020x420_7e02d887a8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/d/e/csm_SchulCloud_1020x420_4e3e4625bf.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/c/7/csm_2020-10-11_Ihde_Gloeckner_3DGrafiken_1020x420x_bce5586b4d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/f/8/csm_Corona_DE_1020x420_47059ce4fd.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/2/2/csm_20210420_Wunderbar-Together_1020x420_daaa4b431c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/c/f/csm_20210114_ILC-Desktop-Client_1020x420_0a4ce80ddb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/8/0/csm_humboldts17_1020x420_e774be7d5b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/c/7/csm_News_DesignThinking_5363779299.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/a/4/csm_20210419_openHPI_Process-Mining_1020x420_fc96390bd7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/4/5/csm_20210331_clean-IT-Launch_1020x420_c3a8c9f09b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/6/2/csm_20210318_openHPI_Digital-Entrepreneurship_1020x420_7070a011ce.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/5/a/csm_20210315_11Millionen_Einschreibungen_1020x420_52695c17b3.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/3/b/csm_DigitaleMasterinofwoche_deu_704c0d8b8d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/f/8/csm_Corona_DE_1020x420_4b3fd740d3.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/c/8/csm_SC-1020x420_90cd5d9e4c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/4/1/csm_HPI_Podcast_Neuland_d181fb76b9.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/8/4/csm_Wolfgang_Sobotka_480_600_e22d3f9147.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/2/c/csm_20210420_Wunderbar-Together_400x300_d18d42837c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/9/d/csm_20210419_openHPI_Process-Mining_400x300_a9b56112d9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/1/0/csm_20210413_Covradar_400x300_43d9fb7ee4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/3/7/csm_JustusEilers_400x300_31797bf8ea.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/6/2/csm_20210412_PSK_SoSe2021_400x300_a9119f2a4f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/fileadmin/_processed_/7/5/csm_20210401_Theoretische-Informatik_400x300_86fd1c70a7.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/jquery.colorbox-min.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/tab.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/carousel.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/collapse.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/dropdown.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/transition.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/tooltip.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/hpi.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/jquery.mobile.custom.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/jquery.menu-aim.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/anchorScroll.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/flowplayer/flowplayer.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/js/script.js?1582106612"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/doubleclick_player/Resources/Public/Scripts/doubleclickVideo.js?1568879186"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/we_cookie_consent/Resources/Public/JavaScript/Controller/ConsentController.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/we_cookie_consent/Resources/Public/Library/klaro/klaro.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/piwik/piwik/piwik.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/Ext/dsc_clipclap/ext_dscclipclap.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=a234b211-6be5-4cdb-8a83-9fced25e59bd"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/cse/cse.js?cx=007213871012550606412:3ngj8d3f628"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/css/print.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/img/hpi_web_icons.svg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/fonts/fadc73d8-1cc6-42c1-8f2a-4d03770b8faa.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/ext/hpi_distribution/Resources/Public/Default/fonts/a9edc9ca-e80b-4980-be72-a61233f08071.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cse.google.com/cse/cse.js?cx=007213871012550606412:3ngj8d3f628"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hpi.de/typo3conf/piwik/piwik/piwik.php?action_name=Hasso-Plattner-Institut&idsite=1&rec=1&r=640684&h=15&m=13&s=4&url=https%3A%2F%2Fhpi.de%2F&_id=158992de0f505142&_idts=1618924385&_idvc=1&_idn=0&_refts=0&_viewts=1618924385&send_image=1&cookie=1&res=800x600&gt_ms=100&pv_id=7h59aY"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/cse/static/element/323d4b81541ddb5b/cse_element__en.js?usqp=CAI%3D"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/cse/static/element/323d4b81541ddb5b/default+en.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/cse/static/style/look/v4/default.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=a234b211-6be5-4cdb-8a83-9fced25e59bd"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://hpi.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cse.google.com",
+      "fast.fonts.net",
+      "www.google.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

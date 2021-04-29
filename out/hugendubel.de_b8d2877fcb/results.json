@@ -1,0 +1,5288 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".hugendubel.de",
+      "expires": 1624117556.668896,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 5191200.66889596,
+      "name": "use_https",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 13,
+      "value": "true"
+    },
+    {
+      "domain": "www.hugendubel.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 48,
+      "value": "69BAC95AA1B200229719F652140EAEF1.www03"
+    },
+    {
+      "domain": "www.hugendubel.de",
+      "expires": 3766417203.803895,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2147490847.803895,
+      "name": "lastBranchId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 16,
+      "value": "9814"
+    },
+    {
+      "domain": "www.hugendubel.de",
+      "expires": 1619249783.026933,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 323427.0269329548,
+      "name": "cookiefirst-consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "session": false,
+      "size": 162,
+      "value": "%7B%22necessary%22%3Atrue%2C%22functional%22%3Afalse%2C%22advertising%22%3Afalse%2C%22performance%22%3Afalse%2C%22lastConsentReset%22%3Anull%7D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hugendubel.de/de/",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "ie",
+          "location": {
+            "columnNumber": 33801,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "N",
+          "location": {
+            "columnNumber": 21378,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            []
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "W",
+          "location": {
+            "columnNumber": 30408,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            "not available"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "k",
+          "location": {
+            "columnNumber": 21330,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            "Linux x86_64"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "R",
+          "location": {
+            "columnNumber": 21304,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            "not available"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "B",
+          "location": {
+            "columnNumber": 21278,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "P",
+          "location": {
+            "columnNumber": 21236,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "M",
+          "location": {
+            "columnNumber": 21172,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "O",
+          "location": {
+            "columnNumber": 21149,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "_",
+          "location": {
+            "columnNumber": 21124,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "x",
+          "location": {
+            "columnNumber": 21099,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43053,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43053,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            [
+              800,
+              600
+            ]
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "b",
+          "location": {
+            "columnNumber": 20656,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            [
+              800,
+              600
+            ]
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "y",
+          "location": {
+            "columnNumber": 20505,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            1
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "q",
+          "location": {
+            "columnNumber": 31867,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            1
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "T",
+          "location": {
+            "columnNumber": 20444,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            2
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "w",
+          "location": {
+            "columnNumber": 20384,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            24
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "v",
+          "location": {
+            "columnNumber": 20322,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            "en-US"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "g",
+          "location": {
+            "columnNumber": 20189,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 43191,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "m",
+          "location": {
+            "columnNumber": 20107,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43135,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "i",
+          "location": {
+            "columnNumber": 43053,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            },
+            null
+          ],
+          "functionName": "Ae.get",
+          "location": {
+            "columnNumber": 43262,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            },
+            null
+          ],
+          "functionName": "Ae.getV18",
+          "location": {
+            "columnNumber": 43397,
+            "lineNumber": 16
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            null
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 25134,
+            "lineNumber": 0
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "fingerprint",
+          "location": {
+            "columnNumber": 25110,
+            "lineNumber": 0
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            null
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 30655,
+            "lineNumber": 0
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            "fingerprint",
+            33,
+            [
+              "plugins",
+              "mimeTypes",
+              "userAgent",
+              "platform",
+              "languages",
+              "screen",
+              "touchScreen",
+              "videoCard",
+              "multimediaDevices",
+              "productSub",
+              "navigatorPrototype",
+              "etsl",
+              "screenDesc",
+              "phantomJS",
+              "nightmareJS",
+              "selenium",
+              "webDriver",
+              "webDriverValue",
+              "errorsGenerated",
+              "resOverflow",
+              "accelerometerUsed",
+              "screenMediaQuery",
+              "hasChrome",
+              "detailChrome",
+              "permissions",
+              "iframeChrome",
+              "debugTool",
+              "battery",
+              "deviceMemory",
+              "tpCanvas",
+              "sequentum",
+              "audioCodecs",
+              "videoCodecs",
+              "fingerprint"
+            ]
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 30603,
+            "lineNumber": 0
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            null,
+            null
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 30560,
+            "lineNumber": 0
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "canvas": false,
+                "fonts": false,
+                "fontsFlash": true,
+                "timezone": true,
+                "timezoneOffset": true,
+                "userAgent": true,
+                "webgl": false,
+                "webglVendorAndRenderer": false
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "generateFingerprint",
+          "location": {
+            "columnNumber": 30500,
+            "lineNumber": 0
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        },
+        {
+          "args": [],
+          "functionName": "__scw",
+          "location": {
+            "columnNumber": 11,
+            "lineNumber": 32
+          },
+          "url": "https://hdh.scw.systems/x.min.js"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            2,
+            15
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            4,
+            45
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8b07cd89ee9b50863bc7e01a9893569b66e410d2f02530958515140d44cedc39",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648980000.0,
+      "not_valid_before": 1578006000.0,
+      "serial_number": 5283161519852488144389220181121193878,
+      "subject": {
+        "commonName": "*.hugendubel.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "Hugendubel Digital GmbH & Co. KG",
+        "organizationalUnitName": "Hugendubel Digital GmbH & Co. KG",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hugendubel.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.8.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hugendubel.de/",
+    "http://www.hugendubel.de/",
+    "https://www.hugendubel.de/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hugendubel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.hugendubel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/shop/v17016f676e/themes-1/set-64/suggest.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/shop/v17016f676e/themes-1/set-64/huduMain-v17016f676e.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/shop/v17016f676e/themes-1/set-64/plugin_css/chosen.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/shop/v17016f676e/script/jquery/fancy/jquery.fancybox.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/shop/v17016f676e/script/mediaelement/mediaelementplayer.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/shop/v17016f676e/script/floatbox/floatbox.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/ayfie-2021-01-29-4a942c786.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/jquery/jquery-1.8.3.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/mediaelement/mediaelement-and-player.min.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media.hugendubel.de/filialen/9814/filiale-small.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media.hugendubel.de/filialen/9814/filialleitung-small.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/logo.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/400/40006893_9783833877179_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/396/39644448_9783641277260_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/layer_tolino_05a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/384/38472092_9783742603111_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/404/40409380_9783257694208_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/402/40207585_2456650_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/400/40041759_0602435261690_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39876353_4026898004124_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/404/40405109_90141216_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/389/38999942_9783492997126_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/ticker_wiedereroeffnung_01e_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/Banner_700x300_portofreie_Lieferung_V0321_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/grbue700x300_leseempflg_apr_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/7717_Veit_Lindau-HuDu-Onsite-700x300px_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/grbue700x300_tolino_preisaktion_10d_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/grbue_gwsp_strandkorb_02a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/tsrkl220x300_geschenkkarte_01a_2.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MHFF5V"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_exkllena_luft-perfekte_muetter_sind_auch_keine_loesung_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_exkl_barbara_noack-fraeulein_julies_traum_vom_glueck_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/1tsr940x200_zeit-zu-hause_01b_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/tsr940x300_Leben_Zentrum01a_1.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr285x200_bestseller_krimi_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr285x200_bestseller_unterhaltung_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr285x200_bestseller_sachbuch_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_ebook_schnaeppchen_02a_2.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_buchsale_02a_1.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_geschenkkarte_8.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_kubi_03a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_NOW_Banner_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/2tsr460x200_podcast_01a_1.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/1tsr940x150_buchabo_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/1tsr940x150_spiegel_bestsllr_01a_1.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/jquery/jquery-ui-1.9.2.full.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/script/jquery/jquery.expander.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduScript.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/bigOldScript.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/common-2021-01-29-4a942c786.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/jquery/chosen.jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/jquery/jquery.cycle.all.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/script/litvideo/litvideo_2.7.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/script/jquery/fancy/jquery.fancybox.pack.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/script/jquery/jquery.cookie.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/floatbox.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyAd9ORQ-NEMX_-Et_3we23ovECF4sGtE9w"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/googlemaps.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/suggest.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduMain-v17016f676e.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/plugin_css/chosen.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/jquery/fancy/jquery.fancybox.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/mediaelement/mediaelementplayer.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/floatbox.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/bodyBG.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/huduSprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/huduLesepunktIcon_s.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/huduAppIcon_s.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/headerTopShadow.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/mainSearchInput.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media.hugendubel.de/shop/magazine-pictures/tsr220x300_hugendubel_NOW_0.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/aStore.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/gPlay.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/10/common.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/10/util.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/10/geocoder.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widgets.trustedshops.com/js/X366EA230BB983F0FA48BB10E50F19076.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/mainSearchSelect.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/mainSearchSelectBorderLeft.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/themes-1/set-64/huduImg/chozenSearch.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle_legacy.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/options.js?v=5.7.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/modules/core_572.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/824wb1Ard/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/824wb1Ard/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=824wb1Ard"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/de/auth/token"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_gu_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/Logo_DK_Kochshop_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/Logo_DK_Kinderbuch_01b_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_lyx_01a_1.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_hueber_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_schleich_01c_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_lego_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_tiptoi_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_tonies_01a_0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/magazine-pictures/176x80_gravitrax_01b_0.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widgets.trustedshops.com/tb6/trustbadge.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/wsapi/rest/v1/prudsys/recommendation"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/wsapi/rest/v1/prudsys/recommendation"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/wsapi/rest/v1/prudsys/recommendation"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/wsapi/rest/v1/prudsys/recommendation"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/wsapi/rest/v1/prudsys/recommendation"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/wsapi/rest/v1/prudsys/recommendation"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/blank.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widgets.trustedshops.com/assets/images/trustmark_120x120.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/824wb1Ard/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/824wb1Ard/latest/de.json"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39852291_9783328601531_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39820155_9783841907608_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/389/38902078_9783841225726_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39898432_9783499267956_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39816341_4009750202562_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/397/39760663_2100779_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/392/39216505_4061229144001_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/402/40260081_4061229093606_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/403/40323723_5051890321190_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39852576_9783630876672_big.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39883304_9783463406657_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/402/40204935_9783442316397_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39814482_9783596703845_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/403/40381620_9783630876719_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39834884_9783839818671_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39832245_9783785782729_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39884972_9783957132246_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/402/40205826_9783844542790_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/403/40381605_9783844542110_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/403/40394162_null_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/404/40489023_null_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/403/40394142_null_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/404/40489019_null_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/397/39786570_4005556167821_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39848816_9783641277185_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39881299_9783644314818_big.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39833520_9783751703789_big.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39899893_9783644511019_big.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://media2.hugendubel.de/shop/coverscans/398/39815753_9783104912684_big.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/black/loader.gif"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=3zKS3M8Du@1.0.0,5LFVxHGKz@6.1.0,7M0cXS2pQ@10.6.1,8ScDZDmU@6.4.1,8u-otMeLg@3.1.1,B1Hk_zoTX@17.2.13,BJ59EidsWQ@24.5.18,BJhj94o_iZ7@5.1.0,H1Vl5NidjWX@40.15.35,H1dDqVjOjWX@14.11.4,HkocEodjb7@52.10.26,HyeqVsdjWX@16.3.10,Hysgc4odiZ7@13.6.3,HytuM2Hq4@12.2.4,PQ-FCUpNI@1.0.0,SkhG5EiOjZ7@10.1.0,SyTbcViOsWX@7.2.3,SyfKc4oOjWQ@10.3.1,Z72L9oGV8@4.1.2,ko1w5PpFl@23.10.10,oUpTj6i9W@1.0.0,r1DpCbD4Q@8.2.4,r1KkV5tb8@4.3.0,ryiH3439N@8.3.1,ryxCCtrEX@14.5.15"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=3zKS3M8Du@1.0.0,5LFVxHGKz@6.1.0,7M0cXS2pQ@10.6.1,8ScDZDmU@6.4.1,8u-otMeLg@3.1.1,B1Hk_zoTX@17.2.13,BJ59EidsWQ@24.5.18,BJhj94o_iZ7@5.1.0,H1Vl5NidjWX@40.15.35,H1dDqVjOjWX@14.11.4,HkocEodjb7@52.10.26,HyeqVsdjWX@16.3.10,Hysgc4odiZ7@13.6.3,HytuM2Hq4@12.2.4,PQ-FCUpNI@1.0.0,SkhG5EiOjZ7@10.1.0,SyTbcViOsWX@7.2.3,SyfKc4oOjWQ@10.3.1,Z72L9oGV8@4.1.2,ko1w5PpFl@23.10.10,oUpTj6i9W@1.0.0,r1DpCbD4Q@8.2.4,r1KkV5tb8@4.3.0,ryiH3439N@8.3.1,ryxCCtrEX@14.5.15"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/s8_r8_top.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/s8_r8_right.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.13.0/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hdh.scw.systems/x.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/s8_r8_corner.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/s8_r0_corner.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/s8_r8_bottom.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hugendubel.de/v17016f676e/script/floatbox/graphics/s8_r8_left.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Fwww.hugendubel.de%2Fde%2F&4sAIzaSyAd9ORQ-NEMX_-Et_3we23ovECF4sGtE9w&callback=_xdc_._uxvh4h&key=AIzaSyAd9ORQ-NEMX_-Et_3we23ovECF4sGtE9w&token=44155"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000;includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hugendubel.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "graphql.usercentrics.eu",
+      "hdh.scw.systems",
+      "maps.googleapis.com",
+      "widgets.trustedshops.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 27
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 18,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "hdh.scw.systems",
+      "widgets.trustedshops.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "login.webspaceconfig.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "COABFEPHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 47,
+      "value": "2f66a446d1ee7fc8a747827e81eee33e"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://login.webspaceconfig.de/index.php?id=16",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "adc8f6b23f8a706737e609d39a78efeea0152f5057a1f1cd917b6ac190e59e8d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624079340.0,
+      "not_valid_before": 1616306940.0,
+      "serial_number": 359586543276683159755073046924065509232151,
+      "subject": {
+        "commonName": "login.webspaceconfig.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://webspaceconfig.de/",
+    "https://login.webspaceconfig.de/",
+    "https://login.webspaceconfig.de/index.php?id=16"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://webspaceconfig.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/index.php?id=16"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/typo3conf/ext/coab_xengine/res/libs/modernizr/2.8.3/modernizr.min.1618899540.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/xengine/css/xengine-login.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/rest/v2/design/login.webspaceconfig.de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/typo3conf/ext/coab_xengine/res/libs/jquery/1.7.2/jquery.min.1618899540.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/typo3conf/ext/coab_xengine/res/libs/fancybox/2.1.5/jquery.fancybox.min.1618899540.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/js/login.min.1618899540.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/js/css-vars-ponyfill.min.1618899540.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/js/css-vars-ponyfill-setup.min.1618899540.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=73e4a0c6-1975-438f-accb-e73223eb1920"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/typo3conf/ext/coab_design_switcher_frontend/res/company-logo_350.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/xengine/img/sprite_kc-icons-login.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/xengine/img/sprite_icons_kc.png?1.2.0"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://login.webspaceconfig.de/fileadmin/xengine/fonts/3fbbd6b1-cfa7-4ff0-97ea-af1b2c489f15.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=73e4a0c6-1975-438f-accb-e73223eb1920"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://webspaceconfig.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fast.fonts.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

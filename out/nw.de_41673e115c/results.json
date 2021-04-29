@@ -1,0 +1,664 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "consentmanager.mgr.consensu.org",
+      "expires": 1653048556.784844,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135201.78484392,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "www.nw.de",
+      "expires": 1653048557,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135202,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": ".nw.de",
+      "expires": 1619179757,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 266402,
+      "name": "__cmpconsentx103",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 74,
+      "value": "CPE86xIPE86xIAfBnCENBWCgAAAAAAAAAAYgAAAMEgCAFOAM-ArABggAAA"
+    },
+    {
+      "domain": ".nw.de",
+      "expires": 1619179757,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 266402,
+      "name": "__cmpcvcx103",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 23,
+      "value": "__s23_s24__"
+    },
+    {
+      "domain": ".nw.de",
+      "expires": 1619179757,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 266402,
+      "name": "__cmpcpcx103",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 16,
+      "value": "____"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621512557.716314,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.7163140774,
+      "name": "__cmpconsentx103",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 74,
+      "value": "CPE86xIPE86xIAfBnCENBWCgAAAAAAAAAAYgAAAMEgCAFOAM-ArABggAAA"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621512557.716369,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.7163689137,
+      "name": "__cmpcvcx103",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 23,
+      "value": "__s23_s24__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621512557.716391,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.7163910866,
+      "name": "__cmpcpcx103",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 16,
+      "value": "____"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 0,
+    "third_party_long": 4,
+    "third_party_short": 0,
+    "trackers": [
+      "consensu.org"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.nw.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ef49f8f4d95503a28232b82e0e30bb26cc5153c6e907963eb3f3ade0594cf5f8",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1667948399.0,
+      "not_valid_before": 1597010400.0,
+      "serial_number": 3695170162933016184538505927363449019,
+      "subject": {
+        "commonName": "*.nw.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.nw.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://nw.de/",
+    "https://nw.de/",
+    "https://www.nw.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://nw.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nw.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_cms/globals/csslibs.php?em_client=nw&em_subclient=nw&em_ssc=LCwsLA==&em_view=desktop&em_cache_css=1618918232"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_cms/globals/jslibs.php?em_client=nw&em_subclient=nw&em_ssc=LCwsLA==&em_view=desktop&em_cache_js=1618918232"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_nw/2020/11/05/201105_1149_nw_logo.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_nw/2020/11/05/201105_1218_nw_bildmarke_ohne_rand.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/img/logo-ohne-wortmarke.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/img/320x194.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_apps/nw/plus.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_nw/2020/10/29/201029_0959_nl_corona.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/img/logo_sticky.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/img/logo.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_apps/nw/assets/app/apple-store.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_apps/nw/assets/app/google-store.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/locals/module/nw/app_info_assets/icon-x_.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/locals/module/nw/app_info_assets/nw_news_icon.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tracking.nw.de/js/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://files.upscore.com/async/upScore.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/source-sans-pro/source-sans-pro-regular.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=103&h=https%3A%2F%2Fwww.nw.de%2F&&l=en&o=1618920556671"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/source-sans-pro/source-sans-pro-600.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/nunito/nunito-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/nw_iconfont.woff?pyiczb"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/source-sans-pro/source-sans-pro-700.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/nunito/nunito-italic.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/fontawesome-webfont.woff2?v=4.3.0"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/nw/assets/fonts/nunito/nunito-700.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?__cmpcc=1&id=103&o=1618920556&h=https%3A%2F%2Fwww.nw.de%2F&&l=en&odw=0&dlt=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1xwOQH74bovwKKRzStfy1_2A7aFiiOXhRefXI0hqf1rVfUzs0d1_bPSlI5Me00ACzX5puxxj1x1fg/210420-1219-soeder.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1xzO4UR6pZGyn8Ovm9TD6YW8_skLCInglC955hRcSnO_eMWerrPqj2NWB2WXuB_hx4fSbrs6twJBk/210420-1254-l.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1xzO4UR6pZGyn8Ovm9TD6YW9Sn6SYCmwmtHgNZpFVsTXK1W_TZwASLfUMDt0HqwQUHRZ1WTPszFr_-42jvm-vwaQ/210420-1212-lue.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1xijSwiG42X5suw6_xKeYHGIn8QwwUqkInMZgk5Sul-R8UUz88yEnSK9j5rk8zAEOn/210419-1117-baerbock-neu.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1xijSwiG42X5suw6_xKeYHGIn8QwwUqkInKUGJW_k6DZ2n_2iOvyLRMXjk3EeO_WmB/210420-1219-soeder.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1xijSwiG42X5suw6_xKeYHGK2pBVsDrx9QE-gasf3YgPN9K8hf1TaK6PUL-018_HFftAwXwfpIc-uqJ4UpPwfbwg/200314-1530-virus-4898571-1920.jpg"
+    },
+    {
+      "mime_type": "text/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_cms/globals/acon.php?em_cnt=undefined&em_action=bookmark_check&_=1618920556563"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_cms/globals/modul.php?modul=13311&_=1618920556564"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_cms/globals/modul.php?modul=10922&_=1618920556565"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://files.upscore.com/config/nw.de.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfMTAzLmRfOTAwNi54Xzgudi50XzkwMDY.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nw.de/_em_daten/_cache/image/1x0Tl3bWOQGxHZk2G4z9fjvc6t3gmVN5HNsK-U0s7zJEM85qLIeVwCAw/210418-1758-233975618.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=103&did=2&cfdid=6667&t=pv.d_ncs.d_ancs.d_bncs.cf.cfx&h=https%3A%2F%2Fwww.nw.de%2F&o=1618920557613&l=EN&lv=0&d=2&ct=14&e=&e2=&e3=&i=&sv=27&dv=8&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=103&did=2&cfdid=2&t=cv&h=https%3A%2F%2Fwww.nw.de%2F&o=1618920557618&l=EN&lv=0&d=2&ct=14&e=&e2=&e3=&i=&sv=27&dv=8&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=103&p=2&v=4&cvc=_s23_s24_&cpc=__&c=CPE86xIPE86xIAfBnCENBWCgAAAAAAAAAAYgAAAMEgCAFOAM-ArABggAAA&l=EN&lv=0&d=2&ct=0&e=&h=https%3A%2F%2Fwww.nw.de%2F&e2=&e3=&i=&sv=27&dv=8&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/img/logo1606479662x4149.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/flags/en.gif"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://positions.upscore.com/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15552000",
+      "includeSubDomains": false,
+      "max-age": 15552000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "0",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://nw.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "files.upscore.com",
+      "fonts.googleapis.com",
+      "hit-pool.upscore.com",
+      "positions.upscore.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 20
+  },
+  "tracking": {
+    "num_tracker_cookies": 4,
+    "num_tracker_requests": 19,
+    "trackers": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "files.upscore.com",
+      "hit-pool.upscore.com",
+      "positions.upscore.com"
+    ]
+  }
+}

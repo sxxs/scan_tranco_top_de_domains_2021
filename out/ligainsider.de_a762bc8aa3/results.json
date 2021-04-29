@@ -1,0 +1,1445 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.ligainsider.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "5c2e4616c3504dec0f6b0f329071402a"
+    },
+    {
+      "domain": ".ligainsider.de",
+      "expires": 1648393478,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 29469602,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 132,
+      "value": "000971b9fff3ef4da607eed84:1648393478345:1618931078345:.ligainsider.de:2:ran:dTxRcHpOqKyFz02Liga:noevent:1618931078345:utch3k"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1643861642.684636,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 24937766.684636116,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003ccc3fd9eb418bd607eed860001%3B607eed86%3B61fb568a"
+    },
+    {
+      "domain": ".ligainsider.de",
+      "expires": 1621350277,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618931078656"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [
+    {
+      "domain_registered": false,
+      "error_type": "dns-not-resolved",
+      "url": "https://_.rocks/iqadcontroller.js"
+    }
+  ],
+  "final_url": "https://www.ligainsider.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "b8e1a2143abf4130f277488ad856bfcdb7c30713b29a893904205bc52e0b0d21",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623964404.0,
+      "not_valid_before": 1616192004.0,
+      "serial_number": 412512262450131693594250653612929618002923,
+      "subject": {
+        "commonName": "ligainsider.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ligainsider.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ligainsider.de/",
+    "https://ligainsider.de/",
+    "https://www.ligainsider.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://ligainsider.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ligainsider.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ligainsider.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?m=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/bootstrap.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/non-responsive.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/bootstrap-select.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/bootstrap-datetimepicker.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/jquery.bxslider.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/jquery-te-1.4.0.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/uniform.default.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/style.min.css?version=9yrCY43fx6ZFY4Dp"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/fileinput.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/bootstrap-toggle.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/star-rating.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/flexslider.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/css/theme.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.netpoint-media.de/1261115.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/menu/ligainsider-logo-white.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/f-Logo/F_Logo_Online_09_2018/White/PNG/flogo-HexRBG-Wht-58.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/misc/logo-ran-4.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/passquote.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/zweikampfquote.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/luftkampfquote.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/tacklingquote.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/fouls.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/geklaerte-baelle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/abgefangene-baelle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/balleroberungen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/ballverluste.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/erfolgreiche-dribblings.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/torschussvorlagen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/grosschancen-kreiert.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/torschuesse.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/schussgenauigkeit.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/fehler-vor-gegentoren.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/geblockte-baelle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/abgewehrte-schuesse.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/paraden.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/weisse-weste.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/strafraumbeherrschung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/abgewehrte-elfmeter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/green/grosschancen-vereitelt.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/fc-bayern-muenchen-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/borussia-dortmund-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/rb-leipzig-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/borussia-moenchengladbach-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/bayer-04-leverkusen-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/tsg-1899-hoffenheim-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/vfl-wolfsburg-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/sc-freiburg-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/eintracht-frankfurt-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/hertha-bsc-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/1fc-union-berlin-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/fc-schalke-04-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/fsv-mainz-05-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/1-fc-koeln-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/fc-augsburg-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/sv-werder-bremen-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/arminia-bielefeld-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/small/vfb-stuttgart-wappen.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/robert-lewandowski-fc-bayern-muenchen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/teams/small/fc-bayern-muenchen-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/angeschlagen-down.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/icons/hot-o-meter/40.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/leroy-sane-fc-bayern-muenchen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/misc/update.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/startelf.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/icons/hot-o-meter/100.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/thomas-delaney-borussia-dortmund.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/teams/small/borussia-dortmund-wappen.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/jadon-sancho-borussia-dortmund.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/niclas-fuellkrug-sv-werder-bremen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/teams/small/sv-werder-bremen-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/fit.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/icons/hot-o-meter/30.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/ludwig-augustinsson-sv-werder-bremen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/leonardo-bittencourt-sv-werder-bremen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/angeschlagen-unsure.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/icons/hot-o-meter/20.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/maxence-lacroix-vfl-wolfsburg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/teams/small/vfl-wolfsburg-wappen.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/minor/vfl-wolfsburg-wappen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/bundesliga-logo.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/gelbe-karte.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/teams/minor/vfb-stuttgart-wappen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/marcin-kaminski-vfb-stuttgart.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/teams/small/vfb-stuttgart-wappen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/abwesend.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/sasa-kalajdzic-vfb-stuttgart.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/geruechte.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/icons/hot-o-meter/60.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/borna-sosa-vfb-stuttgart.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/misc/topnews.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/icons/new/small/verletzung.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/maximilian-philipp-vfl-wolfsburg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/teams/small/dinamo-moskau-wappen.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/2020/07/hansi-flick-fc-bayern-muenchen-dfb-pokal.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/2020/03/marcel-sabitzer-rb-leipzig-2019-2020.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/2020/07/sosa-borna-vfb-stuttgart-2019-2020.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/2020/03/robert-lewandowski-fc-bayern-muenchen-2019-2020.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/stefan-ortega-moreno-arminia-bielefeld.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/ohis-felix-uduokhai-fc-augsburg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/mats-hummels-borussia-dortmund.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/va/goal_big.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/ramy-bensebaini-borussia-moenchengladbach.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/christian-guenter-sc-freiburg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/giovanni-reyna-borussia-dortmund.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/va/assist_big.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/jonas-hofmann-borussia-moenchengladbach.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/jamal-musiala-fc-bayern-muenchen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/moussa-diaby-bayer-04-leverkusen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/erling-braut-haaland-borussia-dortmund.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/leon-bailey-bayer-04-leverkusen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/tacklingquote.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/wataru-endo-vfb-stuttgart.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/maximilian-eggestein-sv-werder-bremen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/zweikampfquote.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/santiago-ascacibar-hertha-bsc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/nicolas-hoefler-sc-freiburg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/robert-andrich-1-fc-union-berlin.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/stats/luftkampfquote.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/andrej-kramaric-tsg-hoffenheim.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/wout-weghorst-vfl-wolfsburg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/dominik-szoboszlai-rb-leipzig.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/santiago-arias-bayer-04-leverkusen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/clinton-mola-vfb-stuttgart.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/thomas-mueller-fc-bayern-muenchen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/joshua-kimmich-fc-bayern-muenchen.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/bootstrap-select.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/classie.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/moment-with-locales.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/bootstrap-datetimepicker.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/owl.carousel.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/plugins.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/circletype.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.bxslider.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.uniform.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ligainsider.de/public/desktop/js/autobahn.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/list.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/fileinput.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/bootstrap-toggle.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.sticky.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.selection.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.lazy.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/star-rating.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/theme.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/countdown.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.flexslider.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/jquery.dataTables.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/dataTables.bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/dataTables.fixedHeader.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/dataTables.fixedColumns.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.wlct-one.de/p/bundles/643008bf-e19b-41c4-bf0c-8af461605c59.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/js/javascript.min.js?version=9yrCY43fx6ZFY4Dp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=21846&h=https%3A%2F%2Fwww.ligainsider.de%2F&&__cmpfcc=1&l=en&o=1618931077266"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/menu/bgr_li.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/menu/bgr_li_inner.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/misc/bgr_glow.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/va/playfield_background.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/fonts/myriadpro-regular.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/uploads/elements/desktop/fonts/MyriadProBold.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ligainsider.de/apiesi/desktop/headermessage/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ligainsider.de/apiesi/desktop/votingstartpage/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/menu/bgr_box_shadow.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=ran&cp=dTxRcHpOqKyFz02Liga&sv=ke&co=%2Fhome&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.ligainsider.de&xy=800x600x24&lo=DE%2FBerlin&cb=0009&i2=000971b9fff3ef4da607eed84&ep=1643083950&vr=424&id=30n7mb&i3=000971b9fff3ef4da607eed84%3A1648393478345%3A1618931078345%3A.ligainsider.de%3A1%3Aran%3AdTxRcHpOqKyFz02Liga%3Anoevent%3A1618931078345&n1=1&dntt=0&lt=1618931078347&ev=&cs=bgviig&mo=1"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://_.rocks/iqadcontroller.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/ridle-baku-vfl-wolfsburg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de//images/partner/kickbase_icon_green.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/filip-kostic-eintracht-frankfurt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/maximilian-arnold-vfl-wolfsburg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ligainsider.de/images/player/team/minor/raphael-guerreiro-borussia-dortmund.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=ran&cp=dTxRcHpOqKyFz02Liga&sv=ke&co=%2Fhome&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.ligainsider.de&xy=800x600x24&lo=DE%2FBerlin&cb=0009&i2=000971b9fff3ef4da607eed84&ep=1643083950&vr=424&id=30n7mb&i3=000971b9fff3ef4da607eed84%3A1648393478345%3A1618931078345%3A.ligainsider.de%3A1%3Aran%3AdTxRcHpOqKyFz02Liga%3Anoevent%3A1618931078345&n1=1&dntt=0&lt=1618931078347&ev=&cs=bgviig&mo=1&sr=71"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://ligainsider.de\r",
+  "third_parties": {
+    "fqdns": [
+      "_.rocks",
+      "cdn.consentmanager.mgr.consensu.org",
+      "cdn.netpoint-media.de",
+      "consentmanager.mgr.consensu.org",
+      "de.ioam.de",
+      "script.ioam.de",
+      "static.wlct-one.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "_.rocks",
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "de.ioam.de"
+    ]
+  }
+}

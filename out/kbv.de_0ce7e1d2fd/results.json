@@ -1,0 +1,489 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "kbv.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "KBV_session_helper",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 99,
+      "value": "!ecu6uCXHS5bmAXcXCAQScFwsBT+gdNYEwW7ietoM5GH7V/JDkWCqakBijCYFBb5TIRyPQVL4QCliAw=="
+    },
+    {
+      "domain": ".kbv.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 35,
+      "value": "31klpjjvr66lttt9qf6ag4r7hk"
+    },
+    {
+      "domain": ".kbv.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "TS014d23f3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 180,
+      "value": "0111b4ea97bfd54d53cfea0f2dff180f4cdade726e8279739e3f1ae129dacd07503d3365357298380552c0cfe347e8181dec9db178a16e2aff3ec9a67ce637e0caebf81201f06b4668cea6b58112de2aa0a4c309ff"
+    },
+    {
+      "domain": "www.kbv.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "KBV_session_helper",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 99,
+      "value": "!Srsc3tdELVk5mjwXCAQScFwsBT+gdHJu2sTP9zyYFCFfWwuEoqvZ1le+vKm7DdMmU3Ozy5cP3rgRyw=="
+    },
+    {
+      "domain": ".www.kbv.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "TS01af6d2b",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 116,
+      "value": "0111b4ea97ec24dcafe1f5c4eef305eddd5bf2b2088279739e3f1ae129dacd07503d336535e519382141d49bedb62c0a0237402d94"
+    },
+    {
+      "domain": "kbv.de",
+      "expires": 1619015545,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "webcheck",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 14,
+      "value": "failed"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 5,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [
+    {
+      "error_type": "d",
+      "url": "https://www.kbv.de/system/lib/scada-regular.woff"
+    },
+    {
+      "error_type": "d",
+      "url": "https://www.kbv.de/system/lib/scada-bold.woff"
+    },
+    {
+      "error_type": "e",
+      "url": "https://portal.kv-safenet.de/?_=1618929145203"
+    }
+  ],
+  "final_url": "https://kbv.de/html/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "98a3946a5dc9b28952477822378da2642d0a50687e4643b2102af19ff698e8fa",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign RSA OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626411365.0,
+      "not_valid_before": 1563252965.0,
+      "serial_number": 30424380534357381862223208097,
+      "subject": {
+        "commonName": "*.kbv.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Kassen\u00e4rztliche Bundesvereinigung KBV",
+        "organizationalUnitName": "Digitalisierung und IT",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.kbv.de/html/impressum.php",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.9.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://kbv.de/",
+    "https://kbv.de/",
+    "https://kbv.de/html",
+    "https://kbv.de/html/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://kbv.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://kbv.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://kbv.de/html"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://kbv.de/html/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/html/fonts-scada.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/html/fonts-font_awesome.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/html/digital7.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/kbv.base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/kbv.styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/kbv.screen.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/kbv.scripts.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/hls-0.14.17.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/jquery-ui-1.10.3.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/toolbar_f_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/toolbar_twitter_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/toolbar_linkedin_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/toolbar_xing_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/toolbar_email_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/logo_kbv.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/lib/print.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/img_stage_corona-n.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_PN-Abo.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_impfen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_impfindex.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_corona-report.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_itsicherheitsrichtlinie.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_videosprechstunde.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel_teaser_bekanntmachung.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/images/contentbilder_s/kachel-teaser_kvdox.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/icon_twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/icon_you_tube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/icon_rss.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/toolbar_googleplus_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/kbv-logo_202x65.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.kbv.de/system/layout/icon-close.png"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.kbv.de/system/lib/scada-regular.woff"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.kbv.de/system/lib/scada-bold.woff"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://portal.kv-safenet.de/?_=1618929145203"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "http://portal.kv-safenet.de",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://kbv.de\r",
+  "third_parties": {
+    "fqdns": [
+      "portal.kv-safenet.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 1
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

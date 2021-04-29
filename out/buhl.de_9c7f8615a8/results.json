@@ -1,0 +1,4087 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.buhl.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 35,
+      "value": "airc86rbinib9bjdjpfhea0nj6"
+    },
+    {
+      "domain": "www.buhl.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "BIGipServerp_linux-dmz_www.buhl.de_http",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 148,
+      "value": "!CTZaXI6gSRpIABgK15y0DR1UonpUkvRs3Jcneg9TpjRKUbl3scV+h5rEY3+qrjYPqEW9jgctSmcJ5eCn8DR8nsUARS3Cjz4/pXr4TXECY8A="
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.buhl.de/",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "y",
+          "location": {
+            "columnNumber": 7888,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 17166,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            []
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 17114,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28492,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            "Linux x86_64"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16971,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            "not available"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16923,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16858,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16767,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16718,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16669,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16617,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            "Europe/Berlin"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16489,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            -120
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16375,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28492,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28492,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            1
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16202,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28492,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            2
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 16022,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            24
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 15933,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            "en-US"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 15775,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            true
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 15670,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36"
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 28638,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            null,
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            }
+          ],
+          "functionName": "getData",
+          "location": {
+            "columnNumber": 15606,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            false
+          ],
+          "functionName": "r",
+          "location": {
+            "columnNumber": 28581,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            {
+              "ERROR": "error",
+              "EXCLUDED": "excluded",
+              "NOT_AVAILABLE": "not available",
+              "audio": {
+                "excludeIOS11": true,
+                "timeout": 1000
+              },
+              "components": [
+                {
+                  "key": "userAgent"
+                },
+                {
+                  "key": "webdriver"
+                },
+                {
+                  "key": "language"
+                },
+                {
+                  "key": "colorDepth"
+                },
+                {
+                  "key": "deviceMemory"
+                },
+                {
+                  "key": "pixelRatio"
+                },
+                {
+                  "key": "hardwareConcurrency"
+                },
+                {
+                  "key": "screenResolution"
+                },
+                {
+                  "key": "availableScreenResolution"
+                },
+                {
+                  "key": "timezoneOffset"
+                },
+                {
+                  "key": "timezone"
+                },
+                {
+                  "key": "sessionStorage"
+                },
+                {
+                  "key": "localStorage"
+                },
+                {
+                  "key": "indexedDb"
+                },
+                {
+                  "key": "addBehavior"
+                },
+                {
+                  "key": "openDatabase"
+                },
+                {
+                  "key": "cpuClass"
+                },
+                {
+                  "key": "platform"
+                },
+                {
+                  "key": "doNotTrack"
+                },
+                {
+                  "key": "plugins"
+                },
+                {
+                  "key": "canvas"
+                },
+                {
+                  "key": "webgl"
+                },
+                {
+                  "key": "webglVendorAndRenderer"
+                },
+                {
+                  "key": "adBlock"
+                },
+                {
+                  "key": "hasLiedLanguages"
+                },
+                {
+                  "key": "hasLiedResolution"
+                },
+                {
+                  "key": "hasLiedOs"
+                },
+                {
+                  "key": "hasLiedBrowser"
+                },
+                {
+                  "key": "touchSupport"
+                },
+                {
+                  "key": "fonts",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "fontsFlash",
+                  "pauseBefore": true
+                },
+                {
+                  "key": "audio"
+                },
+                {
+                  "key": "enumerateDevices"
+                }
+              ],
+              "excludes": {
+                "adBlock": true,
+                "audio": true,
+                "availableScreenResolution": true,
+                "doNotTrack": true,
+                "enumerateDevices": true,
+                "fontsFlash": true,
+                "pixelRatio": true,
+                "screenResolution": true
+              },
+              "extraComponents": [],
+              "fonts": {
+                "extendedJsFonts": false,
+                "swfContainerId": "fingerprintjs2",
+                "swfPath": "flash/compiled/FontList.swf",
+                "userDefinedFonts": []
+              },
+              "plugins": {
+                "excludeIE": false,
+                "sortPluginsFor": [
+                  {}
+                ]
+              },
+              "screen": {
+                "detectScreenOrientation": true
+              }
+            },
+            null
+          ],
+          "functionName": "U.get",
+          "location": {
+            "columnNumber": 28712,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+        },
+        {
+          "args": [
+            {}
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 46341,
+            "lineNumber": 0
+          },
+          "url": "https://fast.smarketer.de/api/js/fast.js"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            2,
+            15
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            4,
+            45
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "77dd149edeba422eea969746d070ae280f386860cf9cbe25c094c04d074f52b5",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1649498400.0,
+      "not_valid_before": 1586901600.0,
+      "serial_number": 11523875812654306842311382308650072905,
+      "subject": {
+        "commonName": "*.buhl.de",
+        "countryName": "DE",
+        "localityName": "Neunkirchen",
+        "organizationName": "BUHL-DATA-SERVICE GMBH",
+        "organizationalUnitName": "IT",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.buhl.de/shop/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://buhl.de/",
+    "https://www.buhl.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://buhl.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/fonts/roboto/Roboto-Regular.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/fonts/roboto/Roboto-Medium.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/fonts/roboto/Roboto-Bold.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/fonts/roboto/Roboto-Light.ttf"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle_legacy.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/style.min.css?ver=3.3.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/src/mmenu/dist/mmenu-light.min.css?ver=3.0.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/plugins/buhl-matomo/matomo.min.js?ver=1.1.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/plugins/buhl_usercentrics/main.min.js?ver=1.1.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.12.2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/03/ic_app_steuer_48.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/arrow_right_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/icon_mobile_menu_produkte.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/icon_mobile_menu_produktfinder.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/icon_mobile_menu_kundencenter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/icon_mobile_menu_shop.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/buhl_icon.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tracking.buhl.de/js/container_2ZZFS10U.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/Siegel-Web-Phone@2xmin.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-steuer-web-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-steuer-sparbuch-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-steuer-mac-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-steuer-start-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-mein-buero-web-icon@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/clockodo@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-eu%CC%88r-kasse-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-mein-buero-plus-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/WISO-MeinBu%CC%88ro-Anzeige-neu@2xmin.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-meinbu%CC%88ro-icon@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/WISO-Steuer-App-2021@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-steuer-plus-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-eu%CC%88r-kasse-mac-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/03/buhl-shop-clockodo-anzeige@2x.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/03/buhl-shop-icon-clockodo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-mein-geld-professional-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-konto-online-plus-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-haushaltsbuch-2021-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-boerse-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-vermieter-web-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-hausverwalter-plus-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-hausverwalter-start-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/wiso-vermieter-seitlich@2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/Buhl-Produktfinder@2x.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/ic_warenkorb_32.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/uploads/2021/02/finanzblick@2x.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/ic_newsletter_alert.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/buhl_logo_weiss.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/src/mmenu/dist/mmenu-light.min.js?ver=3.0.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/src/mmenu/dist/mmenu-light.polyfills.min.js?ver=3.0.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/js/main.min.js?ver=3.3.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-includes/js/wp-embed.min.js?ver=d915ba15766fa31f19db76565220dc8d"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tracking.buhl.de/matomo.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MN74D2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/menu_icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/buhl_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/suche_icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/ic-person-24.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/shop_icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/arrow_right_orange.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/web-icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/windows-icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/mac-icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/award.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/app-icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/speaker.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/glas.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/star.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/heart.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/wo5ytHHt/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/wo5ytHHt/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=wo5ytHHt"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://tracking.buhl.de/matomo.php?action_name=%3Abuhl%20%7C%20Finanz-%20und%20Steuer-Software%2C%20die%20Sie%20lieben%20werden&idsite=1&rec=1&r=007490&h=15&m=46&s=46&url=https%3A%2F%2Fwww.buhl.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=iY8e64&pf_net=95.38500000780914&pf_srv=480.4900000017369&pf_tfr=55.53499999223277"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/icon_mobile_menu_close.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/menu_arrow.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.buhl.de/wp-content/themes/buhl-2021/img/icons/ic_header_menu.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.smarketer.de/api/js/fast.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/wo5ytHHt/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/wo5ytHHt/latest/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=5Z6UNZdxP@1.0.0,B1Hk_zoTX@17.2.13,BJ59EidsWQ@25.5.22,BJikbq4iujWQ@7.3.6,BJz7qNsdj-7@15.7.10,H1QMcEsusbm@11.6.4,H1Vl5NidjWX@40.15.35,H1dDqVjOjWX@14.11.4,HJI5SmLm7@4.0.12,HJrGqEs_i-Q@7.1.5,HkocEodjb7@52.10.26,S1_9Vsuj-Q@15.6.8,S1kgcNo_j-m@6.3.4,SJwfMvizE@8.1.1,Sy1zg5Vs_sW7@5.1.0,SyfKc4oOjWQ@10.3.1,TD7OpO7l@1.0.0,euTxF4hQ@2.0.0,gkEBFID-V@5.2.2,ko1w5PpFl@23.10.10,rJhhqVs_ob7@9.12.2,rZxln_cfx@3.1.8,rkL8e5No_iZX@4.1.0,ryDQcVoOoZQ@8.2.4,twMyStLkn@15.7.13,yi0yZHf2@2.1.1,zXuvhYftb@4.2.3"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=5Z6UNZdxP@1.0.0,B1Hk_zoTX@17.2.13,BJ59EidsWQ@25.5.22,BJikbq4iujWQ@7.3.6,BJz7qNsdj-7@15.7.10,H1QMcEsusbm@11.6.4,H1Vl5NidjWX@40.15.35,H1dDqVjOjWX@14.11.4,HJI5SmLm7@4.0.12,HJrGqEs_i-Q@7.1.5,HkocEodjb7@52.10.26,S1_9Vsuj-Q@15.6.8,S1kgcNo_j-m@6.3.4,SJwfMvizE@8.1.1,Sy1zg5Vs_sW7@5.1.0,SyfKc4oOjWQ@10.3.1,TD7OpO7l@1.0.0,euTxF4hQ@2.0.0,gkEBFID-V@5.2.2,ko1w5PpFl@23.10.10,rJhhqVs_ob7@9.12.2,rZxln_cfx@3.1.8,rkL8e5No_iZX@4.1.0,ryDQcVoOoZQ@8.2.4,twMyStLkn@15.7.13,yi0yZHf2@2.1.1,zXuvhYftb@4.2.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.smarketer.de/api/js/vendors~fp.bundle.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fast.smarketer.de/api/ab/handle?a=false&f=3d3b7d3301521508d32fa317acc9aa63"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.smarketer.de/api/ab/handle?a=false&f=3d3b7d3301521508d32fa317acc9aa63"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.13.0/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://tracking.buhl.de/matomo.php?e_c=Consent&e_a=Consent%20given&e_n=implicit&ca=1&idsite=1&rec=1&r=159536&h=15&m=46&s=47&url=https%3A%2F%2Fwww.buhl.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pf_net=95.38500000780914&pf_srv=480.4900000017369&pf_tfr=55.53499999223277&pf_dm2=476.714999997057&pf_onl=0.3949999954784289&pv_id=iY8e64"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://buhl.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "fast.smarketer.de",
+      "graphql.usercentrics.eu",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 18
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 14,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "www.googletagmanager.com"
+    ]
+  }
+}

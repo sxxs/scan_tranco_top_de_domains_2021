@@ -1,0 +1,604 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-luebeck.de/universitaet/universitaet.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "686f87f930e2dcbb3931b5a2231bebf918fe3c4cb38583d7c451d48d1e85537a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636369570.0,
+      "not_valid_before": 1565172370.0,
+      "serial_number": 10341436000678028513883852982,
+      "subject": {
+        "commonName": "www.uni-luebeck.de",
+        "countryName": "DE",
+        "localityName": "Luebeck",
+        "organizationName": "Universitaet zu Luebeck",
+        "organizationalUnitName": "IT-Service-Center",
+        "stateOrProvinceName": "Schleswig-Holstein"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-luebeck.de/universitaet/universitaet/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-luebeck.de/",
+    "http://www.uni-luebeck.de/",
+    "https://www.uni-luebeck.de/",
+    "https://www.uni-luebeck.de/universitaet/universitaet.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-luebeck.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.uni-luebeck.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/universitaet/universitaet.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/Assets/a5e0cbe34d.css?1550659379"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/Assets/9ec1df6650.css?1550659379"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/irfaq/Resources/Public/Stylesheets/styles.css?1501675532"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/bootstrap/css/bootstrap.min.css?1434033480"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/base.css?1558606541"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/supermenu.css?1529414046"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/print.css?1446544529"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/linegrid.css?1434460026"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/panelmover.css?1434257973"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/scrollable_responsiv.css?1507116194"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/powermail2_formular_uni.css?1522835993"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/irfaq_faq_studiengaenge.css?1501680105"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/startpage.css?1507273390"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/responsiv.css?1507285673"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/social_icons.css?1576680133"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/jquery/jquery-1.11.3.min.js?1434033480"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/Assets/9a38f34785.js?1550659379"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/images/uni-logo.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/1/a/csm_news_je2021_616e8839c3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/6/7/csm_Slider-Corona-Tests_Kopie_278457a48e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/a/b/csm_Slider_CHE-Ranking_AdobeStock_380748216_c_dusanpetkovic1AdobeStock_e23fbdbe87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/5/4/csm_Bild_Datenschutz-Sicherheit_Fotolia_183274475_gro__sser_e44c6f7e9c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/4/d/csm__c__O.Malzahn_MHS_Inside_Out_Project_64045_3e9f79ab11.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/9/d/csm_Korrektur_Propaedeutikum_SLIDER_18-02-2021_011bf4c87b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/2/3/csm_200713_deinstudium1_f2b681916b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/7/a/csm_corona_hinweis_63cdd25cd7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/7/c/csm_0301-siegel_grau_perspektive_dunkler_3323141d50.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/0/0/csm_23511scr_89f148a2ee16c7f_c450861fc8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3temp/_processed_/d/1/csm_Foto_Jan_Philip_Kolb_baa373903e.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/2/3/csm_icon-biomedtec_9e66c8d2aa.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/d/e/csm_grunederhochschule_2e77bc73ba.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/images/logo_leiste/Logo_PMI.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/9/2/csm_EQ-Logo_2020_ba476edf62.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/d/3/csm_Logo_Diversity_Audit_Zertifikat_2019_web_e79a6e8979.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/images/logo_leiste/HRK-Audit-Siegel_2015.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/1/9/csm_Logo_LPW_deutsch_4baacc2052.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/images/logo_leiste/Logo_Charta.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/a/e/csm_Logo_Audit_Familie-2020_38eb466c4c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/1/c/csm_Logo_electronics_watch_496c334be3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/_processed_/7/1/csm_logo_baslerdeklaration_3f26419730.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/bootstrap/js/bootstrap.min.js?1434033480"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/jquery/scrollable.js?1507111208"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/jquery/scrollable.navigator.js?1434170757"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/jquery.datetimepicker.min.js?1547114791"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/parsley.min.js?1547114791"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Tabs.min.js?1547114791"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Form.min.js?1547114791"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/irfaq/Resources/Public/JavaScript/toggleFaq.js?1501682573"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/js/slider.js?1434033481"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/js/searchform.js?1507086384"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/js/supermenu.js?1434033481"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/jquery/jquery.bcSwipe.min.js?1490294573"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/js/swipe.js?1507108986"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/typo3conf/ext/perfectlightbox/res/css/slightbox.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/lib/slimbox/slimbox.2.0.4.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/css/screen/rte.css"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/hint-search-tab.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/hint-search-textbox.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/hint-search-button.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/searchpanel-tab.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/topmenu-hint.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/topmenu-welle.gif"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/fonts/OpenSans-Regular-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/fonts/OpenSans-Light-webfont.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-luebeck.de/fileadmin/site/img/sprite_social_icons2.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000;",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-luebeck.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

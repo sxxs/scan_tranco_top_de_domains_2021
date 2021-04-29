@@ -1,0 +1,1173 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.duesseldorf.de",
+      "expires": 1681125925,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 62215201,
+      "name": "BT_pdc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 134,
+      "value": "eyJ2aWQiOiJOQSIsImV0Y2NfY3VzdCI6MCwiZWNfb3JkZXIiOjAsImV0Y2NfbmV3c2xldHRlciI6MCwic21zIjpudWxsLCJub19zaWduYWxpemUiOmZhbHNlfQ%3D%3D"
+    },
+    {
+      "domain": "www.duesseldorf.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "BT_sdc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
+      "size": 202,
+      "value": "eyJldF9jb2lkIjoiTkEiLCJyZnIiOiIiLCJ0aW1lIjoxNjE4OTE3OTI1NTA4LCJwaSI6MSwiZXVybCI6Imh0dHBzOi8vd3d3LmR1ZXNzZWxkb3JmLmRlLyIsInJldHVybmluZyI6MSwiZXRjY19jbXAiOiJOQSIsInNtcyI6bnVsbCwibm9XUyI6IkRnS1J5eCJ9"
+    },
+    {
+      "domain": "www.duesseldorf.de",
+      "expires": 1619004326,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "isSdEnabled",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "false"
+    },
+    {
+      "domain": "www.etracker.de",
+      "expires": 1681125926.512011,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 62215202.51201105,
+      "name": "_et_coid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "f427faa7158fb3b2745c8e0280c803b0"
+    },
+    {
+      "domain": ".duesseldorf.de",
+      "expires": 1681125926,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 62215202,
+      "name": "_et_coid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 40,
+      "value": "f427faa7158fb3b2745c8e0280c803b0"
+    },
+    {
+      "domain": "www.duesseldorf.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "showToolbar",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 12,
+      "value": "0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 2,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "etracker.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.duesseldorf.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "443969b1f57d20031388a7032c3878359fc196099f1ec94e2c0597b678ddc261",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648162799.0,
+      "not_valid_before": 1584597110.0,
+      "serial_number": 60225469119093469022491806956587330560,
+      "subject": {
+        "commonName": "*.duesseldorf.de",
+        "countryName": "DE",
+        "localityName": "Neuss",
+        "organizationName": "Zweckverband IT-Kooperation Rheinland",
+        "organizationalUnitName": "ITK Rheinland IT Services",
+        "stateOrProvinceName": "NRW"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.duesseldorf.de/infonav/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://duesseldorf.de/",
+    "https://duesseldorf.de/",
+    "https://www.duesseldorf.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://duesseldorf.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://duesseldorf.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3temp/assets/compressed/merged-97a1c22c0c814dd0478d976b266e73b5-dc0a478d3dc9a20ad8bd76fb6aff0ae7.css?1617795887"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3temp/assets/js/dd82474708.js?1567488980"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/example/icon/csm_Wappen_DUS_a0ecf34a9d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/duesseldorf_claim_deu.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/d/9/csm_keller-m_5177f030cd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/e/2/csm_rat-ccd-m_0ebc34a402.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/2/f/csm_touristik_entdecken_slideshow_01_rheinufer_920_746a4f6de4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/d/0/csm_aquazoo174x104_a35e884cb8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/e/8/csm_radschlag_aed7675b35.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/1/9/csm_schild_amt54_68c2fcdd8f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/2/7/csm_ehrensache_8ec665e5f1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/f/0/csm_int_angel_cbeb472f8f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/5/4/csm_artcard2019-166x100px_b142f48fe1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/5/f/csm_420_254_teaser_dkult_a0dedac736.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/b/b/csm_business_dus_collage_3ed9aa23a0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/7/2/csm_420_254_kreativ_5_84f2248fb2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/f/d/csm_digitalewirtschaft_adaae88c6f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/7/e/csm_start_rathaus_2880_000e0cf0a0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/d/5/csm_10_Header_Ausbildung20_1_2_04b490d193.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/3/5/csm_10_Header_Ausbildung20_2_2_5b25daab1d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/8/b/csm_logo_gesundbleiben_7f9762a4da.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/2/0/csm_210418Corona-Gedenken1_05538c3aa4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/2/0/csm_Corona_Aktuell_1dc51fcab4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/d/8/csm_video_testoption_e927a03e74.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/d/6/csm_210402Videoappell_LHD_UKD_5ee41a7a47.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/4/d/csm_210324Stadtsauberkeit2_e9ffdb5d99.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/4/2/csm_210324baumpflanzung2_864a500e6d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/4/9/csm_Internationaler_Tag_gegen_Rassismus_d22e4506fe.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/e/1/csm_210318-SchnelltestMEH_084d964c1b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/4/9/csm_corona870_bece645a03.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itkr_corona_portal/Resources/Public/Icons/illu-infected.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itkr_corona_portal/Resources/Public/Icons/illu-totalinfected.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itkr_corona_portal/Resources/Public/Icons/illu-deceased.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itkr_corona_portal/Resources/Public/Icons/illu-incidence.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itkr_corona_portal/Resources/Public/Icons/illu-syringe.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/7/8/csm_wegweiser1_c9887aa45d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/0/a/csm_wegweiser2_c6a0960193.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/_processed_/4/0/csm_190614radfahren_2779d3fafd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/Amt13/Portale/youtube_teaser800.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icon-facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icon-twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icon-youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/logo-laha-duesseldorf_neg.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/fileadmin/Amt13/system/kontakt_grau_200.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/jquery-3.4.1.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/bootstrap.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/jquery-tools.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/jquery-ui-1.12.1.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/ekko-lightbox.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/js.cookie.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/page.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/socialshareprivacy.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/modules.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/jquery.bxslider-4.2.12.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/bootstrap-datepicker.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/bootstrap-datepicker.de.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/bootstrap-datepicker.fr.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/bootstrap-datepicker.en-GB.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/moment.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/jquery.autocomplete.min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/topdownloads/Resources/Public/Scripts/agbcheck.js?1617795570"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/citko_grundwasser/Resources/Public/Vis/vis.min.js?1617795559"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/citko_grundwasser/Resources/Public/Js/createChart.js?1617795559"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itk_psychological_help/Resources/Public/JavaScript/hilfeportal.js?1617795563"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itkr_educational_offer/Resources/Public/JavaScript/keyword_autocomplete.js?1617795572"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/checkIE.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/helper.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/bxsliderHeaderteaser.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/itkslider.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/itkExpanderTeaser.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/accordion.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/explorer.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/teaserbanderole.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/addressinfoboxes.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/gallery.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/itkservice.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/headlineSwitch.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/mobileNav.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/news.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/notification.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/jsonform.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/breadcrumb.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/webcam.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/itkTeaserArticleVideo.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/solr.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/solr/Resources/Public/JavaScript/suggest_controller.js?1537429519"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/underscore-min.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/clndr.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/calendar.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/lightbox.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/itkAemtersuche.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/pressReleases.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/downloadlinks.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Objects/brennpunktmodul.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/solr/Resources/Public/JavaScript/facet_daterange_controller.js?1537429519"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/lhd_config.js?1617795561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/itk_pollingstation/Resources/Public/JavaScript/ajaxSearch.js?1617795564"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/medienteam/Resources/Public/Scripts/Objects/pressTeam.js?1617795565"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/medienteam/Resources/Public/Scripts/Objects/selectionPopup.js?1617795565"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/medienteam/Resources/Public/Scripts/Objects/loadPressTeam.js?1617795565"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icon-white-arrow-circle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/video-button.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icons-70.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icons-socials-footer.png"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Fonts/dinpro-bold-webfont.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Fonts/dinpro-regular-webfont.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrow-to-top.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/dc/js/jquery-1.8.3.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/dc/index.php/bto/d/?&v=NA&ecl=NA&cc=DgKRyx&qrs=&et_pagename=__INDEX__%255Bwww.duesseldorf.de%252Fde%255D%2520%2520-%2520Startseite%2520%253A%25201&rfr=&cv=0&sdc=%7B%22et_coid%22%3A%22NA%22%2C%22rfr%22%3A%22%22%2C%22pi%22%3A1%2C%22time%22%3A26%2C%22eurl%22%3A%22https%3A%2F%2Fwww.duesseldorf.de%2F%22%2C%22returning%22%3A1%2C%22etcc_cmp%22%3A%22NA%22%2C%22sms%22%3Anull%2C%22noWS%22%3Anull%7D&pdc=%7B%22vid%22%3A%22NA%22%2C%22etcc_cust%22%3A0%2C%22ec_order%22%3A0%2C%22etcc_newsletter%22%3A0%2C%22sms%22%3Anull%2C%22no_signalize%22%3Afalse%7D&pg=https%3A%2F%2Fwww.duesseldorf.de%2F&pt=1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=DgKRyx"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrow-white-left.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/icons-toolbar.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrow-grey-up.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/stylesheets/socialshareprivacy.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/slide-play.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/images/fb_timeline.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/images/twitter_timeline.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/images/in_timeline.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/list-dot-red.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrow-white-right.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Css/img/bx_loader.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrows-bxslider-carousel.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrow-right.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/arrow-left.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Images/slide-stop.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/stylesheets/common.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/stylesheets/modules/facebook.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/stylesheets/modules/twitter.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=DgKRyx&v=5.0&tc=16189179259380&pagename=__INDEX__%255Bwww.duesseldorf.de%252Fde%255D%2520%2520-%2520Startseite%2520%253A%25201&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&cc_url=https%3A%2F%2Fwww.duesseldorf.de%2F&et_source_url=https%3A%2F%2Fwww.duesseldorf.de%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&et_bs=1&et_sbscr=0&coid=f427faa7158fb3b2745c8e0280c803b0&et_cd=www.duesseldorf.de&dh=5CSXajDu43uthoRKQyMKMOfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.duesseldorf.de/typo3conf/ext/site_duesseldorf/Resources/Public/Scripts/Vendor/SocialSharePrivacy/images/socialshareprivacy_info.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://duesseldorf.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

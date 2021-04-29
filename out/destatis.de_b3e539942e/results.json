@@ -1,0 +1,656 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.destatis.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 77,
+      "value": "ASRO_kDRsHLm4zTI4cw!2fHg4z2vBG8wRPnGU_O77KS4gxFYinmxlAx0wPEa4TEfXgq7"
+    },
+    {
+      "domain": "www.destatis.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_BALANCE-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 64,
+      "value": "$xc/zAp3TBRdfgHmTUVWOYN_Cf!Rk4jC933P31PfwXfZyZ5vk!lY"
+    },
+    {
+      "domain": "www.destatis.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "session": true,
+      "size": 50,
+      "value": "4310B8B3FD7F9C9CA34CE1E80ABBE926.live722"
+    },
+    {
+      "domain": "www.destatis.de",
+      "expires": 1621443957,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599203,
+      "name": "cookiebanner",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 19,
+      "value": "visible"
+    },
+    {
+      "domain": "www.destatis.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_pk_testcookie..undefined",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 26,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.destatis.de/DE/Home/_inhalt.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "89d346388bab13d0885a3b52cbad02f4ccbdf64786bac65bede4a627f729ec05",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623147879.0,
+      "not_valid_before": 1551957879.0,
+      "serial_number": 10097605168897002593567936285,
+      "subject": {
+        "commonName": "www.destatis.de",
+        "countryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Informationstechnikzentrum Bund (ITZBund)",
+        "organizationalUnitName": "Betrieb",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.destatis.de/DE/Home/DE/Service/Impressum/_inhalt.html;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://destatis.de/",
+    "http://destatis.de/",
+    "https://www.destatis.de/",
+    "https://www.destatis.de/DE/Home/_inhalt.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://destatis.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://destatis.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Home/_inhalt.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/normalize.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/_libs.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/small.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=42"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/medium.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=33"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/large.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=38"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/custom.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=40"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/custom_destatis.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/logo.svg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal&v=9"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Forms/_components/Buttons/Submit_weiss.svg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=image"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Home/Bilder/buehnenbild-home.jpg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=portrait"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Forms/_components/Buttons/Submit_blau.svg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=image"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/expand.svg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Styles/addon_print.css;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=10"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Service/EXDAT/_Bilder/kachelbild-startseite.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Service/Statistik-Visualisiert/_Bilder/dashboard-deutschland-signet.jpg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Ueber-uns/Arbeiten-im-Bundesamt/Karriere/registerzensus-stellenwerbung-logo.jpg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Grafiken/Sonstiges/2021/_Statisch/20210331-corona.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Gastgewerbe-Tourismus/_Grafik/_Statisch/tourismusatlas.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Presse/_Bilder/pressegespraech.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Nachhaltigkeitsindikatoren/_Fotos/indikatorenbericht2021.jpg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Themen/Querschnitt/Corona/_Grafik/_Statisch/corona-teaser.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Themen/Querschnitt/Corona/_Grafik/_Statisch/corona-gesellschaft.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Haushalte-Familien/Methoden/Video/video-mz-bild-fremdsprachen.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Service/Statistik-Campus/_Bilder/eLearning-data-literacy.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Service/Statistik-Visualisiert/_Bilder/instagram.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Methoden/Bilder/wista.jpg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Service/Statistik-Campus/_Bilder/datenreport-2021.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/to-top.svg;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal&v=6"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/logo-partial.png;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/JavaScript/init/global.js;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?v=25"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.itzbund.de/js/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/sprite.svg?__blob=normal&v=17"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-Book.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-Italic.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-Bold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-Regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-Light.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-Medium.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Modules/MobileNavigation/DE/Allgemein/MobileNavigation.html?view=renderMobileNavigation"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/slick/icon_ajax_loader.gif?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/DE/Presse/Pressemitteilungen/Grafiken/Industrie-Verarbeitendes-Gewerbe/2021/_Interaktiv/20210419-auftragsbestandsindex.html;jsessionid=4310B8B3FD7F9C9CA34CE1E80ABBE926.live722?cms_showChartData=1"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/static/fonts/statissans/StatisSans-BookItalic.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/mail.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/facebook.svg?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/twitter.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/linkedin.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.itzbund.de/js/?action_name=www.destatis.de%2FStartseite%20-%20Statistisches%20Bundesamt&idsite=58&rec=1&r=774266&h=19&m=5&s=57&url=https%3A%2F%2Fwww.destatis.de%2FDE%2FHome%2F_inhalt.html&_id=&_idts=1618851957&_idvc=1&_idn=1&_refts=0&_viewts=1618851957&send_image=1&cookie=0&res=800x600&gt_ms=1485&pv_id=FTNDE2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/close.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/logo.svg?__blob=normal&v=9"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/to-top.svg?__blob=normal&v=6"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.destatis.de/SiteGlobals/Frontend/Images/icons/logo-partial.png?__blob=normal&v=2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "child-src": [
+        "*.facebook.com",
+        "*.twitter.com",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.youtube.com",
+        "*.destatis.de",
+        "*.itzbund.de",
+        "*.stba.de",
+        "*.euro-area-statistics.org",
+        "*.ims-cms.net",
+        "*.kemweb.de",
+        "*.teambits.events",
+        "doo.net/de-de/widget/",
+        "data:"
+      ],
+      "default-src": [
+        "'self'",
+        "*.destatis.de"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "default-src 'self'  *.destatis.de; base-uri 'self'; style-src 'self' 'unsafe-inline' *.destatis.de piwik.itzbund.de; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.google.com *.destatis.de piwik.itzbund.de doo.net ;object-src 'self' multimedia.gsb.bund.de  *.destatis.de piwik.itzbund.de ; media-src 'self' multimedia.gsb.bund.de *.youtube.com www.quirksmode.org  *.destatis.de piwik.itzbund.de; child-src *.facebook.com *.twitter.com *.google.com *.gstatic.com *.youtube.com *.destatis.de *.itzbund.de *.stba.de *.euro-area-statistics.org *.ims-cms.net *.kemweb.de *.teambits.events doo.net/de-de/widget/ data: ; img-src 'self' data: blob: *.google.com *.gstatic.com *.youtube.com  *.destatis.de piwik.itzbund.de; frame-ancestors 'self';",
+      "img-src": [
+        "'self'",
+        "data:",
+        "blob:",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.youtube.com",
+        "*.destatis.de",
+        "piwik.itzbund.de"
+      ],
+      "media-src": [
+        "'self'",
+        "multimedia.gsb.bund.de",
+        "*.youtube.com",
+        "www.quirksmode.org",
+        "*.destatis.de",
+        "piwik.itzbund.de"
+      ],
+      "object-src": [
+        "'self'",
+        "multimedia.gsb.bund.de",
+        "*.destatis.de",
+        "piwik.itzbund.de"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "*.google.com",
+        "*.destatis.de",
+        "piwik.itzbund.de",
+        "doo.net"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "*.destatis.de",
+        "piwik.itzbund.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://destatis.de\r",
+  "third_parties": {
+    "fqdns": [
+      "piwik.itzbund.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "piwik.itzbund.de"
+    ]
+  }
+}

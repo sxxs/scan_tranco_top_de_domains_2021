@@ -1,0 +1,875 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "aok.de",
+      "expires": 1618916417.984571,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10800.984570980072,
+      "name": "viela",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 37,
+      "value": "f39fbfdc5ac3973c7f6cc7ee40deed04"
+    },
+    {
+      "domain": "www.aok.de",
+      "expires": 1618916418.075125,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10801.07512497902,
+      "name": "viela",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 37,
+      "value": "242dd0527765a26152b75254b03529de"
+    },
+    {
+      "domain": ".aok.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "localisation-v2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 323,
+      "value": "%7B%22client%22%3A%7B%22id%22%3A5%2C%22title%22%3A%22AOK%20Rheinland%5C%2FHamburg%22%7D%2C%22location%22%3A%7B%22zip%22%3A%2250733%22%2C%22city%22%3A%22K%C3%B6ln%22%2C%22city_addition%22%3Anull%2C%22region%22%3A%7B%22id%22%3A20%2C%22title%22%3A%22Rheinland%22%7D%7D%2C%22ic%22%3Afalse%2C%22irfd%22%3Afalse%7D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.aok.de/pk/rh/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "7f8792586ed6298e711e57898b649fecfc7a3c47219331dcf79f5cdfebd693ae",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1627293600.0,
+      "not_valid_before": 1561586400.0,
+      "serial_number": 13523540846517962306314821134473813905,
+      "subject": {
+        "commonName": "aok.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "AOK Bundesverband GbR",
+        "organizationalUnitName": "IT-Steuerung"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.aok.de/pk/rh/footer-navigation/rechtliches/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": "15.6.2",
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://aok.de/",
+    "https://www.aok.de/",
+    "https://www.aok.de/pk/uni/",
+    "https://www.aok.de/pk/rh/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://aok.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/uni/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/rh/"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/typography/frutiger/60cae32f-adbc-4849-a2a7-51f8148b3332.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/typography/frutiger/1925eb3e-b843-445d-8072-f11f28e0562f.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/typography/frutiger/be2eb9d5-ee74-4084-b711-fe64163d1439.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/icons/aok-icons-linear/aok-icons-linear.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/icons/aok-icons-functional/aok-icons-functional.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/base-pk-7a1ddcc5cf50433b40695fa8d6049449.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y000.min-95022dbecf15e082d37312f60cd4fa1c.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y036.min-07039fe37bfcbd0ca1c8f8941b1b3f7c.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/featherlight-theme-aok.min-f75060fe13ebcfb8d1c6de03385df798.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y042.min-68450a94a02f90c3054b71e0e09f8172.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/forms.min-16f91930b5e282d2e35e8bb1d009d227.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y013.min-b774075369a56bc94a94118c7bab91ba.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/search-form.min-ae30be91f64c86bbfb5a01e773822f12.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/portalsuche-v1.min-38b7e5db2ff9535fbcb12c8f34fe4d66.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/pagination.min-4a77dd527363efcb9ef81d22e3a57425.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/header.min-39a4987f3575ee65b80729682346aca8.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/breadcrumb.min-7057f494cfa036b7d15c22c394b6961d.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jqueryui.min-0fef4b94322216054b91b20f0f9e1734.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/localisation.min-a3a61c1871ba852014326c83bfe570aa.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/k20.min-591d8a7ca190bcc54e6f57ce9335d5aa.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y017.min-c0467262cb30c62870a0a161334e9e01.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y015.min-488a8d417e0543a8f05c66852f0507ca.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/service-menu.min-b4a23a27e66c53bb379b722c9e51a34c.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/flexslider.min-ec9c3acf372d47a8fa6610385fa39aa5.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/portalsuche.min-7de80ef65c8258cc8aca9b030dfa1c58.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y030.min-3d97d11d490dd2c6d20a3e9a5866c604.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y037.min-de09999190c032735e7cf8d8d014fff0.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/swiper.min-e6dfda4f129e65eeed9514f90b6f2aad.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y015v2.min-fa885010af6fbec1a5b9281dc679a5f3.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y001.min-ed4c731decac459330f94864c2b7d0b9.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y007v2.min-1bd40278fbfbbfc14c9972358928e1dd.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y051.min-7bac7da22247b9fd9a49a0c6f0c65cd4.css.gzip?1617856625"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y038v2.min-f912d8d69b0938f7d1f64b8e0fa17e57.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y004.min-2cb44a27543f1e18a2346a4872d87349.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y005.min-89a7f804fb23894f26672a185827fc1f.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y006v2.min-0ed0fe88578997c3e87638c7677749c7.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y053.min-ee7d06a49ff3f133951bdb5e297aad90.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/accordion.min-cf768174feef516c3db28576e3a83ab6.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y008v3.min-2084235cbfe2084d06a88fbbdd4dbcc4.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/location-search.min-a219088b1e9c0055b25141a4c6730be0.css.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/react.min-ce9b9cfb4bf0e8ddd79303a810cd47c0.js.gzip?1617814509"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/react-dom.min-b48ed98e74f74e7bb4410b90a34d1d21.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jquery.min-b8bcfdd925fb07e1fcfddf717ef83b53.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jquery.matchHeight-min-d7014a633e766972c1e0f9fe921df70d.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jquery.actual.min-1033553b33b5cc5df3ecba0e726c00f7.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/js.cookie-9202730584996b6bc40b91df439f9b72.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/bootstrap.bundle.min-8c1cf4b8c71c24cef9d836bf4a0cd8c3.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/select2.full.min-bd1cc4a59cc781eae4c8a5cf10e986b0.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/featherlight.min-8f6a8c838ae5dc1bb8b0845993bf287f.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/version-e42a90718fe126a58ee25b4f14cb14e9.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/widget-4a3605e49e1cd3146116c1bcc8499a10.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/position-15d1f551f2bb65eab25964a18d839908.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/keycode-213e38753e12101011efbd9bf60358a4.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/safe-active-element-ec6999b55aead0ac17cbd462880f1307.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/unique-id-b9573f253915dd76d9255c2afa1135f4.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/menu-f2ad9d9f55de385da91a0857b8cec3c2.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/autocomplete-decbb42f00aa93ac201273be135167a0.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jquery.flexslider-min-c4ab9a669dc48bbdd9fdadb630196ce3.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/flexslider.min-f6e121a7da9ea739bfc38f68ca6044fe.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/swiper.min-46af7167c8968b72319bac1ea6134f5b.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/y015v2-e1af11382e8d2aca5c16ab992ee0a36a.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/accordion-dd7a8704699d93bd442cf710ae939875.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/location-search.min-ad559db08b4c1d3c31b2dde43eabbcfa.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/trackingCodeReader-3f8c727a9893377385067145b31bc494.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/consentScriptsConfig-d133d9ea53cee6caed8f6fa78bb2831b.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/consent-script-loader.min-41904d01ade2c3b02da45ee1bd768e4e.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/cookie-settings-manager.min-18a11d7efd341664937ac28a25cad2e2.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/base-043384209ec851b0cb60a83a053f1c50.js.gzip?1617814510"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/images/logo-aok-without-claim.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3conf/ext/aok_site_de/Resources/Public/Styleguide/base/images/logo-aok.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/Familie_Jahreskampagne-2021_aok-de_1440x510px_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/AOK_RHH_Fitbonus_SLider.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/201223_01_Header_AOK_1440x510.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/AOK_RHH_Corona-Hotline_Clarimedis_Slider_iStock-501908882.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/article/teaserImages/Universell/01-2-Slider-Thema_420/AOK-Rheinland-Hamburg/frau-telefoniert_wdv-312517_1440x510.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/AOK_Videosprechstunde_Slider_1192x420px.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/modules.min-9e61b0f4f337df170de0f69ac5b9f38b.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jquery.plugin.mindbreezeAutocomplete-121a62eae94d0f649e6bfecc4d2e7720.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/jquery.plugin.mindbreezeAutocompleteSimple-fafa2036f6c87ff1ba58fd0249c606b4.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/mindbreezeLoadMoreButton-a200d77c1bca3d334f2e01b078f03141.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/ajaxUriWrapper-a008c4dc832f4b9d1b1eb2fbcc543fbd.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/scrollToElementIfSelectorIsInSessionStorage-33ab89200b142abafa16638df7a8f81c.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/press-icon.jquery-33b60161715a4e46201fe042f0bcf4fe.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/localisation.min-9fe1098967a1ede4be4ea0be4a386625.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/reactModules-47d66230416ba600fcedf7ec24ddceaa.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/typo3temp/assets/compressed/feedback-formular-9fc75bcdae383401200537a94adfcf5b.js.gzip?1615305611"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/article/teaserImages/Universell/02-Teaser-Newsbild/AOK-Baden-Wuerttemberg/aokbw-pflegestudie-pflege-mann-462x260.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/article/AOK_RH_N_Jahreskampagne-Familie_Teaser_2021.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/article/AOK_RH_L_Videosprechstunde_Teaser_2020.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/Zielgruppen_neu/AOK_ON_Azubis_Gruppenarbeit_800x413.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/Zielgruppen_neu/AOK_12_00A5796_001_800x413.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/user_upload/Zielgruppen_neu/AOK_10_00A7642_001_800x413.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/fileadmin/_processed_/a/5/csm_AOK_10_00A5028_001_800x413_b0ca255e64.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/?eID=cookieSettings&identifier=pk"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/rh/?eID=clientProxy&method=getAffiliates&cHash=61b8e9c470997066f78c9d99db96ae9d&arguments%5Bfilter%5D=%7B%22client%22%3A5%2C%22distance%22%3A%7B%22search_query%22%3A%2250733%20K%C3%B6ln%22%2C%22radius%22%3A150%7D%7D"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aok.de/pk/rh/localisation-dialog.html?tx_aoklocalisation_locateplugin%5BpageUid%5D=394&tx_aoklocalisation_locateplugin%5BarticleUid%5D=0&tx_aoklocalisation_locateplugin%5BpluginContext%5D=&tx_aoklocalisation_locateplugin%5BcurrentUri%5D=https%3A%2F%2Fwww.aok.de%2Fpk%2Frh%2F"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "https://*.aok.de"
+      ],
+      "header_value": "frame-ancestors https://*.aok.de;"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16416000",
+      "includeSubDomains": false,
+      "max-age": 16416000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://aok.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

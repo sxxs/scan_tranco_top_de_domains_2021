@@ -1,0 +1,571 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".zdf.de",
+      "expires": 1619627402,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784800,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618849802883"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1643296359.116148,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 24453757.116147995,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c5b35c32a5d792607db00a0001%3B607db00b%3B61f2b667"
+    },
+    {
+      "domain": "www.zdf.de",
+      "expires": 1634574603.118441,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15732001.118441105,
+      "name": "atidvisitor",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 191,
+      "value": "%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-569006-%22%7D%2C%22options%22%3A%7B%22path%22%3A%22%2F%22%2C%22session%22%3A15724800%2C%22end%22%3A15724800%7D%7D"
+    },
+    {
+      "domain": ".xiti.com",
+      "expires": 1652977803.188216,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135201.18821597,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "91F8F294-0D99-4881-AD63-D4A1194E6A54"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de",
+      "xiti.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.zdf.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "43be7dac9b2e3fee66f67d7cb0c2a2eb25442abf2f09abc7d7d8104620f32c42",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert TLS RSA SHA256 2020 CA1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1640127599.0,
+      "not_valid_before": 1607900400.0,
+      "serial_number": 15367160849874941324237679181272446950,
+      "subject": {
+        "commonName": "www.zdf.de",
+        "countryName": "DE",
+        "localityName": "Mainz",
+        "organizationName": "Zweites Deutsches Fernsehen Ad\u00f6R",
+        "stateOrProvinceName": "Rheinland-Pfalz"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.zdf.de/service-und-hilfe/zuschauerservice/impressum-zdf-100.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://zdf.de/",
+    "https://www.zdf.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://zdf.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/css/styles.css"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Thin.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-ExtraLight.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Light.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Medium.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-SemiBold.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Bold.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Heavy.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Black.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/zdf-iconfont.woff?fch94r"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/js/generated/_crucial-behavior.pkg.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://module.zdf.de/atinternet/live/smarttag.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/img/my-program/avatar@3x.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/js/generated/_app-behavior.pkg.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=zdf&sv=ke&co=page-home%2FZDFmediathek_Startseite%2Ff1774e4a-dc84-48bb-8dcd-be05ed09884a&cp=ZDFmediathek_Startseite&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.zdf.de&xy=800x600x24&lo=DE%2FBerlin&cb=001c&i2=001c9c334d7de8589607db00a&ep=1644680774&vr=423&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618849802886&ev=&cs=gtmrrv&mo=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://me.ioam.de/soziodata2.php?sc=c98bcc25420607db00ac82ffa7e1a4a0&st=zdf&id=30n7mb"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tracksrv.zdf.de/event?eventType=view&trackingId=t-knotdib6-2dw2rp0glyc-i065v0jz-88xws75so7g0000000&appId=exozet-zdf-pd-0.73.6968&abGroup=gruppe-c&abName=ab-2021-04-26&loggedIn=false&subprofile=false&assetId=SCMS_f1774e4a-dc84-48bb-8dcd-be05ed09884a&pagePath=https%3A%2F%2Fwww.zdf.de%2Fzdf-startseite-100.html"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=zdf&sv=ke&co=page-home%2FZDFmediathek_Startseite%2Ff1774e4a-dc84-48bb-8dcd-be05ed09884a&cp=ZDFmediathek_Startseite&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.zdf.de&xy=800x600x24&lo=DE%2FBerlin&cb=001c&i2=001c9c334d7de8589607db00a&ep=1644680774&vr=423&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618849802886&ev=&cs=gtmrrv&mo=1&sr=71"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618849803123&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=18x30x3&lng=en-US&ati=PUB-[Teaser-Tracking]-[Die_letzten_Gigolos]-[Stage]-[Stage]-[]-[HPos%3A%201]-[VPos%3A%201]-[ZDFmediathek_Startseite%20%7C%20https%3A%2F%2Fwww.zdf.de%2Ffilme%2Fdas-kleine-fernsehspiel%2Fdie-letzten-gigolos-104.html]&type=AT"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618849803123&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=18x30x3&lng=en-US&ati=PUB-[Teaser-Tracking]-[Die_letzten_Gigolos]-[Stage]-[Stage]-[]-[HPos%3A%201]-[VPos%3A%201]-[ZDFmediathek_Startseite%20%7C%20https%3A%2F%2Fwww.zdf.de%2Ffilme%2Fdas-kleine-fernsehspiel%2Fdie-letzten-gigolos-104.html]&type=AT&Rdt=On"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api.zdf.de/broker/relay"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/die-letzten-gigolos-110~936x520?cb=1618822487548"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/chronik-2021-april-136~936x520?cb=1618214382152"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "Accepted",
+      "url": "https://api.zdf.de/broker/relay"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/pure-2-102~936x520?cb=1616750511099"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/pure-buehne2-100~405x720?cb=1616750390205%20405w%20720h"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/sb-pure-logo-mittig-100~380x170?cb=1614344391508"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/dead-pixels-108~405x720?cb=1617952802957%20405w%20720h"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/sb-dead-pixels-logo-mittig-100~380x170?cb=1616771343067"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/logo-contentlabel-neoriginal-100~380x170?cb=1605518987787"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/plakatteaser-unbroken-100~405x720?cb=1613981210750%20405w%20720h"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/unbroken-logo-mittig-100~380x170?cb=1614268092095"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/promoteaser-buehne-sloborn-100~405x720?cb=1610534482934%20405w%20720h"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/sloborn-logo-mittig-100~380x170?cb=1598629143395"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/plakatteaser-fritzie-der-himmel-kann-warten-100~405x720?cb=1600862728085%20405w%20720h"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/fritzie-logo-100~380x170?cb=1597927385275"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/herz-und-viren-buehne-m-100~405x720?cb=1618302038281%20405w%20720h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/chronik-2020-august-146~405x720?cb=1598622565716%20405w%20720h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/kielings-wilde-welt-112~405x720?cb=1615380587901%20405w%20720h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/wunderwerke-der-weltgeschichte-machu-picchu-inkastadt-in-den-wolken-100~405x720?cb=1602511350818%20405w%20720h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/genial-konstruiert-superschiffe-100~405x720?cb=1577710414760%20405w%20720h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/dead-pixels-106~936x520?cb=1618827138639"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/sb-dead-pixels-logo-links-100~760x340?cb=1616771326975"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/der-fall-nawalny-104~936x520?cb=1613990546619"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/sendungsteaser-kudamm-108~405x720?cb=1614609932594%20405w%20720h"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/sb-kudamm56-logo-mittig-100~380x170?cb=1614609299569"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/wie-ein-fremder---eine-deutsche-popmusik-geschichte-5-100~405x720?cb=1618683922585%20405w%20720h"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618849807872&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=18x30x7&lng=en-US&idp=1830034180733&jv=0&p=ZDFmediathek_Startseite::page-home::f1774e4a-dc84-48bb-8dcd-be05ed09884a::ZDFmediathek_Startseite&s2=1&vrn=1&stc=%7B%22broadcast%22%3A%22ZDF%22%2C%22chapter4%22%3A%22%22%2C%22domain%22%3A%22zdf%22%2C%22chapter1%22%3A%22ZDFmediathek_Startseite%22%2C%22id%22%3A%22zdf-startseite-100%22%2C%22level1%22%3A%22zdf%22%2C%22level2%22%3A%22ZDFmediathek_Startseite%22%2C%22inhaltsTyp%22%3A%22page-home%22%2C%22szm-g%22%3A-1%2C%22szm-a%22%3A-1%2C%22szm-c%22%3A%22zdf881ce27661240a9d2268caef40fc6df8%22%2C%22ab-config%22%3A%22ab-2021-04-26%22%2C%22ab-group%22%3A%22gruppe-c%22%7D&ref="
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/herz-und-viren-buehne-m-100~936x520?cb=1618302038281"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/herz-und-viren-logo-linksbuendig-100~760x340?cb=1617267269776"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/geschichten-aus-der-sternekueche-wassim-hallal-100~936x520?cb=1618820663419"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://zdf.de\r",
+  "third_parties": {
+    "fqdns": [
+      "de.ioam.de",
+      "logs1407.xiti.com",
+      "me.ioam.de",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "de.ioam.de",
+      "logs1407.xiti.com"
+    ]
+  }
+}

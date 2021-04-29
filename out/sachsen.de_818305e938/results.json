@@ -1,0 +1,1060 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.sachsen.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 54,
+      "value": "2BDB78320D58FE73B5235AF8D7A1E271.s2vg512rl01"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.sachsen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0050fc7911b1117898ea4ca587760ea9f96037e20bdb65a16e70233cecc1bb42",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "SwissSign EV Gold CA 2014 - G22",
+        "countryName": "CH",
+        "organizationName": "SwissSign AG"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624514170.0,
+      "not_valid_before": 1561355770.0,
+      "serial_number": 597134508213088811741346827289439699418988115381,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "sachsen.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionStateOrProvinceName": "Sachsen",
+        "localityName": "Dresden",
+        "organizationName": "Freistaat Sachsen",
+        "organizationalUnitName": "S\u00e4chsische Staatskanzlei",
+        "postalCode": "01097",
+        "serialNumber": "Government Entity",
+        "stateOrProvinceName": "Sachsen",
+        "streetAddress": "Staatskanzlei Archivstrasse 1"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.sachsen.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://sachsen.de/",
+    "https://sachsen.de/",
+    "https://www.sachsen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://sachsen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sachsen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/css/portal.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/jquery.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/additionalComponent.js?v=2.21.1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/symbols/svg/logo-sachsen.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/content/navigation.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-totop.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/symbols/svg/logo-sachsen-emblem.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/skriptVendor.js?v=2.21.1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=XdE73b"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/css/vendor.css?v=2.21.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/css/chrome.css?v=2.21.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/css/print.css?v=2.21.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=XdE73b&v=5.0&tc=16188522991194&pagename=https%3A%2F%2Fwww.sachsen.de%2F&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=sachsen.de&cc_url=https%3A%2F%2Fwww.sachsen.de%2F&et_source_url=https%3A%2F%2Fwww.sachsen.de%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=5c83fe5bb8ae455a1f9de87ae8cac29f&et_cblk=1&et_cd=www.sachsen.de&dh=kpK4TcME21OagZfGAsO6u%2Bfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/icon-tobottom.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-search.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-app-menu.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/icon-home.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-extern.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/icon-extern.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/content/revosax.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/symbols/svg/icon-social-twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-arrow-bottom-small.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/symbols/svg/icon-social-facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/icon-mail.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/sachsen.js?v=2.21.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/lib/translation.de.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_navigation/css/navigation.green.css?_v=2.21.0"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/bg-wave.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_navigation/js/navigation.js?_v=2.21.0&_=1618852298798"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/etc/glohea.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_imagefullscreen/css/imagefullscreen.green.css?_v=2.21.0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/Slider_neue_Coronaschutzverordnung_rdax_440x197_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/tag-der-sachsen-kuratorium-sitzung-2021-3_rdax_440x293_87.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/Blume-Cover_rdax_440x248_87.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/Slider_Einzelhandelskampagne_rdax_440x247_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/ohne-dich-kein-prickeln_rdax_855x485_87_rdax_440x250_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/CMS/formatvorlage_1450_Schwerpunktbild_so-geht-saechsisch_rdax_440x259_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/kretschmer-teaser-startseite_rdax_465x355_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/staatsregierung-teaserbox-startseite_rdax_465x355_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/amt24_rdax_465x160_87.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/SGS_EensFuffzschBidde_rdax_465x440_87.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/kabinett-teaserbox2_rdax_465x355_87.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/teaser-land-leute-regionen_rdax_465x317_87.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/CMS/Demokratische_Mitwirkung_in_Sachsen_rdax_690x690_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/teaser-startseite-publikationen_rdax_465x267_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/einheitlicher-ansprechpartner_rdax_87.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_imagefullscreen/js/imagefullscreen.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://styleguide.sachsen.de/dist/img/content/navigation.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-language.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-fontzoom.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/symbols/svg/icon-contrast.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-pause-alt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-play-alt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/symbols/svg/icon-audio.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-social-media-settings.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/content/navigation.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/vendor/jquery.easing-1.3.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/slider/slidercaption.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/loading/loading.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/vendor/jquery.justified.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/vendor/jquery.royalslider.min.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/vendor/keyboardmanager.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_template/css/template.green.css?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/vendor/cookiemanager.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/form/form.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/vendor/overlay.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/wetter/wetter.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_chronikauszug/css/chronikauszug.green.css?_v=2.21.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_karriere/css/karriere.green.css?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/medienservice/medienservice.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/socialmedia/socialmedia.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_template/js/template.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/slider/slider.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/youtube/youtube.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_karriere/js/karriere.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/_chronikauszug/js/chronikauszug.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/sachsenwetter/wetter_2016.html?stadt=20"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.medienservice.sachsen.de/medien/rmi/press_releases.json?count=4&amp;maincategories=&amp;categories=&amp;institutions=&jsonp=jQuery2220684976977995267_1618852298799&_=1618852298800"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/loading-SK.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/gallery/gallery.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/slider/slider.mixin.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/blocked-youtube.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/Vorschaubild_Pferdefilm_Youtube_rdax_445x250_87.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.karriere.sachsen.de/karriere-verwaltung/rest/location"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/lib/socialmedia.data.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/js/chronik/mp2.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/chronik_bar.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/bildergalerie-von-michael-kretschmer-5952.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/slider/slider.static.js?_v=2.21.0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/blocked_twitter.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/blocked_facebook.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/green/img/svg/icon-lock.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/slider/slider.highlight.js?_v=2.21.0&_=1618852298801"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.karriere.sachsen.de/karriere-verwaltung/rest/institutioninterleave?_=1618852298802"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-play.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-arrow-left-gallery.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-arrow-right-gallery.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sachsen.de/img/Hintergrundbild_sachsende_unscharf_Schnitt_rdax_87.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.karriere.sachsen.de/karriere-verwaltung/rest/fachbereich?_=1618852298803"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.karriere.sachsen.de/karriere-verwaltung/rest/qualifikation?_=1618852298804"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/chronik_dot.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/chronik_bar_trans.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/img/ministerpraesident/kretschmer-kramp-karrenbauer-erklaerung_rdax_475x316_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/img/kretschmer-przybylski-unterzeichnung2_rdax_475x316_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/img/ministerpraesident/kretschmer-bundesverdienstorden-horlbeck_rdax_475x317_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/img/ministerpraesident/kretschmer-edeka_rdax_475x316_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/img/ministerpraesident/kretschmer-bund-laender-konferenz_rdax_475x317_87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ministerpraesident.sachsen.de/img/ministerpraesident/kretschmer-hilbert-dresden-13-februar-2021_rdax_475x315_87.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/js/component/slider/slider.fullscreen.js?_v=2.21.0&_=1618852298805"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-expand.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/4_tag.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/3_tag.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/5_tag.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/5_nacht.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/2_tag.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/1_tag.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/4_nacht.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/6_tag.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/state/3_nacht.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/img/wetter/Fruehling1_pexels-photo-59678.jpeg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-arrow-top.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/black/img/svg/icon-umbrella.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.styleguide.sachsen.de/dist/themes/white/img/svg/icon-umbrella.svg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://sachsen.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 3
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

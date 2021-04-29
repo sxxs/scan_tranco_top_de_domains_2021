@@ -1,0 +1,272 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.red-dot.org/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "b3c3ef184b44b7260ce9a8dd3b42dc5c22f226c5381b3ccbe4b187e11987d946",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622445126.0,
+      "not_valid_before": 1614672726.0,
+      "serial_number": 431849509473421598721200593820889404585479,
+      "subject": {
+        "commonName": "www.red-dot.org"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.red-dot.org/de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://red-dot.de/",
+    "https://www.red-dot.de/",
+    "https://www.red-dot.org/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://red-dot.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/vue-startpage.985f9142.css?1615563639"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/main.da5caa42.css?1615563639"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/vue.9b2d5ca2.css?1615563639"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/runtime.15899d5f.js?1615563639"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/vue-startpage.f47be6c4.js?1615563639"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/main.157cb901.js?1615563639"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/vue.4cb29407.js?1615563639"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/fileadmin/bilder/Homepage/2020_PD-startseite.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/fileadmin/bilder/Homepage/2020_CD-startseite.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/fileadmin/bilder/Homepage/2020_DC-startseite.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/consentconfig/7ee1523b-aa1b-4fdd-9d66-f75181f9ad06/red-dot.org/configuration.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/images/sprite.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/fonts/roboto-v18-latin-ext-300.ff4d719e.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/images/sprite.02848a64.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/fileadmin/videos/2019_Jury_PD/PD_2019_Jurysession_Standbild_001.png"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://www.red-dot.org/fileadmin/videos/2019_Jury_PD/RD1929_Web_Zusammenschnitte_PD_2019_Jurysession_final_Playout_1511_1449.mp4"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.red-dot.org/typo3conf/ext/ppw_sitepackage/Resources/Public/Build/images/red-dot-logo.31372310.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/7ee1523b-aa1b-4fdd-9d66-f75181f9ad06/cc.js?renew=false&referer=www.red-dot.org&dnt=false&forceshow=false&cbid=7ee1523b-aa1b-4fdd-9d66-f75181f9ad06&brandid=Cookiebot&framework="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://red-dot.de\r",
+  "third_parties": {
+    "fqdns": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com"
+    ]
+  }
+}

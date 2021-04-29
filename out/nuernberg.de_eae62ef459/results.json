@@ -1,0 +1,800 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.nuernberg.de",
+      "expires": 1652870281,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.247.0ad4",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 43,
+      "value": "783abad14ccc406f.1618915081."
+    },
+    {
+      "domain": "www.nuernberg.de",
+      "expires": 1618916881,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.247.0ad4",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 17,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [
+    {
+      "error_text": "",
+      "error_type": "unknown",
+      "url": "http://www.nuernberg.de/internet/stadtportal/umzug_404.html"
+    },
+    {
+      "domain_registered": true,
+      "error_type": "dns-not-resolved",
+      "url": "https://cms1.stadt.nuernberg.de/imperia/oce.js"
+    }
+  ],
+  "final_url": "https://www.nuernberg.de/internet/stadtportal/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "9fd01120a9b8b8856b8aa112f203a4b691b493f0fc8177de3bcb483e9e186e90",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign RSA OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1647871900.0,
+      "not_valid_before": 1576836063.0,
+      "serial_number": 7100031772783499730165030586,
+      "subject": {
+        "commonName": "*.nuernberg.de",
+        "countryName": "DE",
+        "localityName": "Nuernberg",
+        "organizationName": "Stadt Nuernberg",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "http://www.nuernberg.de/internet/stadtportal/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://nuernberg.de/",
+    "https://www.nuernberg.de/",
+    "https://www.nuernberg.de/internet/stadtportal/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://nuernberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/internet/stadtportal/index.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style.min.css?v=1.3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style_imperia_oce.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/stadtportal.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/shariff.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/readspeaker.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style_font_awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/jquery-ui.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/ilightbox.css"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.nuernberg.de/javascript/blubb.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/jquery-1.11.2.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/jquery-ui.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/eqcss.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/savemode_preview.js?v=0.001"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.js?pids=embhl"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/readspeaker.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.contentWindow.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/ilightbox.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/global.js?v=1.1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/routing.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/ris.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/es6-promise/4.2.8/es6-promise.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/es6-promise/4.2.8/es6-promise.auto.min.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/stadtportal/bilder/titelbild/z_fruehling.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/icon_print.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/airport/fittosize_150_150_ca450555ac3fdcac24ed556934ef8c0c_t_airport_2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/ubahn/bgl_tn_t_ubahnhof_muggenhof_aroundtown.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/natur_in_der_stadt/diverse/bgl_tn_t_wanderfalke_kasierburg_regierung_von_mittelfrankenjpg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/_corona/bgl_tn_t_frau_mit_maske_im_laden.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/events/bardentreffen/bgl_tn_t_bardentreffen_akkordeon.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/_corona/bgl_tn_t_frau_bei_hausarzt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/stadtentwicklung/bgl_tn_t_kohlenhof.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/shariff.min.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://livecdn-de-earthtv-com.global.ssl.fastly.net/preview/egresses/wcom/Hg9ZUekABBU.jpg?token=EAIY3AI4l-a_G0gC.IgR3Y29tKgtIZzlaVWVrQUJCVQ.bInVYMPcqN71F00Q6J076TTAH_TGWu-p1p0Fx5Yl3AU1oJvIfa7nWPw2ykv3mXwnRZsz8stgnynHl0brBuMk7A"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/stadtportal/bilder/banner_metropolregion_nuernberg.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/wetter/wetsym_10.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/wetter/wetsym_6.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/stadtportal/bilder/ctz_150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/stadtportal/bilder/bisping_bisping_internet_network.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/javascript/responsively_lazy.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style_print.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/ilightbox_smooth_skin.css"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "http://www.nuernberg.de/internet/stadtportal/umzug_404.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.Styles.css?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.Core.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.pub.Config.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/nuernberg_logo.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/icons.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/icon_login.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/icon_content.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/stadtportal/bg_rubric_1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/stadtportal/bg_rubric_2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/stadtportal/bg_rubric_3.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/stadtportal/bg_rubric_4.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/stadtportal/bg_rubric_5.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/widgets/readspeaker/rs_skin.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/stadtportal/corona_bg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/icon_zoom.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/fonts/fontawesome-webfont.woff2?v=4.5.0"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/icon_panorama.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://nbgtrack.nuernberg.de/piwik/js/container_JbT2ZHgd.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/global/caching/config_cache.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style.min.css?v=1.3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style_imperia_oce.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style_print.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/stadtportal.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/shariff.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/readspeaker.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/style_font_awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/jquery-ui.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/css/widgets/ilightbox.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.Styles.css?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/images/global/punkt_bildnachweis.gif"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/global/caching/config_cache.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.lib.Facade.adapter.jquery.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://cms1.stadt.nuernberg.de/imperia/oce.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://nbgtrack.nuernberg.de/piwik/matomo.php?action_name=Stadtportal%20N%C3%BCrnberg&idsite=247&rec=1&r=481199&h=12&m=38&s=1&url=https%3A%2F%2Fwww.nuernberg.de%2Finternet%2Fstadtportal%2Findex.html&_id=783abad14ccc406f&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=TCylex&pf_net=0&pf_srv=35&pf_tfr=18&pf_dm1=656"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://nbgtrack.nuernberg.de/piwik/plugins/HeatmapSessionRecording/configs.php?idsite=247&trackerid=3gEIDz&url=https%3A%2F%2Fwww.nuernberg.de%2Finternet%2Fstadtportal%2Findex.html"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.Common.Settings.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.PlayerAPI.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.HL.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/ReadSpeaker.ui.js?v=2.5.8.3253"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/mods/enlargeHL/ReadSpeaker.enlargeHL.js?v=...3253"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/readspeaker/mods/enlargeHL/ReadSpeaker.enlargeHL.css?v=...3253"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.nuernberg.de/imperia/md/zentral/bilder/natur_in_der_stadt/landschaften/pegnitztal_west/fittosize_570_380_3ce6f67b83a39abb202f2bceeb878986_pegnitztal_radfahrer_illig.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/3db92b79-c742-4a31-9b22-02cb4bdd1565/cc.js?renew=false&referer=www.nuernberg.de&dnt=false&forceshow=false&cbid=3db92b79-c742-4a31-9b22-02cb4bdd1565&brandid=Cookiebot&framework="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://nuernberg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdnjs.cloudflare.com",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "livecdn-de-earthtv-com.global.ssl.fastly.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 6
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com"
+    ]
+  }
+}

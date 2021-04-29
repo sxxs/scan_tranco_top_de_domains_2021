@@ -1,0 +1,380 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.boeckler.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/cps",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 42,
+      "value": "5750947C0123829A2BF41DB5B1626D43"
+    },
+    {
+      "domain": "www.boeckler.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "boeckler",
+      "path": "/de",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 29,
+      "value": "SID-C1860395-2E6D559C"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.boeckler.de/de/index.htm",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "317adcbe9ce023bca3c51b524b187cd748c37cce74c6fe9f7b10ba77d7c2d2b0",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1645786800.0,
+      "not_valid_before": 1581548400.0,
+      "serial_number": 14290778368728669842138376019447331799,
+      "subject": {
+        "commonName": "*.boeckler.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.boeckler.de/de/impressum-2713.htm",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://boeckler.de/",
+    "https://www.boeckler.de/",
+    "https://www.boeckler.de/de/index.htm"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://boeckler.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/de/index.htm"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/css/layout.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/St_Kv_Promotion_2880x1300_rdax_1024x462_75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/Thorsten_Schulten_Hans_Teaser_Website.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/Systemrelevant_Teaser_MMB_rdax_768x512.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/236943576__rdax_768x512_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/229500870__rdax_768x512_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/wirecard-untersuchungsausschuss-mitbestimmung-teaser_rdax_768x512_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/28_B212392_CT_rdax_768x512.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/236990685__rdax_768x512.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/Podcast_Dullien_Impfstoff_Studie_Teaser_rdax_768x512_75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/HB2032rz_2880x1300-1_rdax_768x347.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/HBS_Grafikformate_WSI-Tarifarchiv_A_02_korr_2880x1300px%20HERO-11_rdax_768x347.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/praxiswissen_bv_hero-image_rdax_768x347.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.boeckler.de/data/Hans-Boeckler-Stiftung-Corona-Remote-Digital-Hero_rdax_768x347.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/js/app.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/fonts/89420d17-2c68-4bb3-b4d4-373b0d0f016b.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/fonts/a92a459a-dc32-498f-b2dc-b761713792f4.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/fonts/308dd9a4-aea8-4532-8c6d-a415a35f0015.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/fonts/SimpleHBSTTBold.woff"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static.boeckler.de/assets/fonts/aab88c6b-6b75-42f0-aec5-74a5c4ed199d.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/rPkahKW6k/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/rPkahKW6k/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=rPkahKW6k"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/rPkahKW6k/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/rPkahKW6k/latest/de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/consent-templates/2dcc1026c993bc37bf289496906c4e3d40814b7f8e9cc39cf0b93e8896759c07.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/consent-templates/2dcc1026c993bc37bf289496906c4e3d40814b7f8e9cc39cf0b93e8896759c07.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://boeckler.de\r",
+  "third_parties": {
+    "fqdns": [
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 9,
+    "trackers": [
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu"
+    ]
+  }
+}

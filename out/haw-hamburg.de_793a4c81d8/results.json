@@ -1,0 +1,416 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.haw-hamburg.de",
+      "expires": 1619790956,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 871201,
+      "name": "cb-enabled",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "enabled"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.haw-hamburg.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "4c2eea8c1c4e27d6dfe6e4ec02e956d0fef33a5a43226097573b73bdb858170f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1646733795.0,
+      "not_valid_before": 1612432995.0,
+      "serial_number": 11213174243117623363210677691,
+      "subject": {
+        "commonName": "www.haw-hamburg.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "Hochschule fuer Angewandte Wissenschaften Hamburg",
+        "organizationalUnitName": "IT Service Center",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.haw-hamburg.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://haw-hamburg.de/",
+    "https://www.haw-hamburg.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://haw-hamburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1614153658"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3temp/assets/compressed/merged-bc2b4bbabd3dc867702d0966da1c42b9-5d57123d47a55474b30400e550da8f07.css?1614153682"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3temp/assets/compressed/merged-85feb893428c0642ab5b2149aa541d00-c342516699684ac5b5f765ac770b044a.js?1614153682"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3temp/assets/compressed/merged-58deeabfda20b351e706d4554f2315c1-723f5407accd26d512b9ef5e086879a1.js?1611654669"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/HAW_Marke_weiss_RGB.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/3/f/csm_Beke_Ku%CC%88hle_29c2972332.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/1/e/csm_Jonas_Kindel-web_5b30393430.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/Bilder-zentral/Logos/audit_familiengerechte_hochschule.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/Bilder-zentral/Logos/Logo_Weltoffene_Hochschulen_gegen_Fremdenfeindlichkeit.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/0/c/csm_Diversity-Audit_Logo_Vielfalt_Gestalten_Zertifikat_RGB_769f21c877.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/Bilder-zentral/Logos/UAS7-Logo_trans.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/1/7/csm_haw_logo_e2a60f6d84.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3temp/assets/compressed/merged-99b264dad4996d2d48c0664c916feb97-d717345c4d5896b75f8a0a0336a324a7.js?1614153682"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3temp/assets/compressed/merged-b73e0e5dd8a5fffe373f866f431e437c-2a2cc23a9a87238c079000f2b0c2fdd8.js?1614153682"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/arrow_down.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/b/e/csm_Senioren_bank_andrea-piacquadio-3768131_klein_f%C3%BCr_Ansicht_73a09ca7e7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/9/9/csm_Life_Sciences_Physik_Labor_20190620_JF_090_lo-res_817e5cd8a3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/5/2/csm_Diversify_web_04c6d110ec.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/arrow-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/arrow-blue.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/arrow.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/waves.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/quote-blue.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Images/assets/next.svg"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/haw.ttf?1vfre5"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/OpenSans-Regular.ttf?1558943367"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/OpenSans-ExtraBold.ttf?1558943367"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/OpenSans-Light.ttf?1558943367"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/OpenSans-Bold.ttf?1558943367"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/Martel-Regular.ttf?1558943367"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/typo3conf/ext/mpm_bootstrap/Resources/Public/Theme/fonts/OpenSans-SemiBold.ttf?1558943367"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/e/2/csm_Campus-Berliner_Tor-2018-31_9b4bf5a7e3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/f/d/csm_Campus-Berliner_Tor-2017-08_eb07eaa436.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/a/8/csm_Campus-Berliner-Tor-2018_04dd51fd39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/f/d/csm_Technik_Informatik-Akkustiklabor-2019-PM-1327-lo_res_ae0395d345.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/c/d/csm_Life_Sciences_Biotechnologie_Labor_20190611_JF_081_lo-res_dc834f0dda.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/a/f/csm_Design_Medien_Information-Medientechnik-GamesLab-20191209-JF-485-Lo-Res_a3df0db03d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.haw-hamburg.de/fileadmin/_processed_/c/9/csm_Life_Sciences_Chemie_Labor_20190613_PM-82_lo-res_855f553800.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000;",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://haw-hamburg.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.hs-worms.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "fe_typo_user",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 44,
+      "value": "699a1c2cd087f8e93ee0c5abd0bfddc2"
+    },
+    {
+      "domain": "www.hs-worms.de",
+      "expires": 1652889214,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.1.445f",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "c93f27023745da2f.1618934014.1.1618934014.1618934014."
+    },
+    {
+      "domain": "www.hs-worms.de",
+      "expires": 1618935813,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.1.445f",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hs-worms.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "aceff01185dd2ddd18943e27b14584a4ca63a7f70fa1946e7ed8721ea1137770",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1641121449.0,
+      "not_valid_before": 1606820649.0,
+      "serial_number": 11109644729224785546350523434,
+      "subject": {
+        "commonName": "www.hs-worms.de",
+        "countryName": "DE",
+        "localityName": "Worms",
+        "organizationName": "Hochschule Worms, University of Applied Sciences",
+        "organizationalUnitName": "Rechenzentrum",
+        "stateOrProvinceName": "Rheinland-Pfalz"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hs-worms.de/footer/rechtliches/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hs-worms.de/",
+    "https://hs-worms.de/",
+    "https://www.hs-worms.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://hs-worms.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://hs-worms.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3temp/assets/css/01dce022f1.css?1557823661"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/mindshape_cookie_hint/Resources/Public/Css/dark-top.css?1601632743"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/powermail/Resources/Public/Css/Basic.css?1554816757"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3temp/DynCss/main.less-1a49dcf5-a253e820-602666db.css?1580743717"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3temp/DynCss/custom-1.less-43dd68ac-a253e820-6bcab155.css?1582898762"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3temp/assets/vhs-assets-48772d2f14c6d979ab6ff7da36e11eb1.js?1618925962"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/hs_worms/Resources/Public/img/logo.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3temp/DynCss/print.less-7b5b4458-a253e820-c713635a.css?1580743717"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/e/c/csm_210331_Website_Header_1280x440_2f5dff216d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/8/1/csm_studienfuehrer_4a5f66cfc2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/7/a/csm_informatik_6a01a7bdf5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/d/8/csm_touri_8999db7485.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/f/a/csm_wiwi_41afe801f8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/3/6/csm_int-access-3_e4513093ee.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/c/4/csm_HIT_2021_Website_Teaser_88955772d2.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/e/8/csm_corona-23_058bb6651d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/b/2/csm_n-servicebereich_39893a33f4.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/6/c/csm_n-semestertermine_bb9e1e8713.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/0/9/csm_n-stellenanzeigen_5b63826e41.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/8/4/csm_online-lehre_34cdda1964.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/4/0/csm_PM_21_2021-_Bib-Laptop__SponsoringNotebook__Foto__Uwe_Feuerbach_5171b204b1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/4/b/csm_PM_20_2021_MINT_NibelungenWormsLogo_23f6909a20.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/b/8/csm_PM_19_2021TOP-Team_0a37e191a3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/d/0/csm_PM_18_2021_-_Honorarprofessur_Dr._Jakelski_e491231bcd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/3/c/csm_PM-17_2021_-_Beachtete__3eaa58042f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/2/1/csm_PM_16_2021_-_Bildungspanorama_fe654a7e33.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/5/6/csm_Kachel-4-weltoffen_4a45a158de.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/c/9/csm_eu-rlp_9ec5beccc9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/3/e/csm_Imagevideo_34310fe6a0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/Impressionen/alltaeglich/Projekt09/Kachel-Hp.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/9/9/csm_P8-Kachel_Uwe-Feuerbach_9a0ba6e860.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/7/b/csm_kachel-hp-805C9492-2_69b0821223.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/9/8/csm_kachel-p6_a5651297d3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/3/c/csm_Elternzeit-abschluss_bd10be806c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/1/b/csm_kachel-projekt4_f8421bed92.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/a/c/csm_Bild_3_Welcome_by_apple_Foto-Simon_Nielson_539461d51d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/f/9/csm_Mibsport-_2_-kachel_07f80f338d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/4/9/csm_Gruendungsbuero_a_b6948447c6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/fileadmin/media/_processed_/e/7/csm_Logo_FamilienfreundlicherArbeitgeber_4f94d62574.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/mindshape_cookie_hint/Resources/Public/Js/cookieconsent.js?1547111888"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/jquery.datetimepicker.min.js?1554816757"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/parsley.min.js?1554816757"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.js?1554816757"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1554816757"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3temp/assets/vhs-assets-ac616e363a1903c12e7f8f1a2d7d8e68.js?1618925962"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/hs_worms/Resources/Public/img/wappen-orange.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/hs_worms/Resources/Public/img/wappen-gruen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/hs_worms/Resources/Public/img/wappen-blau.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/hs_worms/Resources/Public/img/wappen-klein.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-worms.de/typo3conf/ext/hs_worms/Resources/Public/_contrib/fontello/font/fontello.woff?67947327"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webtrac.hs-worms.de/piwik/matomo.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webtrac.hs-worms.de/piwik/matomo.php?action_name=Hochschule%20Worms&idsite=1&rec=1&r=168982&h=17&m=53&s=33&url=https%3A%2F%2Fwww.hs-worms.de%2F&_id=c93f27023745da2f&_idts=1618934014&_idvc=1&_idn=1&_refts=0&_viewts=1618934014&send_image=1&cookie=1&res=800x600&gt_ms=220&pv_id=pSc6pR"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hs-worms.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

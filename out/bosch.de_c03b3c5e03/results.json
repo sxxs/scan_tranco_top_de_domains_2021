@@ -1,0 +1,330 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bosch.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "1df0cbadd9a109d5cc2afb0de6f22c240b92285ffd585cb856724048d8eafef8",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Entrust Certification Authority - L1K",
+        "countryName": "US",
+        "organizationName": "Entrust, Inc.",
+        "organizationalUnitName": "(c) 2012 Entrust, Inc. - for authorized use only"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621240592.0,
+      "not_valid_before": 1587974792.0,
+      "serial_number": 225345822314554635167460376893467088630,
+      "subject": {
+        "commonName": "www.bosch.de",
+        "countryName": "DE",
+        "localityName": "Stuttgart",
+        "organizationName": "Robert Bosch GmbH",
+        "stateOrProvinceName": "Baden-W\u00fcrttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bosch.de/impressum/?prevent-auto-open-privacy-settings=1",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": "1.7.9",
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bosch.de/",
+    "https://www.bosch.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://bosch.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/tech/fonts/woff2/boschsans_regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/tech/fonts/woff2/boschsans_bold.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/tech/styles/main.css?ver=1617028804359"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://btm.bosch.com/rb/cookie/2.6.0/bosch-privacy-settings-v2.min.js?ver=4.1.4"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://btm.bosch.com/rb/cookie/2.6.0/bosch-privacy-settings-v2.min.css?ver=4.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-578JGB9"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/stories/sustainability_likeabosch/stage-sustainability-likeabosch-16x9_res_992x558.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/stories/podcasts/podcast-keyvisual_res_992x558.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/tech/scripts/main.js?ver=1617028804359"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ro-dyn-backend.bosch.com/c-corpweb-tc/es/bosch-ro-backend-de-de/ro_bosch_backend__business_area/_search"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ro-dyn-backend.bosch.com/c-corpweb-tc/es/bosch-ro-de-de-de/ro_bosch_de__story/_search"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://btm.bosch.com/rb/cookie/2.6.0/i18n/de-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ro-dyn-backend.bosch.com/c-corpweb-tc/es/bosch-ro-backend-de-de/ro_bosch_backend__business_area/_search"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ro-dyn-backend.bosch.com/c-corpweb-tc/es/bosch-ro-de-de-de/ro_bosch_de__story/_search"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/stories/isabelle_gola/isabelle-gola-stage_res_800x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/stories/we_lead_bosch/weallleadbosch-16x9_res_800x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/stories/ki_zukunftskompass/ki-studie-stage-16x9_res_800x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bosch.de/media/stories/40_years_bosch_airbag_control_unit/wadym-suchowerskyj-and-hanna-spaeth-stage-16x9_res_800x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/products_and_solutions/mobility/mobility-solutions-web-portal_res_400x225.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/bosch_group/bosch-at-home_res_400x225.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/bosch_group/bosch-industry_res_400x225.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/bosch_group/simply-connected_res_400x225.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.bosch.com/media/global/products_and_solutions/market_specific_solutions/solutions_for_commercial_buildings/keyvisual_res_400x225.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "https:",
+        "'unsafe-inline'",
+        "'unsafe-eval'"
+      ],
+      "font-src": [
+        "*",
+        "'self'",
+        "data:",
+        "https:"
+      ],
+      "header_value": "default-src https: 'unsafe-inline' 'unsafe-eval'; img-src * 'self' data: https:; font-src * 'self' data: https:; style-src * 'self' 'unsafe-inline' data: https:",
+      "img-src": [
+        "*",
+        "'self'",
+        "data:",
+        "https:"
+      ],
+      "style-src": [
+        "*",
+        "'self'",
+        "'unsafe-inline'",
+        "data:",
+        "https:"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; preload",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bosch.de\r",
+  "third_parties": {
+    "fqdns": [
+      "assets.bosch.com",
+      "btm.bosch.com",
+      "ro-dyn-backend.bosch.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 15
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "btm.bosch.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

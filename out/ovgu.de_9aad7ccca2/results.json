@@ -1,0 +1,623 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.ovgu.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "EGOTEC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 32,
+      "value": "o0ghfek9u56jte1eslfn9oa563"
+    },
+    {
+      "domain": ".www.ovgu.de",
+      "expires": 1652873359,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.www.ovgu.de.65e9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 75,
+      "value": "5f2dda391a68bbcb.1618918159.1.1618918159.1618918159."
+    },
+    {
+      "domain": ".www.ovgu.de",
+      "expires": 1618919959,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.www.ovgu.de.65e9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 25,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ovgu.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5ef5721519d338557494d928c13922822361c9680746da02215c0214f40f2095",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1641803890.0,
+      "not_valid_before": 1607503090.0,
+      "serial_number": 11122233537936609565192933900,
+      "subject": {
+        "commonName": "www21.ovgu.de",
+        "countryName": "DE",
+        "localityName": "Magdeburg",
+        "organizationName": "Otto-von-Guericke-Universitaet Magdeburg",
+        "organizationalUnitName": "Universitaetsrechenzentrum",
+        "stateOrProvinceName": "Sachsen-Anhalt"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ovgu.de/Impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ovgu.de/",
+    "https://www.ovgu.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://ovgu.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/style.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/js/jquery-1.10.2.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/readspeaker/webReader/webReader.js?pids=wr"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/tag_cloud.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img/logo_std.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img/svg/ic_info_outline_24px.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img/svg/ic_search_24px.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img/webreader.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img/de.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img/en.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/headergalerie2/style.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/An+der+Uni+Magdeburg+wurde+ein+Testzentrum+f%C3%BCr+Mitarbeitende+er%C3%B6ffnet+%28c%29+Jana+D%C3%BCnnhaupt+Uni+Magdeburg-height-350-width-730.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/KIDs_CT_Stimulate+%28c%29+Jana+Du%CC%88nnhaupt_Uni+Magdeburg-height-350-width-730-p-91378.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Frau+niest+in+Stra%C3%9Fenbahn+%28c%29+shutterstock_Drazen+Zigic-height-350-width-730.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/headergalerie2/pics/Ton_Button.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Presse/Bilder/Publikationen/interner+Podcast/Ausgaben+2021/Header+Nachhaltigkeit+%28c%29+Jana+Duennhaupt_9153-height-2158-width-4500-p-90988.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Prof_+Weimann+%28c%29+Jana+Du%CC%88nnhaupt+Uni+Magdeburg-height-350-width-730-p-90998.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Banner_+Buttons+und+Logos/Grafik+Stufe+4+%28c%29+Shutterstock-height-388-width-1522.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Vivian+Reising+%28c%29+privat-height-260-width-400.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Radiokonzert+vom+Uni_Radio+mit+Lila-height-260-width-400-p-91384.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Sch%C3%BClerinnen+haben+einen+kleinen+Roboter+programmiert+%28c%29+Jana+D%C3%BCnnhaupt+Uni+Magdeburg-height-260-width-400.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Uni_Absolvent+sitzt+am+Laptop+und+schreibt+eine+Bewerbung+%28c%29+shutterstock_Kaspars+Grinvalds-height-260-width-400-p-90996.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_1/Wissenschaftlerin+h%C3%A4lt+Corona_Impfung+in+den+H%C3%A4nden+%28c%29+shutterstock_Viacheslav+Lopatin-height-260-width-400-p-91034.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_1/SKID+ist+das+Messer+aus+Holz+von+LIGNUM_Foto+Lignum-height-260-width-400.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/boxen/klappbox/style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/boxen/aktuelles/style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/boxen/veranstaltungskalender/style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/boxen/bild/style.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Banner_+Buttons+und+Logos/Button+zur+Infoseite+zum+Coronavirus-height-60-width-230.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Banner_+Buttons+und+Logos/Vorschau+Campusplan-height-490-width-830.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/yaml/core/base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/yaml/navigation/hlist.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/fonts.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/genericons.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/layout.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/header.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/nav.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/marginal.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/subsitemap.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/footer.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/social.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/zielgruppen.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/forschungsprojekte.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/uebersichtsseite.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/contentgalerie.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/span.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/img.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/table.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/sa_ovgu.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/readspeaker/webReader/r/r1125/ReadSpeaker.Styles-Button.css?v=3.2.5.1125"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/fonts/InfoTextWeb.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/fonts/genericons-regular-webfont.woff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/An+der+Uni+Magdeburg+wurde+ein+Testzentrum+f%C3%BCr+Mitarbeitende+er%C3%B6ffnet+%28c%29+Jana+D%C3%BCnnhaupt+Uni+Magdeburg-height-350-p-91510-width-730.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Frau+niest+in+Stra%C3%9Fenbahn+%28c%29+shutterstock_Drazen+Zigic-height-350-p-91228-width-730.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Banner_+Buttons+und+Logos/Grafik+Stufe+4+%28c%29+Shutterstock-height-388-p-89162-width-1522.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Vivian+Reising+%28c%29+privat-height-260-p-91208-width-400.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.ovgu.de/piwik/matomo.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/pub/theme/ovgu_min_theme/skin/css/pics/social_icons.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_2/Sch%C3%BClerinnen+haben+einen+kleinen+Roboter+programmiert+%28c%29+Jana+D%C3%BCnnhaupt+Uni+Magdeburg-height-260-p-91012-width-400.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Was+uns+auszeichnet/2021_1/SKID+ist+das+Messer+aus+Holz+von+LIGNUM_Foto+Lignum-height-260-p-90496-width-400.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Banner_+Buttons+und+Logos/Button+zur+Infoseite+zum+Coronavirus-height-60-p-84506-width-230.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ovgu.de/unimagdeburg_media/Universit%C3%A4t/Banner_+Buttons+und+Logos/Vorschau+Campusplan-height-490-p-68274-width-830.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.ovgu.de/piwik/matomo.php?action_name=OVGU%20-%20Die%20Otto-von-Guericke-Universit%C3%A4t%20Magdeburg&idsite=www.ovgu.de&rec=1&r=878626&h=13&m=29&s=19&url=https%3A%2F%2Fwww.ovgu.de%2F&_id=5f2dda391a68bbcb&_idts=1618918159&_idvc=1&_idn=1&_refts=0&_viewts=1618918159&send_image=1&cookie=1&res=800x600&gt_ms=419&pv_id=HFlsuk"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://ovgu.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

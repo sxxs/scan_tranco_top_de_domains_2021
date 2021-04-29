@@ -1,0 +1,985 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.fr.de",
+      "expires": 1681984763.674663,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079200.67466307,
+      "name": "cua_uuid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 44,
+      "value": "bd8d2427-06c5-ac0c-f087-25a153dbe4d3"
+    },
+    {
+      "domain": "www.fr.de",
+      "expires": 1650448763.674755,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543200.674755096,
+      "name": "new_user",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 12,
+      "value": "true"
+    },
+    {
+      "domain": "www.fr.de",
+      "expires": 1653213564,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34308001,
+      "name": "atuserid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 194,
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%229b6f798d-2969-4331-99a0-ffa93c1ec057%22%2C%22options%22%3A%7B%22end%22%3A%222022-05-22T09%3A59%3A24.116Z%22%2C%22path%22%3A%22%2F%22%7D%7D"
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1650448764,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "_lp4_u",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "lVx3LjP7g3"
+    },
+    {
+      "domain": ".google.com",
+      "expires": 1634723964.463725,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15818401.46372509,
+      "name": "NID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 178,
+      "value": "213=MjZ8mbQXbJOoa3_G4iCwagUx41so06kazcX3PqfyJvCDsOH9wn-aq3Z0ppMRmgor2MKh11TevbH-X_pCwAc3TtLuKLRmT1xpkgyo0L7lLaVMjO2YT7QNkiRigA0Wt8tguUYLmQBK8H1-xPaAs0VA62vqWrMT9gnk-5dIxCV5PLY"
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1681984764,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga_8YKX0S9C8J",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 47,
+      "value": "GS1.1.1618912764.1.0.1618912764.0"
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1681984764,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.1.1169919209.1618912765"
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1648807164,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 29901601,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 116,
+      "value": "001b0f106b9a5bd8d607ea5fc:1648807164596:1618912764596:.fr.de:2:ippenmed:fr_home:noevent:1618912764596:appsk3"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1646886022.753126,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 27980459.753125906,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "0028a8e5d1c482442607ea5fc0001%3B607ea5fc%3B62297c86"
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1681984764,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "cua_page_request_params",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 229,
+      "value": "eyJmaXJzdFZpc2l0RGF0ZSI6MTYxODkxMjc2NDg2MywibGFzdFZpc2l0RGF0ZSI6MTYxODkxMjc2NDg2MywiY3VycmVudFZpc2l0RGF0ZSI6MTYxODkxMjc2NDg2MywiYWN0aXZlU2Vzc2lvbiI6ZmFsc2UsInNlc3Npb25Db3VudCI6MSwicGFnZVZpZXdDb3VudCI6MX0%3D"
+    },
+    {
+      "domain": ".www.fr.de",
+      "expires": 1621504764,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599201,
+      "name": "CUID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 396,
+      "value": "N,1618912764782:ALHGLuQAAAAPTiwxNjE4OTEyNzY0NzgyWEnmttfpZnYY2hYHGQWTSpaCHrmWq+DfVwPcRe4f3ijxbe9UzmL8meZXOTQNOcEgkS1rVuqZtpZRbtrBpyjcwnyrrmiKF+ZkynQ1BGS5+aYsH2MsW4oFH3gALlMx2DLzTohJWba5zKlIhkJk+Ouw3GRK9pVHnDomPg5iQsKFPzBKDm9RGu8hAVKbiXC20qjpReQL3boSzfpbR4SVyjsRy/L9HPjoiFvtM+mzr7OzpWoRwv+QkDftCe+x65L/cJyrVAt9o4At4f5RwjeZgFOVuv/4T100KS11MvqsG9ZTGCw/7QAAarnPAqN/1dadoXLXr3OkpH3ccjhW6y2UWvi4Qg=="
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1621331964,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618912764982"
+    },
+    {
+      "domain": "www.fr.de",
+      "expires": 1618999165,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "id_fonts_loaded",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 19,
+      "value": "true"
+    },
+    {
+      "domain": ".fr.de",
+      "expires": 1652608766,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33703203,
+      "name": "FCCDCF",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 228,
+      "value": "[[\"AKsRol99CelyoQzfMWo6V8g4SgsQ5fiYbG_HyjUltgjcBuX04uXBYgP9P9zlzySXD2GtrlyXmaktifcCzYDUiCL2jcq5DQzhcLhV_vOa6RcRGv4nkk5BqOVpfjqvOsqcDnDJSVgP1Qpw_gw68GRbeeu1pDPYQH_eKQ==\"],null,[\"[[],[],[],[],null,null,true]\",1618912766701]]"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 12,
+    "first_party_short": 0,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.fr.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": null,
+      "all_set_js": null,
+      "any_set_js": null,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 1
+    },
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": true
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e3847668106971caa87520efd721af28d8c360bdd1efa76e04ea60fa6c2b7b99",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623535091.0,
+      "not_valid_before": 1615762691.0,
+      "serial_number": 320599332464468777085250810749011147398456,
+      "subject": {
+        "commonName": "fr.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.fr.de/ueber-uns/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fr-online.de/",
+    "https://www.fr.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://fr-online.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/static/fr/id-css/0392cbf6396ca67728f9335fd0a7e690/prod_click.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/generated/css/270-26-grid.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pp.lp4.io/app/58/c6/4d/58c64d04e45a1d2f02abc17b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-stub-latest.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/trfAdSetup.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/static/fr/img/basis/responsive/logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/bilder/2021/04/20/90466962/25741224-karl-lauterbach-3wNG.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tag.aticdn.net/601978/smarttag.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W82BF8"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/vendor/requirejs/require.2.1.18.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NMQH3SP"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://paywall.production.ippen.space/js/dfp.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/fr/img/basis/responsive/logo.png?20210210"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/fr/img/basis/responsive/logo-sticky.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/img/basis/responsive/logo_id_dark.png?20201218"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/img/basis/responsive/iconfonts37/id-icons-m.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pp.lp4.io/p?i=58c64d04e45a1d2f02abc17b&r=&sr=&mt=Nachrichten%20aus%20Deutschland%20und%20der%20Welt%20%7C%20Frankfurter%20Rundschau&ma=-1&tg=-1&ctg=-1&mp=-1&mu=-1&mi=-1&md=Aktuelle%20Nachrichten%20aus%20Politik%2C%20Wirtschaft%2C%20Sport%2C%20Kultur%20und%20Frankfurt.&or=-1&wc=-1&pw=&pwu=0&co=0&il=&hv=&sc=-1&p=https%3A%2F%2Fwww.fr.de%2F&c=desktop&t=homepage&s=&_r=1618912764087:4.7.17:20210201-122301&_m=beacon"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-latest.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-latest.css"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=601978&ts=1618912764121&idclient=9b6f798d-2969-4331-99a0-ffa93c1ec057&vtag=5.15.0&ptag=js&r=800x600x24x24&re=800x600&hl=11x59x24&lng=en-US&idp=1159248140734&jv=0&p=homepage&s2=1&x1=Homepage&x2=CLICK_DESKTOP&x3=fr%7CStartseite&x4=&x5=&x6=false&x7=&x8=&x9=Nachrichten+aus+Deutschland+und+der+Welt+%7C+Frankfurter+Rundschau&x11=keine&x12=&x13=0&x14=&x15=&pid=r-1155151&pidt=201601010000&ref="
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/trf-id-frankfurt.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-8YKX0S9C8J&l=dataLayer&cx=c"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://contributor.google.com/scripts/ccfc5855521bd33d/loader.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/80b5d498465c4950ec05685721af6728/id.tm.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/vendor/238f58b5347f4a81e2b32ac211022052/vendor-combined.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/93db27311d71b3fafde2f4d8cbdac9fc/global-modules-combined.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/fr.de/settings.json?"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/lib/templates/index.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8YKX0S9C8J&gtm=2oe472&_p=912912499&sr=800x600&ul=en-us&cid=1169919209.1618912765&_s=1&dl=https%3A%2F%2Fwww.fr.de%2F&dt=Nachrichten%20aus%20Deutschland%20und%20der%20Welt%20%7C%20Frankfurter%20Rundschau&sid=1618912764&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/6ffc0bdad782a34507f692159188d82a/id.core.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/a34cba325fe0c0b819de78676bf63705/id.cookie.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto:500"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=ippenmed&cp=fr_home&sv=ke&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.fr.de&xy=800x600x24&lo=DE%2FBerlin&cb=001b&i2=001b0f106b9a5bd8d607ea5fc&ep=1642365727&vr=424&id=30n7mb&i3=001b0f106b9a5bd8d607ea5fc%3A1648807164596%3A1618912764596%3A.fr.de%3A1%3Aippenmed%3Afr_home%3Anoevent%3A1618912764596&n1=6&dntt=0&lt=1618912764598&ev=&cs=fzj8st&mo=0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/fr.de/style.css?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/fr.de/vendor-list-en.json?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/fr.de/translation-en.json?"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://contributor.google.com/scripts/ccfc5855521bd33d:D:f9700f6ee33c3188/checksub"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/f/AGSKWxWAqG4Lss9Zcm8E-NzstFCHADq65ePXqtYnM2Xtudzeu4IllEKz4k3vXH6k3LGFPgWodITdd-My5CzRQtqBTJU="
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=ippenmed&cp=fr_home&sv=ke&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.fr.de&xy=800x600x24&lo=DE%2FBerlin&cb=001b&i2=001b0f106b9a5bd8d607ea5fc&ep=1642365727&vr=424&id=30n7mb&i3=001b0f106b9a5bd8d607ea5fc%3A1648807164596%3A1618912764596%3A.fr.de%3A1%3Aippenmed%3Afr_home%3Anoevent%3A1618912764596&n1=6&dntt=0&lt=1618912764598&ev=&cs=fzj8st&mo=0&sr=71"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/blank.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/t/b38b8d244db17eccb2006bd9c5e4d561/id.clickTr.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/t/f15e6f4645eff5a401dd15f9c7cc3d9f/id.emqTr.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5-fCZM.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/apple-touch-icon-144x144-precomposed.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d2wu036mkcz52n.cloudfront.net/i?v=1&sr=800x600&vp=800x600&cd=24&md=false&h=11&t=11%3A59%3A24&d=2021-04-20&u=https%253A%252F%252Fwww.fr.de%252F&do=www.fr.de&ud=%22vBkgYZnvwFcl9C51nRjN%22&type=%22pu%22&tte=0&domain=%22fr.de%22&amp=0&pr=-1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/c7c29069bbd6ef0dc702d9cf3d72b455/advert.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/33b6f3a938faea1fc5a3d46c4a420d60/id.jumpToWithOffset.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/5e8865ad453499e31b3b8baa222db130/id.stickyElement.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/e16b16db7515663043472228eab79a41/id.main-actionbar.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/47158748a7136bbbc56d4ecae098c9e8/id.simpletab.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/2720c704289781cc6d4830b8b9846b3f/id.col-width-watcher.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/fff64a8fac801c70388ebca47193c46f/id.loadMore.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxXBYoM4xgXh5_PcSo0aokNZTxVMZvplU-O9q2X3_9ZI6GzMWEMetFyOLyQofZxt18fXBoTRzPitjRZml1Kqs9s=?pvid=33D10B79-64F6-4662-B682-1520A73A0CE8&anonid=D865F013-ECEF-40C9-B4E1-5D49F6849E29"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/f/AGSKWxW6-2-Zrc0f_OOFq7mFXeLk9aozmW6iW56dHmzRSupSKCMbWzuK5NNfjzIVVfYKM6gNiIGQn-G1BOdWoFuSHn4=?fccs=W251bGwsW1tdLFtdXSxudWxsLG51bGwsbnVsbCwyLFsxNjE4OTEyNzY1LDI4NDAwMDAwMF0sIjMzRDEwQjc5LTY0RjYtNDY2Mi1CNjgyLTE1MjBBNzNBMENFOCIsIkQ4NjVGMDEzLUVDRUYtNDBDOS1CNEUxLTVENDlGNjg0OUUyOSIsbnVsbCxbbnVsbCxbN11dXQ"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/553aa90b05d115c0942c9ff9e695eba1/id.swiper-new.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/a55aec9f6c0fab03afbd10c133b7e3a9/id.form.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://idcdn.de/static/common/js/build/modules/d77582710fdee825da46a974d1131bdf/id.webpush.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/lightweight-ajax.html?eventtype=lazyLoadAjaxHandler&lazyLoadData=%7B%22type%22%3A%22PAGING%22%2C%22archiveParam%22%3A%22%22%2C%22categoryId%22%3A1155151%2C%22versionedContainerId%22%3A446073%2C%22cmsTagId%22%3Anull%2C%22showRessortLinkInTeaser%22%3Afalse%2C%22alreadyUsedOnlineIds%22%3A%22%22%2C%22query%22%3A%22index-vc-446073-2%22%7D"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/lightweight-ajax.html?eventtype=lazyLoadAjaxHandler&lazyLoadData=%7B%22type%22%3A%22PAGING%22%2C%22archiveParam%22%3A%22%22%2C%22categoryId%22%3A1155151%2C%22versionedContainerId%22%3A446073%2C%22cmsTagId%22%3Anull%2C%22showRessortLinkInTeaser%22%3Afalse%2C%22alreadyUsedOnlineIds%22%3A%22%22%2C%22query%22%3A%22index-vc-446073-3%22%7D"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/titelmainfeelingwinter-20201130114110-QdPG.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/newmobilitytitel-20200915145323-QsPG.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/titelmaingolf-20200525101019-OFPG.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/titelmainfeelingwinter-20201130114110-QdXI.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/newmobilitytitel-20200915145323-QsXI.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/titelmaingolf-20200525101019-OFXI.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/fff-20200225133646-QOPG.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/images/fr/img/fff-20200225133646-QOXI.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pushwoosh.com/webpush/v3/pushwoosh-web-notifications.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/f/AGSKWxU5Hi49Dzsy7hTM7cDbiJNnzo6pP_jRjx1i3nr0ct-NzAAowkWHWeQn0y7JFQGXT9cNZJzQL6MtLZHaOcVOSrkD2HJBCRqK3oSKRMmWoOg2WWkwi2XbGPiuGBCArOFp6_HSKKySf0cpmDh1swPBOco7tv_GTZPAMMts9YBZ1ACB8fi6PaIRpGvzULzVhTvfRBIZoJG8tBFEx4lQ9bSuxdRdkc3-5ZYYUEwU3xGMtC1kq3s=/_/buyad._banner_ad/&simple_ad_/adplugin_=webad2&"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxUGMrbHxRGOF-Jek8XvCuKuLGlKOllQG8f_Taj-GxneTPTROegH7VQiH6adSlxrvokMRDXgIR9FBcIMDxxkO6TwK_ZMCGX6tSFZBFlxpzDHZoySASlZE-ENR7u9WFvdS8l2OpzxY4S4CPT0H9ACvbrkQhR1rFcKjsbEG2EDAjmlHLDBSFWQw7sqSvTE"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxUGMrbHxRGOF-Jek8XvCuKuLGlKOllQG8f_Taj-GxneTPTROegH7VQiH6adSlxrvokMRDXgIR9FBcIMDxxkO6TwK_ZMCGX6tSFZBFlxpzDHZoySASlZE-ENR7u9WFvdS8l2OpzxY4S4CPT0H9ACvbrkQhR1rFcKjsbEG2EDAjmlHLDBSFWQw7sqSvTE"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxUGMrbHxRGOF-Jek8XvCuKuLGlKOllQG8f_Taj-GxneTPTROegH7VQiH6adSlxrvokMRDXgIR9FBcIMDxxkO6TwK_ZMCGX6tSFZBFlxpzDHZoySASlZE-ENR7u9WFvdS8l2OpzxY4S4CPT0H9ACvbrkQhR1rFcKjsbEG2EDAjmlHLDBSFWQw7sqSvTE"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/f/AGSKWxVMlEqtmwtLNU7zM_rw4lAfuFJe4Q7stZypwrn7awmDRf3MmD6C-9-cNkNWXnHa_bjA-dsuFl_gwfrwfu2o0GnZSpDf4vdmaaaBkL9TVWLQ-VnbNAZdZm-Q39LjPE3d5gHrqKXB8eN9Jc-ogyUPVaj_zARSi6fM6k33ehwr5jUlMZ07mx3KUigWJWPj?fccs=W251bGwsW1tdLFtdXSxudWxsLG51bGwsbnVsbCwyLFsxNjE4OTEyNzY2LDYyMDAwMDAwMF0sbnVsbCxudWxsLG51bGwsWzEsWzcsNl1dXQ"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxUGMrbHxRGOF-Jek8XvCuKuLGlKOllQG8f_Taj-GxneTPTROegH7VQiH6adSlxrvokMRDXgIR9FBcIMDxxkO6TwK_ZMCGX6tSFZBFlxpzDHZoySASlZE-ENR7u9WFvdS8l2OpzxY4S4CPT0H9ACvbrkQhR1rFcKjsbEG2EDAjmlHLDBSFWQw7sqSvTE"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxXnywBYCbLww0If6itvwD1WY8PuLRhPGRTf6dCCQPTC1-t2vPTkaaN2_cS6PehBIUWoCbgtDSpoNGuGs-aAs5ESHbS1cm3Bq7KQVqEvAmAFAnC2wSXnPCFshqWQWFI6QDJGpq86dvN9h0OacAVQmE1cpiBxjtzfECUwSV2pFBi-lPKs4nOEb4jEt0kb"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://fundingchoicesmessages.google.com/l/AGSKWxXnywBYCbLww0If6itvwD1WY8PuLRhPGRTf6dCCQPTC1-t2vPTkaaN2_cS6PehBIUWoCbgtDSpoNGuGs-aAs5ESHbS1cm3Bq7KQVqEvAmAFAnC2wSXnPCFshqWQWFI6QDJGpq86dvN9h0OacAVQmE1cpiBxjtzfECUwSV2pFBi-lPKs4nOEb4jEt0kb"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fr.de/bilder/2021/04/20/90467042/25741467-armin-laschet-hat-sich-erneut-der-rueckendeckung-seines-cdu-vorstands-versichert-die-vorentscheidung-um-die-kanzlerkandidatur-in-der-union-2oBvld9J2gNG.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pp.lp4.io/pl?i=58c64d04e45a1d2f02abc17b&ct=3.219&rt=0.432&pt=3.651&pvr=&lp=0.411&p=https%3A%2F%2Fwww.fr.de%2F&c=desktop&t=homepage&s=&tg=-1&ctg=-1&_r=1618912767054:4.7.17:20210201-122301&_m=beacon"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pp.lp4.io/u?i=58c64d04e45a1d2f02abc17b&u=lVx3LjP7g3&uActive=true&isPing=no&p=https%3A%2F%2Fwww.fr.de%2F&c=desktop&t=homepage&s=&tg=-1&ctg=-1&_r=1618912774303:4.7.17:20210201-122301&_m=beacon"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://idat.production.ippen.space/idat"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fr-online.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ajax.googleapis.com",
+      "cdn.opencmp.net",
+      "cdn.pushwoosh.com",
+      "cdntrf.com",
+      "contributor.google.com",
+      "d2wu036mkcz52n.cloudfront.net",
+      "de.ioam.de",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "fundingchoicesmessages.google.com",
+      "idat.production.ippen.space",
+      "idcdn.de",
+      "logs1407.xiti.com",
+      "pagead2.googlesyndication.com",
+      "paywall.production.ippen.space",
+      "pp.lp4.io",
+      "script.ioam.de",
+      "tag.aticdn.net",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 69
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 38,
+    "trackers": [
+      "cdn.opencmp.net",
+      "cdn.pushwoosh.com",
+      "cdntrf.com",
+      "d2wu036mkcz52n.cloudfront.net",
+      "de.ioam.de",
+      "idat.production.ippen.space",
+      "idcdn.de",
+      "logs1407.xiti.com",
+      "pagead2.googlesyndication.com",
+      "paywall.production.ippen.space",
+      "pp.lp4.io",
+      "tag.aticdn.net",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

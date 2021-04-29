@@ -1,0 +1,301 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.leuphana.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "b45ff71f42276600700d8fd85861077cd47fa5f05ee14c4d8f9ccc1282dc9ac8",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1631608549.0,
+      "not_valid_before": 1560414949.0,
+      "serial_number": 10253677016102676155575272001,
+      "subject": {
+        "commonName": "www.leuphana.de",
+        "countryName": "DE",
+        "localityName": "Lueneburg",
+        "organizationName": "Leuphana Universitaet Lueneburg",
+        "stateOrProvinceName": "Niedersachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.leuphana.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.8.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://leuphana.de/",
+    "https://www.leuphana.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://leuphana.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3temp/assets/css/e461826b01.1611160085.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/main.1618923513.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/theme_leuphana/Resources/Public/CSS/libconnect.1618923492.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/theme_leuphana/Resources/Public/CSS/femanager.1618923492.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/dpn_glossary/Resources/Public/css/styles.1613462506.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/theme_leuphana/Resources/Public/JS/jquery-1.8.2.min.1618923490.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/main.1618923513.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3temp/assets/js/5508b6c4f0.1610967389.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/images/leuphana_logo.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/libconnect/Resources/Public/JavaScript/ezb.1618923512.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/footer.1618923513.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/fileadmin/cookiebanner/config.1618923831.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/klaro.1618923513.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3temp/assets/js/efc823ef66.1568110527.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/print.1618923513.css"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/fonts/roboto-condensed-v18-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/fonts/roboto-condensed-v18-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/fonts/leuphana-icons.4975dfd.woff"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/typo3conf/ext/leuphana_styleguide/Resources/Public/assets/fonts/roboto-condensed-v18-latin-300.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/fileadmin/_processed_/6/d/csm_2021_04_12_Maria_von_Salisch_Pos1_433688450c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/fileadmin/_processed_/8/6/csm_2020_11_12_PS_Digital_Transformation_Management_6_Edit_93dfde792e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/fileadmin/_processed_/e/c/csm_Pos2_Franziska_Pohlmann_0524560aa4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/fileadmin/_processed_/6/5/csm_Zentralgeba__ude_belebt165_ab9c72a6d4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.leuphana.de/fileadmin/_processed_/2/d/csm_Zentralgeba__ude_belebt024_b2e13e1609.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15552001; includeSubdomains;",
+      "includeSubDomains": false,
+      "max-age": 15552001,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://leuphana.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

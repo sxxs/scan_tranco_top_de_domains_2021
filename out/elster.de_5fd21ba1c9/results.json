@@ -1,0 +1,457 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.elster.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/elsterweb/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "2853BA32D6FF9AEC66A6485537F259DF"
+    },
+    {
+      "domain": "www.elster.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/eportal/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "60D94AA4283E5AD762535CC4DFF197B8"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.elster.de/eportal/start",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "366d7e5defd7fcb5475f45080337ae62864001ebe8fd7466a82aae52987bc1fa",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "D-TRUST SSL Class 3 CA 1 EV 2009",
+        "countryName": "DE",
+        "organizationName": "D-Trust GmbH"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1627131821.0,
+      "not_valid_before": 1563800730.0,
+      "serial_number": 59850595601653609688476900711432455328,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "www.elster.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Muenchen",
+        "jurisdictionStateOrProvinceName": "Bayern",
+        "localityName": "Muenchen",
+        "organizationName": "ELSTER (Bayerisches Landesamt fuer Steuern)",
+        "postalCode": "80333",
+        "serialNumber": "Grds.-Dat.: 01.01.2006",
+        "stateOrProvinceName": "Bayern",
+        "streetAddress": "Sophienstr. 6"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.elster.de/eportal/helpGlobal?themaGlobal=impressum_public",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://elster.de/",
+    "https://www.elster.de/eportal/",
+    "https://www.elster.de/eportal/start"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://elster.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/start"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/styles/eop.css?v=610ccb6322ab4e2220e7a28c61cf1916"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/scripts/head.js?v=bec3b4f2d494449fc7121723f69b4ad5"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/portal.js?v=9678c3d630f86e4790ed3d95bae6aad3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/styles/print.css?v=65d808ba28ec42df88c54979379361f6"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/forge.js?v=9139c64a3a29da08fa909ad2cb7210c9"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/jeans.js?v=af9eba048c0212def13f37ac78cef8b6"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/gunzip.min.js?v=bccb81a45f5b761224b241af91fa3f28"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/gzip.min.js?v=f24e476f6b408117487affe0919ca307"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/jszip.min.js?v=a778df39333432bb8c5ad0f81d02d296"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/FileSaver.min.js?v=0be6e606a25f25ef4c865019db084c0f"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/elsterSecurityUtil.js?v=6f531af65a63ecfce6d9b3fe656ad956"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/elsterAuthenticator.js?v=e1c1eb52bd2e6d9af3d7ded84d90ec55"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/keyHandlers.js?v=393bb448165eca4154a81bd036eb3053"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/attachments/startseite/BMBF-BSFZ_Logo_RGB-Farbe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/attachments/startseite/Logo_Coronahilfe.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/attachments/footer/BSI-IGZ-0386-2019_RGB.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/attachments/footer/aisec_43mm_p334.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/attachments/footer/bik-95-plus-logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/attachments/footer/LL_A1.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/scripts/app.js?v=bc2c44894fb5f94fe240f0046d5d1dd3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/js/serververfuegbarkeit.js?v=343418a86e808d84d7bda2cdc3ee23de"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/logout-iframe"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/styles/svg/sprite_eop.svg?v=9503a52ed1725c9d29347ff8adb5195b"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/img/startpage-heading-small_eop.jpg?v=267b0df19524e3d452fd6dc0e83c09eb"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/img/link_extern--invert-on-transparent.svg?v=c4946998191a589cf0b042b263e9052f"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/img/link_extern--white-on-transparent.svg?v=529ce23bdce9c4cb1bd6a2a5fa2f02f5"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/styles/fonts/open-sans-v13-latin-600.woff2?v=fa907b3395c41e35cdb25dca66a58ca9"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/styles/fonts/open-sans-v13-latin-regular.woff2?v=e64cab167bbdc04807429d10873901a0"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/eportal/styles/fonts/open-sans-v13-latin-700.woff2?v=73437ad44345f889f45e27c428d618d8"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/login-status/json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/serverstatus.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/styles/eop.css?v=610ccb6322ab4e2220e7a28c61cf1916"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/styles/iframe.css?v=7cd913623bcbf19e2fb4fc0e1ccd7d14"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/scripts/head.js?v=bec3b4f2d494449fc7121723f69b4ad5"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.elster.de/elsterweb/styles/print.css?v=65d808ba28ec42df88c54979379361f6"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "https://lxelma5p.bfinv.de",
+        "wss://www.elster.de",
+        "https://datenabholung1.elster.de",
+        "https://datenabholung2.elster.de"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "form-action": [
+        "'self'"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "default-src 'self' ; style-src 'self' ; media-src 'self' https://download.elster.de ; connect-src 'self' https://lxelma5p.bfinv.de wss://www.elster.de https://datenabholung1.elster.de https://datenabholung2.elster.de ; object-src 'self' blob: ; form-action 'self' ; frame-ancestors 'self'",
+      "media-src": [
+        "'self'",
+        "https://download.elster.de"
+      ],
+      "object-src": [
+        "'self'",
+        "blob:"
+      ],
+      "style-src": [
+        "'self'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://elster.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

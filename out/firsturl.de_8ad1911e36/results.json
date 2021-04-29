@@ -1,0 +1,381 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".google.com",
+      "expires": 1634469173.599908,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559202.599908113,
+      "name": "_GRECAPTCHA",
+      "path": "/recaptcha",
+      "priority": "High",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 100,
+      "value": "09ANblmngwEzG7J-O6150f3od_8WsRW4Cj9g-UbxvPkSJaFszdiYdpOMx-yXp_x6gFYDuoXBaCaN1M5DyAXKKCAJY"
+    },
+    {
+      "domain": ".firsturl.de",
+      "expires": 1621509172.205998,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599201.205997944,
+      "name": "__cfduid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 51,
+      "value": "dbecbaa3916381fd2be8f7def2906cf011618917172"
+    },
+    {
+      "domain": "firsturl.de",
+      "expires": 1624273972,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 5364001,
+      "name": "cookie_consent_level",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 138,
+      "value": "%7B%22strictly-necessary%22%3Atrue%2C%22functionality%22%3Afalse%2C%22tracking%22%3Afalse%2C%22targeting%22%3Afalse%7D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://firsturl.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "757cdf5fe9fd318bd93ce50d579c81573cef5b7241c5bbfd452f8a0f467f54bf",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Cloudflare Inc ECC CA-3",
+        "countryName": "US",
+        "organizationName": "Cloudflare, Inc."
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1628762400.0,
+      "not_valid_before": 1597183200.0,
+      "serial_number": 8659495533503047686375020213174885694,
+      "subject": {
+        "commonName": "sni.cloudflaressl.com",
+        "countryName": "US",
+        "localityName": "San Francisco",
+        "organizationName": "Cloudflare, Inc.",
+        "stateOrProvinceName": "CA"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.yourwebmedia.de/#impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://firsturl.de/",
+    "https://firsturl.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://firsturl.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/style.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/de.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/en.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/cookie-consent.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/print.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/bg.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://firsturl.de/include/header.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lcj-lYUAAAAAOJzKNG4xz76pzatPNEB3nrje3H1&co=aHR0cHM6Ly9maXJzdHVybC5kZTo0NDM.&hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb&size=invisible&cb=595magexw8og"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/styles__ltr.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/bg/sR-PPUH_JfEvmJmKzZpkrzje93EVJEp5B_I-I03HbT0.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb&k=6Lcj-lYUAAAAAOJzKNG4xz76pzatPNEB3nrje3H1&cb=eonalfgcja59"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/styles__ltr.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/reload?k=6Lcj-lYUAAAAAOJzKNG4xz76pzatPNEB3nrje3H1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/refresh_2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/audio_2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/info_2x.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/bg/sR-PPUH_JfEvmJmKzZpkrzje93EVJEp5B_I-I03HbT0.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/payload?p=06AGdBq26QvApIXT12z-7tgYQTGBfSLN9Gy4u4dXjFIr-efdN5KGKeadtDt2dXOTKMHeUtnZ59-BclkQK609tZwDpy4elzniJTepU96vdO_OQN7YB2A0XKaqrg8XuktPhSiC_XgzFuGiYUrNKN3FxUoAxK2M1gQ5lMKuhA0wkWx0rZFBiitKZnSGwYPEkCESxS-vtGEIQSpHcq1sWAbQJs9u4W87otQOvm2w&k=6Lcj-lYUAAAAAOJzKNG4xz76pzatPNEB3nrje3H1"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://firsturl.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.gstatic.com",
+      "www.google.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 22
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

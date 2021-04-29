@@ -1,0 +1,492 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.dr-datenschutz.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "3dc0644523d6892f8524c59bf805d20c"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dr-datenschutz.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5952980511664440f1a4569cff0be32256454d8bc63dfb79bd9b9befcd5d9168",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "ZeroSSL RSA Domain Secure Site CA",
+        "countryName": "AT",
+        "organizationName": "ZeroSSL"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1619992799.0,
+      "not_valid_before": 1612134000.0,
+      "serial_number": 147211758317953973914893322501618105625,
+      "subject": {
+        "commonName": "dr-datenschutz.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dr-datenschutz.de/fachbeitraege/impressum-wie-muss-es-aussehen/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://datenschutzbeauftragter-info.de/",
+    "https://www.dr-datenschutz.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://datenschutzbeauftragter-info.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/plugins/gd-rating-system/css/fonts/default/gdrts-icons.ttf?350.1090"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/cache/min/1/1d1dfe7dfc18b25ab12a1e22585b051a.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/plugins/wp-views/vendor/toolset/common-es/public/toolset-common-es-frontend.js?ver=140000"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/plugins/gd-rating-system/js/rating/events.min.js?ver=3.8.1.1151"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/dr-datenschutz-logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/previous-posts.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/about-us.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/Dr-Datenschutz-Podcast-animation.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/dr-datenschutz-podcast-logo-klein.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/icon-twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/icon-xing.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/icon-linkedin.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/icon-rss.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2017/04/expertise-journalisten.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2018/06/Karriere-icon.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Abril+FatFace%3A400%2C400i%2C700%2C700i%7CAlegreya%3A400%2C400i%2C700%2C700i%7CAlegreya+Sans%3A400%2C400i%2C700%2C700i%7CAmatic+SC%3A400%2C400i%2C700%2C700i%7CAnonymous+Pro%3A400%2C400i%2C700%2C700i%7CArchitects+Daughter%3A400%2C400i%2C700%2C700i%7CArchivo%3A400%2C400i%2C700%2C700i%7CArchivo+Narrow%3A400%2C400i%2C700%2C700i%7CAsap%3A400%2C400i%2C700%2C700i%7CBarlow%3A400%2C400i%2C700%2C700i%7CBioRhyme%3A400%2C400i%2C700%2C700i%7CBonbon%3A400%2C400i%2C700%2C700i%7CCabin%3A400%2C400i%2C700%2C700i%7CCairo%3A400%2C400i%2C700%2C700i%7CCardo%3A400%2C400i%2C700%2C700i%7CChivo%3A400%2C400i%2C700%2C700i%7CConcert+One%3A400%2C400i%2C700%2C700i%7CCormorant%3A400%2C400i%2C700%2C700i%7CCrimson+Text%3A400%2C400i%2C700%2C700i%7CEczar%3A400%2C400i%2C700%2C700i%7CExo+2%3A400%2C400i%2C700%2C700i%7CFira+Sans%3A400%2C400i%2C700%2C700i%7CFjalla+One%3A400%2C400i%2C700%2C700i%7CFrank+Ruhl+Libre%3A400%2C400i%2C700%2C700i%7CGreat+Vibes%3A400%2C400i%2C700%2C700i%7CHeebo%3A400%2C400i%2C700%2C700i%7CIBM+Plex%3A400%2C400i%2C700%2C700i%7CInconsolata%3A400%2C400i%2C700%2C700i%7CIndie+Flower%3A400%2C400i%2C700%2C700i%7CInknut+Antiqua%3A400%2C400i%2C700%2C700i%7CInter%3A400%2C400i%2C700%2C700i%7CKarla%3A400%2C400i%2C700%2C700i%7CLibre+Baskerville%3A400%2C400i%2C700%2C700i%7CLibre+Franklin%3A400%2C400i%2C700%2C700i%7CMontserrat%3A400%2C400i%2C700%2C700i%7CNeuton%3A400%2C400i%2C700%2C700i%7CNotable%3A400%2C400i%2C700%2C700i%7CNothing+You+Could+Do%3A400%2C400i%2C700%2C700i%7CNoto+Sans%3A400%2C400i%2C700%2C700i%7CNunito%3A400%2C400i%2C700%2C700i%7COld+Standard+TT%3A400%2C400i%2C700%2C700i%7COxygen%3A400%2C400i%2C700%2C700i%7CPacifico%3A400%2C400i%2C700%2C700i%7CPoppins%3A400%2C400i%2C700%2C700i%7CProza+Libre%3A400%2C400i%2C700%2C700i%7CPT+Sans%3A400%2C400i%2C700%2C700i%7CPT+Serif%3A400%2C400i%2C700%2C700i%7CRakkas%3A400%2C400i%2C700%2C700i%7CReenie+Beanie%3A400%2C400i%2C700%2C700i%7CRoboto+Slab%3A400%2C400i%2C700%2C700i%7CRopa+Sans%3A400%2C400i%2C700%2C700i%7CRubik%3A400%2C400i%2C700%2C700i%7CShadows+Into+Light%3A400%2C400i%2C700%2C700i%7CSpace+Mono%3A400%2C400i%2C700%2C700i%7CSpectral%3A400%2C400i%2C700%2C700i%7CSue+Ellen+Francisco%3A400%2C400i%2C700%2C700i%7CTitillium+Web%3A400%2C400i%2C700%2C700i%7CUbuntu%3A400%2C400i%2C700%2C700i%7CVarela%3A400%2C400i%2C700%2C700i%7CVollkorn%3A400%2C400i%2C700%2C700i%7CWork+Sans%3A400%2C400i%2C700%2C700i%7CYatra+One%3A400%2C400i%2C700%2C700i&ver=5.7.1&display=swap"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/js/jquery.stickem.js?ver=1593679068"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-includes/js/comment-reply.min.js?ver=5.7.1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/plugins/gd-rating-system/js/rating/core.min.js?ver=3.8.1.1151"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/plugins/gd-rating-system/js/methods/stars-rating.min.js?ver=3.8.1.1151"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/cache/min/1/9f4d34f0072dd0c192376e3ff0be1212.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-body.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/search.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-navi.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-navi-active.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-topics-menu-1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-topics-menu-2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-footer-top.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/urteil-02-511x302.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/google-06-66x39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/google-02-66x39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/facebook-15-66x39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/whatsapp-02-66x39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/gesetz-06-130x77.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/05/dokumente-20-130x77.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/05/facebook-21-130x77.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/it-sicherheit-15-130x77.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/urteil-13-130x77.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/05/webanalyse-02-66x39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/04/screening-04-66x39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2014/05/ahnungslos-01-66x39.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/uploads/2017/05/logo-intersoft-consulting.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/themes/dsbinfo/img/bg-footer-bottom.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-includes/js/thickbox/loadingAnimation.gif"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-content/plugins/statify/js/snippet.min.js?ver=1.8.2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dr-datenschutz.de/wp-admin/admin-ajax.php?action=gdrts_live_handler"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://www.dr-datenschutz.de/wp-admin/admin-ajax.php"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 15768000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://datenschutzbeauftragter-info.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 1
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

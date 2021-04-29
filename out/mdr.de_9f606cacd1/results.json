@@ -1,0 +1,654 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".mdr.de",
+      "expires": 1653152309,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34308002,
+      "name": "atuserid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 194,
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2246104974-303e-4b15-8b11-c5ed33b02847%22%2C%22options%22%3A%7B%22end%22%3A%222022-05-21T16%3A58%3A29.767Z%22%2C%22path%22%3A%22%2F%22%7D%7D"
+    },
+    {
+      "domain": ".mdr.de",
+      "expires": 1619629109,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784802,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618851509780"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1647632913.590769,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 28788606.590769053,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c7b5e13ade80bb607db6b50001%3B607db6b6%3B6234e211"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.mdr.de/nachrichten/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0708f62ecb266fca036a396ff341bb32fe074fe19e44c9374ef4b76e43b7b1e9",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert Secure Site ECC CA-1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1626256800.0,
+      "not_valid_before": 1586815200.0,
+      "serial_number": 5282836093644248419200656852057631509,
+      "subject": {
+        "commonName": "www.mdr.de",
+        "countryName": "DE",
+        "localityName": "Leipzig",
+        "organizationName": "MITTELDEUTSCHER RUNDFUNK",
+        "stateOrProvinceName": "Sachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_ECDSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.mdr.de/service/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://mdr.de/",
+    "https://www.mdr.de/",
+    "https://www.mdr.de/nachrichten/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://mdr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/nachrichten/index.html"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/fonts/openSans/open-sans-v13-latin-ext_latin-regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/fonts/openSans/open-sans-v13-latin-ext_latin-600.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/fonts/openSans/open-sans-v13-latin-ext_latin-italic.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/fonts/openSans/open-sans-v13-latin-ext_latin-600italic.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/fonts/icons/MDR-Icons.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/mdrde/site/css/mdr-site.css?version=0268"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/player/css/mdr/player.css?version=53114"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/reactify-mdr/static/css/main.css?version=2846"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/resources/global/css/previewControl.css?version=19580"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/mdrde/channel/digitaleinformation/css/theme.css?version=16916"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/nachrichten/css-addon-digitaleinformation-interim-100.css?version=2391"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/administratives/html/js-addon-100.js?version=34871"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/mdrde/channel/_channelBase.js?version=12885"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/js/main.bundle.js?version=14453"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/mdrde/channel/digitaleinformation/js/theme.js?version=49487"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-407_w-512_zc-69bba03a.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-370_w-512_zc-fca70cc2.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-240_w-371_zc-8d014214.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-341_w-512_zc-d508cf0d.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.jumpradio.de/index-transparent_h-2_w-3_zc-8cdb29ec.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-3_w-4_zc-a5bfe475.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-267_w-512_zc-93ed26e0.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-332_w-512_zc-92b4d0c3.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-9_w-16_zc-d3fd16cb.gif"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/css/print.css?version=57715"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-329_w-512_zc-e9d11ac4.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-191_w-330_zc-b86c4bbd.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-342_w-512_zc-df4464ba.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-384_w-512_zc-e3f803f3.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-1_w-1_zc-97caf4f5.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-7_w-10_zc-d93de002.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-279_w-500_zc-f415f66d.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-3_w-8_zc-9cc3ac6f.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-355_w-512_zc-5647d6af.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-108_w-277_zc-7988eaaf.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-2_w-3_zc-8cdb29ec.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-108_w-79_zc-ea11b89f.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-768_w-512_zc-4da9e59d.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-331_w-512_zc-78a1ba8a.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-379_w-512_zc-79eb820b.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-133_w-192_zc-8eac947c.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-371_w-512_zc-070982c1.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-352_w-512_zc-6b6d4783.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-323_w-512_zc-f5fba5e4.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/index-transparent_h-97_w-240_zc-20c4608c.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/img/base/mdr_logo.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/reactify-mdr/static/js/main.js?v=106"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/mdrde/channel/digitaleinformation/css/theme.css?version=16916"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/global/img/base/background/trans.gif"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/resources/mdrde/channel/digitaleinformation/img/headphones.png"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/nachrichten/podcast/interview/das-interview-100-avBundle.xml"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/resources/global/maps/rawGeoJsons/germanyAll.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/webapp/doTrack/pixel.png?docId=mdr-homepage-120&docPath=94656218-98bc-45d5-8dca-c33c56129ff7%7C950f04ff-707f-4c26-a558-fe383e7ea797&docType=indexPage&r=&d=70448.6734936852"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/resources/global/maps/rawGeoJsons/federalStates.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/resources/global/maps/geoJsonData/cities-federalStates.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mdr.de/resources/global/js/Vendor/ati/smarttag.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/nachrichten/sachsen/kretschmer-kohleausstieg-102-resimage_v-variantSmall24x9_w-832.jpg?version=41394"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image.mdr.de/hit.xiti?s=596352&ts=1618851509774&idclient=46104974-303e-4b15-8b11-c5ed33b02847&vtag=5.13.3&ptag=js&r=800x600x24x24&re=800x600&hl=18x58x29&lng=en-US&idp=1858295734093&jv=0&p=nachrichten::index&s2=1&x1=[http%3A%2F%2Fwww.mdr.de%2Fnachrichten%2Findex.html]&x2=[]&x3=[mdr%2Dhomepage%2D120]&x4=[mdr.de%20%E2%80%93%20Radio%2C%20Fernsehen%2C%20Nachrichten%20f%C3%BCr%20Mitteldeutschland]&x5=[826c6a65%2D022a%2D4d89%2D8c0c%2D036f7045b51e]&x6=[indexPage]&x7=[]&x8=[]&x9=0&x10=202007211333&x11=[]&x12=[web]&x13=[mdrde.nachrichten.index]&x14=[mdrde.nachrichten]&x15=[]&x16=[]&ref="
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=mdr&cp=mdr_online&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.mdr.de&xy=800x600x24&lo=DE%2FBerlin&cb=000e&i2=000ed09206747b1bc607db6b5&ep=1640888627&vr=423&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618851509783&ev=&cs=jbvlr1&mo=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=mdr&cp=mdr_online&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.mdr.de&xy=800x600x24&lo=DE%2FBerlin&cb=000e&i2=000ed09206747b1bc607db6b5&ep=1640888627&vr=423&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618851509783&ev=&cs=jbvlr1&mo=1&sr=71"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/nachrichten/sachsen/impfung-188-resimage_v-variantSmall24x9_w-256.jpg?version=4269"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/wissen/draussen-lernen-116-resimage_v-variantSmall24x9_w-256.jpg?version=31646"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.mdr.de/nachrichten/sachsen/kultus-streicht-lehrplaene-mehr-freiraum-104-resimage_v-variantSmall24x9_w-256.jpg?version=14271"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.jumpradio.de/thema/reiner-haseloff-maske-100-resimage_v-variantSmall24x9_w-256.jpg?version=14522"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://mdr.de\r",
+  "third_parties": {
+    "fqdns": [
+      "de.ioam.de",
+      "script.ioam.de",
+      "www.jumpradio.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "de.ioam.de"
+    ]
+  }
+}

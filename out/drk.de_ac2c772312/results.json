@@ -1,0 +1,641 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.drk.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "02268e1c494477fb33442b90c763cad1371e8e70104130fe318d4629453e3216",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1631700000.0,
+      "not_valid_before": 1560722400.0,
+      "serial_number": 9649408172735212505746321768960742956,
+      "subject": {
+        "commonName": "*.drk.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Deutsches Rotes Kreuz",
+        "organizationalUnitName": "Abteilung IT - Team 53",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.drk.de/service/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://drk.de/",
+    "https://drk.de/",
+    "https://www.drk.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://drk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3temp/assets/compressed/merged-8343c1d9e6fc0f2ba03338a116f01f3d-0478011826e7304b871121ed6e3ff240.css.gzip?1618900806"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Vendor/consenttool/cookieconsent.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Vendor/lazysizes/lazysizes.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/epx_geofacts/Resources/Public/Css/geofacts.css?1611043430"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/epx_geofacts/Resources/Public/Vendor/jquery/jquery.min.js?1601534908"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/epx_geofacts/Resources/Public/Vendor/d3/d3.js?1601534876"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/epx_geofacts/Resources/Public/Js/build/geomap-without-min.js?1617703854"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/png/favicon.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/leichte-sprache-reloaded.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/globe-language.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/leichte-sprache.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/c/5/csm_Bosnien_Mobile_Rotkreuzteams_slider_d9c05916ac.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/7/1/csm_bangladesch-helferin-seniorin-masken_550_f17291c071.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/6/0/csm_buehne-tuerkei-mentale-gesundheit-collage-kind-gespraech_550_0fa04cfaad.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/d/4/csm_Coron_Buehne_550_gespiegelt_d45ef1939a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/7/8/csm_Syrien_Buehne_550_8dd1dfda04.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/0/2/csm_Coronaimpfung_DRK_Impfzentrum_1920x550_0579d50191.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/world-map-red.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/germany-red.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/hand_open.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/walking-men.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/world-ap-nahost.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/mediathek.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/user.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/wohlfahrt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/user_upload/01_Startseite/Reloaded/geschichte.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3temp/assets/_processed_/6/3/csm_placeholder_white_34704922a5.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3temp/assets/_processed_/6/3/csm_placeholder_white_ae3266a86a.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3temp/assets/_processed_/6/3/csm_placeholder_white_bad3814667.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3temp/assets/_processed_/6/3/csm_placeholder_white_a8a8147835.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3temp/assets/_processed_/6/3/csm_placeholder_white_5012522345.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/dauer-spenden.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/spenden.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Js/build/reloaded.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Vendor/lightgallery/dist/css/lightgallery.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K48M44"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Json/consent-manifest-de.json"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/spritemap.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Fonts/HelveticaNeueLT-Light.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/epx_geofacts/Resources/Public/Icons/geofacts_arrow.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Fonts/HelveticaNeueLT-Medium.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Fonts/fontawesome-webfont.woff2?v=4.4.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Css/print.css"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/ajax-loader.gif"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/epx_geofacts/Resources/Public/Json/de.world.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M9WR8JF"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/arrow_left.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/arrow_right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/pause.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/typo3conf/ext/frs_drk_template/Resources/Public/Images/svg/play.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/b/3/csm_artikelbild_asien_hilfe-weltweit_460x270_3d498e6c0e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.drk.de/fileadmin/_processed_/d/3/csm_drk_hilfe_in_deutschland_460x270_1c72feea7c.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "child-src": [
+        "'self'",
+        "www.youtube.com",
+        "youtube.com",
+        "*.doubleclik.net",
+        "*.hotjar.com",
+        "pixel.mathtag.com",
+        "*.pixel.mathtag.com",
+        "sipg.micropayment.de",
+        "acdn.adnxs.com",
+        "ssl.hurra.com",
+        "secure.quantserve.com",
+        "www.facebook.com",
+        "facebook.com",
+        "*.fs.doubleclick.net",
+        "*.g.doubleclick.net",
+        "*.doubleclick.net",
+        "*.readspeaker.com",
+        "*.weview.tv",
+        "https://*.readspeaker.com",
+        "*.vimeo.com",
+        "*.googletagmanager.com",
+        "*.ampproject.org",
+        "blob:"
+      ],
+      "connect-src": [
+        "'self'",
+        "wss://*.hotjar.com",
+        "https://*.hotjar.com",
+        "*.hotjar.io",
+        "*.readspeaker.com",
+        "*.weview.tv",
+        "*.amazon.com",
+        "*.amazon.de",
+        "*.amazonpay.com",
+        "cdn.ampproject.org",
+        "*.google-analytics.com",
+        "https://*.googletagmanager.com",
+        "https://stats.g.doubleclick.net"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "font-src": [
+        "'self'",
+        "https://fonts.gstatic.com",
+        "fonts.googleapis.com",
+        "script.hotjar.com"
+      ],
+      "frame-src": [
+        "https://optimize.google.com",
+        "https://insight.adsrvr.org",
+        "https://www.youtube-nocookie.com",
+        "static-na.payments-amazon.com",
+        "payments.amazon.com",
+        "*.weview.tv",
+        "vars.hotjar.com",
+        "pixel.mathtag.com",
+        "*.doubleclick.net",
+        "www.youtube.com",
+        "*.facebook.com",
+        "acdn.adnxs.com",
+        "sipg.micropayment.de",
+        "www.google.com",
+        "*.drk.de",
+        "https://*.readspeaker.com",
+        "*.vimeo.com",
+        "https://fusiontables.google.com",
+        "https://fusiontables.googleusercontent.com",
+        "https://*.amazon.de/",
+        "https://*.payments-amazon.com/",
+        "https://*.amazonservices.com",
+        "https://*.account.amazon.com/",
+        "https://*.amazon.com/",
+        "*.adsrvr.org",
+        "https://pippio.com/",
+        "https://unwfp.maps.arcgis.com",
+        "https://covid19.who.int/",
+        "https://widget.taggbox.com/"
+      ],
+      "header_value": "default-src 'self'; img-src 'self' data: https: *.twitter.com https://optimize.google.com https://www.google-analytics.com; font-src 'self' https://fonts.gstatic.com fonts.googleapis.com script.hotjar.com; script-src 'self' 'unsafe-inline' data: https: 'unsafe-eval' *.doubleclick.net hotjar.com *.pixel.mathtag.com sipg.micropayment.de *.adnxs.com ssl.hurra.com secure.quantserve.com *.readspeaker.com www.weview.tv cdnjs.cloudflare.com cdn.ampproject.org https://optimize.google.com https://www.google-analytics.com;style-src 'self' 'unsafe-inline' https://optimize.google.com tagmanager.google.com fonts.googleapis.com www.youtube.com cdnjs.cloudflare.com https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css; child-src 'self' www.youtube.com youtube.com *.doubleclik.net *.hotjar.com  pixel.mathtag.com *.pixel.mathtag.com sipg.micropayment.de acdn.adnxs.com ssl.hurra.com secure.quantserve.com www.facebook.com facebook.com *.fs.doubleclick.net *.g.doubleclick.net *.doubleclick.net *.readspeaker.com *.weview.tv https://*.readspeaker.com *.vimeo.com *.googletagmanager.com *.ampproject.org blob:; connect-src 'self' wss://*.hotjar.com https://*.hotjar.com  *.hotjar.io *.readspeaker.com *.weview.tv *.amazon.com *.amazon.de *.amazonpay.com cdn.ampproject.org *.google-analytics.com https://*.googletagmanager.com https://stats.g.doubleclick.net; frame-src https://optimize.google.com https://insight.adsrvr.org https://www.youtube-nocookie.com static-na.payments-amazon.com payments.amazon.com *.weview.tv vars.hotjar.com pixel.mathtag.com *.doubleclick.net www.youtube.com *.facebook.com acdn.adnxs.com sipg.micropayment.de www.google.com *.drk.de https://*.readspeaker.com *.vimeo.com https://fusiontables.google.com https://fusiontables.googleusercontent.com https://*.amazon.de/ https://*.payments-amazon.com/ https://*.amazonservices.com https://*.account.amazon.com/ https://*.amazon.com/ *.adsrvr.org https://pippio.com/ https://unwfp.maps.arcgis.com https://covid19.who.int/ https://widget.taggbox.com/; media-src 'self' *.readspeaker.com *.weview.tv *.vimeo.com http://87.225.254.206 media.drk.de",
+      "img-src": [
+        "'self'",
+        "data:",
+        "https:",
+        "*.twitter.com",
+        "https://optimize.google.com",
+        "https://www.google-analytics.com"
+      ],
+      "media-src": [
+        "'self'",
+        "*.readspeaker.com",
+        "*.weview.tv",
+        "*.vimeo.com",
+        "http://87.225.254.206",
+        "media.drk.de"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "data:",
+        "https:",
+        "'unsafe-eval'",
+        "*.doubleclick.net",
+        "hotjar.com",
+        "*.pixel.mathtag.com",
+        "sipg.micropayment.de",
+        "*.adnxs.com",
+        "ssl.hurra.com",
+        "secure.quantserve.com",
+        "*.readspeaker.com",
+        "www.weview.tv",
+        "cdnjs.cloudflare.com",
+        "cdn.ampproject.org",
+        "https://optimize.google.com",
+        "https://www.google-analytics.com"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://optimize.google.com",
+        "tagmanager.google.com",
+        "fonts.googleapis.com",
+        "www.youtube.com",
+        "cdnjs.cloudflare.com",
+        "https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000;",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://drk.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "www.googletagmanager.com"
+    ]
+  }
+}

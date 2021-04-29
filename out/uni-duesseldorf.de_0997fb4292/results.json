@@ -1,0 +1,420 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hhu.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ed00d463f727a269d43818b60648c289338b443ed5fbad6a9e3bd8ce83cd341a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1650285091.0,
+      "not_valid_before": 1615987891.0,
+      "serial_number": 11278750239062972427536238571,
+      "subject": {
+        "commonName": "www.hhu.de",
+        "countryName": "DE",
+        "localityName": "Duesseldorf",
+        "organizationName": "Heinrich-Heine-Universitaet Duesseldorf",
+        "organizationalUnitName": "ZIM",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hhu.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-duesseldorf.de/",
+    "https://www.hhu.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-duesseldorf.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3temp/assets/compressed/merged-abfd78f71c58ea61927480292a7e8789-489d053243f1f91191f8a0b66e004810.css?1612796924"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3temp/assets/compressed/merged-2e6c3a4302a665a0ecea41eafdcdebe8-67e610723549b8c3acabbb3cdd6fadc1.css?1606888519"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3temp/assets/compressed/merged-aed1746296a87b2494948af25a8ed7b5-e890c6c80affaea16d7b02405ef69be9.css?1606888519"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3temp/assets/compressed/merged-35f9faf0cf56f998f7ba15b27e4b5c91-00d3b11f320f502b920c29bcf4337bed.js?1612796935"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/fontawesome/css/all.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/Hyphenopoly_Loader.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/img/hhu_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/img/hhu_logo_mobil.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/styles.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/print.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/video-js.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.rz.uni-duesseldorf.de/piwik/matomo.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/fonts/Lato-Regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/fonts/Lato-Bold.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/patterns/de.hpb"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/patterns/de_de.hpb"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/patterns/en-us.hpb"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/patterns/en-gb.hpb"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/Hyphenopoly.js"
+    },
+    {
+      "mime_type": "application/wasm",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/js/Hyphenopoly/hyphenEngine.wasm"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/_processed_/d/b/csm_Keyvisual_GirlsDay2021_Slider-breit_c346585709.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/_processed_/0/e/csm_Start_02_6762c5706c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/_processed_/0/9/csm_Campusaufnahmen_14292_5b1010060b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/_processed_/f/a/csm_Slider_Forsch_hhu_IM_4880_1330_xcolor_447de37900.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/_processed_/2/a/csm_Beuys_2021_-_03mitText_6b7d3ccfba.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/_processed_/e/d/csm_SciAdv_Experiment_1de6fce67d.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3temp/assets/compressed/merged-98dd62b2db308458d3839c05b8341bbc-f34a9fa2747008e70132bac1f86f65e5.js?1613031798"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/redaktion/ZUV/Stabsstelle_PuK/0_Startseite/Banner_2020_Corona_4_tuerkisedn.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/user_upload/termine_bg.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/redaktion/ZUV/Stabsstelle_PuK/0_Startseite/Studiumsthemen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/fileadmin/redaktion/ZUV/Stabsstelle_PuK/0_Startseite/Forschungsthemen.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/fontawesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/fonts/Lato-LightItalic.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/fonts/Lato-Light.woff2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.rz.uni-duesseldorf.de/piwik/matomo.php?action_name=Universit%C3%A4t%20D%C3%BCsseldorf%3A%20HHU&idsite=66&rec=1&r=339536&h=11&m=33&s=3&url=https%3A%2F%2Fwww.hhu.de%2F&_id=&_idts=1618911184&_idvc=1&_idn=1&_refts=0&_viewts=1618911184&send_image=1&cookie=1&res=800x600&gt_ms=52&pv_id=1ia132"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/fontawesome/webfonts/fa-light-300.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/fontawesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/fontawesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://www.hhu.de/fa618d3e-e1a0-4198-9c57-f3eed37efc5b"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "Not Modified",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/styles.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "Not Modified",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/print.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "Not Modified",
+      "url": "https://www.hhu.de/typo3conf/ext/wiminno/Resources/Public/css/video-js.min.css"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-duesseldorf.de\r",
+  "third_parties": {
+    "fqdns": [
+      ""
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

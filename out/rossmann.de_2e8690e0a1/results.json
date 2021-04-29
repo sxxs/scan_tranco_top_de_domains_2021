@@ -1,0 +1,672 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.rossmann.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "3C1743F42AB44C082E779DA1165828E2"
+    },
+    {
+      "domain": "www.rossmann.de",
+      "expires": 1619531444.131667,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612001.1316668987,
+      "name": "AWSALB",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 130,
+      "value": "LiOrgctkrcM6JvHeRaeal0tthc5ctZi+mHj4Nh4CSQQS8pYQau/BhRnzvhARGjg2P1C+2IeYxxXUZ4+HB6N9tQ5Ol35oC8VSISv7QF3yFEyZkxZBPanGA5nOwlLp"
+    },
+    {
+      "domain": "www.rossmann.de",
+      "expires": 1619531444.131701,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612001.1317009926,
+      "name": "AWSALBCORS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 134,
+      "value": "LiOrgctkrcM6JvHeRaeal0tthc5ctZi+mHj4Nh4CSQQS8pYQau/BhRnzvhARGjg2P1C+2IeYxxXUZ4+HB6N9tQ5Ol35oC8VSISv7QF3yFEyZkxZBPanGA5nOwlLp"
+    },
+    {
+      "domain": ".rossmann.de",
+      "expires": 1650462645,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 302,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+15%3A50%3A45+GMT%2B0200+(Central+European+Summer+Time)&version=6.3.0&consentId=e77abb33-4a07-4a99-bdbc-aa632ef2acaf&interactionCount=0&landingPath=https%3A%2F%2Fwww.rossmann.de%2Fde%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0&hosts="
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.rossmann.de/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f01a4fb480ce3db62603bf97385274ba52034e7c6b1b633f6c7732ed12257b63",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "QuoVadis Europe EV SSL CA G1",
+        "countryName": "NL",
+        "organizationName": "QuoVadis Trustlink B.V."
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1632468840.0,
+      "not_valid_before": 1600932267.0,
+      "serial_number": 466770135853119108072173233790113100547828411511,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.rossmann.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Burgwedel",
+        "jurisdictionStateOrProvinceName": "Niedersachsen",
+        "localityName": "Burgwedel",
+        "organizationName": "Dirk Rossmann GmbH",
+        "serialNumber": "HRB 120546",
+        "stateOrProvinceName": "Niedersachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.rossmann.de/de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://rossmann.de/",
+    "https://www.rossmann.de/",
+    "https://www.rossmann.de/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://rossmann.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/css/style.min.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/images/33002219864094/logo-rossmann-claim.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/images/31776284639262/logo-rossmann-signet.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/rossmann-preloader_480x210.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/svg/ROL_bw_herz-kreis.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/rossmann-preloader_480x137.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/rossmann-preloader_190x190.svg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cookie-cdn.cookiepro.com/consent/d32f02af-8235-47ba-b913-b2c4c12135ea/d32f02af-8235-47ba-b913-b2c4c12135ea.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-57DH3CL"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/svg/signet.svg"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/MetaWeb-Book-woff.woff"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/icomoon.ttf"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/MetaWeb-Bold-woff.woff"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/MetaScComp-Book-woff.woff"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/MetaWeb-Normal-woff.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/footer__delivery.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/footer__newsletter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/footer__ehi.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/footer__bevh.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/footer__eu_organic.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/footer__dhl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/images/payment_logos.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/js/index.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.3.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://squarelovin.com/squarelovin.js?stream=5dad7bb79fe85e5e34e135cf&t=teaser&ll=150&l=de&u=https://www.rossmann.de/de/"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/MetaScWeb-Book-woff.woff"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/MetaComp-Book-woff.woff"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cookie-cdn.cookiepro.com/consent/d32f02af-8235-47ba-b913-b2c4c12135ea/267fe153-4448-43e0-b010-d46755ae85a7/de.json"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33040853172254/Buehne_Start_Kat_mobil_ROL-Angebot_KW15_1536x800.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33149223993374/Buehne_Kat_Start_mobil_OMG_KW16_1536x800.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33149225107486/RZ_Taft_ROSS_Buehne_Start_mobil_1536x800.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/32937392177182/T25_Start_sunozon_LE_Braeunungsbooster_960x480.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/28770275131422/T25_Start_Kat_Colorationsberater_960x480.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33095487291422/T25_Start_RDL_LE_Sweatproof_960x480.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33040898228254/T25_Start_Kat_Content_Zukunftsrepublik_960x480.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/14704924786718/T_25_Logo_ISANA_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/15002785185822/T_25_Logo_Babydream_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/15738518929438/T_25_Logo_enerBio_ohneSL_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/32672733462558/T_25_Logo_Alterra_960x440.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/17415010123806/T_25_Logos_Rival_loves_me_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/14907056062494/T_25_Logo_SunOzon_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/14906947076126/T_25_Logo_altapharma_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/15002927923230/T_25_Logo_Rival_480x220.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/720/mam_7207754/mam_7207754_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/497/mam_4976221/mam_4976221_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/662/mam_6624170/mam_6624170_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/594/mam_5940588/mam_5940588_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/711/mam_7115694/mam_7115694_produktfoto_produktbild_no_resize_teaser_2.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/709/mam_7093936/mam_7093936_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/720/mam_7202437/mam_7202437_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/711/mam_7115691/mam_7115691_produktfoto_produktbild_no_resize_teaser_2.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/711/mam_7115692/mam_7115692_produktfoto_produktbild_no_resize_teaser_2.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/media/708/mam_7084017/mam_7084017_produktfoto_produktbild_no_resize_teaser_1.4.png?width=286&height=286&fit=bounds&canvas=286,286"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://med-cf-1.squarelovin.com/squarelovin.css?int=5dada48127d77d2703141419&intst=teaser&width=5&ls=normal&stream=5dad7bb79fe85e5e34e135cf&st=teaser&lmtype=arrows&h=www.rossmann.de&version=2.0.43.2&time=1617966415"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/ec89c7f/svg/icons.svg"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/_ui/responsive/theme-rossmann/1bb7bf774/fonts/3B08EC_0_0.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://med-cf-1.squarelovin.com/themes/api/assets/img/bl.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://med-cf-1.squarelovin.com/themes/api/assets/img/br.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.3.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.3.0/assets/otPcCenter.json"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33208364793886/T50_Start_Rueckruf_FFP2_1376x300.jpg?width=1408&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33169605984286/Buehne_Start_Kat_mobil_Corona_Selbsttest_mitPreis_1536x800.jpg?width=1023&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rossmann.de/sys-master/upload/33149233201182/Buehne_Kat_mobil_DHdL_KW16_Quinao_1536x800.jpg?width=1023&auto=webp"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://rossmann.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cookie-cdn.cookiepro.com",
+      "med-cf-1.squarelovin.com",
+      "squarelovin.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 11
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 7,
+    "trackers": [
+      "cookie-cdn.cookiepro.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "datenschutz-generator.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "90e41bc470f3049f206fb606de087700"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://datenschutz-generator.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "9fd477fceca0b434f21079a0567063c582337756afc0c9e8b8b600d8c5dc69b0",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621390145.0,
+      "not_valid_before": 1613617745.0,
+      "serial_number": 349587108220565577050158474047159202360220,
+      "subject": {
+        "commonName": "datenschutz-generator.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://datenschutz-generator.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": "16.13.1",
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://datenschutz-generator.de/",
+    "https://datenschutz-generator.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://datenschutz-generator.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/cache/min/1/dcaeaa0e14289ee5753f88dbeea34daf.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-admin/admin-ajax.php?action=wp_dynamic_css&handle=atomion_dynamic_css&ver=5.7.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.2.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/cache/min/1/e100369d0eb7a6f725f9f1d4e6408197.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TQ58R5L"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-spn.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-zon.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-hon.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-fs.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-frb.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-ct.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/dsg-others/dsg-other-cbi.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/categories/dsg-generatoren-01.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/genies/Datenschutzgenerator-Genie-04-b.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/themes/wordpress-theme-atomion/assets/fonts/source-sans-pro-v11-latin/source-sans-pro-v11-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/themes/wordpress-theme-atomion/assets/fonts/font-awesome/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/themes/wordpress-theme-atomion/assets/fonts/source-sans-pro-v11-latin/source-sans-pro-v11-latin-600.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/themes/wordpress-theme-atomion/assets/fonts/source-sans-pro-v11-latin/source-sans-pro-v11-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/pricing-table-by-supsystic/modules/templates/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-json/wp/v2/pages/3855?_fields=yasr_visitor_votes&_wpnonce=aeeb4c0a50"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-admin/admin-ajax.php"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/uploads/2020/02/dsg-icon-Datenschutz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/borlabs-cookie/images/borlabs-cookie-icon-black.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/?wc-ajax=get_refreshed_fragments"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Roboto%20Slab"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/sounds/ClickOn.mp3"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/sounds/ClickOff.mp3"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/sounds/MagicWandNoise-SoundBible.com-375928671.mp3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/uploads/2020/02/Datenschutzgenerator-Logo_02-01.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/icons/dsg-icon-Flagge-Deutschland.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/icons/dsg-icon-Flagge-Oesterreich.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/icons/dsg-icon-Flagge-A.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/icons/dsg-icon-Flagge-UK.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/svg/icons/dsg-icon-Flagge-EU.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/ts-dsg/images/svg/genies/Datenschutzgenerator-Genie-07.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/uploads/Datenschutzgenerator-Logo-500.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/yet-another-stars-rating/includes/img/star_2.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datenschutz-generator.de/wp-content/plugins/yet-another-stars-rating/includes/img/star_3.svg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://datenschutz-generator.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 3
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "www.googletagmanager.com"
+    ]
+  }
+}

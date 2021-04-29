@@ -1,0 +1,872 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bundesaerztekammer.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "mobile",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 11,
+      "value": "false"
+    },
+    {
+      "domain": "www.bundesaerztekammer.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "checkMobile",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 15,
+      "value": "true"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundesaerztekammer.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": null,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ee333fe93d9616849b7ea4c8910a6f52a92290e20d0febb188d3cf6db621c754",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1625979170.0,
+      "not_valid_before": 1618203170.0,
+      "serial_number": 424623868272525721580808783453129099524397,
+      "subject": {
+        "commonName": "baek.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bundesaerztekammer.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundesaerztekammer.de/",
+    "https://www.bundesaerztekammer.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bundesaerztekammer.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3temp/assets/css/1806b99528.css?1618326477"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/CSS/Vendor/magnific-popup.css?1614009876"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/solr/Resources/Public/StyleSheets/Frontend/results.css?1523348201"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/solr/Resources/Public/StyleSheets/Frontend/loader.css?1523348201"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/CSS/Vendor/jquery-ui.min.css?1614009876"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/CSS/Frontend/widgets.css?1614009876"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/JavaScript/jquery.1.12.4.min.js?1616054869"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/styles_extensions.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/styles_navi.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/magnific-popup.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/newsletter.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/css/overwrite.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/JavaScript/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/JavaScript/lns_provider_baek_scripts.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_cookiebot/Resources/Public/JavaScript/analyse.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/startbild_neu.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/image-map-small/Arztsuche.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/image-map-small/monitor.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/image-map-small/telefon.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/_processed_/1/8/csm_Arztausweis_50_Prozent_e13307feec.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/_processed_/6/a/csm_broschuere_hiv_praxis_1245e3bcff.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/_processed_/d/a/csm_Logoklein_c6836a5a12.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/_processed_/2/5/csm_eu2020de_Logo_DE_positiv_RGB_59468dee0b.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/images/Weiterbildung/eLogbuch_Logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/images/122daet/122BeschlussTitel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/uploads/pics/Organ_14.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/templates/images/video-youtube.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/_processed_/1/5/csm_mobileSeite_7b78738bd6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/images/logos/logo-DAE.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/images/logos/logo-Akdae.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/fileadmin/user_upload/images/logos/logo-Aezq.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/Logo_BAEK_Blau.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/1px.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_arztsuche.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_formulare.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_broschueren.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_adressen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_video.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_RSS.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/footericon_mobile-seite.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/JavaScript/Libraries/jquery-ui.js?1614009876"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/JavaScript/Frontend/jquery.magnific-popup.min.js?1614009876"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/jquery.datetimepicker.min.js?1525701135"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Libraries/parsley.min.js?1525701135"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Tabs.min.js?1525701135"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/powermail/Resources/Public/JavaScripts/Powermail/Form.min.js?1525701135"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/JavaScript/Frontend/jquery.flexslider.js?1614009876"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_widgets/Resources/Public/JavaScript/Frontend/lns_core_ui.js?1614009876"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/JavaScript/scripts.js?1616054869"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/JavaScript/init.js?1616054869"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js?cbid=47bee4a2-3db0-4bc6-9cf1-53029d703494"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/font/fontawesome-webfont.woff?v=3.1.0"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Fonts/Dosis/Dosis-Regular.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Fonts/Arimo/Arimo-Regular.ttf"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/gDUWHBYTKUs"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/atkSFmpToWg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/PDF-icon.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/previousSmall.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/nextSmall.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/arrowSmall.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/backgroundVideo.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/naviSpecial.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/flags-Arabisch.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/flags-EN.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/flags-FR.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Images/flags-DE-active.jpg"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Fonts/Dosis/Dosis-Light.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Fonts/Dosis/Dosis-Medium.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesaerztekammer.de/typo3conf/ext/lns_provider_baek/Resources/Public/Fonts/Arimo/Arimo-Bold.ttf"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwngR2p2w0MwHbeD17aCmClBfYl6NP2ivfoat7MOF=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi_webp/atkSFmpToWg/default.webp"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwngR2p2w0MwHbeD17aCmClBfYl6NP2ivfoat7MOF=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi_webp/gDUWHBYTKUs/default.webp"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/47bee4a2-3db0-4bc6-9cf1-53029d703494/cc.js?renew=false&referer=www.bundesaerztekammer.de&culture=de&dnt=false&forceshow=false&cbid=47bee4a2-3db0-4bc6-9cf1-53029d703494&brandid=CookieConsent&framework="
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/generate_204?dCsSRA"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/generate_204?TzywTw"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://bundesaerztekammer.de\r",
+  "third_parties": {
+    "fqdns": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "fonts.gstatic.com",
+      "i.ytimg.com",
+      "www.google.com",
+      "www.gstatic.com",
+      "www.youtube-nocookie.com",
+      "yt3.ggpht.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 31
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 7,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "www.youtube-nocookie.com"
+    ]
+  }
+}

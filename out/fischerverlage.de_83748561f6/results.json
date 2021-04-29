@@ -1,0 +1,647 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".fischerverlage.de",
+      "expires": 1682008159,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079203,
+      "name": "_ga_LSE8VBR667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 47,
+      "value": "GS1.1.1618936159.1.0.1618936159.0"
+    },
+    {
+      "domain": ".fischerverlage.de",
+      "expires": 1682008159,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079203,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.1.1630211467.1618936159"
+    },
+    {
+      "domain": ".fischerverlage.de",
+      "expires": 1650472160,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543204,
+      "name": "_pin_unauth",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 81,
+      "value": "dWlkPU9UYzVNR0ZqTm1FdE9EWXdOaTAwWmpka0xXSmxPR1F0WlRsbVlXTTVNREF6Wm1Jeg"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.fischerverlage.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": null,
+      "all_set_js": null,
+      "any_set_js": null,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 1
+    },
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": true
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "200ce11e9eb0a377d97dea79d2ba7e00e341240eb0945b4633a417e5628cf4fe",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624234462.0,
+      "not_valid_before": 1616462062.0,
+      "serial_number": 356007345550850152759196391216269315792646,
+      "subject": {
+        "commonName": "www.fischerverlage.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.fischerverlage.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fischerverlage.de/",
+    "https://fischerverlage.de/",
+    "https://www.fischerverlage.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://fischerverlage.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fischerverlage.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/main.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PDH3ZG6&l=dataLayer"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/5316860c5149747ad15c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/341138031eb6d6c6a19a.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/8813650708985a4064f1.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/12ec9e8b3fea96be5aae.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/243c3a852c5a1f3fbde6.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/18a92f374ac7e314b72d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/929c5c8b88d9fd56bfd3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/f611331e36805e64f67e.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/images/logos/fischer-verlag-logo.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_400,w_1024,c_fill,g_auto,q_auto,f_auto,fl_progressive/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2020-12/Strobel_Moerderfinder_HG_1440x585px_Hero.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_106,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2020-12/Arno_Strobel_Moerderfinder_PB_Cover.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783596706549.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783100024923.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783103974560.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783103900095.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783596700639.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783596705290.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783841401069.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_100,c_fill,g_auto,q_auto,f_auto/https://rdw.hgvcdn.de/resources/FILENAME/9783596704705.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/js/polyfills.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/bundle.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Teaser_Fischer_Cline_RP2%20%284%29.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Klein_Welt_702x334px_Buchteaser.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/MacGillis_Ausgeliefert_702x334px_BuchTeaser.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Orwell_1984_HG_702x334px_BuchTeaser.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Kroemer_Dieselbe_hg__702x334_Buchteaser.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Koelle_Bienen_702x334px_BuchTeaser.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Jung_Shine_HG_702x334px_BuchTeaser.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/h_334,w_702,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2021-03/Foer_Klima_hg_702x334_Buchteaser.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/fonts/crimson-text-v10-latin/crimson-text-v10-latin-700.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/fonts/open-sans-v17-latin/open-sans-v17-latin-regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/fonts/crimson-text-v10-latin/crimson-text-v10-latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/images/icons/arrow-orange.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/fonts/open-sans-v17-latin/open-sans-v17-latin-700.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/fonts/open-sans-v17-latin/open-sans-v17-latin-600.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/6efe23be6d1239b32eb9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/72c6cd8dc99f9ed9818b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/3c4c0c2dd45ea9735598.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/11927be2302e0f842ec8.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/49a4e5ce0e942bb94975.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/-0RIgOw5/latest/de.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=-0RIgOw5"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/images/mockups/book-mockup.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://res.cloudinary.com/holtzbrinck-buchverlage/image/fetch/w_176,c_fill,g_auto,q_auto,f_auto/https://bilder-fischer.s3.eu-central-1.amazonaws.com/s3fs-public/2020-12/Arno_Strobel_Moerderfinder_PB_Cover.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-LSE8VBR667&l=dataLayer&cx=c"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.pinimg.com/ct/core.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/_nuxt/c42020752ce5861766c0.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/cdcs-iframe-index.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=H1Vl5NidjWX@19.3.24,HJI5SmLm7@4.0.12,HkocEodjb7@43.5.12,BJ59EidsWQ@17.2.14,Hko_qNsui-Q@7.0.11,B1Hk_zoTX@17.2.13,ko1w5PpFl@23.10.10,ByzZ5EsOsZX@10.2.3,r1HocEjOiWm@7.2.1,gkEBFID-V@5.2.2,8ScDZDmU@6.4.1,9Q2qrmB3@7.3.1,S1pcEj_jZX@21.7.3,BJz7qNsdj-7@15.7.10,nhLMP6qX@2.1.0,HkPBYFofN@10.2.0,HkYNq4sdjbm@10.2.4,tnfBi7gwe@14.3.2,S1_9Vsuj-Q@15.6.8"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-LSE8VBR667&gtm=2oe472&_p=681894721&sr=800x600&ul=en-us&cid=1630211467.1618936159&_s=1&dl=https%3A%2F%2Fwww.fischerverlage.de%2F&dt=B%C3%BCcher%20und%20Autoren%20%7C%20S.%20Fischer%20Verlage&sid=1618936159&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&ep.anonymizeip=true"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/images/icons/arrow-grey.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fischerverlage.de/fonts/crimson-text-v10-latin/crimson-text-v10-latin-600.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ii1tgvjxdc-dsn.algolia.net/1/indexes/*/queries?x-algolia-agent=Algolia%20for%20JavaScript%20(3.35.1)%3B%20Browser%3B%20instantsearch.js%20(3.7.0)%3B%20Vue%20(2.6.11)%3B%20Vue%20InstantSearch%20(2.6.0)%3B%20JS%20Helper%20(2.28.1)&x-algolia-application-id=II1TGVJXDC&x-algolia-api-key=67f327b4b55d48042cd2c71e5a53ffc3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/cdcs.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.pinimg.com/ct/lib/main.dec9de31.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ct.pinterest.com/user/?tid=2613547454585&pd=%7B%22np%22%3A%22gtm%22%7D&cb=1618936160700"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ct.pinterest.com/v3/?tid=2613547454585&pd=%7B%22np%22%3A%22gtm%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.fischerverlage.de%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%22dec9de31%22%7D&cb=1618936160702"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fischerverlage.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "ct.pinterest.com",
+      "graphql.usercentrics.eu",
+      "ii1tgvjxdc-dsn.algolia.net",
+      "privacy-proxy.usercentrics.eu",
+      "res.cloudinary.com",
+      "s.pinimg.com",
+      "www.google-analytics.com",
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 38
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 18,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "ct.pinterest.com",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "s.pinimg.com",
+      "www.google-analytics.com",
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

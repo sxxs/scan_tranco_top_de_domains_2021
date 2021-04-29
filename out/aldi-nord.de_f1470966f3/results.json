@@ -1,0 +1,544 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.aldi-nord.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cookieconsent_page",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 29,
+      "value": "/home:first"
+    },
+    {
+      "domain": ".hit.uptrendsdata.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "ARRAffinitySameSite",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 83,
+      "value": "a76a50ba664d5f979a92b87fa96814a39a02ad08ea740b7ba12f9ace3807d7f7"
+    },
+    {
+      "domain": ".aldi-nord.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "s_tp",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 8,
+      "value": "3993"
+    },
+    {
+      "domain": ".aldi-nord.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "s_ppv",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 33,
+      "value": "ConsumerHome%2C19%2C15%2C760"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "uptrendsdata.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.aldi-nord.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "cce46444e779b0f1c3c9c9aac0e0d1bcf7319fc1d9825068754712e2a24ed960",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1655287200.0,
+      "not_valid_before": 1591740000.0,
+      "serial_number": 20953811561273411168432446190009648826,
+      "subject": {
+        "commonName": "www.aldi-nord.de",
+        "countryName": "DE",
+        "localityName": "Essen",
+        "organizationName": "Aldi Einkauf GmbH & Co. oHG",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.aldi-nord.de/aldi-liefert/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://aldi-nord.de/",
+    "https://www.aldi-nord.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://aldi-nord.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/fonts/32DF83_1_0.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/fonts/32DF83_2_0.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/fonts/32DF83_4_0.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/fonts/32DF83_5_0.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/aldi/germany.styles.css/1616512725404.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/css/main.08368c220517fbdb19b324c192929534.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/head.1eda79d51615d5916a96397c1c74bfff.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.adobedtm.com/launch-ENcd518efa263e42028901c695e6d2b16e.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/images/logo.png.res/1606291951421/logo.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/images/liefert-logo.svg.res/1603872256912/liefert-logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Angebote_Mo_KW16_1000764-Paletten-Sitzkissen.jpg/jcr:content/renditions/original.transform/288w/img.1618824492541.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Angebote_Mo_KW16_1000427-Hemd-Modern-Fit.jpg/jcr:content/renditions/original.transform/288w/img.1618824489533.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Angebote_Mo_KW16_Aldi_liefert_1009586-Buschbeck-Plancha-Grill-3.jpg/jcr:content/renditions/original.transform/288w/img.1618824488173.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Range_Mo_KW16.jpg/jcr:content/renditions/original.transform/288w/img.1618410381867.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Angebote_Do_KW16_1008895_Alu-Glas-Ausziehtisch1.jpg/jcr:content/renditions/original.transform/288w/img.1618824489087.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Angebote_Do_KW16_3511-Damen-Slub-Pullover.jpg/jcr:content/renditions/original.transform/288w/img.1618824490802.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Angebote_Do_KW16_Aldi_Liefert_1003967_PKW_Anhaenger.jpg/jcr:content/renditions/original.transform/288w/img.1617951077957.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Range_Fr_KW16.jpg/jcr:content/renditions/original.transform/288w/img.1618410379710.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/kw16/Themenaktion_Fr_KW16.jpg/jcr:content/renditions/original.transform/288w/img.1617951077370.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Range_Sa_KW16.jpg/jcr:content/renditions/original.transform/288w/img.1618410382536.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Angebote_Mo_KW17_1007116-RAUMENTFEUCHTER.jpg/jcr:content/renditions/original.transform/288w/img.1618824355688.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Angebote_Mo_KW17_5705-EDEL-LINON-BETTWAESCHE.jpg/jcr:content/renditions/original.transform/288w/img.1618824402243.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Angebote_Mo_KW17_ALDI%20liefert_1011104_Saugroboter.jpg/jcr:content/renditions/original.transform/288w/img.1618410378681.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Angebote_Do_KW17_1008440-BALKONBLENDE.jpg/jcr:content/renditions/original.transform/288w/img.1618824355160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Angebote_Do_KW17_1009384-LONGBOARD.jpg/jcr:content/renditions/original.transform/288w/img.1618824355796.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Angebote_Do_KW17_ALDI_liefert_1009503_Moebeltresor1.jpg/jcr:content/renditions/original.transform/288w/img.1618838261789.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/angebote/navislider/2021/KW17/Themenaktion_Fr_KW17.jpg/jcr:content/renditions/original.transform/288w/img.1618410383153.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/jquery_3.1.1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/lib.ae187a920b709cd0c1e38decc793b5dc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/clientlibs/js/main.b5f90e40cdbd1f7e85cff7aac2b76f82.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/etc/designs/aldi/web/frontend/aldi/images/sprite.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/aldi/germany/de/web-consumer.mainnavigation-lazy.html"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/aldi/germany/de/web-consumer/sw.pwa-bundle.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/dynamischethemenbuehne/2021/KW16/2021_KW16_EDLP_Toffifee_stagedisplay_tablet2.jpg/jcr:content/renditions/original.transform/900w/img.1618589110891.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/dynamischethemenbuehne/2021/KW16/2021_KW16_Gasgrill_stagedisplay_tablet2.jpg/jcr:content/renditions/original.transform/900w/img.1618589101670.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/dynamischethemenbuehne/2021/KW16/2021_KW16_Probierreise_stagedisplay_tablet.jpg/jcr:content/renditions/original.transform/900w/img.1618589094625.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/dynamischethemenbuehne/2021/KW16/themenbuehne-led-alu-ampelschirm-2800x1200.jpg/jcr:content/renditions/original.transform/900w/img.1618591351506.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/Startseiten-Teaser/startseitenteaser-gewinnspiel.png/jcr:content/renditions/opt.440w.png.res/1618588275428/opt.440w.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/Startseiten-Teaser/2020_KWXX_S_Teaser_1922x959.jpg/jcr:content/renditions/original.transform/440w/img.1604331453980.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/Startseiten-Teaser/2021/2021_KW10_GG_Startseitenteaser.jpg/jcr:content/renditions/original.transform/440w/img.1615564556091.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/startseite/Startseiten-Teaser/200408_5ZR_teaser.jpg/jcr:content/renditions/original.transform/440w/img.1586336630579.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.aldi-nord.de/content/dam/aldi/germany/online-services/aldi-services-unterseiten/210203_SU_tablet2.jpg/jcr:content/renditions/original.transform/900w/img.1612360745100.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.adobedtm.com/3414aca5c993/1e4869c3e4fa/18df37533fb9/EXfc7e71ed56794bbfbe84ad48327bd620-libraryCode_source.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit.uptrendsdata.com/rum.min.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit.uptrendsdata.com/api/hits"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "*",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "data:",
+        "blob:"
+      ],
+      "frame-ancestors": [
+        "'self'",
+        "experience.adobe.com",
+        "aldinord.experiencecloud.adobe.com",
+        "aldianer.staffbase.com",
+        "aldinord-custom.staffbase.com",
+        "www.aldianer-nord.de",
+        "cname-main-de1.staffbase.com",
+        "195.192.131.24"
+      ],
+      "header_value": "frame-ancestors 'self' experience.adobe.com aldinord.experiencecloud.adobe.com aldianer.staffbase.com aldinord-custom.staffbase.com www.aldianer-nord.de cname-main-de1.staffbase.com 195.192.131.24; default-src * 'unsafe-eval' 'unsafe-inline' data: blob:"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-FROM https://experience.adobe.com/",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://aldi-nord.de\r",
+  "third_parties": {
+    "fqdns": [
+      "assets.adobedtm.com",
+      "hit.uptrendsdata.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "assets.adobedtm.com",
+      "hit.uptrendsdata.com"
+    ]
+  }
+}

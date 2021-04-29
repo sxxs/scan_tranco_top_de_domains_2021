@@ -1,0 +1,659 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".www.fernuni-hagen.de",
+      "expires": 1652876503,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.1.9cf9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "b14500194285994b.1618921303."
+    },
+    {
+      "domain": ".www.fernuni-hagen.de",
+      "expires": 1618923102,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.1.9cf9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.fernuni-hagen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "6830259e8390022d3131470abb9d7fc2f25ac1a09c8d700a297bde8a00b0ce27",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623477292.0,
+      "not_valid_before": 1552287292.0,
+      "serial_number": 10103681610666783053848208507,
+      "subject": {
+        "commonName": "www.fernuni-hagen.de",
+        "countryName": "DE",
+        "localityName": "Hagen",
+        "organizationName": "FernUniversitaet in Hagen",
+        "organizationalUnitName": "Zentrum fuer Medien und IT",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.fernuni-hagen.de/service/impressum.shtml",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fernuni-hagen.de/",
+    "https://www.fernuni-hagen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://fernuni-hagen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/css/main.css?t=1614591757"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/css/slider.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/css/responsive.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/css/map.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/modernizr.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/jquery-3.4.1.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/css/forms.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/logos/logo_fernuni_hagen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_menu.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_search_blue.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_white_down.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_blue_down.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_search.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/slider/corona-infos-studierende-gty.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/slider/hagener_manifest_1280x630.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/slider/internationales-slider.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/slider/fernglas-slider.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/slider/onlineshop-slider.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/slider/fernuni-angebote-lehrer.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2021/04/fittosize__500_0_e1058d53aa71533237fd2ac3546666ad_l%C3%BCdenscheider_gespr%C3%A4ch_verheugen_portrait_02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2021/04/fittosize__500_0_2df2e23963ef3719d98f764203bbc2cd_590296198_dean_mitchell_e+_gettyimages_-_800x480px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2021/03/fittosize__500_0_03b823f446601dcbeaf6290bb4255e7e_campussource_workshop_2021_bericht.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/css/print.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2021/03/fittosize__500_0_8c9afeabba6e787a56c89f13b73d0849_josephs-mokros.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2021/03/fittosize__500_0_56c802680737a38a48ad6a23c9f2788a__mg_7660_uta-st%C3%B6rl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2021/03/fittosize__500_0_a468676b0afc8df741146917e1c0b649_falsche-erinnerung.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_left.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_left_gray.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_right_gray.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/stimmen/fittosize__450_540_b79c74461937c1b266487fe807ca611a_notheis-schach.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/stimmen/fittosize__450_540_9b63566b1701dd9aa3de69679ec14f21_monique-l%C3%B6we.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/stimmen/fittosize__450_540_ece1d2aa3b3470dce642623f537a1f5c_andre-stephan-portrait.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/stimmen/fittosize__450_540_1545ba4fc355392472e19f664b762823_besneroriginal-500.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/fokus/fittosize__350_0_a3b0a9819ae43fc17f754a9e0b7ed2c1_fokus-gleichstellung-ts.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/fokus/fittosize__350_0_954139e0f5410bf1e7c6e9ae0f5f3d7b_diversitaets-audit-logo.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/fokus/fittosize__350_0_037f78e0c6eba793f50c5aeb2f64c458_fernuni-shop-fokus.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/homepage/fokus/fittosize__350_0_f73b4e98261190a2442d547b707cb8ee_fokus-infohefte-js.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2018/08/fittosize__350_0_da331ed1c4413e2f639673b0f083f5aa_585798924_fatcamera_e+_getty_images.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2018/08/fittosize__350_0_9dbbdb927122a3012795cb7cf9eba9d1_internationalisierung_globus_800px.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/social_icons/social_icon_facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/social_icons/social_icon_twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/social_icons/social_icon_youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/social_icons/social_icon_instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/social_icons/social_icon_xing.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/social_icons/social_icon_info.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/logo_fernuni_hagen_fuss.svg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/iD-pinmap.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/btn_scrolltotop.svg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/lightslider-1.1.6.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/main.js?t=1614591757"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/fresco.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/carousel-script.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/jquery.magnific-popup.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/smk-accordion.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/fileupload.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/js/leaflet/leaflet.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/fonts/roboto-v15-latin-500.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/fonts/roboto-v15-latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_arrow_right_link.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_list.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/fonts/roboto-v15-latin-500italic.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/fonts/roboto-v15-latin-700.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_externeseite.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://analytics.fernuni-hagen.de/matomo/matomo.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/stop.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/imperia/md/images/presse/fotos/2020/05/fernuni-fuer-alle-preview.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fernuni-hagen.de/static/shared/images/icon_close_gallery.svg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://analytics.fernuni-hagen.de/matomo/matomo.php?action_name=www.fernuni-hagen.de%2FFernUniversit%C3%A4t%20in%20Hagen%20-%20Startseite&idsite=1&rec=1&r=189023&h=14&m=21&s=42&url=https%3A%2F%2Fwww.fernuni-hagen.de%2F&_id=b14500194285994b&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=yFcYQR&pf_net=223.4350000071572&pf_srv=29.67999999236781&pf_tfr=19.274999998742715"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fernuni-hagen.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundestag.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "64e90e0f108026ec26a56558dfe4b003877db46af00ff6029d61be28f94f8679",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign ECC OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1627036046.0,
+      "not_valid_before": 1563877646.0,
+      "serial_number": 18120551605101686701028623213,
+      "subject": {
+        "commonName": "bundestag.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Deutscher Bundestag",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_ECDSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bundestag.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundestag.de/",
+    "https://www.bundestag.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://bundestag.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/css/bundestag-596334-43.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/css/bt-icons-596332-37.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/css/HideFraktionslos-596342-37.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/respond.min-596298-36.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/blob/440146/0001a47508444b5f98cd9ff447f49029/logo_bundestag-svg-data.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/css/print-596346-38.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://statistik.bundestag.de/piwik.js"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/crblob/596236/210d972350a7b7c3510b4b5576d78ebb/bt-icons-woff2-data.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/blob/451030/23aeaa0485a3e37bcf167e1a25adc481/Image16x9_big-data.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/adler/img/emo01_md.gif"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webtv.bundestag.de/player/macros/bttv/hls/showItAsync.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/jquery.min-826978-3.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/arrayIncludesPolyfill-808632-2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/libs_wojq-596282-38.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/sites/de/home/mediathek/modul%20mediathek/FilterSetsMediathek-567558-13.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Modules-596288-39.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/ContentToggle-596258-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/DataLoader-596260-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Filter-596270-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/UrlHashHandler-596316-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Datepicker-596262-38.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Video-596320-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Transformator-596314-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Tabs-596312-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Suche-596306-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Slider-596304-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Pagination-596296-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Overlay-596294-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Charts-596256-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/na-596290-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/scripts-596300-54.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Navigation-596292-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Breadcrumb-596250-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/JQueryBreakpointComponent-596278-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/ImageLoader-596276-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/LightboxImageLoader-596284-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Map-596286-38.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/UrlParameterHandler-596318-37.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/Share-596302-40.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/themes/bundestag/js/System-596310-38.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/crblob/595640/3c58f203a87c06a3889740c4708c7fb8/icon-calendar-png-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/crblob/595686/7f3c4901b44c843a38ce7bedfea8624e/ptv_bg-jpg-data.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://statistik.bundestag.de/piwik.php?action_name=Deutscher%20Bundestag%20-%20Startseite&idsite=1&rec=1&r=654100&h=18&m=44&s=35&url=https%3A%2F%2Fwww.bundestag.de%2F&_id=&_idts=1618850675&_idvc=1&_idn=1&_refts=0&_viewts=1618850675&send_image=1&cookie=0&res=800x600&gt_ms=51&pv_id=S3Ompx"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlist/de/445722-445722?limit=20&noFilterSet=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlist/de/445786-445786?limit=4"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlist/de/493054-493054?limit=16&noFilterSet=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlist/de/531790-531790?limit=16&noFilterSet=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/crblob/595626/ea7e88b235ec0e642340ee31851f55a6/bt-teaser-kalenderblatt-bg-jpg-data.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlistcalendar/de/445798-445798/day?currentMonth=4&currentYear=2021"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlistcalendar/de/445798-445798/list?currentDay=19&currentMonth=4&currentYear=2021"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/adler/default_questions.jsp"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/ajax/filterlist/de/445776-445776?limit=10&noFilterSet=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/462008/16x9/246/139/e4f4245308d9f907d264e173cc388a9/wF/plenum_teaser_sitzungsverlauf_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835142/16x9/246/139/a040ca51129ce98b4744d15be8d5f8e6/ve/kw16_de_regierungsbefragung_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/543856/16x9/246/139/1d488c8e9b192fe9161b7d615941c4cb/ya/grafikanwendung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835092/16x9/246/139/f7014c096fa3b0de4394da635a2f5b2a/NV/kw16_de_fragestunde_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835118/16x9/246/139/88ff10d4ba7e86b886bd9b2808e9d2ee/RR/kw16_de_infektionsschutzgesetz_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835120/16x9/246/139/13748fe9528eb8a45074ab4b5850f995/rg/kw16_de_suizidhilfe_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835108/16x9/246/139/915d71f80730dfc27a2c25a1dce15045/sQ/kw16_de_grunderwerbsteuergesetz_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835106/16x9/246/139/1f6782fc5a89c53692b64019b3665c7f/iY/kw16_de_tarifbindung_mittwoch_gruene_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835100/16x9/246/139/447df8e53c88760a619c66f954534618/Aq/kw16_de_gemeindewirtschaftsteuer_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835006/16x9/246/139/f6840ab77c51c43813e16315d497a0d2/yj/kw16_de_bundeswehr_med_irini_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/834992/16x9/246/139/d0297fd984030bd7ae389b751223a3d7/CO/kw16_de_bundeswehr_atalanta_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/832374/16x9/246/139/d48a9c8a978d4fc8fb25c29aa37cb5d4/kj/kw16_pa_buergerschaftl_engagement_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/831902/16x9/246/139/cd63a49e7a101739b88c87245655e0be/Sq/kw16_pa_3ua_di_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/833354/16x9/246/139/35e88a939e00b5353f5eefc8077a2235/Eo/kw16_pa_finanzen_vermoegensteuer_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/831998/16x9/246/139/decb9e6a57869eb3eac1a0daea543/Uj/kw16_pa_familie_einsamkeit_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/831994/16x9/246/139/bf413a8d22480df52cb6c77b486cfdb/xF/kw16_pa_umwelt_insektenschutz_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/832242/16x9/246/139/c20570daaf67aaba82b99586fd4c8413/zM/kw16_pa_arbeit_soziale_absicherung_bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundestag.de/resource/image/835056/16x9/246/139/2faf2360690f108dc0818fcbad1e8c89/Ob/kw16_de_telekommunikationsmodernisierungsgesetz_bild.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=604800",
+      "includeSubDomains": false,
+      "max-age": 604800,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bundestag.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

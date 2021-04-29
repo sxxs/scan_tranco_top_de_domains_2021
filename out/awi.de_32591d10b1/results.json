@@ -1,0 +1,614 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.awi.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 35,
+      "value": "rji0bplnb9f1e4d2e3sjge6175"
+    },
+    {
+      "domain": "www.awi.de",
+      "expires": 1652874861,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.44.a4d7",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 42,
+      "value": "c7c3d84ee731e04f.1618919661."
+    },
+    {
+      "domain": "www.awi.de",
+      "expires": 1618921461,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.44.a4d7",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.awi.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "988130262f40b890572b684c1b580af18e18e9087cdb1a15b2c2aa1b4adbebe6",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1635073391.0,
+      "not_valid_before": 1600772591.0,
+      "serial_number": 10998144169891720180860740306,
+      "subject": {
+        "commonName": "awi.de",
+        "countryName": "DE",
+        "localityName": "Bremerhaven",
+        "organizationName": "Alfred-Wegener-Institut",
+        "stateOrProvinceName": "Bremen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.awi.de/impressum-1.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "@VERSION"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://awi.de/",
+    "https://www.awi.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://awi.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3temp/assets/compressed/merged-2c6d637234a29d391397fa1b2f4121ae-42d5904cd61dcb266afcad960d18a234.css?1618909230"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3temp/assets/_processed_/b/f/csm_logoMobile_0227019490.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Images/AWI/awi_logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/a/csm_ozeanversauerung_439a6793e7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/b/f/csm_meereis_94c3c2706a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/3/c/csm_permafrost_592f7744f5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/9/3/csm_muell_im_meer2_aaa886ec8e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/5/1/csm_201207072012_Kelpwald1_Duene_UNettelmann_UweNettelmann_a00171efbb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/8/b/csm_20150821_PS94_Eisbaer_002_SHendricks_16-5_d6e73802d8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/e/8/csm_20161215_Icon_Klimamodellierung_011_MartinKuensting_AWIGrafik_fb5512aa46.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/6/c/csm_20160811_Ultrabreitband_Radar002_TobiasBinder_4a9a5b4edb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/c/f/csm_20130624_ANT29_6_052_StefanHendricks_e5a912a8b0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/a/e/csm_20150531_Fruehlingsschmelze_Kongsfjord_023_RBuergi_2fcba93d89.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/8/f/csm_schiffe_498c539d3d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/4/f/csm_stationen_bd375aa175.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/4/5/csm_flieger_fc77a7db7e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/a/0/csm_labore_b84a66695e.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/a/9/csm_Expedition_thumbs_supafly5_084df0bf76.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/1/7/csm_awi_als_arbeitgeber_37232bf8b7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/c/2/csm_postdocs_d3dbdb04bc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/5/d/csm_aus_dem_studium_f210968bf9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/7/3/csm_auszubildende_3c940729df.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/f/csm_aus_der_schule_bf8a56d12d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/7/b/csm_jobs_92edf78b21.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/f/csm_organisation_9133ac001a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/c/a/csm_standorte_9cb05cfaca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/9/csm_logistik_a165926f35.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/6/csm_Expedition_thumbs_supafly1_36eadaadde.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/b/csm_publikationen_f0c04e7a33.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/a/9/csm_20140828_Sylter_AWI-Forschung_018_TWagner_3-2_fb7dab48b7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/c/c/csm_biowissenschaft_3941107938.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/6/4/csm_geowissenschaft_20487ea2eb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/c/csm_klimawissenschaft_2a2cd0b90e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/9/7/csm_nachwuchsgruppen_2ba75d32d6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/3/b/csm_besondere_gruppen_f901310255.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/a/csm_20150906_PS94_Arktis_092_SHendricks_19292f367e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/a/csm_20150906_PS94_Arktis_092_SHendricks_06c9746659.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/0/a/csm_20150906_PS94_Arktis_092_SHendricks_3da6c066e5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/0/csm_2.__c__Vlaams_Instituut_voor_de_Zee__VLIZ__NSW_GR_b8cb903579.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/0/csm_2.__c__Vlaams_Instituut_voor_de_Zee__VLIZ__NSW_GR_1fea3dc543.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/d/8/csm_20210314_Polarstern_between_Brunt_and_A74_RalphTimmermann_004_5a859c913e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/d/8/csm_20210314_Polarstern_between_Brunt_and_A74_RalphTimmermann_004_d0c99e8fe3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/0/csm_v02-2_Expertendatenbank_3-2_04f077332d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/0/csm_v02-2_Expertendatenbank_3-2_867404d480.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/f/1/csm_12420022-Startseite-BSW_1142x570_M1_bf398c76d1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/1/5/csm_k-CRohleder_20210415_120553Z_48be106049.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/4/d/csm_csm_KSW_WeKontroversen_Screen_4000x4000px_v1_3e59aeac06_8c3adbd88c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/fileadmin/_processed_/4/f/csm_20130401_Polarstern-ANTXXIX-4_026_ThomasRonge_586a45110c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://blogs.helmholtz.de/atkaxpress/wp-content/uploads/sites/18/2021/03/Summertime...-300x200.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://blogs.helmholtz.de/eisblog/wp-content/uploads/sites/13/2020/12/eiskernbanner-300x200.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Images/AWI/helmholtz_logo.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3temp/assets/compressed/merged-42e51b54d8c1098be1b2651e0a3eb8ec-ae1ad760d8b77059ba371ab763650cd5.js?1618909230"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=26788506-2f2e-4568-8470-0f4be30fca67"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.awi.de/piwik.js"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Webfonts/a32c3a17-3242-461c-a048-ca8e775582b1.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Iconfonts/materialdesignicons-webfont.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Iconfonts/fontello.woff?47347431"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Webfonts/b0eddbbb-9e8e-4e08-bde1-965bb945f73a.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.awi.de/typo3conf/ext/sms_boilerplate/Resources/Public/Iconfonts/awi_iconfont.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.awi.de/piwik.php?action_name=Home%20-%20AWI&idsite=44&rec=1&r=758368&h=13&m=54&s=21&url=https%3A%2F%2Fwww.awi.de%2F&_id=c7c3d84ee731e04f&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=J9rVhG&pf_net=78&pf_srv=88&pf_tfr=26&pf_dm1=515"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=26788506-2f2e-4568-8470-0f4be30fca67"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://awi.de\r",
+  "third_parties": {
+    "fqdns": [
+      "blogs.helmholtz.de",
+      "fast.fonts.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

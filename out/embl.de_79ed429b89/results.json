@@ -1,0 +1,652 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".embl.de",
+      "expires": 1681996233,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1736807217.1618924234"
+    },
+    {
+      "domain": ".embl.de",
+      "expires": 1619010633,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.631593739.1618924234"
+    },
+    {
+      "domain": ".embl.de",
+      "expires": 1618924293,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_gat_UA-21480202-7",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 19,
+      "value": "1"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618925133.906109,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 8101.90610909462,
+      "name": "test_cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "CheckForPermission"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.embl.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "gtm2",
+        "tracking_id": "UA-21480202-7"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a1ebb60dad19fe7b389e98bcd7f11476266f9680b0c535ec754127d9dbfa307a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1628921408.0,
+      "not_valid_before": 1557727808.0,
+      "serial_number": 10204107907317353524651380051,
+      "subject": {
+        "commonName": "www.embl.de",
+        "countryName": "DE",
+        "localityName": "Heidelberg",
+        "organizationName": "European Molecular Biology Laboratory",
+        "organizationalUnitName": "IT Services",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.embl.de/aboutus/contact/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://embl.de/",
+    "https://embl.de/",
+    "https://www.embl.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://embl.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://embl.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/cssapi/a280603e-e48c-4c76-8c1d-05b1dc7496c3.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cloud.typography.com/7761492/646424/css/fonts.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/css/ext/prod/embl.min.css?1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/js/ext/prod/modernizr.js?1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/embl_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/icon_menu.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/icon_search_menu.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/homepage/sliders/coronavirus-update.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/homepage/sliders/BMP21-01-biopalmar.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/homepage/sliders/PEV21-01-predicting.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/homepage/sliders/EES21-07-new-approaches.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/homepage/sliders/discovery-page.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/aboutus/communication_outreach/news/2021/210416_metagenomic_explore_lichens/210416_FINN_Lichen-ex.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/aboutus/communication_outreach/news/2021/210413_SB_driving_technology/Cipriani-MD3-ex.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/aboutus/communication_outreach/news/2021/210413_beLAB2122/emblem-ex.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/aboutus/communication_outreach/news/2021/210412_open_data_Latin_America/210414_CABANA_OA_ex.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/aboutus/communication_outreach/news/2021/210409_Protein_origami/ProteinOrigami-ex.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/aboutus/communication_outreach/news/2021/210407_welcome_hartley/hartley-ex.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/research/HD/multiple/unit1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/research/HD/multiple/unit2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/research/HD/multiple/unit3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/research/HD/multiple/unit4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/research/HD/multiple/unit5.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/sprites/icon_social_facebook_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/sprites/icon_social_twitter_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/sprites/icon_social_youtube_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/sprites/icon_social_instagram_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/sprites/icon_social_linkedin_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/layout/images/external/common/sprites/icon_social_blog_sprite.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/js/ext/prod/embl.min.js?11"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WLRJQ6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/css/ext/fonts/244925/327C29D349C0FA8EE.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=a280603e-e48c-4c76-8c1d-05b1dc7496c3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/sprites/arrow_dropdown_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/sprites/icon_search_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/sprites/arrow_right_small_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/sprites/arrow_left_big_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/sprites/arrow_right_big_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/sprites/arrow_right_small_sprite_blue.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/discovery_banner_desktop.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2?d44f19a684109620e484167ea690e81897180bc6de95d59fb4e13254f4d65902ee0af89cd50e5049f2d6ab2fbfb022964d6b5c11127f06a933fe613aca52dfdf168687e6571e46ad7f3692285ba93545b942294f81bfccd493dcead10c78e83a1e9f9ebfa64b7985d9ed6cbc0c6a51bd5605440d0c336f0c773ac78d2932ce08349b6902a67f4451c98a99e120d7d18234b8cb5386252aa1b565c766bb439b09dc18c1043f194c86caf78f04f704c002c2418276c5ae185268ef152fb721e03be001686994c138364092bb7ecdc4ed0293090ae2e48c540bdec2f698d7de8d04423e804ab47706233172e6ca47a9a172b2ec99564a2fd28dfc9c5c71f4fd606c9ada0530c7ed2d5dbfc29d1b18db5f&projectId=a280603e-e48c-4c76-8c1d-05b1dc7496c3"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2?d44f19a684109620e484167ea690e81897180bc6de95d59fb4e13254f4d65902ee0af89cd50e5049f2d6ab2fbfb022964d6b5c11127f06a933fe613aca52dfdf168687e6571e46ad7f3692285ba93545b942294f81bfccd493dcead10c78e83a1e9f9ebfa64b7985d9ed6cbc0c6a51bd5605440d0c336f0c773ac78d2932ce08349b6902a67f4451c98a99e120d7d18234b8cb5386252aa1b565c766bb439b09dc18c1043f194c86caf78f04f704c002c2418276c5ae185268ef152fb721e03be001686994c138364092bb7ecdc4ed0293090ae2e48c540bdec2f698d7de8d04423e804ab47706233172e6ca47a9a172b2ec99564a2fd28dfc9c5c71f4fd606c9ada0530c7ed2d5dbfc29d1b18db5f&projectId=a280603e-e48c-4c76-8c1d-05b1dc7496c3"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/3600b37f-2bf1-45f3-be3a-03365f16d9cb.woff2?d44f19a684109620e484167ea690e81897180bc6de95d59fb4e13254f4d65902ee0af89cd50e5049f2d6ab2fbfb022964d6b5c11127f06a933fe613aca52dfdf168687e6571e46ad7f3692285ba93545b942294f81bfccd493dcead10c78e83a1e9f9ebfa64b7985d9ed6cbc0c6a51bd5605440d0c336f0c773ac78d2932ce08349b6902a67f4451c98a99e120d7d18234b8cb5386252aa1b565c766bb439b09dc18c1043f194c86caf78f04f704c002c2418276c5ae185268ef152fb721e03be001686994c138364092bb7ecdc4ed0293090ae2e48c540bdec2f698d7de8d04423e804ab47706233172e6ca47a9a172b2ec99564a2fd28dfc9c5c71f4fd606c9ada0530c7ed2d5dbfc29d1b18db5f&projectId=a280603e-e48c-4c76-8c1d-05b1dc7496c3"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/aff68211-86bb-476d-882e-f7a3face144c.woff2?d44f19a684109620e484167ea690e81897180bc6de95d59fb4e13254f4d65902ee0af89cd50e5049f2d6ab2fbfb022964d6b5c11127f06a933fe613aca52dfdf168687e6571e46ad7f3692285ba93545b942294f81bfccd493dcead10c78e83a1e9f9ebfa64b7985d9ed6cbc0c6a51bd5605440d0c336f0c773ac78d2932ce08349b6902a67f4451c98a99e120d7d18234b8cb5386252aa1b565c766bb439b09dc18c1043f194c86caf78f04f704c002c2418276c5ae185268ef152fb721e03be001686994c138364092bb7ecdc4ed0293090ae2e48c540bdec2f698d7de8d04423e804ab47706233172e6ca47a9a172b2ec99564a2fd28dfc9c5c71f4fd606c9ada0530c7ed2d5dbfc29d1b18db5f&projectId=a280603e-e48c-4c76-8c1d-05b1dc7496c3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/lightbox/lightbox-prev.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/lightbox/lightbox-next.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/lightbox/loading.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.embl.de/scripts/layout/images/external/common/lightbox/lightbox-close.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1734280266&t=pageview&_s=1&dl=https%3A%2F%2Fwww.embl.de%2F&ul=en-us&de=UTF-8&dt=EMBL%20Heidelberg%20-%20The%20European%20Molecular%20Biology%20Laboratory&sd=24-bit&sr=800x600&vp=785x600&je=0&_u=YEBAAAABAAAAAC~&jid=1712817497&gjid=1393817252&cid=1736807217.1618924234&tid=UA-21480202-7&_gid=631593739.1618924234&_r=1&gtm=2wg472WLRJQ6&z=1610637218"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googleadservices.com/pagead/conversion/1020669276/?random=1618924233715&cv=9&fst=1618924233715&num=1&value=0&label=RegistrationPurchase&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.embl.de%2F&tiba=EMBL%20Heidelberg%20-%20The%20European%20Molecular%20Biology%20Laboratory&hn=www.googleadservices.com&bttype=purchase&async=1&rfmt=3&fmt=4"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-21480202-7&cid=1736807217.1618924234&jid=1712817497&gjid=1393817252&_gid=631593739.1618924234&_u=YEBAAAAAAAAAAC~&z=635771681"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1020669276/?random=1471037767&cv=9&fst=1618924233715&num=1&value=0&label=RegistrationPurchase&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.embl.de%2F&tiba=EMBL%20Heidelberg%20-%20The%20European%20Molecular%20Biology%20Laboratory&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=ydJ-YP25L-mAjuwPxeqoiAU&sscte=1&crd=&eitems=ChEI8Pf5gwYQ3uW8nNiklen_ARIdAG7N3g0yfbL7SS1u_Iqp8V1IBgJRLhOtWdYhC_Y"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/pagead/1p-conversion/1020669276/?random=1471037767&cv=9&fst=1618924233715&num=1&value=0&label=RegistrationPurchase&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.embl.de%2F&tiba=EMBL%20Heidelberg%20-%20The%20European%20Molecular%20Biology%20Laboratory&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=ydJ-YP25L-mAjuwPxeqoiAU&eitems=ChEI8Pf5gwYQ3uW8nNiklen_ARIdAG7N3g0pUM0Yc_lz53aRkg83WWeD6RX3_jEdKUQ&random=3504185494&resp=GooglemKTybQhCsO"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.de/pagead/1p-conversion/1020669276/?random=1471037767&cv=9&fst=1618924233715&num=1&value=0&label=RegistrationPurchase&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.embl.de%2F&tiba=EMBL%20Heidelberg%20-%20The%20European%20Molecular%20Biology%20Laboratory&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&sscte=1&crd=&is_vtc=1&ocp_id=ydJ-YP25L-mAjuwPxeqoiAU&eitems=ChEI8Pf5gwYQ3uW8nNiklen_ARIdAG7N3g0pUM0Yc_lz53aRkg83WWeD6RX3_jEdKUQ&random=3504185494&resp=GooglemKTybQhCsO&ipr=y"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=a280603e-e48c-4c76-8c1d-05b1dc7496c3"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://embl.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ajax.googleapis.com",
+      "cloud.typography.com",
+      "fast.fonts.net",
+      "googleads.g.doubleclick.net",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.google.de",
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 18
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 8,
+    "trackers": [
+      "googleads.g.doubleclick.net",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

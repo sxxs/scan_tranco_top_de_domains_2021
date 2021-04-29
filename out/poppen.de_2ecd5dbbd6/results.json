@@ -1,0 +1,631 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".poppen.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "session_id",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 36,
+      "value": "gkjddc52n3ng43o78lsssb0p2f"
+    },
+    {
+      "domain": ".poppen.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "invitation",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 56,
+      "value": "-1%2Ahttps%253A%252F%252Fwww.poppen.de%252F%2A"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [
+    {
+      "error_type": "l",
+      "url": "data:"
+    }
+  ],
+  "final_url": "https://www.poppen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [],
+          "functionName": "getCanvasFp",
+          "location": {
+            "columnNumber": 19390,
+            "lineNumber": 0
+          },
+          "url": "https://www.poppen.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+        },
+        {
+          "args": [
+            {
+              "data": [
+                {
+                  "key": "language",
+                  "value": "en-US"
+                },
+                {
+                  "key": "color_depth",
+                  "value": 24
+                },
+                {
+                  "key": "device_memory",
+                  "value": 2
+                },
+                {
+                  "key": "pixel_ratio",
+                  "value": 1
+                },
+                {
+                  "key": "hardware_concurrency",
+                  "value": 1
+                },
+                {
+                  "key": "resolution",
+                  "value": [
+                    800,
+                    600
+                  ]
+                },
+                {
+                  "key": "available_resolution",
+                  "value": [
+                    800,
+                    600
+                  ]
+                },
+                {
+                  "key": "timezone_offset",
+                  "value": -120
+                },
+                {
+                  "key": "session_storage",
+                  "value": 1
+                },
+                {
+                  "key": "local_storage",
+                  "value": 1
+                },
+                {
+                  "key": "indexed_db",
+                  "value": 1
+                },
+                {
+                  "key": "open_database",
+                  "value": 1
+                },
+                {
+                  "key": "cpu_class",
+                  "value": "unknown"
+                },
+                {
+                  "key": "navigator_platform",
+                  "value": "Linux x86_64"
+                },
+                {
+                  "key": "do_not_track",
+                  "value": "unknown"
+                },
+                {
+                  "key": "regular_plugins",
+                  "value": []
+                }
+              ]
+            }
+          ],
+          "functionName": "canvasKey",
+          "location": {
+            "columnNumber": 5415,
+            "lineNumber": 0
+          },
+          "url": "https://www.poppen.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+        },
+        {
+          "args": [
+            null
+          ],
+          "functionName": "get",
+          "location": {
+            "columnNumber": 1348,
+            "lineNumber": 0
+          },
+          "url": "https://www.poppen.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+        },
+        {
+          "args": [
+            null
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 241,
+            "lineNumber": 1
+          },
+          "url": "https://www.poppen.de/sfCombine/amd/d153d652d7c311399fb2f175b6b6dc7f/pjax/0.js"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            2,
+            15
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            4,
+            45
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "cbf6a6ec2be1d7ec3bf59236758f69839f52833c8407a7edd5306efa44fd466c",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1649973599.0,
+      "not_valid_before": 1586815200.0,
+      "serial_number": 210383030562036893517530488311248219937,
+      "subject": {
+        "commonName": "*.poppen.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.poppen.de/imprint-poppen",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://poppen.de/",
+    "https://www.poppen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://poppen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/sfCombine/css/977d01b1f9b558853b7ff60ea176389c/pjax/0/mq/1.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/sfCombine/css/be388b4398126e70ed62b12138c5817d/pjax/0/mq/1.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-a.poppen.de/asset/CM-Team_Stuff_3schritte2Landing.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-b.poppen.de/asset/CM-Team_CS_17-Jahre-Poppen.de.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-b.poppen.de/asset/poppcorn-dating_Poppen.de-App-Popcorn.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-b.poppen.de/asset/poppcorn-dating_Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-b.poppen.de/asset/poppcorn-dating_google_Poppcorn.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/community/uploads/reactions/react_like.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/images/blank-4k-3k.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-b.poppen.de/asset/poppcorn-dating_appstore_badge_de.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-a.poppen.de/asset/poppcorn-dating_playstore-badge2x.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/sfCombine/js/4ae24706c338c55ca4f79cf79e2005a3/pjax/0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/sfCombine/js/d70bd291833eaf9693ed29fe20400643/pjax/0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/sfCombine/amd/d153d652d7c311399fb2f175b6b6dc7f/pjax/0.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-a.poppen.de/header/18afa566034e18f66eb57b931a457170.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-a.poppen.de/header/97bdea0e754a47a74b6ea570655a2858.jpg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/roboto-v15/latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/images/landing/nearby-bg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/images/landing/nearby-radar.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/images/landing/advantage-bg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/community/uploads/monthly_2021_04/23311845_WOMENBUTT.thumb.jpg.7481592be26d8fe276114d5e7dcbc7ef.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/community/uploads/monthly_2021_04/shutterstock_1504435850.thumb.jpg.24a367443c0456549a7e6e5b4b20cbbd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/community/uploads/monthly_2021_03/shutterstock_1182622786.thumb.jpg.c3fcc9a20f2a65f411492e635b701b98.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-b.poppen.de/asset/backgrounds_paar_im_Bettbreit.jpg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/font-awesome-4.7.0/fontawesome-webfont.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/roboto-condensed-v13/latin-700.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/roboto-v15/latin-300.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/roboto-v15/latin-500.woff2"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/df-icomoon-af4c7l/df-icomoon.ttf?fvoqf0"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/fonts/roboto-condensed-v13/latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/lib/smartbanner-1.13.0/smartbanner.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/lib/socket.io-client-2.0.3/socket.io.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/firebasejs/7.14.1/firebase-messaging.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/ajax-api/landing/user/photo"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.poppen.de/ajax-api/landing/user/radar"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-1.poppen.de/1/w/image/8041934/1/fsk16/1/4/4/8041934-14427BCEB34A989E2059DEA66C19202E_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-6.poppen.de/1/w/image/8463810/1/fsk16/6/4/0/8463810-640830613F70F05FCC97DD7B726D9D5B_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-1.poppen.de/1/m/image/5793739/1/fsk16/1/E/4/5793739-1E4724FFC075549B3DF04E3C524CD7F5_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-7.poppen.de/1/m/image/7368096/1/fsk16/7/0/9/7368096-7099BC91B0259B873C39113C40BEC083_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-9.poppen.de/1/m/image/4692068/1/fsk16/9/A/7/4692068-9A7BD21738B5ED24785E770A1223DCA6_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-8.poppen.de/1/w/image/5160582/1/fsk16/8/4/B/5160582-84BF74C90A3DDECDB0DE9BE84E41687D_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-2.poppen.de/1/w/image/5263533/1/fsk16/2/A/F/5263533-2AF2BBD3970F98AAE627C25B6B7EF8AD_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-3.poppen.de/1/p/image/2114202/1/fsk16/3/7/3/2114202-373F8C84B20A8D80459548F5ADC15B35_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-d.poppen.de/1/p/image/2056735/1/fsk16/D/4/2/2056735-D422831309E86BAAF75A7FAA5AF38AA2_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bild-1.poppen.de/1/m/image/8264946/1/fsk16/1/C/0/8264946-1C0D2700D491C6F903CD6669F06D0406_150_sq.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://poppen.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

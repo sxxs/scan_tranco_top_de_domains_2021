@@ -1,0 +1,537 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "assets.rrz.uni-hamburg.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_fionaapp_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 159,
+      "value": "mJlKE97eHSFT4xsJxA3SMKv0kQz%2BjMCvevMIifr4bu4lN0E%2FYf0gSuRfXIU9iBrdOpux4CsotERMpciwZw%3D%3D--b6CS5%2Bo1BCWV4ASi--etFtG6ccCRtfEUWNOXgbLw%3D%3D"
+    },
+    {
+      "domain": "www.uni-hamburg.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_fionaapp_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 251,
+      "value": "4sJ0U2UCAC1xqNwe%2B2VnkEgkiNNOpfohHgpbUwGR5nbMfbRys69QmxEG9jQOlYzqgMticuq6oPXBzFxq4zYGhhPbAsTLJztwpqrYG%2BMqxUY35wWLgpp5BjygmF3kXwyVqA97HfofLQwVqiLTVVPBVMLmOKhcs%2FeobWeqq6vY6iAH8w%3D%3D--UsCICavyLZ0NCdXG--nHkFFhZGAbk8Wy69eryFyw%3D%3D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-hamburg.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "10cc7fa8b1b894e61bf802cddd86ab46c042a7001743479f34460c375f7560d7",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1650346695.0,
+      "not_valid_before": 1616049495.0,
+      "serial_number": 11279886816746297798618027851,
+      "subject": {
+        "commonName": "www-fiona.rrz.uni-hamburg.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "Universitaet Hamburg",
+        "organizationalUnitName": "Kommunikationsnetze",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-hamburg.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-hamburg.de/",
+    "https://www.uni-hamburg.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-hamburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hamburg.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/2-6458971c53f287425683de063f5cab977c592b321280188f11f5f8b047eb446e.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/packs/js/2-7b20e9d7e84b5823620a.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/TheSansUHHSemiLightCaps-6948b01b715690a2b9506f63305ee0c3abd9ad2010d89a1202df00d39d100954.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/TheSansUHHBold-6a239f69f764ae41ead96462cb9973fdde7c66739769d13776e0dfb896a96ab5.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/TheSansUHHBoldCaps-f0c825ec667e94a17d4e77b97493a2586655b053421a08418f0a6a75500eb8a9.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/TheSansUHHRegular-dd85da951afc3550ff98f11056eac2bcbba855c879809fd00caf60929a3cbd4f.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/TheSansUHHRegularCaps-7072a6f8ebbb26d334ca7e14826795068429a0072220dac594063678de20e698.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/TheSansUHHRegularItalic-d3186420f2bbe557092314ef3043b74e450cf52459bc7ce3f2c73f9194e15a79.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/uhh-logo-4ec3691b46570436d95977e2c0c368646d0c24d722425dd674f48b1c44585e81.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/placeholder-cff73c9f8670632259f4ee4ec85bcd6399076f5918944ff6ec8ff716836ecc2d.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/print-795b9e577c0170280fdfd3377be351941c85ba3f34fdae79ae0b08d6fa308b2f.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/rss-b25bbe41bf3e56f7cb4ea69e276bbb7c75f0ae988d1d6caeb75c0faa4281383a.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/11978343/hautpgebaeude-mit-luftballons-c7f6d34529554eb71bd9ac2b75b4e3482878a4b9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/12844609/coronavirus-in-den-medien-733x414-66a27033252eec2cac397743366e9ed540c017ae.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/13641236/pruefungen-messehallen-1-733x414-706bee629d747a8a5a1f2c971d431b3d96f8e8b6.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.betterweb.uni-hamburg.de/web/rum.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/UHH_web_hamburger-menu_31x31tiny-21f4893d2e5a63b554c870c0a44b25e47b01034cc6766ebb77af216b7b3e0774.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Gebaerdensprache-4523024b645d0319721eacaeffa39d1e24b0405cc21db58b9ff28c413d5b09dc.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/LeichteSprache-7a3ac9710dbd481f08a57e9216ac97261ffeec85427c794b9f201fe2798eb6ef.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/13154458/spinne-1-1200x400-1fd620c078e863ae12ea85d9358a530f1e859811.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/15349576/magazin-ausgabe16-1200x400-1c3b89d196712d482e9de9fac85a70d1e79c34d3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/15337736/slider-1200x400-a54e828a624acfa73e1b42f3df1241368cf18c0f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/15222383/sonne-in-hamburg-1200x400-157b2ec9c6429f9be5ea0460e7a8b26f8c5b8366.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/15159524/walk1200x400-7cb704401524af9606c7c1048e6b82b3ced76eed.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/instance_assets/uni/12876369/corona-slider-1200x400-c3620602acea06ca37acb2632bd662c9468f7cf3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Bachelor_Mastera-7de2cbfc69449e8029a46d35bd04306793361b963b2c40622580610c5a84051a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/WissNachwuchsa-6d5c6282a10006eefc737b9f084f92be8021b9038f861c093e0a1495fefb9211.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Forschendea-5887293a02d15edfa324316e52429ba7fd6b27d0dfe58fca3a1cccfa346f4d4f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Allgemeinheita-5bb343cd4c338789288984f521c0029520f9780a059b2b166bdbd5cc655f54e8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/ButtonEx-1-5b441dbcf7f03bc38b4e50517a50358f08a44e6eb2875b7b5873baa9c5aaac0f.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/pfeil-blaugross-f9d1dd8be475563b57c51cada452e978329db0c5387bee25c4a8a071c46dbcfb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Pfeil_link_blau-001d79e84c31fb0217396ca8411cbe626998dc1466149d7d786827b1d3902952.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Pfeil_link_weiss-acaf24755d09109a44fd918598673bc3952aa6d23ca6ea492b7e140cd9b408ff.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Pfeil_slider_weiss-26acef27115cfc2c19cf93135d55a532ad7a9f328d9b1847e102e2685ab0fbe8.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/v4audit-b18353c69ea17d34920fa801f4b85f9645a70347ca0ffe86176d9033f3581602.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Siegel_Re-Audit_de_81x81px-810e47d13f2a855725e05eb2da784b2b20c1c0bb12a6771717c9d52b5dd43aa0.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/DIVERSITY_AUDIT_FOOTER_81x81-35a752f1e7151f6921dc07652f23caba2ba7439c2119cfe1afbae09766c63ab0.svg"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://l2gdownload.rrz.uni-hamburg.de/abo/00.000_video-37358_2020-09-28_10-01.mp4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Lupe_weiss_mobil-3f1627b723e58cc25156acaf478f47267de0cdcb1f39296fe975b6f082bcebba.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://m.uhh.de/API/www/social/SOCIAL_v5.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hamburg.de/sitemap.json?obj=2912075"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Pause-grey-fed22463ba28f1df3a95f9cb9df34dd3ee5eb0ad74a96c799622f433761df433.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hamburg.de/datenschutz.html?banner=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://osm.uhh.de/wqm/page.php?1618850625671"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.betterweb.uni-hamburg.de/web/sum.js?t=1618850625936"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://m.uhh.de/API/www/social/inc_v5/posts.json?_=1618850625174"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Bachelor_Master-48a65f3bf327ca46928f8303af80a473773bbe063133a0ce923d5cd1fa7d0dbb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/WissNachwuchs-e4fc8818d48e7ea81a486e24a7649391d981492abb4fe6eebba6d78bc75d6820.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Forschende-8f71fb2a5ee904c243a9c176fb70d43317d9fefcb7b876b1bf77d9051daa3a66.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/Allgemeinheit-8926406c1a92bd24ee93efd64e894bd80a45f1e0711aca7b6842a3fe97199f70.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.rrz.uni-hamburg.de/assets/ButtonEx-0-8ca5240628a42baa56f4ed1829501733b51b087f207df549a5b18ef026d0c234.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://m.uhh.de/API/www/social/placeholder.svg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-hamburg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "m.uhh.de",
+      "osm.uhh.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

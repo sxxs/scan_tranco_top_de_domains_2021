@@ -1,0 +1,714 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.pinakothek.de",
+      "expires": 1652888836,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.5.becc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "a867a67d37b7c31e.1618933636."
+    },
+    {
+      "domain": "www.pinakothek.de",
+      "expires": 1618935436,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.5.becc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": ".vimeo.com",
+      "expires": 1682005636,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 63079201,
+      "name": "vuid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 26,
+      "value": "pl1855858693.495425353"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "vimeo.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.pinakothek.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ff35c5dc2a232f312f5ebf5739555ce05f9313d2022bc2d0ae8849240d86244f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626105773.0,
+      "not_valid_before": 1618329773.0,
+      "serial_number": 309074315494757199717937698266602977657283,
+      "subject": {
+        "commonName": "pinakothek.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.pinakothek.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://pinakothek.de/",
+    "https://www.pinakothek.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://pinakothek.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/cssapi/3cfb3eac-5327-4b3f-88d4-ded8174ca308.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/ajax-progress.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/align.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/autocomplete-loading.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/fieldgroup.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/container-inline.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/clearfix.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/details.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/hidden.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/item-list.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/js.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/nowrap.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/position-container.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/progress.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/reset-appearance.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/resize.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/sticky-header.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/tabledrag.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/tablesort.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/system/components/tree-child.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/stable/css/views/views.module.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/themes/custom/frontend/dist/assets/css/app.css?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/themes/classy/css/components/messages.css?qrvb5l"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/logo_new_retina.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscalecrop_800_3_1/public/opener_image/header-website_2.jpg?itok=KaXPjUvE"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2020-11/1.jpg?itok=oPwhsydH"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2021-02/pinaweb-shooting-lowres-1200px-c-vivi-d-angelo-3_0.jpg?itok=IIT5Tt0W"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2020-04/kunstminute-header.jpg?itok=PxVchI0X"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2020-04/2020-1108-08.jpg?itok=RAfgfwRi"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2020-05/alte-pinakothek-google-arts-culture.jpg?itok=MJv6e90o"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2020-03/geheimnis-der-bilder-zdfkultur-geheimnis-der-bilder-zdf-de-screenshot-duerer.png?itok=thT2Et_o"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_304_width/public/2019-09/home.jpg?itok=04oszyAf"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_800_width/public/2018-02/screenshot-12.png?itok=tYYLx0rL"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/7571_22173.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/8865_1022.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/6374_2343.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/8913_1039.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/4573_119258.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/4678_119396.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_280_width/public/paintings/2016/372-1456762555.jpg?itok=duOb-ElY"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/4550_11724.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/11217_1157.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/8303_11693.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/22847_942.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/8665_11717.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/3039_1034.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.static.pinakothek.de/unsafe/600x/11130_1151.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscale_280_width/public/paintings/2016/2236-1458736618.jpg?itok=hQmwidg3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/styles/focalscalecrop_1112_16_9/public/2020-05/2018-1878-002.jpg?itok=_yCMyWce"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/418397774"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/assets/vendor/domready/ready.min.js?v=1.0.8"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/assets/vendor/jquery/jquery.min.js?v=2.2.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/misc/drupalSettingsLoader.js?v=8.2.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/sites/default/files/languages/de_cVVD7tJj43oSJO6ITlmK3bJreLB6KE8Q8Ie8iWcXqkY.js?qrvb5l"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/misc/drupal.js?v=8.2.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/assets/vendor/picturefill/picturefill.min.js?v=3.0.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/core/assets/vendor/matchMedia/matchMedia.min.js?v=0.2.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/themes/custom/frontend/dist/assets/js/app.js?qrvb5l"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/themes/custom/frontend/dist/assets/selective/menu.js?qrvb5l"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/themes/custom/frontend/dist/assets/img/sprites.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2?d44f19a684109620e4841679a290e81850183ea871c0cb3ed9a08c7f08c7aa5c37903996ef0f6f825f668329a55fbd7aa94d3028116d0ccc2f6624a7893840d7fc9c792ef3b86e89752f84a796a3fa7386a21d80a51130ab0a28ec6d8b39b6722b2fd939d3499b115891f03847666f90fced32b25671c089a7f50364c56b14d2a8a89ca4d7c72670fd49994e8364ac19504c87b9b4fc759aac4f3787918a9a4e124d383abb5d4d65a74059c1db41de90fccad07e2c1a405a2d76b804fef3a1d1a2b32179fb9b4dfc497ccf8853&projectId=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/121784c1-863c-4e49-b682-625ea7de55b0.woff2?d44f19a684109620e4841679a290e81850183ea871c0cb3ed9a08c7f08c7aa5c37903996ef0f6f825f668329a55fbd7aa94d3028116d0ccc2f6624a7893840d7fc9c792ef3b86e89752f84a796a3fa7386a21d80a51130ab0a28ec6d8b39b6722b2fd939d3499b115891f03847666f90fced32b25671c089a7f50364c56b14d2a8a89ca4d7c72670fd49994e8364ac19504c87b9b4fc759aac4f3787918a9a4e124d383abb5d4d65a74059c1db41de90fccad07e2c1a405a2d76b804fef3a1d1a2b32179fb9b4dfc497ccf8853&projectId=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/be607c9f-3c81-41b4-b7ad-17af005c80bb.woff2?d44f19a684109620e4841679a290e81850183ea871c0cb3ed9a08c7f08c7aa5c37903996ef0f6f825f668329a55fbd7aa94d3028116d0ccc2f6624a7893840d7fc9c792ef3b86e89752f84a796a3fa7386a21d80a51130ab0a28ec6d8b39b6722b2fd939d3499b115891f03847666f90fced32b25671c089a7f50364c56b14d2a8a89ca4d7c72670fd49994e8364ac19504c87b9b4fc759aac4f3787918a9a4e124d383abb5d4d65a74059c1db41de90fccad07e2c1a405a2d76b804fef3a1d1a2b32179fb9b4dfc497ccf8853&projectId=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pinakothek.de/themes/custom/frontend/dist/assets/fonts/foundation-icons.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/4e20348d-41a7-4295-94ab-2b1019e9d453.woff2?d44f19a684109620e4841679a290e81850183ea871c0cb3ed9a08c7f08c7aa5c37903996ef0f6f825f668329a55fbd7aa94d3028116d0ccc2f6624a7893840d7fc9c792ef3b86e89752f84a796a3fa7386a21d80a51130ab0a28ec6d8b39b6722b2fd939d3499b115891f03847666f90fced32b25671c089a7f50364c56b14d2a8a89ca4d7c72670fd49994e8364ac19504c87b9b4fc759aac4f3787918a9a4e124d383abb5d4d65a74059c1db41de90fccad07e2c1a405a2d76b804fef3a1d1a2b32179fb9b4dfc497ccf8853&projectId=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/f37f8098-b16e-405f-ab24-bd595a5d5762.woff2?d44f19a684109620e4841679a290e81850183ea871c0cb3ed9a08c7f08c7aa5c37903996ef0f6f825f668329a55fbd7aa94d3028116d0ccc2f6624a7893840d7fc9c792ef3b86e89752f84a796a3fa7386a21d80a51130ab0a28ec6d8b39b6722b2fd939d3499b115891f03847666f90fced32b25671c089a7f50364c56b14d2a8a89ca4d7c72670fd49994e8364ac19504c87b9b4fc759aac4f3787918a9a4e124d383abb5d4d65a74059c1db41de90fccad07e2c1a405a2d76b804fef3a1d1a2b32179fb9b4dfc497ccf8853&projectId=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/5e7b11e8-112d-42fe-a35c-edaca8e64677.woff2?d44f19a684109620e4841679a290e81850183ea871c0cb3ed9a08c7f08c7aa5c37903996ef0f6f825f668329a55fbd7aa94d3028116d0ccc2f6624a7893840d7fc9c792ef3b86e89752f84a796a3fa7386a21d80a51130ab0a28ec6d8b39b6722b2fd939d3499b115891f03847666f90fced32b25671c089a7f50364c56b14d2a8a89ca4d7c72670fd49994e8364ac19504c87b9b4fc759aac4f3787918a9a4e124d383abb5d4d65a74059c1db41de90fccad07e2c1a405a2d76b804fef3a1d1a2b32179fb9b4dfc497ccf8853&projectId=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.stats.thenetexperts.info/piwik.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/893618280.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.stats.thenetexperts.info/piwik.php?action_name=Startseite%20%7C%20DIE%20PINAKOTHEKEN&idsite=5&rec=1&r=542670&h=17&m=47&s=16&url=https%3A%2F%2Fwww.pinakothek.de%2F&_id=a867a67d37b7c31e&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=oOL7Y1&pf_net=67.58500001160428&pf_srv=38.350000002537854&pf_tfr=14.404999994440004"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://vimeo.com/ablincoln/vuid?pid=569555c86d7d4385adb79d0dd7318fbe1372dd821618933635"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=3cfb3eac-5327-4b3f-88d4-ded8174ca308"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://pinakothek.de\r",
+  "third_parties": {
+    "fqdns": [
+      "f.vimeocdn.com",
+      "fast.fonts.net",
+      "i.vimeocdn.com",
+      "piwik.stats.thenetexperts.info",
+      "player.vimeo.com",
+      "vimeo.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 17
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "piwik.stats.thenetexperts.info",
+      "vimeo.com"
+    ]
+  }
+}

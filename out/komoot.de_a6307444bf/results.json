@@ -1,0 +1,635 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".komoot.de",
+      "expires": 1626178130.571536,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7264801.571536064,
+      "name": "kmt_ex",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 152,
+      "value": "j%3A%7B%22seo_guide_item_save_signin_style%22%3A%220%22%2C%22seo_guide_sidebar_signup%22%3A%220%22%2C%22seo_actions_menu_cta_style%22%3A%220%22%7D"
+    },
+    {
+      "domain": "www.komoot.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "kmt_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 47,
+      "value": "eyJsYW5nIjoiZGUiLCJtZXRyaWMiOnRydWV9"
+    },
+    {
+      "domain": "www.komoot.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "kmt_session.sig",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "TeH6fZTwqkPEfyTX1VjHW_lywTA"
+    },
+    {
+      "domain": ".nr-data.net",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 26,
+      "value": "a59e247691f3b197"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "nr-data.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.komoot.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2ac31cd44f2aedfda0e8b09ebd4606e4a1ea0565e24eadb90fe7eabd376faf60",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Amazon",
+        "countryName": "US",
+        "organizationName": "Amazon",
+        "organizationalUnitName": "Server CA 1B"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648936799.0,
+      "not_valid_before": 1614812400.0,
+      "serial_number": 16217255745694479233207558094536802772,
+      "subject": {
+        "commonName": "komoot.com"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.komoot.de/imprint",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://komoot.de/",
+    "https://www.komoot.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://komoot.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://photos.komoot.de/static/web/home/hero-signup-green-v001.jpg?width=1400&height=600&crop=false&q=40"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/appstore-android-de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/appstore-iphone-de.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://photos.komoot.de/static/web/home/hero-signup-green-square-v001.jpg?width=1600&height=1600&crop=true&q=40"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://photos.komoot.de/static/web/home/mobile-desktop-home-v003@2x.jpg?q=40"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/features/waytypes-de.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/quotation-marks-transparent-black.8ad7e110d98b4bec4c886d1531e21578.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/logo/komoot-logo-type.905e523d32980af2cb4b13234db2b39c.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/bg-blurred-lazy.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/bg-blurred-lazy-avatar.a1adfb864b6cf6bb8c47317f0639d455.jpg"
+    },
+    {
+      "mime_type": "video/webm",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://www.komoot.de/images/features/waytypes-de.webm"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://photos.komoot.de/static/web/home/illustration-navigation-de-v002@2x.jpg?width=1600&height=1600&crop=true&q=30"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://photos.komoot.de/static/web/home/illustration-memories-de-v006@2x.jpg?q=60"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/at.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/it.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/ch.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/pt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/es.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/fr.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/gb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/is.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/si.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/gr.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/se.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/hr.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/cz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/no.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/ie.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/be.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/me.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/pl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/ca.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/nz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/ro.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/mt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/cy.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/dk.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/fi.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/nl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/za.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/countries/lu.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/fonts/kmt-font.0c01457ec3f681a11258a92aa2e3bdcc.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/ic-social-facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/ic-social-twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/ic-social-instagram.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/bg-blurred-lazy-map.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/js/main.870851bcaf55456cf6e959db73fceac8.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/css/main.5140a4b5da20de9ca22c638f9ceee738.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js-agent.newrelic.com/nr-1208.min.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/nls/de.43238444d3e2f6fdcb3ceba26459e8af.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam-cell.nr-data.net/1/a6a78dca79?a=3334477&v=1208.49599aa&to=NFVWMkdYWRAHVEUPXg0fdwlbTUUMCltUFB5MR1EEVEleTBAHAVEeWUJbE0FcGCQjYw%3D%3D&rst=2964&ck=1&ref=https://www.komoot.de/&ap=712.452976&be=1437&fe=2846&dc=2364&tt=8ba373860da33e05&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1618920529181,%22n%22:0,%22f%22:163,%22dn%22:165,%22dne%22:179,%22c%22:179,%22s%22:214,%22ce%22:293,%22rq%22:293,%22rp%22:1390,%22rpe%22:2179,%22dl%22:1396,%22di%22:2363,%22ds%22:2364,%22de%22:2364,%22dc%22:2845,%22l%22:2845,%22le%22:2849%7D,%22navigation%22:%7B%7D%7D&fp=1497&fcp=1497&jsonp=NREUM.setToken"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/js/5-60983cc17e69c9dce6cc.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/js/9-14126fe1c70240398136.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/js/48-faee48e58296fa0d6958.js"
+    },
+    {
+      "mime_type": "application/hal+json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.komoot.de/api/v006/finance/products/completepackage/web?ip_address=195.37.189.210"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/bg-blurred-lazy.270242705a5f974a56b28c493c1a17c5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/images/misc/bg-blurred-lazy-map.5de98da9ce8c1a93b58635ad6f9f19b2.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/actions/signin/iframe_check"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://account.komoot.com/actions/transfer?type=iframe&redirect=https%3A%2F%2Fwww.komoot.de%2Factions%2Fsignin%2Fiframe_result"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/api/geoip/json/195.37.189.210"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.komoot.de/actions/signin/iframe_result"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam-cell.nr-data.net/events/1/a6a78dca79?a=3334477&v=1208.49599aa&to=NFVWMkdYWRAHVEUPXg0fdwlbTUUMCltUFB5MR1EEVEleTBAHAVEeWUJbE0FcGCQjYw%3D%3D&rst=12964&ck=1&ref=https://www.komoot.de/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://komoot.de\r",
+  "third_parties": {
+    "fqdns": [
+      "account.komoot.com",
+      "bam-cell.nr-data.net",
+      "js-agent.newrelic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "bam-cell.nr-data.net",
+      "js-agent.newrelic.com"
+    ]
+  }
+}

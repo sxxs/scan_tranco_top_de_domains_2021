@@ -1,0 +1,606 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bvg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "json",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 8,
+      "value": "true"
+    },
+    {
+      "domain": ".bvg.de",
+      "expires": 1620127131,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216801,
+      "name": "__cmpcvcx5309",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 47,
+      "value": "__c2322_c2323_s65_s23_s905_c1602__"
+    },
+    {
+      "domain": ".bvg.de",
+      "expires": 1620127131,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216801,
+      "name": "__cmpcpcx5309",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 19,
+      "value": "__51__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621509531.865853,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.865853071,
+      "name": "__cmpconsentx5309",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 17,
+      "value": ""
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621509531.865906,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.865906,
+      "name": "__cmpcvcx5309",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 47,
+      "value": "__c2322_c2323_s65_s23_s905_c1602__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621509531.865927,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.865926981,
+      "name": "__cmpcpcx5309",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 19,
+      "value": "__51__"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 3,
+    "third_party_short": 0,
+    "trackers": [
+      "consensu.org"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bvg.de/en",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "59a8957b88a805809984e1cfbbe70327e136f2b4d8b5356acc0584f77b772400",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Thawte TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1637924400.0,
+      "not_valid_before": 1566943200.0,
+      "serial_number": 11236999838595696125505995701709106461,
+      "subject": {
+        "commonName": "*.bvg.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Berliner Verkehrsbetriebe (BVG)",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bvg.de/en/Servicepages/Imprint",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bvg.de/",
+    "https://www.bvg.de/",
+    "https://www.bvg.de/en"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bvg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/en"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/js/vendor/jquery.mobile-1.4.5-bvg-specific.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/js/vendor/jquery-ui-1.11.2/jquery.ui.timepicker.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/js/plugins.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/js/main.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/js/vendor/jquery-ui-1.11.2/jquery.ui.timepicker.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/css/styles.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/customizing/core/Popup/Templates/style/frontend.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.2/css/jquery.dataTables.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.2/js/jquery.dataTables.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/dist/smartbanner.css?a=bc"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/dist/smartbanner.js?a=bc"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/img/BVG_Herz_Gelb_RGB.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/artikel_bilder/200302_Abo_Startseite_1767x777px_ks1_article.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/utilities/mobileShop_Android.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/utilities/mobileShop_iOS.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/assets/instagram_32.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/assets/twitter_32.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/assets/youtube_32.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/assets/facebook_32.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fahrinfo.bvg.de/Fahrinfo/bin/help.bin/dny?tpl=suggest"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/css/print.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TRZ4VT8"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/img/column-0-background.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/fonts/transit/Bold/TransitWeb-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/fonts/transit/Regular/TransitWeb.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/fonts/icon-font/icon-font.woff"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/bvgapi/bvgapi/BreakingNews/BreakingNews/get.json?module=BreakingNews&lang=en"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fahrinfo.bvg.de/Fahrinfo/js/FSuggest_v1.2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/customizing/core/Popup/Templates/Scripts/popup/frontend.js?t=1618917531404&_=1618917531059"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/themes/bvg-1-0/sidebar/vdvsidebar_en.html"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/ticketapp/Teaser_400x225.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/utilities/Grafik_Liniennetz_400x225_teaser17.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/abo/190117_Abo3_Teaser_400x225_ks.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/ticketapp/191212_FahrInfo_Teaser_400x225px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bvg.de/images/content/socialhub/weilwirdichlieben/motiv_weilwirdichlieben_800x450_teaser.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=5309&h=https%3A%2F%2Fwww.bvg.de%2Fen&&__cmpfcc=1&l=en&o=1618917531603"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfNTMwOS5kXzc5NDkueF8xNi52LnRfNzk0OQ.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=5309&did=1&cfdid=7102&t=pv.d_ncs.d_ancs.d_bncs.cf.cfx&h=https%3A%2F%2Fwww.bvg.de%2Fen&o=1618917531779&l=EN&lv=25213&d=1&ct=14&e=&e2=&e3=&i=&sv=61&dv=16&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=5309&did=1&cfdid=1&t=cv&h=https%3A%2F%2Fwww.bvg.de%2Fen&o=1618917531779&l=EN&lv=25213&d=1&ct=14&e=&e2=&e3=&i=&sv=61&dv=16&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=5309&p=2&v=4&cvc=_c2322_c2323_s65_s23_s905_c1602_&cpc=_51_&c=&l=EN&lv=25213&d=1&ct=0&e=&h=https%3A%2F%2Fwww.bvg.de%2Fen&e2=&e3=&i=&sv=61&dv=16&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/img/logo1585257295x2265.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/flags/en.gif"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://bvg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "cdnjs.cloudflare.com",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 18
+  },
+  "tracking": {
+    "num_tracker_cookies": 3,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ]
+  }
+}

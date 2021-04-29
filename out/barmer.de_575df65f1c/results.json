@@ -1,0 +1,484 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "barmer.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "lbpersistence",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 122,
+      "value": "!DUF75MjVNmYjT/GnuyAmdCgSxoMdW5qNz0m5X6ih2mqox4Uw3ojO/SVy7qozGGml0qBz/S8Vf33daXqluJ7MdJd0fyTcWh5pbNy19Uxvsg=="
+    },
+    {
+      "domain": "www.barmer.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "lbpersistence",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 122,
+      "value": "!q01dIMO7xCmjqw6nuyAmdCgSxoMdW4gvDb4EB52y2l6DqUIPTWC8zoaKlfKIN1WhvLzVjB0vCFH99B0/oNtM1tSQXKzFTtZYuS+cREcC3A=="
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.barmer.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "05cf6428feb9829e4ed520214869e910a314dbb05c7476b44dcb39033260af23",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Thawte TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648249199.0,
+      "not_valid_before": 1613948400.0,
+      "serial_number": 12676056441562872705635737814497156565,
+      "subject": {
+        "commonName": "*.barmer.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.barmer.de/ueber-diese-website/impressum-8444",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://barmer.de/",
+    "https://barmer.de/",
+    "https://www.barmer.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://barmer.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://barmer.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/8394/0/-1752996606/barmer-de.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/jsBundle/barmer-de/66/17.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/2860/103/bgek-head.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/jsBundle/barmer-de/3416/14.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/197246/39/genesyslanguage-de.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/197238/32/genesysconfiguration-live.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/197240/32/genesysinstrumentation.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tags-eu.tiqcdn.com/utag/barmer.gek/barmer-main/prod/utag.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/227106/0e2f09d2f024f8db393c1e5f1dd6941c/data/focus-money-hoechste-kundenzufriedenheit-104x130.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/191252/6c7adbb4beab442496067ce0ff00c8d8/data/focus-money----ausgezeichnete-leistungen-104x130.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/287922/903e974703b80949d6edeaea1cef0b85/data/dt-nachhaltigkeit--testsieger-barmer-125x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/225110/e68130b6de57518ab76b9e91d8b969fa/data/focus-money---digitale-leistungen-104x130.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/244904/a7d5e890d14748a2d590e8b06de9ba89/data/focus-money---hoechste-weiterempfehlung-104x130.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/17888/d5de9192ce2d1df54e5037441b0f3ac2/data/focus-money---hervorragender-service-99x111.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/17886/0241dec81e4515c1d14ed094c08eacc8/data/focus-money---top-krankenkasse-99x111.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/17890/a6e303532091af81999e6f7f5b85ad2c/data/focus-money---ausgezeichnete-leistungen-99x111.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/2670/110/bgek.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/resources/3104/102/tealium-tracking-mainsite.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/raw/Designs/bgek/dist/_main_site/js/genesys-embedded/cxbus.min.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/8428/4cd443443543b3dce1a12c0c5ef29af2/data/barmer-logo.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/2868/09dfeee77ec5ba6b7c8674e38fe04540/data/bgek-icon-woff.bin"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/2706/195ded38dcd360b657e320e56f2673e5/data/titilliumweb-regular-woff.bin"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/78136/f9d31986b33dde9e6feecbd895a66f49/data/bgek-titillium-semibold-woff.bin"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/2692/d5ebad5ad3a31c66617a3ccfd9d54226/data/titilliumweb-bold-woff.bin"
+    },
+    {
+      "mime_type": "application/x-font-otf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/2702/6e2be758d7b0d326fc93a2c1d70395e0/data/bgek-titillium-light-otf.otf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/159130/a615ca6e1349cbcc60f1844336942a79/data/titilliumweb-bold-banner-woff.bin"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/blob/128526/ad4d419e8da5985fa73842e4665bab3d/data/ajax-loader-gif.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/266146/8x3/1080/405/2c4d679cb12a23ae89107063953ae393/Qo/eine-junge-frau-steht-in-einer-kueche-und-beugt-sich-auf-einen-tisch-.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/266146/large1x1/326/326/5080caa4f88fe1a79222a00dcae3071/xe/eine-junge-frau-steht-in-einer-kueche-und-beugt-sich-auf-einen-tisch-.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/12980/large1x1/326/326/da7df662ea97a5904c7d38c787033c81/SK/zwei-junge-frauen-liegen-auf-der-couch-und-machen-ein-selfie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/229640/large1x1/326/326/fd515012935beee3591c650ced68edde/Go/illustration-zur-ecare.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/290456/large5x3/920/552/4f0a0e0043398da60344539925f321c2/oH/eine-frau-mit-ffp2-maske-steht-am-fenster.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/291008/5x7/471/660/f0bc65e08c2b8e28e50bdb89ef5ca1ae/Rt/eine-vierkoepfige-familie-mit-den-eltern-und-zwei-toechtern-.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/241006/16x9/960/540/369f2f3b96cb3ab3d8afab3c15ce5597/pD/eine-mutter-sitzt-mit-ihrem-kind-auf-einer-schaukel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/239832/16x9/704/396/f6e8da0b82a6cc0c24f5667cb750ec2d/MY/maedchen-auf-mauer-sitzend.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/269112/16x9/704/396/70bd58826f24dfebcb211ba0d1b848f2/PI/ein-junges-paar-sitzt-auf-dem-sofa-und-schaut-auf-ein-smartphone.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/270740/16x9/704/396/d5e21f49b2f74b275caabd66e43758d9/Tz/junger-mann-giesst-ganz-in-ruhe-seine-blumen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/276924/16x9/704/396/f94e94a40ddb1d7bf0c8250ec6b31ff0/ws/ein-mann-macht-sportuebungen-in-seinem-wohnzimmer-.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/204964/16x9/704/396/ae5fb4d40b8774ceb573000026f59fd0/Ey/blutdruckmessung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/image/269910/16x9/704/396/3864357c17fc0a46088d8c2dcab38689/oL/eine-frau-haelt-ein-tablet-in-der-hand--auf-dem-ein-arzt-zu-sehen-ist-.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/raw/Designs/bgek/dist/_main_site/js/genesys-embedded/chatCustomization.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/raw/Designs/bgek/dist/_main_site/js/genesys-embedded/genesysSetup.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.barmer.de/raw/Designs/bgek/dist/_main_site/js/genesys-embedded/plugins/widgets-core.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,100"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "no-sniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://barmer.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com",
+      "tags-eu.tiqcdn.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

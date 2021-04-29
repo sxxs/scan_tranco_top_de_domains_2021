@@ -1,0 +1,762 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://th-deg.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "18bf6faeec0baf206e7f69ef251db85f8c001fed51a8530b8b3033f4a09f9a45",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1651311190.0,
+      "not_valid_before": 1580121190.0,
+      "serial_number": 10617126627883305601518637832,
+      "subject": {
+        "commonName": "www.th-deg.de",
+        "countryName": "DE",
+        "localityName": "Deggendorf",
+        "organizationName": "Technische Hochschule Deggendorf",
+        "organizationalUnitName": "IT-Infrastruktur und -Basisdienste",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://th-deg.de/de/Impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://th-deg.de/",
+    "https://th-deg.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://th-deg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/bootstrap.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211344/static/css/custom.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/load-more-button.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/navigation.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/ekko-lightbox.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/cookies-enabler.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/bootstrap-datepicker3.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/all.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/sweetalert2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/santa.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/chat.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/js/node_modules/cookieconsent/build/cookieconsent.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/js/node_modules/cookieconsent/build/cookieconsent.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/js/node_modules/js-cookie/src/js.cookie.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/jquery-3.3.1.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/countUp.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/moment.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/ekko-lightbox.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211338/static/js/sweetalert2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211338/static/js/script.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/main.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/navigation.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/bootstrap-datepicker.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/cookies-enabler.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/bootstrap-datepicker.de.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/html2canvas.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/node_modules/jspdf/dist/jspdf.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/node_modules/popper.js/dist/popper.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211344/static/js/publikationen.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-954359426"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/bundles/pimcorecore/js/targeting.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/warenkorb-px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/suche-px-black.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/logos/THD-Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/social/facebook%20-%20px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/social/instagram%20-%20px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/social/linkedin%20-%20px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/social/twitter%20-%20px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/social/youtube%20-%20px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/social/snapchat-px.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/Video-Thumbnails/DE/Startseite/image-thumb__5519__auto_ddab68bd8657c0afde04cacde126f8c6/ItzelOchoa-SemstreDeIntercambio.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__3033__auto_b4b36627f3fcd6273f7dc498b64f4692/Vogel_filled.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__3034__auto_a215ef92337bf7fe8353a6262f64c856/Uhr_filled.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/Hochschule/image-thumb__457__auto_a85de447f47dfa69cdd611b5446228c1/standorte.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__3038__auto_a215ef92337bf7fe8353a6262f64c856/weltkugel_1.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/6997%20Studierende.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/css/print.css"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__2925__auto_1dd0cebc611ffd9c0380b99e8101d4b2/u-multirank-siegel-contact-to-work-environment-sw.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__2926__auto_1dd0cebc611ffd9c0380b99e8101d4b2/u-multirank-siegel-international-orientation-sw.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__3050__auto_363c347657cac3fc12f554d84ec86f01/mikroskop.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__3841__auto_bfb1be93c38400e4e1336b562cf5f922/unser_soziales_bayern-individualisierbar.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__3115__auto_d27e3b3828f51e1804720604b5f67f58/IMG_5964.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__4675__auto_2ff7a7eeda8d6669498524721277324f/blog-klein.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__4176__auto_eb82a5e4b262fa066ffc62cb69118b2b/future%20code_1.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/Presse/image-thumb__6325__presseartikel/2021-04-19_Interreg%20Workshop-WEB.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__6307__presseartikel/2021-04-19_TOEIC-Test_news.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/Presse/image-thumb__6244__presseartikel/2021-04-14_Bewerbungszeitraum%20und%20Global%20Public%20Health.webp"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/sam_new.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/sam-mobile-ohne-avatar-de.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/chatbot.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/consentconfig/7575cb08-2630-408f-8637-3289b2fca9e6/th-deg.de/configuration.js"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.youtube-nocookie.com/embed/I373MGFafq4?rel=0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/images/logos/gcs_watermark.gif"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/_default_upload_bucket/image-thumb__6294__header/headerbild-vorlesungsaal-girl.webp"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/fonts/Orator-Std-Medium_34151.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211332/static/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/fonts/saira-v4-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/fonts/saira-v4-latin-500.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/static/fonts/saira-v4-latin-100.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/styles.90c5338d16cbb67fc32f.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/runtime.80ab492fe3d778817936.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/polyfills.a5dd5d447b21ff136a37.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/scripts.e9d123e29c679f57c43d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/main.957d753f1a632b7b9d16.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/7575cb08-2630-408f-8637-3289b2fca9e6/cc.js?renew=false&referer=th-deg.de&dnt=false&forceshow=false&cbid=7575cb08-2630-408f-8637-3289b2fca9e6&brandid=Cookiebot&framework="
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/api/msgAuthenticationService"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/materialicons/v85/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/api/msgSessionService?language=german"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-954359426"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://th-deggendorf.eu-de.mybluemix.net/api/msgConversationService?language=german"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://th-deg.de/cache-buster-1617211337/static/js/chatbot.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://th-deg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "h5p.org",
+      "th-deggendorf.eu-de.mybluemix.net",
+      "www.googletagmanager.com",
+      "www.youtube-nocookie.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 19
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

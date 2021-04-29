@@ -1,0 +1,810 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.kika.de",
+      "expires": 1653227333,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34308002,
+      "name": "atuserid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 194,
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%22e1d18ee7-6fd5-49d5-be9b-2fab80862842%22%2C%22options%22%3A%7B%22end%22%3A%222022-05-22T13%3A48%3A53.200Z%22%2C%22path%22%3A%22%2F%22%7D%7D"
+    },
+    {
+      "domain": ".kika.de",
+      "expires": 1621345734,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426403,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618926534347"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1647192300.443174,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 28272969.443173885,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "0028ffb5cf7a95545607edbc60001%3B607edbc6%3B622e28ec"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.kika.de/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0708f62ecb266fca036a396ff341bb32fe074fe19e44c9374ef4b76e43b7b1e9",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert Secure Site ECC CA-1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1626256800.0,
+      "not_valid_before": 1586815200.0,
+      "serial_number": 5282836093644248419200656852057631509,
+      "subject": {
+        "commonName": "www.mdr.de",
+        "countryName": "DE",
+        "localityName": "Leipzig",
+        "organizationName": "MITTELDEUTSCHER RUNDFUNK",
+        "stateOrProvinceName": "Sachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_ECDSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.kika.de/erwachsene/footernavi/impressum/impressum110.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://kika.de/",
+    "https://www.kika.de/",
+    "https://www.kika.de/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://kika.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.kika.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.kika.de/index.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/js/loader-constricted-min.js?version=454567&version=5446"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/administratives/js/js-overwrite-image100.js?version=55714"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/js-smartbanner100.js?version=1149"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/js-global-hotfix100.js?version=54948"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/administratives/js/lottie/settings/lottie-bodymovin-lib100.js?version=24855"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/administratives/js/lottie/settings/lottie-bodymovin-sample104.js?version=29825"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/administratives/datenschutzformulare/gewinnspiele/weihnachten2019/formarticle-accordion-js102.js?version=32700"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/css/style.css?version=34950"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.kika.de/resources/player/css/kika/player.css?version=15659"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/static/css/themeTeaserCollector.css?version=5583"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/eventstreamteaser100.css?version=22988"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/css/ain-smartbanner/smartbanner.css?version=40275"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.kika.de/css-hotfix110.css?version=37778"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/administratives/datenschutzformulare/gewinnspiele/weihnachten2019/formarticle-style102.css?version=38350"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/startseite/homepagestage/css-pettersson-findus100.css?version=9985"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/logo.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/base/background/trans.gif"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/h2o-ploetzlich-meerjungfrau/sendungen/bilder/bild82550_v-tlarge169_w-600_zc-be147c57.jpg?version=2913"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/h2o-ploetzlich-meerjungfrau/sendungen/bilder/bild82554_v-tlarge169_w-600_zc-be147c57.jpg?version=11768"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/lenas-ranch/sendungen/bilder/bild113112_v-tlarge169_w-600_zc-be147c57.jpg?version=5345"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/lenas-ranch/sendungen/bilder/bild113124_v-tlarge169_w-600_zc-be147c57.jpg?version=3839"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/zoom-der-weisse-delfin/sendungen/bilder/bild143214_v-tlarge169_w-600_zc-be147c57.jpg?version=54369"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/zoom-der-weisse-delfin/sendungen/bilder/bild230226_v-tlarge169_w-600_zc-be147c57.jpg?version=42244"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/zoom-der-weisse-delfin/sendungen/bilder/bild230232_v-tlarge169_w-600_zc-be147c57.jpg?version=16810"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kikaninchen.de/resources/img/base/background/trans.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/kikaninchen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/icon-chat-footer.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/ico_help.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/ico_sender_1.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/checkeins.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/zdftivi.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/css/style-base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/css/style-kika.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/css/print.css?version=31151"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/static/homepageStage/img/turquoise/stage_m.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/navicons_sheet.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/kikaninchen_txt.svg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/fonts/kika/ywft-ultramagnetic.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/fonts/kika/ywft-ultramagnetic-bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/fonts/kika/kicons.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.kika.de/webapp/doTrack/pixel.png?docId=kikastartseite100&docPath=61927491-6ba8-4a70-b340-fb7c2f23f90f&docType=indexPage&r=&d=41677.30470727304"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kikaninchen.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kikaninchen.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kikaninchen.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kikaninchen.de/resources/img/kika/svg/stoerer.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1413.xiti.com/hit.xiti?s=596354&ts=1618926533205&idclient=e1d18ee7-6fd5-49d5-be9b-2fab80862842&vtag=5.16.0&ptag=js&r=800x600x24x24&re=800x600&hl=15x48x53&lng=en-US&idp=1548538115002&jv=0&p=kikastartseite100&s2=1&x1=[https%3A%2F%2Fwww.kika.de%2Findex.html]&x2=[]&x3=[Web]&x4=0&x5=[]&x6=[kika.kikastartseite100]&x7=[kika.startseite]&x8=[kikastartseite100]&x9=[a9bd8551%2D06cb%2D4d58%2Da672%2Df2400776381f]&x10=[Startseite]&x11=[2014.11.05T14%3A05]&x12=[2021.04.19T17%3A51]&x13=[indexPage]&x14=[]&x15=[no%5Fepisodetitle]&x16=[no%5Fseriestitle]&x17=&x18=[]&x19=[]&x20=&stc=%7B%22G1%22%3A%22%22%2C%22G2%22%3A%22%22%2C%22G3%22%3A%22%22%2C%22G4%22%3A%22%22%2C%22G5%22%3A%22%22%2C%22G6%22%3A%22%22%2C%22G7%22%3A%22%22%2C%22G8%22%3A%22%22%2C%22G9%22%3A%22%22%2C%22G10%22%3A%22%22%7D&ref="
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/resources/js/Vendor/ain-smartbanner/smartbanner.js?version=4712"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1413.xiti.com/hit.xiti?s=596354&ts=1618926533813&idclient=e1d18ee7-6fd5-49d5-be9b-2fab80862842&vtag=5.16.0&ptag=js&r=800x600x24x24&re=800x600&hl=15x48x53&lng=en-US&idp=1548538115002&p=kikastartseite100&s2=1&x1=[https%3A%2F%2Fwww.kika.de%2Findex.html]&x2=[]&x3=[Web]&x4=0&x5=[slider]&x6=[kika.kikastartseite100.tool.slider."
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/bernd-das-brot/bilder/bild53600-resimage_v-miniKika_w-256.jpg?version=29547"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/sendungen/ipg/bilder/teasergrafik116-resimage_v-tlarge169_w-192.gif?version=18695"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/schloss-einstein/schloss-einstein/sendungen/bilder/bild229870-resimage_v-tlarge169_w-192.jpg?version=40446"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/h2o-ploetzlich-meerjungfrau/sendungen/bilder/bild82550-resimage_v-tlarge169_w-192.jpg?version=2913"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/zoom-der-weisse-delfin/sendungen/bilder/bild143214-resimage_v-tlarge169_w-192.jpg?version=54369"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.kika.de/static/homepageStage/img/elements/scene_img.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/pur/bilder/pur-plus-104-resimage_v-miniKika_w-256.png?version=9882"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/die-pfefferkoerner/sendungen/bilder/bild228994-resimage_v-tlarge169_w-192.jpg?version=2847"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/lenas-ranch/sendungen/bilder/bild113112-resimage_v-tlarge169_w-192.jpg?version=5345"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/kikaninchen/zusatzvideos/lieder/bild74500-resimage_v-miniKika_w-256.jpg?version=57285"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/schloss-einstein/schloss-einstein/sendungen/bilder/bild229982-resimage_v-tlarge169_w-192.jpg?version=264"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/static/homepageStage/petterson_findus/show1_img.png?id=22"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/static/homepageStage/petterson_findus/show1_msg.png?id=22"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/static/homepageStage/petterson_findus/show2_img.png?id=121"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/static/homepageStage/petterson_findus/show3_img.png?id=22"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=kika&cp=kika%2FOnline%2FText_Bild&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.kika.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=001371fe5110b15bc607edbc5&ep=1642799236&vr=424&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618926534350&ev=&cs=2mbgib&mo=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=kika&cp=kika%2FOnline%2FText_Bild&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.kika.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=001371fe5110b15bc607edbc5&ep=1642799236&vr=424&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618926534350&ev=&cs=2mbgib&mo=1&sr=71"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/die-piraten-von-nebenan/sendungen/bilder/bild191074-resimage_v-tlarge169_w-192.jpg?version=54931"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/das-dschungelbuch/sendungen/bilder/bild128546-resimage_v-tlarge169_w-192.jpg?version=1576"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.kika.de/pettersson-und-findus/sendungen/bilder/bild43114-resimage_v-tlarge169_w-192.jpg?version=43601"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://kika.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.kikaninchen.de",
+      "de.ioam.de",
+      "logs1413.xiti.com",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 10
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "de.ioam.de",
+      "logs1413.xiti.com"
+    ]
+  }
+}

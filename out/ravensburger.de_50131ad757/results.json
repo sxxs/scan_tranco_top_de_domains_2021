@@ -1,0 +1,961 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.ravensburger.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 52,
+      "value": "36B80FE61FE2A8D14DA702DADD1990D5.rvovhap03"
+    },
+    {
+      "domain": ".ravensburger.de",
+      "expires": 1682004287,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 29,
+      "value": "GA1.2.447169651.1618932287"
+    },
+    {
+      "domain": ".ravensburger.de",
+      "expires": 1619018687,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.603046319.1618932287"
+    },
+    {
+      "domain": ".ravensburger.de",
+      "expires": 1652887487,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "TCPID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 26,
+      "value": "121421724475386737534"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "YSC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "48R0B5B8JMw"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1634484287.499705,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559201.499705076,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "fjQc1fH5qNM"
+    },
+    {
+      "domain": ".ravensburger.de",
+      "expires": 1618932347,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_gat",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 5,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 2,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ravensburger.de/start/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "t0",
+        "tracking_id": "UA-34442463-3"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "88ba8e1dfacb4a853df92b4615b485b961a91ff4349e944fab69698971301b01",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624272651.0,
+      "not_valid_before": 1616500251.0,
+      "serial_number": 318279857622149196803096991931867439403813,
+      "subject": {
+        "commonName": "static.ravensburger.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ravensburger.de/start/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ravensburger.de/",
+    "https://www.ravensburger.de/start/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://ravensburger.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/start/index.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/css/rv-704b82fc49861dcebeee5dc43233b95d83ec89d1.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700,800"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/background.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/sprite.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/26958.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/26424.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/26832.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/27594.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/32887.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/76394.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/76303.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/suggestionIcon.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Start/Kacheln/07_2017_Ravensburger_Startseite_Corporate_Logo_neu_Kachel_90x445px.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/58552.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/43827.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/00785.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/00787.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/12579.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/20767.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/images/produktseiten/167/20766.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/mastercard.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/visa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/paypal.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/vorkasse.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/lastschrif.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/amazonPay.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/dhl.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/paymentShippingIcons/dhlExpress.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/points2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/footer/Logo_my_Ravensburger.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/footer/Logo_Spieleland.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/footer/Logo_Museum.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/recommendedIcons/youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/recommendedIcons/facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/recommendedIcons/instagram.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.tagcommander.com/3972/tc_rv_global_header_21.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/flags/de_DE_round.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Start/Kacheln/03_2020_Onlineshop_1x2.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/fonts/fontawesome-webfont.woff2?v=4.6.3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Puzzle%20World/04_21_Puzzle_World_Kachel_515x515px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/GraviTrax/02-2021_GravitraxUpdate/03_2021_GraviTrax_Teaser_double_Keyvisual_515x515px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/tiptoi/08-2018_Kachel_Ravensburger_tiptoi_2x2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Landingpages/Stay%20at%20home/Sommer%20mit%20Ravensburger/08_20_Ravensburger_Besch%C3%A4ftigung_1x1_250x250.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/memory/01-2017_Kachel_Ravensburger_Spiele_memory_1x1px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Produkte%20im%20Fokus/3D%20Puzzle%20Lamborghini/07_2020_3D_Puzzle_Lamborghini_1x2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Produkte%20im%20Fokus/Spielewelt/Kacheln/Kachel_515x515_7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Start/Kampagnen/2017/10-2017_RDI/RavensburgerApps_Update_2020/04-2020_Ravensburger_Apps_Startseitenkachel_250x515px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Produkte/Aktionen/Ravantastisch/20_Proz_blanko_Ravantastisches_Angebot.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/ministeps/Ministeps%20Refresh%202020/09-2020_RavensburgerMarken_ministeps_Kachel_2020_250x515px_1x2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Start/Kacheln/PK_myRavensburger_2x2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Produkte%20im%20Fokus/Spring%20in%20eine%20Pf%C3%BCtze/Update_2021/03_21_Ravensburger_Spring_in_eine_Pf%C3%BCtze_Kachel_250x250px.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/Malen%20nach%20Zahlen/01-2017_Kachel_Ravensburger_Malen_und_Basteln_Malen_nach_Zahlen_2x2.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Family_&_Friends/08_Produkttest-Lounge/Kacheln/22_02_Ravensburger_Family&Friends_PTL21_515x515px_2x2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/Pappbilderbuecher/RefreshLandingpage_2019/11-2019_Kachel_Ravensburger_Marken_Pappbilderbuecher_1x1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Family_&_Friends/04_Startseite/03_2020_Family-Friends-Magazin_2x1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Buchtipps/Guinness%20World%20Records/2021/11_2020_GWR_2021_Ravensburger_Buchtipps_Kachel_250x515px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Family_&_Friends/Family%20&%20Friends%20Vorteile/03_2020_Family&Friends_Start_Mitglied_Vorteile_v3_2x2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/backgroundffffff.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/background1558a9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/background0d407b.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/script/jquery.min.2.1.4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/script/vendor-704b82fc49861dcebeee5dc43233b95d83ec89d1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/script/rv-704b82fc49861dcebeee5dc43233b95d83ec89d1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/script/jquery-704b82fc49861dcebeee5dc43233b95d83ec89d1.min.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy/3972/privacy_v2_36.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/Gravitrax/02-2021_GravitraxUpdate/03_2021_GraviTrax_Teaser_double_Keyvisual_515x515px.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/iframe_api"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/plugins/ua/linkid.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/script/rv_loadAfter-704b82fc49861dcebeee5dc43233b95d83ec89d1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.tagcommander.com/3972/tc_rv_DE_footer_20.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://privacy.trustcommander.net/privacy-consent/"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://privacy.trustcommander.net/privacy-consent/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/index.htm"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-34442463-3&cid=447169651.1618932287&jid=354486976&gjid=1849783449&_gid=603046319.1618932287&_u=aGBAgEIrAAAAAE~&z=2147248136"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-widgetapi.vflset/www-widgetapi.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/css/bootstrap-origin.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/css/font-awesome.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/css/privacy-templates.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/css/main.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/js/require.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j90&tid=UA-34442463-3&cid=447169651.1618932287&jid=354486976&_u=aGBAgEIrAAAAAE~&z=1028746329"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.de/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j90&tid=UA-34442463-3&cid=447169651.1618932287&jid=354486976&_u=aGBAgEIrAAAAAE~&z=1028746329"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/js/main.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/js/jquery.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/js/ifr.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/js/domReady.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy-center/template/assets/js/json3.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy/3972/privacy_v2_hook_36.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravensburger.de/content/wcm/mediadata/images/Entdecken/Ravensburger%20Marken/Wieso%20Weshalb%20Warum/07-2018_Kachel_Ravensburger_Marken_Wieso_Weshalb_Warum_1x1.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ravensburger.de/images/shadow-circle.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://ravensburger.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.tagcommander.com",
+      "cdn.trustcommander.net",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "privacy.trustcommander.net",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.google.de",
+      "www.youtube.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 33
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 19,
+    "trackers": [
+      "cdn.trustcommander.net",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com"
+    ]
+  }
+}

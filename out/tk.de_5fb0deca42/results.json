@@ -1,0 +1,507 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.tk.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "CMSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 62,
+      "value": "6D1PwGEJMyo8sPF6F1pM6hKU_ni-409-6CrqIcfm.caelive272"
+    },
+    {
+      "domain": "www.tk.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "INSTSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 60,
+      "value": "0d34e1a9-2649-4649-950e-a50c64ac62ea.caelive272"
+    },
+    {
+      "domain": ".www.tk.de",
+      "expires": 1650455908,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "utag_main",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 150,
+      "value": "v_id:0178ef25661d001b92625dc4c84900069001b06100590$_sn:1$_se:1$_ss:1$_st:1618921708895$ses_id:1618919908895%3Bexp-session$_pn:1%3Bexp-session"
+    },
+    {
+      "domain": ".tk.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "sessionTimeoutTimestamp",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 36,
+      "value": "1618921710041"
+    },
+    {
+      "domain": ".tk.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "sessionTimeoutStatus",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 35,
+      "value": "0|1618921710041"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.tk.de/techniker",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "c56ea17054d5fdf37c09d4c933230e3d7bc3ae62ffec8fed9de630c40ba20ac4",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust EV RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1650276000.0,
+      "not_valid_before": 1579474800.0,
+      "serial_number": 20169834319671538262782055420975354979,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "tk.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "Techniker Krankenkasse",
+        "serialNumber": "Government Entity",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.tk.de/techniker/impressum-2013112",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.6.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://tk.de/",
+    "https://tk.de/",
+    "https://www.tk.de/",
+    "https://www.tk.de/techniker"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://tk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/techniker"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/css/base.css?cb=75f411636d8b357a9aedca445ca2936c"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/css/privatkunden.css?cb=6e5e710c807a808a651f9796f22a5ce4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/images/logo_Sonderform.svg?cb=66fd5ac7d0edc8cd81d6d99a0a54282b"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/images/logo_small.svg?cb=35fd2161e94ac1f8f2086cc606d45aec"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/resource/blob/2016962/4a813c2f8ec81a6bfcc75a2c268191e2/focusmoney-dbk-2021-klein-data.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/arrow-right.svg?cb=22c654f5e3bca5db2ea7c80ce9ce4957"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/suche.svg?cb=162044b50b7a3e8014166c160aa97a37"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/close.svg?cb=7c094a663ea10443ac7d35185aeac246"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/login-einzelmitglied.svg?cb=1f76ef58319ddff8c535871019ff8294"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/login-aktiv.svg?cb=dfa2e98921f3798bb0a9b80f7446f9ce"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/menu.svg?cb=ed21bffd25d2cc5728e3f1f02404c75a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/resource/image/2098982/10x5/1344/672/37d2a3c8b50029ff8982ce22818572f4/Dw/keep-header-mit-siegel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/resource/image/2103556/10x2-Blur/520/104/d3f6b7633396562fd2225d75200583d/NF/frauen-masken-getty-1257155819.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/tk-tag-manager/delivery/tealium/utag.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/js/main/app.js?cb=9616cc0d9a265d159706e85a98b6f758"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/js/common/app.js?cb=74d7d8c09201829be016db6789dc32ac"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/kontakt.svg?cb=c10d4d3041fdcb4e6e76527b221240ec"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/external.svg?cb=7c431cd2e9e7e5fb37529d217cdbad85"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/youtube.svg?cb=098e089398c585c7b62eaf0cd2371477"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/twitter.svg?cb=0448ce7dab8cddac0897a92ec1e05c22"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/instagram.svg?cb=8e194abfc6e42ffc8082927096ee084e"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/facebook.svg?cb=27c33c9aff4381a65bceff12fc588cc7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/pinterest.svg?cb=51e2f683f3abbb3dab925de34e88560e"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/assets/base/icons/blog.svg?cb=0d8a96d0650b88958ccacabbdb75d665"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/fonts/SoletoTK_W_Lt.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/img/check_cyan_c2.svg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/fonts/SoletoTK_W_Md.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/fonts/SoletoTKHeadline_W_Lt.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/blueprint/static/img/checkbox_checkmark.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.tk.de/resource/image/2098982/10x7/1024/717/84f14b92607badb0371af4548ddb41a9/RS/keep-header-mit-siegel.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "api.admiralcloud.com",
+        "mediafra.admiralcloud.com",
+        "'self'"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "font-src": [
+        "fonts.gstatic.com",
+        "player.admiralcloud.com",
+        "data:",
+        "'self'"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "frame-src": [
+        "tk.moovit24.de",
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self'; default-src 'self'; script-src maps.googleapis.com server.adform.net 'self' 'unsafe-inline' 'unsafe-eval'; style-src fonts.googleapis.com 'self' 'unsafe-inline'; img-src maps.googleapis.com maps.gstatic.com mediafra.admiralcloud.com images.admiralcloud.com blob: data: 'self'; font-src fonts.gstatic.com player.admiralcloud.com data: 'self'; connect-src api.admiralcloud.com mediafra.admiralcloud.com 'self'; prefetch-src *.admiralcloud.com *.googleapis.com 'self'; frame-src tk.moovit24.de 'self'; worker-src blob: 'self'; media-src mediafra.admiralcloud.com api.admiralcloud.com blob: 'self'",
+      "img-src": [
+        "maps.googleapis.com",
+        "maps.gstatic.com",
+        "mediafra.admiralcloud.com",
+        "images.admiralcloud.com",
+        "blob:",
+        "data:",
+        "'self'"
+      ],
+      "media-src": [
+        "mediafra.admiralcloud.com",
+        "api.admiralcloud.com",
+        "blob:",
+        "'self'"
+      ],
+      "prefetch-src": [
+        "*.admiralcloud.com",
+        "*.googleapis.com",
+        "'self'"
+      ],
+      "script-src": [
+        "maps.googleapis.com",
+        "server.adform.net",
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'"
+      ],
+      "style-src": [
+        "fonts.googleapis.com",
+        "'self'",
+        "'unsafe-inline'"
+      ],
+      "worker-src": [
+        "blob:",
+        "'self'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://tk.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

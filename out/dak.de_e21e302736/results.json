@@ -1,0 +1,461 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.dak.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AMWEBJCT!%2Frd!JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 59,
+      "value": "000151kNQ0BUZIYs9ikeuJoAk4_:-H4OBN"
+    },
+    {
+      "domain": "responder.wt-safetag.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "wt_nbg_Q3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 90,
+      "value": "!wdPUQZnmZp7Y9RCrbKgImUoBMap0Ly6Dq6+9xz6DPMhdDTEVzffS75rGTowYlkOr9kZLSySiwYVC2G0="
+    },
+    {
+      "domain": ".dak.de",
+      "expires": 1618933437,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 8102,
+      "name": "wt_cdbeid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 10,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "wt-safetag.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dak.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "7039d981147ca764881aa32aa76f75431f6d26dd2ab2bcc86b3f6eb70f5c4fcc",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign RSA OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1635316568.0,
+      "not_valid_before": 1601015768.0,
+      "serial_number": 10088692154927784564102282841,
+      "subject": {
+        "commonName": "*.dak.de",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "DAK - Gesundheit",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dak.de/dak/unternehmen/impressum-2082124.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dak.de/",
+    "http://dak.de/dakonline/live/dak/tam/DAKonline?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf0427&URL=%2F&HOSTNAME=dak.de&PROTOCOL=http",
+    "https://www.dak.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 403,
+      "status_text": "Forbidden",
+      "url": "http://dak.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 403,
+      "status_text": "Forbidden",
+      "url": "http://dak.de/dakonline/live/dak/tam/DAKonline?TAM_OP=error&USERNAME=unauthenticated&ERROR_CODE=0x38cf0427&URL=%2F&HOSTNAME=dak.de&PROTOCOL=http"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/styles.css?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle_legacy.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/img/placeholder-square_ratio1x1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/img/placeholder-landscape_ratio16x9.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/img/placeholder-landscape_ratio4x3.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/img/placeholder-landscape_ratio4x3.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/runtime.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/commons-handlers-videoplayer-spa.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/commons-handlers-videoplayer.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/commons-handlers-spa.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/commons-handlers.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/handlers.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/commons-spa.js?1504141377"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/spa.js?1504141377"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/img/gradient-multiply.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/img/gradient-opaque.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/img/white.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/dakIconFont_8f662d05611116cca91e030bbd5e891f.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/lato-v14-latin-700_5c6a5a3a3eff3c9f9970bee4dbc4b1ca.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/roboto-v18-latin-700_1ab7bbddcdbde1b6f27436ac335939c3.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/lato-v14-latin-italic_e02808f98f5d3c7b329d17b42c43822e.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/roboto-v18-latin-italic_06db94b5fad70e44175dc0b5ead0f7f5.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/roboto-v18-latin-regular_cb41c1e71debe927815c690f8bb471b0.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/QQueYwsD/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/QQueYwsD/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=QQueYwsD"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://responder.wt-safetag.com/resp/api/get/161304619157476?url=https%3A%2F%2Fwww.dak.de%2F&v=5"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/resources/cae/fonts/dakIconFont400_6bd1fe6ca175d90149b722e7451437dc.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dak.de/dak/bilder/KT/landscape_ratio16x9/1920/abbildung-digitale-angebote-mit-stoerer-header-7-2403462.4.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/QQueYwsD/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/QQueYwsD/latest/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=4EYu0dHS@2.1.4,B1Hk_zoTX@17.2.13,B1OHg9VousbX@7.3.1,BJMh5NodoZQ@6.1.1,DHS2sEi4b@5.1.0,H1Vl5NidjWX@40.15.35,H1dDqVjOjWX@14.11.4,HJI5SmLm7@4.0.12,rJOZc4jOiWQ@15.4.16,rkUcEjuoWm@16.5.4,twMyStLkn@15.7.13"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=4EYu0dHS@2.1.4,B1Hk_zoTX@17.2.13,B1OHg9VousbX@7.3.1,BJMh5NodoZQ@6.1.1,DHS2sEi4b@5.1.0,H1Vl5NidjWX@40.15.35,H1dDqVjOjWX@14.11.4,HJI5SmLm7@4.0.12,rJOZc4jOiWQ@15.4.16,rkUcEjuoWm@16.5.4,twMyStLkn@15.7.13"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.13.0/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://dak.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "responder.wt-safetag.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 14
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 14,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "responder.wt-safetag.com"
+    ]
+  }
+}

@@ -1,0 +1,885 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "YSC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "OKzkjIEgvy8"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1634475464.019039,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559201.019038916,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "epBVKQxqdI8"
+    },
+    {
+      "domain": "www.dgb.de",
+      "expires": 1652878665,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.102.dcf2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 67,
+      "value": "f8785fcefc51a87b.1618923465.1.1618923465.1618923465."
+    },
+    {
+      "domain": "www.dgb.de",
+      "expires": 1618925264,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.102.dcf2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "1"
+    },
+    {
+      "domain": "www.dgb.de",
+      "expires": 1619528273,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612010,
+      "name": "dgb-newsletter-1662",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 23,
+      "value": "true"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dgb.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f5bfe2156bc519eb885bd75ab396c0a15d55d6cb50350c8cc2e7fab1ae3e16b1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626602400.0,
+      "not_valid_before": 1594936800.0,
+      "serial_number": 8399194499552212150565610867926604392,
+      "subject": {
+        "commonName": "*.dgb.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dgb.de/service/kontakt",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dgb.de/",
+    "https://www.dgb.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://dgb.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/jwplayer-8-0-11/jwplayer.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/chosen/:version:1.8.7/chosen.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.content.browser/:version:14.5/css/:bundle:form-comment.min.css;jqModal.2009.03.01+r14.min.css;jsonform.min.css;reset.min.css;video-js.min.css;videoplayer.min.css;main.min.css;curvycorners.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.maps.composer/:version:3.3/css/:bundle:lightbox.min.css;marker.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/:bundle:event.min.css;focuspoint.min.css;logo-panel.min.css;newsletter.min.css;popup.min.css;quiz.min.css;roboto.min.css;slick.min.css;stage-tagcloud.min.css;teaser.min.css;topic.min.css;contentslider.min.css;teaser-timeline.min.css;main.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/:bundle:multistage.min.css;mobile.min.css;calendar-base.min.css;z_facelift.min.css;calendar.min.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/classy/:version:1.4/classy.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/jquery/:version:1.7.1/jquery.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/chosen/:version:1.8.7/chosen.jquery.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/jquery_placeholder/:version:1.3/jquery.placeholder.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.content.browser/:version:14.5/js/:bundle:cookie.min.js;form.min.js;jqModal.2009.03.01+r14.min.js;utils.min.js;video.min.js;init_jqModal.min.js;jsonform.min.js;video-youtube.min.js;modalformdialog.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.maps.composer/:version:3.3/js/:bundle:utils.min.js;lightbox.min.js;area.min.js;marker.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/js/ios-viewport-scaling-bug-fix.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/js/:bundle:matchMedia.min.js;slick.min.js;whatsappsharer.min.js;jquery.focuspoint.min.js;jquery.newsletterPopup.min.js;jquery.timelineSlider.min.js;jquery.touchSwipe.min.js;logo-panel-navigation.min.js;popup.min.js;jquery.carouFredSel.min.js;utility-timeline.min.js;contentslider.min.js;swipe.min.js;mobile.min.js;z_facelift.min.js;z_threecolumns.min.js;z_facelift_captions.min.js;z_facelift_navigation.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++resource++dgb/img/logo-no-shadow.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++resource++internet/img/btn_search.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/repository/public_storage/ad7067dc-0cbf-11df-7544-00093d10fae2/bezirk_logo/scaled/logo"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++resource++internet/img/bg_snd_navi_connect_left.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++67aaf498-a109-11eb-9ed4-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++83004f62-e1cc-11e8-ae67-52540088cada/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++f4e171b0-74f0-11eb-8975-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++fdb5ec24-5946-11ea-8e68-52540088cada/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++2602d6d6-9bb0-11eb-93fd-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++e80f80fc-a11f-11eb-8af5-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++a1015ddc-7db8-11eb-8e50-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++16717e48-9ec1-11eb-a23e-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++7490a054-9dda-11eb-801e-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++6492cabe-9dd6-11eb-a315-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++986b431a-8c8e-11eb-980b-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++9abada7c-9d19-11eb-a23e-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++7522350c-8d52-11eb-9199-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++ea2b1cec-939c-11eb-a8bb-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++e4039bc8-96b7-11eb-b3e3-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++ef7503cc-9133-11eb-8418-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++aa79208e-8722-11eb-aca9-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++c1fb59d8-8d68-11eb-8610-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++f012a364-8c7b-11eb-8bce-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++4399a104-b635-11ea-be81-52540088cada/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++e90ee4b4-1922-11eb-86e4-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++986b431a-8c8e-11eb-980b-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++c7579758-80e2-11eb-8a08-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++95f5a760-8cac-11eb-9a87-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++215cf52c-6c7a-11eb-8895-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++8389e764-5019-11eb-b281-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++06f03444-608e-11eb-989c-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++18c1da2a-69d0-11ea-ad58-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++f8a93440-4476-11eb-9b7e-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++4a38ec78-3df7-11eb-8d02-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++fca169e2-4123-11eb-90b8-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++2a19cbc8-c297-11ea-a08a-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++a5b8d788-d273-11ea-b337-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++42d66872-6cf9-11ea-b9de-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++a94a239e-6a99-11ea-bab2-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++340dd524-69ce-11ea-90cc-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++c60477d4-a197-11ea-b1a6-001a4a16011a/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++5fde2728-19d0-11eb-864c-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++1f485a88-0947-11eb-be8c-001a4a160123/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++1672f9ca-5c8c-11eb-af7c-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++a1015ddc-7db8-11eb-8e50-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++b09f98ca-783c-11eb-9e10-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++70ba34c8-849e-11ea-b3d7-52540088cada/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++3c9179da-721f-11eb-8975-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++e95074c0-729f-11eb-9540-001a4a160123/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++e49001ac-7a67-11ea-99c0-52540088cada/teaserimage/scaled/size/920"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++24ce5f64-1d90-11ea-ba49-52540088cada/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++ddd6c1d4-6490-11eb-8519-001a4a160123/teaserimage/scaled/size/620"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++6b4376a4-b8a8-11e7-b922-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++a0dd6ff4-b8a8-11e7-adc3-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++dfe92080-b8a8-11e7-b93e-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++2f26119e-6cda-11e9-ad3c-52540088cada/teaserimage/scaled/size/915"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++683aca30-4157-11eb-a9f7-001a4a160123/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++030e0abe-8c58-11ea-bbff-52540088cada/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++f0ded5c0-4ece-11e9-8de9-52540088cada/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++61756b5a-fc94-11e9-b182-52540088cada/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++d8d1abf2-fff2-11e5-88bc-52540023ef1a/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++dc350c42-6e03-11e6-bdc9-525400e5a74a/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++8fe3664e-784d-11e8-bff4-52540088cada/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++4c3b6998-21ec-11df-7d31-00093d10fae2/teaserimage/scaled/size/282"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++co++20d62c68-1d38-11df-765b-00093d10fae2/scaled/size/694"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/++resource++dgb/img/icon_close.gif"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.content.browser/:version:14.5/js/:bundle:lastvisited.min.js;jquery.mobile-1.4.5.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.content.browser/:version:14.5/js/piwik-track-download.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.content.browser/:version:14.5/js/piwik-track-read-more.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.content.browser/:version:14.5/js/:bundle:dgb.min.js;modal.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/js/:bundle:ol.min.js;event.min.js;dgb.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/print.min.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/iframe_api"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/img/bg-sandpaper.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/img/ico-external-link-gray.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/font/roboto/roboto-condensed-v14-latin-700.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/font/roboto/roboto-condensed-v14-latin-regular.woff2"
+    },
+    {
+      "mime_type": "font/truetype",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dgb.de/static/dgb.internet.browser/:version:15.1.2/css/font/elusive/Elusive-Icons.ttf"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://web-stat.dgb.de/piwik.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-widgetapi.vflset/www-widgetapi.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://web-stat.dgb.de/piwik.php?action_name=DGB&idsite=102&rec=1&r=247138&h=14&m=57&s=44&url=https%3A%2F%2Fwww.dgb.de%2F&_id=f8785fcefc51a87b&_idts=1618923465&_idvc=1&_idn=0&_refts=0&_viewts=1618923465&send_image=1&cookie=1&res=800x600&gt_ms=62&pv_id=lWb1Gh"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=600",
+      "includeSubDomains": false,
+      "max-age": 600,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://dgb.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.youtube.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

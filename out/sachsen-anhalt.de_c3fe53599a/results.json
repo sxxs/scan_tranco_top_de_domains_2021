@@ -1,0 +1,633 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.sachsen-anhalt.de",
+      "expires": 1652873434,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.19.0c93",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 66,
+      "value": "fd18e202d278a772.1618918234.1.1618918234.1618918234."
+    },
+    {
+      "domain": "www.sachsen-anhalt.de",
+      "expires": 1618920033,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.19.0c93",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "*"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.sachsen-anhalt.de/startseite/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "20caece8f6c6bd49a2326be4c07e767caae6b2f45333a1bb09ddf11992c3b89c",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1641164399.0,
+      "not_valid_before": 1606950000.0,
+      "serial_number": 81004024252606133130310770691903124272,
+      "subject": {
+        "commonName": "*.sachsen-anhalt.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.sachsen-anhalt.de/meta/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://sachsen-anhalt.de/",
+    "https://sachsen-anhalt.de/",
+    "https://www.sachsen-anhalt.de/",
+    "https://www.sachsen-anhalt.de/startseite/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://sachsen-anhalt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://sachsen-anhalt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/startseite/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1534524405"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3temp/Assets/84cf254a14.css?1593064910"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3conf/ext/t3colorbox/Resources/Public/Css/1.6.4/example5/colorbox.css?1534527087"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/Base-CSS/CSS/bootstrap.css?1618392118"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/Base-CSS/CSS/mobilemenu.css?1574671685"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/jquery.js?1534755574"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/jquery.cookie.js?1534755574"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/panel.js?1559916428"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/popper.min.js?1559916428"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/bootstrap.min.js?1559916428"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/jquery-ui.min.js?1534755574"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/defiant.js?1561614485"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/mobilemenu.js?1561614485"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/lpsa.js?1618392118"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/hyphenation/Hyphenopoly_Loader.js?1560445480"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3temp/Assets/bd4d1f63e4.js?1570005338"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/kontrast_sw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/font_minus_sw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/font_reset_sw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/font_plus_sw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/gebaerd_sw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/speaker_sw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/language/german.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/startseite_lpsa/st-logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/startseite_lpsa/banner_2017.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/ministry_icon.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/e/3/csm_ahmet_5297ce505b.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/6/b/csm_Header_Bundesrat_b410161fa2.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/4/a/csm_Starke_Geschichte_grosse_Ideen_5f62646133.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/9/6/csm_LK_MSH_gross_7d1b17be59.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/coronavirus-quadratisch.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/9/a/csm_Impfen_gegen_C_Stockadobe_sharryfoto_0708d5fb30.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/8/b/csm_LogoTddKLEIN_228c8b3cdb.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/2/6/csm_1384149283453095947_EzV751BVoAcktYa_04432cfd5b.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/_processed_/0/6/csm_1384097994484584451_EzVNh_fUcAYO-Kn_94a2230499.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3conf/ext/t3colorbox/Resources/Public/JavaScript/jquery.colorbox-1.6.4.min.js?1534527087"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3conf/ext/simplepoll/Resources/Public/JavaScript/main.js?1534525445"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.js?pids=embhl&1534755574"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/readspeaker_additional.js?1534755574"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/typo3temp/Assets/e609e6418a.js?1570005338"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/Font/roboto-v15-latin-300.woff2"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/hyphenation/patterns/de.hpb"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/hyphenation/Hyphenopoly.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/hyphenation/hyphenEngine.wasm"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/Font/material/MaterialIcons-Regular.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/Font/roboto-v15-latin-regular.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://www.sachsen-anhalt.de/d5ee8611-314d-4d1a-ac2e-1b2ea8551960"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/extern_link.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/external_link-s.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/socialmedia/twitter_logo-s.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/socialmedia/youtube_logo-s.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/socialmedia/instagram_logo-s.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/IMG/socialmedia/messenger_logo.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/Font/roboto-v15-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats.sachsen-anhalt.de/piwik.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.Styles.css?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.Core.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.pub.Config.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.lib.Facade.adapter.jquery.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats.sachsen-anhalt.de/piwik.php?action_name=Landesportal%20Sachsen-Anhalt%3A%20Startseite&idsite=19&rec=1&r=074944&h=13&m=30&s=33&url=https%3A%2F%2Fwww.sachsen-anhalt.de%2Fstartseite%2F&_id=fd18e202d278a772&_idts=1618918234&_idvc=1&_idn=0&_refts=0&_viewts=1618918234&send_image=1&cookie=1&res=800x600&gt_ms=98"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.Common.Settings.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.PlayerAPI.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.HL.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/ReadSpeaker.ui.js?v=2.5.8.3715"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/mods/enlargeHL/ReadSpeaker.enlargeHL.js?v=...3715"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.sachsen-anhalt.de/fileadmin/Base/JS/ReadSpeaker/mods/enlargeHL/ReadSpeaker.enlargeHL.css?v=...3715"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://sachsen-anhalt.de\r",
+  "third_parties": {
+    "fqdns": [
+      ""
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

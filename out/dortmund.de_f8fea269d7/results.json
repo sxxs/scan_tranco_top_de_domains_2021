@@ -1,0 +1,658 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.dortmund.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "6656B0D8DF039EAF5DC3A868111D5F6C"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dortmund.de/de/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "942599c6ace7e5911b01c7fedbc327a662dcdfcc1b8f6f831667849e52c3545d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1627293600.0,
+      "not_valid_before": 1594764000.0,
+      "serial_number": 21232441920198105077422625814594240454,
+      "subject": {
+        "commonName": "*.dortmund.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dortmund.de/de/dortmund_de/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dortmund.de/",
+    "https://dortmund.de/",
+    "https://www.dortmund.de/",
+    "https://www.dortmund.de/de/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://dortmund.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://dortmund.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/de/index.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/jquery_ui/jquery-uimin.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/main_dode.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/js_not_active.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/tmp7.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/magnific-popup.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/de/system/js/jscollector.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/logos/logo_dued.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/pool/___allgemein_pool/dortmund/Panorama-Stadt-Standort-Hansaplatz_Roland-Gorecki03_PanoramaGross_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/RS1-Animation-Fahrradstrasse-Grosse-Heimstrasse_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Dortmunder_U_Detail_web_gsk_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Foto_PK_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/archiv_einmalig/2020_einmalig/09_2020/Symbolfoto_Ausbildungsbeginn_Stadt_Dortmund_StadtinspektorInnen_web_Roland_Gorecki_01_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/pool/___allgemein_pool/fahrradampel_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/bilderstrecken/bilderstrecken_2018/jahresrueckblick_2018/07.18_Florianturm___Janus_Skop_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/pool/___allgemein_pool/Digitales_Lernen_AdobeStock_MNStudio_2_klein_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Dortmund.Live_Header_Facebook_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/personenfotos/ob_westphal/Foto_3_Westphal_2020-Jonas_Guettler_Aufmacher_SM.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/defaultmedia/defaultImage_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Pressefoto_Rafael_Campana_Ochoa_Torhaus-quer_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/Stadtkarte_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/Luftbilder_RVR_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/Basiskarte_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/Liegenschaftskataster_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/HistorischeLuftbilder_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/Baustellenmanagement_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/p/vermessungs__und_katasteramt/bilder_39/stadtplan/screenshots_stadtplan/Radverkehr_Collection_SM.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/02_Gruenflaechenamt_sagt_mit_Wechselbeet_Danke_web_Roland_Gorecki_BildDesTages_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Blumenbeet_BildDesTages_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Rathaussanierung_BildDesTages_SM.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/defaultmedia/defaultImage_Drehscheibe_XS.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/02_2021/01_DOUeD-Buch_Auflage_2021_Ute_Piotrowski_Laura_Herfurth_web_Roland_Gorecki_Thema_SM.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/logos/dortmund_de/wappen_doag_outlines.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/de/system/js/jscollector_bottom_v2.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/normalize.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/bootstrap_1/3_3_5/css/bootstrapmin.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/font_awesome/font-awesome_min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/css_1/js_activ.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/logos/dortmund_de/wappenstadtdortmund.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/logos/wortmarken/svg_wortmarken/dortmund_de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/leichte_sprache/icons_svg/Icon_Leichte_Sprache.svg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/fonts/fonts_font_awesome/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/corona_1/corona_icon_stopcorona.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/corona_1/corona_icon_waschen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/corona_1/corona_icon_mundschutz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/corona_1/corona_icon_husten.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/corona_1/corona_icon_desinfektion.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/corona_1/corona_icon_abstand.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/background_twitter_DetailGross.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/system/seitenelemente/background_youtubevideo_DetailNormal.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dortmund.labs.jochum-mediaservices.net/piwik.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/pool/___allgemein_pool/Familie_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/pool/___allgemein_pool/Dortmunder_Bekanntmachungen_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/pool/___allgemein_pool/Baustellenabsperrung_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/drehscheibe/parkhaus_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dortmund.labs.jochum-mediaservices.net/piwik.php?action_name=dortmund.de%20-%20Startseite&idsite=1&rec=1&r=830546&h=16&m=13&s=24&url=https%3A%2F%2Fwww.dortmund.de%2Fde%2Findex.html&_id=&_idts=1618928005&_idvc=1&_idn=1&_refts=0&_viewts=1618928005&send_image=1&cookie=0&res=800x600&gt_ms=48&pv_id=lyU0wS"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Museum_Ostwall_Body_Soul_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Museum_Ostwall_Body_Soul_Collection_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/archiv_einmalig/2020_einmalig/04_2020/Ordnungsdienst_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/archiv_einmalig/2020_einmalig/04_2020/Ordnungsdienst_Collection_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Kunstcamp_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Kunstcamp_Collection_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Die_laengste_Nacht_Superraum_Foto_Clemens_Mueller_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Die_laengste_Nacht_Superraum_Foto_Clemens_Mueller_Collection_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/archiv_einmalig/2020_einmalig/07_2020/Portraet_Valie_Export_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/archiv_einmalig/2020_einmalig/07_2020/Portraet_Valie_Export_Collection_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Gitarre_Foto_Gabriel_Gurrola_on_Unsplash_Collection_SM.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/_einmalig/04_2021/Gitarre_Foto_Gabriel_Gurrola_on_Unsplash_Collection_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/piktogramme_wahlen/themen/Terminvereinbarung_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/piktogramme_wahlen/themen/Jobs_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/piktogramme_wahlen/themen/Ausbildung_Drehscheibe_XS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dortmund.de/media/bilder/piktogramme_wahlen/themen/babc_Drehscheibe_XS.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 63072000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://dortmund.de\r",
+  "third_parties": {
+    "fqdns": [
+      "dortmund.labs.jochum-mediaservices.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "dortmund.labs.jochum-mediaservices.net"
+    ]
+  }
+}

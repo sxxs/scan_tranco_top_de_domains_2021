@@ -1,0 +1,591 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.juris.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "LASTACCESS",
+      "path": "/jportal/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 31,
+      "value": "\"20.04.2021 11:37:55\""
+    },
+    {
+      "domain": "www.juris.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 47,
+      "value": "E1CF84CFD375A944340D36B8042F5D6D.jp18"
+    },
+    {
+      "domain": "www.juris.de",
+      "expires": 1626687475.863236,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7783200.8632359505,
+      "name": "FORCE_SSL_COOKIE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.juris.de/jportal/index.jsp",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "494e763c180b0b21c362c09c3021a4a57d0355ab7e63165f5ec111e0427bb991",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Organization Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639090799.0,
+      "not_valid_before": 1576450800.0,
+      "serial_number": 227884356213097270623392359497762550194,
+      "subject": {
+        "commonName": "www.juris.de",
+        "countryName": "DE",
+        "localityName": "Saarbruecken",
+        "organizationName": "juris GmbH Juristisches Informationssystem fuer die BRD",
+        "organizationalUnitName": "IT",
+        "postalCode": "66117",
+        "stateOrProvinceName": "Saarland",
+        "streetAddress": "Gutenbergstrasse 23"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.juris.de/jportal/nav/juris_2015/kontakt_1/impressum_1/impressum.jsp",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://juris.de/",
+    "http://www.juris.de/",
+    "http://www.juris.de/jportal/index.jsp",
+    "https://www.juris.de/jportal/index.jsp"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://juris.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.juris.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.juris.de/jportal/index.jsp"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/index.jsp"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/js/jquery.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/basic-style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/juris_style.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/platzhalter/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/icons/Einkaufswagen-white_icon48pxhoch.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/header/header_juris_PM-Arbeitsrecht-prem.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/header/header_juris_pm_ertr.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/header/Header-juris-Professionell-1120x318.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/header/header_juris_dav_2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/header/header_slider_prelex-1120x318.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/header/header_juris_DAV_app.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/Box-Staudinger.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_unternehmensj.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_pm_famrecht.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/Box-Webinar.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_testangebot_arbeitgeber.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_compliance_kritik.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_pkr.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_tipp_und_tricks.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_aktuelle_rechtsprechung.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/technik/media/img/prodjur/lay/1px_tr.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/layout/boxen_motive/box_erklaervideos.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/juris.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/otto_schmidt.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/DeGruyter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/esv.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/CF_Mueller.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/rehm.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/stotax.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/reguvis2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/dfv.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/DAV.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/DNV.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/IWW_Institut.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/Logo_juris_300px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/bilder/icons/Einkaufswagen-white.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KDMPQ3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=ho94EK"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/Frutiger-W01--bold.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/Frutiger-W01.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/list-icon.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_social_30px/Facebook_cccccc_30px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_social_30px/Twitter_cccccc_30px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_social_30px/Linkedin_cccccc_30px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_social_30px/Xing_cccccc_30px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_social_30px/Youtube_cccccc_30px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_juris_30x30/Phone_cccccc.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_juris_30x30/Mail_cccccc.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_juris_30x30/Writing_cccccc.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.juris.de/jportal/cms/juris/media/footericons/footer_neu/icons_juris_30x30/Location_cccccc.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js?cbid=0e4cd5d5-aacf-4222-bb73-57a25ad1e3c1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=ho94EK&v=5.0&tc=16189114762896&pagename=Onlineportal%20f%C3%BCr%20Rechtsinformationen%20%7C%20juris%20Das%20Rechtsportal&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&cc_url=https%3A%2F%2Fwww.juris.de%2Fjportal%2Findex.jsp&et_source_url=https%3A%2F%2Fwww.juris.de%2Fjportal%2Findex.jsp&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=f6f5e6fa5628a713fc39428876f99254&et_cblk=1&et_cd=www.juris.de&dh=i8hQbcc79nQRNcMMuj2XU%2Bfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/0e4cd5d5-aacf-4222-bb73-57a25ad1e3c1/cc.js?renew=false&referer=www.juris.de&dnt=false&forceshow=false&cbid=0e4cd5d5-aacf-4222-bb73-57a25ad1e3c1&brandid=CookieConsent&framework="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://juris.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "static.etracker.com",
+      "www.etracker.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 7,
+    "trackers": [
+      "code.etracker.com",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "static.etracker.com",
+      "www.etracker.de",
+      "www.googletagmanager.com"
+    ]
+  }
+}

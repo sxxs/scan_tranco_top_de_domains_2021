@@ -1,0 +1,1329 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "radioeins.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "VSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 25,
+      "value": "45015-876051424"
+    },
+    {
+      "domain": "www.radioeins.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "VSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 25,
+      "value": "62601-880625004"
+    },
+    {
+      "domain": ".xiti.com",
+      "expires": 1653064277.988912,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135201.988912106,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "ED7E5A3A-477F-4C68-9494-85F3A5D144A2"
+    },
+    {
+      "domain": ".radioeins.de",
+      "expires": 1621355478,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426402,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618936278747"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1650381301.940734,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 31452225.94073391,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00280f8a44ef50bd8607f01d60001%3B607f01d6%3B625ed1f5"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de",
+      "xiti.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.radioeins.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f78a4cb3b1d349b473510587bc85f764188e53d656e2a1bc9f467fdf2a96a81f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1642329402.0,
+      "not_valid_before": 1608028602.0,
+      "serial_number": 11131927526590953600956636837,
+      "subject": {
+        "commonName": "radioeins.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Rundfunk Berlin-Brandenburg",
+        "organizationalUnitName": "TPS Online",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.radioeins.de/impressum/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://radioeins.de/",
+    "https://www.radioeins.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://radioeins.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/vorlagen/compressor.combined.css/v=10.5.4/f=css.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/radioeins_fonts.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/radioeins.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/vorlagen/layout/_jcr_content/properties/property_1870264050.css.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/vorlagen/compressor.combined.js/v=10.5.4/f=jshead.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/advanced-slider/style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/advanced-slider/advanced-slider-base_3_1.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/advanced-slider/light-square/light-square.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/advanced-slider/rad/rad.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/advanced-slider/prettyPhoto/prettyPhoto.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://loginframe.radioeins.de/ft-access.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rbb-online.de/basis/grafik/icons/wetter/svg/100000.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.rbb-online.de/basis/grafik/icons/wetter/100000.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/css/basis_print.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/layout/radioeins_logo.png.png/img.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/icons/searchSubmit.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201612/64249180h_schaufensterpuppen_11.jpg.jpg/quality=205/rendition=64249180h_schaufensterpuppen_43.jpg/size=220x165.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/icons/ico-audio.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/69027922_laschet_soeder_169.png.png/quality=205/rendition=69027922_laschet_soeder_43.png/size=220x165.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_dr_pop_1_1_ohne_radioeins-logo.png.png/quality=205/rendition=podcast_dr_pop_4_3.png/size=220x165.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201408/mar43.jpg.jpg/quality=205/size=220x165.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rbb/rbb24/2021/2021_04/sonstige/corona-neuinfektionen.jpg.jpg/quality=205/size=460x259.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/basics/aktueller_beitrag_aktuell2_16_9.png.png/quality=200/rendition=aktueller_beitrag_aktuell2_1_1.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/Viele-Menschen-mit-Einkaufstaschen-169.jpg.jpg/quality=200/rendition=VieleMenschenmitEinkaufstaschen11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202011/maskenpflicht_potsdam_169.png.png/quality=200/rendition=maskenpflicht_potsdam_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201906/altbau_169.png.png/quality=200/rendition=altbau_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/imago0091380667h.png.png/quality=200/rendition=imago0091380667h11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201503/junge55.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/Bastelbande16x9.jpg.jpg/quality=200/rendition=Bastelbande1x1.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/wirecard_169.png.png/quality=200/rendition=wirecard_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/r1/2017/haeuser_11.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202102/einhundert-1x1.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_tiere_streicheln_menschen1_1.png.png/quality=200/rendition=ard.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/test6.png.png/quality=200/rendition=test11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202102/0087859698h_kind_traurig_169.png.png/quality=200/rendition=0087859698h_kind_traurig_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/reifen-rad-pumpe-169.jpg.jpg/quality=200/rendition=reifenradpumpe11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202006/65714424_wirecard_169.png.png/quality=200/rendition=65714424_wirecard_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201906/altbau1_169.png.png/quality=200/rendition=altbau1_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202002/97279598h_laschet_169.png.png/quality=200/rendition=97279598h_laschet_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/bermudadreieck.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_stimmts_1_1.png.png/quality=200/rendition=ard.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/219296170.png.png/quality=200/rendition=21929617011.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/Bertolt-Brecht-und-Helen-Weigel-169.jpg.jpg/quality=200/rendition=BertoltBrechtundHelenWeigel11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/manfred.16x9.jpg.jpg/quality=200/rendition=manfred.1x1.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/personen/m/harald_martenstein.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201707/59627271h_justitia_11.jpg.jpg/quality=200/rendition=59627271h_justitia_1400.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/weiter-himmel-kate-atkinson-cover-169.jpg.jpg/quality=200/rendition=weiterhimmelkateatkinsoncover11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201608/welzer3_11.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/imago0116222358h.png.png/quality=200/rendition=imago0116222358h11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/para.png.png/quality=200/rendition=para11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/The-Rider-Film-DVD-Cover-169.jpg.jpg/quality=200/rendition=TheRiderFilmDVDCover11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201908/82959670h_kippa_169.png.png/quality=200/rendition=82959670h_kippa_11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/berlin_liest_169.png.png/quality=205/size=460x259.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/schroeder_somuncu_podcast_final_1_1.png.png/quality=205/rendition=schroeder_somuncu_podcast_final_16_9.png/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/mai6.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_serdar_somuncu-_1_1.png.png/quality=205/rendition=podcast_serdar_somuncu_16_9.png/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/1_1_neu.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_5vorsex_1_1_.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_thommy_kerstin_t_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/The-End-Jasmin-El-Manhy-169.jpg.jpg/quality=200/rendition=TheEndJasminElManhy11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_flake_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/elekro_beats_1_1_website.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/kuttner_podcast_foto_jochen_saupe_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_ohne_logo_robert_volker_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/201307/sebastian_lehmann.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_12_uhr_mittags_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/soundcheck_podcast_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/greenhouse.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_der_benecke_1_1.png.png/quality=200/rendition=ard.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_bosetti.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/florian_schroeder.jpg.png/quality=200/rendition=podcast_einfach_schroeder.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_dr_pop_1_1_ohne_radioeins-logo.png.png/quality=200/rendition=ard.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/podcast/podcast_spinnst_du_1_11.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202010/podcast_1_1.png.png/quality=200/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/radioeins_podcasts.jpg.jpg/quality=200/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/talk_20210425_169.png.png/quality=205/size=460x259.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/karfreitag_teaser_16_9.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/haare_16_9_teaser.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202101/nenn_mich_nicht_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/sm6.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/schwarze_adler_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/personen/s/Frank-Schaetzing-1.jpg.jpg/quality=205/rendition=FrankSchaetzing9.jpg/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/groenemeyer_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/knut_menschen_sonntag_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/sandmann_42_sauerkraut_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/Jakob-der-L-gner-DEFA-DVD-169.jpg.jpg/quality=205/rendition=JakobderLgnerDEFADVD169.jpg/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/0115618084h_ostern_hase_corona_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/Der-Weg-nach-oben-169.jpg.jpg/quality=205/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/vogel_des_jahres_karko_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/hedwig_richter_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/Lehmann-Lesung-1.jpg.jpg/quality=205/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/satireshow_kalkofe_esken_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/satireshow_karasek_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202102/dr_pop_musikapostel_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202101/bude.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202102/Sandmann_41_Endlich_Zuhause.jpg.jpg/quality=205/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202012/igor1.jpg.jpg/quality=205/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/Viele-Menschen-mit-Einkaufstaschen-169.jpg.jpg/quality=205/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/waterhouse_promenade_169.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/icons/ico-telefonverlosung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/team/Team_sw/Bettina-Koester.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/lea169.jpg.png/quality=200/rendition=ard.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/sendungen/evers169.jpg.jpg/quality=200/rendition=evers11.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202009/sbos.png.png/quality=200/rendition=bosetti11.png/size=140x140.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/veranstaltungen/d/dietmar_wischmeyer6.jpg.jpg/quality=200/rendition=Dietmar%20Wischmeyer%201%20c%20Frank%20Wilde%2011.jpg/size=140x140.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/eventbereich_16_9.png.png/quality=205/rendition=eventbereich_4_3.png/size=220x165.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/12420028-Leitmotiv-12.-BSW_1280x720px.jpg.jpg/quality=205/rendition=12420028Leitmotiv12.BSW_960x720px.jpg/size=220x165.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202103/Selbstvergessen-c_Arno-Declair_169.jpg.jpg/quality=205/rendition=Selbstvergessenc_ArnoDeclair_43.jpg/size=220x165.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202104/Wolfgang-Merkel-2018_10_30_WZB_2931_David-Ausserhofer.jpg.png/quality=205/rendition=WolfgangMerkel43.png/size=220x165.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202102/tippspiel_16_9-imago-images.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202102/der_schoene_sport_16_9-Variante2.png.png/quality=205/size=300x170.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/image_bilder/sport.jpg.jpg/quality=205/rendition=sport_16x9.jpg/size=300x170.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-tippspiel.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-podcast.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-newsletter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/static/rad/social/icons_grey/icon-social-apps.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/vorlagen/slider/_jcr_content/properties/78986.js.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/vorlagen/compressor.combined.js/v=10.5.4/f=js.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/vorlagen/layout/_jcr_content/properties/49431.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/js/fnagel-jquery-ui/themes/base/jquery.ui.core.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/js/fnagel-jquery-ui/themes/base/jquery.ui.theme.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/js/fnagel-jquery-ui/themes/base/jquery.ui.selectmenu.css"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/webfont/b850db31-9043-48a9-9105-f6215999635a-3.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/grafik/rbb-fff.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/grafik/arrow.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/grafik/magnifier-fff.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://loginframe.radioeins.de/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/basics/button-hoeren-hi-text.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/basics/button-hoeren-lo-text.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/icons/btn-boxlink-plist_black.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/basics/bgFooter.gif"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/webfont/13b703c5-ff8a-44ef-ae25-575d6278de27-3.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/webfont/3d6b9143-eb88-4451-80b0-7d05bd58b8a1-3.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1406.xiti.com/hit.xiti?s=549286&s2=8&p=Homepage::Nur%20f%C3%BCr%20Erwachsene&vrn=1&ac=&an=&x1=Nur%20f%C3%BCr%20Erwachsene&x2=%2Fcontent%2Frbb%2Frad%2Fhomepage%2Findex&x3=0&x4=0&x5=20120629&x6=20210420&x7=b8e25d51477d490d8eb1041827b10a96&x8=20&x9=0&x10=normal&x11=1&x12=1&x15=1&x16=&tag=&lng=en-US&idp=1831176559600&jv=0&re=800x600&vtag=4.5.5&hl=18x31x17&r=800x600x24x24&ref="
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/include/rad/nowonair/now_on_air.html?cacheKiller=1618936277893"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/basics/btn-navdot-grey.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/rad/grafik/basics/btn-navdot-orange.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/themen/themenflyout.htm/module=themen_flyout.html"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/programm/stundenplan.htm/module=stundenplan_flyout.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://playlist.funtip.de/playList.do?action=weeklyVotingList&remote=true&jsonp_callback=jQuery224024055918259837483_1618936277097&_=1618936277098"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1406.xiti.com/hit.xiti?s=549286&s2=8&p=Homepage::Nur%20f%C3%BCr%20Erwachsene&vrn=1&ac=&an=&x1=Nur%20f%C3%BCr%20Erwachsene&x2=%2Fcontent%2Frbb%2Frad%2Fhomepage%2Findex&x3=0&x4=0&x5=20120629&x6=20210420&x7=b8e25d51477d490d8eb1041827b10a96&x8=20&x9=0&x10=normal&x11=1&x12=1&x15=1&x16=&tag=&lng=en-US&idp=1831176559600&jv=0&re=800x600&vtag=4.5.5&hl=18x31x17&r=800x600x24x24&ref=&Rdt=On"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/content/dam/rbb/rad/bilder0/202010/Corona-Virus-Aerosole-3D-169.jpg.jpg/quality=200/size=191x107.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/js/playerInitialize-audio.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/js/playerInitialize-video.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?cp=radioeins_rbb&st=rbb&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.radioeins.de&xy=800x600x24&lo=DE%2FBerlin&cb=0014&i2=00141853d88b45d1a607f01d5&ep=1644817547&vr=424&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618936278750&ev=&cs=v35lqw&mo=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://loginframe.radioeins.de/static/css/main.d569eadd.chunk.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://loginframe.radioeins.de/static/js/2.5f344669.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://loginframe.radioeins.de/static/js/main.6985d39b.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/avplayer/src/dist/js/audio.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.radioeins.de/basis/avplayer/src/dist/js/video.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static2.funtip.de/static-img/r1/btn-login-lo.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?cp=radioeins_rbb&st=rbb&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.radioeins.de&xy=800x600x24&lo=DE%2FBerlin&cb=0014&i2=00141853d88b45d1a607f01d5&ep=1644817547&vr=424&id=30n7mb&i3=nocookie&n1=2&dntt=0&lt=1618936278750&ev=&cs=v35lqw&mo=1&sr=71"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://radioeins.de\r",
+  "third_parties": {
+    "fqdns": [
+      "de.ioam.de",
+      "logs1406.xiti.com",
+      "playlist.funtip.de",
+      "script.ioam.de",
+      "static2.funtip.de",
+      "www.rbb-online.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "de.ioam.de",
+      "logs1406.xiti.com"
+    ]
+  }
+}

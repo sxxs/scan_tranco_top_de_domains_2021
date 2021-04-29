@@ -1,0 +1,570 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "vg01.met.vgwort.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "srp",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 23,
+      "value": "041a607db327741e0003"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "vgwort.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.wbs-law.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "de3ccab029c0f8165d603df07866646100eddcc6e7ee386a0ffeb0177cded374",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622185635.0,
+      "not_valid_before": 1614413235.0,
+      "serial_number": 427277637430262898061691178848000266218728,
+      "subject": {
+        "commonName": "wbs-law.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.wbs-law.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://wbs-law.de/",
+    "https://www.wbs-law.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://wbs-law.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/fonts/fira-sans-v8-latin-regular.491b04b1.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/fonts/fira-sans-v8-latin-500.86206664.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/fonts/roboto-v18-latin-regular.bafb105b.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/fonts/roboto-v18-latin-500.de8b7431.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/fonts/roboto-v18-latin-700.cf6613d1.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/cache/min/1/c4f171d6743bd7910051fccc4adce75e.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MB24NH4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/widget/richsnippet.js?u=1RUZlZQZjZ3AiWaZ5RKp0HmA0VGA5ZaZ&v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.24"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/cache/min/1/6be932c9e2562702f38d966f67167f62.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/img/arrow.f1f8ced1.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/img/button-link--white.83b1cc8c.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/img/arrow-right.edd48176.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/plugins/dotsunited-post-view-tracker/js/track.min.js?v=0.1.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/mega-menu.a47ec574.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/mega-menu.fda4d6e8.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/off-canvas-menu.b3532aac.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/off-canvas-menu.3ec67487.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/navbar-menu.16bb9f5e.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/searchbox.b9ca7aad.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/searchbox.8346ce33.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/toc.dffe3f52.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/assets/cta.1eb02541.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/css/widget_landing.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/js/lib/pejquery.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/images/widget/provenexpert_logo_black.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.provenexpert.com/43/1a/99549d4ff83ccab94e040cf186cf/wilde-beuger-solmecke-rechtsanwaelte_medium_1562923652.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/images/icons/recommendations_g.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/images/icons/stars/big.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/images/icons/recommendation_g.png"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/webfonts/titillium_ext_latin/titilliumweb-extralight-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/webfonts/titillium_ext_latin/titilliumweb-semibold-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/webfonts/titillium_ext_latin/titilliumweb-bold-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/webfonts/titillium_ext_latin/titilliumweb-regular-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/webfonts/titillium_ext_latin/titilliumweb-light-webfont.woff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/uploads/2019/06/wbs_header_1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/uploads/2019/06/wbs_header_2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/uploads/2019/06/wbs_header_3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/uploads/2019/06/wbs_header_4.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/img/logos/logo-youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/img/logos/logo-focus.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/img/logos/logo-ksta.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/img/logos/logo-express.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.wbs-law.de/wp-content/themes/wbs-law/img/logos/logo-chip.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://vg01.met.vgwort.de/na/e2c0421e32b54b478d06b5043bdd26ad"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.provenexpert.com/css/google-stars.css"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://vg01.met.vgwort.de/blank.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/main.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api.js?hl=de&render=explicit&ver=5.6.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/bundle.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/mrdLhN7MywkJAAbzddTIjTaM/recaptcha__de.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/05AXjzquX/latest/de.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=05AXjzquX"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=HJI5SmLm7@2.0.4,S1We94i_oZ7@8.2.4,ry0QcNodoWQ@6.4.4,Hysgc4odiZ7@13.6.3,SJwfMvizE@8.1.1,e5N-VRQtT@1.0.0,gkEBFID-V@5.2.2,BJ59EidsWQ@25.5.18,H1Vl5NidjWX@40.15.33,Rl1Us7wXx@2.1.0,ebWOwOVtL@1.0.0,HkocEodjb7@52.10.24,ko1w5PpFl@23.9.9,HkMucNoOjWX@8.4.3"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://wbs-law.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "images.provenexpert.com",
+      "vg01.met.vgwort.de",
+      "www.google.com",
+      "www.googletagmanager.com",
+      "www.gstatic.com",
+      "www.provenexpert.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 26
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 10,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "vg01.met.vgwort.de",
+      "www.googletagmanager.com"
+    ]
+  }
+}

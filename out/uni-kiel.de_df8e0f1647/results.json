@@ -1,0 +1,728 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.uni-kiel.de",
+      "expires": 1652807795,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.2.3912",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "815c3bad97493c40.1618852595."
+    },
+    {
+      "domain": "www.uni-kiel.de",
+      "expires": 1618854394,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.2.3912",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-kiel.de/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "affb35be6d9055e9367957f6225d967b3f268b96682d761ef6c16dd38e2700e8",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 3072,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648438815.0,
+      "not_valid_before": 1614141615.0,
+      "serial_number": 11244692619498363885878427556,
+      "subject": {
+        "commonName": "webcl2top.rz.uni-kiel.de",
+        "countryName": "DE",
+        "localityName": "Kiel",
+        "organizationName": "Christian-Albrechts-Universitaet zu Kiel",
+        "stateOrProvinceName": "Schleswig-Holstein"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-kiel.de/de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-kiel.de/",
+    "http://www.uni-kiel.de/",
+    "https://www.uni-kiel.de/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-kiel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.uni-kiel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1610473610"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3temp/assets/compressed/merged-2d6c35052d71149e9938187df6d7ca9e-5756faeb489609c4b859fa2d38f34048.css?1616068899"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3temp/assets/compressed/jquery.min-993934a1a27eb7a7dfeed6a00ab5d702.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3temp/assets/compressed/merged-a2be138fabba96d9004fc26b6c38e236-748050381cdad2f62ff5125f0a2195c7.js?1616068884"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Logo/cau-norm-DE-lilagrey-rgb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Search/search.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3temp/assets/compressed/merged-2602c7769487c6ca09557a0325ebf580-48660d07da886766c9392b2bcaba3b64.css?1616068884"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Language/germany.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Language/uk.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Icons/lock.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Icons/leichte_sprache_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Icons/dgs_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Language/world.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/d/0/csm_uz-106-01a-libelle-breit_e126551f38.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/d/1/csm_068-brachvogel_5c3234c9d9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/9/f/csm_071-versuchstraeger_foerde_areal_e2bbf190ca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/e/d/csm_06-vaccination2_1929b0e0a6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/f/1/csm_064-Daniela-Berg-slider_eb9b7ebf62.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/c/3/csm_057-netzwerk_70572e1f56.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/e/3/csm_088-E-PICO-1_31f7f631f9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/7/5/csm_fact-fake_542fe3e4c1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/0/0/csm_085-rv-economic-thinking_5a0bdaf057.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/6/4/csm_086-foto-prien-fulda_2a430da251.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/3/1/csm_084-kon-awards-2020_303928bd3c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/e/9/csm_083-feddersen-mbio-authors_ebb81d3b5e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/3/8/csm_082-gogarten-pnas-baboon_7d2c3076bf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/7/d/csm_081-hm-cau-produkte_3c2aa4b781.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/a/f/csm_118-virtual-contacts_6f38b46320.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/8/4/csm_rv-decor-04_f61c7fd03a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/d/a/csm_corona-1e29e97882_2fd91f0cd5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/8/d/csm_076-rv-sprache_6d5e7f1ce2.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/forschung/logos/logo-precision-medicine-in-inflammation.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/forschung/logos/logo-roots.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/forschung/logos/logo-kls-transparenz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/forschung/logos/logo-kinsis-transparenz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/forschung/logos/logo-kms-transparenz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/forschung/logos/logo-human-development-in-landscapes-transparenz.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/theologische-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/juristische-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/medizinische-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/philosophische-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/agrar-und-ernaehrungswissenschaftliche-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/mathematisch-naturwissenschaftliche-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/wirtschafts-und-sozialwissenschaftliche-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/startseite/technische-fakultaet-quer.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/c/a/csm_video-lehramt-in-kiel-studieren-thumbnail_e547e4e4ba.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/5/0/csm_campusplan-gesamt_746935e190.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/logos/spitzensport-rgb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/logos/ar-systemakk-rgb.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/a/c/csm_emas-logo-cau_7621168824.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/logos/hr-exc-rgb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/logos/audit-familiengerechte-hochschule-zertifikat-seit-2002.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/6/d/csm_2012_Siegel-Audit_deutsch_l_6277c1ba33.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/b/5/csm_vielfalt-gestalten-diversity-audit-des-stifterverbandes_2f8604be14.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/5/1/csm_bdv_cf731dab2c.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/8/c/csm_electronics-watch-rgb-1240_31553f203b.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/d/b/csm_Logo_Weltoffene_Hochschulen_gegen_Fremdenfeindlichkeit_479aa8bd51.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/8/8/csm_charta-der-vielfalt-unterzeichnet_da7fc69531.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/logos/aktionsplan-echte-vielfalt.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Images/Logo/cau_searchlayer_fallback.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3temp/assets/compressed/merged-212836cc702beb36aaa65fa74cf51237-aae22c76d7d46be13ef2b3f2b341363b.js?1616068888"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3temp/assets/compressed/merged-71e868331d92c963e73b418e501e888a-0e32cb6a26b993322327a51a0f1ccb63.js?1616068884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://analytics.uv.uni-kiel.de/piwik.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/6/3/csm_nmb0105x_20f2209aa3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/d/6/csm_SECC-motivbild_ce57989bda.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/3/7/csm_geomar-jago-x_70ce067c70.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/f/6/csm_npy4136x_b95135638e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/studium/stud-bn17-sportforum-970-reduced.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/7/6/csm_BEV-009992-reduced_c68b0690ab.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/user_upload/universitaet/baumassnahmen/teaserflaeche-bauportal-zwei-kraene.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/fileadmin/_processed_/2/c/csm_lehre-quer_e06e51af14.jpg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Fonts/urwdin-light.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Fonts/urwdin-medium.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Fonts/urwdin-bold.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Fonts/CAU-Icons/cau-icons.woff?4lacwm"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kiel.de/typo3conf/ext/uni_kiel/Resources/Public/Fonts/urwdin-regular.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://analytics.uv.uni-kiel.de/piwik.php?action_name=Uni%20Kiel%3A%20Christian-Albrechts-Universit%C3%A4t%20zu%20Kiel&idsite=2&rec=1&r=150061&h=19&m=16&s=34&url=https%3A%2F%2Fwww.uni-kiel.de%2Fde%2F&_id=815c3bad97493c40&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=zWDynJ&pf_net=52.54499999955442&pf_srv=53.89500000001135&pf_tfr=17.670000000180153"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "header_value": "report-uri https://csp.rz.uni-kiel.de/report; report-to csp; upgrade-insecure-requests;",
+      "report-to": [
+        "csp"
+      ],
+      "report-uri": [
+        "https://csp.rz.uni-kiel.de/report"
+      ],
+      "upgrade-insecure-requests": []
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=86400",
+      "includeSubDomains": false,
+      "max-age": 86400,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-kiel.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

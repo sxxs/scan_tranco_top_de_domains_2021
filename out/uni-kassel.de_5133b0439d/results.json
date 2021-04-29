@@ -1,0 +1,469 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".uni-kassel.de",
+      "expires": 1618996112.522003,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602.52200293541,
+      "name": "TYID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 13,
+      "value": ".vm173-61"
+    },
+    {
+      "domain": "www.uni-kassel.de",
+      "expires": 1652864912,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.32.d3ae",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 66,
+      "value": "70f034d38682c505.1618909712.1.1618909712.1618909712."
+    },
+    {
+      "domain": "www.uni-kassel.de",
+      "expires": 1618911512,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.32.d3ae",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "1"
+    },
+    {
+      "domain": "univideo.uni-kassel.de",
+      "expires": 1619514512.937962,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612002.9379620552,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 35,
+      "value": "rh2mpusm10iht6no3r7ohc55md"
+    },
+    {
+      "domain": "univideo.uni-kassel.de",
+      "expires": 1619514529.684448,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612019.6844480038,
+      "name": "framework",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 35,
+      "value": "rh2mpusm10iht6no3r7ohc55md"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-kassel.de/uni/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "650e71a372e609639914aa65999368774936a4da6da3b1273c2babdcc6dc2103",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1635944954.0,
+      "not_valid_before": 1601640554.0,
+      "serial_number": 11014155204774756759304392947,
+      "subject": {
+        "commonName": "www.uni-kassel.de",
+        "countryName": "DE",
+        "localityName": "Kassel",
+        "organizationName": "Universitaet Kassel",
+        "organizationalUnitName": "IT Servicezentrum",
+        "stateOrProvinceName": "Hessen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-kassel.de/uni/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-kassel.de/",
+    "http://www.uni-kassel.de/",
+    "http://www.uni-kassel.de/uni/",
+    "https://www.uni-kassel.de/uni/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-kassel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.uni-kassel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.uni-kassel.de/uni/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/typo3conf/ext/uk_persons/Resources/Public/Css/common.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/resources/images/logo/logo-main.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=26748&token=934e6c577009fb37bd0409163afeb227f32df7f0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=26741&token=e5b85b049ab61f62710eefd466a7675be04ffcca"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=26735&token=0a2b7581a87de86dddbbd29362e26d6cf2d04a41"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=47347&token=895771fc380af523806f307dec25171fb86bb889"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=50691&token=f049790745225a22a78581144c61d22a222c2338"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=50301&token=8e17cd0c0f1eb0c9783b8e6fdebcc823e0ebf6e7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=48774&token=90b522849dc8d4e5e7f1bd3e1875dbdc40242ede"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=7425&token=30a1fbecdfb52016a6535b18320eed102f076b20"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=50248&token=6cfeb011571bccf15b866f4c6522e4ee0ad1e588"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=49819&token=bb41f93182d53ab90f244f678ad9682f0b9cc758"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=49541&token=c38b6e2cb03a670dd4f5d9feb844fd022bce3e2e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=44745&token=06fe60caa62c6d295f0e7ac3cf1c4bfa74f11aa4"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=49397&token=4a528772552b4fbdb8cce62c3469a9be12623b1e"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=48982&token=d91f98edb62b26f64784168f003622e4caafb5c3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=48727&token=0f80e2b4b6792a20a313f0a20b8531697b19d05f"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/index.php?eID=dumpFile&t=p&p=49910&token=905b1b245b40d014d77299b40977bd28c05a6177"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/resources/images/sprite.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/media/embed?key=ed09425ca8e3fcf5eec583ed53257d6b&t=0&width=0&height=0&autoplay=false&responsive=false&related=false&loop=false&loadonclick=true&thumb=true"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/bootstrap/dist/js/uk.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/typo3conf/ext/uk_persons/Resources/Public/JavaScript/common.js"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/bootstrap/resources/fonts/roboto-bold.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/bootstrap/resources/fonts/roboto-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/bootstrap/resources/fonts/roboto-medium.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-kassel.de/uni/fileadmin/sys/bootstrap/resources/fonts/roboto-light.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats1.uni-kassel.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats1.uni-kassel.de/piwik/piwik.php?action_name=Uni%20Kassel&idsite=32&rec=1&r=324406&h=11&m=8&s=32&url=https%3A%2F%2Fwww.uni-kassel.de%2Funi%2F&_id=70f034d38682c505&_idts=1618909712&_idvc=1&_idn=0&_refts=0&_viewts=1618909712&send_image=1&cookie=1&res=800x600&gt_ms=1378&pv_id=ntP9uq"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/cache/14d3e7b45d7aadeb272bcabc5f63be7c.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/css/webplayerEmbed.css?app=frontend&env=prod&debug=false&version=4.3.3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/css/main-changes.css?app=frontend&env=prod&debug=false&version=4.3.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/js/jquery.js?app=frontend&env=prod&debug=false&version=4.3.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/js/jquery.ui.js?app=frontend&env=prod&debug=false&version=4.3.3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://univideo.uni-kassel.de/images/player_icons.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-kassel.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

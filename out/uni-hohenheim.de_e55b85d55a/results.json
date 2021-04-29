@@ -1,0 +1,415 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".uni-hohenheim.de",
+      "expires": 1681990868,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1822654819.1618918869"
+    },
+    {
+      "domain": ".uni-hohenheim.de",
+      "expires": 1619005268,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.2134297980.1618918869"
+    },
+    {
+      "domain": ".uni-hohenheim.de",
+      "expires": 1618918928,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_dc_gtm_UA-344131-5",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 20,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-hohenheim.de/en",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "gtm2",
+        "tracking_id": "UA-344131-5"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e86e07fc7de6a358f9000a36d1dfaa44e16dd5c20d1e1438527bdb02a0a1c668",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1627034400.0,
+      "not_valid_before": 1556056800.0,
+      "serial_number": 14770630144882226439129413477484729473,
+      "subject": {
+        "commonName": "*.uni-hohenheim.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-hohenheim.de/en/business-contacts-fundraising",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-hohenheim.de/",
+    "https://uni-hohenheim.de/",
+    "https://www.uni-hohenheim.de/",
+    "https://www.uni-hohenheim.de/en"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-hohenheim.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uni-hohenheim.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/en"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/assets/Layout/css/layout.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/assets/Layout/js/head/head.min.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/typo3conf/ext/uni_layout/Resources/Public/Images/uni-logo-en.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/studienangebot-agrar.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/studienangebot-natur.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/studienangebot-wirtschaft.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_processed_/csm_Teaser_EN_New-Degree-Programs_9a6fe9463d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_processed_/csm_Teaser_EN_study-opportunities_13c0bf99bd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_processed_/csm_Get_to_know_Hohenheim_77d4cc2370.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_processed_/csm_Get_to_know_Hohenheim-mobile_2a9eb7fe32.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Aktuelles/Corona-Krise/corona-keyvisual-banner-startseite.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_processed_/csm_corona-keyvisual-banner-oben_d45ea9f523.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/uploads/tx_topicteaser2/TT_pic_f6fb63a50520210202091200_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/uploads/tx_topicteaser2/TT_Streuobstwiesen-Roboter_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/uploads/tx_topicteaser2/TT_HRStud2Techn_030_Untermann_02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_migrated/pics/campustour.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/uploads/tx_topicteaser2/TT-Agrarhochschulranking_02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/_processed_/csm_Wissenschaftsjahr-Biooekonomie_EN_bfce885963.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/Profil-Biooekonomie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/Profil-Life-Science.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/Profil-International.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/fileadmin/uni_hohenheim/Startseite/Profil-Familiengerecht.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/assets/Layout/js/body/body.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NQ4LVC"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-hohenheim.de/assets/Layout/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-344131-5&cid=1822654819.1618918869&jid=13053030&gjid=769807571&_gid=2134297980.1618918869&_u=YGBAgAABAAAAAE~&z=1576612833"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&aip=1&a=1152639150&t=pageview&_s=1&dl=https%3A%2F%2Fwww.uni-hohenheim.de%2Fen&dp=%2Fen&ul=en-us&de=UTF-8&dt=University%20of%20Hohenheim%3A%20Study%20and%20research%20in%20Stuttgart&sd=24-bit&sr=800x600&vp=785x585&je=0&_u=YGBAgAAB~&jid=13053030&gjid=769807571&cid=1822654819.1618918869&tid=UA-344131-5&_gid=2134297980.1618918869&gtm=2wg472NQ4LVC&cd1=None&cd2=en&cd3=false&z=1984000298"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubdomains",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-hohenheim.de\r",
+  "third_parties": {
+    "fqdns": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

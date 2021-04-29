@@ -1,0 +1,709 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.haendlerbund.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "903a602381fbee5b4ccffd109d7eb37f",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 64,
+      "value": "316d44c15b895cb3556165c06d85da3b"
+    },
+    {
+      "domain": "consentmanager.mgr.consensu.org",
+      "expires": 1653046326.142973,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135202.142972946,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "www.haendlerbund.de",
+      "expires": 1653046326,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135202,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": ".haendlerbund.de",
+      "expires": 1619004726,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "__cmpcvcx12903",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 26,
+      "value": "__s23_s905__"
+    },
+    {
+      "domain": ".haendlerbund.de",
+      "expires": 1619004726,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "__cmpcpcx12903",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 19,
+      "value": "__2__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621510326.339249,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.3392488956,
+      "name": "__cmpconsentx12903",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 18,
+      "value": ""
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621510326.339295,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.3392949104,
+      "name": "__cmpcvcx12903",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 26,
+      "value": "__s23_s905__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621510326.339315,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.3393149376,
+      "name": "__cmpcpcx12903",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 19,
+      "value": "__2__"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 4,
+    "third_party_short": 0,
+    "trackers": [
+      "consensu.org"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.haendlerbund.de/de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2c0d592d32255ca2583580230678a45e46817b33446ebef49d3b1af96f35929a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust EV RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1631095200.0,
+      "not_valid_before": 1562796000.0,
+      "serial_number": 19562620823434300985624040093253416759,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.haendlerbund.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Leipzig",
+        "jurisdictionStateOrProvinceName": "Saxony",
+        "localityName": "Leipzig",
+        "organizationName": "H\u00e4ndlerbund Management AG",
+        "organizationalUnitName": "IT",
+        "serialNumber": "HRB 26667"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.haendlerbund.de/de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://haendlerbund.de/",
+    "https://www.haendlerbund.de/de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://haendlerbund.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/templates/haendlerbundtemplate/dist/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de//templates/haendlerbundtemplate/dist/main.7405777e11503c0314c8.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/media/mod_languages/css/template.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/media/jui/js/jquery.min.js?93d5664f3634707c80bdafe21c4554f7"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de//templates/haendlerbundtemplate/dist/main.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/templates/haendlerbundtemplate/images/logo/haendlerbund-logo-white.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/media/mod_languages/images/en.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/telephone.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WJ5ZBQJ"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/templates/haendlerbundtemplate/images/logo/haendlerbund-logo.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/ICON_hoerer.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/home.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/content/haendlerbund-mitgliedschaftspakete-vorschau.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/logos/hblogo-klein.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/rechtstexte-service.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/abmahnvertretung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/rechtsberatung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/shop-tiefenpruefung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/kaeufersiegels.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/shopauskunft/shopauskunft-kundenbewertung-startseite.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/amazon-kontosperrungen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/content/startseite/local-paket.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/arrow-top.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/icons/twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/icons/facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/icons/xing.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/icons/youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/icons/instagram.png?v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/icons/linkedin.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/de/images/logos/ohn-logo-white.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.calendly.com/assets/external/widget.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.calendly.com/assets/external/widget.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de//templates/haendlerbundtemplate/dist/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/home-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/check-green20.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/arrow-blue-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/arrow-up.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/arrow-down.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/twitter-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/youtube-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/xing-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/facebook-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/icons/gplus-hover.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/login-hg.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haendlerbund.de/images/kontakt-hg.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=12903&h=https%3A%2F%2Fwww.haendlerbund.de%2Fde&&l=en&o=1618918326045"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?__cmpcc=1&id=12903&o=1618918326&h=https%3A%2F%2Fwww.haendlerbund.de%2Fde&&l=en&odw=0&dlt=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfMTI5MDMuZF81NTQ4LnhfMzkudi50XzU1NDg.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/recall/recall_shield.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=12903&did=1&cfdid=1&t=pv.d_ncs.d_ancs.d_bncs&h=https%3A%2F%2Fwww.haendlerbund.de%2Fde&o=1618918326251&l=EN&lv=0&d=1&ct=14&e=&e2=&e3=&i=&sv=12&dv=39&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=12903&did=1&cfdid=1&t=cv&h=https%3A%2F%2Fwww.haendlerbund.de%2Fde&o=1618918326252&l=EN&lv=0&d=1&ct=14&e=&e2=&e3=&i=&sv=12&dv=39&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=12903&p=2&v=4&cvc=_s23_s905_&cpc=_2_&c=&l=EN&lv=0&d=1&ct=0&e=&h=https%3A%2F%2Fwww.haendlerbund.de%2Fde&e2=&e3=&i=&sv=12&dv=39&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/img/logo1591177207x9983.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/logo-hb-dark.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/flags/en.gif"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://haendlerbund.de\r",
+  "third_parties": {
+    "fqdns": [
+      "assets.calendly.com",
+      "cdn.consentmanager.mgr.consensu.org",
+      "cdnjs.cloudflare.com",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 20
+  },
+  "tracking": {
+    "num_tracker_cookies": 4,
+    "num_tracker_requests": 14,
+    "trackers": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ]
+  }
+}

@@ -1,0 +1,919 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.vzbv.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "has_js",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 7,
+      "value": "1"
+    },
+    {
+      "domain": "www.vzbv.de",
+      "expires": 1619017135,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "www-vzbv-de-eu-cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 22,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.vzbv.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "7d833ddfd893e0bbc44ee85693313d34aedcaa00b6f12935b701efe2eb533e42",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign RSA OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1643374980.0,
+      "not_valid_before": 1580216580.0,
+      "serial_number": 34322347221929703644736223603,
+      "subject": {
+        "commonName": "*.vzbv.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Verbraucherzentrale Bundesverband e.V. (vzbv)",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.vzbv.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://vzbv.de/",
+    "http://www.vzbv.de/",
+    "https://www.vzbv.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://vzbv.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.vzbv.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/system/system.base.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/system/system.menus.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/system/system.messages.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/system/system.theme.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.tabs.min.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/aggregator/aggregator.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/ajax_links_api/ajax_links_api.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/date/date_api/date.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/field/theme/field.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/fitvids/fitvids.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/footer_sitemap/footer_sitemap.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/node/node.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/search/search.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/modules/user/user.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/views/css/views.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/flickr.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/flickr_cc_icons_on_hover.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/flickr_cc_icons.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle_rounded.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle_shadow.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle_border.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle_caption_shadow.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle_nostyle.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/flickr/style/css/flickrstyle_big.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/ckeditor/css/ckeditor.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/ctools/css/ctools.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/panels/css/panels.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/panels/plugins/layouts/onecol/onecol.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/packages/font-awesome-4.1.0/css/font-awesome.min.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/open_framework/css/open_framework.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/stylesheets/bootstrap.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/stylesheets/override.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/open_framework/css/open_framework_print.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/css/new/print.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/css/style.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/stylesheets/steffen.overrides.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/css/vergaben.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/css/mmm.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/stylesheets/owl.carousel.min.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/css/new/main.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/css/bconnect.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/cookie_banner/css/cookie_banner.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/css_injector/css_injector_2.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/css_injector/css_injector_4.css?qrudo1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/css_injector/css_injector_5.css?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/misc/jquery-extend-3.4.0.js?v=1.7.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.7.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/misc/jquery.once.js?v=1.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/misc/drupal.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/libraries/fitvids/jquery.fitvids.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/libraries/jquery.bxslider/jquery.bxslider.min.js?v=4.1.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.10.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.tabs.min.js?v=1.10.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_ui_filter/jquery_ui_filter.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/ajax_links_api/ajax_links_api.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/fitvids/fitvids.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/languages/de_F-EZrEPuE2uvC5ix6WJhE1DFmxj9fM3pZ1UkYuW0s60.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_ui_filter/accordion/jquery_ui_filter_accordion.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/jquery_ui_filter/tabs/jquery_ui_filter_tabs.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/cookie_banner/js/cookie_banner.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/modules/contrib/views_bootstrap/js/views-bootstrap-carousel.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/open_framework/js/open_framework.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/open_framework/js/jquery.placeholder.min.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/transition.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/button.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/alert.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/affix.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/tab.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/collapse.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/bootstrap/carousel.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/jquery.fitvids.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/owl.carousel.min.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/jquery.matchHeight.min.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/script.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/js/vzbv_search.js?qrudo1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/logo-mobile.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage_carousel_content/public/images/2021/04/20/verbraucherpolitik_mk-photo_fotolia_71115790_m.jpg?itok=_OeVaWJn"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage_carousel_content/public/images/2021/04/19/versicherung_provision_vertrag_sebra-fotolia.jpg?itok=oQT31b9C"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage_carousel_content/public/images/2020/03/17/gesundheit_desinfektion_haende_mitiu_adobestock_100812228.jpeg?itok=QFgI2fg_"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/featured/public/images/2021/04/20/verbraucherpolitik_mk-photo_fotolia_71115790_m.jpg?itok=gETYpJWw"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/featured/public/images/2021/04/19/versicherung_provision_vertrag_sebra-fotolia.jpg?itok=YfdvTYgo"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/featured/public/images/2020/03/17/gesundheit_desinfektion_haende_mitiu_adobestock_100812228.jpeg?itok=5Bv6DfIY"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage/public/images/2021/04/16/online_shop_andrey_popov_adobestock_187853777.jpeg?itok=TtoFIXQ7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage/public/images/2021/04/15/recht-online_dating-fotolia_georgejmclittle_93184119.jpg?itok=lBsbUCsH"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage/public/images/2021/04/16/e-bike_elektro_fahrrad_halfpoint_adobestock_250060638.jpeg?itok=yL8dWQsq"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/frontpage/public/images/2021/04/16/energieeffizienz_wohnen-gebaeudesanierung-fotolia-juergen_faelchle.jpg?itok=LjOE5qV6"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/images/Twitter_logo_blue_small.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/images/YouTube-icon-full_color-small.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/images/feed-icon-28x28.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/styles/tweetprofile/public/tweet-feed-profile-image/f3b45ceff6ce46c71cb177590409e379.jpg?itok=ePOP31ex"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/default/files/js_injector/js_injector_3.js?qrudo1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://auswertung.vzbv.de/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/misc/menu-leaf.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/misc/menu-expanded.png"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/fonts/icomoon.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/fonts/font-awesome-5/webfonts/fa-solid-900.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.vzbv.de/sites/all/themes/vzbv_of/fonts/merriweather/merriweather-sans-v8-latin-700.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://auswertung.vzbv.de/piwik.php?action_name=Die%20starke%20Stimme%20der%20Verbraucher%20%7C%20VZBV&idsite=21&rec=1&r=033452&h=16&m=58&s=56&url=https%3A%2F%2Fwww.vzbv.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=JhW8Dr&fa_pv=1&fa_fp[0][fa_vid]=zuCs5l&fa_fp[0][fa_id]=search-api-page-search-form-sitewide-search&fa_fp[0][fa_fv]=1&fa_fp[1][fa_vid]=ZLzG06&fa_fp[1][fa_id]=search-api-page-search-form-sitewide-search&fa_fp[1][fa_fv]=1&pf_net=60.49999999231659&pf_srv=636.0200000053737&pf_tfr=2.435000002151355"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://auswertung.vzbv.de/plugins/HeatmapSessionRecording/configs.php?idsite=21&trackerid=TkUNDi&url=https%3A%2F%2Fwww.vzbv.de%2F"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://vzbv.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

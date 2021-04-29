@@ -1,0 +1,643 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.hu-berlin.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "I18N_LANGUAGE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 17,
+      "value": "\"de\""
+    },
+    {
+      "domain": "www.hu-berlin.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "fullscreenMode",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 14,
+      "value": ""
+    },
+    {
+      "domain": "www.hu-berlin.de",
+      "expires": 1652805953,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.6.0f52",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "ac9193fd3531e7c0.1618850753."
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hu-berlin.de/de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "79156d4391cca8238626e0b84a7a478315e10254515bb53b0bafda835c25807f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1647427040.0,
+      "not_valid_before": 1613126240.0,
+      "serial_number": 11225962188615549330073629433,
+      "subject": {
+        "commonName": "www.hu-berlin.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Humboldt-Universitaet zu Berlin",
+        "organizationalUnitName": "Computer- und Medienservice",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hu-berlin.de/de/hu/impressum/datenschutzerklaerung",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.8.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hu-berlin.de/",
+    "http://www.hu-berlin.de/",
+    "https://www.hu-berlin.de/",
+    "https://www.hu-berlin.de/de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hu-berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.hu-berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/++resource++collective.lazysizes/lazysizes-19a41de.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/base-cachekey-10441aa4f2d4aa5744a4638ccb4331a9.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcecollective.flowplayer.cssflowplayer-cachekey-7c63ee45b97d169ff47b9dd919ddad5f.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.newsfolder.stylesheetshu_newsfolder-cachekey-1bc4c2696daa3e538489300ef71196b0.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourceplone.formwidget.recurrencejquery.recurrenceinput-cachekey-af8969ed3c66308447f6a8d52216d307.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/SimpleBlogCSS-cachekey-eced1b1a0308a6c53c94757f4c7f9c1c.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourceeasySlider-cachekey-b9e18d0c942fbeb339f5eb671447e292.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourceeasyslider-portlet-cachekey-89b9cdc2bbadf92f128ef047613dae8f.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcejquery-ui-autocomplete.themejquery.ui.all-cachekey-32747c44538be5e82b59c48142575b61.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourceplone.formwidget.querystring.querywidget-cachekey-c983f63e4a75b27782df2dddc46fbcaf.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/themehumboldt.theme.diazocolors-cachekey-85b0345354df5bdd12f04672ca396f9e.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.theme.stylesprint-cachekey-9305ad4e69d3186855c213383e061dff.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.NewsSystemhu_newssystem-cachekey-4a335ffb6387c4f7b96a447541fea83a.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.logomobile-cachekey-0d79559dca9224e3daa77e363eeaca1d.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.protocolhu_Protocol_styles-cachekey-392baabb00ec774264589cadac57e66b.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.frontpageslider.cssjquery.bxslider-cachekey-4d79424d97e949180922cd9e12534a45.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/resourcehumboldt.portlet.linklist-cachekey-dfcf6ed025afcaf0068303e7697b3820.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/compiled_styles.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourceplone.app.jquery-cachekey-d72cd62760568a0d41a415f974007a8e.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourceplone.formwidget.autocompletejquery.autocomplete.min-cachekey-3ca79a474434c114b2f9ba090fddc3ad.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourcecollective.js.colorpicker.jseye-cachekey-dbc19bc55a7582ed5239cf44a2733b3b.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourcejsi18n-cachekey-b397ac40fed913250e83d6a3ee2bd150.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/less.min-cachekey-5073b1c61d8be909d9c917bf8e2d3fa2.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/kss-bbb-cachekey-b22772d1baf570844563064732721c36.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourceeasySlider-cachekey-9702d228f8a4f4024312ba5f5613757c.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourceeasyslider-portlet-cachekey-7b0d88ae1e2944020e8c75ca44437746.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourcejquery-ui-autocomplete.min-cachekey-47be290472d3b5a1d51b9eff8b791bc4.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourcehumboldt.theme.javascriptspopupforms-cachekey-b489c510e3f22d089e009f4fe056a13a.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourcehumboldt.theme.menumobile.javascriptsmenu-cachekey-a6fd2077d6d44f72c38ba49e3f8b5a4d.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_javascripts/humboldt/resourcehumboldt.folderimage.folderimage-cachekey-a7f81c06b1fac2d898ae83e9b8c7b920.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/custom.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/++resource++humboldt.logo.Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/++resource++humboldt.logo/logo-mobile.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/@@adapterdownload/humboldt.folderimage.interfaces.IFolderImage/folderimage/FolderImage.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/++resource++humboldt.frontpageslider.js/jquerybxslider/jquery.bxslider.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/slider/slider_images/kosmos-on-air"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/slider/slider_images/ub-lockdown-corona"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/bullet.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/++resource++humboldt.directsearch.submit.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/logos/berlin-university-alliance/@@display-file"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/logos/familiengerechte-hochschule/@@display-file"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/logos/german-u15/@@display-file"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/logos/refugees-welcome/@@display-file"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/logos/weltoffene-hochschule/@@display-file"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/logos/wir-sind-humboldt/@@display-file"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www3.hu-berlin.de/matomo/matomo.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/++resource++humboldt.viewlet.sharelinkmenu.icons/sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/++resource++jquery-ui-themes/sunburst/images/ui-bg_flat_100_ffffff_40x100.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/portal_css/humboldt/++resource++humboldt.frontpageslider/images/bx_loader.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/spinner.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www3.hu-berlin.de/piwik/matomo.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/themen/open-humboldt/@@images/image/HU_FolderImage"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/themen/humboldt-gemeinsam/@@images/image/HU_FolderImage"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/themen/diversitaet-an-der-humboldt-universitaet-zu-berlin/@@images/image/HU_FolderImage"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/nachrichten/april-2021/nr-21415-1/@@images/foto/HU_Teaser"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/nachrichten/april-2021/nr-21419/@@images/foto/HU_Teaser"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/nachrichten/april-2021/nr-21414/@@images/foto/HU_Teaser"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hu-berlin.de/de/pr/nachrichten/april-2021/nr-21413/@@images/foto/HU_Teaser"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://v.hu-berlin.de/crop_image/thumbs/1618471389-thumb.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://v.hu-berlin.de/crop_image/thumbs/1614161668-thumb.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "https:",
+        "data:"
+      ],
+      "header_value": "default-src https: data:; img-src https: 'unsafe-inline' data:; style-src https: 'unsafe-inline'; script-src https: 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests",
+      "img-src": [
+        "https:",
+        "'unsafe-inline'",
+        "data:"
+      ],
+      "script-src": [
+        "https:",
+        "'unsafe-inline'",
+        "'unsafe-eval'"
+      ],
+      "style-src": [
+        "https:",
+        "'unsafe-inline'"
+      ],
+      "upgrade-insecure-requests": []
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63115200; preload",
+      "includeSubDomains": false,
+      "max-age": 63115200,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://hu-berlin.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bmvi.de/DE/Home/home.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "de06b73fa9d99f7a74f8f08e1ea52e43ed6944996b189f5ee9ee1ced5e136ded",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1629842399.0,
+      "not_valid_before": 1597821584.0,
+      "serial_number": 70526022234121764509559196323549933212,
+      "subject": {
+        "commonName": "*.bmvi.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Bundesministerium fuer Verkehr und digitale Infrastruktur",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_CBC",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": "HMAC-SHA1",
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bmvi.de/DE/Home/DE/Meta/Impressum/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.1.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bmvi.de/",
+    "https://www.bmvi.de/",
+    "https://www.bmvi.de/DE/Home/home.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bmvi.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/DE/Home/home.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/cae/static/BMVI/assets/css/main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/Styles/main.css?v=40"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/StyleBundles/map_css.css?v=7"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/Styles/formcss.css?v=17"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/cae/static/BMVI/datepicker/locales/de.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/JavaScript/dynform.js?v=3&nn=12658"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/JavaScript/etrackerCheckBox.js?v=2&nn=12658"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/Images/logo.svg?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/Images/logo.svg?__blob=normal"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Frontend/Styles/formcss_print.css?v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Video/Youtube/StVO-einstimmig-beschlossen-thumbnail.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Video/Youtube/andreas-scheuer-bundestag-jahr-der-schiene-thumbnail.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/WS/wsv-reform.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/G/ladeinfrastruktur.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Dossier/30D/Bilder/30d-jurysitzung.jpg?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/K/taskforce-teaser.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/E/zug-schiene-bruecke.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/K/Autofahrer-unsplash.jpg?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/K/Corona/uebersicht.png?__blob=normal&size=810w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Dossier/Breitbandausbau/Bilder/scheuer-portrait.jpg?__blob=normal&size=108w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/K/Corona/uebersicht.png?__blob=wide&size=480w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/flagge-eu.png?__blob=wide&size=480w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/LF/drohne-im-flug.jpg?__blob=wide&size=480w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Bilder/VerkehrUndMobilitaet/Fahrrad/fahrradfahrerinnen.jpg?__blob=wide&size=480w"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/cae/static/BMVI/assets/js/production.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=HKgDoE"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SiteGlobals/Bilder/header-startseite.jpg?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Dossier/Starke-Schiene/Bilder/starke-schiene-main.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Dossier/Europaeische-Verkehrspolitik/Bilder/header.jpg?__blob=landscape"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/SharedDocs/DE/Dossier/Radverkehr/Bilder/radverkehr-header.jpg?__blob=normal"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=HKgDoE&v=5.0&tc=16189154185159&pagename=__INDEX__Home%2Fhome&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=Sprache-DE%2CKnoten%2C%2FDE%2FHome%2F&cc_url=https%3A%2F%2Fwww.bmvi.de%2FDE%2FHome%2Fhome.html&et_source_url=https%3A%2F%2Fwww.bmvi.de%2FDE%2FHome%2Fhome.html&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&et_bs=1&et_sbscr=0&coid=2d4452c13825be0db5f2ef6b3a1970ab&et_cblk=1&et_cd=www.bmvi.de&dh=LZbrmDOX4Alf9GmAOF02uufrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmvi.de/cae/static/BMVI/assets/css/font.css"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bmvi.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 3
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

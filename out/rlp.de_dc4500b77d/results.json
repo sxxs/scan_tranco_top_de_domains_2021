@@ -1,0 +1,384 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.rlp.de",
+      "expires": 1619513443,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612002,
+      "name": "_pk_id.2.665a",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "6c7b7f8e77ad8053.1618908643.1.1618908643.1618908643."
+    },
+    {
+      "domain": "www.rlp.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_pk_ses.2.665a",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.rlp.de/de/startseite/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "812193485fb428e88f1ea3a10d3a8e05f2633fac5d9681252024a6caef873ddb",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1658872799.0,
+      "not_valid_before": 1595312537.0,
+      "serial_number": 57636245264836057101641399925361495902,
+      "subject": {
+        "commonName": "*.rlp.de",
+        "countryName": "DE",
+        "localityName": "Mainz",
+        "organizationName": "Landesbetrieb Daten und Information",
+        "stateOrProvinceName": "Rheinland-Pfalz"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.rlp.de/de/startseite/de/ueber-rlpde/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://rlp.de/",
+    "https://rlp.de/",
+    "http://www.rlp.de/",
+    "https://www.rlp.de/",
+    "https://www.rlp.de/de/startseite/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://rlp.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://rlp.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.rlp.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/de/startseite/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Stylesheets/Build/screen-split-part-1.css?1615282316"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Stylesheets/Build/screen.css?1615282316"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3temp/assets/css/8093f0f72b.css?1581422944"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3temp/assets/js/9a38f34785.js?1557234227"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Javascript/Build/footerBundle.js?1615282316"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Javascript/Build/solrBundle.js?1615282316"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Stylesheets/Build/print.css?1615282316"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Stylesheets/Build/screen-split-part-1.css?z=919"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Images/bg/header-bg.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Fonts/rlp-icons/rlp-icons.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.rlp.de/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/typo3conf/ext/rlp/Resources/Public/Images/rlp-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/2/e/csm_Slider_Bion_dpa_264d1acd2f.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/7/c/csm_MP_Lichttfenster_Slider_1a74bbe048.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/9/0/csm_Osteransprache_2021_eca32d8a10.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/0/8/csm_MP_Slidertesten_738d82d50f.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/2/d/csm_Corona_virus_highlightbox_c3503a09f7.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/3/f/csm_Logo_1700_Zuschnitt_b13ddf9097.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/7/0/csm_Highlightbox_MP_Testen_ea0df09c16.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/rlp-stk/Bilder/Highlights_2zu1/2_zu_1_Stk_virtuell.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/6/f/csm_Breitbanausbau_05112020ks_2856_a13b21f211.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/2/0/csm_Slider_Respekt._Bitte__08b5cf9d4d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/0/1/csm_RLP_GegenHassundHetze_Keyvi_CMYK_24d934e870.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/5/d/csm_bilanz_pulkowski_start_ec311713a8.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/5/1/csm_1__7__5110433431.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rlp.de/fileadmin/_processed_/4/f/csm_1__8__4132df86a9.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.rlp.de/piwik.php?action_name=Startseite%C2%A0rlp.de&idsite=2&rec=1&r=840596&h=10&m=50&s=43&url=https%3A%2F%2Fwww.rlp.de%2Fde%2Fstartseite%2F&_id=6c7b7f8e77ad8053&_idts=1618908643&_idvc=1&_idn=1&_refts=0&_viewts=1618908643&send_image=1&cookie=1&res=800x600&gt_ms=25&pv_id=sFqRI2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://rlp.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

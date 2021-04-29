@@ -1,0 +1,568 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bundesbank.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "CM_SESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 53,
+      "value": "2925BC457ABD78937F5F7DC3D3E70534.cae-live"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundesbank.de/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "95ec84d0fbaff67a677aa0aa2fa18d5cd37ee0c00224efe7e93b4d1370c21a42",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Extended Validation Class 3 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1634421599.0,
+      "not_valid_before": 1570782460.0,
+      "serial_number": 62661567083300391925544972694548263599,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "www.bundesbank.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Frankfurt (Frankfurt/Main)",
+        "jurisdictionStateOrProvinceName": "Hessen",
+        "localityName": "Frankfurt am Main",
+        "organizationName": "Deutsche Bundesbank",
+        "organizationalUnitName": "Technisches Zertifikat",
+        "serialNumber": "1957-07-26",
+        "stateOrProvinceName": "Hessen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bundesbank.de/de/startseite/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundesbank.de/",
+    "https://bundesbank.de/",
+    "https://www.bundesbank.de//",
+    "https://www.bundesbank.de/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bundesbank.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bundesbank.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de//"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/de/"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/content/766590"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/content/757756"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/css/655862/0/5ecec282a7b97735b3f1e95b543cb4e2/body.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/themes/bbkAdded-757756-160.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/crblob/722082/fbe9fc886f9b3b19c6061783eb0b237a/mL/logo-data.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/themes/bbkAdded-757756-160.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/themes/bbkAdded-766590-36.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=Fmgm9x"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/crblob/781738/bd1f1e67d58de9253d0ca916245013bc/mL/frutigernextw04-regular-woff-data.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/crblob/781746/5326349a2dc72fcf0732fddd074089a4/mL/frutiger-medium-woff-data.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/js/655862/0/77d1f3b7d31a9f8b07ef41b9de449b44/body.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.readspeaker.com/script/10416/webReader/webReader.js?pids=wr&notools=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.readspeaker.com/script/10416/webReader/r/r1299/ReadSpeaker.Styles-Button.css?v=3.3.5.1299"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/de/securityToken"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/860826/ratio16x9/200/112/d4fbf1b2c4163e34dfcddde7b5217cf1/xu/mL/geldmuseum-voegel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/597856/ratio16x9/200/112/89e5aec3e13f21427d5d46cdbbe5331e/xH/SZ/skyline-frankfurt-4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/861362/ratio16x9/200/112/e2f9d75ef967cb07f7124995cf74ba79/sj/mL/webservice.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/614756/ratio16x9/200/112/b356c284a23addded08b13db766b457/Ib/dP/binaerzahlen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/656518/ratio16x9/200/112/3d770dfefc2294c3ff5d47478f837a1d/Dv/KB/zahlungsverkehr-ueberweisungstraeger.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/656380/ratio16x9/200/112/39310cf840e9146396106d851279312a/Dq/eM/presse-konferenz-pruefen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/808150/ratio16x9/200/112/9e4785922f5c7437aa95495f3cae503c/bj/DC/geld-und-geldpolitik-teaser-2019.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/596428/ratio16x9/200/112/f869aa65c7d26d1f902bf260d45d6994/VS/mL/karriere-mitarbeiter-pruefen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/861804/ratio3x2/340/227/ffd774afa70cb93905844afd818adee0/Vp/ca/schweissgeraet.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/864394/ratio3x2/432/288/5004d0a5164afd4020d9acca2abff9c4/Xe/OD/stuehle-leere.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/854274/ratio3x2/432/288/9f03c9e5024131dabbd7bf2a6c2ed572/tk/DC/2020-12-18-weidmann-rede.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/862462/ratio3x2/432/288/e79553d0f4776ae1592427b7f6eb0730/RV/mL/2021-03-21-mauderer-ngfs-bericht.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/656924/ratio16x9/200/112/2ff6e5ad8065bbfe682792ef540064c8/eO/mL/hinweis-telefon.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/758646/ratio16x9/200/112/52da1523f1e9c755fb8ecfb2047fbb71/sK/eM/mauderer-sabine-lebenslauf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/863346/ratio16x9/200/112/208ca78c9a388b9194d76438da0d9e7c/xa/cY/2021-04-01-glaskubus-rostock.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/656262/ratio16x9/200/112/e4a26849da9f3e0ca720148ca6526183/hM/uX/graph-mit-stift.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/860826/ratio16x9/223/125/d4fbf1b2c4163e34dfcddde7b5217cf1/Er/mL/geldmuseum-voegel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/860488/ratio16x9/223/125/84fc06aac4ee710257e6f649eaebba2/bk/DC/2021-03-03-geschaeftsbericht-pk-1.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/856024/ratio16x9/223/125/7b1307702f7e1142538d57b30f49151a/Wm/mL/2021-01-13-haushaltsstudie.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/864032/ratio3x2/150/100/e052a4eef2f2395b2bfcff7dfb7c9fcc/uN/mL/afs.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/827754/ratio3x2/150/100/3a6697b21424bc7bd987a153742cc1a1/Zw/zQ/hinweis-coronavirus.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/805446/ratio3x2/150/100/1066e09d0f30d08c3ce8067fe3356c1/bk/ay/baum-gruen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/749812/ratio3x2/466/311/782858417f1d3d5d55109ef393e840ab/he/mL/sondermuenze-bild.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/656038/ratio3x2/466/311/9ba1250855034dc6e689677ce0e20874/qX/mL/oekonomische-bildung-bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/656042/ratio3x2/466/311/f7d0f4fce59882cac0fba86a0147d351/qZ/mL/geldmuseum-bild.jpg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/crblob/1874/7ae02b6e15a0fbe0569f5c6d1ce89bb1/mL/slick-woff-data.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=Fmgm9x&v=5.0&tc=16189105032307&pagename=%2FStartseite&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=Bundesbank%2FDE%2FStartseite&cc_url=https%3A%2F%2Fwww.bundesbank.de%2Fde%2F&et_source_url=https%3A%2F%2Fwww.bundesbank.de%2Fde%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=97043d9d808093f2721b9e7ee48a7dd5&et_cblk=1&et_cd=www.bundesbank.de&dh=SjglDG0VgND8cU2krmXts%2Bfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/862462/ratio3x2/340/227/e79553d0f4776ae1592427b7f6eb0730/uI/mL/2021-03-21-mauderer-ngfs-bericht.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/864394/ratio3x2/340/227/5004d0a5164afd4020d9acca2abff9c4/Jd/OD/stuehle-leere.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesbank.de/resource/image/854274/ratio3x2/340/227/9f03c9e5024131dabbd7bf2a6c2ed572/WX/DC/2020-12-18-weidmann-rede.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "https://api.statistiken.bundesbank.de",
+        "https://bundesbank-http.mescdn.com",
+        "https://*.etracker.de",
+        "https://*.readspeaker.com",
+        "https://*.slidesync.com"
+      ],
+      "default-src": [
+        "'self'",
+        "blob:"
+      ],
+      "font-src": [
+        "'self'",
+        "data:",
+        "https://*.readspeaker.com"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "frame-src": [
+        "'self'",
+        "https://*.readspeaker.com",
+        "https://slidesync.com",
+        "https://www.youtube-nocookie.com",
+        "https://www.podcaster.de"
+      ],
+      "header_value": "connect-src 'self' https://api.statistiken.bundesbank.de https://bundesbank-http.mescdn.com https://*.etracker.de https://*.readspeaker.com https://*.slidesync.com; style-src 'self' 'unsafe-inline' https://assets.slidesync.com https://*.readspeaker.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://assets.slidesync.com https://d3js.org https://*.etracker.com https://*.etracker.de https://*.readspeaker.com blob:; frame-src 'self' https://*.readspeaker.com https://slidesync.com https://www.youtube-nocookie.com https://www.podcaster.de; media-src 'self' https://*.slidesync.com https://bundesbank-http.mescdn.com https://*.readspeaker.com blob: data:; frame-ancestors 'self'; img-src 'self' https://www.bundesbank.de https://www.news.bundesbank.de https://www.hochschule-bundesbank.de https://www.stiftung-geld-und-waehrung.de https://www.supervisory-disclosure.de https://www.ese-initiative.org https://www.euro20plus.de data:; default-src 'self' blob:; font-src 'self' data: https://*.readspeaker.com",
+      "img-src": [
+        "'self'",
+        "https://www.bundesbank.de",
+        "https://www.news.bundesbank.de",
+        "https://www.hochschule-bundesbank.de",
+        "https://www.stiftung-geld-und-waehrung.de",
+        "https://www.supervisory-disclosure.de",
+        "https://www.ese-initiative.org",
+        "https://www.euro20plus.de",
+        "data:"
+      ],
+      "media-src": [
+        "'self'",
+        "https://*.slidesync.com",
+        "https://bundesbank-http.mescdn.com",
+        "https://*.readspeaker.com",
+        "blob:",
+        "data:"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "https://assets.slidesync.com",
+        "https://d3js.org",
+        "https://*.etracker.com",
+        "https://*.etracker.de",
+        "https://*.readspeaker.com",
+        "blob:"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://assets.slidesync.com",
+        "https://*.readspeaker.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=315360000",
+      "includeSubDomains": false,
+      "max-age": 315360000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff,nosniff",
+    "X-Frame-Options": "ALLOW-FROM",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bundesbank.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn1.readspeaker.com",
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

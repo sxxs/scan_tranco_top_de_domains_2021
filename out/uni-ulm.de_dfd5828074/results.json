@@ -1,0 +1,438 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-ulm.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": null,
+      "all_set_js": null,
+      "any_set_js": null,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": false,
+    "trackers": []
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8332877cb36e90cd3fac01751c3ef98182d98c0f87ac49a86feeac7a35d44f95",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1629637722.0,
+      "not_valid_before": 1558444122.0,
+      "serial_number": 10217321612969459493547749400,
+      "subject": {
+        "commonName": "www.uni-ulm.de",
+        "countryName": "DE",
+        "localityName": "Ulm",
+        "organizationName": "Universitaet Ulm",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-ulm.de/rechtliche-hinweise/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.1.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-ulm.de/",
+    "https://www.uni-ulm.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-ulm.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3temp/assets/compressed/merged-886b3716511638d3ec9608555ed4f4e7.css?1618470358"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3temp/assets/compressed/merged-b5545821cac5831d065664a9e652f88f.js?1618470358"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/logo-uni-ulm.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/share.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/google-plus.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/mail.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/print.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/arrow-ghost-top.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/excellence-initiative-create.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/excellence-initiative-share.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/excellence-initiative-apply.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/kebab.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3temp/assets/compressed/merged-3fe0ee5c803876781d84632d97b2e87d.css?1618470358"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/youtube.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/instagram.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/logo_familien_zertifikat_seit_2008.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/logo-weltoffene-hochschule.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3temp/assets/compressed/merged-5fead03499f333bc5665a53697d30e03.js?1618470358"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3temp/assets/compressed/merged-23fd3c7f8a9c4986911c823b05db3767.js?1618470358"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/arrow-right-nightrider.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/arrow-dropdown-whitesmoke.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/magnifier-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/dart-right-mangotango.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/dart-right-balihai.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/dart-right-brown.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/dart-right-white.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Fonts/FiraSans-Bold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Fonts/FiraSans-Regular.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/Lightbox/prev.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/Lightbox/next.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/Lightbox/loading.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/Lightbox/close.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/typo3conf/ext/in2template/Resources/Public/Images/Icons/download-white.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/fileadmin/_processed_/4/5/csm_Videoaufzeichnung_slider_neu3_235c570ecd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/fileadmin/_processed_/b/4/csm_Studierende_0b31c594a4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/fileadmin/_processed_/2/5/csm_Slider_V2-final_05da017f44.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/fileadmin/_processed_/b/f/csm_Slider_The_Social_Engineer_2_1f523e76dd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/fileadmin/_processed_/9/5/csm_Illustration_Matrjoschka_Slider_aus_7efd441962.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-ulm.de/fileadmin/_processed_/1/b/csm_Slider_Batterie_2_75c49f9937.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-ulm.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.google-analytics.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 1
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "www.google-analytics.com"
+    ]
+  }
+}

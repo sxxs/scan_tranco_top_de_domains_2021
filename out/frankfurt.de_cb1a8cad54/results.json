@@ -1,0 +1,560 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "frankfurt.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "qlco0r1ycoyzeml41nvqpw5a"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://frankfurt.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "4cf1932ef8ce78a6d160a218580044230a306ba1eb52f43f80e17889dc9716b6",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "SwissSign Server Gold CA 2014 - G22",
+        "countryName": "CH",
+        "organizationName": "SwissSign AG"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1642599252.0,
+      "not_valid_before": 1611063252.0,
+      "serial_number": 385215533147607701799369023349837941886566190083,
+      "subject": {
+        "commonName": "frankfurt.de",
+        "countryName": "DE",
+        "localityName": "Frankfurt am Main",
+        "organizationName": "Stadt Frankfurt am Main - Amt f. Informations- und Kommun.",
+        "stateOrProvinceName": "Hessen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://frankfurt.de:443/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://frankfurt.de/",
+    "https://frankfurt.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://frankfurt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/styles/default.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/video/mediaelement-and-player.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/video/lang-de.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/video/a11y.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/video/a11y-i18n.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/video/hls.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/styles/webforms.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/js/script.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/fonts/FontAwesome/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/fonts/Roboto/Roboto-Regular.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/fonts/Roboto/Roboto-Light.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/fonts/RobotoCondensed/RobotoCondensed-Regular.TTF"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/fonts/RobotoCondensed/RobotoCondensed-Light.TTF"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/seitenrahmen-neu/keyvis_1208x205_finale.ashx?la=de-de&mw=752&mh=400&hash=2E558D66307706CD8099DD2F69B91AC1BC91801F"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/gesundheit/coronavirus-150x150.ashx?la=de-de&v=1363216351&mw=752&mh=400&hash=59C198D7FCBFA31FC94B3D5D543C192954EC866C"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/gesundheit/impfzentrum_festhalle_corona-1000x563.ashx?la=de-de&v=824572706&mw=752&mh=400&hash=326D9FAD12B7EBBF1D4C4A0D10821D90C692BB28"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/april/kw-15/mainziel-1000x563.ashx?la=de-de&v=824572706&mw=752&mh=400&hash=3404275CE1A67491A97C6843B40763C786710443"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/april/kw-16/teaserbild-reparaturfuehrer-1000x563.ashx?la=de-de&v=824572706&mw=752&mh=400&hash=3245A658DB690D7D26EBDD127E007A8BA0F4C31B"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/april/kw-15/lastenrad-kampagne-1000x563.ashx?la=de-de&v=1595100634&mw=752&mh=400&hash=200AFA4CE7EFD3BC1A0D6C5F9BA4A1C617E4B089"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/museen/mau_innenstadt_historisches-museum_hmf_2_1000x563.ashx?la=de-de&v=1595100634&mw=752&mh=400&hash=37A9AFB3251AE84B3D701DF1A8C91AF421EC5EF2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/april/kw-15/symbolbild-impfen-1000x563.ashx?la=de-de&v=1595100634&mw=752&mh=400&hash=9EF95F7AB1891D339A5F0983BBA52F9D0E37E414"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/april/kw-15/ramadan-dpa-1000x563.ashx?la=de-de&v=1595100634&mw=752&mh=400&hash=C6CF0C5099103AA5868D1381776EBA78D7548379"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/stadtbuecherei/image/projekte/zeusch/zfe-flyer.ashx?la=de-de&v=1595100634&mw=752&mh=400&hash=8BE308A33E1EEF12196BD3428FE5D33560DACDB7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/april/kw-15/roboter-vorleseprojekt-1000x563.ashx?la=de-de&v=1595100634&mw=752&mh=400&hash=82B313972EA3098DBF228E1860735829FBB19C20"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/frankfurt-themen/umwelt-und-gruen/orte/image/gruenguertel/gg_alter_flugplatz/alter_flugplatz_stefan_cop_l1090386.ashx?la=de-de&v=1243728743&mw=752&mh=400&hash=6C45A11A95F883FEBA0FDDC6D56B527C1506524F"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/frankfurt-entdecken-und-erleben/specials/image/fruehlings-special/frankfurt-im-fruehling-1000x563.ashx?la=de-de&v=1243728743&mw=752&mh=400&hash=F250C32216817D88E23D6AA02C3BACEA38473822"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/frankfurt-entdecken-und-erleben/stadtportrait/stadtgeschichte/image/palmengarten-palmenhaus-1960-1000x563.ashx?la=de-de&v=1243728743&mw=752&mh=400&hash=2174BBE6ED430DE3EE365C6538C99E5D49939D64"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/maerz/kw-10/stadtpolizei-1000x563.ashx?la=de-de&v=1243728743&mw=752&mh=400&hash=500DBC5EB212681B832E4164A7044D0E1E310AD8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/palmengarten/palmengarten_sommerflor_1_1000x563.ashx?la=de-de&v=1243728743&mw=752&mh=400&hash=B20D53FDE40E1003240FFE1DD74585A9BA9B8390"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/frankfurt-themen/kultur/baukultur/image/kulturdenkmale/altes-rathaus-bornheim_1000x563.ashx?la=de-de&v=1243728743&mw=752&mh=400&hash=5D36BF68CD22FEF1A5C1A6AC689C536A86BC3786"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/maerz/kw-09/logo-alleinerziehende-1000x563.ashx?la=de-de&v=2014256671&mw=752&mh=400&hash=D132BEC9DD73CF192548589DC7C5EC5EEF425854"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2021/februar/kw-08/bildkombi-tietz-1000x563.ashx?la=de-de&v=2014256671&mw=752&mh=400&hash=A9F7BD223641453BC47CE938DD086832A1A1D72F"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2020/november/kw-45/corona-fragezeichen1000x563.ashx?la=de-de&v=2014256671&mw=752&mh=400&hash=3FFB68C2E71E465770A338B3CC25615186E5B480"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/microsites/microsite-leichte-sprache/image/leichte-sprache/leichtesprache_1000x300.ashx?la=de-de&v=637300952&mw=752&mh=400&hash=764E6B33F90412F315C39F986BD99CF277FF6A52"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/stadtpolitik/oberbuergermeister/image/ob-peter-feldmann-portrait.ashx?la=de-de&v=1826984917&mw=752&mh=400&hash=6EE392B50CDC523379382A9D64695C6B1748127D"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/roemer/mau_innenstadt_roemer_aussenansicht_2_1000x563.ashx?la=de-de&v=1826984917&mw=752&mh=400&hash=EE1101E320094E04D438BA6F278FA072B4DFAADA"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/frankfurt-themen/soziales-und-gesellschaft/ehrenamt-und-stiftungen/image/buergerpreis.ashx?la=de-de&v=1826984917&mw=752&mh=400&hash=D3CC9C2D817A66BF35E65BDA60481FFD75E8EF22"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/skyline/mau_skyline_3_1000x563.ashx?la=de-de&v=862094302&mw=752&mh=400&hash=8BFFABCAFF2886E2E296EEEB94C5469CA27177DC"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/stadtteile/innenstadt/mau_innenstadt_altstadt_goldene-waage_dom_kaiserdom_1_1000x563.ashx?la=de-de&v=862094302&mw=752&mh=400&hash=29C71683E2B2E9DF563456F0CF2A8461924A1852"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/skyline/skyline_luftaufnahme_2014_1_1000x563.ashx?la=de-de&v=862094302&mw=752&mh=400&hash=E04C4738314639BFC3BAE91938B9D7DA15A74196"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/hauptamt-und-stadtmarketing/city--und-stadtteilmarketing/image/citymarketing-ei-gude-buch-2019.ashx?la=de-de&v=862094302&mw=752&mh=400&hash=2AC4F8B063DFBCB1831DA1CF9882E97537BBA150"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/logos/social-icons/facebookicon.ashx?la=de-de&v=323450657&mw=752&mh=400&hash=3E0EE87D9F485522EBB469FDBCA256F243D0CBD5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/logos/social-icons/instagramicon.ashx?la=de-de&v=1093978585&mw=752&mh=400&hash=C5F8438A7873810479A17ECD93F8EE639A5381A1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/logos/social-icons/twittericon.ashx?la=de-de&v=1093978585&mw=752&mh=400&hash=43EC3F3ADE53E29C531D5862AD813E00DD1DB80F"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/logos/social-icons/youtubeicon.ashx?la=de-de&v=1093978585&mw=752&mh=400&hash=E61C21F07915CFB95D161EE2CDF9B61D429BEDFF"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/hauptamt-und-stadtmarketing/referat-fuer-internationale-angelegenheiten/image/happy-birthday-partner-2001-1000x563.ashx?la=de-de&v=1513134622&mw=752&mh=400&hash=5006D58B871C65AB27FA24D783E384BCCB737396"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/aktuelles-meldungen/aktuelles/image/2020/maerz/kw-14/sofa.ashx?la=de-de&v=1932290659&mw=752&mh=400&hash=1D8E21F9D1DCBC1E0F1120BA3196EBE1E15CC5A6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/logos/logo_vielfalt-bewegt_16_9.ashx?la=de-de&v=203963049&mw=752&mh=400&hash=C108EE6D714F105E2D8080358840B8A3000D1A94"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/logos/logo_fairtrade-stadt_1000x563.ashx?la=de-de&v=203963049&mw=752&mh=400&hash=EE7E97E7D465A6FB3C6BAA97A1D5680740E6E726"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/verwaltung/aemter-und-institutionen/strassenverkehrsamt/image/mainziel-logo.ashx?la=de-de&v=974490977&mw=752&mh=400&hash=33252675FE609EC312036F5540FE917C69C5C549"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/service/image/teaserbild-maengelmelder.ashx?la=de-de&v=1745018905&mw=752&mh=400&hash=5F029A6A989ADED15D00D1FE1ED7A90A69B9499F"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/service-und-rathaus/service/image/teaserbild-ideenplattform.ashx?la=de-de&v=1393647014&mw=752&mh=400&hash=FD3EC47202E32A8215980008D4B7211D071D5272"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/microsites/karriere/image/stellenangebote-stadt-up.ashx?la=de-de&v=1393647014&mw=752&mh=400&hash=06A694281B2EBB6E3D623DBA0D9DDF890E6F3145"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/seitenrahmen/footer.ashx?la=de-de&mw=752&mh=400&hash=55631EFBF87284B28B6E0F86C5DA464A5E640FA3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/-/media/frankfurtde/global/image/seitenrahmen/footerlogo.ashx?la=de-de&v=1406399543&mw=752&mh=400&hash=6A050CE1B5C5769DCCB4E15CCF63039A512AED19"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/Assets/img/grab.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/img/teaser-arrow-left.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://frankfurt.de/assets/img/teaser-arrow-right.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=157680000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 157680000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://frankfurt.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

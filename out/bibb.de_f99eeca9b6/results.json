@@ -1,0 +1,545 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".bibb.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "bibbweb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 33,
+      "value": "r3klt3q4osq247kt9h9bec0081"
+    },
+    {
+      "domain": "www.bibb.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 9,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bibb.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "751303395df4bf46a2c941d8d7445f4b511c3fd24ffac38d02066443574be30e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Thawte EV RSA CA G2",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1647989999.0,
+      "not_valid_before": 1615935600.0,
+      "serial_number": 13006745212813397625923018017010354484,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "www.bibb.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Bundesinstitut f\u00fcr Berufsbildung (BIBB)",
+        "serialNumber": "Government Entity",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bibb.de/en/64.php",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bibb.de/",
+    "https://www.bibb.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bibb.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/css/main-bibb.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/system/layout/bibb_logo_en.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/system/layout/bibb_logo_mobile.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/stage/stabpwi_cover_bwp_1_2021_mit_Logo_1600x877.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/stage/AdobeStock_325744540_c_V.R.Murralinath_1600x877.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/stage/AdobeStock_125365465_c_Denys_Rudyi_1600x788.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/stage/stabpwi_cover_bwp_4_2020_1600x877.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/AdobeStock_47039208_c_ehrenberg-bilder_730x399.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/Collage_Testimonials_730x399_icon.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/a35_imove_praxis_maked_haiti_2021_730x399.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/a35_imove_praxis_inside_lernapp_2021.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/unesco-unevoc_study_boosting-gender-equality-in-science-and-technology_730x399px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/Wortwolke_Cooperazione_730x399.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/AdobeStock_114545110_c_nmann77_730x399.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/twitter_Programmbild_730x399.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/iMOVE-SuccessStories_Mobility_EN_2020.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/a35_imove_successstory_uae_railway_2020.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/iMOVE-Event_IN-BridgingCourses_2020.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/vetnet_konferenz_730x399.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/cover_subsahra_en_730x399.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/Map_730x399.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/Bild_PM-EU.KOMM_730x399.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/A_Teaser_GOV_0480_730x399.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/AdobeStock_188830022_730x399.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/content/Fotolia_122644155_M_c_egokhan_730x399.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/video/YouTube_iMOVE_VET_730x399px.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/video/youtube_GOVET_collage_testimonials_730x399px.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/video/kurzstatements_lebaron_730x399px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/video/youtube_iMOVE_Bridging_Courses_for_India_730x399px.JPG"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/banner/Deqa_Vet.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/banner/Go-VET_210x44.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/banner/i-move.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/banner/recognition-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/images/banner/logo_refernet_52px.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/js/bibb.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/system/library/matomo_bibb_modifications.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/system/layout/topnav.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/system/layout/misc.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/system/layout/headlines.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/images/bg_footer.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/fira-sans-v8-latin-regular.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/fira-sans-v8-latin-500.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/fira-sans-extra-condensed-v3-latin-500.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/fira-sans-v8-latin-700.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/fira-sans-extra-condensed-v3-latin-regular.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/fira-sans-v8-latin-300.woff2"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/fonts/BIBB_Relaunch_2018.ttf"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bibb.de/webassets/bibbworld/images/ajax-loader.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats.bibb.de/stats/piwik.js?_=1618929910930"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats.bibb.de/stats/piwik.php?action_name=Federal%20Institute%20for%20Vocational%20Education%20and%20Training%20(BIBB)%20-%20Germany&idsite=3&rec=1&r=628960&h=16&m=45&s=11&url=https%3A%2F%2Fwww.bibb.de%2F&_id=2b32dd738e6dce91&_idts=1618929912&_idvc=1&_idn=0&_refts=0&_viewts=1618929912&send_image=1&cookie=1&res=800x600&gt_ms=60&pv_id=7TWKid"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats.bibb.de/stats/piwik.php?action_name=Federal%20Institute%20for%20Vocational%20Education%20and%20Training%20(BIBB)%20-%20Germany&idsite=57&rec=1&r=896944&h=16&m=45&s=11&url=https%3A%2F%2Fwww.bibb.de%2F&_id=dcdec03cb4f0b13c&_idts=1618929912&_idvc=1&_idn=0&_refts=0&_viewts=1618929912&send_image=1&cookie=1&res=800x600&gt_ms=60&pv_id=xInZH1"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "https://login.bibb.de",
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "data:",
+        "http://*.bibb.de",
+        "*.bibb.de",
+        "*.youtube.com",
+        "*.youtube.de",
+        "*.youtube-nocookie.com",
+        "*.google.com",
+        "*.googleapis.com",
+        "pbs.twimg.com",
+        "live.serve-u.de"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data: http://*.bibb.de *.bibb.de *.youtube.com *.youtube.de *.youtube-nocookie.com *.google.com *.googleapis.com pbs.twimg.com live.serve-u.de"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16000000; preload;",
+      "includeSubDomains": false,
+      "max-age": 16000000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bibb.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

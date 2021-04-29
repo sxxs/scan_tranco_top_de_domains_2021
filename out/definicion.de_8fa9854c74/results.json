@@ -1,0 +1,350 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".definicion.de",
+      "expires": 1621503346.191756,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599201.19175601,
+      "name": "__cfduid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 51,
+      "value": "df756f0549feef0504b916a590b25d6d31618911346"
+    },
+    {
+      "domain": ".definicion.de",
+      "expires": 1681983346,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1772294010.1618911347"
+    },
+    {
+      "domain": ".definicion.de",
+      "expires": 1618997746,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.1906174910.1618911347"
+    },
+    {
+      "domain": ".definicion.de",
+      "expires": 1618911406,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_gat_gtag_UA_3976327_1",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 23,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://definicion.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": false,
+      "any_set_js": false,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 1
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": false,
+        "name": "gtag_UA_3976327_1",
+        "tracking_id": "UA-3976327-1"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "c0dac1d573316e30dd03e758bcd25a6be39844cb00b09e6b5dbe5af433e28fac",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Cloudflare Inc ECC CA-3",
+        "countryName": "US",
+        "organizationName": "Cloudflare, Inc."
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1634939999.0,
+      "not_valid_before": 1603404000.0,
+      "serial_number": 14626379276572489830887457720802575401,
+      "subject": {
+        "commonName": "sni.cloudflaressl.com",
+        "countryName": "US",
+        "localityName": "San Francisco",
+        "organizationName": "Cloudflare, Inc.",
+        "stateOrProvinceName": "CA"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://definicion.de/contactanos",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://definicion.de/",
+    "https://definicion.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://definicion.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/stylenew5.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-3976327-1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/img-marco.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/uploads/2021/04/calefaccion.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/icon-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/icon-copy.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/icon-wp.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/bg-header.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/bg-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/button-orange.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/icon-lupa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/bg-destacado.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/bg-ribbon-destacado.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/bg-space-bottom.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/icon-medal.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/icon-arrow-right.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://definicion.de/wp-content/themes/definicion/images/bg-ribbon-time.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/brawler/v11/xn7gYHE3xXewAscGggexSg.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1646486515&t=pageview&_s=1&dl=https%3A%2F%2Fdefinicion.de%2F&ul=en-us&de=UTF-8&dt=Definici%C3%B3n.de&sd=24-bit&sr=800x600&vp=785x585&je=0&_u=IEBAAUABAAAAAC~&jid=672111976&gjid=1464714810&cid=1772294010.1618911347&tid=UA-3976327-1&_gid=1906174910.1618911347&_r=1&gtm=2ou472&z=1674070893"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://definicion.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.gstatic.com",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

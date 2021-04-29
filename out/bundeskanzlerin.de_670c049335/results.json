@@ -1,0 +1,724 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bundeskanzlerin.de",
+      "expires": 1621514526,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599202,
+      "name": "CookieConfirmed",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 22,
+      "value": "visible"
+    },
+    {
+      "domain": "www.bundeskanzlerin.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cookie-allow-necessary",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 23,
+      "value": "1"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "YSC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "nuI363LEqRs"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1634474526.703295,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559202.703294992,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "0y5x_KmNhWc"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundeskanzlerin.de/bkin-de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ed35e31f6303689749402331e497be9f5dcf57d7fd4ee7a179efb3c70881ad4c",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Extended Validation Class 3 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1634680799.0,
+      "not_valid_before": 1602666611.0,
+      "serial_number": 71171962130613571803373477534104055455,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "bundeskanzlerin.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Berlin (Charlottenburg)",
+        "jurisdictionStateOrProvinceName": "Berlin",
+        "localityName": "Berlin",
+        "organizationName": "Presse- und Informationsamt der Bundesregierung (BPA)",
+        "organizationalUnitName": "Internetredaktion",
+        "serialNumber": "1949-09-15",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bundeskanzlerin.de/bkin-de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.8.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundeskanzlerin.de/",
+    "https://www.bundeskanzlerin.de/bkin-de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://bundeskanzlerin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/bkin-de"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/styles/visual-58274-2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/styles/screen_v-58272-7.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/styles/print-58262-1.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/styles/screen_sync-58270-2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/jquery-ui-1.8.14.custom-58260-2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/styles/module_datenschutz-1133018-2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/shims/styles/shim-58276-2.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/css/bkin-58258-17.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/js/bkin-58230-30.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/__basic-behaviour-58236-2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/__base-modules-58234-81.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/__enhanced-modules-58238-7.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/__additional_init-58232-6.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/yts/www-widgetapi-58252-2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/shims/combos/25-58254-2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/ajax/libs/swfobject/2.2/swfobject-58256-2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/shims/track-ui-58248-2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/yts/player_api-58250-3.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/themes/bkin/legacyjs/shims/mediaelement-yt-58246-2.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/70470/c2d64e07ac18aad0378a7b02afd392e0/logo-data.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/1134378/9fee4a18b3d6fbbf25fd45734ec4e115/servicesuche-submit-neu-png-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1891270/stage_kanzler/980/550/7f2ef4bbf99fc928bed0881602592b9/yE/2021-04-18-gedaechtniskirche.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890212/stage_kanzler/980/550/6e606a6b61af1442d927b4ec3503fe51/DX/2021-04-16-bkin-btag.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1888506/stage_kanzler/980/550/62a138f7d179c21533b1e5845323a30f/IS/2021-04-12-merkel-hannover-messe-vk.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1888590/stage_kanzler/980/550/e34a4dbaf1c3f99f9fd328824fa2ef7/tT/2021-04-12-tib-ramadan.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1884936/stage_kanzler/980/550/b75cce577a3be9d245334253b1216458/nh/2021-04-01-video-podcast-startbild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1891316/banner_wide/317/178/1771aa76e19ccaa73299998d1743d688/YW/2021-04-18-gedenkveranstaltung-coronapandemie-startbild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1891292/banner/317/211/f132728a487f803c8ff067d0cfa8fc7a/BN/07.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890098/banner/317/211/77d2a2a3cdefe03b89756cdebea54d2b/zE/01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890102/banner/317/211/ebd5a3d7200012026a287397763d9202/Da/02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890108/banner/317/211/511344a070c3f9005351661178af6528/hN/03.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890114/banner/317/211/60da755bf9c9f0b07b90530e391c16fe/bP/04.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890116/banner/317/211/912fe2a8b0dcc0b830da6f19c7d5bb17/YR/05.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890122/banner/317/211/86fa044484fa5a8236e73896ac41edcb/oE/06.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890210/banner/317/211/7295cb2164e8a51c4764b578758a89ff/Vy/07.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890216/banner/317/211/93f1d6d676bae6f3ada770a78d736925/Sb/08.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890218/banner/317/211/4acddc3e83dc1cc39023ed3fe3e98d84/eg/09.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1890378/banner/317/211/cd16f905ded689631588f5f38ea4a548/Yv/10.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1891084/banner/317/211/3974737cb2b177f436fca7dd2a1b6757/MZ/11.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1891086/banner/317/211/d01abcf8ea9860861ae762ae59b46b76/ay/12.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/1760522/banner/317/211/6d69355b9def55778f42fc4d25db2de3/Sr/kampagnenmotiv-de.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/250858/banner/317/211/a9ed6d34df2e85933e05e6d13c95863e/Hf/rundgangimkanzleramt-bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/260174/banner_wide/317/178/b6bffe0571cd3054285f73dcdafcf14a/db/02-breg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/260178/banner_wide/317/178/d1dba69aa55b70d9d495c7fd7e232b08/Qb/03-zeitstrahl-kanzler.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/260202/banner_wide/317/178/982ac0d83ccf7ce5b7c7afc5b4dde220/FB/04-im-portrait.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/260142/banner_wide/317/178/488480d617ed3b3aed1fcc565c136cac/Na/05-film-kanzleramt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/image/260172/banner_wide/317/178/2769b31b4b7666ea0a761420b97b1872/jH/09-youtube-breg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/blob/975272/223288/cc0995e6be841dcdf4bab9ec6a4889f5/logo-wirksam-regieren-oldBanner.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/blob/656734/283328/649f16f30f051e75981fd50bd2379a42/ts-saubere-luft-317x178px-aufladen-oldBanner.jpg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58218/6043df717373d30bc4447571aa41b6ea/bundessansweb-regular-woff-data.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ytimg.com/yts/jsbin/www-widgetapi-vflv4EGJj/www-widgetapi.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58140/37fa2d0304233095a01c44f5c41ba370/languages-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58160/7bf96f4ffda08a53ba7c008c1bb7a6f4/pager-stage-png-data.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58224/1e654f64040d56a1842500f5b77a8ff7/bundesserifweb-regular-woff-data.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58212/46c1b04354d4729dded17c44326e5c64/bundessansweb-bold-woff-data.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ssl.p.jwpcdn.com/player/v/7.12.13/jwpsrv.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ssl.p.jwpcdn.com/player/v/7.12.13/related.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58116/b69fc3e00fe2ab27d03b262536ddb900/box-bg-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58156/4b96399eb2dc852891ca727fff3460eb/pager-content-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58134/e8f2aac9302ca6a08b12ba08543a889b/icon-sprite-2-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58138/ffd032c93c24a07d9167b72606f736c0/icon-sprite-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58182/2267e5c1abb1242483decc02b4fa7dfa/video-overlay-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58112/3de2473e0c1d7bb9ae2c196f829884d2/border-headline-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58174/cdb6a5ce6e777e4c093826318b92571c/teaser-switcher-pager-small-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58194/16c8e12acab113d1936b58ebf717bdd1/sprite-png-data.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://analytics.bundesregierung.de/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/58172/3570a6564b81e0cfab6f32240bf9aae5/stage-play-pause-png-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/crblob/1552286/0b7fc81ea78670aa8da3d65dcdeb9464/cookie-sprite-png-data.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/resource/blob/822020/1884934/86b7cd35bdaaf0638e97433a452192a6/2021-04-01-video-podcast-ut-data.txt?download=1"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ssl.p.jwpcdn.com/player/v/7.12.13/jw-icons.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/player_api"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundeskanzlerin.de/static/css/shim.css"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000 ; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff,nosniff",
+    "X-Frame-Options": "bundesregierung.de",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bundeskanzlerin.de\r",
+  "third_parties": {
+    "fqdns": [
+      "analytics.bundesregierung.de",
+      "s.ytimg.com",
+      "ssl.p.jwpcdn.com",
+      "www.bundesregierung.de",
+      "www.youtube.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "analytics.bundesregierung.de"
+    ]
+  }
+}

@@ -1,0 +1,1436 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.joyn.de",
+      "expires": 1634704334.117158,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15787202.117157936,
+      "name": "JOYN_USER_LOCATION",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 83,
+      "value": "%22avodEnl%3Dtrue%3BsvodEnl%3Dtrue%3BcatCty%3DDE%3BlocCty%3DDE%22"
+    },
+    {
+      "domain": ".joyn.de",
+      "expires": 1650460337,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543205,
+      "name": "ajs_anonymous_id",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 58,
+      "value": "%228ddab72c-1b9c-4cc9-9eb8-45949f5d3b9f%22"
+    },
+    {
+      "domain": ".joyn.de",
+      "expires": 1619017934,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 100802,
+      "name": "last_referrer",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 13,
+      "value": ""
+    },
+    {
+      "domain": "www.joyn.de",
+      "expires": 1634704334.394982,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15787202.3949821,
+      "name": "trackingSessionId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 36,
+      "value": "%221618924334394%22"
+    },
+    {
+      "domain": "www.joyn.de",
+      "expires": 1634704334.544581,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15787202.544580936,
+      "name": "joynUserState",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 72,
+      "value": "%22code%3DA_A%3BsessionLocation%3DDE%3BuserLocation%3DDE%22"
+    },
+    {
+      "domain": ".joyn.de",
+      "expires": 1650481274,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31564142,
+      "name": "ab.storage.deviceId.e908bfca-1449-4ee9-94a9-a5d3f05e01f9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 166,
+      "value": "%7B%22g%22%3A%225601f6db-7807-2b78-2754-6c12c8e9812f%22%2C%22c%22%3A1618924334856%2C%22l%22%3A1618924334856%7D"
+    },
+    {
+      "domain": ".joyn.de",
+      "expires": 1650481274,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31564142,
+      "name": "ab.storage.sessionId.e908bfca-1449-4ee9-94a9-a5d3f05e01f9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 193,
+      "value": "%7B%22g%22%3A%221db0937b-dc21-958c-a9b9-f8d092554fcf%22%2C%22e%22%3A1618924364888%2C%22c%22%3A1618924334853%2C%22l%22%3A1618924334888%7D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 7,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.joyn.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "7729a6e28b8a564c4ccd25f121cf5edaee4769372b5ae3b108bf38377350ddc1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623229843.0,
+      "not_valid_before": 1615457443.0,
+      "serial_number": 362233256226338911930814578263981692112873,
+      "subject": {
+        "commonName": "joyn.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.joyn.de/noheader/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://joyn.de/",
+    "https://joyn.de/",
+    "https://www.joyn.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://joyn.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://joyn.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/fonts/Campton-Bold-1242c568df7d45909e8fab5609a61cab.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/fonts/Campton-Book-a5f253987550f2c115aedc285abc4b80.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/29107295-81a6c466797cd3712d4b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3515-cc37702bdecfff9e5188.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/7557-df019d81cbc0de4c3bd0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/4865-2b04bc57f4526961488e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/479-3092753d91f023adff5f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/1081.6174add768742cc1b88f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/9702-a3defad337eed593c349.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/4926-7dc740674ec247fe6db4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6191-2e40f1a2d7c2dafa834b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3504-e41d89bd1ac8b8625594.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6264.6238d45b71e641ed5855.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/webpack-29355c9ab878c0850d46.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/framework-5384f5a3034623c34976.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/809-58660d18ff3bdd7db729.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3433-388dc868e26e00f65640.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/main-32a2cbcc566d38d8b7b1.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/995-df00ada59b2d9158ef86.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/2813-153ef0d39f6a67109afc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3636-5963922d342b472f688c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/1539-d7a4ead118b186c71b5d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/4824-7f5620c445ec44c79478.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/2757-b88d9e707f48071de0ca.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/pages/_app-2d443b2f945e9cfb13db.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/7234-b382803de886135d1a60.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/8514-b8d8ce2512e918acd257.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/7784-f0daef6dcfbfd1e62c52.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/9410-4051faea3f5acda20af2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6217-daa9203814a15ecf7dad.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3736-7723ac8396a90cc9137f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6255-b5165b0caec277d69356.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/8970-98c58ccf22ee7ca35739.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/8121-1d3d5319188c243a3a0d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/pages/index-78cbe36484ad54075765.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/5.17.0-/_buildManifest.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/5.17.0-/_ssgManifest.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.optimizely.com/datafiles/YK3zVuo12UsvtheRjJayBZ.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://auth.joyn.de/auth/anonymous"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://auth.joyn.de/auth/anonymous"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hello.myfonts.net/count/388848"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/cmp/cmp-joyn-web-slim.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/data/5.17.0-/play/live-tv.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/a56ec45e-88e1a595e3528afaee03.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/7234-b382803de886135d1a60.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/8514-b8d8ce2512e918acd257.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3515-cc37702bdecfff9e5188.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/7557-df019d81cbc0de4c3bd0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/1999-b1ab0761d3cd914ef6ab.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/2631-de466ce83da1112ee658.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/9410-4051faea3f5acda20af2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6217-daa9203814a15ecf7dad.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3736-7723ac8396a90cc9137f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6545-5e55eca444481b9de146.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3751-e0fb6080b3cc86fbc03c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/pages/play/live-tv-854f82f812e52b062cd1.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://vitals.vercel-insights.com/v1/vitals"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=segmentProfileTraits&enable_user_location=true&variables=%7B%22segmentAnonymousId%22%3A%228ddab72c-1b9c-4cc9-9eb8-45949f5d3b9f%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22fd14db852a75b64958008460eddbbe6c60fa7087aa75a3f5b155bec248bc8e6b%22%7D%7D"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://evs.pretzel.joyn.de/cI5TMGOou1/joyn.min.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=segmentProfileTraits&enable_user_location=true&variables=%7B%22segmentAnonymousId%22%3A%228ddab72c-1b9c-4cc9-9eb8-45949f5d3b9f%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22fd14db852a75b64958008460eddbbe6c60fa7087aa75a3f5b155bec248bc8e6b%22%7D%7D"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://vitals.vercel-insights.com/v1/vitals"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=GetMeState&enable_user_location=true&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22e1328332433cfb1d042e373f63a84427afa88c5f2df9d16fbcb75c305012564f%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingPageClient&enable_user_location=true&variables=%7B%22path%22%3A%22%2F%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%222b09b4cda93273f12515f5fb21e030a585f686c46b6273f11f2068133f815b31%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=SubscriptionConfig&enable_user_location=true&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22ea8a3fe014d948957347956bf756cb61f0613afab20da55adec57d6aa07492e6%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=GetMeState&enable_user_location=true&variables=%7B%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22e1328332433cfb1d042e373f63a84427afa88c5f2df9d16fbcb75c305012564f%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingPageClient&enable_user_location=true&variables=%7B%22path%22%3A%22%2F%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%222b09b4cda93273f12515f5fb21e030a585f686c46b6273f11f2068133f815b31%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=SubscriptionConfig&enable_user_location=true&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22ea8a3fe014d948957347956bf756cb61f0613afab20da55adec57d6aa07492e6%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/GXjugz_sV/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/GXjugz_sV/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://middleware.p7s1.io/cmp/v1/vendorlist?key=db65350b11bd14f391bd9435a55cdd91"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=GXjugz_sV"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.pretzel.joyn.de/v1/i"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.pretzel.joyn.de/v1/t"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.appboycdn.com/web-sdk/2.7/appboy.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/1447.0f661401dcb473854740.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6523.da165232bfd2376f6c6e.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/GXjugz_sV/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/GXjugz_sV/latest/de.json"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/fonts/Campton-Book-a5f253987550f2c115aedc285abc4b80.woff"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.fra-01.braze.eu/api/v3/data/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.fontawesome.com/7f85a56ba4.css"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://sdk.fra-01.braze.eu/api/v3/data/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/fonts/Campton-Bold-1242c568df7d45909e8fab5609a61cab.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2IcSrIxD8@1.0.0,2RKzr0kG8@1.0.0,3d_zXyiF3@1.0.0,3oMLZEPWY@2.1.0,458ZXOCa7@1.0.0,4NIAkZsNE@2.2.0,4ltiKspwp@1.0.0,57b0LQPAS@1.0.17,5FP9tjYNG@1.0.0,5LFVxHGKz@6.1.0,64sqiCjqt@1.0.0,6PEQM-sZb@2.1.15,7GYQLDJoj@1.0.0,7M0cXS2pQ@10.6.1,7jBdshciY@1.0.0,7tNwk5fZ9@1.1.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,9Q2qrmB3@7.3.1,9ZR6Dhfyt@1.0.0,9_mINmsAo@1.0.0,AMItrBs0R@1.0.0,BJSN54susZX@6.1.0,BkeKqEjuoZQ@9.3.5,CAh-PzD4@6.3.0,DG6-aLzBO@1.0.0,DswEq9TCs@1.0.1,FZ72hT8fW@2.1.0,F_T7R5yg6@1.0.0,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hlts1i6UQ@1.0.0,IA4SWi27g@1.0.0,IzbZdzMbe@1.0.0,Jy6PlrM3@2.2.0,Kek6HqLTp@1.0.0,KjGuCO5fR@1.0.0,LFB7KaXwd@2.1.0,LNxiCu4IM@2.1.0,LXHJg4kRq@1.0.0,LzUarVPjg@1.0.0,MHGrt2O9A@2.1.0,N13fTqTBN@1.0.0,NjT2ojfFy@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,Pn4vEbJH9@1.0.0,QdbgFythI@1.0.0,QmkqgbGhi@1.1.0,R9wIGhJhM@2.1.0,RkzHS-jLm@2.0.0,Rl5Afmh9a@2.1.0,S1Qe-Pn54@4.2.1,S1kgcNo_j-m@6.2.4,SJXtq4iOoZX@10.4.4,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TxfLuXDLv@1.0.0,V3wuPTpCz@2.1.0,V9qWyLWRp@1.0.0,W-Ep9eMuA@1.0.0,W0wzTGeX_@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XVE-ALy6b@1.0.0,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,ZWsWsfOWx@1.0.0,Z_Opm-uL-@1.0.0,_zVOsAeiE@2.1.0,aDbGF8BGv@1.0.0,apGP5d1vF@1.0.0,bZv7Ew5Wb@1.0.0,bajH6XPe4@2.0.1,cUxCEGhjs@1.0.0,codpeWIqV@4.0.0,d_5HNF7Yc@9.1.2,diHQHT2cJ@1.0.1,droLLWFH0@1.0.0,eNNAqLlq-@1.0.0,eZcGJUfqZ@1.0.0,gHY2exdu@5.2.0,gIaHug97S@1.0.0,hpfYG4q4P@2.1.0,iQKwapw-p@1.0.0,j31lIl5Xp@2.1.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,k4en3lAF3@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,kbKHcT7Rf@1.0.0,ko1w5PpFl@23.10.10,l8dr2miO9@1.0.0,m9SYQUNXe@1.0.0,mCKT4oRIh@1.0.58,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,nF8utBoMZ@1.0.0,oVp4lE7r1@1.0.16,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.58,pXm4-LtxU@3.1.2,qkMgGJxeV@2.1.0,r1EWc4iuj-X@9.4.1,rAffn6LrC@1.0.45,rHZ3j1NRk@1.0.0,rJMsqEj_iZQ@14.6.5,rkqVqNoOib7@4.2.0,s8nQgU9A5@5.1.1,tMw5iWQZ9@1.0.0,taGij17yh@1.0.0,tavJ1OKSj@2.1.0,tshkuwAnf@1.0.0,uJzNEl6Sr@1.0.0,v-L3gor9K@1.0.0,v5qsHjm64@1.0.16,vFJX03YEz@5.1.1,vOiVkAEPQ@1.0.0,w9RyVSEAG@1.0.0,wuZDXU1-P@1.0.0,xcThtDvvy@3.2.1,xie2HfzsK@1.0.0,yNKG8b_l-@1.0.0,yui8ye1r0@2.1.0,zHPuHon9t@1.0.0,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zpjqzQgar@2.1.0,zqWojrT0P@15.7.6,ztvSJZUt2@2.1.15,zxmQPWZts@1.0.0"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2IcSrIxD8@1.0.0,2RKzr0kG8@1.0.0,3d_zXyiF3@1.0.0,3oMLZEPWY@2.1.0,458ZXOCa7@1.0.0,4NIAkZsNE@2.2.0,4ltiKspwp@1.0.0,57b0LQPAS@1.0.17,5FP9tjYNG@1.0.0,5LFVxHGKz@6.1.0,64sqiCjqt@1.0.0,6PEQM-sZb@2.1.15,7GYQLDJoj@1.0.0,7M0cXS2pQ@10.6.1,7jBdshciY@1.0.0,7tNwk5fZ9@1.1.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,9Q2qrmB3@7.3.1,9ZR6Dhfyt@1.0.0,9_mINmsAo@1.0.0,AMItrBs0R@1.0.0,BJSN54susZX@6.1.0,BkeKqEjuoZQ@9.3.5,CAh-PzD4@6.3.0,DG6-aLzBO@1.0.0,DswEq9TCs@1.0.1,FZ72hT8fW@2.1.0,F_T7R5yg6@1.0.0,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hlts1i6UQ@1.0.0,IA4SWi27g@1.0.0,IzbZdzMbe@1.0.0,Jy6PlrM3@2.2.0,Kek6HqLTp@1.0.0,KjGuCO5fR@1.0.0,LFB7KaXwd@2.1.0,LNxiCu4IM@2.1.0,LXHJg4kRq@1.0.0,LzUarVPjg@1.0.0,MHGrt2O9A@2.1.0,N13fTqTBN@1.0.0,NjT2ojfFy@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,Pn4vEbJH9@1.0.0,QdbgFythI@1.0.0,QmkqgbGhi@1.1.0,R9wIGhJhM@2.1.0,RkzHS-jLm@2.0.0,Rl5Afmh9a@2.1.0,S1Qe-Pn54@4.2.1,S1kgcNo_j-m@6.2.4,SJXtq4iOoZX@10.4.4,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TxfLuXDLv@1.0.0,V3wuPTpCz@2.1.0,V9qWyLWRp@1.0.0,W-Ep9eMuA@1.0.0,W0wzTGeX_@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XVE-ALy6b@1.0.0,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,ZWsWsfOWx@1.0.0,Z_Opm-uL-@1.0.0,_zVOsAeiE@2.1.0,aDbGF8BGv@1.0.0,apGP5d1vF@1.0.0,bZv7Ew5Wb@1.0.0,bajH6XPe4@2.0.1,cUxCEGhjs@1.0.0,codpeWIqV@4.0.0,d_5HNF7Yc@9.1.2,diHQHT2cJ@1.0.1,droLLWFH0@1.0.0,eNNAqLlq-@1.0.0,eZcGJUfqZ@1.0.0,gHY2exdu@5.2.0,gIaHug97S@1.0.0,hpfYG4q4P@2.1.0,iQKwapw-p@1.0.0,j31lIl5Xp@2.1.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,k4en3lAF3@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,kbKHcT7Rf@1.0.0,ko1w5PpFl@23.10.10,l8dr2miO9@1.0.0,m9SYQUNXe@1.0.0,mCKT4oRIh@1.0.58,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,nF8utBoMZ@1.0.0,oVp4lE7r1@1.0.16,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.58,pXm4-LtxU@3.1.2,qkMgGJxeV@2.1.0,r1EWc4iuj-X@9.4.1,rAffn6LrC@1.0.45,rHZ3j1NRk@1.0.0,rJMsqEj_iZQ@14.6.5,rkqVqNoOib7@4.2.0,s8nQgU9A5@5.1.1,tMw5iWQZ9@1.0.0,taGij17yh@1.0.0,tavJ1OKSj@2.1.0,tshkuwAnf@1.0.0,uJzNEl6Sr@1.0.0,v-L3gor9K@1.0.0,v5qsHjm64@1.0.16,vFJX03YEz@5.1.1,vOiVkAEPQ@1.0.0,w9RyVSEAG@1.0.0,wuZDXU1-P@1.0.0,xcThtDvvy@3.2.1,xie2HfzsK@1.0.0,yNKG8b_l-@1.0.0,yui8ye1r0@2.1.0,zHPuHon9t@1.0.0,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zpjqzQgar@2.1.0,zqWojrT0P@15.7.6,ztvSJZUt2@2.1.15,zxmQPWZts@1.0.0"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.fra-01.braze.eu/api/v3/content_cards/sync"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://sdk.fra-01.braze.eu/api/v3/content_cards/sync"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/a56ec45e-88e1a595e3528afaee03.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/1999-b1ab0761d3cd914ef6ab.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/2631-de466ce83da1112ee658.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/6545-5e55eca444481b9de146.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3751-e0fb6080b3cc86fbc03c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/pages/play/live-tv-854f82f812e52b062cd1.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/css/42cceef8447a72d91ef7.css"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.12.1/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/0a4ab5beabdc31a4d2b8c9a42c98a22c46ae0a689133368e4a4cc35c5846b56f/analytics"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/0a4ab5beabdc31a4d2b8c9a42c98a22c46ae0a689133368e4a4cc35c5846b56f/analytics"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://logx.optimizely.com/v1/events"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://logx.optimizely.com/v1/events"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.pretzel.joyn.de/v1/p"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/3720.a7928670c3f6e297f48a.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/4668.cf7bdf8c13b7a4c4b1cc.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025678777_series_heroLandscape.jpg/profile:nextgen-web-herolandscapecut-1950x800-q5.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025678777_series_artLogo.png/profile:original.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Das%2BInternat/herolandscape-Das-Internat-Teil1.jpg/profile:nextgen-web-herolandscapecut-1950x800-q5.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Das%2BInternat/artlogo-Das-internat.png/profile:original.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Chernobyl/herolandscape-.jpg/profile:nextgen-web-herolandscapecut-1950x800-q5.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Chernobyl/artlogo-chernobyl-st01.png/profile:original.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025678777_series_heroLandscape.jpg/profile:nextgen-web-herolandscapecut-1950x800.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Das%2BInternat/herolandscape-Das-Internat-Teil1.jpg/profile:nextgen-web-herolandscapecut-1950x800.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Chernobyl/herolandscape-.jpg/profile:nextgen-web-herolandscapecut-1950x800.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Brand/CMS/ProSieben/brand-logo-white-pro-sieben%2B%25281%2529.png/profile:nextgen-web-primary-243x.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Brand/CMS/SAT.1/brand-logo-white-sat-eins%2B%25281%2529.png/profile:nextgen-web-primary-243x.webp"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=WatchNext&enable_user_location=true&variables=%7B%22assetId%22%3A%22d_pcsfj8t98vr%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2235f6a16455932b32419b60c5a89eb544d2de42896795a8ee01b40f7069106f82%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=WatchNext&enable_user_location=true&variables=%7B%22assetId%22%3A%22d_ptzm2qh0gts%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2235f6a16455932b32419b60c5a89eb544d2de42896795a8ee01b40f7069106f82%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=WatchNext&enable_user_location=true&variables=%7B%22assetId%22%3A%22d_p94qz2bcjw3%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2235f6a16455932b32419b60c5a89eb544d2de42896795a8ee01b40f7069106f82%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=WatchNext&enable_user_location=true&variables=%7B%22assetId%22%3A%22d_pcsfj8t98vr%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2235f6a16455932b32419b60c5a89eb544d2de42896795a8ee01b40f7069106f82%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=WatchNext&enable_user_location=true&variables=%7B%22assetId%22%3A%22d_ptzm2qh0gts%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2235f6a16455932b32419b60c5a89eb544d2de42896795a8ee01b40f7069106f82%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=WatchNext&enable_user_location=true&variables=%7B%22assetId%22%3A%22d_p94qz2bcjw3%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%2235f6a16455932b32419b60c5a89eb544d2de42896795a8ee01b40f7069106f82%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingBlocks&enable_user_location=true&variables=%7B%22ids%22%3A%5B%22410%3A85f012cba1799b0439ed88e94bfe1bab%22%2C%22410%3Ae03234780435d3bd9a11fcc8f99c2b0d%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221af31292d7627867a82dd9ed45ede2b08838fa9d47dc76a94f4ff2fed191a467%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingBlocks&enable_user_location=true&variables=%7B%22ids%22%3A%5B%22410%3Aec3705e3b254981f5f2ab9c7a925e48d%22%2C%22410%3Ad50d6f558ab31ad3169c8afa1930f7b3%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221af31292d7627867a82dd9ed45ede2b08838fa9d47dc76a94f4ff2fed191a467%22%7D%7D"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingBlocks&enable_user_location=true&variables=%7B%22ids%22%3A%5B%22410%3A4b1686d423b38af679fb0276be26a228%22%2C%22410%3Ad470c3de9e87d2ce64ea076a92817453%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221af31292d7627867a82dd9ed45ede2b08838fa9d47dc76a94f4ff2fed191a467%22%7D%7D"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/8518.5e366e8056627bf796bd.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/4878.98ce04acd8095f8f49c6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/chunks/9158.eabe58a360d66b76d59d.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingBlocks&enable_user_location=true&variables=%7B%22ids%22%3A%5B%22410%3A85f012cba1799b0439ed88e94bfe1bab%22%2C%22410%3Ae03234780435d3bd9a11fcc8f99c2b0d%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221af31292d7627867a82dd9ed45ede2b08838fa9d47dc76a94f4ff2fed191a467%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingBlocks&enable_user_location=true&variables=%7B%22ids%22%3A%5B%22410%3Aec3705e3b254981f5f2ab9c7a925e48d%22%2C%22410%3Ad50d6f558ab31ad3169c8afa1930f7b3%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221af31292d7627867a82dd9ed45ede2b08838fa9d47dc76a94f4ff2fed191a467%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=LandingBlocks&enable_user_location=true&variables=%7B%22ids%22%3A%5B%22410%3A4b1686d423b38af679fb0276be26a228%22%2C%22410%3Ad470c3de9e87d2ce64ea076a92817453%22%5D%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%221af31292d7627867a82dd9ed45ede2b08838fa9d47dc76a94f4ff2fed191a467%22%7D%7D"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025755740_movie_heroPortrait.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025755740_movie_artLogo.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Chernobyl/heroportrait-.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Chernobyl/artlogo-chernobyl-st01.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025678777_series_heroPortrait.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025678777_series_artLogo.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Brand/CMS/dmax/brand-logo-color-dmax.png/profile:nextgen-web-primary-243x.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-014/DCB500060003100310002_SERIES_heroportrait.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-014/DCB500060003100310002_SERIES_artlogo.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000025720153_series_heroPortrait.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=RecommendationLane&enable_user_location=true&variables=%7B%22blockId%22%3A%22410%3Ab561867d4b0bc0ae701b121f0709f9da%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f68433495cd8b279fca696e68631e05e6aff038bd2ac2fc2486f51cfd44bac34%22%7D%7D"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.joyn.de/graphql?operationName=RecommendationLane&enable_user_location=true&variables=%7B%22blockId%22%3A%22410%3Ab561867d4b0bc0ae701b121f0709f9da%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22f68433495cd8b279fca696e68631e05e6aff038bd2ac2fc2486f51cfd44bac34%22%7D%7D"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyn.de/_next/static/images/LoadingIndicator-1a36c031097afa48448801cffc926b14.gif"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Brand/CMS/joyn/brand-logo-white-joyn%2B%25281%2529.png/profile:nextgen-web-primary-243x.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000023829197_series_heroPortrait.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-015/STVM1000000023829197_series_artLogo.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Germany-s%2Bnext%2BTopmodel/heroportrait-germanys-next-topmodel-by-heidi-klum-st16.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/SharedContent/Series/Germany-s%2Bnext%2BTopmodel/artlogo-germanys-next-topmodel-by-heidi-klum-st16.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-014/DCB501680001100310001_SERIES_heroportrait.jpg/profile:nextgen-web-heroportrait-243x365.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/ing/originals/t-014/DCB501680001100310001_SERIES_artlogo.png/profile:nextgen-web-artlogo-210x86.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Collection%2BLane/AVOD/us-serien/serien-aus-den-usa-update.jpg/profile:nextgen-web-primarycollection-351x351.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Collection%2BLane/AVOD/dating%2Bshows/datingshows_neu.jpg/profile:nextgen-web-primarycollection-351x351.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Collection%2BLane/AVOD/true%2Bcrime/true-crime_neu.jpg/profile:nextgen-web-primarycollection-351x351.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Collection%2BLane/AVOD/paranormal/paranormal.jpg/profile:nextgen-web-primarycollection-351x351.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.joyn.de/cms/var/assets/Content/joyn/Shared/Collection%2BLane/AVOD/kids/kids.jpg/profile:nextgen-web-primarycollection-351x351.webp"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.pretzel.joyn.de/v1/t"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://logx.optimizely.com/v1/events"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://sdk.fra-01.braze.eu/api/v3/data/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://joyn.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cdn.optimizely.com",
+      "cmp.p7s1.io",
+      "graphql.usercentrics.eu",
+      "hello.myfonts.net",
+      "js.appboycdn.com",
+      "logx.optimizely.com",
+      "middleware.p7s1.io",
+      "s.p7s1.io",
+      "sdk.fra-01.braze.eu",
+      "use.fontawesome.com",
+      "vitals.vercel-insights.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 34
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 23,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cdn.optimizely.com",
+      "graphql.usercentrics.eu",
+      "hello.myfonts.net",
+      "js.appboycdn.com",
+      "logx.optimizely.com",
+      "vitals.vercel-insights.com"
+    ]
+  }
+}

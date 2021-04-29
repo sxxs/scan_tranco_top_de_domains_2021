@@ -1,0 +1,657 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "geizhals.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "csrf",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 82,
+      "value": "EAEEC9A4-A1DD-11EB-96B6-F021EF922E30--ce61cc804c3831cc8743853c204b482021c0c5ad"
+    },
+    {
+      "domain": ".geizhals.de",
+      "expires": 1650462007,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 308,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+15%3A40%3A07+GMT%2B0200+(Central+European+Summer+Time)&version=6.10.0&hosts=&consentId=1a1e82c4-58be-418f-bccd-723639fb3532&interactionCount=0&landingPath=https%3A%2F%2Fgeizhals.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CSTACK42%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://geizhals.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "da2d8aa9a81bbc20b2321441f8649883eaf374159dd78b6c354359712771fd6d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "curve": "secp384r1",
+        "size": 384,
+        "type": "ECC"
+      },
+      "not_valid_after": 1622792159.0,
+      "not_valid_before": 1615019759.0,
+      "serial_number": 307735023287256692070009550503738155331630,
+      "subject": {
+        "commonName": "*.geizhals.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://unternehmen.geizhals.at/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://geizhals.de/",
+    "https://geizhals.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://geizhals.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geizhals.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/css_formelements/css_formelements.ghp.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/js_lib_gh/js_lib_gh.ghp.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/geizhals_logo_without_margin.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/settings.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/wechselpilot/wechselpilot_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/flags/at.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/flags/eu.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/flags/de.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/heise-coop.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/25/26/2392526-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/41/22/2344122-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/08/46/2250846-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/64/58/2166458-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/35/36/2263536-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/82/92/1008292-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/49/11/2484911-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/61/98/1546198-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/47/39/1584739-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/71/18/2417118-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/46/43/2374643-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/52/17/2125217-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/63/14/1326314-s0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/38/55/2123855-s0.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/catthumb_services.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/70/20/2477020-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/25/26/2392526-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/25/25/2392525-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/29/72/2382972-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/25/24/2392524-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/45/74/2064574-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/25/27/2392527-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/44/30/2354430-t0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/i/76/11/2487611-t0.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/e_i/aktuell_box_de1618920048.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/gh_app_phone.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/flags/en.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/flags/pl.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/eu_s.gif"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/ca5aa4ac-17c8-456f-9616-c9a0834019fe/ca5aa4ac-17c8-456f-9616-c9a0834019fe.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/css_prodlist_simple/css_prodlist_simple.ghp.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/deferredUtils.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/logininject.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/bgtop.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/svgs/deals-badge-yellow.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/gh_search_drop.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/gh_search.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/deferredUtils.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/b/t10set.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/szmTracker.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/vendors~categorylist-app~comparewidget~gallery~loginbox.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/vendors~categorylist-app~comparewidget.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/comparewidget.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/tooltip/tooltip.ghp_linkedJsDefer.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/comparewidget/comparewidget.ghp_linkedJsDefer.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.10.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/catPageComplist.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/ca5aa4ac-17c8-456f-9616-c9a0834019fe/043c0b8e-c274-4a21-b10a-124faa07bea2/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/googleData.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.10.0/otTCF.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/CompareWidgetBase.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.10.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geizhals.de/?ghpak=autocomplete&type=css&tplparam_jsFetch=1&ts=1618926007484"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geizhals.de/?ghpak=autocomplete&type=html&tplparam_jsFetch=1&ts=1618926007484"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/autocomplete/autocomplete.ghp.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/autocomplete.lazyloader.ghp.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gzhls.at/gsa/_846535751d/ghpak/lazyloader/consent-management.lazyloader.ghp.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'none'"
+      ],
+      "header_value": "frame-ancestors 'none';"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=3600; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 3600,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://geizhals.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com",
+      "gzhls.at"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 67
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 8,
+    "trackers": [
+      "cdn.cookielaw.org"
+    ]
+  }
+}

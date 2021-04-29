@@ -1,0 +1,1015 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.haufe.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 53,
+      "value": "000117DDDAABCBA78BC46005822ED877.liveWorker"
+    },
+    {
+      "domain": "www.haufe.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AWSELB",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 176,
+      "value": "F7B55B990E2453659D5BF3A77A2E7C32EAFC7F33E59EF4F9BDE2EAAE43B11A03C8052BC1434F725362CEF7371793A9E12449E69915BB49D9CAF6C7AE3DE957C0AE6A625B3687B5BE1DF1603FA4BD5F1CA0EC98FCDF"
+    },
+    {
+      "domain": ".haufe.de",
+      "expires": 1626692122,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7783202,
+      "name": "_gcl_au",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 32,
+      "value": "1.1.1501437206.1618916123"
+    },
+    {
+      "domain": ".haufe.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "emos_jcsid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
+      "size": 48,
+      "value": "AXju66CQ4LQKw2rxNNn*WmXTRwFTa4sL:t:1:0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.haufe.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5ecfd2190c039baea71ca1df714a39e1753689a84e5c106b8afe06348c19623e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1633600800.0,
+      "not_valid_before": 1602021600.0,
+      "serial_number": 18611568424121062779261707621782715438,
+      "subject": {
+        "commonName": "haufe.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.haufe.de/impressum_24_312.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://haufe.de/",
+    "https://haufe.de/",
+    "https://www.haufe.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://haufe.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://haufe.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.haufe.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/css/haufe-refactor.e9d42a776.min.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5b5847af0d5f3916bf575722_HaufeLogo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542583_595252a099b56803074f2085_arrow-point-to-right.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542590_59bf9377ac06760001dc2a1b_mobile-nav-icon-person.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5b9a01870c60b7272b69a1a7_5a857eb13aa1e00001eb7361_support.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154258d_59bf9393157a460001f937c7_mobile-nav-icon-mail.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154258e_59bf93a2ac06760001dc2a31_mobile-nav-icon-web.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5bd7130c69d92203eec7f770_phone.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5bd7130c37b7bea036e181e1_mail.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5bd7130cea947d7e2b6160cc_chat.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5bd71eb21291eb14241e8250_Close.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a1fc7579772ff0001463445_gartner-logo%402x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a1fc7409772ff0001463438_bahn-logo%402x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154259e_59c3b8a553c3d600013d9559_596f3670f4db77607ee85944_Allianz_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542562_59d2669bd56e3800010727a8_Swisscom_Restricted_Primary_281-01-p-500.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542528_blue-link-arrow.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542575_58c6ad00c72ece372f4b6be2_haufe%20logo%20weiss.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542524_Twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154251b_Facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542655_5a0305554d0ef80001544477_in.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542654_5a030555bb712b000133bfd2_xing.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a5e17f89629620001d0336c_5a30ebf5c821c50001616392_DigitalTransformer.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ecbbece4843ca39fba3d8c7_eLearning-Award-2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ecbbf95fbdda066c266c041_top-consultants-2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ecbbfa636f72fc14955349d_beste-berater-siegel-2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ecbbfb03648cb4bf04eb5e4_dca-2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ecbbfb836f72fe68f5534f8_brandon-hall-2x.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5a0f2d44a1085a0001542501"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/js/haufe-refactor.8ef778435.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyCK6LQoRqoa93B95f369tktDqGPaK2ZdfI&libraries=places"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cdn.haufe.com/haufe.com/jquery.geocomplete/dist/jquery.geocomplete.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/esw.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/dompurify/1.0.10/purify.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.27/moment-timezone-with-data-10-year-range.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.jsdelivr.net/npm/add-to-calendar-buttons@1.0.0/ouical.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/h8E7zygls/latest/languages.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CInconsolata:400,700"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/h8E7zygls/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=h8E7zygls"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5fe1f4085219fd7c5461303c_haufe-de-home.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a00015425f4_59c3b6387655dc00016f03b7_allianz-reeference.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542612_59c3b5fd1e1932000173958d_deloitte.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542619_59b80f7a96385d00014b473f_warsteiner-img.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a16806f6b2f3a0001d31331_5a0f2d44a1085a000154261e_59d267f183887e000196dd81_.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a00015425f6_59c3b66353c3d600013d93cc_osram-1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ee8be97a06094438f9ec320_1.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5eeb4733614b69b906d6e67c_StudieCorona.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5ed67281a31101a1a3e54bd2_startup-planning-notes-mac-book-7357.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154259c_dot-grid-royal.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154256f_background-stripes.png"
+    },
+    {
+      "mime_type": "application/x-font-otf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154252b_BebasNeue.otf"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542526_haufemerriweathersans.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542523_haufemerriweathersanslt.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5a69a03ab9bd2a0001c6349d_haufemerriweathersanslt-italic.woff"
+    },
+    {
+      "mime_type": "application/x-font-otf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5b5a1385482108884566c466_BebasNeue%20Bold.otf"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542527_haufemerriweather.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.website-files.com/5a0f2d44a1085a0001542501/5a69a03ab80baa0001e0d2f8_haufemerriweathersans-bold.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5fe2041af6b5a32b4f9c90cd_Schmuck%203_100%25.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5fe1fae25219fd93c661426d_Schmuck%201_100%25.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a000154253b_58c7df426de9460f6156a95e_deloitte-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542556_59bfafee157a460001f94a78_warsteiner-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets-global.website-files.com/5a0f2d44a1085a0001542501/5a0f2d44a1085a0001542555_59ba647ef5d7160001eb6c1b_osram-logo.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W3D49R"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WZCQTKF"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWyV9hrIqM.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem6YaGs126MiZpBA-UFUK0Zdc0.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UNirkOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKXGUdhrIqM.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKWiUNhrIqM.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/mem5YaGs126MiZpBA-UN8rsOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v18/memnYaGs126MiZpBA-UFUKW-U9hrIqM.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/inconsolata/v21/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/utils/common.min.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/h8E7zygls/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/h8E7zygls/latest/de.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/esw.min.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/client/liveagent.esw.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.haufe.de/content/econda/emos3.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=9V8bg4D63@9.6.5,BJ59EidsWQ@25.5.22,ByBFq4idoZQ@7.2.2,Db6tG4Q7z@1.1.1,H1Vl5NidjWX@40.15.35,Hko_qNsui-Q@14.4.15,HkocEodjb7@52.10.26,Hkx754i_iWm@8.3.3,JQ2XQxIk@9.6.2,SJXtq4iOoZX@10.4.4,SJwfMvizE@8.1.1,SkPc5EjOsWm@6.1.0,XYQZBUojc@9.5.1,ko1w5PpFl@23.10.10,pMqnvms3Z@2.3.0,r1qWcNoOsW7@6.3.4,rJ99c4oOo-X@7.2.3,rJJjcVouoZ7@8.3.3,rkKt9Vo_j-Q@7.2.0,wGNsI0zJ@7.3.14"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=9V8bg4D63@9.6.5,BJ59EidsWQ@25.5.22,ByBFq4idoZQ@7.2.2,Db6tG4Q7z@1.1.1,H1Vl5NidjWX@40.15.35,Hko_qNsui-Q@14.4.15,HkocEodjb7@52.10.26,Hkx754i_iWm@8.3.3,JQ2XQxIk@9.6.2,SJXtq4iOoZX@10.4.4,SJwfMvizE@8.1.1,SkPc5EjOsWm@6.1.0,XYQZBUojc@9.5.1,ko1w5PpFl@23.10.10,pMqnvms3Z@2.3.0,r1qWcNoOsW7@6.3.4,rJ99c4oOo-X@7.2.3,rJJjcVouoZ7@8.3.3,rkKt9Vo_j-Q@7.2.0,wGNsI0zJ@7.3.14"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.econda-monitor.de/l/0000095b/t/1abb23f6-1997-49f5-bc0f-49f389425cd6?v=4&emrid=AXju66CQFFajJY78InGLV7E5amw2X_R4&emsid=AXju66CQ4LQKw2rxNNn*WmXTRwFTa4sL&emnc=1&emtn=1&emhost=www.haufe.de&tpct=2&prv=2&d=eyJjb250ZW50IjoibmV3LWhhdWZlLWRlLyIsInBhZ2VJZCI6Im5ldy1oYXVmZS1kZS8iLCJzaXRlaWQiOiJoYXVmZS5kZSIsImxhbmdpZCI6IkhhdWZlIiwiY291bnRyeWlkIjoiQ29ycG9yYXRlIiwic3ByYWNoZSI6ImRldXRzY2giLCJsYW5kIjoiQ09NIiwiYnVzaW5lc3N1bml0IjoiQ0NQIiwicmVxdXJsIjoiaHR0cHM6Ly93d3cuaGF1ZmUuZGUvIiwic291cmNlIjoiZGlyZWN0Iiwic3dzaCI6IjgwMHg2MDAiLCJ0eiI6LTIsIm50IjowLCJlbW9zViI6ImM1Ni40Iiwic2Nyb2xsIjpbMCwwLDgwMCw2MDAsMV19Wi8"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/esw.html?parent=https://www.haufe.de/"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/eswFrame.min.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/frame/session.esw.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/frame/broadcast.esw.min.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/frame/chasitor.esw.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.haufe.de/content/cookiebanner/Haufe-Logo-300.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://d.la1-c1-par.salesforceliveagent.com/chat/rest/EmbeddedService/EmbeddedServiceConfig.jsonp?Settings.prefix=EmbeddedService&org_id=00D24000000GyjS&EmbeddedServiceConfig.configName=Haufe_Chat&callback=embedded_svc.liveAgentAPI.handleChatSettings&version=48&EmbeddedServiceConfig.language=de"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/client/invite.esw.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/frame/filetransfer.esw.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://d.la1-c1-par.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?Settings.prefix=Visitor&Settings.buttonIds=[5731o0000008SWQ]&Settings.updateBreadcrumb=1&callback=embedded_svc.liveAgentAPI.connection.handlePing&deployment_id=5721o0000008RjM&org_id=00D24000000GyjS&version=48"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.force.com/embeddedservice/5.0/utils/inert.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://d.la1-c2-fra.salesforceliveagent.com/chat/rest/EmbeddedService/EmbeddedServiceConfig.jsonp?Settings.prefix=EmbeddedService&org_id=00D24000000GyjS&EmbeddedServiceConfig.configName=Haufe_Chat&callback=embedded_svc.liveAgentAPI.handleChatSettings&version=48&EmbeddedServiceConfig.language=de"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://d.la1-c2-fra.salesforceliveagent.com/chat/rest/Visitor/Availability.jsonp?sid=undefined&r=443&Availability.prefix=Visitor&Availability.ids=[5731o0000008SWQ]&callback=embedded_svc.liveAgentAPI.connection.handlePing&deployment_id=5721o0000008RjM&org_id=00D24000000GyjS&version=48"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/10/common.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/10/util.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Fwww.haufe.de%2F&4sAIzaSyCK6LQoRqoa93B95f369tktDqGPaK2ZdfI&callback=_xdc_._myf6fh&key=AIzaSyCK6LQoRqoa93B95f369tktDqGPaK2ZdfI&token=115001"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self'"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://haufe.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "ajax.googleapis.com",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "assets-global.website-files.com",
+      "assets.website-files.com",
+      "cdn.haufe.com",
+      "cdn.jsdelivr.net",
+      "cdnjs.cloudflare.com",
+      "d.la1-c1-par.salesforceliveagent.com",
+      "d.la1-c2-fra.salesforceliveagent.com",
+      "d3e54v103j8qbb.cloudfront.net",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "graphql.usercentrics.eu",
+      "maps.googleapis.com",
+      "service.force.com",
+      "www.econda-monitor.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 109
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 18,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "www.econda-monitor.de",
+      "www.googletagmanager.com"
+    ]
+  }
+}

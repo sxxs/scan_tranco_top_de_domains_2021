@@ -1,0 +1,877 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.freiburg.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/pb",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "969CCA72579129056F415CEC69279CCA"
+    },
+    {
+      "domain": "www.freiburg.de",
+      "expires": 1650459336,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "cb-enabled",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "enabled"
+    },
+    {
+      "domain": "www.freiburg.de",
+      "expires": 1619528137,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612003,
+      "name": "_pk_id.5.18da",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "747d026917649c43.1618923337.1.1618923337.1618923337."
+    },
+    {
+      "domain": "www.freiburg.de",
+      "expires": 1618925136,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.5.18da",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.freiburg.de/pb/,Lde/205243.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "78d3b3f57030bc83cc4a16f15903141af9b512ba4ce1b38574015d51a6abadc1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign RSA OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1632983130.0,
+      "not_valid_before": 1595523496.0,
+      "serial_number": 38625060576660598570393293359,
+      "subject": {
+        "commonName": "*.freiburg.de",
+        "countryName": "DE",
+        "localityName": "Freiburg im Breisgau",
+        "organizationName": "Stadt Freiburg im Breisgau",
+        "organizationalUnitName": "Digitales und IT",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.freiburg.de/pb/224613.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://freiburg.de/",
+    "https://www.freiburg.de/",
+    "https://www.freiburg.de/pb/,Lde/205243.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://freiburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/,Lde/205243.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/jQuery/themes/fr/jquery-ui.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/my_layout_base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/fontawesome/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/overlay.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/superfish_fr.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/custom/js/cookiebar/jquery.cookiebar.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/jQuery/jquery-3.4.1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/jQuery/ui/jquery-ui.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/jQuery/ui/i18n/jquery.ui.datepicker-de.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/data/205243/script/calJQ.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/common/js/functions.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/dvv_func-min-de.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/custom/js/jquery.cookie.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/custom/js/overlay.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/search-autocomplete/autocomplete.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/jQuery/external/hoverIntent/jquery.hoverIntent.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/js/jQuery/external/superfish/js/superfish.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/custom/js/cookiebar/jquery.cookiebar.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/my_layout20.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/home2020d.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/heads/head_startseite.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/master/img/leer8x8.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E246550271/1615776/clickmeet.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-993212356/1527403/coronaportal.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-236455541/1651207/schnelltest.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-210647137/1563571/Freiburg-2020.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1422500275/1019767/button-home.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1157472742/539821/Icons.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1884470867/1603991/icons_service.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1080237332/1603987/termin.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E814788454/1603995/icons_beteiligung.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E812987664/828708/tourism.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1755141251/1702409/GR_Zaehringen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1687852944/1604042/bekanntm.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E398050609/1604026/icons_ris.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-947899015/1604023/statistik.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E664304258/1629133/wahl.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E304431013/205243/205244/539857/538478/538479/start.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-87297377/205243/205244/539857/538483/538484/Granada.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-249525114/205243/205244/539857/927409/927410/GreenCity.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-87628680/205243/205244/539857/1697245/1697246/Finger.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1778116562/1702315/Pooltests%281%29_PS.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E256811919/1114122/FZZC_Logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1894056279/205243/205244/539917/538417/538418/kinderbetreuung.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1820983967/205243/205244/539917/1525248/1525252/schulinfo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-316501932/205243/205244/539917/590157/590158/Engagement.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1970612999/205243/205244/539917/714367/714368/INZeitung-Aktuelle-Ausgabe_66.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-2008943608/1689908/Museen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-63893682/1604902/termin.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-806872766/1699592/Stadtbahnbruecke_PS.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E214737674/1536207/icons_vorhaben.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-589495861/1536211/icons_bplan.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E2109763460/1536215/icons_leerstand.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1857294348/205243/205244/539916/1301708/1301709/Dietenbach_66.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1546213679/205243/205244/539916/1594991/1594992/waldk.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1790203677/205243/205244/539916/640163/640164/stadttunnel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-814533140/205243/205244/539916/1419186/1419187/fnp01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1881902298/1691478/Gaessleflitzer_3_PS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1834563000/205243/205244/539915/905602/905603/schaf_klein.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1777934745/205243/205244/539915/537557/537558/pv.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E436099662/205243/205244/539915/575845/575846/Freiburg-packt-an.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1878153548/205243/205244/539915/1076485/1076486/FreiburgCup_Foto-StadtFreiburg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-1059403430/1701030/Glasfaser.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1082725392/205243/205244/539416/537544/GreenCity.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E420145426/205243/205244/1199710/975687/975688/digit.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-977203607/205243/205244/1199710/763572/763573/gewerbeflaechen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E943359233/205243/205244/1199710/763576/763577/familienfreundlichebetriebe.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E329338361/205243/205244/1199710/763600/763601/GreenCity.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1791606859/1666179/Logo_Youtube.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E273702164/1666182/Twitter_logo_50.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E1619651788/1666185/FB-f-Logo__blue_58.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/get/params_E-633727497/1697359/insta.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/bookmarks/facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/bookmarks/twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/icons/pdf_neu.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/icons/druck.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/scroll.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/data/205243/tracking/tracking.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalyse.komm.one/matomo/piwik.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/layout.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/dvv-Base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/css/custom-base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/yaml/core/base.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/yaml/forms/gray-theme.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/yaml/add-ons/accessible-tabs/tabs.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/yaml/add-ons/microformats/microformats.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/yaml/screen/typography.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/yaml/print/print.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/logo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/bg/transparent75.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/icons/square.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/img/icons/bullet_square_grau.gif"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/common/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.freiburg.de/pb/site/Freiburg/resourceCached/10.2.1.1/fonts/iconbarriere.ttf?6j8s6r"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalyse.komm.one/matomo/piwik.php?action_name=Startseite%20-%20Stadt%20Freiburg%20im%20Breisgau%20-%20www.freiburg.de%20-&idsite=5&rec=1&r=313796&h=14&m=55&s=36&url=https%3A%2F%2Fwww.freiburg.de%2Fpb%2F%2CLde%2F205243.html&_id=747d026917649c43&_idts=1618923337&_idvc=1&_idn=0&_refts=0&_viewts=1618923337&send_image=1&cookie=1&res=800x600&gt_ms=886&pv_id=MxRSLq"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://freiburg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "webanalyse.komm.one"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "webanalyse.komm.one"
+    ]
+  }
+}

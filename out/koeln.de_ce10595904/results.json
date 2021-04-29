@@ -1,0 +1,900 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".koeln.de",
+      "expires": 1618970342.519963,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 50402.51996302605,
+      "name": "SESSc170831aa4160c54002c5e7e102b55ba",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 62,
+      "value": "ri6re5d9eo2hh9b36m8ahghrb0"
+    },
+    {
+      "domain": "ed.koeln.de",
+      "expires": 1650463142.893217,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202.893217087,
+      "name": "OAID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 36,
+      "value": "7da02723dd23ea18bc7c8b3e42d0d7b5"
+    },
+    {
+      "domain": ".koeln.de",
+      "expires": 1621346343,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426403,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618927143495"
+    },
+    {
+      "domain": ".koeln.de",
+      "expires": 1646402343,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 27482403,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 113,
+      "value": "0013681057c96809c607ede26:1646402343497:1618927143497:.koeln.de:2:koeln:home:noevent:1618927143497:w8oprm"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1648785411.648694,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 29865471.64869404,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c09b38e0224add607ede270001%3B607ede27%3B62467803"
+    },
+    {
+      "domain": ".koeln.de",
+      "expires": 1652623143,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33703203,
+      "name": "__gads",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 106,
+      "value": "ID=71f17e6baf303dae-2231ff899ba70089:T=1618927143:RT=1618927143:S=ALNI_MZdNg6i8jFlCYGZu5uC11wZbWUArw"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618928043.81645,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 8103.816450119019,
+      "name": "test_cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "CheckForPermission"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net",
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.koeln.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f89775f12b5289ae1d735c06880caaf6111728aa00f923b5ef79307b3434b93e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623751200.0,
+      "not_valid_before": 1555452000.0,
+      "serial_number": 16822212927411293036984887220619322525,
+      "subject": {
+        "commonName": "*.koeln.de",
+        "countryName": "DE",
+        "localityName": "Koeln",
+        "organizationName": "NetCologne Ges. fuer Telekommunikation mbH",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.koeln.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://koeln.de/",
+    "https://www.koeln.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://koeln.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.stroeerdigitalgroup.de/metatag/live/koeln/metaTag.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/css/314df5a0592df87d6595512ba4ef1fcb.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/js/base.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/modules/shariff/lib/shariff-3.0.1/shariff.complete.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/modules/advpage/files/advpage.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/js/adplayer.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/inc/tiny-slider/min/tiny-slider.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/wetter/js/wetterwidget.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-rss.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/clip_koelnde_116x72.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/searchtoggle.png"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.stadt-koeln.de/images/layout/logos/stadtkoeln_logo.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/stage/uniteaser/coronavirus-koeln-imago97386540h.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/stage/uniteaser/corona-test_imago0107197252_photonews-at_1200x800.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/stage/uniteaser/blitzer_imago80209065_jochen-tack_1200x800.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-225/uniteaser/imago0116864375h222.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-225/uniteaser/imago0114048340h.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-225/uniteaser/fc-wehrle-imago0049481618-600.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-225/uniteaser/Christmas_Garden_Stuttgart_2018_KarussellcChristmas_Garden-Wecause2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-225/uniteaser/imago0111523570h.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/koeln/werbung/cso21_banner_565x95px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/stage/uniteaser/imago0064735823h-Wanderer_Bergisches-1200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/stage/uniteaser/spargel-hollandaise_imago65100686_chromorange_1200_0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-185/uniteaser/spiele_slider02-01_145.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-185/uniteaser/spiele_solitaer_koelsch_1200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/imagecache/legacy-185/uniteaser/spiele_mahjong-koelsch-foto_1200.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/koeln/sonstiges/corona-virus.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/koeln/werbung/KW16_VERPOORTEN-Pfirsichtraum.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ed.koeln.de/ad/www/delivery/lg.php?bannerid=1967&campaignid=985&zoneid=0"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ed.koeln.de/ad/www/delivery/asyncjs.php"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/files/koeln/Xing-Log-UHUsup-gr.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/KOE_Marke_Koeln_Kommunikationsmuster_lang_RGB.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde/images/icons/k-facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde/images/icons/k-twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde/images/icons/k-instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde/images/icons/k-rss.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/consentconfig/1ae87d0f-47be-418d-accb-5d7470493fd9/koeln.de/configuration.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-dom.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cdn01.koeln.de/vendor/koelnde/opensans/open-sans-v15-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/wetter/widget/koeln/jsonp?uId=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-map.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-verkehr.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-mail.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/k-news.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cdn01.koeln.de/vendor/koelnde/tauri/tauri-v5-latin-ext_latin-regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cdn01.koeln.de/vendor/koelnde/opensans/open-sans-v15-latin-700.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cdn01.koeln.de/widgets/wetter/icons-22-sw/wi-day-cloudy.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/ksta.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/but-tickets.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.stadt-koeln.de/images/layout/logos/stadtkoeln_logo.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/koelnerdom.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/koelnarena.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/musicaldome.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/koelnerzoo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/stadion.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/philharmonie.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/koelntourismus.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/koelnmesse.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/flughafen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/img/icons/hauptbahnhof.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/js/base.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/modules/shariff/lib/shariff-3.0.1/shariff.complete.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/modules/advpage/files/advpage.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/js/adplayer.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.koeln.de/sites/all/themes/koelnde_v3/inc/tiny-slider/min/tiny-slider.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=koeln&cp=home&sv=ke&sc=yes&co=&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.koeln.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013681057c96809c607ede26&ep=1647327584&vr=424&id=30n7mb&i3=0013681057c96809c607ede26%3A1646402343497%3A1618927143497%3A.koeln.de%3A1%3Akoeln%3Ahome%3Anoevent%3A1618927143497&n1=2&dntt=0&lt=1618927143499&ev=&cs=7t9kb4&mo=1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/r20210415/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-0471356541064203&plah=www.koeln.de&amaexp=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/html/r20210415/r20190131/zrt_lookup.html"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=koeln&cp=home&sv=ke&sc=yes&co=&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.koeln.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013681057c96809c607ede26&ep=1647327584&vr=424&id=30n7mb&i3=0013681057c96809c607ede26%3A1646402343497%3A1618927143497%3A.koeln.de%3A1%3Akoeln%3Ahome%3Anoevent%3A1618927143497&n1=2&dntt=0&lt=1618927143499&ev=&cs=7t9kb4&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/1ae87d0f-47be-418d-accb-5d7470493fd9/cc.js?renew=false&referer=www.koeln.de&dnt=false&forceshow=false&cbid=1ae87d0f-47be-418d-accb-5d7470493fd9&brandid=Cookiebot&framework="
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.koeln.de&callback=_gfp_s_&client=ca-pub-0471356541064203"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://adservice.google.de/adsid/integrator.js?domain=www.koeln.de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://adservice.google.com/adsid/integrator.js?domain=www.koeln.de"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/ads?us_privacy=1YNY&client=ca-pub-0471356541064203&output=html&adk=1812271804&adf=3025194257&lmt=1618927140&plat=1%3A8%2C2%3A8%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32&format=0x0&url=https%3A%2F%2Fwww.koeln.de%2F&ea=0&flash=0&pra=7&wgl=1&dt=1618927143568&bpp=7&bdt=1042&idt=133&shv=r20210415&cbv=r20190131&ptt=9&saldr=aa&abxe=1&nras=1&correlator=5595349627876&frm=20&pv=2&ga_vid=810953173.1618927144&ga_sid=1618927144&ga_hid=624240160&ga_fc=0&u_tz=120&u_his=2&u_java=0&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_nplug=0&u_nmime=0&adx=-12245933&ady=-12245933&biw=785&bih=585&scr_x=0&scr_y=151&eid=21066431%2C44740079&oid=3&pvsid=2108334090784255&pem=191&eae=2&fc=896&brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=1024&bc=31&ifi=2&uci=a!2&fsb=1&dtd=159"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20210415&st=env"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://koeln.reshin.de/cc.gif?title=CookiebotModal&gg_pagetype=cookiebot&nid=999&ref=&rand=4787"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/sodar/sodar2.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/sodar/sodar2/222/runner.html"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/bg/wkpRfPPcRT5gRuVOwfaUS9di2m_GhEf8-oTDdHI7uwk.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=222&t=2&li=gda_r20210415&jk=2108334090784255&bg=!zM-lz4vNAAZUuIlwVLg7ACkAdvg8Wg-gW4V7sfL5fPrfB0bgSbZjw-oMDT3WmolEE2A99ag6X6b97gIAAAEnUgAAAA5oAQcKAKeKCrmwqczRi5x0o6Td244o_qz7_dtscHaTDZBGmkS_rkyflwLl4RG76FPjKmXtIv1WQGcO5xU-g_MmN9fKZ3IAdVD-nuhy230F0gjKsyOpnxO0r6AO7u35TiaUoThk28GFAvBGkTa6XXLf1E6jU38YiAHvgwYRFADqTOLJlc3KN0HZ1p1fa-cebuBqT05ROV5xxO5OyXsuHpcA2Ak5ohdp7QOUzFcKJZkB12wUOp7gwbKQzLXQZcOg28ZSdf2IAdp9TNFZZ0CgvkG9gUWAX_2IVNrUZ6W01W79xB-EuXlbErexxODICDwSUTYfJXCptaip9oyaa9uZVkFWmHcoShigHXkINbZLWdLZTnJr69rR0xvDjtyoth0lQhfa4KzOX1jLZebGNQsiLQk4JU3lac3LPJDVn9Xdt0OyYIXMmYzs6D7qE85bnLEcqikF_5Rl9cCScU3UkdhgszPJQpajhPQwTjmByyP-fdTsEGkOoOrT7f-EMe1Es9QscShV4qVrpHnevxYXA7i8N3jU5V8g7Fo2v2UuVuhYSshD1uG8Z7z9scGN2qLU6QpIbECcNg4eF1EFaYu4PNgBa7lF9DwHyksYlFvWL-JirXe3SccHohRh5sTr9rwluDhKtEOmljifHTlStbFz-v6PbpXkAikhul9UbT_gHUywVwTymLjfxMAV-0OOmK3jYi-qQ9pU7LNFFQU4wseSZYeIfHAAEk-AoIS-RlrIDJlyK_ZGmp4f7Tlmlone01MXkn9ipOSLpibv58eBuXWnTO0L0ieD5WGx9Lf7Nz6W5xfuozvd_6B3byFznr_CJ5quOkwxHhe4VLu_emhZpFv7626hwFRSYWmY-llvuQ"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://koeln.de\r",
+  "third_parties": {
+    "fqdns": [
+      "adservice.google.com",
+      "adservice.google.de",
+      "cdn.stroeerdigitalgroup.de",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "de.ioam.de",
+      "googleads.g.doubleclick.net",
+      "koeln.reshin.de",
+      "pagead2.googlesyndication.com",
+      "partner.googleadservices.com",
+      "script.ioam.de",
+      "tpc.googlesyndication.com",
+      "www.googletagservices.com",
+      "www.stadt-koeln.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 26
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 22,
+    "trackers": [
+      "adservice.google.com",
+      "adservice.google.de",
+      "cdn.stroeerdigitalgroup.de",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "de.ioam.de",
+      "googleads.g.doubleclick.net",
+      "koeln.reshin.de",
+      "pagead2.googlesyndication.com",
+      "partner.googleadservices.com",
+      "tpc.googlesyndication.com",
+      "www.googletagservices.com"
+    ]
+  }
+}

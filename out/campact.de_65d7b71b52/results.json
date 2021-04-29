@@ -1,0 +1,460 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.campact.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "wordpress_google_apps_login",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 59,
+      "value": "aaa97a83c794f875b7421f4fbec03428"
+    },
+    {
+      "domain": "www.campact.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cache_enforcer",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 16,
+      "value": "on"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.campact.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f85562337b0f91e46e342c69a20d93a08a1c6f7580e9764ebb53e526425ff098",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639781999.0,
+      "not_valid_before": 1607382000.0,
+      "serial_number": 79597867855500561510858750204448776669,
+      "subject": {
+        "commonName": "www.campact.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.campact.de/campact/ueber-campact/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://campact.de/",
+    "https://campact.de/",
+    "https://www.campact.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://campact.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://campact.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/styles/build/main.css?ver=1.28.3.1618900270"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/styles/styles.css?ver=1.28.3.1618900270"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/plugins/wp-sentry-integration/public/wp-sentry-browser.min.js?ver=4.2.0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2021/02/kampagnengrafik-1400x733-1-1024x536.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2021/02/kampagnengrafik-1400x733-1-1024x341.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://blog.campact.de/wp-content/uploads/2021/04/geheimgerichte-energiecharta-vertrag-992x661.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2020/10/polizei-rassismus-studie-2-400x209.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2021/03/kampagnengrafik-1400x733-1-400x209.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2020/12/femizide-stoppen-weact-400x209.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2021/01/schweinequal-beenden-kastenstand-1024x536.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/profile_images/563630896599691264/LYTGEwfd_normal.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2016/12/campact-fuer-fortschritt-2-1024x342.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2016/10/people.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2016/10/check.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2016/10/pin.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://blog.campact.de/wp-content/uploads/2021/04/webinar-geheimgerichte-energiecharta-vertrag-768x402.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://blog.campact.de/wp-content/uploads/2021/04/gemeinsam-brainstormen-hackathon-768x402.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://blog.campact.de/wp-content/uploads/2021/04/impfen-gegen-corona-768x402.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2020/03/bienensterben-agrarindustrie-toetet-1024x536.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2020/11/bautz-campact-demo-1024x536.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cleverpush.com/channel/loader/qjmkhAX9NYHLYQf8s.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/plugins/octavius-rocks//js/dist/frontendRocks.js?ver=1618900270"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/plugins/octavius-rocks//js/last-frontend-rocks.js?ver=1618900270"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/js/build/app.js?ver=1.28.3.1618900270"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://sentry.palasthotel.de/api/27/envelope/?sentry_key=fac69cdb30934adc995595a07f01924d&sentry_version=7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/images/symbols.svg?ver=1.28.3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/node_modules/@campact/camper/images/newsletter-optin-background.4e540c99.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2020/05/stoppt-export-von-plastikmuell-weact-2-780x520.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/node_modules/@campact/camper/fonts/Open_Sans_700.26eaf71d.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/node_modules/@campact/camper/fonts/Open_Sans_400.b83f3173.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/node_modules/@campact/camper/fonts/Rokkitt_700.d6769942.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/themes/campact/dist/node_modules/@campact/camper/fonts/Open_Sans_800.eccbe910.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.octavius.rocks/v563/send/socket.io/?api_key=2dbc8d66-ff86-4cde-9c66-2cd80b6096cf&EIO=3&transport=polling&t=NZllpNf"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/api/metrics/v1/r/windkraft-nrw/appell/teilnehmen"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/api/metrics/v1/r/caritas/appell"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.octavius.rocks/v563/send/socket.io/?api_key=2dbc8d66-ff86-4cde-9c66-2cd80b6096cf&EIO=3&transport=polling&t=NZllpPi&sid=fnCpHzOsXjuFOjP4Qqao"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.octavius.rocks/v563/send/socket.io/?api_key=2dbc8d66-ff86-4cde-9c66-2cd80b6096cf&EIO=3&transport=polling&t=NZllpPl&sid=fnCpHzOsXjuFOjP4Qqao"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://service.octavius.rocks/v563/send/socket.io/?api_key=2dbc8d66-ff86-4cde-9c66-2cd80b6096cf&EIO=3&transport=polling&t=NZllpQH&sid=fnCpHzOsXjuFOjP4Qqao"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.campact.de/wp-content/uploads/2021/01/campact-podcast-theory-of-change-1024x176.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://campact.de\r",
+  "third_parties": {
+    "fqdns": [
+      "pbs.twimg.com",
+      "sentry.palasthotel.de",
+      "service.octavius.rocks",
+      "static.cleverpush.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "sentry.palasthotel.de",
+      "service.octavius.rocks",
+      "static.cleverpush.com"
+    ]
+  }
+}

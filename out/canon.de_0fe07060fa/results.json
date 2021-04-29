@@ -1,0 +1,881 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".canon.de",
+      "expires": 1618935912.02991,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10801.029910087585,
+      "name": "AKA_A2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 7,
+      "value": "A"
+    },
+    {
+      "domain": ".canon.de",
+      "expires": 1618939512.03003,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14401.03003001213,
+      "name": "ak_bmsc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 310,
+      "value": "C27BA1AF7BE9B2C94846DA0640B6AC7E58DDD6754A59000058F27E60927BEC4F~plmAxCdCa8OX4mK9ki8qW7SNOnKJxEDHBRoMByVf++h689WsJVzSOIjZc+VQImuG+awBj8XOdambmtxoqZ9wGcrknnybJxsm0nKfHbJcNfPwqHB4a0LTN6vkgXe68X1YaqugjhIGt/0wDAjKr+vyRD4io4ierB1KskVMAjOQBmVIadJ3IWxwKnNOv+UeOlQvHlvdRyTyr1aTRBBLjRhSIjVW9oVMN7maC8lU+nsd1yI5g="
+    },
+    {
+      "domain": "www.canon.de",
+      "expires": 1621524313,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599202,
+      "name": "usersite",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": ""
+    },
+    {
+      "domain": ".canon.de",
+      "expires": 1650468313,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "utag_main",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 144,
+      "value": "v_id:0178efe2ae29001293350bd5389600069001506100590$_sn:1$_ss:1$_st:1618934113643$ses_id:1618932313643%3Bexp-session$_pn:1%3Bexp-session"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.canon.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8cc3ad2c59cfb5794e7e2931a3c79d2d41a8ea8ff8c524d929dd0a0350ea4626",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert TLS RSA SHA256 2020 CA1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1635199199.0,
+      "not_valid_before": 1616108400.0,
+      "serial_number": 20222394528491623089934208735253769371,
+      "subject": {
+        "commonName": "www.canon-europe.com",
+        "countryName": "NL",
+        "localityName": "Amstelveen",
+        "organizationName": "Canon Europa N.V."
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.canon.de/support/consumer_products/contact_support/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://canon.de/",
+    "https://canon.de/",
+    "https://www.canon.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://canon.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://canon.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cloud.typography.com/6854112/630766/css/fonts.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/css/vendor.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/css/style.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/css/coreforoldtemplate.bundle.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/css/flex-css-for-old-template.bundle.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/media/remove-tint_tcm83-1462649.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tags.tiqcdn.com/utag/canoneurope/mktg-de/prod/utag.sync.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/outpace_outperform_16x9_ae004_german_47f852c99db4468bb4ae1f95603f9c0b?w=1200&sm=aspect&aspect=16:9&qlt=100&fmt=jpg&fmt.options=interlaced&fmt=jpg&fmt.options=interlaced&bg=rgb(236,237,237)"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/images/backgrounds/blank-rect.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/redline_challenge_logo_square_homepage_7488422686?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/GX7050_HP_555x313-8b9f9cf6-8bf2-11eb-a06b-283926e68678?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/EOS-r6_24_105mm_angled_for_HP_B_1600x900_hero-e90fc35b-be19-11ea-8c65-8c04ba195b5f?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/EOS-r5_Martin_Bissig_Lifestyle_hero-e90f9dd2-be19-11ea-b23c-8c04ba195b5f?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/rf100mm-f2.8-l-macro-is-usm_packshot_001_hero_homepage_001_dc9630b4-7dba-11eb-b3d2-e454e85e15bf?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/pixma-g650_ambient_11_837d18e6287c42ccad1b6f060caf5f47?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/EOS-1D-X-Mark-III_HP?w=992&sm=aspect&aspect=4:3&qlt=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/OPP_Header_1600X900-9b40de31-cd74-9ij6-84a3-54bf6472128c?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/HP-PRO?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/CYCP_Homepage_Plans?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/pixma-g3520-home-lifestyle-14_555x313_320065975005847?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/EOS-C70_Lifestyle_0025_HP_IMAGE_755326332066814?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/eos-m50-kit-lifestyle_555x313_6324d36c-d6e2-11ea-ab71-b083fe5a86f5?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/HP_Get_Inspired?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/homepage_62c93253-6135-11eb-8928-b083fe5a86f5?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/Consumer-canon-connected-hero-317714122258?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/canon-corona-virus-covid-19-response_CANONPRO_PRO?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/Future_Focus_Hero_Homepage_001-4e4c4322-78be-11eb-8dce-283926e68678?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/G7-X-Mark-III-LFC-small-tile-6f32868a-ae1a-11e9-a183-c8f7506d09ad?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/RF-F2.8-IS-L-SERIES-LFC-large-tile-4adaaab1-13b1-47cc-ad72-f0fc60ef19af?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/CSDP_Hero_Homepage_001-4e482440-78be-11eb-91cf-283926e68678?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/ecom_JanuarySale_Dec19_555x358_v1_rb-c1000d4a-2175-11ea-822b-b083fea00e77?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/Canon_Ivy_Rec_Home_Page_Image_001-dfb7027a-ded2-11e9-9eed-d4d252854b3d?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/TS5350_Series_555x313?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/canon-pro-kalahari-desert-wildlife-eos-1d-x-mark-iii-1?w=992&sm=aspect&aspect=4:3&qlt=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/astraea_hero-dd516940-f986-11e9-82be-8c04ba195b5f?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/media/zoemini_desktop_tcm83-1573348.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/media/linkedin_desktop_tcm83-1479127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/canon-latest-offers_263x196_tcm83-1459263?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/merchandise_desktop_tcm83-1604344?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/media/youconnect_desktop_tcm83-1459257.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/hdbook_EZ_263x196_tcm83-1579921?w=992&sm=aspect&aspect=4:3&qlt=70&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/media/academy_desktop_tcm83-1479034.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.adis.ws/i/canon/HOMEPAGE_IMAGE%20555x313-ejshy6ga-be19-11ea-85ea-8c04ba195b5f?w=100%&sm=aspect&aspect=16:9&qlt=80&fmt=jpg&fmt.options=interlaced&bg=rgb(255,255,255)"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://sadmin.brightcove.com/js/BrightcoveExperiences.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/vendor/lib.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/legacy/xdr.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/main.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/tealium-handlers.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/components/featherlight.gallery.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.1/jquery.detect_swipe.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.0/imagesloaded.pkgd.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/components/generic-popup.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/sc03.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/pt08.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/pt11.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/pt01.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/sc01.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/pro/f-pro-button.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FFP/js/global_csp_scripts.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/js/core.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/js/flex-global-header-footer-page.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/js/flex-generic-lightbox.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/js/flex-tealium_handler.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/js/breadcrumb.bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/js/cookies.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon-europe.com/assets/fonts/cloud/719986/71513BD9966C1018C.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tags.tiqcdn.com/utag/canoneurope/mktg-de/prod/utag.js"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.canon.de/system/assets/FLEX/fonts/fontello.woff"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://content-api.canon-europe.com/cspreport/webapp/"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tags.tiqcdn.com/utag/canoneurope/mktg-de/prod/utag.56.js?utv=ut4.45.202012141320"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tags.tiqcdn.com/utag/canoneurope/mktg-de/prod/utag.173.js?utv=ut4.45.202012100818"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.gatedcontent.com/scripts/13020245/app.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/sitenotice/evidon-sitenotice-tag.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/geo/country.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/sitenotice/6612/snthemes.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/sitenotice/6612/canon/settings.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=canoneurope/mktg-de/202103291416&cb=1618932313752"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/sitenotice/6612/translations/en.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/sitenotice/6612/translations/de.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/sitenotice/evidon-banner.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.evidon.com/pub/icong1.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://l.evidon.com/site/v3/6612/46073/3/1/2/1?consent=0&regulationid=0&regulationconsenttypeid=1"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://l.evidon.com/site/v3/6612/46073/3/2/2/1/86507?consent=0&regulationid=0&regulationconsenttypeid=1"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://l.evidon.com/site/v3/6612/46073/3/1/2/1/86507?consent=0&regulationid=0&regulationconsenttypeid=1"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://l.evidon.com/site/v3/6612/46073/3/4/2/1/86507?consent=0&regulationid=0&regulationconsenttypeid=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.gatedcontent.com/styles/13020245/app.css"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://pro.ip-api.com/json/?key=T5ZbP45j6XElRsn"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://insights.gatedcontent.com/log_entry"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=86400 ; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 86400,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://canon.de\r",
+  "third_parties": {
+    "fqdns": [
+      "app.gatedcontent.com",
+      "c.evidon.com",
+      "cdnjs.cloudflare.com",
+      "cloud.typography.com",
+      "content-api.canon-europe.com",
+      "i1.adis.ws",
+      "insights.gatedcontent.com",
+      "l.evidon.com",
+      "pro.ip-api.com",
+      "sadmin.brightcove.com",
+      "tags.tiqcdn.com",
+      "www.canon-europe.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 64
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 9,
+    "trackers": [
+      "c.evidon.com",
+      "pro.ip-api.com"
+    ]
+  }
+}

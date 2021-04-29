@@ -1,0 +1,648 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".nr-data.net",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 26,
+      "value": "163151b5fd122043"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "nr-data.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bayer.com/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "20388c8319a4abebf1426f4c35b07e53cdc982099d18bf9bc2dde4849e4fc274",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Trusted Secure Certificate Authority 5",
+        "countryName": "US",
+        "localityName": "Wilmington",
+        "organizationName": "Corporation Service Company",
+        "stateOrProvinceName": "DE"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639090799.0,
+      "not_valid_before": 1616713200.0,
+      "serial_number": 54407150181195210281080281028009778861,
+      "subject": {
+        "commonName": "www.career.bayer.pt",
+        "countryName": "DE",
+        "localityName": "Leverkusen",
+        "organizationName": "Bayer AG",
+        "organizationalUnitName": "Bayer Business Services GmbH",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bayer.com/de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bayer.de/",
+    "https://www.bayer.de/",
+    "https://www.bayer.com/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://bayer.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/css/css_-p9wiUImsEefk4GlP_wz2fjEvuatMjpvt7vnPELl3U0.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/css/css_P8gCapOcdwdWCothaIppq--ypZk69J2y3qh0DYo_KqE.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/css/css_68SM4ho8bB0ZcSRIOfXxww9p0GUUNTz3jfoC0m24Gfw.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/glyphter/glyphter.min.css?qrnhod"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/dist/css/bayer.min.css?qrnhod"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/css/css_7qgd2U2DDFS_ipTqYcTURdbiVZpXpmB5bO8W-dqGHdA.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/neue-helvetica.min.css?qrnhod"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/modules/contrib/seckit/js/seckit.document_write.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/modules/contrib/seckit/css/seckit.no_body.css"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2020-06/pharmaceuticals.jpg?h=c397aecc&itok=4p7Ee3aY"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2020-06/consumer-health.jpg?h=c397aecc&itok=nnBY36xD"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2020-06/crop-science.jpg?h=c397aecc&itok=XRO6lxxv"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-04/girl_color_party.jpg?h=dd503c25&itok=FJPovURt"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-04/Original%20innovation.jpg?h=dd503c25&itok=d499PL13"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-04/pharmacy_shelf.jpg?h=dd503c25&itok=dPWJY4p5"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-04/hands-check-wheatears-at-the-field_0.jpg?h=dd503c25&itok=Z24n9VKV"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-05/finger-tipping-at-tablet.jpg?h=dd503c25&itok=FEP13z9F"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-12/Multiethnic_employees_looking_at_laptop_426x240.jpg?h=3a24e9cd&itok=Ql_lW-Lk"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/280x160/public/2020-08/dachgarten.jpg?h=dd503c25&itok=zOMj3Vcl"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/1600_620/public/2021-01/FutureAg_header_1.jpg?itok=9saqT0cs"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-03/hv-teaser-1280.jpg?h=c673cd1c&itok=ERslyH_j"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-02/Bayer-logo-1440x590.jpg?h=5c643f6f&itok=YkWad-Vz"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-03/DNA_structure_1440x590.jpg?h=5c643f6f&itok=OhKfMtvm"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-03/Corona_Impfung_Gallery_1280x720.jpg?h=c673cd1c&itok=jSnyDg94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-02/diversity-1280x720.jpg?h=c673cd1c&itok=GHNoVu7-"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-03/1440x590_Header_Zoe2.jpg?h=5c643f6f&itok=7iAuxHS4"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-03/medicins-rsiks-teaser-1280.jpg?h=c673cd1c&itok=_3OPKjqB"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2020-04/hands_1.jpg?h=5c643f6f&itok=uiSxC8A4"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2020-04/teaser_career_unterwasserlandschaft_taucher.jpg?h=7ba75ed5&itok=ElFH_EDG"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2020-04/teaser_career_landscape_supertrees_recruit.jpg?h=7ba75ed5&itok=FIrb3dX8"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_small/public/2021-03/JobSearch_1280x720_v1.jpg?h=c673cd1c&itok=y4Q_vA3x"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/960x540/public/2020-04/hero-pharmaceuticals-smiling-patient-in-hospital-bed.jpg?h=5c643f6f&itok=cbZZHrkU"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/960x540/public/2020-04/teaser_apothekerin_und_patientin.jpg?h=508231ee&itok=OkPYCTYi"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/960x540/public/2020-04/teaser_farmer_checking_seeds.jpg?h=508231ee&itok=AoaSsDTA"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/styles/16_9_aspect_ratio/public/2021-02/Disease%20Prevention%20Bigger%20CTA.jpg?itok=Pj2sp6LV"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/js/js_axYdTF-3lfmby2tLqEQR48Ic9vgf0ong54oMVwitbrY.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/js/js_kpmzhvaty3KRl7nnH6sWvcEldDNaGMi0UhS6D74N3oA.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/dist/js/all.min.js?qrnhod"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/js/js_BRbqSDUFmliB4evEYmomwztdpqid8ry8YVZMa8BB804.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/src/plugin/gsap.min.js?v=1.x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/src/plugin/tweenmax.min.js?v=1.x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/src/plugin/scrollmagic.js?v=1.x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/src/plugin/splittext.min.js?v=1.x"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/js/js_eKSv77w2rJaO7_jTwBwuzjj9HRBtkBH8XWp-RKU7k58.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/dist/js/bayer.min.js?qrnhod"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/dist/css/assets/images/greater-than-icon.svg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/0128d8b7-d00b-4315-8daa-970f97ecac64.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/6c334865-778f-4cb5-9b2e-cfdfb2d2c205.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/6a88d203-cbbc-42e9-b4b7-195631718870.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/685c012e-b603-41bb-9f76-d7e1cab76f53.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/a61c00c6-86e7-4fa9-ac6b-476548df9cb8.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/176a80d2-cdc4-4f80-a617-24026f69062c.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/c86f4d57-4caf-4c6f-9554-7926dd67e3f1.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/823e6839-53d8-41b9-a5a1-5f05833acd12.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/neue-helvetica/ec6281a0-c9c4-4477-a360-156acd53093f.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/themes/custom/bayer_cpa/fonts/glyphter/Glyphter.woff"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://www.bayer.com/sites/default/files/2020-04/voranbringen_0.mp4"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/ajax/stock-price"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bayer.com/en/ajax/stock-price"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js-agent.newrelic.com/nr-1208.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam-cell.nr-data.net/1/c88a1c0f61?a=584712660&v=1208.49599aa&to=ZgFSMhAAXUtUW01QX19LcQUWCFxWGnxLTEBQCGwIDQVWZHZXV01CXghcAxA9fVdRXW9QVUYnXwgWE1xUWV1LFA5HDVUR&rst=1854&ck=1&ref=https://www.bayer.com/de/&ap=2475&be=378&fe=1768&dc=1362&perf=%7B%22timing%22:%7B%22of%22:1618928896473,%22n%22:0,%22f%22:271,%22dn%22:273,%22dne%22:288,%22c%22:288,%22s%22:297,%22ce%22:319,%22rq%22:320,%22rp%22:333,%22rpe%22:354,%22dl%22:340,%22di%22:1362,%22ds%22:1362,%22de%22:1444,%22dc%22:1768,%22l%22:1768,%22le%22:1772%7D,%22navigation%22:%7B%7D%7D&fp=958&fcp=958&at=SkZRRFgaTkU%3D&jsonp=NREUM.setToken"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam-cell.nr-data.net/events/1/c88a1c0f61?a=584712660&v=1208.49599aa&to=ZgFSMhAAXUtUW01QX19LcQUWCFxWGnxLTEBQCGwIDQVWZHZXV01CXghcAxA9fVdRXW9QVUYnXwgWE1xUWV1LFA5HDVUR&rst=11855&ck=1&ref=https://www.bayer.com/de/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "header_value": "report-uri /report-csp-violation",
+      "report-uri": [
+        "/report-csp-violation"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=1000",
+      "includeSubDomains": false,
+      "max-age": 1000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-FROM *.bayer.com",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://bayer.de\r",
+  "third_parties": {
+    "fqdns": [
+      "bam-cell.nr-data.net",
+      "cdnjs.cloudflare.com",
+      "js-agent.newrelic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "bam-cell.nr-data.net",
+      "js-agent.newrelic.com"
+    ]
+  }
+}

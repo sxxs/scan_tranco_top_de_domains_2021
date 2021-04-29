@@ -1,0 +1,595 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.hetzner.com",
+      "expires": 1626697857.819978,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7783200.819977999,
+      "name": "country_code",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 14,
+      "value": "de"
+    },
+    {
+      "domain": "www.hetzner.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "b5783583e2e33b1eb89d7dfbbf8dcb85"
+    },
+    {
+      "domain": "www.hetzner.com",
+      "expires": 1652877058,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.2.7240",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "01fa4082527cadcb.1618921858.1.1618921858.1618921858."
+    },
+    {
+      "domain": "www.hetzner.com",
+      "expires": 1618923658,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.2.7240",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hetzner.com/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8600d94d8bfa616ff05fb8c1d7ee4da6db0b1802531d63b0586f9b369ecc84c5",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Thawte EV RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1629626400.0,
+      "not_valid_before": 1594245600.0,
+      "serial_number": 11639456318069593231676518584559422648,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.hetzner.com",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Ansbach",
+        "jurisdictionStateOrProvinceName": "Bayern",
+        "localityName": "Gunzenhausen",
+        "organizationName": "Hetzner Online GmbH",
+        "serialNumber": "HRB 6089",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hetzner.com/de/rechtliches/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hetzner.de/",
+    "https://hetzner.de/",
+    "https://www.hetzner.com/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hetzner.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hetzner.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/themes/hetzner/dist/vendors.js,qm=1617266109.pagespeed.jm.2ISCtnSqCc.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-serverfinder.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-serverboerse.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/headtray_static/1.JiBnMqyl6S.gif"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/fonts/montserrat-v10-latin-500.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/fonts/roboto-v16-cyrillic-ext_latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/logo/hetzner-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-ex-line.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-ax-line.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-px-line.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-sx-line.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-dell.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-webhosting.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-managed-server.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-storage-box2.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-storage-share-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-whois3.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-dns-console5.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-domain-registration-robot.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-ssl-certificate.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/cloud-amd-epyc-mid.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/serverboerse-mid.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/xserverboerse-icon.png.pagespeed.ic.DMk67EISjl.webp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/headtray_static/js_defer.I4cHjq6EEP.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/images/de.246a5fcba5ed21747c2a108e5e635ec7.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/fonts/montserrat-v10-latin-300.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/fonts/roboto-v16-cyrillic-ext_latin-500.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/images/xserver-auction.93dff627f871ca57bcde85d09f4491f0.jpg.pagespeed.ic.pCSH57t7Tk.webp"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/images/xdomain-search.ee76bb635ebccec53553b2e3de750baf.jpg.pagespeed.ic._RxGOB6Sjv.webp"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-serverboerse2.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/web-hosting.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/themes,_hetzner,_dist,_app.js,qm==1617266108+a_hz_startpage,_js,_serverboerse_timer.js,qm==1617266107.pagespeed.jc.lGBELMT0og.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://matomo.hetzner.com/matomo.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/A.vendors.css,,qm==1617266109+app.css,,qm==1617266108,Mcc.bWUuF6ZfjM.css.pagespeed.cf.rzUZGynunS.css"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://matomo.hetzner.com/matomo.php?action_name=Profi%20Webhosting%2C%20VPS%20%26%20Dedicated%20Root%20Server%20-%20Hetzner%20Online%20GmbH&idsite=2&rec=1&r=436570&h=14&m=30&s=58&url=https%3A%2F%2Fwww.hetzner.com%2Fde%2F&_id=01fa4082527cadcb&_idts=1618921858&_idvc=1&_idn=1&_refts=0&_viewts=1618921858&send_image=1&cookie=1&res=800x600&gt_ms=126&pv_id=8oBCjU"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/images/server-auction.93dff627f871ca57bcde85d09f4491f0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/dist/images/domain-search.ee76bb635ebccec53553b2e3de750baf.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.hetzner.com/headtray_beacon?ets=load:729&rload=1174&nav=177&dns=14&connect=119&req_start=312&ttfb=100&dwld=26&dom_c=817&nt=0&ifr=0&dpr=1&url=https%3A%2F%2Fwww.hetzner.com%2Fde%2F"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-hetzner-konsoleh.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-dns-console.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-hetzner-cloud.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-hetzner-robot.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/dedicated-rootserver.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-cloud.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/managed-server.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/colocation.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/storage-box.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/buy-domain.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/assets/Uploads/icon-circle-storage-share.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/awards/xbayerns-best-50-award.png.pagespeed.ic.GUnqzn1fQo.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/awards/xeco-award-2011.png.pagespeed.ic.4PKylBpryT.webp"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/awards/fox-certification-award.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/awards/xreaders-choice-award-2020.png.pagespeed.ic.lzVGGWmWIx.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/awards/xreaders-choice-award-2019.png.pagespeed.ic.LUFcmMuvgZ.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hetzner.com/de/themes/hetzner/images/awards/xreaders-choice-2018.png.pagespeed.ic.wvhemYtyOX.webp"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hetzner.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

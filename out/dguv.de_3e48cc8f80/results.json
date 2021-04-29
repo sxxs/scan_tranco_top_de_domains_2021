@@ -1,0 +1,708 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "dguv.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/dguv",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 42,
+      "value": "C8FE91E7772600BD9B6F8EDEF11A138B"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://dguv.de/corona/index.jsp",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "237ec68b8183d33c77950c7a05dc6622f20043e41bd54e25bc8fc2e978cf0543",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Organization Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639004399.0,
+      "not_valid_before": 1604703600.0,
+      "serial_number": 61637927825641363154414102156761832118,
+      "subject": {
+        "commonName": "*.dguv.de",
+        "countryName": "DE",
+        "localityName": "Sankt Augustin",
+        "organizationName": "Deutsche Gesetzliche Unfallversicherung e.V. (DGUV)",
+        "organizationalUnitName": "ITS",
+        "postalCode": "53757",
+        "streetAddress": "Alte Heerstr. 111"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://dguv.de/corona/../de/wir-ueber-uns/impressum/index.jsp",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dguv.de/",
+    "https://dguv.de/",
+    "http://dguv.de/index.jsp",
+    "https://dguv.de/index.jsp",
+    "https://dguv.de/corona/index.jsp"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://dguv.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://dguv.de/index.jsp"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/index.jsp"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/corona/index.jsp"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/css/style22102020.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/js/modernizr.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/fsmedien/layout-medien/logos/logo-dguv-spitzenverband.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/1_quartal/adobestock_3_servicebox_wrapper_flex_large_538x.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/container-service/images/mehr-wissen_servicebox_flex_large_253x.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/corona/adobestock_295389492_startseite_kampagnen_large_263x71.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/corona/adobestock_83765051_startseite_kampagnen_large_263x71.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/container-service/images/dguv_information_startseite_kampagnen_large_263x71.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/fb-bildungseinrichtungen/bilder/bilder_startseite/fotolia_26164075_m_startseite_kampagnen_large_263x71.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/corona/shutterstock_1494179384_halfpoint_startseite_kampagnen_large_263x71.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/corona/adobestock_273023434_startseite_kampagnen_large_263x71.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/3_quartal/adobestock_361242424_2_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/4_quartal/schule_covid_infektionsschutz_27_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/aug_0221_01_titel_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/heldinnen_ukbgbgkliniken_1080x1080_startseite_meldungen_large_208x112.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/3_quartal/adobestock_257309540_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/dguv_infektionsschutz_grundschule_05_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/21662_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/adobestock_346854861__konvertiert__bearbeitet_maske_plakat_1_7_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/4_quartal/weihnachten_lueften_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/4_quartal/adobestock_92038156__startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/dguv-newsletter/2020/bilder_maerz/ipa-j-19_03_berufsderma_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/zecken_fotolia_68520729_xs_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2020_images/adobestock_213782539_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/adobestock_258163725_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/dguv-newsletter/2021/bilder_april/adobestock_280075708_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/dguv-newsletter/2020/bilder_maerz/adobestock_247105339-jayzynism_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2020_images/adobestock_108342608_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/logo-inklusionspreis-2021_startseite_meldungen_large_208x112.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/adobestock_407446098_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/pm-download-2017-nachwuchspreis-start_startseite_meldungen_large_208x112.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/images/dguv-logo-white.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/js/script.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/images/main-bg-pattern.jpg"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/fonts/dguvmetaweb-normal.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=1bxjLs"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/fonts/dguvicon.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/fonts/dguvmetaweb-bold.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js?_=1618919454311"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/webcodes_all_json.html"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/resources/images/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/1_quartal/adobestock_3_servicebox_flex_small_313x.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/container-service/images/mehr-wissen_servicebox_flex_small_313x.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/corona/adobestock_295389492_startseite_kampagnen_small_370x100.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/corona/adobestock_83765051_startseite_kampagnen_small_370x100.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/container-service/images/dguv_information_startseite_kampagnen_small_370x100.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/fb-bildungseinrichtungen/bilder/bilder_startseite/fotolia_26164075_m_startseite_kampagnen_small_370x100.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/corona/shutterstock_1494179384_halfpoint_startseite_kampagnen_small_370x100.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/corona/adobestock_273023434_startseite_kampagnen_small_370x100.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/3_quartal/adobestock_361242424_2_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/4_quartal/schule_covid_infektionsschutz_27_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/aug_0221_01_titel_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/heldinnen_ukbgbgkliniken_1080x1080_startseite_meldungen_small_233x125.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/3_quartal/adobestock_257309540_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/dguv_infektionsschutz_grundschule_05_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/21662_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2021/1_quartal/adobestock_346854861__konvertiert__bearbeitet_maske_plakat_1_7_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/4_quartal/weihnachten_lueften_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/pm/pressearchiv/2020/4_quartal/adobestock_92038156__startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/dguv-newsletter/2020/bilder_maerz/ipa-j-19_03_berufsderma_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/zecken_fotolia_68520729_xs_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2020_images/adobestock_213782539_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/adobestock_258163725_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/dguv-newsletter/2021/bilder_april/adobestock_280075708_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/dguv-newsletter/2020/bilder_maerz/adobestock_247105339-jayzynism_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2020_images/adobestock_108342608_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/logo-inklusionspreis-2021_startseite_meldungen_small_233x125.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/adobestock_407446098_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/mediencenter/meldungen/2021_images/pm-download-2017-nachwuchspreis-start_startseite_meldungen_small_233x125.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/corona/impfen/manske_-mittext_fuerwebsite_1170x400_startseite_buehne_medium_between_750x300.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/corona/impfen/heldinnen_dguv-bgkliniken_1170x400_startseite_buehne_medium_between_750x300.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/bilder-startseite/corona/dguv_lueften-ist-gratis_website_1170x400_startseite_buehne_medium_between_750x300.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/bilder-startseite/corona/dguv_masketragen_1170x400_startseite_buehne_medium_between_750x300.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://dguv.de/medien/inhalt/bilder-startseite/corona/banner_1170x400_1_startseite_buehne_medium_between_750x300.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=1bxjLs&v=5.0&tc=16189194543187&pagename=Infos%20zur%20aktuellen%20Corona-Krise%5Bd1182807%5D&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=Internet%2Fcorona&cc_url=https%3A%2F%2Fdguv.de%2Fcorona%2Findex.jsp&et_source_url=https%3A%2F%2Fdguv.de%2Fcorona%2Findex.jsp&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=3a4c67bea122a641cbe45a4e1fa94298&et_cblk=1&et_cd=dguv.de&dh=hybnZO0A%2F3pO%2FopUfzkKG%2Bfrv1N0WZ3M&clt=24"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://dguv.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdnjs.cloudflare.com",
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

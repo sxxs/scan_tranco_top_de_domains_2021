@@ -1,0 +1,766 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "dlr.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 64,
+      "value": "65E27880EB9C19B7AF70098CBD4CE79B.delivery-replication1"
+    },
+    {
+      "domain": "dlr.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ROUTEID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 29,
+      "value": ".delivery-replication1"
+    },
+    {
+      "domain": "www.dlr.de",
+      "expires": 1652807286,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962403,
+      "name": "_pk_id.8.dd52",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "9823b3c4abd75598.1618852086."
+    },
+    {
+      "domain": "www.dlr.de",
+      "expires": 1618853885,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.8.dd52",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dlr.de/DE/Home/home_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "d6a6ea0092b582e61f6a9cca22b1fd2799fd93c410cb9c25492bbabfa464bdd4",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1633340356.0,
+      "not_valid_before": 1599039556.0,
+      "serial_number": 10966175270074337025706068976,
+      "subject": {
+        "commonName": "dlr.de",
+        "countryName": "DE",
+        "localityName": "Koeln",
+        "organizationName": "Deutsches Zentrum fuer Luft- und Raumfahrt e.V. (DLR)",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dlr.de/DE/Home/DE/Service/Impressum/impressum_node.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dlr.de/",
+    "https://dlr.de/",
+    "https://www.dlr.de/DE/Home/home_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://dlr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://dlr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/DE/Home/home_node.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/js/jquery.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/css/app.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/Styles/anymotion/app.css?v=21"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/Styles/init/hide.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/Styles/_patch1.css?v=31"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/Styles/_patch2.css?v=12"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/JavaScript/init/dlrGlobal.js?v=10"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/Images/logo.png?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/dossiers/wasserstoff/wasserstoffanlage-koeln.jpg?__blob=thumbnail&v=11&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/dossiers/unbemanntes-fliegen/unbemannte-luftfahrtsysteme-dossier.jpg?__blob=thumbnail&v=6&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/dossiers/elektrisches-fliegen/emifr-m-neu-look-dossier-e-fliegen.jpg?__blob=thumbnail&v=6&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2016/2/blick-auf-dadaab-in-kenia_23428.jpg?__blob=thumbnail&v=19&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2019/2/erprobung-des-sensorkonzepts.jpg?__blob=thumbnail&v=9&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/dossiers/corona-forschung/corona-virus.jpg?__blob=thumbnail&v=4&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2018/4/satellitenzwillinge-terrasar-x-tandem-x.jpg?__blob=thumbnail&v=21&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2019/1/thermobatterie_tesis.jpg?__blob=thumbnail&v=11&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/dossiers/kuenstliche-intelligenz/ki-rollin-justin-heroslider.jpg?__blob=thumbnail&v=3&__ifc=896w336h"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2013/1/forschung-fuer-die-erde_8570.jpg?__blob=normal&v=9&__ifc=1024w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/standbilder-videos/institute/standbild-dlr-in-zwei-minuten.jpg?__blob=normal&v=14&__ifc=640w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/DE/Service/DefaultBilder/keinBildSocial.jpg?__blob=normal&v=6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/ext_tw_video_thumb/1382724704159547393/pu/img/jpl1pOE4WoTegvw4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/media/Ey8rJVkXEAIBLQ4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/media/Ey8HIE1XEAIz3se.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/media/Ey8JGR8WYBEg48S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/ext_tw_video_thumb/1382230459518750720/pu/img/EvDkcMTewQEIKq5k.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/nachwuchs/next-teaser-neu.jpg?__blob=normal&v=8__ifc240w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/Synlight.jpg?__blob=normal&v=29&__ifc=1024w"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/js/bundle.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/SiteGlobals/Frontend/JavaScript/init/lazyload.js?v=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.dlr.de/piwik.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/images/requesting.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/images/pfeil-extern.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2020/04/das-safe-light-regional-vehicle-slrv-des-dlr.jpg?__blob=normal&v=3&__ifc=640w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2020/03/mars-rover-perseverance-und-helikopter-ingenuity.jpg?__blob=normal&v=5&__ifc=640w"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/images/earth.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/static/latest/fonts/FrutigerLTW02-45Light.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/static/latest/fonts/FrutigerLTW02-65Bold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/static/latest/fonts/dlr-social.woff2?iytcq0"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/static/latest/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/static/latest/static/latest/fonts/fselection.ttf?8xh86h"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/container/home/blogs_feed.html?view=renderRssFeedBlogs%5BTeaser%5D&cms_notFirst=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.dlr.de/piwik.php?action_name=Startseite%20-%20DLR%20Portal&idsite=8&rec=1&r=675025&h=19&m=8&s=5&url=https%3A%2F%2Fwww.dlr.de%2FDE%2FHome%2Fhome_node.html&_id=9823b3c4abd75598&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=KTKCJX&pf_net=86.2649999999121&pf_srv=31.745000000228174&pf_tfr=31.61499999987427"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=523379"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=523098"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=520148"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=518616"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=513533"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=508739"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=507282"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=497227"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=486491"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=491242"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=489006"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=486936"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=485332"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=423710"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/resourceimage.aspx?raid=482722"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.dlr.de/plugins/HeatmapSessionRecording/configs.php?idsite=8&trackerid=9MehOR&url=https%3A%2F%2Fwww.dlr.de%2FDE%2FHome%2Fhome_node.html"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/tandem_x/ries_tdx_10cm_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/sofia/SOFIATouchdown_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/spaceliveblog/mole_schaufel_abdruck_collage_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/mars2020/PIA24430-Perseverance_s_first_full-color_look_at_Mars_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/eden_iss_2021/neumayer_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources//Erde_Jupiter_Saturn_122020_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources//1_blog_sample_return_hy2_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/spaceliveblog/Satellitenkontrollzentrum_vor_der_Gruendung_des_DFD-306.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/kommblog/The_pit_Sol_577_306.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/energie/energiemanagementsystem_306.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/spaceliveblog/SEAsia_306_172.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/sofia/filament-nature_teaser_306.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources//DLR_SensorAI_OrangeBlue_306_172.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/kommblog/HP3_flickr_306.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dlr.de/blogs/PortalData/66/Resources/kommblog/aufmacher-Justin_-perzeption-klein.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2021/02/projekt-videtec-strassenkreuzung.jpg?__blob=normal&v=2&__ifc=240w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2021/02/sustainair-verdichterschaufel-titanpulver.jpg?__blob=normal&v=1&__ifc=240w"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.dlr.de/content/de/bilder/2021/02/ueberschall-flugzeug-der-zukunft.jpg?__blob=normal&v=4&__ifc=240w"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "data:",
+        "*.dlr.de",
+        "https://ssl.p.jwpcdn.com",
+        "https://fast.fonts.net",
+        "https://*.cdninstagram.com",
+        "https://pbs.twimg.com",
+        "https://*.flickr.com",
+        "https://*.ytimg.com",
+        "https://i.vimeocdn.com",
+        "https://g.jwpsrv.com",
+        "https://www.youtube-nocookie.com",
+        "https://i1.sndcdn.com"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' data: *.dlr.de https://ssl.p.jwpcdn.com https://fast.fonts.net https://*.cdninstagram.com https://pbs.twimg.com https://*.flickr.com https://*.ytimg.com https://i.vimeocdn.com https://g.jwpsrv.com https://www.youtube-nocookie.com https://i1.sndcdn.com; script-src 'self' 'unsafe-inline' *.dlr.de https://ssl.p.jwpcdn.com; style-src 'self' 'unsafe-inline' *.dlr.de https://fast.fonts.net;",
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "*.dlr.de",
+        "https://ssl.p.jwpcdn.com"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "*.dlr.de",
+        "https://fast.fonts.net"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://dlr.de\r",
+  "third_parties": {
+    "fqdns": [
+      "pbs.twimg.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

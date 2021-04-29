@@ -1,0 +1,461 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".fau.de",
+      "expires": 1705309919,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 86407201,
+      "name": "nmstat",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 42,
+      "value": "f28e6fce-087b-d77c-85cb-5fb82cfc72f4"
+    },
+    {
+      "domain": "38998.global.siteimproveanalytics.io",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "AWSELBCORS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 148,
+      "value": "1981F7471278D2E5200322457FFB222DB8AF541B057095385CB5B7C14B792926FCB43A208BECEAA456573D9C9779BA1523D4B2F1E8E6A70F31F93B9F3D8B108D70E5B5FA68"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "siteimproveanalytics.io"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.fau.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8f04b5eaa5394891a35c7ea3b0cde6cb785e1f1b1300b0f1e371a056c43d29f7",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624187972.0,
+      "not_valid_before": 1552997972.0,
+      "serial_number": 10116791496760737161288751219,
+      "subject": {
+        "commonName": "www.fau.de",
+        "countryName": "DE",
+        "localityName": "Erlangen",
+        "organizationName": "Friedrich-Alexander-Universitaet Erlangen-Nuernberg",
+        "organizationalUnitName": "Regionales Rechenzentrum Erlangen (RRZE)",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.fau.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fau.de/",
+    "https://www.fau.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://fau.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/rrze-search/assets/css/rrze-search-style.css?ver=5.7.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/style.css?ver=1.12.18"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/mimetypes-link-icons/css/style.php?cssvars=bXRsaV9oZWlnaHQ9MTYmbXRsaV9pbWFnZV90eXBlPXBuZyZtdGxpX2xlZnRvcnJpZ2h0PWxlZnQ&ver=3.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.0.2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/assets/css/main.css?ver=5.7.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/inc/slick/slick.css?ver=5.7.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/inc/slick/slick-theme.css?ver=5.7.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/rrze-siteimprove/js/siteimprove-analytics.min.js?ver=5.7.1"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/img/logos/fau-37x16.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/rrze-search/assets/img/fau-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/img/logos/fau-logo-240x65.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2021/04/seiten-aus-11_alexander_115_2021_ansicht-226x320.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2021/04/when_clouds_collide-379x320.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2021/04/bild1-pm-_halik-388x320.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2020/06/studierende-deutschlandstipendium-480x251.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/img/logo-fau-inverse.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/js/scripts.min.js?ver=1.12.18"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/rrze-search/assets/js/ally.min.js?ver=5.7.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/rrze-search/assets/js/rrze-search-script.min.js?ver=5.7.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/mimetypes-link-icons/js/mtli-str-replace.min.js?ver=3.1.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.0.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/assets/js/main.js?ver=0.0.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/inc/slick/slick.js?ver=1.8.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-includes/js/wp-embed.min.js?ver=5.7.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://siteimproveanalytics.com/js/siteanalyze_38998.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2019/08/Hoersaal_0981_minx-quadrat-480x480.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2019/08/FAU-eei_Hartfiel-quadrat-480x480.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2019/08/Themenbox_Arbeiten-an-der-FAU-quadrat-480x480.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/fonts/roboto/Roboto-Bold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/fonts/roboto/Roboto-Regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/themes/FAU-Einrichtungen/fonts/fontawesome/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/inc/slick/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2021/04/himbeerpalast-schriftzug_sippel6155-703x480.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2021/04/bafid-eroeffnung_sippel5529-696x480.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/files/2019/10/Willkommen.jpg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fau.de/wp-content/plugins/ili-fau-templates/inc/slick/fonts/slick.woff"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://38998.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.fau.de%2F&title=Friedrich-Alexander-Universit%C3%A4t%20Erlangen-N%C3%BCrnberg%20%7C%20Friedrich-Alexander-Universit%C3%A4t%20Erlangen-N%C3%BCrnberg&res=800x600&accountid=38998&rt=860&prev=f28e6fce-087b-d77c-85cb-5fb82cfc72f4&luid=f55b4848-e872-ad2c-eca7-3bf644c1703a&dnt=true&rnd=71696"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://38998.global.siteimproveanalytics.io/heat.aspx?aid=38998&luid=f55b4848-e872-ad2c-eca7-3bf644c1703a&p=s%7C0%7C0&ww=800&wh=600&o=1&d=1&prev=f28e6fce-087b-d77c-85cb-5fb82cfc72f4&rnd=31441"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://38998.global.siteimproveanalytics.io/heat.aspx?aid=38998&luid=f55b4848-e872-ad2c-eca7-3bf644c1703a&p=s%7C0%7C115&ww=800&wh=600&o=2&d=1&prev=f28e6fce-087b-d77c-85cb-5fb82cfc72f4&rnd=96649"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fau.de\r",
+  "third_parties": {
+    "fqdns": [
+      "38998.global.siteimproveanalytics.io",
+      "siteimproveanalytics.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "38998.global.siteimproveanalytics.io",
+      "siteimproveanalytics.com"
+    ]
+  }
+}

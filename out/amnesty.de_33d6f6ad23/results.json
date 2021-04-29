@@ -1,0 +1,477 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.amnesty.de",
+      "expires": 1627573428,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 8647201,
+      "name": "cookie-agreed-version",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 26,
+      "value": "1.0.0"
+    },
+    {
+      "domain": "prism.app-us1.com",
+      "expires": 1621525429.078596,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.078596115,
+      "name": "prism_475806577",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 51,
+      "value": "ea7fa01c-d2ef-4455-9798-41b97f600e58"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "app-us1.com"
+    ]
+  },
+  "failed_requests": [
+    {
+      "error_type": "l",
+      "url": "data:0"
+    }
+  ],
+  "final_url": "https://www.amnesty.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a7e99d189ab1403fe0d4dbe7aae3bc8f98d83669ed51c2e394b05aaf9a3b4e7d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624293406.0,
+      "not_valid_before": 1616521006.0,
+      "serial_number": 277800610651806037126331038647785635118092,
+      "subject": {
+        "commonName": "amnesty.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.amnesty.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://amnesty.de/",
+    "https://amnesty.de/",
+    "https://www.amnesty.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://amnesty.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://amnesty.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/fonts/AmnestyTradeGothic-Bd2/AmnestyTradeGothic-Bd2.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/fonts/AmnestyTradeGothic-BdCn20/AmnestyTradeGothic-BdCn20.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/fonts/AmnestyTradeGothic-Cn18/AmnestyTradeGothic-Cn18.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/fonts/OpenSans-Bold/OpenSans-Bold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/fonts/OpenSans-Regular/OpenSans-Regular.woff2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/cleverpush.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/css/css_c8uKrkdw3uTl-xXgGz0TtfMpOZq9ps2b3GoXRcXqFfo.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/css/css_rppRGD_OoHfR_SJsouUbDXbYqdDsbR40sRSsm5MvFnw.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/css/css_lh-5aZkLyt_D_oHYdzdYrSmI3QaI4Nwh9ebvDseWriU.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/css/css_4xYS9L6gaefzeaSDZFvMy2uyLpibPDLZBbItJPfsI5s.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/css/css_gSJFkBmzoXP6Wpc0zIgY-xI1cbq2aim2Cmns9HUu3nc.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2021-04/Russland-Alexej-Nawalny-Oppositioneller-Prozess-Gerichtssaal-Moskau-Februar-2021.jpg?h=2f736eda&itok=x7xsWIPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2021-04/USA-Demonstration-gegen-Polizeigewalt-George-Floyd-Black-lives-matter-Rassismus-Kalifornien-Oakland-Juni-2020.jpg?h=6f8e2d4a&itok=lc17fqqH"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2021-02/Welt-Gesundheit-Illustration-Februar-2021-Journal-SM.jpg?h=6c770b67&itok=zUX7Czsj"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2018-11/Aktion-AI-Aegypten-Berlin-Oktober-2018-Brandenburger-Tor.jpg?h=fa1c963e&itok=xO-Rkd5V"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/428x330/public/2021-04/Russland-Alexej-Nawalny-Oppossitioneller-Kreml-Kritiker-Polizeiwache-Januar-2021.jpeg?h=1116cd87&itok=JF9-gjqj"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/428x330/public/2021-03/Algerien-Khaled-Drareni-Journalist-Freilassung-Maerz-2021.jpg?h=cd17d114&itok=Gyy2zfzH"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/428x330/public/2021-04/Hongkong-China-Proteste-Sicherheits-gesetz-Meinungsfreiheit-Repression-Maerz-2020.jpg?h=f728280d&itok=olw6UV8m"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2020-08/Amnesty-Generalsekretaer-Markus-N-Beeko-Benno-Fuermann-Unteilbar-Demonstration-Berlin-Oktober-2018.jpg?h=f2fcf546&itok=SGfEn4i7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2017-05/Lowsland-Festival_Unterzeichnung-Petitionen-2011.jpg?h=1389ae57&itok=bocgrKZ2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/styles/585x287/public/2017-05/Australien-Amnesty-Action.jpg?h=c8da6716&itok=eUdw90o0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/js/js_tkMuLj9vhW8UCcsDof_9KngfkemZ8uPBj9i_hxiPFw4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?v=1.9"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/sites/default/files/js/js_rlTLmirEWR7vRTouTjZFilw5Bmxbo6Jda_aZhOMNiOo.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=EjVWEb"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/out/themen/view/svg/sprite.view.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/img/Termine/Termin_hervorgehoben.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/img/Termine/Termin.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/img/cross-selling-bg.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/out/view/svg/sprite.view.1.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/out/view/svg/sprite.view.white.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/fonts/fontawesome-webfont.woff2?v=4.6.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://diffuser-cdn.app-us1.com/diffuser/diffuser.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/libraries/bxslider-4/images/bx_loader.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.amnesty.de/themes/custom/ai_theme/assets/img/Formulare-icons/Check-schwarz.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://prism.app-us1.com/?a=475806577&u=https%3A%2F%2Fwww.amnesty.de%2F"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=EjVWEb&v=5.0&tc=16189334284720&pagename=%2Famnesty-international-deutschland-0&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=Startseite&cc_url=https%3A%2F%2Fwww.amnesty.de%2F&et_source_url=https%3A%2F%2Fwww.amnesty.de%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=f80ce87a46918c5271cabfc7b63af89c&et_cblk=1&et_cd=www.amnesty.de&dh=sIQfqJ25AJu%2B2FqT03lnbOfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trackcmp.net/t_prism_sitemessages.php?trackid=475806577&prismid=ea7fa01c-d2ef-4455-9798-41b97f600e58&url=https%3A%2F%2Fwww.amnesty.de%2F"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; preload",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://amnesty.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "diffuser-cdn.app-us1.com",
+      "maxcdn.bootstrapcdn.com",
+      "prism.app-us1.com",
+      "static.etracker.com",
+      "trackcmp.net",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 8
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "code.etracker.com",
+      "diffuser-cdn.app-us1.com",
+      "prism.app-us1.com",
+      "static.etracker.com",
+      "trackcmp.net",
+      "www.etracker.de"
+    ]
+  }
+}

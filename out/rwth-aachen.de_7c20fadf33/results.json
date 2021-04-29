@@ -1,0 +1,444 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "rwth-aachen.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "awcssessionid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 113,
+      "value": "w8H%2f5fleDBNZ3%2bL8T6czQUA942FFFtvrlcCTF%2bVmUxZWIjsqWT4M26lQVgXX15bdDx3IZfD28JsI8%2bxPeYYU2A%3d%3d"
+    },
+    {
+      "domain": "www.rwth-aachen.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "awcssessionid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 109,
+      "value": "ZXqyPyNXEqXn%2fLK72ZwKvfUhAsdjyLvdZOZ2nQDrbBa%2bCYwikoES8jQSkd4OkKLU1298M3YKRVaC1QUW02B4Nw%3d%3d"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.rwth-aachen.de/cms/~a/root/?lidx=1",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "17ac36b88a7c7eb20d7152a32b61e9725c07857dd763723493782ab2eb999ace",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1650103457.0,
+      "not_valid_before": 1615806257.0,
+      "serial_number": 11275399825731555297858067391,
+      "subject": {
+        "commonName": "www.rwth-aachen.de",
+        "countryName": "DE",
+        "localityName": "Aachen",
+        "organizationName": "RWTH Aachen",
+        "organizationalUnitName": "Zentrale Hochschulverwaltung (ZHV)",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_CBC",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": "HMAC-SHA1",
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.rwth-aachen.de/cms/root/Footer/Services/~bw/Impressum/lidx/1/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://rwth-aachen.de/",
+    "https://rwth-aachen.de/",
+    "https://rwth-aachen.de/go/id/a/?lidx=1",
+    "https://www.rwth-aachen.de/cms/~a/root/?lidx=1"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://rwth-aachen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://rwth-aachen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://rwth-aachen.de/go/id/a/?lidx=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/cms/~a/root/?lidx=1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js_mobile/aw_mobile.asp"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/css/styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/css/tablet.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/css/tablet-portrait.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js/__basic-behaviour.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js/__base-modules.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js/__base-modules-2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js/__rwth.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js/customscript.asp"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/js_mobile/aw_mobile_jquery.asp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaaagazb"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaazknmlf&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaywisrb&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaydkkdr&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaxdqzay&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaxboazp&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaawexuyc&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaawacxua&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaautsqrl&w2=1280&h2=500&clip=center,1280,500&q=83&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaarntvfk&w2=672&h2=447&clip=center,672,447&q=77&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaywlork&w2=672&h2=447&clip=center,672,447&q=77&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaaaaafa&meta=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaaescnc&meta=0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/css/print.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/icon-sprites.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/teaser-wrapper-small-sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/persona.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/bgs/dotted-line-persona.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/bgs/line-color-teaser.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/bgs/border-25.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/icon-sprites-1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/bgs/dotted-line-navigator.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/tooltip.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/icon-sprites-3.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/icons/teaser-wrapper-sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.rwth-aachen.de/custom/rwth/img/bgs/fakultaeten-bg.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors  'self'"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=360",
+      "includeSubDomains": false,
+      "max-age": 360,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://rwth-aachen.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

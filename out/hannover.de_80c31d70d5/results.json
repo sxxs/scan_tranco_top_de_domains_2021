@@ -1,0 +1,500 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "hannover.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "4fba52cfeb2ef3e7f5c79f8e51262846",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 64,
+      "value": "81377657301e3984c9d801bc2d8506d2"
+    },
+    {
+      "domain": "www.hannover.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "d6ef8754d294d9d7aebb5e725fd7976c",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 64,
+      "value": "81377657301e3984c9d801bc2d8506d2"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hannover.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a3ed8ff49a330a10bfe873346621f92d89fb2b3515809fcda8368c0f51133da3",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1620589009.0,
+      "not_valid_before": 1612816609.0,
+      "serial_number": 422171254675990553590809338635024897181701,
+      "subject": {
+        "commonName": "www.hannover.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hannover.de/Impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hannover.de/",
+    "https://hannover.de/",
+    "https://www.hannover.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://hannover.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://hannover.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/fonts/Noto-Sans-Display-Italic.73e0aad7.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/fonts/Noto-Sans-Display-Light-Italic.37348792.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/fonts/Noto-Sans-Display-Regular.587d8477.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/fonts/Noto-Sans-Display-SemiBold.2e2fe37b.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/fonts/Noto-Serif-Display-Bold-Italic.7cd47ea0.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/fonts/Noto-Serif-Display-Italic.6ded7a4f.woff2"
+    },
+    {
+      "mime_type": "application/vnd.ms-fontobject",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/webfonticons.b39bc968eb51de23b3b01a3a0f0a1b7d.eot"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/bundle.a6cd91cb.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/logo-menu-black.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/logos/hannover.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/preload-spinner.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/hmtg/presse/0-euro-schein/16464997-3-ger-DE/0-Euro-Schein.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/redaktion-hannover.de/portale/typisch-hann%C3%B6versch-bilder/hannover-von-unten/hanebuth-gang/21009312-2-ger-DE/Hanebuth-Gang.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/redaktion-hannover.de/portale/fr%C3%BChling/spazierg%C3%A4nger-im-maschpark/13410514-1-ger-DE/Spazierg%C3%A4nger-im-Maschpark.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/redaktion-hannover.de/portale/ostern/rudi-r%C3%BCbe/17560480-1-ger-DE/Rudi-R%C3%BCbe.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/landeshauptstadt-hannover/soziales/kinder-jugendliche/hannover-f%C3%BCr-kinder/10580299-1-ger-DE/Hannover-f%C3%BCr-Kinder.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/landeshauptstadt-hannover/verwaltungen/fb-jugend-und-familie/jugendzentren-und-spielparks/kind-am-kletterberg/8319765-3-ger-DE/Kind-am-Kletterberg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/landeshauptstadt-hannover/soziales/familie-partner/familie/7864694-1-ger-DE/Familie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/redaktion-hannover.de/portale/initiative-wissenschaft/leibniz-uni/neutrale-fotos/h%C3%B6rsaal/7407195-1-ger-DE/H%C3%B6rsaal.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/alias_300x225px/media/01-data-neu/bilder/bilder-region-hannover/menschen/senioren_titelbild/8036174-2-ger-DE/Senioren_Titelbild.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/logos/hannover-black.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/runtime.c86da1a2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/site-tracker.e78d3a1b.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/0.56ad9349.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/2.e38c0b0e.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/bundle.dfddcac8.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/xrow-tracking.a090c697.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/1.aab66362.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/xrow-rating.3c4d8b71.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/xrow-cookie-disclaimer.ee879218.js"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/webfonticons.283b41ca7ce8142ea1fb5c92a2a6473c.woff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/full/2/5/4/0/22030452-1-ger-DE/Berggarten%20-%20Rosi%20Radecke-Hero.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/9/1/0/6/21976019-2-ger-DE/IMG_1485.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/landeshauptstadt-hannover/politik/oberb%C3%BCrgermeister/belit-onay/belit-onay-halle/20797519-4-ger-DE/Belit-Onay-Halle.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/landeshauptstadt-hannover/politik/rat/ratssaal2/19934580-1-ger-DE/Ratssaal.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/redaktion-hannover.de/portale/sport-bilder/hannover-96/2019-20/spielszene-96-bielefeld/20455812-1-ger-DE/Spielszene-96-Bielefeld.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/6/8/4/2/22032486-1-ger-DE/B+R%20Sch%C3%B6neberger%20Stra%C3%9Fe_Ulf-Birger%20Franz_Ramona%20Schumann_Quelle%20Region%20Hannover_Claus%20Kirsch.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/9/2/6/3/22033629-1-ger-DE/02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/landeshauptstadt-hannover/meldungen/2020/april/sch%C3%BCtzenfest-hannover/19138562-1-ger-DE/Sch%C3%BCtzenfest-Hannover.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/bilder-region-hannover/wiederverwendbar/geld,-verwaltung,-finanzen/antrag,-checkliste/7128372-3-ger-DE/Antrag,-Checkliste.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/redaktion-hannover.de/portale/mobilit%C3%A4t/anreise-4x3/7055945-4-ger-DE/Anreise-4x3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/var/storage/images/_aliases/image_full/media/01-data-neu/bilder/redaktion-hannover.de/2016/2016_04/bahn_regionalexpress/13425138-1-ger-DE/Bahn_Regionalexpress.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/theme/footer-bg.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/api/v1/menu/list/82"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/arrow-right.156d0894.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/api/v1/tracking/view/82"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/cookie-disclaimer"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hannover.de/assets/build/images/logo.920b6d69.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hannover.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

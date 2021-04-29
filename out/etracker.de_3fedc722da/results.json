@@ -1,0 +1,579 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.etracker.com",
+      "expires": 1650388891,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "pll_language",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 14,
+      "value": "de"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.etracker.com/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "6e93dd2ffe32a0be135b1176a1fec393c2835d15f9c2b025e35af9bbb395340b",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign RSA OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1652176591.0,
+      "not_valid_before": 1617875791.0,
+      "serial_number": 10631766856999146483910443266,
+      "subject": {
+        "commonName": "www.etracker.com",
+        "countryName": "DE",
+        "localityName": "Hamburg",
+        "organizationName": "etracker GmbH",
+        "stateOrProvinceName": "Hamburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.etracker.com/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://etracker.de/",
+    "https://www.etracker.com/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://etracker.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/enhanced-tooltipglossary/frontend/assets/js/tooltip.js?ver=5.5.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/integrate-etracker-backoffice-account-api-wpforms/public/js/affiliate.js?ver=1.2.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.1.4"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/polylang/flags/gb.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/Made-Stored_Siegel-om4nlzdudmm0kzfre3evxql67vm4vmtnls9mcr26b4.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/Cookieless_Siegel-om4nmi6m6bbr16ogcbjfblue3l1h5kwacdbbyaaauo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/Opt-In-Frei_Siegel-om4nmorhi5kragew9wdtb26m9a51ngmep9vqb80jn4.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/privacy_neu-om4nrb4x3twidfp8aeas2e77ehd0hvywc5co975vc2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/10/Stefan-Evertz.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/12/stefan-hollaender-foto.1024x1024.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/12/Sabrina_Koch_free.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/12/Sofia-Marbouh.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/franki-chamaki-1K6IQsQbizI-unsplash-scaled-ozzy5oaox5bnbotylbnyg8z35dhcs4w8bheu5apgxs.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/keine-durchfahrt-scaled-ozzxldy3evjuqoau21yu4v9xkzh5nbcsj2ik9asd8g.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/pexels-alexas-fotos-2277784-scaled-oyozkzd9edmgcidtagdjcqe11u36tl5xr0v9s3gnwg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/verwendung-cookies-1-1-oltueg78hvnumfebwjnkw1vrkrlxhb5ldky4oo1k94.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/verwendung-cookies-2-1-oltueh52opp5yv86guztvwfq6uei9auvudvi9lbx16.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/verwendung-cookies-3-1-oltueh52o9wsuoqubo6pv51qs2k6vdtq6o1206fcfk.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/typo3-1-olhyjbvw85iz6zigmeghdzqqh90mle5v50e55lvo16.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/magento-1-olhymwnsz7h81pptbznnjj22x1o2ol7qhpftblyr0g.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/wordpress-1-olhyjtqvwk4gqd9hs2japvgairs4rivf1epdq68t42.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/shopware-olhynouzbhars506tny7hazu1j8cyyynnlq3vrdonm.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/oxid-olhykppc1lo5djuiupm09eaaqdfvzb4ftaz8w5j8tq.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/xtc-commerce-1-olhyo5s3dqov8iegnole0m9gfirr9o0z4h9tfxj1lc.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/elementor/thumbs/wallet_push_ausschnitt-osg8nafqpygkjlskybu1ion6q1y9x9ozhp5q8mkceu.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/themes/astra/assets/js/minified/style.min.js?ver=3.3.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/astra-addon/astra-addon-606f09e9de8f18-94891024.js?ver=3.3.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/nooz/themes/outline/js/front.js?ver=1587365354"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-includes/js/wp-embed.min.js?ver=5.5.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.2.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.2.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.2.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.2.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min.js?ver=3.1.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-includes/js/underscore.min.js?ver=1.8.3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-includes/js/wp-util.min.js?ver=5.5.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.6.6"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=2SV26V"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/nooz/themes/outline/css/theme-js.css"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/04/Logo_etracker_1-0-RGB-1024x209.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2021/02/google-asd-300x300.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/09/renan-kamikoga-J7Sjt8YGkUg-unsplash-scaled-e1611122903906-300x238.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.etracker.com/wp-content/uploads/2020/12/franki-chamaki-1K6IQsQbizI-unsplash-300x225.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=2SV26V&v=5.0&tc=16188528910164&pagename=etracker%20%7C%20Die%20Google%20Analytics%20Alternative%20%27Made%20in%20Germany%27&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&cc_url=https%3A%2F%2Fwww.etracker.com%2F&et_source_url=https%3A%2F%2Fwww.etracker.com%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&plugin_version=WP%3Aetracker%3A1.5.1&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=9f6005b815e45ec223c8f0eccea667bd&et_cblk=1&et_cd=www.etracker.com&dh=87cU3aUwMTRDHVWOPkpDcufrv1N0WZ3M&clt=24"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "https://*.etracker.com"
+      ],
+      "header_value": "frame-ancestors https://*.etracker.com; script-src 'self' https://*.signalize.com https://*.etracker.com https://*.etracker.de 'unsafe-inline'",
+      "script-src": [
+        "'self'",
+        "https://*.signalize.com",
+        "https://*.etracker.com",
+        "https://*.etracker.de",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "allow-from https://application.etracker.com/",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://etracker.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

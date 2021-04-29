@@ -1,0 +1,675 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".mindfactory.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "NSid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 36,
+      "value": "4a372b0d900603da5aa36deb7a164958"
+    },
+    {
+      "domain": ".www.mindfactory.de",
+      "expires": 1652875446,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.2.e1b2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "8aa38449f86ca4d6.1618920246."
+    },
+    {
+      "domain": ".www.mindfactory.de",
+      "expires": 1618922046,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.2.e1b2",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.mindfactory.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "87bc96630e75a3b20dca902d521c5e97195e433ad1f2f375b58384fb48ceddd8",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Extended Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1627163999.0,
+      "not_valid_before": 1561586400.0,
+      "serial_number": 201169108580219715554469860230040888306,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.mindfactory.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "localityName": "Wilhelmshaven",
+        "organizationName": "Mindfactory AG",
+        "organizationalUnitName": "COMODO EV Multi-Domain SSL",
+        "postalCode": "26388",
+        "serialNumber": "HRB 130461",
+        "stateOrProvinceName": "Niedersachsen",
+        "streetAddress": "Preu\u00dfenstr. 14a-c"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.mindfactory.de/info_center.php/icID/58",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.6.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://mindfactory.de/",
+    "https://mindfactory.de/",
+    "https://www.mindfactory.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://mindfactory.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mindfactory.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ads.mindfactory.de/piwik/matomo.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/cart_icon.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/loading.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/icon_percent.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/icon_gamepad.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/banner/1616595386.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/banner/1616595386_logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/special_content/1616169116.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/mf_actions.php?action=set:sess"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/includes/fonts/OpenSans-Regular-webfont.woff"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/includes/fonts/glyphicons.ttf?rev=20210406"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/special_content/1617725161.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/963.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/5302.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/15933.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/1522.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/36220.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/1401.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/images/manufacturers/1110.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/community.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/blog.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/review.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/help.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image1.macovi.de/templates/mindfactory_new/images/icons_sliderbar/career.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/stay_healthy.png?ver=3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.macovi.de/templates/mindfactory_new/images/stay_healthy_xs.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/templates/mindfactory_new/stylesheet.css?rev=46724"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/includes/javascript/needy_responsive.js?rev=46724"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/includes/fonts/OpenSans-Bold-webfont.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/templates/global/bootstrap.min.css?rev=20210406"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/templates/global/bootstrap-theme.min.css?rev=20210406"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/templates/global/glyphicons.css?rev=20210406"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mindfactory.de/templates/mindfactory_new/stylesheet_transitions.css?rev=20210406"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://ads.mindfactory.de/piwik/matomo.php?action_name=Hardware%2C%20Notebooks%20%26%20Software%20bei%20Mindfactory.de%20kaufen&idsite=2&rec=1&r=699243&h=14&m=4&s=6&url=https%3A%2F%2Fwww.mindfactory.de%2F&_id=8aa38449f86ca4d6&_idn=1&_refts=0&cs=ISO-8859-15&send_image=0&cookie=1&res=800x600&pv_id=u2L5tP&fa_pv=1&fa_fp[0][fa_vid]=LjWen7&fa_fp[0][fa_id]=search_form&fa_fp[0][fa_name]=search_form&fa_fp[0][fa_fv]=1&pf_net=0&pf_srv=141.4949999889359&pf_tfr=25.195000009262003"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1380726_0__74528.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1392281_0__74863.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1399559_0__9006290.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1253616_0__8866544.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1238354_0__71348.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1320345_0__8930608.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1008331_0__8631259.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1008303_0__8631231.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image2.macovi.de/templates/mindfactory_new/images/lables/hl_lieferung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image2.macovi.de/templates/mindfactory_new/images/lables/hl_montage.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image2.macovi.de/templates/mindfactory_new/images/lables/hl_finanzierung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image2.macovi.de/templates/mindfactory_new/images/lables/hl_gutscheine.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image2.macovi.de/templates/mindfactory_new/images/lables/hl_midnightshopping.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image2.macovi.de/templates/mindfactory_new/images/lables/hl_infocenter.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1313643_0__73062.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/no_image_manufacturer_160.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1380727_0__74529.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1281216_0__8893129.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1332120_0__8941948.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1028866_0__8650247.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1380728_0__74530.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1228432_0__8842146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1313645_0__73064.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1383763_0__74653.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1314877_0__8925374.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1013799_0__8636229.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1223024_0__8836865.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1291985_0__8903428.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1280845_0__8892763.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image160.macovi.de/images/product_images/160/1380729_0__74531.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://mindfactory.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.macovi.de",
+      "image1.macovi.de",
+      "image160.macovi.de",
+      "image2.macovi.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 56
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

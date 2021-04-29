@@ -1,0 +1,447 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.deutschlandradio.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "X-Mapping-hphojkgb",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 50,
+      "value": "961042FA2E209A8854CE8665303705F4"
+    },
+    {
+      "domain": "www.deutschlandradio.de",
+      "expires": 1653225288,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34308001,
+      "name": "atuserid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 194,
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%2294526118-8cdb-4b02-b628-f979289ca68f%22%2C%22options%22%3A%7B%22end%22%3A%222022-05-22T13%3A14%3A48.238Z%22%2C%22path%22%3A%22%2F%22%7D%7D"
+    },
+    {
+      "domain": ".deutschlandradio.de",
+      "expires": 1621343688,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618924488636"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1649783752.737287,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 30866465.737287045,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "002848f984f8ab997607ed3c80001%3B607ed3c8%3B6255b3c8"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.deutschlandradio.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0f2ffeb929701925261e67373263fa1568b55f8115c64e4ad467540b58e91b99",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1663883999.0,
+      "not_valid_before": 1592949600.0,
+      "serial_number": 313631567259092070159250888034107976138,
+      "subject": {
+        "commonName": "www.deutschlandradio.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.deutschlandradio.de/impressum.223.de.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://deutschlandradio.de/",
+    "https://www.deutschlandradio.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://deutschlandradio.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/css.php?files=fonts.graphik.css,dlr2018.style.css,dlr2018.plugins.css,ardplayer.main.css,dlr2018.ardplayer.css,gallery.css,colorbox4.css&b4eec8c"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/script/smarttag.js?rev=b4eec8c"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/js.php?files=script/xtjwrm.js,script/jquery-3.3.1.min.js,script/jquery-ui-1.12.1.min.js,script/jquery.colorbox-min.js,script/jquery.cookie.js,script/jquery.lightbox.js,script/jquery.gallery.js,script/aod/jquery.mkdraod.interface.js,script/dlr2018/modernizr.js,script/tracking.js,script/dlr2018/dlr2018.main.js,script/dlr2018/dlr2018.plugins.js,ardplayer/base/js/libs/jquery.tools-1.2.7.min.js,ardplayer/base/js/libs/swfobject.js,ardplayer/base/js/libs/mm.useractivity.js,ardplayer/base/js/libs/json2.js,ardplayer/base/js/libs/shortcut.js,ardplayer/base/js/libs/bigscreen.min.js,ardplayer/base/js/libs/hls-0.7.11.light.min.js,ardplayer/base/js/libs/TweenLite.min.js,ardplayer/base/js/libs/Draggable.min.js,ardplayer/base/js/libs/CSSPlugin.min.js,ardplayer/js/base.min.js,script/ardplayer-namespace-fix.js,script/audioplayer.js,script/dlr2018-audioplayer.js,script/slimbox2.js,privacy/privacy-common.js,privacy/privacy-thirdparty.js,privacy/privacy-tracking.js,microtypography/microtype.js&rev=b4eec8c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/5/5f4ee17edc2cb6161384035677dab27av1_max_930x524_b3535db83dc50e27c1bb1392364c95a2.jpg?key=ee4762"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/d/d160b6a772396e0bdf94a48f9560e069v1_mincrop_723x723_b3535db83dc50e27c1bb1392364c95a2.jpg?key=5f5bd3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/6/6b85d7a8ff2c2895755f11b086f9253bv1_max_930x523_b3535db83dc50e27c1bb1392364c95a2.png?key=ce5e2f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/4/43e0175597495eb65f30f04b7d0806f3v2_mincrop_723x723_b3535db83dc50e27c1bb1392364c95a2.jpg?key=0ca728"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/8/89639775fd7968953647bf7ae86dbfaev1_max_930x523_b3535db83dc50e27c1bb1392364c95a2.jpg?key=0a8dfe"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/8/8814fee40853451c3aba7e29d32b9ca5v3_mincrop_723x723_b3535db83dc50e27c1bb1392364c95a2.jpg?key=997d01"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/1/1e85cd64747d142cdaa5c8c540b09aa0v1_max_930x523_b3535db83dc50e27c1bb1392364c95a2.jpg?key=26784d"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/a/a4db0be3084006c52cb6b8da8c23e773v1_mincrop_723x723_b3535db83dc50e27c1bb1392364c95a2.jpg?key=99db5f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/d/dc7f3b50e39aedc690a4f4e6dfc9fde1v1_max_930x523_b3535db83dc50e27c1bb1392364c95a2.jpg?key=905d90"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/5/52b82c50df4addca0f534fe2a4deed26v1_mincrop_723x723_b3535db83dc50e27c1bb1392364c95a2.jpg?key=589cd2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/dlr2018/icons/dlf_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/dlr2018/icons/drk_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/dlr2018/icons/dlfnova_logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/c/c2304af4d71145f4657b983aaf532056v1_max_640x360_b3535db83dc50e27c1bb1392364c95a2.jpg?key=e1f461"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/d/d6f72146693499e554b7db2515bbfa4ev1_max_640x360_b3535db83dc50e27c1bb1392364c95a2.jpg?key=d383ba"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/7/7ad6f87a9c3757a7a3a11cf19460a20bv1_max_640x359_b3535db83dc50e27c1bb1392364c95a2.png?key=5b123b"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/c/c6d4897acd7fb731ea391967179cf409v1_max_613x425_b3535db83dc50e27c1bb1392364c95a2.png?key=1d5f1c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/index.media.e198c06b4603d23f8b33d0c08a800141v1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/index.media.9e0cbaf541cdcae7c395a7d924659334v1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/d/dcc1523de4a208bd63f30d21c73fa4c7v1_mincrop_304x140_b3535db83dc50e27c1bb1392364c95a2.jpg?key=90eace"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/6/67d1a478b06979918b606d0cfa1536e7v2_mincrop_304x140_b3535db83dc50e27c1bb1392364c95a2.jpg?key=ec0c9c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/auf-der-suche-nach-dem-wir.media.ac551a5e185614dfc406661d02f71629v1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/media/thumbs/6/61a5eaf67c5d9b945cce750081024a3fv1_mincrop_304x140_b3535db83dc50e27c1bb1392364c95a2.jpg?key=411a21"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/print.css?b4eec8c"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/fonts/graphik/Graphik-Regular-Web.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/dlr2018/icons/dradio_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/dlr2018/icons/search_icon.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/fonts/graphik/Graphik-Medium-Web.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?_=1618924488191"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1279.xiti.com/hit.xiti?s=537348&idclient=94526118-8cdb-4b02-b628-f979289ca68f&ts=1618924488471&vtag=5.17.1&ptag=js&r=800x600x24x24&re=800x600&hl=15x14x48&lng=en-US&idp=1514483106358&jv=0&p=Startseite&s2=1&pid=&pchap=Startseite&pidt=202104200000&stc=%7B%22site_version%22%3A%22desktop%22%2C%22pub_datum%22%3A%222021-04-20%22%2C%22category1%22%3A1%2C%22page_name%22%3A%22Startseite%22%2C%22typ%22%3A%22andere%22%7D&ref="
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=dradio&co=www.deutschlandradio.de%252FDeutschlandradio&cp=DLR-Home&sv=ke&fb=undefined&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.deutschlandradio.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013bd33b765f8f86607ed3c8&ep=1642057359&vr=424&id=30n7mb&i3=nocookie&n1=3&dntt=0&lt=1618924488642&ev=&cs=8glsvn&mo=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=dradio&co=www.deutschlandradio.de%252FDeutschlandradio&cp=DLR-Home&sv=ke&fb=undefined&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.deutschlandradio.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013bd33b765f8f86607ed3c8&ep=1642057359&vr=424&id=30n7mb&i3=nocookie&n1=3&dntt=0&lt=1618924488642&ev=&cs=8glsvn&mo=1&sr=71"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.deutschlandradio.de/themes/dradio/dlr2018/icons/menu_icon.svg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://deutschlandradio.de\r",
+  "third_parties": {
+    "fqdns": [
+      "de.ioam.de",
+      "logs1279.xiti.com",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "de.ioam.de",
+      "logs1279.xiti.com"
+    ]
+  }
+}

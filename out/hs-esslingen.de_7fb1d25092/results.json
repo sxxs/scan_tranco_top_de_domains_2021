@@ -1,0 +1,445 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hs-esslingen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2608368649c06c0f95a1bb83ab6cb75fd4d21b763db6a55b905a4fa2fdb7dd8b",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1667194936.0,
+      "not_valid_before": 1595997736.0,
+      "serial_number": 10910063633108715923933413979,
+      "subject": {
+        "commonName": "www.hs-esslingen.de",
+        "countryName": "DE",
+        "localityName": "Esslingen",
+        "organizationName": "Hochschule Esslingen",
+        "organizationalUnitName": "Rechenzentrum",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hs-esslingen.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hs-esslingen.de/",
+    "https://www.hs-esslingen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://hs-esslingen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/compressed/merged-0b1cc2979bab31bc864ee9995bea13e5-ab82395d0b7f5009fa48798b0b13a93a.css?1618914781"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/compressed/merged-d12f7e49071cc3759aa987a469b69844-2a742a184958b173ec22c5dff3cb15b6.js?1611845352"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/Icons/leichte_sprache_flaeche_grau.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/Icons/gebaerdensprache_flaeche_grau.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/img/facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/img/instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/img/youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/img/linkedin.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/img/logo_claim_de.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/e/d/csm_Slider_Bachelor_bewerben_31f067b63e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/4/6/csm_startes_Orientierungssemester_Hochschule-Esslingen_slider_9e61af54ff.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/a/f/csm_Slider_Masterbewerbung_c441cf6fbc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/5/d/csm_Slider_wirzeigensdir_e62e965c0a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/c/f/csm_Slider_Startseite_HE_blanco_90bdb6021d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/c/0/csm_Slider_Bild3_912a413d3e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/6/8/csm_Slider_Studieng%C3%A4nge_e75118b89e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/6/9/csm_Slider_Forschung_65fd2ee374.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/5/e/csm_Slider_Campus_Leben_f6c74dfe5d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/a/9/csm_Bewerbungsstart-WS-21_71ee7fbd3e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/b/b/csm_HE_vorlesung4_KDB_aaf24c95dd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/a/0/csm_Virtuelles_Lernen_91d90037a3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/0/c/csm_startes_1007x744_web_kachel_b79cf4a20e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/a/c/csm_GeldRegiert_Studium_Generale_SS_2021_82fc2e54bc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/_processed_/8/7/csm_Startseite_unter_Banner_gross3_3b92663532.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/layout/standorte/pin-stadtmitte.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/layout/standorte/pin-flandernstrasse.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/fileadmin/layout/standorte/pin-goeppingen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/1/0/csm_digital_studieren_b27298a455.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/8/c/csm_hgf_05b7823e90.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/9/2/csm_fgh_df2347226a.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/9/7/csm_haw_tech_eb8d0afee5.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/b/3/csm_emas_718b622b43.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/3/0/csm_hfsw_db9f4b4c55.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/7/1/csm_mint_6fd4f24b76.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/b/4/csm_hws_86982fc4e9.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/_processed_/7/1/csm_50_jahre_haws_e80083e97d.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3temp/assets/compressed/merged-3eddbc18b746d3b1bf3be88cc0f68414-be25629284f57cf377edbb7857ec9aaa.js?1618918450"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/fonts/OpenSans-Regular.ttf"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/fonts/bootstrap/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/fonts/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://www.hs-esslingen.de/fileadmin/media/00_Startseite/HE_Website_Header.mp4"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://stats.hs-esslingen.de/js/container_EDZ3B9Bo.js"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.hs-esslingen.de/typo3conf/ext/he_templates/Resources/Public/fonts/fontawesome-webfont.woff2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "0",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://hs-esslingen.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,914 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "fz-juelich.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 42,
+      "value": "C3F6348DD43582772A350A6D10553B32"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://fz-juelich.de/portal/DE/Home/home_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "d806fdd0a8089130c47bb68332beca36ad50472ff414a5a0f524bca3c3546e8c",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1645599971.0,
+      "not_valid_before": 1574406371.0,
+      "serial_number": 10511706830241862066830112043,
+      "subject": {
+        "commonName": "www.fz-juelich.de",
+        "countryName": "DE",
+        "localityName": "Juelich",
+        "organizationName": "Forschungszentrum Juelich GmbH",
+        "organizationalUnitName": "ITS",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://fz-juelich.de/portal/DE/Home/portal/DE/Service/Impressum/impressum_node.html;jsessionid=C3F6348DD43582772A350A6D10553B32",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fz-juelich.de/",
+    "https://fz-juelich.de/",
+    "https://fz-juelich.de/portal/DE/Home/home_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://fz-juelich.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/home_node.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/libs/foundation/foundation.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/libs/slick/slick.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/visual.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=8"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/screen-a.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=10"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/startseite2.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/small.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=21"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/large.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=17"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/breadcrumb-burger.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=9"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/addon_materna.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=16"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Forms/_components/Buttons/Servicesuche_Submit.gif;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=image"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/StyleBundles/Bilder/NeuesLayout/logo.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/beitraege/fahrverbot_buehne.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2021/2021-03-16-wilhelm-mauch-buehne.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/beitraege/2021-01-29-llec-bts.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/back-quadrate.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/next-quadrate.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2021/2021-04-15-pv1-380.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/personen/puetz.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/teaserbilder/rtlive-fokus.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/schluesseltechnologien/quantentechnologie/2020-02-10-quanten-fokus.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/teaserbilder/strukturwandel-fokus-teaser.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/energie_umwelt/biooekonomie/teaser-fokus-biooeko.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/energie_umwelt/wasserstoff/2020-05-08-h2-fokus.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/teaserbilder/covid-imfokus.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/teaserbilder/hbp-imfokus-220.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/teaserbilder/klima-imfokus-220.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_functions/folgen_blog_bild.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/erc.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/ias.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/ibg.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/ibi.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/iek.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/ikp.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/inm.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/jcns.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/pgi.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_docs/institute/zea.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/gehirn/alzheimer-diagnose_p1260509joined_300.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/information/quanten/backplane_qpace.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/energie_umwelt/energie/sofc_12.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/energie_umwelt/energie/energiewende-cc0.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/information/reram-pgi-7.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/energie_umwelt/klimaforschung/pixabay-waldvonoben_450.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/energie_umwelt/pflanzenforschung/oktokopter_feldforschung.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2017/17-01-13-nitrat_450.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2016/2016-09-09k%C3%BCnstliche-ps-wiese.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2020/2020-01-28-opensuperq-380.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/gehirn/ag_rehabilitation_inm-3.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/teaserbilder/strukturwandel-themen-teaser.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2015/19-01-18juwels_450.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2016/16-01-11ecolyser_380.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/juwels_thu_230x196.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/jcns_detektor_2_thu195.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/pico-thu195.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/hnf_thu195.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/justruct.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/nmr_thu195.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/cosy_thu195.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/jppc_230x152thu.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/addon_print.css;jsessionid=C3F6348DD43582772A350A6D10553B32?v=3"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/qZ9WwvoTR0U?rel=0&autoplay=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/3T_thu195.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/membranzentrum_thu195.jpg;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/forschungsinfrastrukturen/multi-methoden-plattform_thu195.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=thumbnail"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/logo_helmholtz.png;jsessionid=C3F6348DD43582772A350A6D10553B32?__blob=normal"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Javascript/libs/jquery.js;jsessionid=C3F6348DD43582772A350A6D10553B32?v=2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Javascript/init/global.js;jsessionid=C3F6348DD43582772A350A6D10553B32?v=10&nn=364622"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/StyleBundles/CSS/visual/module_undo.css?v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/StyleBundles/CSS/visual/skin_gsb.css?v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Styles/jurs.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Functions/JavaScript/cookie/cookie_css.css?v=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/sprite.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/linkedin.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/instagram.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/effzett.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/news.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/linie_weiss.png?__blob=normal"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/static/fonts/WeissenhofGrotesk-Regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/static/fonts/WeissenhofGrotesk-Bold.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://apps.fz-juelich.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Modules/Ausklappnavigation/DE/Allgemein/Ausklappnavigation_head.html?view=renderAusklappnavigation"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/portal/DE/Home/_functions/buehne_table.html;jsessionid=C3F6348DD43582772A350A6D10553B32?view=renderStageAll&nn=364622"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/static/fonts/slick/slick.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "Not Found",
+      "url": "https://fz-juelich.de/assets/icons/slick/icon_ajax_loader.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/back-quadrate.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/next-quadrate.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/beitraege/fahrverbot_buehne.jpg?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/pressebilder/PM2021/2021-03-16-wilhelm-mauch-buehne.jpg?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SharedDocs/Bilder/PORTAL/DE/beitraege/2021-01-29-llec-bts.jpg?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/back-quadrate-w.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/next-quadrate-w.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/pause.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/gebaerdensprache-b.svg?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/leichte-sprache-b.svg?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://fz-juelich.de/SiteGlobals/Frontend/Images/icons/burger_menu_blue.svg?__blob=normal"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwnjrKT8Sx0kGQyxuuf7n0zUSyfob71ZURJRgKK-bPw=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi/qZ9WwvoTR0U/sddefault.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/generate_204?WPTe1g"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fz-juelich.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.gstatic.com",
+      "i.ytimg.com",
+      "www.google.com",
+      "www.gstatic.com",
+      "www.youtube-nocookie.com",
+      "yt3.ggpht.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 14
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "www.youtube-nocookie.com"
+    ]
+  }
+}

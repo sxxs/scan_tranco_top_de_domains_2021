@@ -1,0 +1,367 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.adfc.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0ab0558686513aff14aff7076e3a9cfa6994e4099edbe450937b34e5ca98c8f0",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Starfield Secure Certificate Authority - G2",
+        "countryName": "US",
+        "localityName": "Scottsdale",
+        "organizationName": "Starfield Technologies, Inc.",
+        "organizationalUnitName": "http://certs.starfieldtech.com/repository/",
+        "stateOrProvinceName": "Arizona"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1642170571.0,
+      "not_valid_before": 1579012171.0,
+      "serial_number": 2156708855573861081,
+      "subject": {
+        "commonName": "*.adfc.de",
+        "organizationalUnitName": "Domain Control Validated"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.adfc.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://adfc.de/",
+    "https://www.adfc.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://adfc.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1594749208"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3temp/assets/compressed/merged-1a0a5baf0c7d8d3efc303d7f546491e9-f01aef91e2b9cc84e54b71c60d8f41a8.css?1617888844"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3temp/assets/compressed/merged-361d11b0c0b98e3b3e2b325d7a89edff-e2069c02a490eba6bfba6bc6e79c1789.js?1594751268"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/plugins/js/picturefill.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3temp/assets/vhs-assets-fa2dbfd5f58a8d094fbf9b66a36a72cc-video1397.css?1618927147"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_logorender/Resources/Public/Logos/logo_allgemeiner_deutscher_fahrrad-club.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/img/adfc_logo_small.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/BV/FKT/_processed_/a/4/csm_fkt-2020-keyvisual-square-ergebnisse_1dbb69d939.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/8/c/csm_dpr_GLO_9192_4f74464a5f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/7/a/csm_2021_04_09_Heather_Kaths_4ef5c7ac9c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/a/2/csm_210407_Bild_TH_News_Prof_Christian_Rudolph_febe5112fe.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/b/6/csm_Screenshot_7._Nationaler_Radverkehrskongress_2fd1520f40.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/0/a/csm_20180419-IMG_0041_728aa6b28c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/f/b/csm_Pop-Up-Bikelane-Berlin_Copyright_ADFC_S-Tosic_93c5a2db1c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/6/3/csm_20210331-Hochschule-RheinMain-Fahrradprofessur-Lohmeier-03_fa3adce559.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/user_upload/Expertenbereich/Touristik_und_Hotellerie/Deutschland_per_Rad_entdecken/dpr_GLO_3753.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/5/e/csm_BV_Fahrrad-im-taeglichen-Verkehr_April-Agentur_a4950bc02a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/4/8/csm_Kette_oelen__c__ADFC_Jens_Lehmkuehler_74601a9ad2.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/img/adfc_svg_gaphics/adfc_logo_white.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3temp/assets/compressed/merged-83cf4f8682cbefcb90e5b6a8d5ca100d-e8553c160031c9a2b049b23134a13bee.js?1603987322"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/tz_cookieconsent/Resources/Public/JavaScript/tz_cookieconsent.all.js"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/roboto/roboto-v18-latin-300.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/roboto/roboto-v18-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/themify.woff?-fvbane"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/roboto/roboto-v18-latin-italic.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/roboto/roboto-v20-latin-100.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/fileadmin/_processed_/3/a/csm_Video__MehrPlatzfuersRad_2fc909b508.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/img/icons/video_play_button.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/img/adfc_svg_gaphics/adfc_arrow_white_42x42.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/roboto/roboto-v18-latin-500.woff2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/img/ajax-loader.gif"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/typo3conf/ext/adfc_website/Resources/Public/assets/fonts/slick.woff"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-touren-termine.adfc.de/api/eventItems/search?eventType=Termin&cancelled=false&beginning=2021-04-20&sort=date&limit=12&isBvRelevant=true"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.adfc.de/?tx_typoscriptrendering%5Bcontext%5D=%7B%22record%22%3A%22pages_1%22%2C%22path%22%3A%22tt_content.tzcookieconsent_optinlist.20%22%7D&tzcookieconsent_optinlist%5Baction%5D=configuration&tzcookieconsent_optinlist%5Bcontroller%5D=OptinList&cHash=e15fd79e9d338d8493711b071ea388cd"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://adfc.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

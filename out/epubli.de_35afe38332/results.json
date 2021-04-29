@@ -1,0 +1,626 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "widget-mediator.zopim.com",
+      "expires": 1619535750.353743,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 612004.3537430763,
+      "name": "AWSALBCORS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 134,
+      "value": "Sx3EwV+eiQjEbLrZ6dvcebsq16Hkikc+ryxQ9Z/TLVg92Q0ZU+MVlQq7pSF0EtcrG6UG4fbvlFpgOycEq0xrV0CzmVruS3jll6bfYv4mDpupnaoxdqEHnscJ0bVT"
+    },
+    {
+      "domain": ".epubli.de",
+      "expires": 1650466950,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543204,
+      "name": "__zlcmid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 23,
+      "value": "13hjyDYmHFh7LZF"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.epubli.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [
+        {
+          "arguments": [
+            "image/jpeg",
+            0
+          ],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a13ddad86821a6ac8eee801567d5feb4557077184beb45fe4057aaa064b1d8d0",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1625471586.0,
+      "not_valid_before": 1617695586.0,
+      "serial_number": 413337138340031761453147455205574774010627,
+      "subject": {
+        "commonName": "epubli.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.epubli.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": "1.6.9",
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://epubli.de/",
+    "https://epubli.de/",
+    "http://www.epubli.de/",
+    "https://www.epubli.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://epubli.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://epubli.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.epubli.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/css/epubli_components.css?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/css/epubli.css?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/cat7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/112063/cover/front/200"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/111523/cover/front/200"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/108665/cover/front/200"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/112015/cover/front/200"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/111276/cover/front/200"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/111560/cover/front/200"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/shop/buch/109476/cover/front/200"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/trustLogos1.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/trustLogos2.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/holtzbrinckPublishingGroup.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://content.epubli.de/assets/epubli/2020/09/blogheader-schreibstil-150x150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://content.epubli.de/assets/epubli/2017/11/blog_nanowrimo-150x150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://content.epubli.de/assets/epubli/2014/03/blogheader_schreiben-150x150.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/ekr/snippet.js?key=5c979c0b-90b1-4199-9a83-caa702b92182"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/epubli/components.js?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/epubli/angular_components.js?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/epubli/deprecated_components.js?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/epubli/cd_components.js?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/epubli.js?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/epubli_i18n.js?v=012cfab51009272611e34d86166b1aa3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/js/routing?callback=fos.Router.setData"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Neuton:400,400i,700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/shelf-middle.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/shelf-end2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/shelf-end1.jpg"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/components/fira/woff/FiraSans-Bold.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/neuton/v13/UMBQrPtMoH62xUZKdK0vfQr4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/neuton/v13/UMBRrPtMoH62xUZCyrg4Wi8.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/iconfont/icomoon.ttf?7y5vxv"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/components/fira/woff/FiraSans-Regular.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/components/fira/woff/FiraSans-RegularItalic.woff"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ekr.zdassets.com/compose/5c979c0b-90b1-4199-9a83-caa702b92182"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 401,
+      "status_text": "Unauthorized",
+      "url": "https://www.epubli.de/api/me"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide5.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/preload.fc713956383df327ba01.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/framework.7358ca48d43ed514ac70.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/vendors~framework.b1ea516911eb6ecd8755.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/chat-sdk.34475bc42f3df2dfabe9.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/talk-sdk.fbc40a6a23e6046acbb8.chunk.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://epubli.zendesk.com/embeddable/config"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/locales/en-us-json.81c93c29a397263e2f54.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/vendors~lazy/web_widget~messenger.88c46634dcce586eee9e.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/vendors~lazy/web_widget.2f80a0c45270ff6aa17e.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/latest/lazy/web_widget.ab90333a43c801cfd35a.chunk.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://epubli.zendesk.com/embeddable_blip?type=pageView&data=eyJjaGFubmVsIjoid2ViX3dpZGdldCIsInBhZ2VWaWV3Ijp7InJlZmVycmVyIjoiaHR0cHM6Ly93d3cuZXB1YmxpLmRlLyIsInRpbWUiOjg3LCJsb2FkVGltZSI6NTQuMjg0OTk5OTkxMDY4NjIsIm5hdmlnYXRvckxhbmd1YWdlIjoiZW4tVVMiLCJwYWdlVGl0bGUiOiJFaWdlbmVzIEJ1Y2ggZHJ1Y2tlbiwgQnVjaCBiaW5kZW4gdW5kIEJ1Y2ggdmVyw7ZmZmVudGxpY2hlbiDigJMgZXB1YmxpIiwidXNlckFnZW50IjoiTW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvODkuMC40Mzg5LjExNCBTYWZhcmkvNTM3LjM2IiwiaXNNb2JpbGUiOmZhbHNlLCJpc1Jlc3BvbnNpdmUiOnRydWUsInZpZXdwb3J0TWV0YSI6IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiLCJoZWxwQ2VudGVyRGVkdXAiOmZhbHNlfSwiYnVpZCI6Ijc5NjEzYjY1NzIyYzA0MjFmZDdlNzZmZmJhNmFjMjA1Iiwic3VpZCI6IjE5OWJhNmE1NTE0NDJiOWM5YjhjYWZhYTI3ZTUwNDc3IiwidmVyc2lvbiI6IjIzN2RmNmIxZSIsInRpbWVzdGFtcCI6IjIwMjEtMDQtMjBUMTU6MDI6MzAuMjExWiIsInVybCI6Imh0dHBzOi8vd3d3LmVwdWJsaS5kZS8ifQ%3D%3D"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://epubli.zendesk.com/embeddable_blip?type=performance&data=eyJwZXJmb3JtYW5jZSI6eyJpbml0SW50ZXJ2YWwiOjE4NzcsImNvbmZpZ0xvYWRUaW1lIjozNX0sImJ1aWQiOiI3OTYxM2I2NTcyMmMwNDIxZmQ3ZTc2ZmZiYTZhYzIwNSIsInN1aWQiOiIxOTliYTZhNTUxNDQyYjljOWI4Y2FmYWEyN2U1MDQ3NyIsInZlcnNpb24iOiIyMzdkZjZiMWUiLCJ0aW1lc3RhbXAiOiIyMDIxLTA0LTIwVDE1OjAyOjMwLjIxN1oiLCJ1cmwiOiJodHRwczovL3d3dy5lcHVibGkuZGUvIn0%3D"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://static.zdassets.com/web_widget/static/chat-incoming-message-notification.mp3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.epubli.de/bundles/epublimain/images/homepage/headerSlide13.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "http://epubli.lo:4200",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://epubli.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ekr.zdassets.com",
+      "epubli.zendesk.com",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "static.zdassets.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 18
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "static.zdassets.com"
+    ]
+  }
+}

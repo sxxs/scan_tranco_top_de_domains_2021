@@ -1,0 +1,656 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bsb-muenchen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "fe74c98193179b5cab47a3df7cf282672acf7819242fb1625e663c67cd9714c5",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1630224459.0,
+      "not_valid_before": 1559030859.0,
+      "serial_number": 10228144993745503799793934136,
+      "subject": {
+        "commonName": "www.bsb-muenchen.de",
+        "countryName": "DE",
+        "localityName": "Muenchen",
+        "organizationName": "Bayerische Staatsbibliothek",
+        "organizationalUnitName": "D/IT",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bsb-muenchen.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bsb-muenchen.de/",
+    "https://www.bsb-muenchen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bsb-muenchen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1617916816"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/compressed/merged-7232bc34fe1b033a548e288cc20def01-8fea465357de913aa840f54835e7c5db.css?1617916831"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-content-cssall-fancyBoxcss-headercss-home_content-home_header-home_standard-menucss-owlcarouselcss-owlcarouselthemecss.css?1618920195"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-StandardBSBDirectCSS.css?1618928550"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-footer-medialinks.css?1618930492"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Menu/menu.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Logo/bsb_logo_claim_large.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/more.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/search.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/language.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/socialmedia.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/account.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/opening-hours.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/contact.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/socialmediaItem-Instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/socialmediaItem-Facebook.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/socialmediaItem-Twitter.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/socialmediaItem-YouTube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/socialmediaItem-Flickr.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/startseite_slider/998x320_statuen_2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/startseite_slider/998x320_lsapp3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/startseite_slider/998x320_webinare_c_m_mckee.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/startseite_slider/998x320_gelehrte_journale_gjz18_tentzel_1691_c_marcus_hellmann.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbdirect/Resources/Public/Images/Content/search.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbdirect/Resources/Public/Images/Content/link.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/homepage/icon-recherche.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/homepage/icon-sammlungen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/homepage/icon-veranstaltungen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/homepage/icon-fachpublikum.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/homepage/icon-ueberuns.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/bsb/homepage/icon-regionale.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/c/9/csm_gelehrte_journale_giz_workshop_20210427_6c83cfc0cb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/a/d/csm_venedig_1600_clm_13078_fol_1r_td29448_00001_95d3f96809.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/d/8/csm_bsb_reservations_iphone12_de_01_617604ce49.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/b/8/csm_560x300_tucher_va_bavarikon_c_stadtarchiv_nuernberg_73d60c7f03.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/b/7/csm_ns_raubgutforschung_va_restitution_duenkelsbuehler_20180313_c_dimitriadis_0691ad497b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/3/5/csm_mdz_buecherfinger_6c5846f938.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/e/a/csm_bibliotheksgebaeude_startseite_neu_1ecf74bbdf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/8/6/csm_chorbuch_4_913939e32f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/4/7/csm_karlstadt_valentin_port-016258_975a6fd240.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/e/7/csm_liber_3080_schulz_ed383b5b2a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/2/0/csm_dohrn_anton_gebaeude_zoologische_station_1f0c52d5a3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/3/2/csm_materialwissenschaft_kunsttechnologie_codex_aureus_q_55c0169f33.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/2/0/csm_werkstattkonzert_etlich_liedlein_bsb_9069_schulz_4309f44535.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/5/0/csm_garching_lkw_e8616245fa.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/e/1/csm_schedel_q_4c2d308760.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/fileadmin/_processed_/2/4/csm_600x400_information_schulz_3337_a58c6e1d16.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Medialinks/Social-Media-Icon_facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Medialinks/Social-Media-Icon_flickr.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Medialinks/Social-Media-Icon_instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Medialinks/Social-Media-Icon_twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Medialinks/Social-Media-Icon_youtube.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/message.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/phone.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/question.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/mail.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/etutorial.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Shortcuts/accessible.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Flags/DE.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Flags/GB.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/JS/jquery-3.2.1.min.js?1617916799"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-jsall.js?1618931073"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-touchSwipe.js?1618931073"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-smoothSrolling.js?1618931073"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-menu.js?1618931073"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-owlcarouseljs.js?1618931073"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-fancyBoxjs.js?1618931073"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-StandardBSBDirectJS.js?1618928550"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-css-f92ade50f61257ec2d0346aa6f625a11.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-css-fcbee68bfe1be17d72498313f9ea4472.svg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3temp/assets/vhs-assets-css-190fa50cc44282a6655e0a7fe5d2addd.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/?type=3022&_=1618933198420"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Content/SliderPrev.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsb-muenchen.de/typo3conf/ext/bsbconfig/Resources/Public/Images/Content/SliderNext.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bsb-muenchen.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

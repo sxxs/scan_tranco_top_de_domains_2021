@@ -1,0 +1,540 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".berlin.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "wt3_sid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 25,
+      "value": "%3B102571513503709"
+    },
+    {
+      "domain": "w7.berlin.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "wt_nbg_Q3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 86,
+      "value": "!nSvRng82YYeesv6rbKgImUoBMap0LxUohqUFcteJK2eMfQdZ5feu1EY8SVxfAkb2Ryy/qpXdEYSV"
+    },
+    {
+      "domain": ".berlin.de",
+      "expires": 1634402180,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15559201,
+      "name": "wt3_eid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 69,
+      "value": "%3B102571513503709%7C2161885018038823915%232161885018027609041"
+    },
+    {
+      "domain": ".berlin.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "wt_rla",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 41,
+      "value": "102571513503709%2C2%2C1618850180439"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.berlin.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e908845404a5f8464763a5b6498a42e627c37f9c07fd903323bd5e3835be5e8a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626338424.0,
+      "not_valid_before": 1618562424.0,
+      "serial_number": 419284103690987056786009042669020931502223,
+      "subject": {
+        "commonName": "www.berlin.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.berlin.de/wir-ueber-uns/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://berlin.de/",
+    "http://www.berlin.de/",
+    "https://www.berlin.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/bundle/portal.css?_ts=1618841844"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/bundle/portal.js?1618841844"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/images/logo_berlin_de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/images/logo_berlin_s_negativ.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/5684735/ratio_2_1/1600414527/624x312/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/images/logo_berlin_m_negativ.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/imgscaler/LHGZdQvSJ3QYyjckBkFO559_zN0C618Hik5phiB7yLw/channelteaser/L3N5czExLXByb2QvY29yb25hL19hc3NldHMvYmlsZGVyLzIwMjAxMTE2X2JkZV9jb3JvbmF0ZWFzZXJfMDVfZGVza3RvcC0yeC5wbmc.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6507721/ratio_4_3/1618573707/300x225/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/wetteronline/binaries/symbole/60x42/so____.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/wetteronline/binaries/symbole/60x42/wb____.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/1768685/ratio_4_3/1415277217/300x225/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/images/partner/In-kooperation-mit-StSt_bg_rgb.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/images/logo_berlin_m_srgb.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/imgscaler/qP3M0UtbJ0PO2aMbOYs5PpuHLt4UCo30He4a8fW8zRs/channelteaser/L3N5czExLXByb2QvcmJtc2t6bC9fYXNzZXRzL2FrdHVlbGxlcy8yMDIxL2FwcmlsLzgyMTIxNzEuanBn.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/imgscaler/wbu-j_lMHKMHQqH2r-oCdOG5HVY8as3VCUfxh5XLk8o/channelteaser/L3N5czExLXByb2QvcmJtc2t6bC9fYXNzZXRzL2FrdHVlbGxlcy8yMDIwL2RlemVtYmVyL3dpcmJlcmxpbi5qcGc.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/images/logo_berlin_de_neg.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/bundle/af7ae505a9eed503f8b8e6982036873e.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6446801/ratio_4_3/1613475435/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6433897/ratio_4_3/1612357400/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/3230711/ratio_4_3/1618833552/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6480914/ratio_4_3/1618574290/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6272912/ratio_4_3/1615365927/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6351957/ratio_4_3/1607437288/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6503275/ratio_4_3/1618295426/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6502082/ratio_4_3/1618209004/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6248207/ratio_4_3/1618835742/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6508231/ratio_4_3/1618598960/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/3841394/ratio_4_3/1560422518/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/5486009/ratio_4_3/1596096573/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6483421/ratio_4_3/1616479298/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/4296501/ratio_4_3/1455182545/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/2094109/ratio_4_3/1551947039/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/5839173/ratio_4_3/1607609324/300x225/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6502376/ratio_4_3/1618223347/300x225/"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/-wt-safetag.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/ml-top.de.inc?sub=desc-flyout"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/bundle/vendors~swiper-2797ea65d50deaaaa7ea.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/css/berlin_de/echo/bundle/f94d5bafb645643d9a5da3fd98442b77.woff"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://w7.berlin.de/102571513503709/wtm0xyo5h76jm?la=en&cg2=.&fns=1&p=524,www.berlin.de%2F,1,800x600,24,1,1618850180436,1,800x600,0&eid=2161885018038823915&cp777=cm.rubric&cp776=Berlin%20-%20Offizielles%20Stadtportal%20der%20Hauptstadt%20Deutschlands%20%E2%80%93%20Berlin.de&np=&cg1=CorporateHome&pu=https%3A%2F%2Fwww.berlin.de%2F&one=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/imgscaler/WMLvbnu7a369nDG06LjwnY58jA1Lt-Qys-Ih7e0YOm4/channelbuehne/L3N5czExLXByb2QvY29yb25hL19hc3NldHMvYmlsZGVyL2ltcGZkb3NlXzJfMV9jX2RwYS5qcGc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.berlin.de/binaries/asset/image_assets/6410816/ratio_2_1/1615472878/624x312/"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://w7.berlin.de/102571513503709/wtjrkg_p835hr?la=en&pu=https%3A%2F%2Fwww.berlin.de%2F&ct=webtrekk_ignore&ck521=https%3A%2F%2Fwww.berlin.de%2Fspecial%2Fimmobilien-und-wohnen%2F6414681-739619-mit-modulsofas-von-sofacompany-flexibel-.html%3Bhttps%3A%2F%2Fwww.berlin.de%2Feventlocations%2F%3Bhttps%3A%2F%2Fwww.berlin.de%2Feventlocations%2F%3Bhttps%3A%2F%2Fwww.berlin.de%2Fspecial%2Fshopping%2Feinkaufscenter%2F%3Bhttps%3A%2F%2Fwww.berlin.de%2Fspecial%2Fshopping%2Feinkaufsmeilen%2F&eid=2161885018038823915&ck527=trakkking.teaser%3Btrakkking.teaser%3Btrakkking.teaser%3Btrakkking.link%3Btrakkking.link&ck520=www.berlin.de%2F%3Bwww.berlin.de%2F%3Bwww.berlin.de%2F%3Bwww.berlin.de%2F%3Bwww.berlin.de%2F&p=524,www.berlin.de%2F,1,800x600,24,1,1618850180615,2,800x600,0&ck1=1%3B1%3B1%3B1%3B1&ck526=sofacompany-teaser-tb.cm.link.6435200%3Bcm.rubric.3756109%3Bcm.rubric.3756109%3Bcm.rubric.1724954%3Bcm.rubric.1724955"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "mediastream:",
+        "data:",
+        "blob:",
+        "https:"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' 'unsafe-eval' mediastream: data: blob: https:; worker-src 'self' blob:; upgrade-insecure-requests",
+      "upgrade-insecure-requests": [],
+      "worker-src": [
+        "'self'",
+        "blob:"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=2592000",
+      "includeSubDomains": false,
+      "max-age": 2592000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://berlin.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

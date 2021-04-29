@@ -1,0 +1,392 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".www.dfki.de",
+      "expires": 1652880426,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.3.e0a3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "e4762e48bcb0f98a.1618925226."
+    },
+    {
+      "domain": ".www.dfki.de",
+      "expires": 1618927025,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.3.e0a3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dfki.de/web/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "368faf9c7b3beb86af9d48fed5f3187cbfdb7fb44d321625273844ac1fb402ee",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1631538336.0,
+      "not_valid_before": 1560344736.0,
+      "serial_number": 10252381798439261616319182107,
+      "subject": {
+        "commonName": "www.dfki.de",
+        "countryName": "DE",
+        "localityName": "Kaiserslautern",
+        "organizationName": "Deutsches Forschungszentrum fuer Kuenstliche Intelligenz GmbH",
+        "organizationalUnitName": "ISG",
+        "stateOrProvinceName": "Rheinland-Pfalz"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dfki.de/web/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dfki.de/",
+    "https://www.dfki.de/",
+    "https://www.dfki.de/web",
+    "https://www.dfki.de/web/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://dfki.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/web"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/web/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3temp/assets/compressed/merged-55818fbdddadb78dce07a043888cf13a-9213cb2f977611f152fa3341d9054cc2.css.gzip?1604069217"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/user_upload/DFKI/Medien/Logos/Logos_DFKI/DFKI_Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/5/b/csm_HM21_Slider_1410x530-daumen_688fcccbeb.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/b/4/csm_ESA_Geostationary_orbit_Slider_5cdd3e1f82.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/2/5/csm_DFKI-Aussenstelle_Luebeck-PM-Luftbild-Slider_f0dfe3269a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/8/3/csm__OPU_Slider_3e2da52d9d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/3/9/csm_FB_IML_Slider_4390029f33.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/9/e/csm_vision_thumb-1_93cee5dca7.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/f/b/csm_AIeX_thumb_8387e087a2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/8/3/csm_Live_thumb_6a366d0efb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/f/a/csm_kargermann_wahlster_thumb_669d36a9f3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/3/0/csm_PM_Tech-Oscar-Slusallek-Teaser_01_d6797ce606.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/d/6/csm_Prof-Antonio-Krueger-teaser_de7712e641.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/0/8/csm_BaSynaos-Teaser_38064c6eea.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/4/b/csm_KI-Campus_Mensch-Maschine-Interaktion_02_927cf4878f.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3temp/assets/compressed/merged-62385969f956991b04d89ed0cf305bff-000b87fa181440d40eb2906ba5ab30d2.css.gzip?1604069217"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/5/b/csm_AdobeStock_249961822_5d6aab0136.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/user_upload/DFKI/Medien/DFKI_Deutschlandkarte_2021.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/_processed_/d/7/csm_Teaser_DFKI-Karriere_V1_dc37fb3175.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/fileadmin/user_upload/DFKI/Medien/News_Media/News_und_Events/Newsletter/Thumbnail_Footer_DFKI-News_1-2021d.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3temp/assets/compressed/merged-2582811e268ed7ffc6bc648d365915df-076922c5e2a3db5553de04af72a12883.js.gzip?1604069217"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Js/Hyphenopoly/Hyphenopoly_Loader.js?1604068973"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webstat-kl.dfki.de/matomo/piwik.js"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Fonts/fira-sans-v8-latin-500.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Fonts/fira-sans-v8-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Fonts/fira-sans-v8-latin-italic.woff2"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Js/Hyphenopoly/patterns/de.wasm"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Js/Hyphenopoly/patterns/en-us.wasm"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dfki.de/typo3conf/ext/wftmpl_dfki/Resources/Public/Js/Hyphenopoly/Hyphenopoly.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://webstat-kl.dfki.de/matomo/piwik.php?action_name=KI%20f%C3%BCr%20den%20Menschen%20-%20Intelligente%20L%C3%B6sungen%20f%C3%BCr%20die%20Wissensgesellschaft&idsite=3&rec=1&r=311762&h=15&m=27&s=5&url=https%3A%2F%2Fwww.dfki.de%2Fweb%2F&_id=e4762e48bcb0f98a&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=1cU7oB&pf_net=0&pf_srv=123.14500000502449&pf_tfr=18.81499998853542"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://dfki.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

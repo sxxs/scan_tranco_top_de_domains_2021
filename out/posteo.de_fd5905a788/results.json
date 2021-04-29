@@ -1,0 +1,654 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "posteo.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_mailservice_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 222,
+      "value": "BAh7BzoPc2Vzc2lvbl9pZCIlZGExMjdlYmIxZWNlZTVmMzEzNGY2YzY3NzllMGZmOTE6EF9jc3JmX3Rva2VuSSIxNVRnRzJ2enZ3UHdlbnBxQWp6aWUzdEVvSEt3TkUxZWxuV0crL1JSWENBRT0GOgZFRg%3D%3D--b6055f8ad7dc9ba91b6707757460fcfd355d8738"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [
+    {
+      "error_text": "",
+      "error_type": "unknown",
+      "url": "https://posteo.de/manifest_website.json"
+    }
+  ],
+  "final_url": "https://posteo.de/en",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "caad660a5a7f0ecd853177890f2b4182d9c737a499359fc86d83a42c945d9740",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust EV RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 3072,
+        "type": "RSA"
+      },
+      "not_valid_after": 1643497199.0,
+      "not_valid_before": 1609196400.0,
+      "serial_number": 19616580499121469746981021464054096574,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "posteo.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Charlottenburg",
+        "jurisdictionStateOrProvinceName": "Berlin",
+        "localityName": "Berlin",
+        "organizationName": "Posteo e.K.",
+        "serialNumber": "HRA 47592",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://posteo.de/en/site/contact",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://posteo.de/",
+    "https://posteo.de/",
+    "https://posteo.de/en"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://posteo.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/en"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/stylesheets/p_styles-website.css?1618927299"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/stylesheets/p_styles-cms-videojs.css?1618927280"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/basics.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/feedback-messages.js?1618927250"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/mail_start_wo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/kalender_slider.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/adressbuch_slider.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/slider_nachhaltigkeit_windradco2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/slider_datenschutz_bsi-tr-03108-1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/slider_werbefreiheit.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/slider_umzugsservice_en.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/mail_leistungen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/2013/images/ripe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/2013/images/tux.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/2013/images/gpe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/100pro_puzzle.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/responsive-nav/responsive-nav.min.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/jquery-1.12.4.min.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/jquery.rwd_totoplink.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/slick/slick.min.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/iscroll.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/stage.js?1618927250"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/javascripts/p-wm_detectTouchOrMouse.js?1618927250"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/fonts/DroidSans-webfont.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/triangle.png"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/fonts/DroidSans-Bold-webfont.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_guardian.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_planetwissen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_stiwa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_heise.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_dradio.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_faz.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_oekotest.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_ard.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_technologyreview.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_ct.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_computerbild.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_tagesspiegel.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_linux.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_chip.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_futurzwei.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_netzpolitik.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_spon.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_sz.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_irishtimes.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_berlinerzeitung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_macwelt.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_stampa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_parisberlin.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/banner/screenshot_n24.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/navigator_start.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/strom_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/daten_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/einkauf_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/schloss_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/anonym_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/synch_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/sparschwein_puzzle.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/images/plus_puzzle.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://posteo.de/auth_token"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://posteo.de/manifest_website.json"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "child-src": [
+        "'self'"
+      ],
+      "connect-src": [
+        "https://api.posteo.de",
+        "https://payment.posteo.de",
+        "https://cdn.posteo.de",
+        "wss://posteo.de",
+        "'self'"
+      ],
+      "default-src": [
+        "'none'"
+      ],
+      "font-src": [
+        "'self'",
+        "data:"
+      ],
+      "form-action": [
+        "https://www.paypal.com",
+        "https://hooks.stripe.com",
+        "'self'",
+        "data:"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "frame-src": [
+        "'self'",
+        "blob:"
+      ],
+      "header_value": "connect-src https://api.posteo.de https://payment.posteo.de https://cdn.posteo.de wss://posteo.de 'self'; child-src 'self'; font-src 'self' data:; form-action https://www.paypal.com https://hooks.stripe.com 'self' data:; frame-ancestors 'self'; frame-src 'self' blob:; img-src data: *; media-src 'self' https://cdn.posteo.de; object-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-eval' 'unsafe-inline'; default-src 'none'; reflected-xss block; referrer no-referrer;",
+      "img-src": [
+        "data:",
+        "*"
+      ],
+      "media-src": [
+        "'self'",
+        "https://cdn.posteo.de"
+      ],
+      "object-src": [
+        "'self'"
+      ],
+      "referrer": [
+        "no-referrer"
+      ],
+      "reflected-xss": [
+        "block"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": "enforce, max-age=300",
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://posteo.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

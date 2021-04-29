@@ -1,0 +1,801 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.nextpit.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 48,
+      "value": "A9B0A628F24E0D4CA7CC316D3F106DA7.www02"
+    },
+    {
+      "domain": ".nextpit.de",
+      "expires": 1618935837,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10801,
+      "name": "AMP_TOKEN",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 21,
+      "value": "%24NOT_FOUND"
+    },
+    {
+      "domain": ".nextpit.de",
+      "expires": 1682004237,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1917927187.1618932238"
+    },
+    {
+      "domain": ".nextpit.de",
+      "expires": 1619018637,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.1548330872.1618932238"
+    },
+    {
+      "domain": ".nextpit.de",
+      "expires": 1618932297,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_gat_UA-7489116-1",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 18,
+      "value": "1"
+    },
+    {
+      "domain": ".nextpit.de",
+      "expires": 1618932297,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_gat_UA-7489116-13",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 19,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.nextpit.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": true,
+      "all_set_js": false,
+      "any_set_js": true,
+      "num_requests_aip": 1,
+      "num_requests_no_aip": 2
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "t0",
+        "tracking_id": "UA-7489116-13"
+      },
+      {
+        "anonymize_ip": true,
+        "name": "localeTracker",
+        "tracking_id": "UA-7489116-1"
+      },
+      {
+        "anonymize_ip": false,
+        "name": "gtm5",
+        "tracking_id": "UA-7489116-1"
+      },
+      {
+        "anonymize_ip": false,
+        "name": "gtm6",
+        "tracking_id": "UA-7489116-13"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "eda2e89971a8c9b38ab8163d33872947bdf2fe0adc87564f75e29596848ac7c5",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622427909.0,
+      "not_valid_before": 1614655509.0,
+      "serial_number": 272573207959480912533241779524575024946467,
+      "subject": {
+        "commonName": "www.nextpit.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://nextpit.de/",
+    "https://nextpit.de/",
+    "https://www.nextpit.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://nextpit.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nextpit.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nextpit.de/"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/tag/js/gpt.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/adconsent/adconsent.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/pub/nextpit.com/20200522/snhb-nextpit.com.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/main-ad6b59.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/sitehome-449fc6.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/44704/file/NextPit_CasaCasi-w500h355.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/Offline_games-w500h355.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/Samsung_Galaxy_A32/NextPit_Samsung_Galaxy_A32_back-w500h355.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7695213/image/Smishing-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/iPhone_12_Pro/NextPit_iPhone_12_Pro_camera-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7682239/image/apple_event_april_2021__1-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/Browser_Android-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7711048/image/Samsung-One-UI-DE-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7695213/image/Oppo_Find_X3_Neo_NextPit-08-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7446224/image/fitbit-luxe/Fitbit_Luxe_Laydown_Hero_Duo_Lunar_White_Black_Center-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7695213/image/AndroidMemoji-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7021684/image/chinese-phones-2020-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7611461/image/apple-iphone-xr/apple-iphone-xr_02-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/Oppo_Watch/NextPit_Oppo_Watch_sport-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7695213/image/Xperia_10_III_Teaser-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/apps_week-2-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/44704/file/NextPit_CasaCasi-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/Offline_games-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/NextPit_Google_Play-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7711048/image/OxigenOS_DE-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7711048/image/Tower_Defense_Spiele_3-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7687254/image/Samsung_Galaxy_A32/NextPit_Samsung_Galaxy_A32_back-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fscl01.fonpit.de/userfiles/7695213/image/iOS_Android_Reset_NextPit-w206h146.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/svg/envelope.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/svg/arrow.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nextpit.de/pagespeed_static/js_defer.I4cHjq6EEP.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/fancybox-2.1.4/jquery.fancybox.pack.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/jquery/jquery.form.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/fancyBox-a143b0.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/article2-b771bc.css"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0b.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/img/xicoFlags-opt.png.pagespeed.ic.AV6yyMEFG5.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/img/nav/xpoweredby_nextpit.png.pagespeed.ic.DHzs-0_5ai.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/ubuntu/v13/4iCv6KVjbNBYlgoCxCvjsGyN.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/ubuntu/v13/4iCs6KVjbNBYlgoKfw72.woff2"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/styles/font/selection_androidpit.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021041501.js?31060849"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/jquery/jquery-1.7.1.with.cookie.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/vendor_bundle-993859.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/commonFooter_bundle-cf90fa.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/sitehome_bundle-894193.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5C47FS"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geo-eu.snigelweb.com/bp/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/prebid/latest/prebid.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/snhb/snhbGlobalSettings.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/plugins/ua/linkid.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ampcid.google.com/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/sncmp/latest/sncmp.min.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ampcid.google.de/v1/publisher:getClientId?key=AIzaSyA65lEHUEizIsNtlbNo-l2K18dT680nsaM"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/adconsent/adconsent_bp2starter.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=193262923&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nextpit.de%2F&ul=en-us&de=UTF-8&dt=Alles%20%C3%BCber%20Technik%3A%20News%2C%20Tests%2C%20Vergleiche%2C%20Tipps%20%26%20Tricks&sd=24-bit&sr=800x600&vp=785x600&je=0&_u=aGDAAEIpAAQCAC~&jid=1628093815&gjid=1948546876&cid=1917927187.1618932238&tid=UA-7489116-1&_gid=1548330872.1618932238&_r=1&cg1=Others&gtm=2wg4725C47FS&cm2=0&z=1031100572"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=193262923&t=pageview&_s=1&dl=https%3A%2F%2Fwww.nextpit.de%2F&ul=en-us&de=UTF-8&dt=Alles%20%C3%BCber%20Technik%3A%20News%2C%20Tests%2C%20Vergleiche%2C%20Tipps%20%26%20Tricks&sd=24-bit&sr=800x600&vp=785x600&je=0&_u=aGDAAEIpAAQCAC~&jid=868508209&gjid=1268528365&cid=1917927187.1618932238&tid=UA-7489116-13&_gid=1548330872.1618932238&_r=1&cg1=Others&gtm=2wg4725C47FS&cm2=0&z=493040456"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/adconsent/50/adconsent__tcfapi.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-7489116-1&cid=1917927187.1618932238&jid=1628093815&gjid=1948546876&_gid=1548330872.1618932238&_u=aGDAAEIoAAQCAC~&z=631491425"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/gvl/vendor-list.json"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j90&tid=UA-7489116-1&cid=1917927187.1618932238&jid=1628093815&_u=aGDAAEIoAAQCAC~&z=250407359"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.de/ads/ga-audiences?t=sr&aip=1&_r=4&slf_rd=1&v=1&_v=j90&tid=UA-7489116-1&cid=1917927187.1618932238&jid=1628093815&_u=aGDAAEIoAAQCAC~&z=250407359"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.snigelweb.com/adconsent/50/views/adconsent__tcfapi_en.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/js/sncmp//en.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.npstatic.com/img/logo/androidpit_logo-60x60.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=600",
+      "includeSubDomains": false,
+      "max-age": 600,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://nextpit.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ampcid.google.com",
+      "ampcid.google.de",
+      "c.amazon-adsystem.com",
+      "cdn.snigelweb.com",
+      "fonts.gstatic.com",
+      "fscl01.fonpit.de",
+      "geo-eu.snigelweb.com",
+      "securepubads.g.doubleclick.net",
+      "static.npstatic.com",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.google.de",
+      "www.googletagmanager.com",
+      "www.googletagservices.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 72
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 25,
+    "trackers": [
+      "ampcid.google.com",
+      "ampcid.google.de",
+      "c.amazon-adsystem.com",
+      "cdn.snigelweb.com",
+      "geo-eu.snigelweb.com",
+      "securepubads.g.doubleclick.net",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.googletagmanager.com",
+      "www.googletagservices.com"
+    ]
+  }
+}

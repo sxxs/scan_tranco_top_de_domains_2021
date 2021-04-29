@@ -1,0 +1,575 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "btg.mtvnservices.com",
+      "expires": 1934269209.011847,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 315367202.011847,
+      "name": "vmn_uuid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 44,
+      "value": "c20aac98-b636-1ea8-f6d7-18c126da5fdc"
+    },
+    {
+      "domain": ".nick.de",
+      "expires": 2492982000,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 874079993,
+      "name": "vmn_uuid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 44,
+      "value": "c20aac98-b636-1ea8-f6d7-18c126da5fdc"
+    },
+    {
+      "domain": ".nick.de",
+      "expires": 1650445210,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543203,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 220,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+11%3A00%3A10+GMT%2B0200+(Central+European+Summer+Time)&version=6.15.0&hosts=&landingPath=https%3A%2F%2Fwww.nick.de%2F&groups=1%3A1%2C2%3A0%2C3%3A0%2C4%3A0%2C5%3A0"
+    },
+    {
+      "domain": ".nr-data.net",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 26,
+      "value": "c089e3e5501156fe"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "nr-data.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.nick.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "bd4a5e7ef4223fcf0c9cdb03b1e7b1899025360fcd4b532ef63f97fcce9a8230",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1622757599.0,
+      "not_valid_before": 1612134000.0,
+      "serial_number": 14208007965023700010429412888576498137,
+      "subject": {
+        "commonName": "www.viacom.tech",
+        "countryName": "US",
+        "localityName": "New York",
+        "organizationName": "Viacom International Inc.",
+        "stateOrProvinceName": "New York"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.nick.de/info/nu5iv9/info-impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://nick.de/",
+    "http://www.nick.de/",
+    "https://www.nick.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://nick.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.nick.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/base-452ce7f2b-3468-2021-04-20.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/gae-f5db208d66b5c78fed25.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://production-cmp.isgprivacy.cbsi.com/dist/optanon-v1.1.0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/vendor-bf86fb99.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/runtime-01241090.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/gae-43ff0b04.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/5556a0e6-cba9-4322-b6b3-a810fd9e2bf5/5556a0e6-cba9-4322-b6b3-a810fd9e2bf5.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M44FVGX"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/png/Nickelodeon_logo@3x.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/fonts/icon/global-icons-d2b9303d701336ea27592013f2eea82d.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/fonts/galano/GalanoGrotesque-Black.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/fonts/galano/GalanoGrotesque-Bold.woff2"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/fonts/galano/GalanoGrotesque-Medium.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.15.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://btg.mtvnservices.com/aria/bentojs.js?site=webplex-nick-gdpr-intl&v=3.0.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.nick.de/vendors~cvp_test-ace70cd5.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://production-cmp.isgprivacy.cbsi.com/cps/shamanNotifier.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:63ef2ddc-7525-4d26-a118-1a2bc57918db?quality=0.7&width=980&height=552&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:2c146908-ca0b-4153-a753-6c7a92616dac?quality=0.7&width=980&height=552&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:db0c8688-2f0a-43ae-8e0c-965cab8b342f?quality=0.7&width=980&height=552&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:9207b44f-13c2-40b5-a310-499f4bc09396?quality=0.7&width=980&height=551&crop=true"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-gl.nmrodam.com/conf/P0C041E93-4232-4E8D-89B0-FE6839456DED.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/5556a0e6-cba9-4322-b6b3-a810fd9e2bf5/93cae227-4202-4f20-b2b2-e6a0b40b1096/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.15.0/assets/otFlat.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.15.0/assets/v2/otPcPanel.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-gl.nmrodam.com/novms/js/2/nlsSDK600.eu.bundle.min.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-gl.nmrodam.com/novms/html/ls.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js-agent.newrelic.com/nr-1167.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://secure-eu.nmrodam.com/cgi-bin/gn?prd=session&c9=devid,&c13=asid,P0C041E93-4232-4E8D-89B0-FE6839456DED&sessionId=qmow7kr7q458wot1zuwkodzjmsgm91618909210&c16=sdkv,bj.6.0.0&uoo=&fp_id=&fp_cr_tm=&fp_acc_tm=&fp_emm_tm=&ve_id=&c30=bldv,6.0.0.583&retry=0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://qmow7kr7q458wot1zuwkodzjmsgm91618909210.nuid.nmrodam.com/"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam.nr-data.net/1/1ac7d5dd09?a=222923335&sa=1&v=1167.2a4546b&t=Unnamed%20Transaction&rst=2875&ref=https://www.nick.de/&be=518&fe=2696&dc=1947&af=err,xhr,stn,ins&perf=%7B%22timing%22:%7B%22of%22:1618909207887,%22n%22:0,%22f%22:269,%22dn%22:271,%22dne%22:271,%22c%22:271,%22s%22:289,%22ce%22:331,%22rq%22:331,%22rp%22:352,%22rpe%22:373,%22dl%22:358,%22di%22:1947,%22ds%22:1947,%22de%22:1948,%22dc%22:2696,%22l%22:2696,%22le%22:2698%7D,%22navigation%22:%7B%7D%7D&fp=807&fcp=807&jsonp=NREUM.setToken"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:c3f740a6-109f-483d-808a-871e749e5878?quality=0.7&width=200&height=300&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:e29198a2-c2fe-4e1e-b0d6-47b909ec82b8?quality=0.7&width=200&height=300&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:bfecaee2-ca33-4820-a7c3-601da22f8cb4?quality=0.7&width=200&height=300&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:ccd9e6a5-a27a-4565-8005-90eff7442683?quality=0.7&width=200&height=300&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:cddd8a94-9a41-4684-8874-62cc7bb678a1?quality=0.7&width=200&height=300&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:380818e4-fdba-4760-92ce-9d437e33a6ce?quality=0.7&width=980&height=551&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:86f60ade-9a71-482e-be63-46814f90f256?quality=0.7&width=980&height=551&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:55d30f81-d800-43a7-8fea-dea5d3fc786d?quality=0.7&width=980&height=551&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:6d08a02b-0089-48c5-96af-52c2a6bda9bc?quality=0.7&width=980&height=551&crop=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:819f5664-6be4-4602-93f3-5c99be502299?quality=0.7&width=952&height=536&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:0b43eb60-6007-4f9f-9713-19a17b9ba912?quality=0.7&width=980&height=551&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:81afc998-ef83-4a2a-a291-96fb0885281a?quality=0.7&width=400&height=225&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:c5c0dfa6-a74b-48f7-a6e6-bd7f9c6d255c?quality=0.7&width=400&height=225&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:ff868d09-6a96-440a-a33d-46e7269f0f14?quality=0.7&width=400&height=225&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:72b45f55-6d76-4cb1-80cf-736faf1cc839?quality=0.7&width=400&height=225&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:a7f4beac-43cb-403c-9028-fd016b26821f?quality=0.7&width=400&height=225&crop=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nick.mtvnimages.com/uri/mgid:arc:content:nick.de:1c4463e9-fedb-4419-bbd3-5fd357b17c5e?quality=0.7&width=400&height=225&crop=true"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam.nr-data.net/events/1/1ac7d5dd09?a=222923335&sa=1&v=1167.2a4546b&t=Unnamed%20Transaction&rst=12876&ref=https://www.nick.de/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://nick.de\r",
+  "third_parties": {
+    "fqdns": [
+      "bam.nr-data.net",
+      "btg.mtvnservices.com",
+      "cdn-gl.nmrodam.com",
+      "cdn.cookielaw.org",
+      "js-agent.newrelic.com",
+      "nick.mtvnimages.com",
+      "production-cmp.isgprivacy.cbsi.com",
+      "qmow7kr7q458wot1zuwkodzjmsgm91618909210.nuid.nmrodam.com",
+      "secure-eu.nmrodam.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 39
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 16,
+    "trackers": [
+      "bam.nr-data.net",
+      "cdn-gl.nmrodam.com",
+      "cdn.cookielaw.org",
+      "js-agent.newrelic.com",
+      "production-cmp.isgprivacy.cbsi.com",
+      "qmow7kr7q458wot1zuwkodzjmsgm91618909210.nuid.nmrodam.com",
+      "secure-eu.nmrodam.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

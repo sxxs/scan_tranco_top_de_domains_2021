@@ -1,0 +1,515 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".gamestar.de",
+      "expires": 1650532929,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31629601,
+      "name": "didomi_token",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 200,
+      "value": "eyJ1c2VyX2lkIjoiMTc4ZWU5NjQtNzRkZC02ZTdiLTgyYjgtYTEzZjUyMjgyODEzIiwiY3JlYXRlZCI6IjIwMjEtMDQtMjBUMDk6MjI6MDkuNDYwWiIsInVwZGF0ZWQiOiIyMDIxLTA0LTIwVDA5OjIyOjA5LjQ2MFoiLCJ2ZXJzaW9uIjpudWxsfQ=="
+    },
+    {
+      "domain": "www.gamestar.de",
+      "expires": 1650446529.924228,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201.924227953,
+      "name": "cfid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "00df760a-01e2-4460-be02-ed911238c2de"
+    },
+    {
+      "domain": "www.gamestar.de",
+      "expires": 1650446529.924274,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201.924273968,
+      "name": "cftoken",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.gamestar.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "300cc49369bcb032b31ba5258a71d86ea9372b9c1469af26dfc5dfcc50ed54f3",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624848276.0,
+      "not_valid_before": 1617072276.0,
+      "serial_number": 352235117612555434985947089778797994911532,
+      "subject": {
+        "commonName": "gamestar.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.gamestar.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://gamestar.de/",
+    "https://gamestar.de/",
+    "https://www.gamestar.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://gamestar.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://gamestar.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/mobiledetection.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/969f779f-570e-47ae-af54-36b8692b345e/loader.js?target=www.gamestar.de"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/css/gamestar.min.css?cc=190420210705"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/css/dark.min.css?cc=190420210705"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/unslider/dist/css/unslider.css?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/jquery/jquery-3.5.1.min.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/images/GS_logo_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/img/plus/gs_shop_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/img/plus/gsp_plus_logo_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/gs_cb/assets/images/favicon/favicon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/images/webedia_Logo_cutout.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/jquery/jquery.rcrumbs.min.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/typeahead/typeahead.bundle.min.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/waypoints/jquery.waypoints.min.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/jquery/jquery.validate.min.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/velocity.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/jquery/jquery.event.move.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/jquery/jquery.event.swipe.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/unslider/dist/js/unslider-min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/theia-sticky-sidebar/js/ResizeSensor.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/theia-sticky-sidebar/js/theia-sticky-sidebar.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/gs_cb/assets/core/js/libs/tiny_mce/tiny_mce.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/tiny_mce/jquery.tinymce.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/js/gamestar.min.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/bootstrap/bootstrap.min.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/sdk.882eed468c296960a1e82ca6b5bc759f70e9820c.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/bxw3gkn.js"
+    },
+    {
+      "mime_type": "font/ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/fonts/gsgp-icons.ttf?m4s8b0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/js/libs/lazysizes-intersection.js?cc=190420210705"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/af/bdde80/00000000000000000001522d/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/af/220823/000000000000000000015231/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/af/180254/00000000000000000001522c/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/af/1f781f/00000000000000003b9aef83/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/af/2e4bb3/00000000000000003b9aef7e/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/af/273d01/00000000000000003b9aef81/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n6&v=3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/ui-gdpr-de.882eed468c296960a1e82ca6b5bc759f70e9820c.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/gs_cb/index.cfm?event=content:ajax.siteSearchSuggest"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/gs_cb/index.cfm?event=gamestars:ajax.siteSearchSuggest"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.privacy-center.org/v1/events"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://api.privacy-center.org/v1/events"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://2images.cgames.de/images/gamestar/210/netflix-mai-2021_6136031.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://1images.cgames.de/images/gamestar/256/highlightbild-der-faszination-von-dual-universe-kann-man-sich-nur-schwer-entziehen_6136110.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://2images.cgames.de/images/gamestar/256/the-bus_6135461.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://5images.cgames.de/images/gamestar/256/gs-resident-evil-8-village-preview_6135824.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gamestar.de/gs_cb/index.cfm?event=tracking:ajax.cmpAction"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://p.typekit.net/p.gif?s=1&k=bxw3gkn&ht=tk&h=www.gamestar.de&f=15701.15705.15708.17001.17005.17006&a=699962&js=1.20.0&app=typekit&e=js&_=1618910529889"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "https://imasdk.googleapis.com",
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self';"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://gamestar.de\r",
+  "third_parties": {
+    "fqdns": [
+      "1images.cgames.de",
+      "2images.cgames.de",
+      "5images.cgames.de",
+      "api.privacy-center.org",
+      "p.typekit.net",
+      "sdk.privacy-center.org",
+      "static.cgames.de",
+      "use.typekit.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 39
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "api.privacy-center.org",
+      "p.typekit.net",
+      "sdk.privacy-center.org"
+    ]
+  }
+}

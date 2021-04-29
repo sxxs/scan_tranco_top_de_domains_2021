@@ -1,0 +1,863 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "consentmanager.mgr.consensu.org",
+      "expires": 1653052589.493678,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135201.49367809,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "www.pharmazeutische-zeitung.de",
+      "expires": 1653052589,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135201,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "www.pharmazeutische-zeitung.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "npasn",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 6,
+      "value": "1"
+    },
+    {
+      "domain": ".www.pharmazeutische-zeitung.de",
+      "expires": 1620134190,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216802,
+      "name": "__cmpconsent13151",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 127,
+      "value": "CPE9EnNPE9EnNAfJ-BDEBWCgAAAAAAAAAAigFtQAQFtAW1ABAW0ASDAAgLaCgAQFtBwAIC2hIAEBbQsACAtoaABAW0PAAgLaJgAQFtFQAIC2gA"
+    },
+    {
+      "domain": ".www.pharmazeutische-zeitung.de",
+      "expires": 1620134190,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216802,
+      "name": "__cmpcccu13151",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "aBPE9EnNAAABQAXABgAEoAIfeQ"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621516590.243204,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.243204117,
+      "name": "__cmpconsent13151",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 127,
+      "value": "CPE9EnNPE9EnNAfJ-BDEBWCgAAAAAAAAAAigFtQAQFtAW1ABAW0ASDAAgLaCgAQFtBwAIC2hIAEBbQsACAtoaABAW0PAAgLaJgAQFtFQAIC2gA"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621516590.243259,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599202.243258953,
+      "name": "__cmpcccu13151",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "aBPE9EnNAAABQAXABgAEoAIfeQ"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 3,
+    "third_party_short": 0,
+    "trackers": [
+      "consensu.org"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.pharmazeutische-zeitung.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "d6ebba534008c1183215f8a90a559601a60f6797ec044c464ed0c6fc73df9b02",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Starfield Secure Certificate Authority - G2",
+        "countryName": "US",
+        "localityName": "Scottsdale",
+        "organizationName": "Starfield Technologies, Inc.",
+        "organizationalUnitName": "http://certs.starfieldtech.com/repository/",
+        "stateOrProvinceName": "Arizona"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1649915792.0,
+      "not_valid_before": 1615791392.0,
+      "serial_number": 17509186171355762090,
+      "subject": {
+        "commonName": "*.pharmazeutische-zeitung.de",
+        "organizationalUnitName": "Domain Control Validated"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.pharmazeutische-zeitung.de/weitere-infos/impressum/#cmpnoscreen",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://pharmazeutische-zeitung.de/",
+    "https://www.pharmazeutische-zeitung.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://pharmazeutische-zeitung.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/typo3temp/assets/compressed/merged-1fa73c4dd76e5d461c6c5c6e2b162c5f-min.css?1617003209"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/typo3temp/assets/compressed/merged-4fb6602bbd9dfe30bc4921a139f04906-min.js?1617003264"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/trans728x90.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/pharmazeutische-zeitung-online.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/avoxa.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/facebook-icon-black-more.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/twitter-icon-black-more.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/linkedin-icon-black-more.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/xing-icon-black-more.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/time.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/time.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/pz.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/js/fkc_section_ausgabe.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ihr-apotheker.de/news/newsflash.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adasync.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=20638&h=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&&l=en&o=1618924589367"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_red/hamburger.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/3/3/csm_80487_4f6c830f4a.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/spacer/16px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/spacer/8px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_red/arrow-right.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/spacer/24px.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/spacer/32px.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/lazyloader.gif"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/fonts/TheSansC5-5_Plain.woff"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/fonts/TheSerifC5-7_Bold.woff"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/fonts/TheSansC5-7_Bold.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?__cmpcc=1&id=20638&o=1618924589&h=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&&l=en&odw=0&dlt=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_red/video.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfMjA2MzguZF8xMDY1Mi54XzIzLnYudF8xMDY1Mg.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/arrow-left.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_black/arrow-right.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/4/a/csm_thema_teaser_101651_thema_bundestagswahl_04519c2562.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/f/b/csm_thema_teaser_115228_thema_coronavirus_3895564d7b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/e/e/csm_thema_teaser_124281_thema_c19impfstoffev03_420d67b213.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/5/2/csm_thema_teaser_101691_thema_immunsystem_284ed5e423.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/b/f/csm_thema_teaser_114777_thema_magen_darm_4f4ff0c8e4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/9/b/csm_thema_teaser_124415_thema_e_rezept_d5633e6125.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_red/newsletter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_lila/arrow-right.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/pta.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/pz-akademie.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/dac.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/pharmastellen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/logo_govi_shop.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/aponet.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/avoxa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/spacer/48px.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/regular_white.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_red/close.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/userfunc/pages_counter/eilmeldungAndPagesCounterAjaxLoad.php"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/img/icons_red/arrow-left.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aponet.adspirit.de/adview.php?pid=250&wmid=10650&chc=1&nvc=1&ord=[timestamp]"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aponet.adspirit.de/adview.php?pid=251&wmid=10669&chc=1&nvc=1&ord=[timestamp]"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aponet.adspirit.de/adview.php?pid=299&wmid=10657&chc=1&nvc=1&ord=[timestamp]"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aponet.adspirit.de/adview.php?pid=299&wmid=10376&chc=1&nvc=1&ord=[timestamp]"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/lang/langpurpose_de.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/aponet/2094/2019-06-12/0_Transparent_1x1.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/aponet/2071/2019-05-17/0_Transparent_1x1.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/aponet/2071/2019-05-17/0_Transparent_1x1.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/aponet/2071/2019-05-17/0_Transparent_1x1.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=20638&did=1&cfdid=6489&t=pv.d_ncs.d_ancs.d_bncs.cf.cfx&h=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&o=1618924590150&l=DE&lv=19771&d=1&ct=14&e=&e2=&e3=&i=&sv=14&dv=23&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=20638&did=1&cfdid=1&t=cv&h=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&o=1618924590150&l=DE&lv=19771&d=1&ct=14&e=&e2=&e3=&i=&sv=14&dv=23&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=20638&p=1&v=4&ccc=aBPE9EnNAAABQAXABgAEoAIfeQ&c=CPE9EnNPE9EnNAfJ-BDEBWCgAAAAAAAAAAigFtQAQFtAW1ABAW0ASDAAgLaCgAQFtBwAIC2hIAEBbQsACAtoaABAW0PAAgLaJgAQFtFQAIC2gA&l=DE&lv=19771&d=1&ct=0&e=&h=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&e2=&e3=&i=&sv=14&dv=23&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/img/logo1618557630x4592.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/7/9/csm_80502_d5f771b07a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/f/7/csm_80442_fc16059ef7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/_processed_/a/d/csm_80430_cx_0_cy_167_cw_1254_ch_815_98aa960d31.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pharmazeutische-zeitung.de/fileadmin/user_upload/shutterstock_572357359_264-148.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adresponsivescript.php?async=p11218x0&wpcn=asm25494487x1618924589995&ref=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&swf=-1&scx=800&scy=600&wcx=800&wcy=600&dcx=648&vis=-1&tz=1618924589998&pid=28&search=100000+pharmazeutischezeitung&gdpr=1&gdpr_consent=-"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adresponsivescript.php?async=p19240x1&wpcn=asm25494487x1618924589995&ref=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&swf=-1&scx=800&scy=600&wcx=800&wcy=600&dcx=648&vis=-1&tz=1618924590000&pid=25&search=100000+pharmazeutischezeitung&gdpr=1&gdpr_consent=-"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adscrollintoview.php?pid=26&search=100000+pharmazeutischezeitung&gdpr=1&gdpr_consent=-&responsive=1&ref=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&dcx=648&tz=1618924591005"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adscrollintoview.php?pid=27&search=100000+pharmazeutischezeitung&gdpr=1&gdpr_consent=-&responsive=1&ref=https%3A%2F%2Fwww.pharmazeutische-zeitung.de%2F&dcx=648&tz=1618924591006"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adframe.php?tcid=xzwrap1618924591x968334y838020&&wmid=10612&pid=276&gdpr=1&gdpr_consent=-&pmrz=asm_30075x8301561"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/asm_pageview.min.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adframe.php?tcid=xzwrap1618924591x492566y794191&&wmid=10190&pid=277&gdpr=1&gdpr_consent=-&pmrz=asm_300250x9288829"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/adasync.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adview.php?tz=16189245911920328276tzmacro&&pid=276&kid=2012&wmid=10612&gdpr_consent=-&nvc=1&target=-"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/aponet/2012/2021-04-06/0_300x75_Pharmazie_studieren.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/adasync.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adview.php?tz=1618924591173373277tzmacro&&pid=277&kid=3433&wmid=10190&gdpr_consent=-&nvc=1&target=-"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/aponet/3433/2021-02-25/0_300x250_PZ_Newsletter_OTC_Wissen.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aponet.adspirit.de/adpageview.php?&wsid=29&sid=0&sid2=0&sid3=0&gdpr_consent=-&tz=1618924591247"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://pharmazeutische-zeitung.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aponet.adspirit.de",
+      "cdn.adspirit.de",
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "ihr-apotheker.de",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 36
+  },
+  "tracking": {
+    "num_tracker_cookies": 3,
+    "num_tracker_requests": 34,
+    "trackers": [
+      "aponet.adspirit.de",
+      "cdn.adspirit.de",
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org"
+    ]
+  }
+}

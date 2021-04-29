@@ -1,0 +1,1179 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".ioam.de",
+      "expires": 1647481559.678904,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 28566343.678904057,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003cc8afc57a2f524607ecbb10001%3B607ecbb1%3B623292d7"
+    },
+    {
+      "domain": ".ga.de",
+      "expires": 1621341617,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618922418223"
+    },
+    {
+      "domain": ".ga.de",
+      "expires": 2145916555.372167,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 527001339.3721671,
+      "name": "creid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 24,
+      "value": "1697563193754685983"
+    },
+    {
+      "domain": ".ga.de",
+      "expires": 1650458418,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 314,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+14%3A40%3A18+GMT%2B0200+(Central+European+Summer+Time)&version=6.16.0&hosts=&consentId=15123c8a-a028-4d14-94d1-c183d8be0d5b&interactionCount=0&landingPath=https%3A%2F%2Fga.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0005%3A0%2CC0004%3A0%2CC0003%3A0%2CSTACK42%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [
+    {
+      "domain_registered": false,
+      "error_type": "dns-not-resolved",
+      "url": "https://_.rocks/iqadcontroller.js"
+    }
+  ],
+  "final_url": "https://ga.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f3e01b5f1d9e430c13699d18fe7dbd090f4cdb9404bbcff6f75ddecca1105e19",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1645311599.0,
+      "not_valid_before": 1582066800.0,
+      "serial_number": 101787950292491251600742694224362053583,
+      "subject": {
+        "commonName": "*.ga.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://ga.de/info/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://general-anzeiger-bonn.de/",
+    "https://ga.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://general-anzeiger-bonn.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/fonts/Merriweather-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/fonts/SourceSansPro-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/fonts/SourceSansPro-Semibold.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/skins/general-anzeiger-bonn/head.css?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/head.js?v=1618462601"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ads.pubmatic.com/AdServer/js/pwt/158201/1693/pwt.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/5/9/9/2/9/tok_34336e989bd87b50a916167acb681acb/w950_h713_x1796_y1144_GA_Evangelische_Kitas_setzen_Luftfilter_ein__Elterninitiative_kaempft_weiter_um_Einsatz_in_Schulen-8829-da317b0d38f0068b.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/main.es6.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/widgets/vendor.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/92/6/0/6/3/4/6/9/7/01-print-kl-7a01119e831b8703.jpg"
+    },
+    {
+      "mime_type": "image/jsvg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/images/sprite.sportsclubs.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/5/9/9/2/9/tok_c934edc0035c90f3eb580b503a146c31/w600_h450_x1796_y1144_GA_Evangelische_Kitas_setzen_Luftfilter_ein__Elterninitiative_kaempft_weiter_um_Einsatz_in_Schulen-8829-da317b0d38f0068b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/9/3/2/2/4/1/5/7/tok_ca05cd8aa1514c6ce5f00213a30da9ed/w400_h228_x1500_y1000_DPA_bfunk_dpa_5FA5200089576065-536b91e4e0641b9a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/8/0/8/9/1/2/1/3/tok_51a1240e594d169fbbcc8a1bec2d1298/w400_h228_x526_y661_Grafik_Teaser_NRW-ba3157adda0d1101.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/9/2/1/9/4/0/2/7/tok_717fad1a4bef81e43ab70cd776f384bf/w400_h228_x1500_y839_DPA_bfunk_dpa_5FA290001530079F-fefd06646f63160b.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.weekli.systems/www/img/logo_240x97.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/3/4/4/0/7/tok_f8d6d253c065f8fd5c8ef15602ab38a5/w400_h228_x1500_y992_DPA_bfunk_dpa_5FA52800FFE27A10-6cf2e41cc5248e66.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/2/3/6/2/9/tok_ece289cd8201fce4ad00e500e4de8fc1/w400_h228_x1169_y819_AP_32A52200E40CBA11-b22051823c1458eb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/7/3/2/8/9/tok_9d4ee079b3ebee3094bef11867d77b4e/w400_h228_x533_y400_119_Online_Gabriele_Galimberti_for_National_Geographic-45aa1278784e181d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/0/4/1/5/9/tok_a21711991a4f74885be38e60a89dbc5b/w400_h228_x1402_y934_DPA_bfunk_dpa_5FA52200B47F96A9-8e33877ce9b75c32.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/0/4/1/5/1/tok_e71e77db1d174cf93a249b2149e49372/w400_h228_x1266_y848_DPA_bfunk_dpa_5FA5220036381583-cd8cb491ae185a78.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/0/3/9/2/7/tok_a93855229d0e48e999f31f69acd6acfe/w400_h228_x1500_y975_AP_32A522007C073D03-fe9f67b6791fc638.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/4/2/7/4/0/1/tok_9d342b04121031e64b0d5560fe4cad84/w400_h228_x1500_y1055_DPA_bfunk_dpa_5FA51600E1C20D42-616658a44b9ea9b4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/3/8/2/4/8/1/tok_f46434d8666c43aa662f13aa0dba9bb2/w400_h228_x398_y531_Sue_Bee_Daeumerle-f2d8c6bb9a3b8627.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/3/6/1/2/3/1/tok_ee311f32bddffd267882c972b3d4e78a/w400_h228_x1796_y1122_GA_Kirschbluete_in_der_Professor-Neu-Strasse-8339-2bb64fba04f1172e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/3/4/0/6/8/5/tok_08e923596dcc027923c7ffb155c6e66e/w400_h228_x2784_y1856_GA_mr_wash_enning_bonn_196-87c7f6d0b5e4c2cb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/2/7/1/6/8/1/tok_e2eb0205f642e014589c060ca82d7bb4/w400_h228_x1078_y719_DPA_bfunk_dpa_5FA51A00D14B07C5-c1ac887c194c515b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/2/7/1/2/1/7/tok_839a0fda805e2bde851f4f8b6c89c4ac/w400_h228_x500_y350_20210413_Baskets_0027_s-a6cff4dd8a7b7f37.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/5/2/4/1/5/tok_3f59820337f871102433aebfa2936bf8/w400_h228_x600_y395_GA_AHR_Nahr_Lindenstrasse_Liguster_gepflanzt_2-d47540607ec62bcf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/5/2/3/6/9/tok_6941a40d0f6ff664f0f28fddc0975ad1/w400_h228_x1500_y913_DPA_bfunk_dpa_5FA52800AB303715-b6f8a5bc28a442ee.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/2/6/9/4/5/tok_cc5ddd40a1a776b9dce1297edfd80bb4/w400_h228_x1500_y750_DPA_bfunk_dpa_5FA528004905215F-b9291cf0873e50b0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/1/7/8/3/6/3/tok_7b283a7125c104a7d77781f39fcf2610/w400_h228_x1796_y1338_Friedhof_Vilich_Studierende3-427899371-7690630b437c9f83.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/widgets/weather.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/5/2/5/tok_ba658a98440687abdbe5667e820ee7a1/w400_h225_x1333_y889_d800b8be153f79e7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/6/0/9/tok_fec71460ced1148d4ad584d2d6c7ad5a/w400_h225_x400_y300_501d45c014788a4d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/6/4/5/tok_17d1cab9033fcfd40efa19fc85f89399/w400_h225_x1796_y1195_fbafb36412f8e8c2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/7/4/5/tok_0b60984e38a376c95ead5cc52e93b3c4/w400_h225_x400_y300_da1a57d74103bce4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/7/7/3/tok_4a0a5e6f99c9f8ac557fb047a5e4df57/w400_h225_x1499_y1101_362a28194736a3e9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/8/4/1/tok_84afaf077e3ec7e9150ebd3266f10612/w400_h225_x400_y300_000f9bb50a825fe9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/7/8/8/0/2/9/4/3/tok_fa73555fcd3750a8a6b4287682918cca/w400_h225_x1500_y1000_DPA_bfunk_dpa_5FA0A6001E89C4AA-d0a786c93855352e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/9/1/8/4/9/6/7/7/tok_71eba4b8f9faaceba62ecbb136ed2a29/w400_h225_x1287_y924_DPA_bfunk_dpa_5FA22400F88F5207-5d306a71c9012bc7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/7/0/2/7/tok_62cbaf7e5c69a56c9c9b6ef640705cfb/w400_h225_x1299_y938_cc2cdba295d02cfc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/5/8/5/tok_74de272bab47d5682081c7c0294ecb79/w400_h225_x1708_y1102_13766091c3eccb86.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/7/1/4/9/tok_8c8c236c0872bbda4e4c467fe9f014ba/w400_h225_x1199_y794_d293a8d3de7594e6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/6/7/4/6/9/6/7/tok_0069289c2e409648482e504b5fab935f/w400_h225_x1500_y1001_b8e9d4cc60edddca.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/bd33968f-6146-4885-928b-8686c5556880/bd33968f-6146-4885-928b-8686c5556880.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/skins/general-anzeiger-bonn/main.css?v=1618462601"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/skins/general-anzeiger-bonn/print.css?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NMQ9G29"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/9/3/2/2/4/1/5/7/tok_c06ba62e74e4b6cb2ffeef24fdf64535/w400_h300_x1500_y1000_DPA_bfunk_dpa_5FA5200089576065-536b91e4e0641b9a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/1/5/4/4/7/tok_fac6993b0e22e4f7de88fe94a8d83361/w400_h300_x1500_y966_DPA_bfunk_dpa_5FA52000AE0AB80D-859c520d702777a5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/2/5/4/8/7/tok_e0851b9b137eb67431800188a75ed395/w400_h300_x400_y300_urn-newsml-dpa-com-20090101-210420-99-275903_large_4_3-b69c38d2d67177bb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/4/7/3/0/9/tok_a8fbbc56cf4912083b4859d9157233da/w400_h300_x400_y300_urn-newsml-dpa-com-20090101-210420-99-276698_large_4_3-6c52abc82987cf1f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/4/3/1/6/3/7/tok_fb1ef5ee9a3ba305a304f31c81a18e82/w400_h300_x2378_y1325_GA_Dr._Karim_Montasser_-_der_Tierarzt__dem_die_YouTube-Gemeinde_und_RTL_vertraut-8127-9547147c8009a3a6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/2/5/8/3/3/tok_676a2d43d4b45a0ea458ac8a7af8c6e0/w400_h300_x400_y300_urn-newsml-dpa-com-20090101-210420-99-270960_large_4_3-4b58aaa3d5c8bd19.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/9/5/9/7/9/tok_b6dd7c8345f7156324b91fd4096491e9/w400_h300_x1500_y876_DPA_bfunk_dpa_5FA52000432685EE-47f1938e6ca4a37c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/9/7/4/8/5/tok_ac41da3926eac0e6ed03cdff280a6923/w400_h228_x1500_y1000_AP_32A52600B94530A2-f266a8fa54d6e37f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/9/8/4/4/9/tok_962fdafd9f83e66de8fd4b8beafeff79/w400_h228_x1500_y1000_DPA_bfunk_dpa_5FA520009DA7F4F4-bac430433ddf19c9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/1/0/0/8/7/tok_c19659f48a090beca1521907ffb03985/w400_h228_x1500_y971_DPA_bfunk_dpa_5FA52200F7E54B32-db9418c5afbed8cf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/9/1/8/9/7/tok_73cbe2c69245ec8cecb2cff637e7b7e4/w400_h228_x1500_y1000_DPA_bfunk_dpa_5FA52400BC70DE01-a53086eff7246c73.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/9/0/7/5/9/tok_2b295e14bc462f1641d2b9e2bc01a670/w400_h228_x1264_y751_superleague-01__004_-c173dc3350dbb292.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/5/8/9/2/3/5/tok_93b1327250d685abe42ba403093c7d68/w400_h228_x1325_y1150_DPA_bfunk_dpa_5FA2CC0057BAE749-6bbd67c3ad34d3bd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/5/9/2/2/0/1/5/tok_dfd6bd88812f2ca6ed93c4a70a6708c5/w400_h228_x2371_y1366_GA_Nicht_ohne_mein_Lastenrad-_Wie_eine_Bonner_Familie_ohne_eigenes_Auto_auskommt-3352-ba225200e78d487d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/2/6/5/7/3/4/5/tok_c029deed2f1cf308f0cee0d0e5ae6832/w400_h228_x325_y223_karikatur200221-47769b6d03422337.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/5/9/9/3/5/9/2/7/tok_2f85004e77eeb93403f90b0c0c995893/w400_h228_x625_y750_Paul_1-6c54dd0071a0a5d1.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=rponl&cp=GA-Homepage&sv=ke&co=https%3A%2F%2Fga.de%2F&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=ga.de&xy=800x600x24&lo=DE%2FBerlin&cb=001c&i2=001c43006e5f13421607ecbb0&ep=1641110981&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618922417415&ev=&cs=pkozut&mo=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.welect.de/p/bundles/zmQ7IV5qfKSwGCFVEiq0Yhag.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Hannelore-Vogel-Traueranzeige-b8b51ddf-48a9-46a0-b514-459a99d54479.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Margret-M%C3%BCller-Traueranzeige-e6224a70-2a4e-4912-8dce-f03f9b70189c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Friedhelm-Bister-Traueranzeige-87c48f34-8ed4-46ff-8a36-cd220bdc30e9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Karl-Josef-Fleige-Traueranzeige-bd49e69f-c5de-4c15-aaf2-1accdf364e89.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Theo-Bongart-Traueranzeige-44adbcdf-dbfd-4856-a22b-2077e4fcdc0f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Arno-Hornschu-Traueranzeige-ecb46174-30a2-45d0-bda9-8e30ffdd4ee7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Renate-Pietruck-Traueranzeige-ec42c957-09ed-4bc1-af76-2b61c1f04636.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Peter-Parr-Traueranzeige-b4cffad4-856e-46e9-81c6-09b79ce9ed9a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/HeinzA.-Pohl-Traueranzeige-f70700c1-39af-4783-968b-a34cef9e6a45.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/RudolfPeter-Lutz-Traueranzeige-fe134422-c693-4568-8f42-8750aef9a02d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Gerd-Quecke-Traueranzeige-261fbc7a-d290-48e2-8b27-990e7a99d52b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Wolfgang-Henkel-Traueranzeige-95737cd6-7be9-469d-9dc8-03e28278e02f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Gerd-Keck-Traueranzeige-a469fd6f-ffbd-4379-bf6a-4b5128cb1426.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Michael-Deditius-Traueranzeige-7841e5a5-dbdd-49c2-ab4b-5d645e1cd013.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Paula-Nu%C3%9Fbaum-Traueranzeige-1d23d31d-c67b-471c-b7e9-f45ff27de648.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Rudi-Kreutz-Traueranzeige-a1002ab4-cd24-4f2b-908e-e1ac052680d1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Gisela-Gr%C3%A4ff-Traueranzeige-061172ab-c1ed-4217-bfc2-ffbc0e8fa7de.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Heinz-Bergmann-Traueranzeige-bb57cb1a-1347-45fa-83bd-7d437a40d256.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Hubert-M%C3%BCller-Traueranzeige-65c17164-9c99-42a1-95cc-7e60a5a5a957.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Hermann-Fichtl-Traueranzeige-83a5b95d-5ceb-433d-a444-f9b034aca5eb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://trauer.ga.de/MEDIASERVER/content/LH83/obi_new/2021_4/Annegret-Tegtmeier-Traueranzeige-6e37ef86-3f7a-4871-b99d-67184dbd0365.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/widgets/traffic.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/5/9/2/2/0/1/5/tok_37417f29392a7ed90a35dba607a66e9f/w950_h526_x2371_y1366_GA_Nicht_ohne_mein_Lastenrad-_Wie_eine_Bonner_Familie_ohne_eigenes_Auto_auskommt-3352-ba225200e78d487d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/8/2/2/8/5/5/3/7/tok_3be808e7b95158537618ca473df353c0/w400_h228_x960_y540_a493e05c536d1fc6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/8/2/1/9/5/5/4/7/tok_cdc0257196549d43deae5b7676e8ea47/w400_h228_x960_y540_66b02c7dd11187ce.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/8/2/1/9/5/5/5/3/tok_05848fb564daaaf80471203226ca09fc/w400_h228_x640_y360_a1847d957942e3e0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/8/2/1/9/5/5/5/7/tok_bdb569e7eab92ab472a5478d1ced15e1/w400_h228_x640_y360_c878d3e95cacc2ab.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/6/2/4/8/0/9/2/5/tok_d514ccfe05adb3e4ae3f7bf4ba240bcf/w400_h228_x1024_y768_09d080a7ad9cd774.jpeg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/api/tree?output=html&currentNode=271053&absolute=0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/widgets/navigation.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/widgets/notification-panel.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=rponl&cp=GA-Homepage&sv=ke&co=https%3A%2F%2Fga.de%2F&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=ga.de&xy=800x600x24&lo=DE%2FBerlin&cb=001c&i2=001c43006e5f13421607ecbb0&ep=1641110981&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618922417415&ev=&cs=pkozut&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/bd33968f-6146-4885-928b-8686c5556880/feb85fc9-b864-47fa-9685-63db63aa8edc/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otTCF.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/v2/otPcCenter.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/otCookieSettingsButton.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/cre-1.0/tracking/call.js?serviceid=ga&origin=web&cms_id=37955683&contentid=%2F&channel=271053&subchannel=undefined&doctype=section&kicker=undefined&heading=undefined&entitlementid=digital_web&_u=https%3A%2F%2Fga.de%2F&_c=cre_callback_42098"
+    },
+    {
+      "mime_type": "image/jsvg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/images/sprite.sportsclubs.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/popper.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://r.ga.de/images/pic.gif?m=ga_ga&b=51895231&cstr=37955683&l=&tit=Aktuelle+Nachrichten+%7C+General-Anzeiger+Bonn&url=https%3A%2F%2Fga.de%2F&sep=%7C&tce=1&tid=271053&tn=Startseite&tp=271053&tpn=Startseite&random=0.37858196746815187&r=&json=1&con=1&sz=800x600x24&cs=1"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://_.rocks/iqadcontroller.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/widgets/twig-worker.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c2.taboola.com/nr/general-anzeiger-bonn/newsroom.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/assets/slots.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/cre-1.0/tracking/device.js?width=800&height=600&dpi_x=96&dpi_y=96&tracking_id=1697563193754685983&_c=cre_callback_7095"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nr-events.taboola.com/newsroom/1.0/general-anzeiger-bonn/get-action?page.url=https%3A%2F%2Fga.de%2F&view.id=206076162184733483&page.template=home&page.dashboard=home"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://nr-events.taboola.com/newsroom/1.0/general-anzeiger-bonn/notify-impression?page.url=https%3A%2F%2Fga.de%2F&view.id=206076162184733483&page.template=home&page.dashboard=home"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/?V5&map=NRW&versionB=true&gestureHandling=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/4/8/5/4/1/tok_196b2113e9f91f9ad68e111ace2618c6/w400_h300_x400_y300_dpa-bild-urn-newsml-dpa-com-20090101-130521-99-01178-1-713c5cac2fbb9a53.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/6/2/5/2/4/1/tok_c8857ca86c0fb4696af58e4da8ee0c8e/w400_h300_x1500_y1020_DPA_kibld_dpa_5FA52600B10C2AEE-38a3e1f7541d16e8.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/rpo/css/leaflet.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/static/css/2.85e71e65.chunk.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/static/css/main.dc72b5f9.chunk.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/static/js/2.ca7b6ddd.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/static/js/main.bb5d5800.chunk.js"
+    },
+    {
+      "mime_type": "text/csv",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/uebersicht_nrw.csv"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/nrw.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/coronavirus-karte/grossstaedte_nrw.json"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ga.de/imgs/93/1/0/3/2/8/1/0/1/9/tok_976a1fcf2aedc0fb777855af8885bdb3/w400_h300_x1299_y866_1760868-a66919869b6013d2.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "http://toolpool.circit.de",
+        "https://toolpool.circit.de"
+      ],
+      "header_value": "frame-ancestors 'self' http://toolpool.circit.de https://toolpool.circit.de"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://general-anzeiger-bonn.de\r",
+  "third_parties": {
+    "fqdns": [
+      "_.rocks",
+      "ads.pubmatic.com",
+      "c.amazon-adsystem.com",
+      "c2.taboola.com",
+      "cdn.cookielaw.org",
+      "de.ioam.de",
+      "geolocation.onetrust.com",
+      "nr-events.taboola.com",
+      "script.ioam.de",
+      "securepubads.g.doubleclick.net",
+      "static-assets.rp-online.de",
+      "static.weekli.systems",
+      "static.welect.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 32
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 19,
+    "trackers": [
+      "_.rocks",
+      "ads.pubmatic.com",
+      "c.amazon-adsystem.com",
+      "c2.taboola.com",
+      "cdn.cookielaw.org",
+      "de.ioam.de",
+      "nr-events.taboola.com",
+      "securepubads.g.doubleclick.net",
+      "www.googletagmanager.com"
+    ]
+  }
+}

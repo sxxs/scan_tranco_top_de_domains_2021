@@ -1,0 +1,869 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.giz.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/cps",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 42,
+      "value": "93BBC9369D6C6FBB9001440EC425E653"
+    },
+    {
+      "domain": "www.giz.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "gizSessionCookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 37,
+      "value": "SID-D44F6C5A-683C7260"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.giz.de/de/html/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "d2e9453d2d151f10cbf368b528eadae6539a47f6a094b388376baabd65eb1b1f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Entrust Certification Authority - L1K",
+        "countryName": "US",
+        "organizationName": "Entrust, Inc.",
+        "organizationalUnitName": "(c) 2012 Entrust, Inc. - for authorized use only"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1635853156.0,
+      "not_valid_before": 1604317156.0,
+      "serial_number": 105432155963671372776058857483038772060,
+      "subject": {
+        "commonName": "www.giz.de",
+        "countryName": "DE",
+        "localityName": "Eschborn",
+        "organizationName": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit GIZ GmbH",
+        "stateOrProvinceName": "Hessen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_CBC",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": "HMAC-SHA1",
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.giz.de/de/html/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://giz.de/",
+    "https://www.giz.de/",
+    "https://www.giz.de/de/html/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://giz.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/de/html/index.html"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/CSS_JS/app_rebrush.css?_v=1.1.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/CSS_JS/vendor.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/CSS_JS/app_rebrush.js?_v=1.1.0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/giz-logo.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/Bild%201_Copyright-Thisal%20Gunarathna_neu_1920_rdax_192x70_20.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/gizIMAGE-corona-referenz-1920x700-slider_rdax_192x70_20.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/Man_phone_waves_1920x700_24_02_2_rdax_192x70_20.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/gizIMAGE-referenz-gesundheit-indien-1_rdax_192x70_20.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/Referenz_CR_%c3%84thiopien-1920_rdax_192x70_20.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-wir-sollten-helfen-weil-wir-helfen-k%c3%b6nnen-3_rdax_41x22_80.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GIZ_akzente_21-01_web-banner_815x408_rdax_41x21_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Box1380x917%20copy_rdax_41x27_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Bildnachweis%20EFA%20Solutions_rdax_41x20_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GIZ_Vorstand_Schaefer-Guembel_Portr%c3%a4t_rdax_41x27_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GIZ_04_rdax_41x20_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GFPs%20working_rdax_41x27_80.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/006_rdax_41x26_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/imo_X8A3859_rdax_41x27_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE%20%c2%a9Daouda%20Diouf%20Fondation%20Sonatel_rdax_41x23_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-news-sdg-kompass-nachkalibriert_rdax_41x27_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-news-medizin-per-drohne_rdax_41x24_80.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Beirut_Copyright-Souk-El-Tayeb_c_rdax_41x24_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE_%c2%a9Tradin%20Organic%20Agriculture%20B.V._rdax_41x27_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-sormas-news-2_rdax_41x21_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-e4d-news_rdax_41x22_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Jan%20Bock_v2_rdax_41x26_80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Atelier%20nadege2_rdax_41x20_80.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-teaser-soziale-entwicklung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-video-unternehmerinnen-changemakers.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-de-video-ernaehrung-sichern.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/crm-vide-cover.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/cover-governance-2019-de.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-cover-video-charting-new-paths.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-verlaesslichkeit-und-neugier-video-bild-de.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-cash-for-wrok-kenia-de-t.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-cover-biodiveritaet-2019-de-t.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-digital-centres-video.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-Teesektor-Kenia-de-t.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/GIZ_akzente_21-01_web-banner_815x408.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-integrierter-unternehmensbericht-2019-portal-slider_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2b_produkt-fachexpertise_435x200_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_5_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_10_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/aiz-portalbild-gro%c3%9f-t_rdax_43x21_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_3_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_6_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/DE_Afghanistan_435x200_de_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/435_Philippinen_1-DT_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/Screen-435x200-Marokko-Rassi-DT_rdax_43x20_75.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-de-social-work-burkina-faso_rdax_43x20_75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-de-rose-swai-kaffee_rdax_43x20_75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/435x200-px-Text-Bild-DE_rdax_43x20_75.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-twitter-footer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/130px-LI-Bug-white.svg.original.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-youtube-footer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-rss-footer.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=GyxeU3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-video.svg"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/fonts/GravurCodensed-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/fonts/CalaReg-webfont.woff2"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/fonts/GravurCodensed-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/fonts/CalaBol-webfont.woff2"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/fonts/GravurCodensed-Light.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/CSS_JS/plyr.css"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/mn-primary.json"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-arrow-left.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-arrow-left-black.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-arrow-right-black.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/aiz-portalbild-gro%c3%9f-t.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-integrierter-unternehmensbericht-2019-portal-slider.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2b_produkt-fachexpertise_435x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/2124_10.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/Referenz_CR_%c3%84thiopien-1920.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/Bild%201_Copyright-Thisal%20Gunarathna_neu_1920.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/gizIMAGE-corona-referenz-1920x700-slider.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-de-social-work-burkina-faso.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/gizIMAGE-de-rose-swai-kaffee.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/435x200-px-Text-Bild-DE.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/DE_Afghanistan_435x200_de.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/435_Philippinen_1-DT.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/media/Screen-435x200-Marokko-Rassi-DT.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-wir-sollten-helfen-weil-wir-helfen-k%c3%b6nnen-3_rdax_410x225.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GIZ_akzente_21-01_web-banner_815x408_rdax_410x205.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Box1380x917%20copy_rdax_410x273.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Bildnachweis%20EFA%20Solutions_rdax_410x197.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GIZ_Vorstand_Schaefer-Guembel_Portr%c3%a4t_rdax_410x273.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/GIZ_04_rdax_410x201.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/gizIMAGE-e4d-news_rdax_410x224.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Jan%20Bock_v2_rdax_410x255.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_content_460x160/Atelier%20nadege2_rdax_410x199.jpeg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/CSS_JS/plyr.polyfilled.js?_=1618909236862"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=GyxeU3&v=5.0&tc=16189092377393&pagename=Startseite%208%20%3C%20Home%20%5BGIZ%5D%5BDE%5D&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=%5BDE%5D%2F&cc_url=https%3A%2F%2Fwww.giz.de%2Fde%2Fhtml%2Findex.html&et_source_url=https%3A%2F%2Fwww.giz.de%2Fde%2Fhtml%2Findex.html&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=e86eb106bc187d6ae16f5b8ba228b292&et_cblk=1&et_cd=www.giz.de&dh=objVICGSsCCGqrH5SE1FrOfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/icon-video.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.giz.de/static/de/images/images_References/homepage_slider/Man_phone_waves_1920x700_24_02_2.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1, mode=block",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://giz.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 3
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

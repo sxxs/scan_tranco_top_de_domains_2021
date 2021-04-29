@@ -1,0 +1,432 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".www.computerbase.de",
+      "expires": 1650445132,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 250,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+10%3A58%3A52+GMT%2B0200+(Central+European+Summer+Time)&version=6.14.0&hosts=&landingPath=https%3A%2F%2Fwww.computerbase.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0004%3A0%2CSTACK42%3A0%2CC0009%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.computerbase.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "fa7f43590bb5b5ec4f6092bd98d829b8d95bba657d5fa639755036a23498a985",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1625456339.0,
+      "not_valid_before": 1617680339.0,
+      "serial_number": 425567230087397808191450458308385113040402,
+      "subject": {
+        "commonName": "*.computerbase.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.computerbase.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://computerbase.de/",
+    "https://computerbase.de/",
+    "https://www.computerbase.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://computerbase.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://computerbase.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/css/main.43caffbf.css"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/fonts/cbsans/cbsans-regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/fonts/cbsans/cbsans-bold.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/main.d0f1b8ea.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/img/logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/6/1/9/6-45978f02610f9898/article-300x300.f4974869.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/5/9/4/5/6/article-300x169.1ea510df.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/3/9-b378f4109bfefcea/article-75x75.a1cad1e6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/1/6-7354e50b89bdd187/article-75x75.9c93c3f9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/5/6-2d9b8c29db3aa1b6/article-75x75.f065a269.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/1/3/0-0f29ea6a4c39b669/article-75x75.927137c0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/4/6-98e59c60d4c073f9/article-75x75.b6ee69fa.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/8/3/1/0/2/article-75x75.c8ea3c68.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/5/5-28ca9e26a2926b6b/article-75x75.1ecc6c52.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/4/4-2f6b47a0daab489d/article-75x75.4b2ae92b.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/img/icon.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/7/3/5/6-289d8673d67276fa/article-180x101.7ca72ba5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/7/9/0/0-33067a38be908339/article-180x101.bc9a95bc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/7/8/5/5-e4845e0cc79261a2/article-180x101.1d3e85ca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/0/0/1-bd9f395f1ca0e220/article-180x101.dc0f2786.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/4/9-7591a21b3e565831/article-75x75.60ccf802.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/4/8-71c5f65f32c3facf/article-75x75.c4058b61.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/3/8-9ab0bfd6e8d41a1b/article-75x75.bafb1e6e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/5/0-fc24bc5af65c95e9/article-75x75.52eff7dc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/8/2/2/5-6880b67ad582215d/article-75x75.e301283e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/5/5/5/8/7/article-75x75.3dd47e06.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pics.computerbase.de/9/5/8/1/2-ad722fdeb80b12bf/article-75x75.84ccbb07.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/api/nlytcx"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/consent/9f5c6411-a897-44b0-849a-34c1fec38cc4/9f5c6411-a897-44b0-849a-34c1fec38cc4.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/scripttemplates/6.14.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/consent/9f5c6411-a897-44b0-849a-34c1fec38cc4/a29b3bfe-4559-4e76-93ad-417eea7abde3/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/consent/9f5c6411-a897-44b0-849a-34c1fec38cc4/iab2Data.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/consent/9f5c6411-a897-44b0-849a-34c1fec38cc4/googleData.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/scripttemplates/6.14.0/otTCF.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/api/nlytcx"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/scripttemplates/6.14.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/scripttemplates/6.14.0/assets/v2/otPcCenter.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.computerbase.de/js/onetrust/2021-02-26/scripttemplates/6.14.0/assets/otCookieSettingsButton.json"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self'; upgrade-insecure-requests; report-uri /api/csp-report",
+      "report-uri": [
+        "/api/csp-report"
+      ],
+      "upgrade-insecure-requests": []
+    },
+    "Expect-CT": "max-age=86400, report-uri=\"https://computerbase.report-uri.com/r/d/ct/reportOnly\"",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 63072000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://computerbase.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

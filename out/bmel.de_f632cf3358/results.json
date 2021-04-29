@@ -1,0 +1,757 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "bmel.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 77,
+      "value": "AZgzGXCg8EMFN9_e8CBCrXx65WpSzKvRaftVhF6qY92w_V90ViRixoefX9brriKRTQTX"
+    },
+    {
+      "domain": "www.bmel.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 77,
+      "value": "AU!o6d5NNDV_weCRby_xzoIeUQ8EiGJdxvxXEbcDs74HcCdUutKSwYBfHqMMXrH4Jkfd"
+    },
+    {
+      "domain": "www.bmel.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_pk_testcookie..undefined",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 26,
+      "value": "1"
+    },
+    {
+      "domain": "piwik.itzbund.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "MATOMO_SESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 109,
+      "value": "$xc/_C1JMrUWMYQA8LXwvQuP0dNCAfnr19nEngm54mqkjZsQ2lvED0!ipDztxjHeUvCDQyP_lxkeiuejg4DtipN_mzQTHbM="
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "itzbund.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bmel.de/DE/Home/home_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ab7ba59d7a40dc0b0951e01a4b993cc280de9db9c6d2a08d920adc3d46a86d5f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1658141229.0,
+      "not_valid_before": 1586947629.0,
+      "serial_number": 10743118643507889438727570026,
+      "subject": {
+        "commonName": "bmel.de",
+        "countryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Informationstechnikzentrum Bund (ITZBund)",
+        "organizationalUnitName": "Betrieb",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bmel.de/DE/Home/DE/serviceseiten/impressum/impressum_node.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bmel.de/",
+    "https://bmel.de/",
+    "https://www.bmel.de/",
+    "https://www.bmel.de/DE/Home/home_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bmel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bmel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/DE/Home/home_node.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/normalize.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/_libs.css?v=6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/small.css?v=19"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/medium.css?v=17"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/large.css?v=16"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/xlarge.css?v=10"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/xxlarge.css?v=6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/lmk_map.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/custom.css?v=7"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/JavaScript/modules/gsb_matomo.js?v=4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/logo.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/shopping-cart-b.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/search-small-b.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/close-b.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Forms/_components/Buttons/Servicesuche_Submit.svg?__blob=image&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/burger.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Icons-Schwerpunkte/corona.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Icons-Schwerpunkte/lebensmittel.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Styles/addon_print.css?v=9"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Icons-Schwerpunkte/tierwohlkennzeichnung.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Icons-Schwerpunkte/bienen-insektenschutz.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Icons-Schwerpunkte/digitalisierung.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Icons-Schwerpunkte/zukunft-land.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/chevron-w.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Video/YouTube/statement-kloeckner-gap-kabinett.jpg?__blob=poster&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Verteilerseiten/eu-agrarpolitik-und-foerderung.jpg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/_Ernaehrung/GesundeErnaehrung/kinder-tablet-notebook.jpg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Personen/_Kloeckner/210420-bescheide-pflanzenschutz.jpg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Personen/Feiler/191203-portrait-feiler.jpg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pbs.twimg.com/profile_images/816984308934176768/2DQ3pDSc_normal.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Personen/_Kloeckner/kloeckner-Portrait-CDU.jpg?__blob=normal&v=7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Freisteller/Zitatmodul/Zitat_Eichenblatt.png?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Logos/int-jahr-obst-gemuese.png?__blob=normal&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Video/YouTube/statement-jahr-obst-gemuese.jpg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Forms/_components/Buttons/Submit.svg?__blob=image&v=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Freisteller/Rasen.png?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/_Tiere/Tiergesundheit/Tierseuchen/Wildschweine.jpg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/_Landwirtschaft/kraut-und-rueben-twitter.png?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/_Tiere/Haus-Zootiere/Meerschweinchen.jpg?__blob=wide&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/_Ministerium/corona-warn-app.jpg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Verteilerseiten/social-media-apps-rss.jpg?__blob=normal&v=7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SharedDocs/Bilder/DE/Logos/Verbraucherlotse.png?__blob=normal&v=9"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/JavaScript/init/global.js?v=12"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.itzbund.de/js/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/sprite.svg?__blob=normal&v=6"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/static/fonts/BundesSchrift/BundesSerifWeb-Regular.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/static/fonts/BundesSchrift/BundesSerifWeb-Italic.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/static/fonts/BundesSchrift/BundesSansWeb-Regular.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/static/fonts/BundesSchrift/BundesSansWeb-Bold.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/static/fonts/BundesSchrift/BundesSansWeb-Italic.woff"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.itzbund.de/js/?action_name=www.bmel.de%2FBMEL%20-%20Startseite&idsite=96&rec=1&r=352440&h=13&m=56&s=33&url=https%3A%2F%2Fwww.bmel.de%2FDE%2FHome%2Fhome_node.html&_id=&_idts=1618919794&_idvc=1&_idn=1&_refts=0&_viewts=1618919794&send_image=1&cookie=0&res=800x600&gt_ms=121&pv_id=RFSeGo"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Functions/Cookiebanner/DE/CookiebannerConfig.json?view=renderJSON"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Functions/Pagination/pagination.html?view=render"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Functions/Pagination/pagination.html?view=render"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Functions/Pagination/pagination.html?view=render"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://piwik.itzbund.de/optout.php?module=CoreAdminHome&action=optOut&idsite=96&language=de"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.itzbund.de/optout.php?module=CoreAdminHome&action=optOut&idsite=96&language=de"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/slick/icon_ajax_loader.gif?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/arrow-left.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmel.de/SiteGlobals/Frontend/Images/icons/arrow-right.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.itzbund.de/plugins/CoreAdminHome/javascripts/optOut.js?cb=5d4f938804a80303735fbb7baecc0ffd"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.itzbund.de/static/fonts/BundesSerifWeb-Regular.woff"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "child-src": [
+        "*.google.com",
+        "*.gstatic.com",
+        "webtv.bundestag.de",
+        "*.cdninstagram.com",
+        "*.fbcdn.net",
+        "*.youtube.com",
+        "*.youtube-nocookie.com",
+        "*.instagram.com",
+        "tracking.netmind-cloud.com",
+        "twemoji.maxcdn.com",
+        "maps.wikimedia.org",
+        "*.youtube.com",
+        "*.youtube-nocookie.com",
+        "*.googlevideo.com",
+        "*.openstreetmap.org",
+        "piwik.itzbund.de"
+      ],
+      "connect-src": [
+        "'self'",
+        "tracking.netmind-cloud.com"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "default-src 'self'; base-uri 'self'; style-src 'self' 'unsafe-inline' multimedia.gsb.bund.de spaceview.netzlabor.de; connect-src 'self' tracking.netmind-cloud.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' multimedia.gsb.bund.de piwik.itzbund.de webtv.bundestag.de *.googleapis.com *.google.com *.gstatic.com *.instagram.com tracking.netmind-cloud.com twemoji.maxcdn.com maps.wikimedia.org *.ytimg.com *.youtube.com *.youtube-nocookie.com *.googlevideo.com *.openstreetmap.org spaceview.netzlabor.de; object-src 'self' multimedia.gsb.bund.de; media-src 'self' piwik.itzbund.de multimedia.gsb.bund.de *.fbcdn.net *.youtube.com *.youtube-nocookie.com *.googlevideo.com; child-src *.google.com *.gstatic.com webtv.bundestag.de *.cdninstagram.com *.fbcdn.net *.youtube.com *.youtube-nocookie.com *.instagram.com tracking.netmind-cloud.com twemoji.maxcdn.com maps.wikimedia.org *.youtube.com *.youtube-nocookie.com *.googlevideo.com *.openstreetmap.org piwik.itzbund.de; img-src 'self' data: *.google.com *.gstatic.com multimedia.gsb.bund.de piwik.itzbund.de webtv.bundestag.de *.youtube.com *.twimg.com *.fbcdn.net *.youtube-nocookie.com *.cdninstagram.com *.openstreetmap.org twemoji.maxcdn.com maps.wikimedia.org *.youtube-nocookie.com *.googlevideo.com *.cloudfront.net; frame-ancestors 'self';",
+      "img-src": [
+        "'self'",
+        "data:",
+        "*.google.com",
+        "*.gstatic.com",
+        "multimedia.gsb.bund.de",
+        "piwik.itzbund.de",
+        "webtv.bundestag.de",
+        "*.youtube.com",
+        "*.twimg.com",
+        "*.fbcdn.net",
+        "*.youtube-nocookie.com",
+        "*.cdninstagram.com",
+        "*.openstreetmap.org",
+        "twemoji.maxcdn.com",
+        "maps.wikimedia.org",
+        "*.youtube-nocookie.com",
+        "*.googlevideo.com",
+        "*.cloudfront.net"
+      ],
+      "media-src": [
+        "'self'",
+        "piwik.itzbund.de",
+        "multimedia.gsb.bund.de",
+        "*.fbcdn.net",
+        "*.youtube.com",
+        "*.youtube-nocookie.com",
+        "*.googlevideo.com"
+      ],
+      "object-src": [
+        "'self'",
+        "multimedia.gsb.bund.de"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "multimedia.gsb.bund.de",
+        "piwik.itzbund.de",
+        "webtv.bundestag.de",
+        "*.googleapis.com",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.instagram.com",
+        "tracking.netmind-cloud.com",
+        "twemoji.maxcdn.com",
+        "maps.wikimedia.org",
+        "*.ytimg.com",
+        "*.youtube.com",
+        "*.youtube-nocookie.com",
+        "*.googlevideo.com",
+        "*.openstreetmap.org",
+        "spaceview.netzlabor.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "multimedia.gsb.bund.de",
+        "spaceview.netzlabor.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16070400",
+      "includeSubDomains": false,
+      "max-age": 16070400,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bmel.de\r",
+  "third_parties": {
+    "fqdns": [
+      "pbs.twimg.com",
+      "piwik.itzbund.de",
+      "www.itzbund.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "piwik.itzbund.de"
+    ]
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".youtube.de",
+      "expires": 2145916800.76338,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 526994818.76338005,
+      "name": "CONSENT",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 18,
+      "value": "PENDING+612"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 2145916800.819384,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 526994818.8193841,
+      "name": "CONSENT",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 18,
+      "value": "PENDING+084"
+    },
+    {
+      "domain": "consent.youtube.com",
+      "expires": 1621521183,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599201,
+      "name": "OTZ",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 33,
+      "value": "5943753_48_52_123900_48_436380"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2F%3Fgl%3DDE&gl=DE&m=0&pc=yt&uxe=23983172&hl=en&src=1",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "138c5e7bf23a6ecad844778b7c701005646395ac601c618aa7427897a76b49ee",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GTS CA 1O1",
+        "countryName": "US",
+        "organizationName": "Google Trust Services"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1623738191.0,
+      "not_valid_before": 1616484192.0,
+      "serial_number": 329974535454069069848473245579731523370,
+      "subject": {
+        "commonName": "misc-sni.youtube.com",
+        "countryName": "US",
+        "localityName": "Mountain View",
+        "organizationName": "Google LLC",
+        "stateOrProvinceName": "California"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://youtube.de/",
+    "https://youtube.de/",
+    "https://www.youtube.com/?gl=DE",
+    "https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2F%3Fgl%3DDE&gl=DE&m=0&pc=yt&uxe=23983172&hl=en&src=1"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://youtube.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://youtube.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/?gl=DE"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2F%3Fgl%3DDE&gl=DE&m=0&pc=yt&uxe=23983172&hl=en&src=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=YouTube+Sans:700&display=swap"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/ac/cb/youtube_logo_v2.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/ac/cb/scene_cookie_wall_youtube.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.L57FuRJ5cbs.es5.O/ck=boq-identity.ConsentUi.Imae6I8XN6w.L.B1.O/am=CwAQ/d=1/exm=_b,_tp/excm=_b,_tp,mainview/ed=1/wt=2/ct=zgms/rs=AOaEmlF4srmd_C80y9H0bLDwAT1hygl6Gw/m=byfTOb,lsjVmc,LEikZe"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/images/icons/material/system/1x/keyboard_arrow_down_gm_grey_18dp.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/images/icons/material/system/1x/check_black_24dp.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.L57FuRJ5cbs.es5.O/ck=boq-identity.ConsentUi.Imae6I8XN6w.L.B1.O/am=CwAQ/d=1/exm=LEikZe,_b,_tp,byfTOb,lsjVmc/excm=_b,_tp,mainview/ed=1/wt=2/ct=zgms/rs=AOaEmlF4srmd_C80y9H0bLDwAT1hygl6Gw/m=n73qwf,ws9Tlc,IZT63,e5qFLc,GkRiKb,UUJqVe,O1Gjze,xUdipf,blwjVc,fKUV3e,aurFic,COQbmf,U0aPgd,ZwDk9d,V3dDOb,WO9ee,O6y8ed,NpD4ec,PrPYRd,iWP1Yb,MpJwZc,O8k1Cd,NwH0H,OmgaI,HLo3Ef,x60fie,xiqEse,XVMNvd,L1AAkb,KUM7Z,rE6Mgd,s39S4,lwddkf,gychg,w9hDv,RMhBfe,SdcwHb,aW3pY,YLQSd,PQaYAf,pw70Gc,EFQ78c,Ulmmrd,ZfAoz,CBlRxf,MdUzUe,xQtZb,lPKSwe,QIhFr,JNoxi,pB6Zqd,rHjpXd,yDVVkb,SF3gsd,iTsyac,hc6Ubd,KG2eXe,SpsfSb,tfTN8c,o02Jie,VwDzFe,zbML3c,HDvRde,Uas9Hd,BVgquf,A7fCU,UgAtXe,pjICDe"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/youtubesans/v8/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dA4FGwBpSD.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.L57FuRJ5cbs.es5.O/ck=boq-identity.ConsentUi.Imae6I8XN6w.L.B1.O/am=CwAQ/d=1/exm=A7fCU,BVgquf,CBlRxf,COQbmf,EFQ78c,GkRiKb,HDvRde,HLo3Ef,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,MpJwZc,NpD4ec,NwH0H,O1Gjze,O6y8ed,O8k1Cd,OmgaI,PQaYAf,PrPYRd,QIhFr,RMhBfe,SF3gsd,SdcwHb,SpsfSb,U0aPgd,UUJqVe,Uas9Hd,UgAtXe,Ulmmrd,V3dDOb,VwDzFe,WO9ee,XVMNvd,YLQSd,ZfAoz,ZwDk9d,_b,_tp,aW3pY,aurFic,blwjVc,byfTOb,e5qFLc,fKUV3e,gychg,hc6Ubd,iTsyac,iWP1Yb,lPKSwe,lsjVmc,lwddkf,n73qwf,o02Jie,pB6Zqd,pjICDe,pw70Gc,rE6Mgd,rHjpXd,s39S4,tfTN8c,w9hDv,ws9Tlc,x60fie,xQtZb,xUdipf,xiqEse,yDVVkb,zbML3c/excm=_b,_tp,mainview/ed=1/wt=2/ct=zgms/rs=AOaEmlF4srmd_C80y9H0bLDwAT1hygl6Gw/m=i5dxUd,m9oV,fkuQ3,A4UTCb,RAnnUd,uu7UOe,UMu52b,nKuFpb,soHxf,EGNJFf,iSvg6e,uY3Nvd,hZ9Bt"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.L57FuRJ5cbs.es5.O/ck=boq-identity.ConsentUi.Imae6I8XN6w.L.B1.O/am=CwAQ/d=1/exm=A4UTCb,A7fCU,BVgquf,CBlRxf,COQbmf,EFQ78c,EGNJFf,GkRiKb,HDvRde,HLo3Ef,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,MpJwZc,NpD4ec,NwH0H,O1Gjze,O6y8ed,O8k1Cd,OmgaI,PQaYAf,PrPYRd,QIhFr,RAnnUd,RMhBfe,SF3gsd,SdcwHb,SpsfSb,U0aPgd,UMu52b,UUJqVe,Uas9Hd,UgAtXe,Ulmmrd,V3dDOb,VwDzFe,WO9ee,XVMNvd,YLQSd,ZfAoz,ZwDk9d,_b,_tp,aW3pY,aurFic,blwjVc,byfTOb,e5qFLc,fKUV3e,fkuQ3,gychg,hZ9Bt,hc6Ubd,i5dxUd,iSvg6e,iTsyac,iWP1Yb,lPKSwe,lsjVmc,lwddkf,m9oV,n73qwf,nKuFpb,o02Jie,pB6Zqd,pjICDe,pw70Gc,rE6Mgd,rHjpXd,s39S4,soHxf,tfTN8c,uY3Nvd,uu7UOe,w9hDv,ws9Tlc,x60fie,xQtZb,xUdipf,xiqEse,yDVVkb,zbML3c/excm=_b,_tp,mainview/ed=1/wt=2/ct=zgms/rs=AOaEmlF4srmd_C80y9H0bLDwAT1hygl6Gw/m=Wt6vjf,_latency,FCpbqb,WhJNk"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://play.google.com/log?format=json&hasfast=true"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.youtube.com/_/ConsentUi/browserinfo?f.sid=-4442510478803341533&bl=boq_identityfrontenduiserver_20210418.17_p0&hl=en&gl=DE&_reqid=59587&rt=j"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "header_value": "script-src 'report-sample' 'nonce-GZYbAa3rd5LES7rtslHE8Q' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/ConsentUi/cspreport;worker-src 'self'\nscript-src 'nonce-GZYbAa3rd5LES7rtslHE8Q' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/ConsentUi/cspreport",
+      "object-src": [
+        "'none'"
+      ],
+      "report-uri": [
+        "/_/ConsentUi/cspreport"
+      ],
+      "script-src": [
+        "'report-sample'",
+        "'nonce-GZYbAa3rd5LES7rtslHE8Q'",
+        "'unsafe-inline'"
+      ],
+      "worker-src": [
+        "'self'",
+        "script-src",
+        "'nonce-GZYbAa3rd5LES7rtslHE8Q'",
+        "'self'",
+        "https://apis.google.com",
+        "https://ssl.gstatic.com",
+        "https://www.google.com",
+        "https://www.gstatic.com",
+        "https://www.google-analytics.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "0",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://youtube.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "play.google.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 14
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "play.google.com"
+    ]
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.dwd.de",
+      "expires": 1618998000.39403,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601.39403009415,
+      "name": "staedtewetter",
+      "path": "/SiteGlobals/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 63,
+      "value": "%7B%22time%22%3A1618911600393%2C%22index%22%3A0%7D"
+    },
+    {
+      "domain": "www.dwd.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 52,
+      "value": "F31D542C385171C6AEFD6C457C392CED.live31094"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dwd.de/DE/Home/home_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "9940cd2f826d45a9a234d21c13bf68dcb56c339e57151aed30c4fa9c6f812503",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1637040790.0,
+      "not_valid_before": 1602736390.0,
+      "serial_number": 11034369862603195311596658490,
+      "subject": {
+        "commonName": "www.dwd.de",
+        "countryName": "DE",
+        "localityName": "Offenbach",
+        "organizationName": "Deutscher Wetterdienst",
+        "organizationalUnitName": "Web-CC",
+        "stateOrProvinceName": "Hessen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dwd.de/DE/Home/DE/service/impressum/impressum_node.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dwd.de/",
+    "https://dwd.de/",
+    "https://www.dwd.de/DE/Home/home_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://dwd.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://dwd.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/DE/Home/home_node.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/styles.css?v=19"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/screen_addon_autosuggest.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/screen_addon_shariff.css?v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/materna_additional_stylesheet.css?v=95"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/mediaelementplayer.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/mediaelementplayer_additional.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/jquery.tablesorter.theme.default.css?v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/screen/screen_addon_fontawesome.css?v=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/Functions/JavaScript_Optimierung2/__everything.js?v=13"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/img/logo.png?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/DWD/wetter/aktuell/deutschland/bilder/wx_deutschland.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/DWD/warnungen/warnapp_gemeinden/json/warnungen_gemeinde_map_de.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/DE/Home/_functions/WetterKlimaVorOrt/Bilder/imagemap_deutschland.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/DE/Home/_functions/Multi-Tab/tab_klimavorhersagen_bild.jpg?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Allgemein/Twitter-Box-Bild.png?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/handheld/handheld_addon_mmenu.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/CSS/print/print.css?v=5"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/Functions/CityWeather/RenderCityWeather.json?view=renderCityWeather"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/bg/headerbild-2.jpg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/lang-s.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/lang-e.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/search.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/no-warning.svgz?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/img/logo.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/arrow-sprite.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/recommend.png?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/services-1.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/services-2.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/services-3.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/services-4.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/services-5.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/arrow-right-white.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/footer-youtube.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/footer-facebook.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/footer-flickr.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/footer-twitter.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/footer-instagram.svgz?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/adler.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/static/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/Functions/JavaScript_Optimierung2/__modules.js.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/Functions/JavaScript_Optimierung2/__enhanced.js.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/Functions/JavaScript_Optimierung2/autosuggestKomplett.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Allgemein/staedtewetter.svgz?__blob=normal&amp;v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/arrow-grey-up.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/StyleBundles/Bilder/Farbschema/arrow-grey-down.svgz?__blob=normal"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dwd.de/SiteGlobals/Functions/JavaScript_Optimierung2/_standardlsg/Addon_Leistungssteckbrief.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*,*",
+    "Content-Security-Policy": {
+      "child-src": [
+        "'self'",
+        "*.dwd.de",
+        "twitter.com",
+        "*.twitter.com",
+        "*.youtube.com"
+      ],
+      "default-src": [
+        "'self'",
+        "*.dwd.de",
+        "*.readspeaker.com",
+        "*.twitter.com",
+        "*.youtube.com"
+      ],
+      "font-src": [
+        "'self'",
+        "data:"
+      ],
+      "frame-src": [
+        "'self'",
+        "*.dwd.de",
+        "twitter.com",
+        "*.twitter.com",
+        "*.youtube.com"
+      ],
+      "header_value": "default-src 'self' *.dwd.de *.readspeaker.com *.twitter.com *.youtube.com; script-src 'self' *.dwd.de *.readspeaker.com *.twitter.com *.twimg.com *.youtube.com *.jwpcdn.com *.ytimg.com 'unsafe-inline' 'unsafe-eval' data:; style-src 'self' *.dwd.de *.twitter.com *.twimg.com 'unsafe-inline' data:; img-src * data: blob:; font-src 'self' data:; frame-src 'self' *.dwd.de twitter.com *.twitter.com *.youtube.com; worker-src *.twitter.com; child-src 'self' *.dwd.de twitter.com *.twitter.com *.youtube.com;",
+      "img-src": [
+        "*",
+        "data:",
+        "blob:"
+      ],
+      "script-src": [
+        "'self'",
+        "*.dwd.de",
+        "*.readspeaker.com",
+        "*.twitter.com",
+        "*.twimg.com",
+        "*.youtube.com",
+        "*.jwpcdn.com",
+        "*.ytimg.com",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "data:"
+      ],
+      "style-src": [
+        "'self'",
+        "*.dwd.de",
+        "*.twitter.com",
+        "*.twimg.com",
+        "'unsafe-inline'",
+        "data:"
+      ],
+      "worker-src": [
+        "*.twitter.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://dwd.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

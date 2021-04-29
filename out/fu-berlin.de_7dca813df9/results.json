@@ -1,0 +1,567 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.fu-berlin.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "48df2cf7d3eca84b9c8fe1e9f9e0ebe13cdb199e96b40e37a758bcdcb3eec269",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1649608150.0,
+      "not_valid_before": 1615310950.0,
+      "serial_number": 11266263127495747967041785658,
+      "subject": {
+        "commonName": "fu-berlin.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Freie Universitaet Berlin",
+        "organizationalUnitName": "Universitaetsbibliothek",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.fu-berlin.de/redaktion/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fu-berlin.de/",
+    "https://www.fu-berlin.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://fu-berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/fu-berlin_application-part-1-44a9a392e6.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/fu-berlin_application-part-2-eed96416f0.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/application-781670a880dd5cd1754f30fcf22929cb.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/fu-logo-1x-2e301182ca3c9a45ae34adf6dca8b6ba.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/spinner-39a0a2170912fd2acf310826322141db.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/corona-knick.jpg?width=1000"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/oberbaumbruecke.jpg?width=1000"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/masterbewerbung-ws.jpg?width=1000"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/sommersemester_hfb_krahl.jpg?width=1000"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/mastermesse2021.png?width=1000"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/it-sicherheit.jpg?width=1000"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/01-slideshow/_bilder/oh-celan.png?width=1000"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campusleben/lernen-und-lehren/2021/210419-mintoring-fuer-girls-day/aufmacher-maedchen.jpg?width=500"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campusleben/campus/2021/210419-steinmeier-studierende/Steinmeier-vor-Treppe.jpg?width=500"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campus-aktuell/_fotos-grafiken/briefwahl.jpg?width=500"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campus-aktuell/_fotos-grafiken/far-from-home.jpg?width=350"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campus-aktuell/_fotos-grafiken/fruchtfliege.jpg?width=350"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campus-aktuell/_fotos-grafiken/fup-bua-sturo.jpg?width=350"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/en/campus-aktuell/_fotos-grafiken/fu-best-fall-2021-online.png?width=350"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://medien.cedis.fu-berlin.de/services/fu-player/r03/css/fu-video-player.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://medien.cedis.fu-berlin.de/services/fu-player/r03/js/fu-video-player.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/08-studium-teaserliste/_bilder/cv-studium.png?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/sites/zukunft-lehre/zukunft-lehre.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/campusleben/lernen-und-lehren/2020/200710-distanzpruefungen/E-examination_PKI4133.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/studium/beratung/ssc/_inhaltselemente/ssc/images/bild_SSC_2015-2/SSC_2015-2_930.jpg?width=700"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/08-studium-teaserliste/_bilder/abenteuer-studium.png?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/08-studium-teaserliste/_bilder/globus.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/08-studium-teaserliste/_bilder/portale.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/08-studium-teaserliste/_bilder/promovieren.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/04-besonderes/foto-dhc.jpg?width=700"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_archiv/04-70jahre-exini-verbund/berlin-verbund.png?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/04-besonderes/bologna.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/presse/publikationen/tsp/2017/tsp-april-2017/alte-raetsel-im-visier-moderner-technik/seite-1-photo-Louvre-box.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/06-was-uns-auszeichnet/_bilder/weltkarte.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/06-was-uns-auszeichnet/_bilder/vielfaeltig.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/mehr-erfahren/_media/dcfam.jpg?width=700"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/06-was-uns-auszeichnet/_bilder/nachhaltig.jpg?width=700"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/bua-logo-banner.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/german-u15-logo-rd.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/una-europa-logo-banner.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/banner_familiengerechte-hochschule-rd.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/familie-in-der-hochschule.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/banner-hrk-rd.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/teq_diversity_logo_180px.png?width=500"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/charta-der-vielfalt.jpg?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/banner_deutschland_stipendium-rd.png?width=500"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/ideenschmiede.jpg?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/systemakkreditierung-siegel-rd.png?width=500"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/_startseite-neu-rd/_banner/banner_entrepreneur-rd.png?width=500"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/henry-55a2f6b1df7f8729fca2d550689240e9.js"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/NexusMixWeb-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/NexusSansWeb-Pro.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/fontawesome-webfont.woff?v=4.0.1"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/cds-ico.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/assets/default2/NexusSansWeb-Pro-Bold.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://www.fu-berlin.de/7a75d694-8fbc-4125-b25a-76d4a2687edd"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/redaktion/direktzugang/index.html?comp=direct_access&irq=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/index.html?comp=navbar&irq=1&pm=0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/studium/_inhaltselemente-ss2021/campustour/index.html?irq=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fu-berlin.de/studium/_inhaltselemente-ss2021/campustour/campustour.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://medien.cedis.fu-berlin.de/services/fu-player/r03/css/font/videojs-apl-icons.woff?71670005"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://medien.cedis.fu-berlin.de/pki/2020/campustour-a_DE.vtt"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://medien.cedis.fu-berlin.de/pki/2020/campustour-a_EN.vtt"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fu-berlin.de\r",
+  "third_parties": {
+    "fqdns": [
+      ""
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

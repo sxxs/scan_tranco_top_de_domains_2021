@@ -1,0 +1,608 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.gwdg.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/GWDG-Theme-1.0-SNAPSHOT",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 38,
+      "value": "e98060f5ca9eee370b909fd9647a"
+    },
+    {
+      "domain": "www.gwdg.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 38,
+      "value": "e9804234ead58a9ecd6da2b903b2"
+    },
+    {
+      "domain": "www.gwdg.de",
+      "expires": 3090139572.451514,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1471236130.4515138,
+      "name": "COOKIE_SUPPORT",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 18,
+      "value": "true"
+    },
+    {
+      "domain": "www.gwdg.de",
+      "expires": 3090139572.451576,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1471236130.4515762,
+      "name": "GUEST_LANGUAGE_ID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 22,
+      "value": "en_US"
+    },
+    {
+      "domain": "www.gwdg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "LFR_SESSION_STATE_20159",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 36,
+      "value": "1618910644722"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.gwdg.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "65bad2ad748c5171d2cf3af494c750c4b30b8b3bbb58f35017e67b82574b6782",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1660992429.0,
+      "not_valid_before": 1589798829.0,
+      "serial_number": 10795713977578844958743487547,
+      "subject": {
+        "commonName": "gwdg.de",
+        "countryName": "DE",
+        "localityName": "GOETTINGEN",
+        "organizationName": "Gesellschaft fuer wissenschaftliche Datenverarbeitung",
+        "stateOrProvinceName": "NIEDERSACHSEN"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.gwdg.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://gwdg.de/",
+    "https://gwdg.de/",
+    "https://www.gwdg.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://gwdg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://gwdg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/css/aui.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1591686142000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1591090102000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/privacy-portlet/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1591686142000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/portlet/journal_content/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1618711201000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/FeedReader-Portlet-1.0-SNAPSHOT/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1593006866000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/notifications-portlet/notifications/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1591686142000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/Footer-1.0-SNAPSHOT/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1606296374000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/portlet/login/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1618711201000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/portlet/journal/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1618711201000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/js/barebone.jsp?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&colorSchemeId=01&minifierType=js&minifierBundleId=javascript.barebone.files&languageId=en_US&b=6205&t=1591090102000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/portlet/journal/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6205&t=1618711201000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/portlet/journal/js/navigation.js?browserId=other&minifierType=js&languageId=en_US&b=6205&t=1618711201000"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=Galleria_WAR_ServiceCatalog10SNAPSHOT&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=2&p_p_col_pos=1&_Galleria_WAR_ServiceCatalog10SNAPSHOT_javax.faces.resource=theme.css&_Galleria_WAR_ServiceCatalog10SNAPSHOT_ln=primefaces-aristo"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=Galleria_WAR_ServiceCatalog10SNAPSHOT&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=2&p_p_col_pos=1&_Galleria_WAR_ServiceCatalog10SNAPSHOT_javax.faces.resource=ServiceCatalog.css&_Galleria_WAR_ServiceCatalog10SNAPSHOT_ln=css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=Galleria_WAR_ServiceCatalog10SNAPSHOT&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=2&p_p_col_pos=1&_Galleria_WAR_ServiceCatalog10SNAPSHOT_javax.faces.resource=slick.css&_Galleria_WAR_ServiceCatalog10SNAPSHOT_ln=css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=Galleria_WAR_ServiceCatalog10SNAPSHOT&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=2&p_p_col_pos=1&_Galleria_WAR_ServiceCatalog10SNAPSHOT_javax.faces.resource=slick-theme.css&_Galleria_WAR_ServiceCatalog10SNAPSHOT_ln=css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=GWDGFeedReaderNews_WAR_GWDGFeedReader10SNAPSHOT&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-8&p_p_col_count=2&p_p_col_pos=1&_GWDGFeedReaderNews_WAR_GWDGFeedReader10SNAPSHOT_javax.faces.resource=feedreader.css&_GWDGFeedReaderNews_WAR_GWDGFeedReader10SNAPSHOT_ln=css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/css/main.css?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&minifierType=css&languageId=en_US&b=6205&t=1591686142000"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/images/gwdg_logo_only_invert.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/images/gwdg_logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/images/mpg.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/images/uni.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=&p_p_col_count=0&_GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6_javax.faces.resource=theme.css&_GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6_ln=primefaces-aristo"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=&p_p_col_count=0&_GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6_javax.faces.resource=footerAdditions.css&_GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6_ln=css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/home?p_p_id=GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=&p_p_col_count=0&_GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6_javax.faces.resource=ISO_9001_2015_en.png&_GWDGFooter_WAR_GWDGFooter10SNAPSHOT_INSTANCE_245h6_ln=images"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/js/jquery-2.1.1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/js/jquery.mobile.custom.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/js/menu.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/js/equalize.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/ServiceCatalog-Portlet/js/slick.min.js?browserId=other&minifierType=js&languageId=en_US&b=6205&t=1591103639000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/ServiceCatalog-Portlet/js/slick.gwdg.js?browserId=other&minifierType=js&languageId=en_US&b=6205&t=1591103639000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/notifications-portlet/notifications/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6205&t=1591686142000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/js/main.js?browserId=other&minifierType=js&languageId=en_US&b=6205&t=1591686142000"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/css/aui/alloy-font-awesome/font/fontawesome-alloy.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/fonts/Arimo-Regular.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/color-base/color-base-min.js&/html/js/aui/event-touch/event-touch-min.js&/html/js/liferay/dockbar.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/images/gwdg_background.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/gfx/GeneralServices/1608209092072-URLShortener_2560x800JPG"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/fonts/UniversCom-45Light.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/GWDG-Theme-1.0-SNAPSHOT/fonts/Arimo-Bold.woff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/gfx/Galleria-Anzeigen/1584705003442-office581131_1920jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/gfx/E-MailCollaboration/1493277979612-RocketChat2_kleinjpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/gfx/Galleria-Anzeigen/1589809451139-hpc_backgroundjpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/gfx/Galleria-Anzeigen/1457613704912-GWDG_Newsjpg.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/widget-base/assets/skins/sam/widget-base.css&/html/js/aui/widget-stack/assets/skins/sam/widget-stack.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/base-core/base-core-min.js&/html/js/aui/base-observable/base-observable-min.js&/html/js/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/html/js/aui/aui-widget-toggle/aui-widget-toggle-min.js&/html/js/aui/base-build/base-build-min.js&/html/js/aui/widget-position/widget-position-min.js&/html/js/aui/widget-stack/widget-stack-min.js&/html/js/aui/widget-position-align/widget-position-align-min.js&/html/js/aui/widget-position-constrain/widget-position-constrain-min.js&/html/js/aui/widget-stdmod/widget-stdmod-min.js&/html/js/aui/aui-overlay-base-deprecated/aui-overlay-base-deprecated-min.js&/html/js/aui/aui-overlay-mask-deprecated/aui-overlay-mask-deprecated-min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/event-move/event-move-min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/cssbutton/cssbutton-min.css&/html/js/aui/widget-modality/assets/skins/sam/widget-modality.css&/html/js/aui/resize-base/assets/skins/sam/resize-base.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/html/js/liferay/available_languages.jsp?browserId=other&themeId=gwdgcustomerportaltheme_WAR_GWDGTheme10SNAPSHOT&colorSchemeId=01&minifierType=js&languageId=en_US&b=6205&t=1591090102000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/cookie/cookie-min.js&/html/js/aui/transition/transition-min.js&/html/js/aui/querystring-stringify/querystring-stringify-min.js&/html/js/aui/aui-io-request/aui-io-request-min.js&/html/js/liferay/session.js&/html/js/liferay/ajax_session.js&/html/js/aui/async-queue/async-queue-min.js&/html/js/aui/aui-parse-content/aui-parse-content-min.js&/html/js/aui/aui-loading-mask-deprecated/aui-loading-mask-deprecated-min.js&/html/js/aui/aui-io-plugin-deprecated/aui-io-plugin-deprecated-min.js&/html/js/liferay/language.js&/html/js/liferay/store.js&/html/js/liferay/menu_toggle.js&/html/js/aui/aui-dialog-iframe-deprecated/aui-dialog-iframe-deprecated-min.js&/html/js/aui/widget-autohide/widget-autohide-min.js&/html/js/aui/button-core/button-core-min.js&/html/js/aui/button-plugin/button-plugin-min.js&/html/js/aui/widget-buttons/widget-buttons-min.js&/html/js/aui/widget-modality/widget-modality-min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/dd-ddm-base/dd-ddm-base-min.js&/html/js/aui/dd-drag/dd-drag-min.js&/html/js/aui/dd-plugin/dd-plugin-min.js&/html/js/aui/dd-constrain/dd-constrain-min.js&/html/js/aui/event-flick/event-flick-min.js&/html/js/aui/event-valuechange/event-valuechange-min.js&/html/js/aui/event-tap/event-tap-min.js&/html/js/aui/dd-ddm/dd-ddm-min.js&/html/js/aui/dd-ddm-drop/dd-ddm-drop-min.js&/html/js/aui/dd-drop/dd-drop-min.js&/html/js/aui/dd-drop-plugin/dd-drop-plugin-min.js&/html/js/aui/dd-delegate/dd-delegate-min.js&/html/js/aui/resize-base/resize-base-min.js&/html/js/aui/resize-plugin/resize-plugin-min.js&/html/js/aui/button/button-min.js&/html/js/aui/button-group/button-group-min.js&/html/js/aui/aui-button-core/aui-button-core-min.js&/html/js/aui/aui-toolbar/aui-toolbar-min.js&/html/js/aui/aui-widget-toolbars/aui-widget-toolbars-min.js&/html/js/aui/aui-modal/aui-modal-min.js&/html/js/liferay/widget_zindex.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/liferay/util_window.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/liferay/language.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/liferay/hudcrumbs.js&/html/js/aui/gesture-simulate/gesture-simulate-min.js&/html/js/liferay/navigation_interaction.js&/html/js/aui/escape/escape-min.js&/html/js/liferay/portlet_url.js&/html/js/liferay/sign_in_modal.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gwdg.de/combo/?browserId=other&minifierType=&languageId=en_US&b=6205&t=1591090102000&/html/js/aui/querystring-parse/querystring-parse-min.js&/html/js/aui/aui-url/aui-url-min.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://gwdg.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

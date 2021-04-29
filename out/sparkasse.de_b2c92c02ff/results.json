@@ -1,0 +1,735 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".sparkasse.de",
+      "expires": 1652887839,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "TCPID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 26,
+      "value": "121421730396135937065"
+    },
+    {
+      "domain": ".sparkasse.de",
+      "expires": 1620142239,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216802,
+      "name": "SPK_COOKIE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 36,
+      "value": "YmFua2NvZGU9MzcwNTAxOTg%3D"
+    },
+    {
+      "domain": ".sparkasse.de",
+      "expires": 1620142239,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216802,
+      "name": "SPK_COOKIE_EXTRAS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 89,
+      "value": "YWNjdXJhY3k9bG93JmJhbmtjb2RlPTM3MDUwMTk4JnNvdXJjZT1nZW9sb2NhdGlvbg%3D%3D"
+    },
+    {
+      "domain": ".adform.net",
+      "expires": 1621524641.20232,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599204.202320099,
+      "name": "C",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 2,
+      "value": "1"
+    },
+    {
+      "domain": ".adform.net",
+      "expires": 1624116641.233869,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 5191204.233869076,
+      "name": "uid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 22,
+      "value": "4795522799544035404"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "adform.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.sparkasse.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "00ea3ce465fed3627346da3261bbd9addabfe2d88f9d98f7567605cc49fb9a33",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "D-TRUST SSL Class 3 CA 1 EV 2009",
+        "countryName": "DE",
+        "organizationName": "D-Trust GmbH"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621227356.0,
+      "not_valid_before": 1589432156.0,
+      "serial_number": 144273411696247384628998823984287728294,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.sparkasse.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Berlin",
+        "jurisdictionStateOrProvinceName": "Berlin",
+        "localityName": "Berlin",
+        "organizationName": "Sparkassen-Finanzportal GmbH",
+        "postalCode": "10117",
+        "serialNumber": "HRB 91513",
+        "stateOrProvinceName": "Berlin",
+        "streetAddress": "Friedrichstr. 50"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.sparkasse.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://sparkasse.de/",
+    "https://sparkasse.de/",
+    "http://www.sparkasse.de/",
+    "https://www.sparkasse.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://sparkasse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sparkasse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.sparkasse.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webfonts.sparkasse.de/Sparkasse_web_Rg.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webfonts.sparkasse.de/Sparkasse_web_It.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webfonts.sparkasse.de/SparkasseHead_web_Rg.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webfonts.sparkasse.de/Sparkasse_web_Bd.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webfonts.sparkasse.de/Sparkasse_web_Lt.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/clientlibs_vendor.5b5ed128618b5643458bb9a3bccb8802.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/clientlibs_standard.54c0278e3b1d4459017f2cf9c535fcf1.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/clientlibs_vendor.dc292f309920e7cce1081bbeaa4c3bbe.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/clientlibs_standard.0b0b39f23d2ba872b764f0f5a1bedff9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.tagcommander.com/2792/tc_sde.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/dam/sparkasse/logo_ini.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/static/images/svg/sparkasse/sprite-6825441c.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/opener/slides/slide1/image.img.1600.high.jpg/1617699427483.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/icon_container/children/icon_1/image.img.png/1594733188069.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/icon_container/children/icon_2/image.img.png/1594733188069.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/icon_container/children/icon_3/image.img.png/1594733188069.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/icon_container/children/icon_4/image.img.png/1594733188069.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/icon_container/children/icon_5/image.img.png/1594733188069.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/icon_container/children/icon_6/image.img.png/1594733188069.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/tgreact_6zHRjQ/par/teaser_wide_66260301_1320388879/teaser-content/split_grid/grid-start/background/image.img.jpg/1617876067180.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/aktuelles/neues-im-april-2021/_jcr_content/teaserUpToDate/imageSmall/image.img.jpg/1616416220634.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/aktuelles/corona-dritte-welle/_jcr_content/teaserUpToDate/imageSmall/image.img.jpg/1616668740750.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/aktuelles/haertefallfonds-coronahilfe/_jcr_content/teaserUpToDate/imageSmall/image.img.jpg/1616511393114.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/aktuelles/urlaub-2021-planen/_jcr_content/teaserUpToDate/imageSmall/image.img.jpg/1616749958876.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/tgreact_6zHRjQ/par/teaser_wide_66260301/teaser-content/split_grid/grid-start/background/image.img.jpg/1617697031293.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/tgreact_6zHRjQ/par/teaser_wide_662603018/teaser-content/split_grid/grid-start/background/image.img.jpg/1606315119730.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/aktuelles/e-bike-boom/_jcr_content/teaserUpToDate/imageSmall/image.img.jpg/1616063892658.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/tgreact_6zHRjQ/par/teaser_130809231_cop/teaser-content/split_grid/grid-start/background/image.img.jpg/1610964050441.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/tgreact_6zHRjQ/par/horizontal_narrow_co/teaser-content/split-grid/grid-start/background/image.img.jpg/1605109157924.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/_jcr_content/center/tgreact_6zHRjQ/par/teaser_2143182499/teaser-content/split_grid/grid-start/background/image.img.jpg/1609150048262.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/footer/bank-area-second-col/teaser_customer/image.img.240.high.jpg/1535445503709.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/bin/servlets/sfp/assignment?ip=true"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.trustcommander.net/privacy/2792/privacy_v2_41.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/static/scripts/application/vendors/48~85.chunk.js.e9bec85d8845fb66ab20.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/static/scripts/application/components/component.85.6d28e3bdd551c71737de.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/static/scripts/application/vendors/2~3~5~7~9~10~11~12~13~32~48~53~54~62~67~68~72~75~89~102~108.chunk.js.82c5ec08a57fdd179e4f.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/static/scripts/application/vendors/89.chunk.js.db554275869378d21c45.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/etc/designs/shared/static/scripts/application/components/component.89.20fcf98cd892ec7a8386.chunk.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://privacy.trustcommander.net/privacy-consent/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/dam/sparkasse/logos/37050198.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/aktuelles/corona-app/_jcr_content/teaserUpToDate/imageMedium/image.img.jpg/1618918892539.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/bin/servlets/sparkasse/spkimage.37050198.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/center/tgreact_6zHRjQ/par/teaser_service/teaser-content/service/entries/entry01/image.img.png/1613734300346.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/center/tgreact_6zHRjQ/par/teaser_service/teaser-content/service/entries/entry02/image.img.png/1613734300346.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/center/tgreact_6zHRjQ/par/teaser_service/teaser-content/service/entries/entry03/image.img.png/1613734300346.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/center/tgreact_6zHRjQ/par/teaser_service/teaser-content/service/entries/entry04/image.img.png/1613734300346.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://track.adform.net/serving/scripts/trackpoint/async/"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s2.adform.net/banners/scripts/st/trackpoint-async.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://track.adform.net/Serving/TrackPoint/?pm=1629462&ADFPageName=s.de%7C50pScroll&ADFdivider=%7C&ord=832163759416&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fwww.sparkasse.de%2F"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://track.adform.net/Serving/TrackPoint/?CC=1&pm=1629462&ADFPageName=s.de%7C50pScroll&ADFdivider=%7C&ord=832163759416&Set1=en-US%7Cen-US%7C800x600%7C24&ADFtpmode=2&loc=https%3A%2F%2Fwww.sparkasse.de%2F"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sparkasse.de/content/sparkasse/de/startseite/jcr:content/opener/slides/slide2/image.img.1600.high.jpg/1617699427483.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "www.google-analytics.com",
+        "*.doubleclick.net",
+        "cdn.plyr.io",
+        "vimeo.com",
+        "*.commander1.com",
+        "*.trustcommander.net",
+        "proxy-immobilien.sparkasse.de",
+        "*.kameleoon.com",
+        "*.kameleoon.eu",
+        "*.yellowmap.de",
+        "feeds.sparkassen-finanzportal.de",
+        "contentangebote.sparkasse.de"
+      ],
+      "default-src": [
+        "'none'"
+      ],
+      "font-src": [
+        "webfonts.sparkasse.de",
+        "fonts.gstatic.com"
+      ],
+      "frame-src": [
+        "data:",
+        "'self'",
+        "platform.twitter.com",
+        "syndication.twitter.com",
+        "cdn.tagcommander.com",
+        "cdn.trustcommander.net",
+        "track.adform.net",
+        "server.adform.net",
+        "compass.pressekompass.net",
+        "*.kameleoon.com",
+        "*.kameleoon.eu",
+        "www.google.com",
+        "sparkasse.linda-chatbot.de",
+        "if.sparkassen-finanzportal.de",
+        "widget.civey.com",
+        "www.youtube.com",
+        "player.vimeo.com",
+        "systems.sparkassen-finanzportal.de"
+      ],
+      "header_value": "default-src 'none';   script-src       'unsafe-inline'       'unsafe-eval'       'self'       platform.twitter.com       cdn.syndication.twimg.com       cdn.tagcommander.com       cdn.trustcommander.net       www.google-analytics.com       connect.facebook.net       t23.intelliad.de       www.youtube.com       player.vimeo.com       s.ytimg.com       *.adform.net       www.google.com       www.gstatic.com       maps.googleapis.com       optimize.google.com       api.instagram.com       *.kameleoon.com       *.kameleoon.eu       prod.pszahlen.de;   style-src       'self'       'unsafe-inline'       platform.twitter.com       ton.twimg.com       fonts.googleapis.com       static.kameleoon.com;   img-src data:       'self'       'unsafe-inline'       platform.twitter.com       syndication.twitter.com       *.twimg.com       *.yellowmaps.eu       map.iib-institut.de       sparkassenfinanzportalgmbh.d3.sc.omtrdc.net       www.facebook.com       *.xx.fbcdn.net       *.cdninstagram.com       www.google-analytics.com       www.google.com       www.google.de       *.doubleclick.net       maps.gstatic.com       maps.googleapis.com       img.youtube.com       *.tagcommander.com       *.commander1.com       *.trustcommander.net       *.kameleoon.com       *.kameleoon.eu       images.sparkasse.de       static-immobilien.sparkasse.de       t23.intelliad.de       feeds.sparkassen-finanzportal.de;   media-src       api.sparkassen-mediacenter.de       youtu.be       sparkasse-a.akamaihd.net       contentangebote.sparkassen-finanzportal.de       cdn.plyr.io       detektor.fm       www.youtube.com;   frame-src data:       'self'       platform.twitter.com       syndication.twitter.com       cdn.tagcommander.com       cdn.trustcommander.net       track.adform.net       server.adform.net       compass.pressekompass.net       *.kameleoon.com       *.kameleoon.eu       www.google.com       sparkasse.linda-chatbot.de       if.sparkassen-finanzportal.de       widget.civey.com       www.youtube.com       player.vimeo.com       systems.sparkassen-finanzportal.de;   font-src       webfonts.sparkasse.de       fonts.gstatic.com;   connect-src       'self'       www.google-analytics.com       *.doubleclick.net       cdn.plyr.io       vimeo.com       *.commander1.com       *.trustcommander.net       proxy-immobilien.sparkasse.de       *.kameleoon.com       *.kameleoon.eu       *.yellowmap.de       feeds.sparkassen-finanzportal.de       contentangebote.sparkasse.de;   prefetch-src       'self'       sparkasse.mein-check-in.de       www.f-i.de;   object-src       'self';   manifest-src       'self';",
+      "img-src": [
+        "data:",
+        "'self'",
+        "'unsafe-inline'",
+        "platform.twitter.com",
+        "syndication.twitter.com",
+        "*.twimg.com",
+        "*.yellowmaps.eu",
+        "map.iib-institut.de",
+        "sparkassenfinanzportalgmbh.d3.sc.omtrdc.net",
+        "www.facebook.com",
+        "*.xx.fbcdn.net",
+        "*.cdninstagram.com",
+        "www.google-analytics.com",
+        "www.google.com",
+        "www.google.de",
+        "*.doubleclick.net",
+        "maps.gstatic.com",
+        "maps.googleapis.com",
+        "img.youtube.com",
+        "*.tagcommander.com",
+        "*.commander1.com",
+        "*.trustcommander.net",
+        "*.kameleoon.com",
+        "*.kameleoon.eu",
+        "images.sparkasse.de",
+        "static-immobilien.sparkasse.de",
+        "t23.intelliad.de",
+        "feeds.sparkassen-finanzportal.de"
+      ],
+      "manifest-src": [
+        "'self'"
+      ],
+      "media-src": [
+        "api.sparkassen-mediacenter.de",
+        "youtu.be",
+        "sparkasse-a.akamaihd.net",
+        "contentangebote.sparkassen-finanzportal.de",
+        "cdn.plyr.io",
+        "detektor.fm",
+        "www.youtube.com"
+      ],
+      "object-src": [
+        "'self'"
+      ],
+      "prefetch-src": [
+        "'self'",
+        "sparkasse.mein-check-in.de",
+        "www.f-i.de"
+      ],
+      "script-src": [
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "'self'",
+        "platform.twitter.com",
+        "cdn.syndication.twimg.com",
+        "cdn.tagcommander.com",
+        "cdn.trustcommander.net",
+        "www.google-analytics.com",
+        "connect.facebook.net",
+        "t23.intelliad.de",
+        "www.youtube.com",
+        "player.vimeo.com",
+        "s.ytimg.com",
+        "*.adform.net",
+        "www.google.com",
+        "www.gstatic.com",
+        "maps.googleapis.com",
+        "optimize.google.com",
+        "api.instagram.com",
+        "*.kameleoon.com",
+        "*.kameleoon.eu",
+        "prod.pszahlen.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "platform.twitter.com",
+        "ton.twimg.com",
+        "fonts.googleapis.com",
+        "static.kameleoon.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://sparkasse.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.tagcommander.com",
+      "cdn.trustcommander.net",
+      "privacy.trustcommander.net",
+      "s2.adform.net",
+      "track.adform.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "cdn.trustcommander.net",
+      "s2.adform.net",
+      "track.adform.net"
+    ]
+  }
+}

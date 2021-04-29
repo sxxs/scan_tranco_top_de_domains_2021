@@ -1,0 +1,342 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.presseportal.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PortalPortalDeDst",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 37,
+      "value": "283617472.20992.0000"
+    },
+    {
+      "domain": ".presseportal.de",
+      "expires": 1619629635,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784801,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618852035604"
+    },
+    {
+      "domain": ".presseportal.de",
+      "expires": 1649005635,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 30160801,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 135,
+      "value": "0013088dff020ee39607db8c3:1649005635606:1618852035606:.presseportal.de:2:presspor:de_de_startseite:noevent:1618852035606:k1iayv"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1647956246.714341,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 29111412.714340925,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00280bd465a410c5d607db8c30001%3B607db8c3%3B6239d116"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.presseportal.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 1,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "t0",
+        "tracking_id": "UA-1010397-5"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "1edf9f5e182922f613f397b5959452a6871828562be8121a60b5f0101ddd3bb4",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1625047200.0,
+      "not_valid_before": 1556748000.0,
+      "serial_number": 5914020384159661588595015873384395041,
+      "subject": {
+        "commonName": "*.presseportal.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.presseportal.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://presseportal.de/",
+    "https://www.presseportal.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://presseportal.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets/fonts/newsaktuellIcons-Roman.woff?v=5"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets/css/frontpage-de.css?aebf991"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?m=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets/js/libs/requirejs/require-min.js?aebf991"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets//img/tile_ph.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets//img/highlight_ph.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/gtm/js?id=GTM-WNN7QMH&cid=pp522e0408ceb3d820677219d1baa3a1a0"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=presspor&sv=ke&cp=de_de_startseite&sc=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.presseportal.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013088dff020ee39607db8c3&ep=1645270251&vr=423&id=30n7mb&i3=0013088dff020ee39607db8c3%3A1649005635606%3A1618852035606%3A.presseportal.de%3A1%3Apresspor%3Ade_de_startseite%3Anoevent%3A1618852035606&n1=1&dntt=0&lt=1618852035608&ev=&cs=2as3gm&mo=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets/js/page-doorpage.js?aebf991"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j89&aip=1&a=1364749390&t=pageview&_s=1&dl=https%3A%2F%2Fwww.presseportal.de%2F&ul=en-us&de=UTF-8&dt=%E2%96%B7%20Die%20Plattform%20f%C3%BCr%20Pressemitteilungen%20und%20Pressemeldungen%20%7C%20Presseportal&sd=24-bit&sr=800x600&vp=785x600&je=0&_u=aKAAAAADQ~&cid=pp522e0408ceb3d820677219d1baa3a1a0&tid=UA-1010397-5&_gid=1977122307.1618852036&z=607208937"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=presspor&sv=ke&cp=de_de_startseite&sc=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.presseportal.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013088dff020ee39607db8c3&ep=1645270251&vr=423&id=30n7mb&i3=0013088dff020ee39607db8c3%3A1649005635606%3A1618852035606%3A.presseportal.de%3A1%3Apresspor%3Ade_de_startseite%3Anoevent%3A1618852035606&n1=1&dntt=0&lt=1618852035608&ev=&cs=2as3gm&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.presseportal.de/assets/js/config.js?aebf991"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cache.pressmailing.net/thumbnail/highlight/f372316d-f22a-4190-85e1-ce22bf203d30/kulturkreis-der-deutschen-wirtschaft-im-bdi-e-v-rodger-masou-wird-neuer-geschaeftsfuehrer-des-kultur?crop=0,178,630,412"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cache.pressmailing.net/thumbnail/highlight/e539bddd-30c0-4490-a67c-b78862737097/vereinigte-lohnsteuerhilfe-e-v-vlh-garten-grundstueck-haushalt-drei-fruehjahrstipps-zum-steuern-spar?crop=0,3,630,412"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cache.pressmailing.net/thumbnail/highlight/265d8430-3467-48cd-9c6f-5ac4206dfb1b/schwarze-consulting-gmbh-die-schwarze-consulting-gmbh-nuernberg-uebernimmt-im-zuge-einer-nachfolgere?crop=7,0,630,412"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cache.pressmailing.net/thumbnail/highlight/3d76dfa3-819a-4c82-8a11-4fac2de6eecb/hpi-hasso-plattner-institut-process-mining-onlinekurs-vermittelt-aktuelles-basiswissen-in-zwei-woche?crop=51,0,630,412"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cache.pressmailing.net/thumbnail/highlight/5835c40a-4152-4656-8939-fe22218758b4/bundesgesch-ftsstelle-landesbausparkassen-lbs-wohnen-im-alter-entscheidungen-deutscher-gerichte-zum-?crop=74,0,630,412"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cache.pressmailing.net/thumbnail/highlight/0a1d2e07-e27f-4b70-bf5a-8428a0bc6b94/bundesverband-rauchfreie-alternative-e-v-tabaksteuerplaene-werfen-politische-grundsatzfragen-auf?crop=408,0,630,412"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://presseportal.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cache.pressmailing.net",
+      "de.ioam.de",
+      "script.ioam.de",
+      "www.google-analytics.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 12
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "de.ioam.de",
+      "www.google-analytics.com"
+    ]
+  }
+}

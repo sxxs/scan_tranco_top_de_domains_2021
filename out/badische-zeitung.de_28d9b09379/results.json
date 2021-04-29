@@ -1,0 +1,1425 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".badische-zeitung.de",
+      "expires": 1647075978,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 28173602,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 168,
+      "value": "0009fd5237c4286a2607e9989:1647075978061:1618909578061:.badische-zeitung.de:2:badzeit:startseite_bzo-ueb_deu-txt-red-hpj-onl-apn-pan:noevent:1618909578061:x1jq31"
+    },
+    {
+      "domain": ".badische-zeitung.de",
+      "expires": 1621501578.514528,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599202.514528036,
+      "name": "__cfduid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 51,
+      "value": "df462cd9c2c1d6b0e7ac6811d7a2346601618909578"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1645000967.097923,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 26098591.09792304,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00287fe0c4f692631607e998a0001%3B607e998c%3B620cb907"
+    },
+    {
+      "domain": ".badische-zeitung.de",
+      "expires": 1619600777,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 698401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618909582685"
+    },
+    {
+      "domain": "www.badische-zeitung.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 52,
+      "value": "1259713091824beb75a89d9e20a9d465ff34d6bbab3"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.badische-zeitung.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "cbda538871373af5ccb463d940ebef95be307c67be74a6f260dbd2811eccd689",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623959187.0,
+      "not_valid_before": 1616186787.0,
+      "serial_number": 407737864915515294580166414624586672037638,
+      "subject": {
+        "commonName": "badische-zeitung.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.badische-zeitung.de/service/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://badische-zeitung.de/",
+    "http://www.badische-zeitung.de/",
+    "https://www.badische-zeitung.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://badische-zeitung.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.badische-zeitung.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~css/bzo.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~css/bzo-hotfix.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?m=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle_legacy.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/kameleoonjs"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/lib/modernizr/custom.40505.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/lib/jquery/1.11.1.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/lib/jquery/plugins/querystring/2.1.8/jquery.query-object.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/lib/underscore/1.8.3/underscore.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/utils.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/user.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/badische-zeitung.de.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/bz-medien.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/images/promotion_head/bz-auktion-19-mitbieten-r.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/logo_bz.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/images/promotion_head/bz-archivgold-21-04-01-r.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/c3/34/201376564-f-6_2-w-960-b-0_0_960_320-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/dc/9c/201383068-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d1/4f/201380175-f-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/badge/abo-bzo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d9/4b/201382219-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d4/6c/201380972-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/cf/02/201379586-f-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/badge/premium-bzo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d9/96/201382294-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d4/8b/201381003-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/c5/7c/201377148-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d4/cc/201381068-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d4/cb/201381067-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d4/e1/201381089-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/ae/8f/201371279-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/icons/wetter/rwds/day/0.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/ngen/firstpage/bz_titel_20210420_fre_1132-w-500-q-75.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/wohnverdient_ohne.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/der_jobmarkt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/layouts/images/anzeigenmaerkte/box/bztrauer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/layouts/images/anzeigenmaerkte/box/bzauto.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/layouts/images/anzeigenmaerkte/box/bzmarkt.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/ce/78/201379448-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/c2/ba/201376442-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/9b/d2/a3/194761379-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/a4/4c/201368652-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/db/3a/201382714-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d0/b2/201380018-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d0/8c/201379980-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/db/19/201382681-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d8/f2/201382130-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d0/d3/201380051-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d0/5c/201379932-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/12/03/201331203-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/12/0a/201331210-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/12/02/201331202-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/11/a2/201331106-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/11/c3/201331139-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/12/04/201331204-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/40/b8/201343160-f-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/1d/0c/201334028-f-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/17/49/201332553-f-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/c5/9b/201377179-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/b9/d2/201374162-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/b7/62/201373538-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/98/35/201365557-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/09/20/8d/4d/153128269-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/08/d5/d5/4a/148231498-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/fe/f1/a9/201257385-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/badge/anzeige.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/ff/46/e1/201279201-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/84/3e/201360446-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/8b/1b/201362203-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fupa.net/fupa/widget.min.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/74/5b/201356379-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/59/13/201349395-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/58/2f/201349167-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/4c/40/201346112-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/bz/fupa.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/c6/00/201377280-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/a5/df/201369055-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/8b/91/201362321-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/4f/75/201346933-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/cf/83/201379715-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/c2/0a/201376266-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/af/be/201371582-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/af/1f/201371423-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/89/b9/201361849-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/46/58/201344600-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/16/1c/201332252-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/ff/eb/51/201321297-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sonderthemen.badische-zeitung.de/get/?token=eat07oy9v2u1tfnaamruhpve2bwyg50c&block-index=1&block-name=ARTICLE-LIST&service=inwidget&scriptid=trm-widget--vzQk5XWgCqgsCHznwrN-9"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/b3/44/201372484-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/b2/19/201372185-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/80/58/201359448-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/52/14/201347604-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/logo_fudder.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/a2/72/201368178-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/images/fudder/2017/fudder_960x1700-w-300-b-0_60_300_400.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/8c/7c/201362556-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/85/c6/201360838-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/ff/c5/af/201311663-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/3d/2f/201342255-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/cf/d0/03/198168579-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KKRWC22"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8SnBiBhuO/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8SnBiBhuO/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=8SnBiBhuO"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://eu-tlp03.kameleoon.eu/ip.gif"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~fonts/ptsans/PTS-regular.woff2?ver=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/api/user/status"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=badzeit&sv=ke&cp=startseite_bzo-ueb_deu-txt-red-hpj-onl-apn-pan&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.badische-zeitung.de&xy=800x600x24&lo=DE%2FBerlin&cb=0009&i2=0009fd5237c4286a2607e9989&ep=1648984767&vr=423&id=30n7mb&i3=0009fd5237c4286a2607e9989%3A1647075978061%3A1618909578061%3A.badische-zeitung.de%3A1%3Abadzeit%3Astartseite_bzo-ueb_deu-txt-red-hpj-onl-apn-pan%3Anoevent%3A1618909578061&n1=1&dntt=0&lt=1618909578064&ev=&cs=rk879x&mo=1"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~fonts/ptsans/PTS-bold.woff2?ver=1"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~fonts/icons/big/LDFont.woff2?ver=1.5"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~fonts/ptsans/PTS-italic.woff2?ver=1"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~fonts/ptserif/PTF-regular.woff2?ver=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/layouts/images/anzeigenmaerkte/box/bztrauer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/layouts/images/anzeigenmaerkte/box/bzauto.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/wohnverdient_ohne.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/logos/der_jobmarkt.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.badische-zeitung.de/layouts/images/anzeigenmaerkte/box/bzmarkt.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/db/a0/201382816-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/da/be/201382590-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d9/77/201382263-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/9e/3e/201367102-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/91/57/201363799-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/images/lokales/gastronomie/2020/bz-smart-05-p-960_960.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/badge/appstore.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/badge/playstore.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/images/lokales/gastronomie/2020/bz-app-04-p-960_960.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/64/d5/201352405-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/27/da/201336794-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~images/badge/der-sonntag.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/27/b9/201336761-e-3_2-w-640-b-0_0_640_427-q-75.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/fd/56/6d/201152109-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0c/00/d4/de/201381086-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ais.badische-zeitung.de/piece/0b/ff/d6/83/201315971-f-3_2-w-640-b-0_0_640_427-q-75.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=badzeit&sv=ke&cp=startseite_bzo-ueb_deu-txt-red-hpj-onl-apn-pan&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.badische-zeitung.de&xy=800x600x24&lo=DE%2FBerlin&cb=0009&i2=0009fd5237c4286a2607e9989&ep=1648984767&vr=423&id=30n7mb&i3=0009fd5237c4286a2607e9989%3A1647075978061%3A1618909578061%3A.badische-zeitung.de%3A1%3Abadzeit%3Astartseite_bzo-ueb_deu-txt-red-hpj-onl-apn-pan%3Anoevent%3A1618909578061&n1=1&dntt=0&lt=1618909578064&ev=&cs=rk879x&mo=1&sr=71"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fupa.net/fupa/widget/widget.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fupa.net/fupa/css/font_icons/font_style_with_ressources.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fupa.net/fupa/css/font_icons/font_style.min.css?123"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fupa.net/fupa/widget.php?val=95069&p=liga_start&act=tabelle&fupa_widget_header=0&fupa_widget_navi=0&fupa_widget_div=widget_95069&fupa_widget_module=0&fupa_widget_start=undefined&fupa_widget_spieltag=0&fupa_widget_sonderseite=undefined&url=www.badische-zeitung.de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/lib/templates/index.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8SnBiBhuO/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8SnBiBhuO/latest/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/lib/jquery/plugins/flexslider/jquery.flexslider-min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.fupa.net/fupa/css/font_icons/icon_codes.min.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/js/app.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/js/navigation.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/js/swiper.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/analytics.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/analytics/service/infonline/szmng.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/analytics/service/google/ua.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/cmp.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_YLw1BW.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_2e8whH.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_yT9JwR.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/static/css/global-8f04abd.min.css"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-WVCgkX3g@4.2.0,0gTcH80NQ@7.4.10,1NkngJQE7@4.3.3,506GQ-EsT@7.1.22,8Nxb4ZtSa@6.2.0,9Q2qrmB3@7.3.1,BJ59EidsWQ@25.5.20,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,CguMb4Rq@4.0.2,D-v_9ERzP@4.0.0,F9geCQdkM@1.2.0,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJbZqVodjZX@4.3.0,HkIVcNiuoZX@5.3.1,Hko_qNsui-Q@14.4.15,HkocEodjb7@52.10.26,HyEX5Nidi-m@12.4.1,HyP_q4sdobm@10.2.4,I99Vzl6mZ@5.2.0,KppEkXjia@4.3.0,MzGaX5lAT@6.2.3,RuWQqICz@4.1.0,S1_9Vsuj-Q@15.6.8,S1pcEj_jZX@21.7.3,SkPc5EjOsWm@6.1.0,Skj79NodobQ@8.1.1,SyBR15Ly4@4.1.0,SyUQ54odobQ@6.4.2,T7-yEXGyq@3.2.0,U6fqQbrL7@2.0.0,Vu1W8bEly@4.2.2,Wzl2HXq_P@5.1.5,XojrkOh7V@3.2.9,Y0VjtH8zz@11.6.4,Zy2sR4h-W@6.1.5,bSy_WZ226@8.1.6,faJSqdVD4@4.2.9,fr1xkVyGB@6.2.1,j7Igy6o8D@4.3.1,nhLMP6qX@2.1.0,nsodz8a2H@9.3.4,r1ejcEi_jZ7@7.5.4,y9-WQd-uR@4.1.3"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-WVCgkX3g@4.2.0,0gTcH80NQ@7.4.10,1NkngJQE7@4.3.3,506GQ-EsT@7.1.22,8Nxb4ZtSa@6.2.0,9Q2qrmB3@7.3.1,BJ59EidsWQ@25.5.20,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,CguMb4Rq@4.0.2,D-v_9ERzP@4.0.0,F9geCQdkM@1.2.0,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJbZqVodjZX@4.3.0,HkIVcNiuoZX@5.3.1,Hko_qNsui-Q@14.4.15,HkocEodjb7@52.10.26,HyEX5Nidi-m@12.4.1,HyP_q4sdobm@10.2.4,I99Vzl6mZ@5.2.0,KppEkXjia@4.3.0,MzGaX5lAT@6.2.3,RuWQqICz@4.1.0,S1_9Vsuj-Q@15.6.8,S1pcEj_jZX@21.7.3,SkPc5EjOsWm@6.1.0,Skj79NodobQ@8.1.1,SyBR15Ly4@4.1.0,SyUQ54odobQ@6.4.2,T7-yEXGyq@3.2.0,U6fqQbrL7@2.0.0,Vu1W8bEly@4.2.2,Wzl2HXq_P@5.1.5,XojrkOh7V@3.2.9,Y0VjtH8zz@11.6.4,Zy2sR4h-W@6.1.5,bSy_WZ226@8.1.6,faJSqdVD4@4.2.9,fr1xkVyGB@6.2.1,j7Igy6o8D@4.3.1,nhLMP6qX@2.1.0,nsodz8a2H@9.3.4,r1ejcEi_jZ7@7.5.4,y9-WQd-uR@4.1.3"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.fupa.net/legacy/fonts/icons/fupa_font.woff2?ocp13xx"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.13.0/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://privacy-proxy.usercentrics.eu/latest/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/~js/core/analytics/service/cxense/cxense.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.badische-zeitung.de/extern/kameleoon/kameleoon-iframe.html"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://badische-zeitung.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cdntrf.com",
+      "de.ioam.de",
+      "eu-tlp03.kameleoon.eu",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "script.ioam.de",
+      "static.fupa.net",
+      "trmcdn.eu",
+      "www.fupa.net",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 35
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 24,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cdntrf.com",
+      "de.ioam.de",
+      "eu-tlp03.kameleoon.eu",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "www.googletagmanager.com"
+    ]
+  }
+}

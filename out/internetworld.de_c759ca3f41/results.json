@@ -1,0 +1,597 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".internetworld.de",
+      "expires": 1646752257,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 27828002,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 128,
+      "value": "001a2140881740227607eef00:1646752257160:1618931457160:.internetworld.de:2:inetworl:Homepage:noevent:1618931457160:19jh73"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1644430620.255877,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 25506365.255877018,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003cb0356a77c3704607eef010001%3B607eef01%3B6204051c"
+    },
+    {
+      "domain": ".internetworld.de",
+      "expires": 1621350656,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618931458562"
+    },
+    {
+      "domain": ".internetworld.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "plenigo_check",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 109,
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwdiI6MH0.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJwdiI6MH0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.internetworld.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "7e9f1fe62255ccc6bb93de6fc649f806c71ecdf48002c7c4d41842f1aef6d99a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626148243.0,
+      "not_valid_before": 1618372243.0,
+      "serial_number": 275486096245731863859239180766617300790295,
+      "subject": {
+        "commonName": "www.spomo.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.internetworld.de/kontakt-impressum-224301.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1 -ajax,-ajax/jsonp,-ajax/load,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-deprecated/ajax-event-alias,-effects,-effects/Tween,-effects/animatedSelector"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://internetworld.de/",
+    "https://internetworld.de/",
+    "https://www.internetworld.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://internetworld.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://internetworld.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/all/javascript/showads/showads.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/serverside/style.php/bks.scss?timestamp=1618398037&environment=live"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/serverside/script.php?timestamp=1618398037&environment=live"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/tag/js/gpt.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://eum.instana.io/eum.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-ui/latest/bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WKHJKMG"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021041501.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/XBBxyq8qB/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/XBBxyq8qB/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=XBBxyq8qB"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=inetworl&cp=Homepage&co=Homepage&sv=ke&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.internetworld.de&xy=800x600x24&lo=DE%2FBerlin&cb=001a&i2=001a2140881740227607eef00&ep=1644349714&vr=424&id=30n7mb&i3=001a2140881740227607eef00%3A1646752257160%3A1618931457160%3A.internetworld.de%3A1%3Ainetworl%3AHomepage%3Anoevent%3A1618931457160&n1=1&dntt=0&lt=1618931457162&ev=&cs=30oi8k&mo=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=inetworl&cp=Homepage&co=Homepage&sv=ke&sc=yes&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.internetworld.de&xy=800x600x24&lo=DE%2FBerlin&cb=001a&i2=001a2140881740227607eef00&ep=1644349714&vr=424&id=30n7mb&i3=001a2140881740227607eef00%3A1646752257160%3A1618931457160%3A.internetworld.de%3A1%3Ainetworl%3AHomepage%3Anoevent%3A1618931457160&n1=1&dntt=0&lt=1618931457162&ev=&cs=30oi8k&mo=1&sr=71"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/XBBxyq8qB/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/XBBxyq8qB/latest/de.json"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/opensans/open-sans-v17-latin_latin-ext-regular.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/img/1/0/6/6/1/5/InternetWorld_Logo.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/opensans/open-sans-v17-latin_latin-ext-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/literata/literata-v15-latin_latin-ext-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/literata/literata-v15-latin_latin-ext-600.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/opensans/open-sans-v17-latin_latin-ext-300.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/4/5/1/5/Conrad-Electronic.tif?h=354&s=d5c75553c1cb1ea90ae0d1ed35ebd220"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/5/6/5/5/Social-Media.jpg?w=1023&s=af677e24c505a43e5162669312ec0b3d"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/5/5/8/6/Zalando.jpg?w=1023&s=bc1d6a2f3bbadb1f5a3fa5c146b96bc2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/3/3/9/7/bruno-banani.png?w=1023&s=56341695b6c9e6686969b46ba000de6c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/4/6/7/4/Steiff.jpg?w=1023&s=9ab2eddbbde5833618d092d4d18be253"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/3/5/8/6/BMW.jpg?w=1023&s=af654785acd56367e4d8e72f6ac328d7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/3/1/8/1/Oestberg.jpg?w=1023&s=93c70b8d978508808947410714e8d7f5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/2/6/4/5/Produkt-Range.jpg?w=1023&s=a71802a1130e6daa2e173dea39dd9956"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/5/6/5/2/9/8/Girl_parcel_stairs.png?w=1023&s=7ca4cdfb3e6d904a2b5c984a64fd0d06"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/0/6/6/1/5/daily.jpg?w=265&h=495&fit=crop&q=80&s=d524b3c36d1876e1ae32514124965231"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/0/6/6/1/5/Commerce-Shots.jpg?w=265&h=495&fit=crop&q=80&s=d58770a8fcbfa7d7fcf02fb28560e75f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/0/6/6/1/5/Amazon-Newsletter.jpg?w=265&h=495&fit=crop&q=80&s=1079479c8f459311133c23b942764e37"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/image.php/1/0/6/6/1/5/Payment-News.jpg?w=265&h=495&fit=crop&q=80&s=5c84da5bb3deb5572dca1df5d78835c6"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/literata/literata-v15-latin_latin-ext-regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/opensans/open-sans-v17-latin_latin-ext-800.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/static/assets/fonts/opensans/open-sans-v17-latin_latin-ext-600.woff2"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=2PLSJfB9b@6.2.0,476VrlcTH@1.0.0,9V8bg4D63@9.6.5,BJ59EidsWQ@25.5.22,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,Bym-eqViuo-X@6.1.0,HkIVcNiuoZX@5.3.1,HkYNq4sdjbm@10.2.4,HkocEodjb7@52.10.26,HyEX5Nidi-m@12.4.1,HyP_q4sdobm@10.2.4,J39GyuWQq@12.4.4,JiFH1ubU@4.2.2,KMyOkIzmO@1.0.0,S1_9Vsuj-Q@15.6.8,SJDM9Niuo-X@13.1.8,SJFe9NousWX@11.9.5,SJyyb9Ei_i-7@8.1.0,SkPc5EjOsWm@6.1.0,SyBR15Ly4@4.1.0,SyUQ54odobQ@6.4.2,U_UQex9kK@1.0.0,XYQZBUojc@9.5.1,fy3ulHKbT@1.0.0,ko1w5PpFl@23.10.10,n14pirF9c@1.0.0,nhLMP6qX@2.1.0,pMqnvms3Z@2.3.0,qvkzz7qPe@7.4.5,r5-Z_erQ0@6.1.1,rJ99c4oOo-X@7.2.3,rJAM9EodoWX@7.2.1,rJJjcVouoZ7@8.3.3,ryDQcVoOoZQ@8.2.4,t16v0TNHF@1.0.0,whpoQGG20@1.0.0"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=2PLSJfB9b@6.2.0,476VrlcTH@1.0.0,9V8bg4D63@9.6.5,BJ59EidsWQ@25.5.22,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,Bym-eqViuo-X@6.1.0,HkIVcNiuoZX@5.3.1,HkYNq4sdjbm@10.2.4,HkocEodjb7@52.10.26,HyEX5Nidi-m@12.4.1,HyP_q4sdobm@10.2.4,J39GyuWQq@12.4.4,JiFH1ubU@4.2.2,KMyOkIzmO@1.0.0,S1_9Vsuj-Q@15.6.8,SJDM9Niuo-X@13.1.8,SJFe9NousWX@11.9.5,SJyyb9Ei_i-7@8.1.0,SkPc5EjOsWm@6.1.0,SyBR15Ly4@4.1.0,SyUQ54odobQ@6.4.2,U_UQex9kK@1.0.0,XYQZBUojc@9.5.1,fy3ulHKbT@1.0.0,ko1w5PpFl@23.10.10,n14pirF9c@1.0.0,nhLMP6qX@2.1.0,pMqnvms3Z@2.3.0,qvkzz7qPe@7.4.5,r5-Z_erQ0@6.1.1,rJ99c4oOo-X@7.2.3,rJAM9EodoWX@7.2.1,rJJjcVouoZ7@8.3.3,ryDQcVoOoZQ@8.2.4,t16v0TNHF@1.0.0,whpoQGG20@1.0.0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.13.0/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://privacy-proxy.usercentrics.eu/latest/de.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.plenigo.com/static_resources/javascript/RDaP4guMBYMLFtWxxJRe/plenigo_sdk.min.js"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://fonts.googleapis.com/css?family=Ubuntu:300,400,500"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.plenigo.com/static_resources/v2/css/plenigo_sdk.min.css?build=551"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.internetworld.de/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://internetworld.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "de.ioam.de",
+      "eum.instana.io",
+      "fonts.googleapis.com",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "script.ioam.de",
+      "securepubads.g.doubleclick.net",
+      "static.plenigo.com",
+      "www.googletagmanager.com",
+      "www.googletagservices.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 28
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 24,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "de.ioam.de",
+      "eum.instana.io",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "securepubads.g.doubleclick.net",
+      "www.googletagmanager.com",
+      "www.googletagservices.com"
+    ]
+  }
+}

@@ -1,0 +1,775 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".comdirect.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "qSession",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 30,
+      "value": "f089c595.5c063b46f99af"
+    },
+    {
+      "domain": "www.comdirect.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cookie_www_https",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 97,
+      "value": "!+Pyu0EGYw5IYZBc1ZuLWNl3tHvxEEiqOA/Fo+KKl1Pg/TBAnEUZSpKWKzbXIPE9a1Tud+9qlM4998g=="
+    },
+    {
+      "domain": "www.comdirect.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "1E43CCE4E13EEF9648532F0EA8083FEE"
+    },
+    {
+      "domain": ".comdirect.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "xsrf-token",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 74,
+      "value": "b09c4cb491c0780714dd5f18916843d1bd7990fd3185c6b27b01d3b1777af849"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.comdirect.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f25a52934cd5cbffe4812b30f49835c2538079f109703817be4d6e793ce021ab",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign Extended Validation CA - SHA256 - G3",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639408562.0,
+      "not_valid_before": 1605107762.0,
+      "serial_number": 36624083396507681847078885974,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.comdirect.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Frankfurt am Main",
+        "jurisdictionStateOrProvinceName": "Hessen",
+        "localityName": "Frankfurt am Main",
+        "organizationName": "Commerzbank AG",
+        "serialNumber": "HRB 32000",
+        "stateOrProvinceName": "Hessen",
+        "streetAddress": "Kaiserstrasse 16"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.comdirect.de/cms/hilfe-service-impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://comdirect.de/",
+    "https://www.comdirect.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://comdirect.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/assets/fonts/MarkWeb-latin-regular.woff2?v=1618483591540"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/assets/fonts/MarkWeb-latin-medium.woff2?v=1618483591540"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/assets/fonts/MarkWeb-latin-bold.woff2?v=1618483591540"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/css/styleguide-comdirect.css?v=1618483591540"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/ccf2/lsg/assets/svg/svg-symbol.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/cms/img_system/svg-symbol.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/modules/js/consent-initial.module.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/framework/cdb.kpiLogger.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/framework/cdb.errorLogger.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/scripts/tracking/TrackingLogger.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/scripts/tracking/ECrmLogger.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/modules/js/ccf_core.module.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/js/bundle-polyfills.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/js/bundle-common.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/lsg/js/bundle-cif.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/scripts/tracking/SurferTrackingCaller.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.config.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.keepalive.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/cms/js/umfrage_counter.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.s2.interhyp.js?v=1618483591540"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/cms/snippets/cmpInitLayer-snippet.html"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.comdirect.de/cp/log/kpi?type=ClientPerformance&url=https%3A%2F%2Fwww.comdirect.de%2F&user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.114%20Safari%2F537.36&value=%7B%22navigationStart%22%3A0%2C%22fetchStart%22%3A204%2C%22domainLookup%22%3A13%2C%22domainLookupStart%22%3A206%2C%22domainLookupEnd%22%3A219%2C%22connect%22%3A121%2C%22connectStart%22%3A219%2C%22secureConnectionStart%22%3A242%2C%22connectEnd%22%3A340%2C%22requestStart%22%3A340%2C%22response%22%3A26%2C%22responseStart%22%3A393%2C%22responseEnd%22%3A419%2C%22domLoading%22%3A400%2C%22domInteractive%22%3A780%7D"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.topframechecker.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.unobtrusivefocus.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.lsgDialog.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.pluginDelegate.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.s2.videoplayer.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.fetch.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.snippet.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.cobrowsing.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.commandlink.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.inputSearch.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.inputAutocompletion.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.mobileSearch.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.navigationLoader.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.cdb.navigateWithTabKey.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.toggleClassByAttributeValue.js?v=1618483591540"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=41&format=TOP-Teaser"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=51&format=omega&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=53&format=omega&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=55&format=omega&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=52&format=omega&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=54&format=omega&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=56&format=omega&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=61&format=sigma&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=62&format=sigma&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/t?page=cori0001&pos=63&format=sigma&pageContextId=ccac3835-7118-4cfa-b1c9-dd3a648d4d3e"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.core.lazyLoad.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.3rdparty.cookie.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.apps.textchatWelcome.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.apps.textchatConversation.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.3rdparty.redux.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.3rdparty.redux-thunk.js?v=1618483591540"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.apps.textchat.js?v=1618483591540"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/keyicon_cominvest.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/keyicon_depot.svg"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/pbl/provide/data?dataSource=exchangeData&dataType=interhyp-loan-rates"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.comdirect.de/cp/log/client?title=consoleerror&log=%7B%220%22%3A%22You%20are%20currently%20using%20minified%20code%20outside%20of%20NODE_ENV%20%3D%3D%3D%20%27production%27.%20This%20means%20that%20you%20are%20running%20a%20slower%20development%20build%20of%20Redux.%20You%20can%20use%20loose-envify%20(https%3A%2F%2Fgithub.com%2Fzertosh%2Floose-envify)%20for%20browserify%20or%20DefinePlugin%20for%20webpack%20(http%3A%2F%2Fstackoverflow.com%2Fquestions%2F30030031)%20to%20ensure%20you%20have%20the%20correct%20code%20for%20your%20production%20build.%22%7D&parent_url=https%3A%2F%2Fwww.comdirect.de%2F&user_agent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.114%20Safari%2F537.36"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/inf/homepage_chart.html?ID_NOTATION=20735&ID_NOTATION=35803356&ID_NOTATION=6623216&ID_NOTATION=324977&ID_NOTATION=324985&NAME=DAX&NAME=DAXind&NAME=TecDAX&NAME=DOW&NAME=Nasdaq&TITLE=Markt%C3%BCbersicht"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/omega-390-refresh_md_1x.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/Topteaser-Handy-NKM_md_1x.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/ots-omega-juniordepotkind-md-1x.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/Anlageideen_Omega_md_720x320_1x.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/618729822_md-2x_720x320_1x.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/Omega_Markt-Update_08-2020_md_2x_1x.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.comdirect.de/t/img/bonussparen-omega-102020_md_1x.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.comdirect.de/ccf2/plugins/js/jquery.fdsg.seoLink.js?v=1618483591540"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://charts.comdirect.de/charts/rebrush/homepage_resp.chart?HEIGHT=192&ID_NOTATION=20735&TIME_SPAN=1D&TYPE=MOUNTAIN&WIDTH=284&WITH_EARNINGS=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://charts.comdirect.de/charts/rebrush/homepage_resp.chart?HEIGHT=192&ID_NOTATION=35803356&TIME_SPAN=1D&TYPE=MOUNTAIN&WIDTH=284&WITH_EARNINGS=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://charts.comdirect.de/charts/rebrush/homepage_resp.chart?HEIGHT=192&ID_NOTATION=6623216&TIME_SPAN=1D&TYPE=MOUNTAIN&WIDTH=284&WITH_EARNINGS=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://charts.comdirect.de/charts/rebrush/homepage_resp.chart?HEIGHT=192&ID_NOTATION=324977&TIME_SPAN=1D&TYPE=MOUNTAIN&WIDTH=284&WITH_EARNINGS=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://charts.comdirect.de/charts/rebrush/homepage_resp.chart?HEIGHT=192&ID_NOTATION=324985&TIME_SPAN=1D&TYPE=MOUNTAIN&WIDTH=284&WITH_EARNINGS=1"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "https://www.comdirect.de",
+        "https://trading.comdirect.de",
+        "https://kunde.comdirect.de",
+        "https://b2b.comdirect.de",
+        "https://nutzer.comdirect.de",
+        "https://mobileapp.comdirect.de",
+        "https://cfdapp.comdirect.de",
+        "https://static.comdirect.de",
+        "https://api.comdirect.de",
+        "https://*.comdirect-versicherungsmakler.de",
+        "https://community.comdirect.de/"
+      ],
+      "font-src": [
+        "data:",
+        "'self'",
+        "https://static.comdirect.de/ccf2/"
+      ],
+      "form-action": [
+        "'self'",
+        "https://www.comdirect.de",
+        "https://kunde.comdirect.de",
+        "https://trading.comdirect.de",
+        "https://b2b.comdirect.de",
+        "https://nutzer.comdirect.de",
+        "https://mobileapp.comdirect.de",
+        "https://cfdapp.comdirect.de",
+        "https://static.comdirect.de",
+        "https://api.comdirect.de",
+        "https://*.comdirect-versicherungsmakler.de",
+        "https://geldautomaten.comdirect.de/",
+        "https://cfd.comdirect.de/",
+        "https://community.comdirect.de/"
+      ],
+      "frame-src": [
+        "'self'",
+        "https://www.comdirect.de",
+        "https://b2b.comdirect.de",
+        "https://static.comdirect.de",
+        "https://kunde.comdirect.de"
+      ],
+      "header_value": "style-src 'self' https://static.comdirect.de/ccf2/ 'unsafe-inline' ;script-src 'self' https://static.comdirect.de/ccf2/ https://www.comdirect.de/cms/ 'unsafe-eval' 'unsafe-inline' ;form-action 'self' https://www.comdirect.de https://kunde.comdirect.de https://trading.comdirect.de https://b2b.comdirect.de https://nutzer.comdirect.de https://mobileapp.comdirect.de https://cfdapp.comdirect.de https://static.comdirect.de https://api.comdirect.de https://*.comdirect-versicherungsmakler.de https://geldautomaten.comdirect.de/ https://cfd.comdirect.de/ https://community.comdirect.de/ ;frame-src 'self' https://www.comdirect.de https://b2b.comdirect.de https://static.comdirect.de https://kunde.comdirect.de ;img-src data: 'self' https://*.comdirect.de/ https://charts.comdirect.de https://charts.test.comdirect.de ;default-src 'self' https://www.comdirect.de https://trading.comdirect.de https://kunde.comdirect.de https://b2b.comdirect.de https://nutzer.comdirect.de https://mobileapp.comdirect.de https://cfdapp.comdirect.de https://static.comdirect.de https://api.comdirect.de https://*.comdirect-versicherungsmakler.de https://community.comdirect.de/ ;font-src data: 'self' https://static.comdirect.de/ccf2/ ;report-uri https://www.comdirect.de/cp/csp/reports ;",
+      "img-src": [
+        "data:",
+        "'self'",
+        "https://*.comdirect.de/",
+        "https://charts.comdirect.de",
+        "https://charts.test.comdirect.de"
+      ],
+      "report-uri": [
+        "https://www.comdirect.de/cp/csp/reports"
+      ],
+      "script-src": [
+        "'self'",
+        "https://static.comdirect.de/ccf2/",
+        "https://www.comdirect.de/cms/",
+        "'unsafe-eval'",
+        "'unsafe-inline'"
+      ],
+      "style-src": [
+        "'self'",
+        "https://static.comdirect.de/ccf2/",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://comdirect.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

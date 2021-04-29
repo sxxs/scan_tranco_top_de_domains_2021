@@ -1,0 +1,532 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".verivox.de",
+      "expires": 1621514872.280173,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599200.2801730633,
+      "name": "__cfduid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 51,
+      "value": "d9e1549275929898503331f86d183c90e1618922872"
+    },
+    {
+      "domain": "www.verivox.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "CMPControllerId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 79,
+      "value": "4854d90ebe39d3f7f05e83ad428b8d66e692d9ea26868c451183a5c159dca9be"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.verivox.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a8d8f0d1ff7cc596f07ee0ee91f54f4191df998814a3ce258aab4f29becb8488",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Thawte RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1643151599.0,
+      "not_valid_before": 1609110000.0,
+      "serial_number": 8495654235340845278787667403196147081,
+      "subject": {
+        "commonName": "www.verivox.de",
+        "countryName": "DE",
+        "localityName": "Heidelberg",
+        "organizationName": "Verivox GmbH",
+        "stateOrProvinceName": "Baden-W\u00fcrttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.verivox.de/company/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://verivox.de/",
+    "https://www.verivox.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://verivox.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.verivox.de/"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/fonts/de/verivox-de.woff"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/fonts/de/selawik-100.woff"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/fonts/de/selawik-400.woff"
+    },
+    {
+      "mime_type": "font/x-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/fonts/de/selawik-700.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.vxcdn.com/usercentrics-sdk/bundle.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/images/navigational-elements/logo/logo-97c13998e7.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/images/lazyload-pixel/transparent-1x1-978c1bee49.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/mofu-samsung-a52-a72-motiv-campaign-banner-b-6342-0-0.png?updated=1616592273"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/energy-oekostrom-motiv-campaign-banner-6301-0-0.png?updated=1614939630"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/insurance-kfz-corona-airbag-campaign-bar-motiv-5873-0-0.png?updated=1604494268"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/de-fold-apps-6dea271475.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/de-fold-263940c2a7.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.verivox.de/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/js/app-de-apps-42561e785c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/js/app-de-64dc58a835.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8feFp-gx/latest/languages.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.vxcdn.com/hydra/bundle.js?_cb=1618920000"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8feFp-gx/latest/languages.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=8feFp-gx"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tags.tiqcdn.com/utag/pro7/verivox20-de/prod/utag.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/components/trust-communication-494f710468.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/components/cluster-component-3b5e4bf419.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/components/accordion-72f75b03e4.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/components/communication-footer-2a0bba9ff8.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/components/company-footer-a32bbb21ac.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/assets/css/components/seo-footer-dfd7ddf466.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/kredit-hero-hp-6102-980-700.jpg?updated=1610103199&hash=158BB7D93B66B3A114671DB36141E673"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/energy-strom-stressfluesterer-hero-mit-cb-6309-980-700.jpg?updated=1615219465&hash=225A8A601FCCEA37B64CF13DB0A600DC"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/stressfluesterer-buehne-gas-4720-980-700.jpg?updated=1571039602&hash=D836E4B32C26F9703E7D968CE8618B6E"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/stressfluesterer-buehne-dsl-base-4831-980-700.jpg?updated=1618218205&hash=C691AC229AFD9B657F1E7A22BA93DDC5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/telco-mofu-hero-generic-hp-6398-980-700.jpg?updated=1617868813&hash=DFC8FBCA66186EEE6EB502A955F090C6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/stressfluesterer-buehne-kfz-versicherung-4730-980-700.jpg?updated=1576704757&hash=C8794FFCEE9C6167A4002B8078B92CBF"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/adobestock-103020118-freunde-werben-2083-995-398.jpg?updated=1618412891&hash=F81DF78358F2F1074CCDAB1B2F076A83"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/202007-ntv-deutschlands-beste-online-portale-2020-gesamtsieger-teaser-4208-925-370.jpg?updated=1594214120&hash=F8B9D431D574D148E63F14C0F7CCA286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/kundenservice-3013-468-187.jpg?updated=1576704766&hash=F70131ADBFD9489015626A1CA3E929AB"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/adobestock-164479517-vx-apps-3464-468-187.jpg?updated=1549523397&hash=6CC7568880EFFD586E62661DC41EA233"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.vxcdn.com/hydra/encryption.d621eeb197bc92a4b360.chunk.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8feFp-gx/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/8feFp-gx/latest/de.json"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://2h51ro242k.execute-api.eu-central-1.amazonaws.com/Production/tealiumChannelBucket?action=sessionStart&channel=Direct&visitor=fe2bd64f0f7e8841aac4dbf62e417e11&session=f6cf8feee56bb8cbf5dcd5ccff932abf&division=startseite&queryParams=%7B%7D&beta=2&_rnd=0.6148228241842653"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/2017-11-verivox-ngg-info-icon-1451-0-0.png?updated=1603287256&h=193&w=161&la=de-DE&hash=CD402FA5E3DF4D38CC3F8499D08CE22B"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/202011-tuev-saarland-geprueftes-vergleichsportal-konditionsvergleich-ratenkredit-1040-0-0.png?updated=1604303998&h=120&w=227&la=de-DE&hash=7A0CB73712D58492AC710E2F4ECFFF29"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/202004-servicevalue-die-welt-preis-champions-optimiert-1747-0-0.png?updated=1590755539&h=101&w=150&la=de-DE&hash=1E6F470A0291754223D948E1E574E58D"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/stoerer-0komma0-4932-0-0.png?updated=1610118119"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-qB9alF0d@3.1.4,0H0I-IqyN@2.1.2,47-1rb5J7@3.1.5,4E-L-a33Z@3.0.6,4W7fFfFSy@6.1.1,53V4PdUMx@5.4.0,64ZkQtcLJ@4.1.0,7mr00cd_R@4.1.2,7nkQ1p67X@2.1.6,87hphL70M@2.0.1,8dLI6-sNm@1.0.0,9GgCbkF1X@6.2.0,9V8bg4D63@9.6.5,B1Pb9NoOiZQ@5.2.1,BJ59EidsWQ@25.5.22,BJSN54susZX@6.1.0,ByDEc4sOjbm@5.3.0,ByjH5VouiZ7@6.3.3,ByvxcNj_jWm@6.2.3,CPuQmpfb2@4.2.0,CVliYs1Zn@2.1.1,ETsvUk0E7@3.1.11,EjakqldNX@3.1.4,EuJuDvhYJ@5.2.0,Ff-ya9V6J@2.0.9,H1QMcEsusbm@11.6.4,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJZU9Nj_iZX@12.1.2,HkMucNoOjWX@8.4.3,HkocEodjb7@52.10.26,HyiV94juoW7@8.2.2,Hysgc4odiZ7@13.6.3,KOxQzFMgd@4.1.9,KP3LreZTq@2.0.8,LDb1R09QE@1.0.1,MQloNX7ND@5.2.12,MVJ7BaUXx@3.1.4,N9jV5g2zy@4.1.15,NcCSaALZg@4.3.1,PPd_PNPTx@4.2.0,RuWQqICz@4.1.0,Rxj-9kbwh@4.2.0,SJJZ5Eo_sWm@8.3.2,SJwfMvizE@8.1.1,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,SystcNs_i-X@7.3.1,T5I5HOwho@1.0.0,TSJjyzjxQ@4.1.5,TVNO1__rv@3.1.10,TYcb-2Kdo@2.0.16,U7V9xNVTr@4.2.5,VgrMEiWM6@1.0.1,XCFF3uKMW@4.0.4,Y-YND_6zN@3.0.11,Z3cSxwwmR@2.1.13,a8XLoeVA0@5.1.0,b8FM5DHv-@6.3.9,bPzrj9i71@2.0.6,c5jdEIoF@5.4.0,d_5HNF7Yc@9.1.2,ge3hQ3zM@2.2.0,gtllShbf6@3.1.4,hObYeJ-F6@4.1.4,iDt6n2meg@4.0.4,iSZOyugUg@4.1.1,irFvwDSIZ@4.2.7,ko1w5PpFl@23.10.10,lrFSXfrof@4.3.2,msWdVhnwl@3.1.0,nWlCqTinS@3.1.5,ny81wgGKJ@6.2.7,oONAxIvP2@3.2.2,qCYEsTJss@4.1.4,qRu2dJZ2S@5.1.9,qSuF68zGH@4.0.4,qfLH_JebG@3.1.5,r1EWc4iuj-X@9.4.1,r1ejcEi_jZ7@7.5.4,rH1vNPCFR@8.0.1,rJgz9Nj_o-m@15.2.9,s8nQgU9A5@5.1.1,twMyStLkn@15.7.13,w8_BY1XH3@3.1.4,wgFHaiIF6@4.1.1,xtYvv-vyb@3.0.4,yMTaRoRWK@3.1.2,yjqNcpbNY@9.3.5,zmm-tF0D-@1.0.4,zqfwGZsF9@1.0.4"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-qB9alF0d@3.1.4,0H0I-IqyN@2.1.2,47-1rb5J7@3.1.5,4E-L-a33Z@3.0.6,4W7fFfFSy@6.1.1,53V4PdUMx@5.4.0,64ZkQtcLJ@4.1.0,7mr00cd_R@4.1.2,7nkQ1p67X@2.1.6,87hphL70M@2.0.1,8dLI6-sNm@1.0.0,9GgCbkF1X@6.2.0,9V8bg4D63@9.6.5,B1Pb9NoOiZQ@5.2.1,BJ59EidsWQ@25.5.22,BJSN54susZX@6.1.0,ByDEc4sOjbm@5.3.0,ByjH5VouiZ7@6.3.3,ByvxcNj_jWm@6.2.3,CPuQmpfb2@4.2.0,CVliYs1Zn@2.1.1,ETsvUk0E7@3.1.11,EjakqldNX@3.1.4,EuJuDvhYJ@5.2.0,Ff-ya9V6J@2.0.9,H1QMcEsusbm@11.6.4,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJZU9Nj_iZX@12.1.2,HkMucNoOjWX@8.4.3,HkocEodjb7@52.10.26,HyiV94juoW7@8.2.2,Hysgc4odiZ7@13.6.3,KOxQzFMgd@4.1.9,KP3LreZTq@2.0.8,LDb1R09QE@1.0.1,MQloNX7ND@5.2.12,MVJ7BaUXx@3.1.4,N9jV5g2zy@4.1.15,NcCSaALZg@4.3.1,PPd_PNPTx@4.2.0,RuWQqICz@4.1.0,Rxj-9kbwh@4.2.0,SJJZ5Eo_sWm@8.3.2,SJwfMvizE@8.1.1,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,SystcNs_i-X@7.3.1,T5I5HOwho@1.0.0,TSJjyzjxQ@4.1.5,TVNO1__rv@3.1.10,TYcb-2Kdo@2.0.16,U7V9xNVTr@4.2.5,VgrMEiWM6@1.0.1,XCFF3uKMW@4.0.4,Y-YND_6zN@3.0.11,Z3cSxwwmR@2.1.13,a8XLoeVA0@5.1.0,b8FM5DHv-@6.3.9,bPzrj9i71@2.0.6,c5jdEIoF@5.4.0,d_5HNF7Yc@9.1.2,ge3hQ3zM@2.2.0,gtllShbf6@3.1.4,hObYeJ-F6@4.1.4,iDt6n2meg@4.0.4,iSZOyugUg@4.1.1,irFvwDSIZ@4.2.7,ko1w5PpFl@23.10.10,lrFSXfrof@4.3.2,msWdVhnwl@3.1.0,nWlCqTinS@3.1.5,ny81wgGKJ@6.2.7,oONAxIvP2@3.2.2,qCYEsTJss@4.1.4,qRu2dJZ2S@5.1.9,qSuF68zGH@4.0.4,qfLH_JebG@3.1.5,r1EWc4iuj-X@9.4.1,r1ejcEi_jZ7@7.5.4,rH1vNPCFR@8.0.1,rJgz9Nj_o-m@15.2.9,s8nQgU9A5@5.1.1,twMyStLkn@15.7.13,w8_BY1XH3@3.1.4,wgFHaiIF6@4.1.1,xtYvv-vyb@3.0.4,yMTaRoRWK@3.1.2,yjqNcpbNY@9.3.5,zmm-tF0D-@1.0.4,zqfwGZsF9@1.0.4"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.2.7/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.verivox.de/bilder/adobestock-103020118-freunde-werben-2083-75-50.jpg?updated=1618412891&hash=BF81B12AEF871EF3CC23A08CB5ACBA3A"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "header_value": "upgrade-insecure-requests;",
+      "upgrade-insecure-requests": []
+    },
+    "Expect-CT": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://verivox.de\r",
+  "third_parties": {
+    "fqdns": [
+      "2h51ro242k.execute-api.eu-central-1.amazonaws.com",
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "js.vxcdn.com",
+      "tags.tiqcdn.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 15
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 10,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu"
+    ]
+  }
+}

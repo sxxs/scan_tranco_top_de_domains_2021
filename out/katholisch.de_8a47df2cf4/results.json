@@ -1,0 +1,854 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.katholisch.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": ".AspNetCore.Antiforgery.Nu5R7l8pyzI",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": false,
+      "session": true,
+      "size": 190,
+      "value": "CfDJ8Gd48WV4-tdLqUT1uenz0QWOVAju5-IUriNYSwT--IN2fJz8JNQuvqLZEOxR7iOTlJGhwfy9VnUpn2msCHguBvWJ9a-BpD7WeXZCsgKq4e4uq0altG6N0m_U5MDh6vovYLrLWognku1coR1FPDsDVgY"
+    },
+    {
+      "domain": ".katholisch.de",
+      "expires": 1621348867,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618929667649"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1647226117.982994,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 28303651.98299408,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c68016e22ee119607ee8030001%3B607ee803%3B622ead05"
+    },
+    {
+      "domain": ".katholisch.de",
+      "expires": 1682001668,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079202,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1573531256.1618929668"
+    },
+    {
+      "domain": ".katholisch.de",
+      "expires": 1619016068,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.1638181808.1618929668"
+    },
+    {
+      "domain": ".katholisch.de",
+      "expires": 1618929728,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7262,
+      "name": "_gat_UA-11225656-1",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 19,
+      "value": "1"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618930568.364253,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 8102.364253044128,
+      "name": "test_cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "CheckForPermission"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 2,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net",
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.katholisch.de/startseite",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "gtm2",
+        "tracking_id": "UA-11225656-1"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5718142fbf6f16be3692b534c3d0c95851cab8f3f082d4b65028acf24a4a741e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "AlphaSSL CA - SHA256 - G2",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1645349932.0,
+      "not_valid_before": 1582191532.0,
+      "serial_number": 3676740549236987691259309385,
+      "subject": {
+        "commonName": "*.katholisch.de",
+        "organizationalUnitName": "Domain Control Validated"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_CBC",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": "HMAC-SHA1",
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.katholisch.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://katholisch.de/",
+    "https://katholisch.de/",
+    "https://www.katholisch.de/",
+    "https://www.katholisch.de/startseite"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://katholisch.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://katholisch.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/startseite"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/css/third-party.min.css?v=BEy1M9XQw1AmTgDMxfr8TdJiFl3VmXTx8Q8iwt3Ug0U"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/css/custom.min.css?v=AFFIE0t5dQ42TWLi_OzvFu6whShnkFMswG-AdY70BL8"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.katholisch.de/player/8/jwplayer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_181123-93-000126_zdk.jpg?quality=75"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/gerd_neuhold_bischof_hermann_glettler.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_160222-93-000266_cic_kirchenrecht_codex.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_171122-93-000045_laschet.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/adobestock_194165169_kate-app.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_190835_muensterschwarzach-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/bischof-baut-moschee-in-nigeria-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/dpa_47622569_Queen_Franziskus.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/standpunkt_teaser_nikodemus.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_ambo_kirche_160226-93-000328.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/sr_dominika_kinder_bearb.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/adobestock_198189095_frauen_uni_theologinnen.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/anna_grebe.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avpics.katholisch.de/FID28486_de5dd0ba-19bf-463f-b255-633ca6655d99-19020919.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/adobestock_250454220_podcast.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.synck.de/handlers/image?src=/Content/Upload/Liturgicalyears/image-1-13.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avpics.katholisch.de/FID28794_ad6d8599-79e2-45f3-92fd-04d617321a41-19040847.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_143036-eucharistie_hostie_1900.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna154030strassburgermuenster1030.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/fotolia_868172_bibel-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avpics.katholisch.de/FID28742_4dcb2009-d553-40e6-bb91-bc05401c43f9-07040949.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/Eventteaser_Stundenbuch_der_Maria_von_Burgund_Wien_1030x451.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/dpa_44019852_gotteslob.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/Goeppel_39_2013_Heilige_Petersdom.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/adobestock_320670095_corona.jpg?quality=75"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/kna_200304-093-000015_priesterseminar.jpg?width=685&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/josefkentenich_vb029_fotojosefneuenhofer.jpg?width=685&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avpics.katholisch.de/FID28400_10c053d3-75f2-406e-9203-c891bdc9cd6a-28011401.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avpics.katholisch.de/FID28546_7fee1140-97a2-4601-b85e-9da475486749-03031250.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avpics.katholisch.de/FID21993_6b3061ae-26c0-43fa-a09b-a2c57b309dae-08121051.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/gotteslob_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/dbk_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/fernsehen_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/film_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/archive_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/weltkirche_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/akademien_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/stundenbuch_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/theologie_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/schulen_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/shop_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/radio_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/rpp_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/pfarrbriefservice_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/namenstage_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/katholisch-werden_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/medienkompetenz_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/internetseelsorge_teaser-1.jpg?height=158&quality=70"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://cf.katholisch.de/katholischde_fotolia_speyer_whatsapp.jpg?quality=70"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/js/third-party.min.js?v=nbr0nRCUIX8tyr9HCfL0Y_MjNW6yQyDzVwd-MWjffBM"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/js/custom.min.js?v=pR4nDwHckWrReZNgaxdoeIMtgQ9jaMg2G9WOcgy1Puw"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/js/newsletter-signup.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MWQCHQ5"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/images/katholischlogo.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/NotoSans-SemiCondensedLight.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/images/sprite-calendars.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/images/socialmediabar-sprites.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/NotoSans-SemiCondensed.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/Calluna-SemiboldIt-webfont.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.katholisch.de/webfonts/NotoSans-SemiCondensedExtraBold.woff2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=kathde&cp=katholisch_start&mg=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.katholisch.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=001303df7576a747c607ee803&ep=1644791472&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618929667654&ev=&cs=giipnl&mo=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=kathde&cp=katholisch_start&mg=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.katholisch.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=001303df7576a747c607ee803&ep=1644791472&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618929667654&ev=&cs=giipnl&mo=1&sr=71"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1652849341&t=pageview&_s=1&dl=https%3A%2F%2Fwww.katholisch.de%2Fstartseite&dp=%2Fstartseite&ul=en-us&de=UTF-8&dt=Katholische%20Kirche%20in%20Deutschland%20-%20katholisch.de&sd=24-bit&sr=800x600&vp=785x600&je=0&_u=YEBAAEABAAAAAC~&jid=29313304&gjid=1895678759&cid=1573531256.1618929668&tid=UA-11225656-1&_gid=1638181808.1618929668&_r=1&gtm=2wg472MWQCHQ5&cd2=null&cd3=null&z=1826225297"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/866942556/?random=1618929668260&cv=9&fst=1618929668260&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=2505059651&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&ig=1&frm=0&url=https%3A%2F%2Fwww.katholisch.de%2Fstartseite&tiba=Katholische%20Kirche%20in%20Deutschland%20-%20katholisch.de&hn=www.googleadservices.com&us_privacy=1YNY&async=1&rfmt=3&fmt=4"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-11225656-1&cid=1573531256.1618929668&jid=29313304&gjid=1895678759&_gid=1638181808.1618929668&_u=YEBAAEAAAAAAAC~&z=1688300587"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/pagead/1p-user-list/866942556/?random=1618929668260&cv=9&fst=1618927200000&num=1&guid=ON&eid=2505059651&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&frm=0&url=https%3A%2F%2Fwww.katholisch.de%2Fstartseite&tiba=Katholische%20Kirche%20in%20Deutschland%20-%20katholisch.de&async=1&fmt=3&is_vtc=1&random=654854591&resp=GooglemKTybQhCsO&rmt_tld=0&ipr=y"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.de/pagead/1p-user-list/866942556/?random=1618929668260&cv=9&fst=1618927200000&num=1&guid=ON&eid=2505059651&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_his=2&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2wg472&sendb=1&frm=0&url=https%3A%2F%2Fwww.katholisch.de%2Fstartseite&tiba=Katholische%20Kirche%20in%20Deutschland%20-%20katholisch.de&async=1&fmt=3&is_vtc=1&random=654854591&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/6c2dc2f1-7185-4e09-9c59-c999330b38b0/cc.js?renew=false&referer=www.katholisch.de&dnt=false&forceshow=false&cbid=6c2dc2f1-7185-4e09-9c59-c999330b38b0&brandid=Cookiebot&framework="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=86400",
+      "includeSubDomains": false,
+      "max-age": 86400,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://katholisch.de\r",
+  "third_parties": {
+    "fqdns": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "de.ioam.de",
+      "googleads.g.doubleclick.net",
+      "script.ioam.de",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.google.de",
+      "www.googleadservices.com",
+      "www.googletagmanager.com",
+      "www.synck.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 15
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 12,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "de.ioam.de",
+      "googleads.g.doubleclick.net",
+      "stats.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

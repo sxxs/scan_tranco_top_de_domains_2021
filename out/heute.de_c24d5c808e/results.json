@@ -1,0 +1,410 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".zdf.de",
+      "expires": 1621341921,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618922721657"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1645860175.096032,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 26944655.096031904,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "002884c3618c6dc75607ecce10001%3B607ecce2%3B6219d54f"
+    },
+    {
+      "domain": "www.zdf.de",
+      "expires": 1634647522.117608,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15732002.11760807,
+      "name": "atidvisitor",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 191,
+      "value": "%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-569006-%22%7D%2C%22options%22%3A%7B%22path%22%3A%22%2F%22%2C%22session%22%3A15724800%2C%22end%22%3A15724800%7D%7D"
+    },
+    {
+      "domain": ".xiti.com",
+      "expires": 1653050722.607903,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135202.607903,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "F8B522BA-FAC8-4E1B-8BC3-C4C6E2BD7C3B"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de",
+      "xiti.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.zdf.de/nachrichten/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "43be7dac9b2e3fee66f67d7cb0c2a2eb25442abf2f09abc7d7d8104620f32c42",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert TLS RSA SHA256 2020 CA1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1640127599.0,
+      "not_valid_before": 1607900400.0,
+      "serial_number": 15367160849874941324237679181272446950,
+      "subject": {
+        "commonName": "www.zdf.de",
+        "countryName": "DE",
+        "localityName": "Mainz",
+        "organizationName": "Zweites Deutsches Fernsehen Ad\u00f6R",
+        "stateOrProvinceName": "Rheinland-Pfalz"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.zdf.de/service-und-hilfe/zuschauerservice/impressum-zdf-100.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://heute.de/",
+    "https://www.zdf.de/nachrichten/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://heute.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/nachrichten/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/css/styles.css"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Thin.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-ExtraLight.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Light.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Medium.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-SemiBold.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Bold.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Heavy.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/newfont/ZDFType-Black.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/fonts/zdf-iconfont.woff?fch94r"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/js/generated/_crucial-behavior.pkg.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://module.zdf.de/atinternet/live/smarttag.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/static/0.73.6968/js/generated/_app-behavior.pkg.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=zdf&sv=ke&co=page-index-news%2FZDFheute%2F6be01c8e-aa7f-41e5-ae4c-303b2353ebc9&cp=Nachrichten&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.zdf.de&xy=800x600x24&lo=DE%2FBerlin&cb=0018&i2=0018de64c8b53da82607ecce1&ep=1646183183&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618922721660&ev=&cs=dibayp&mo=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://me.ioam.de/soziodata2.php?sc=54c1607ecce1166188cd5695aa0d1f7f&st=zdf&id=30n7mb"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tracksrv.zdf.de/event?eventType=view&trackingId=t-knq0seue-2bv1jx5qjyi-4ohh0fu6-26ew9ef19hxc0000000&appId=exozet-zdf-pd-0.73.6968&abGroup=gruppe-a&abName=ab-2021-04-26&loggedIn=false&subprofile=false&assetId=SCMS_6be01c8e-aa7f-41e5-ae4c-303b2353ebc9&pagePath=https%3A%2F%2Fwww.zdf.de%2Fnachrichten%2Fzdfheute-startseite-100.html"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/zdfheute-keyvisual-100~1500x300?cb=1607699899370"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/zdfheute-white-100-original-100~760x340?cb=1584956056762"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/armin-laschet-240~2600x1300?cb=1618597640404"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=zdf&sv=ke&co=page-index-news%2FZDFheute%2F6be01c8e-aa7f-41e5-ae4c-303b2353ebc9&cp=Nachrichten&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.zdf.de&xy=800x600x24&lo=DE%2FBerlin&cb=0018&i2=0018de64c8b53da82607ecce1&ep=1646183183&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618922721660&ev=&cs=dibayp&mo=1&sr=71"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618922722537&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=14x45x22&lng=en-US&ati=PUB-[Teaser-Tracking]-[Armin_Laschet_ist_Kanzlerkandidat_der_Union]-[Einstiegsmodul]-[EinstiegSmall]-[]-[HPos%3A%201]-[VPos%3A%201]-[ZDFheute%20%7C%20https%3A%2F%2Fwww.zdf.de%2Fnachrichten%2Fpolitik%2Funion-kanzlerkandidatur-soeder-laschet-100.html]&type=AT"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618922722551&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=14x45x22&lng=en-US&ati=PUB-[Teaser-Tracking]-[Armin_Laschet__der_Mann_der_Mitte]-[Einstiegsmodul]-[EinstiegMain]-[]-[HPos%3A%201]-[VPos%3A%201]-[ZDFheute%20%7C%20https%3A%2F%2Fwww.zdf.de%2Fnachrichten%2Fpolitik%2Farmin-laschet-portraet-kanzlerkandidat-100.html]&type=AT"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618922722551&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=14x45x22&lng=en-US&ati=PUB-[Teaser-Tracking]-[Armin_Laschet__der_Mann_der_Mitte]-[Einstiegsmodul]-[EinstiegMain]-[]-[HPos%3A%201]-[VPos%3A%201]-[ZDFheute%20%7C%20https%3A%2F%2Fwww.zdf.de%2Fnachrichten%2Fpolitik%2Farmin-laschet-portraet-kanzlerkandidat-100.html]&type=AT&Rdt=On"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618922722537&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=14x45x22&lng=en-US&ati=PUB-[Teaser-Tracking]-[Armin_Laschet_ist_Kanzlerkandidat_der_Union]-[Einstiegsmodul]-[EinstiegSmall]-[]-[HPos%3A%201]-[VPos%3A%201]-[ZDFheute%20%7C%20https%3A%2F%2Fwww.zdf.de%2Fnachrichten%2Fpolitik%2Funion-kanzlerkandidatur-soeder-laschet-100.html]&type=AT&Rdt=On"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/armin-laschet-238~384x216?cb=1618232858536"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/corona-indien-114~384x216?cb=1618862939047"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zdf.de/assets/annalena-baerbock-148~384x216?cb=1618857862527"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1407.xiti.com/hit.xiti?s=569006&ts=1618922726652&vtag=5.23.0&ptag=js&r=800x600x24x24&re=800x600&hl=14x45x26&lng=en-US&idp=1445221931247&jv=0&p=ZDFheute::page-index-news::6be01c8e-aa7f-41e5-ae4c-303b2353ebc9::ZDFheute&s2=15&vrn=1&stc=%7B%22broadcast%22%3A%22ZDF%22%2C%22chapter4%22%3A%22%22%2C%22domain%22%3A%22zdf%22%2C%22chapter1%22%3A%22ZDFheute%22%2C%22id%22%3A%22zdfheute-startseite-100%22%2C%22level1%22%3A%22zdf%22%2C%22level2%22%3A%22Nachrichten%22%2C%22inhaltsTyp%22%3A%22page-index-news%22%2C%22szm-g%22%3A-1%2C%22szm-a%22%3A-1%2C%22szm-c%22%3A%22zdf881ce27661240a9d2268caef40fc6df8%22%2C%22ab-config%22%3A%22ab-2021-04-26%22%2C%22ab-group%22%3A%22gruppe-a%22%7D&ref="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://heute.de\r",
+  "third_parties": {
+    "fqdns": [
+      "de.ioam.de",
+      "logs1407.xiti.com",
+      "me.ioam.de",
+      "script.ioam.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 7,
+    "trackers": [
+      "de.ioam.de",
+      "logs1407.xiti.com"
+    ]
+  }
+}

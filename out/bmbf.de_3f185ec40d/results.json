@@ -1,0 +1,691 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bmbf.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 9,
+      "value": "2"
+    },
+    {
+      "domain": "www.bmbf.de",
+      "expires": 1652863816,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962403,
+      "name": "_pk_id.9.d033",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "239caa84aad2985c.1618908616.1.1618908616.1618908616."
+    },
+    {
+      "domain": "www.bmbf.de",
+      "expires": 1618910415,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.9.d033",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": "www.bmbf.de",
+      "expires": 1652863816,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962403,
+      "name": "_pk_id.82.d033",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 66,
+      "value": "8364ce14cd9cd987.1618908616.1.1618908616.1618908616."
+    },
+    {
+      "domain": "www.bmbf.de",
+      "expires": 1618910415,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.82.d033",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bmbf.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "80b5e452abb18af45ca535703269abb05ebf710f89b0653532020423d64bb28b",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624610658.0,
+      "not_valid_before": 1616838258.0,
+      "serial_number": 339359969027006138737007692797744470587284,
+      "subject": {
+        "commonName": "bmbf.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bmbf.de/de/impressum-11.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bmbf.de/",
+    "https://www.bmbf.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bmbf.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/bmbf.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/svg4everybody.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/svg4everybody.starter.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.readspeaker.com/script/10879/webReader/webReader.js?pids=wr"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/img/logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/1/8/7/9_78d0bd82b5cf049/21879_66d87cd7e714a82_3_teg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/4/6/8/8/2_45d5c90490f8ed5/46882_071c28f267e2610_1_teg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/6/0/9/5_55bab4754f5af7e/36095teg_340aa8bca017b4d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/5/0/3/4/0_3174d88efaf1739/50340_8d4b111057e03e6_1_teg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/5/0/1/1/0_6fc73751a640339/50110_fe00531ab5e6ca3_1_teg.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/streaming.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/flv.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/5/0/5/1/4_0e7c8e372a750c8/50514_d848db735233024_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/4/2/7/2_6f7adab3774cbef/34272_b0a8e2a331157ea_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/5/0/4/9/9_5f92ab70a99f734/50499_e6d4bed98ede0b2_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/5/0/3/4/0_3174d88efaf1739/50340_8d4b111057e03e6_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/7/8/9/2_58dc99dfcc26e27/37892_2a0918e7e57ffe9_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091vpo_776967e16485d1a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/5/0/5/0/8_accf5e6d0a1a698/50508tek_70b509e986f983c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/8/1/4/8_4e52d1eb88986a2/8148_cf269f2e4fab7e5_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/2/9/8/3_38bc877118595c7/22983tek_b4d50b8ae4a923a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/4/8/1/3_ee9c484b2c12a3d/34813_18a8cd73ffbd1c5_2_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/4/7/9/2/6_bbcd7180ca35345/47926_68bc04f7bdcbf6f_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/6/1/3/4_e04afb61d71b0ac/36134_1ef703a86606670_1_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/8/5/8/7_e11a53efdb5fb30/28587tek_20e146f44081d39.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/9/5/8/6_a893ca71f273bf0/29586_b6f345c904a450a_3_tek.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/3/8/2/4_4049b1aa3904a04/23824tek_1c1625e30ef59e1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/0/0/0/6_d54d564d8dee13f/30006tek_26ecdd5a6715dee.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/4/5/3_4247536680ee59b/453tek_5b63e81b26e1eec.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/6/7/9/9_8f21a8dbc2c4873/26799vpo_490ff47585ff190.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/upload_filestore/previews/t/tb/tb_/TB_Forschung_fuer_Nachhaltigkeit_b97f943138d1bf5773b37ca8607eb326_thumb_0_169x240x70.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/bmbf.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/matomo.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/print.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn1.readspeaker.com/script/10879/webReader/r/r1299/ReadSpeaker.Styles-Button.css?v=3.3.5.1299"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/sprite.svg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/fonts/BundesSansWeb-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/fonts/BundesSerifWeb-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/fonts/BundesSansWeb-Bold.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/images/list-bullet.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/fonts/BundesSerifWeb-Regular.woff"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091_db17ded9e10294a_web.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://static1.bmbfcluster.de/2/6/7/9/9_8f21a8dbc2c4873/26799_c4825bb4019b3cd_web.mp4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tracking.bmbfcluster.de/piwik.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/TwitterBox2015.php"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091vpo_776967e16485d1a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/6/7/9/9_8f21a8dbc2c4873/26799vpo_490ff47585ff190.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/2/6/7/9/9_8f21a8dbc2c4873/26799vpo_490ff47585ff190.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091vpo_776967e16485d1a.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/site/videojs5.flvjs.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/img/pic_35c2cb967dd8ffd0798c1eef9ea6b155.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/img/pic_fe249d8af77820db76abe663762c25d6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/img/pic_f5f0476dc845a07719b02811f00eb48e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/img/pic_654a9ef9d91dd5161e8b4822ce049a7f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/img/pic_7270b0ef60c921b1929d54148e92400c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/_twitter/img/pic_d72a7760fd9d9c479c9c73663e708766.jpg"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091_db17ded9e10294a_web.mp4"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://static1.bmbfcluster.de/2/6/7/9/9_8f21a8dbc2c4873/26799_c4825bb4019b3cd_web.mp4"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tracking.bmbfcluster.de/piwik.php?action_name=Bundesministerium%20f%C3%BCr%20Bildung%20und%20Forschung%20%5BID%3A9%5D&idsite=9&rec=1&r=802167&h=10&m=50&s=15&url=https%3A%2F%2Fwww.bmbf.de%2F&_id=239caa84aad2985c&_idts=1618908616&_idvc=1&_idn=1&_refts=0&_viewts=1618908616&send_image=1&cookie=1&res=800x600&gt_ms=60&pv_id=2cyiH6"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmbf.de/?action_name=Bundesministerium%20f%C3%BCr%20Bildung%20und%20Forschung%20%5BID%3A9%5D&idsite=82&rec=1&r=681033&h=10&m=50&s=15&url=https%3A%2F%2Fwww.bmbf.de%2F&_id=8364ce14cd9cd987&_idts=1618908616&_idvc=1&_idn=0&_refts=0&_viewts=1618908616&send_image=1&cookie=1&res=800x600&gt_ms=60&pv_id=raZpcI"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091_db17ded9e10294a_web.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://static1.bmbfcluster.de/2/6/7/9/9_8f21a8dbc2c4873/26799_c4825bb4019b3cd_web.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://static1.bmbfcluster.de/3/9/0/9/1_3391de7a133f716/39091_db17ded9e10294a_web.mp4"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "https://www.bmbf.de",
+        "https://*.bmbfcluster.de",
+        "https://cdn1.readspeaker.com",
+        "https://app-eu.readspeaker.com",
+        "https://media-eu.readspeaker.com",
+        "https://rstts-eu.readspeaker.com",
+        "https://f1-eu.readspeaker.com",
+        "https://evergabe.bmbfcluster.de",
+        "blob:"
+      ],
+      "font-src": [
+        "'self'",
+        "data:"
+      ],
+      "header_value": "default-src 'self' https://www.bmbf.de https://*.bmbfcluster.de https://cdn1.readspeaker.com https://app-eu.readspeaker.com https://media-eu.readspeaker.com https://rstts-eu.readspeaker.com https://f1-eu.readspeaker.com https://evergabe.bmbfcluster.de blob:; img-src 'self' https://www.bmbf.de https://*.bmbfcluster.de data:;style-src 'self' https://cdn1.readspeaker.com 'unsafe-inline';font-src 'self' data:;",
+      "img-src": [
+        "'self'",
+        "https://www.bmbf.de",
+        "https://*.bmbfcluster.de",
+        "data:"
+      ],
+      "style-src": [
+        "'self'",
+        "https://cdn1.readspeaker.com",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16000000; includeSubDomains; preload;",
+      "includeSubDomains": true,
+      "max-age": 16000000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bmbf.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn1.readspeaker.com",
+      "static1.bmbfcluster.de",
+      "tracking.bmbfcluster.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 38
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "tracking.bmbfcluster.de"
+    ]
+  }
+}

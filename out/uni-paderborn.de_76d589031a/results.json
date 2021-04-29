@@ -1,0 +1,493 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.uni-paderborn.de",
+      "expires": 1619517092,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612002,
+      "name": "_pk_id.32.5b5f",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 66,
+      "value": "97012e10b75745cb.1618912292.1.1618912292.1618912292."
+    },
+    {
+      "domain": "www.uni-paderborn.de",
+      "expires": 1618914092,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.32.5b5f",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 16,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-paderborn.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a989874194ce92ccd88e51ff47917f1af7ad63ec72d140473259500853b4e2c9",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1646457257.0,
+      "not_valid_before": 1612156457.0,
+      "serial_number": 11208072983108497940446403755,
+      "subject": {
+        "commonName": "www.uni-paderborn.de",
+        "countryName": "DE",
+        "localityName": "Paderborn",
+        "organizationName": "Universitaet Paderborn",
+        "organizationalUnitName": "Zentrum fuer Informations- und Medientechnologien (IMT)",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-paderborn.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-paderborn.de/",
+    "https://www.uni-paderborn.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-paderborn.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1611032768"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3temp/assets/compressed/merged-648823d75d37c9a94cb1c985ab136c7e-284670c67013cbbd65a2b564e3f7d7b0.css?1618812285"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3temp/assets/compressed/merged-5b0e8297bf5284d650fe309b81bfd897-b0620724a7a0e3d03a2d326ae7c270a8.js?1618812285"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/ausrufezeichen-gross.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/lupe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/e/f/csm_header20210330_297952b2e5.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/infow20.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/4/6/csm_Gelaende_RailCampus_OWL_in_Minden__c__Hirschmeier_Media_Vorschau_ddf3892a24.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/a/d/csm_11_Grafik_Innen_Plattformen_IP_OWL_277f41d1f7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/7/1/csm_dshs_Fussball_36e3095966.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/8/2/csm_2021_14_Kreativinstitut_OWL_fc7d62334f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/3/f/csm_henning_final_neu_9076931a36.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/1/a/csm_coronavirus_310x95_9f397da0e2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/4/3/csm_online-bewerbung_310x95_0407b02725.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/e/6/csm_corona-hilfsfonds_310x95_73ec6e990d.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/6/3/csm_SuL_Web_1736dbad9c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/2/d/csm_Techtransfer_96ed74f47d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/5/c/csm_Web_Erstsemesterbegruessung_Johannes_Pauly_65a44d5878.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/c/9/csm_Kurze_W_besimmazhiqi-56_caa29e1f70.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/3/8/csm_aktiv_gesund_cc6eb12620.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/fileadmin/_processed_/e/4/csm_190506_besimmazhiqi-End_78200f8cfe.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3temp/assets/compressed/merged-b5055a0523e3ce4c7dca0fe06da066d4-7e069facdf4900f1ff7322dd38fc427c.js?1618812285"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/pfeil_unten_grau.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/fonts/Signika.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/fonts/Signika-Bold.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/mainmenu-linie.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/linkpfeil.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/pageoptions.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/icons-social.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/icon-instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/icon-youtube.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-paderborn.de/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/desktop/bild_footer702.png"
+    },
+    {
+      "mime_type": "image/x-icon",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/openhand.cur"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/pfeil_links.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/typo3conf/ext/upb/Resources/Public/Files/gfx/pfeil_rechts.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-paderborn.de/index.php?upbloginstatus"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-paderborn.de/piwik.php?action_name=Universit%C3%A4t%20Paderborn&idsite=32&rec=1&r=924210&h=11&m=51&s=32&url=https%3A%2F%2Fwww.uni-paderborn.de%2F&_id=97012e10b75745cb&_idts=1618912292&_idvc=1&_idn=0&_refts=0&_viewts=1618912292&send_image=1&cookie=1&res=800x600&gt_ms=107&pv_id=PBdi04"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://*.uni-paderborn.de",
+        "https://www.youtube-nocookie.com",
+        "https://player.vimeo.com",
+        "https://*.upb.de",
+        "https://streaming.uni-paderborn.de:2233",
+        "https://*.google.com"
+      ],
+      "font-src": [
+        "'self'",
+        "https://*.uni-paderborn.de",
+        "data:"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' https://*.uni-paderborn.de https://www.youtube-nocookie.com https://player.vimeo.com https://*.upb.de https://streaming.uni-paderborn.de:2233 https://*.google.com ; font-src 'self' https://*.uni-paderborn.de data:; img-src 'self' data: https://pbs.twimg.com https://*.google.com https://www.googleapis.com https://*.uni-paderborn.de; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.uni-paderborn.de https://www.google.com https://cse.google.com; media-src 'self' https://*.uni-paderborn.de https://*.upb.de https://streaming.uni-paderborn.de:2233 blob:",
+      "img-src": [
+        "'self'",
+        "data:",
+        "https://pbs.twimg.com",
+        "https://*.google.com",
+        "https://www.googleapis.com",
+        "https://*.uni-paderborn.de"
+      ],
+      "media-src": [
+        "'self'",
+        "https://*.uni-paderborn.de",
+        "https://*.upb.de",
+        "https://streaming.uni-paderborn.de:2233",
+        "blob:"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "https://*.uni-paderborn.de",
+        "https://www.google.com",
+        "https://cse.google.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=86400",
+      "includeSubDomains": false,
+      "max-age": 86400,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-paderborn.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

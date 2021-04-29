@@ -1,0 +1,748 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.caritas.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ASP.NET_SessionId",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "ue5kiwipib5fgo4tkjybe3tq"
+    },
+    {
+      "domain": ".caritas.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ARRAffinity",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 75,
+      "value": "342020a16825b8ebfd433107d3a69799fcefda7468cc1357c8394c4e888741c3"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.caritas.de/startseite",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "82241e1639e249c5fd934b00f0438cc18a2a48b57b93a5380717e275631ff172",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Organization Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1642460399.0,
+      "not_valid_before": 1609801200.0,
+      "serial_number": 100940931064548237440317240111779924768,
+      "subject": {
+        "commonName": "*.caritas.de",
+        "countryName": "DE",
+        "localityName": "Freiburg im Breisgau",
+        "organizationName": "Deutscher Caritasverband e.V.",
+        "postalCode": "79104",
+        "stateOrProvinceName": "Baden-W\u00fcrttemberg",
+        "streetAddress": "Karlstr. 40"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.caritas.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": "1.6.4",
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://caritas.de/",
+    "http://www.caritas.de/",
+    "http://www.caritas.de/startseite",
+    "https://www.caritas.de/startseite"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://caritas.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.caritas.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.caritas.de/startseite"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/startseite"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Stylesheets/jquery.mmenu.all.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Stylesheets/core.min.css?v=1.6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Stylesheets/Overrides.min.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Javascript/jQuery2.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/Scripts/angular.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/Scripts/jquery-ui.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNet/Scripts/angular-animate.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Javascript/App/ModuleStart.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Javascript/functions/clips.min.js?nocache=637521928580000000"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/CariNetWebsitesMVC/Default/Images/caritas_textlogo.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-266362194_20113009171120_65x0_NotSet_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/1848188155_20211803163630_0x0_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1160993053_20210403161220_0x0_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-861844121_20201606141730_0x0_NotSet_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/1861108648_20202311140745_0x0_NotSet_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-320185753_20202809100422_0x0_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/628195694_20172211152450_0x0_NotSet_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-2122038874_20202110112027_0x0_NotSet_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-51298336_20180708084237_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-450611787_20151202110644_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/2119174141_20151202113920_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1212950182_20113009173205_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/1037365207_20172311155635_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1747865243_20192709152732_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/1983863399_20180703104620_500x300_Crop_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1057261194_20191209102210_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-75257110_20140311115503_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-271664390_20113009171902_500x300_Crop_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-435152215_20183004111838_0x250_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/867964285_20172609152553_0x250_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/1742777912_20181608145635_0x250_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1386906656_20211703173634_0x250_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/818819996_20201607153744_0x0_NotSet_0_0.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/1755686040_20190907170749_0x0_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1755188121_20200303150706_0x0_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/documents/thumbs/-1554633727_20190808154407_0x0_NotSet_0_0.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/Styles/font-awesome-4.7.0/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/CariNetWebsitesMVC/Default/Javascript/plugins/klaro/klaro.css?v0.3.3&nocache=637521930980000000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Javascript/App/AppStart.min.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/javascript/KlaroConfiguration/52c60690-787a-40ac-965c-a087c020c5f5?v=1999"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Javascript/plugins/klaro/klaro-no-css.js?v0.3.3&nocache=637521928580000000"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Javascript/Scripts-Footer.min.js?nocache=637521930980000000"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/Images/ajax-loader_big.gif"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/OpenSans-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/caritas-icons.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/Roboto-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/Roboto-Italic.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/fontawesome-webfont.woff?v=4.2.0"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/Roboto-Light.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/1POV9OH_7gc?rel=0&amp;showinfo=0"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/fa-brands-400.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn3.carinet.de/CariNetWebsitesMVC/Default/Fonts/OpenSans-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.caritas.de/Styles/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://yt3.ggpht.com/ytc/AAUvwnioJquzPIMJw0oBC8OId0-6IYnG_Zblei7_YBC4bw=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://i.ytimg.com/vi_webp/1POV9OH_7gc/sddefault.webp"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.youtube-nocookie.com/api/stats/atr?ns=yt&el=embedded&cpn=ECRpoxXcHpKkBFkn&docid=1POV9OH_7gc&ver=2&cmt=0&fs=0&rt=0&euri=https%3A%2F%2Fwww.caritas.de%2F&lact=286&cl=369124183&mos=0&volume=100&cbr=Chrome&cbrver=89.0.4389.114&c=WEB_EMBEDDED_PLAYER&cver=1.20210418.0.0&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&hl=en_US&cr=DE&len=252&fexp=23940238%2C23964902%2C23969934%2C23983296%2C23995927%2C23999758%2C24001373%2C24006795%2C24007246%2C24012117%2C24014441%2C24021967%2C24022926&vis=3"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/1POV9OH_7gc?rel=0&amp;showinfo=0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/1POV9OH_7gc?rel=0&amp;showinfo=0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwnioJquzPIMJw0oBC8OId0-6IYnG_Zblei7_YBC4bw=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi_webp/1POV9OH_7gc/maxresdefault.webp"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/generate_204?1P-nVA"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://caritas.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn3.carinet.de",
+      "fonts.gstatic.com",
+      "i.ytimg.com",
+      "www.google.com",
+      "www.gstatic.com",
+      "www.youtube-nocookie.com",
+      "yt3.ggpht.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 73
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "www.youtube-nocookie.com"
+    ]
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".reichelt.de",
+      "expires": 1978926929.565794,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 360007201.565794,
+      "name": "Reichelt_SID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 65,
+      "value": "94d5a2531a65b67643126255e0ccbbbee78969ade431ee9209386"
+    },
+    {
+      "domain": ".reichelt.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "CDNallowed",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "true"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.reichelt.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "61f8363ef23b6ed0ba245d0c6367b2d28f973443ce534ea12ed4766d6bcc9b16",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1653818400.0,
+      "not_valid_before": 1587420000.0,
+      "serial_number": 19631457048913565682159242896024504705,
+      "subject": {
+        "commonName": "*.reichelt.de",
+        "countryName": "DE",
+        "localityName": "Sande",
+        "organizationName": "Reichelt Elektronik GmbH und Co. KG",
+        "organizationalUnitName": "Onlineshop",
+        "stateOrProvinceName": "Niedersachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.reichelt.de/Infocenter/Impressum/12/42/index.html?ACTION=12&LA=0&PAGE=42&nbc=1&SID=94d5a2531a65b67643126255e0ccbbbee78969ade431ee9209386",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://reichelt.de/",
+    "https://reichelt.de/",
+    "https://www.reichelt.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://reichelt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://reichelt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.reichelt.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://css.cdn-reichelt.de/Css/resp/default.css?stamp=514"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/pwa/icon-72x72.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/elements/header/reichelt-elektronik_blau.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/elements/suche/suche-lupe.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.cdn-reichelt.de/Javascript/resp/jquery/jquery-1.7.2.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.cdn-reichelt.de/Javascript/resp/minified/external-combined.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.cdn-reichelt.de/Javascript/resp/minified/startpagescript.min.js?stamp=490"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.cdn-reichelt.de/Javascript/resp/minified/combined.min.js?stamp=490"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.cdn-reichelt.de/Javascript/resp/pwa/a2hs.js?stamp=490"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js.cdn-reichelt.de/Javascript/resp/html5/swiper-4.5.0/dist/js/swiper.min.js?stamp=490"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://css.cdn-reichelt.de/Css/resp/startpage.css?stamp=514"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/elements/adw_2018/catalog/Katalog_resp_5.png?version=04"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/elements/adw_2018/newsletter/News_resp.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/resize/900/-/web/awo_ws/_Teaser_responsiv/SMARTHOME.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/leer.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder//web/awo_ws/_Aktionsflaeche/Aktionsbanner_2/KW_25-26_Hygiene1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder//web/awo_ws/_Aktionsflaeche/Aktionsbanner_2/2021-04_digitalisierung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/elements/adw_2018/Service.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://statistic2.reichelt.de/?SID=94d5a2531a65b67643126255e0ccbbbee78969ade431ee9209386;ACTION=0;REFU=;REFQ=;lastip=3;PROVID=;REFU=ext;SID=94d5a2531a65b67643126255e0ccbbbee78969ade431ee9209386"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://css.cdn-reichelt.de/Css/resp/footer.css?stamp=514"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.reichelt.com/setsid.php?SID=94d5a2531a65b67643126255e0ccbbbee78969ade431ee9209386"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.reichelt.de/Javascript/resp/cookie_consent.js?stamp=490"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://css.cdn-reichelt.de/Css/resp/divwindow.css?stamp=514"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://css.cdn-reichelt.de/bilder/elements/fonts/reichelt_font/reicheltelektronik.woff2?d5h3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/elements/sprites/global-sprite_123.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://css.cdn-reichelt.de/bilder/elements/fonts/reichelt_font/AtramentBold.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/resize/900/-/web/awo_ws/_Teaser_responsiv/TEMPMATE_S1V2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/EB00/XYZ_NOBEL_1.0_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/E910/FONTASTIC_255885_02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/E910/DELOCK_11826_1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/A200/DIL-14.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/D700/ELDOFAP.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/EB00/LOGILINK_HS0040_04.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/C140/SL28SMD_THR058_40_GRAU.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/D100/RND_355-00010_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/C190/257X2-SS_247X2-SS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/A200/ESP32-WROOM-32E_1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/E910/ICYBOX_IB-HUB1419-C3_04.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/A200/SX1262.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/EB00/GIGABYTE_BSI3-1115G4_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/E200/GOOBAY_76788_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/L700/OSRAM_4058075816534_02.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/E910/MU_GS4200PRO_001.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/X200/510340-MAKEBLOCK-MTINY-GENIUS-KIT-2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/bilder/web/awo_ws/E201/BQT_BG010_01.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/resize/900/-/web/awo_ws/_Teaser_responsiv/RPI_FAN_TOWER_8.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn-reichelt.de/resize/900/-/web/awo_ws/_Teaser_responsiv/MAN_29075.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://reichelt.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn-reichelt.de",
+      "css.cdn-reichelt.de",
+      "js.cdn-reichelt.de",
+      "www.reichelt.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 45
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

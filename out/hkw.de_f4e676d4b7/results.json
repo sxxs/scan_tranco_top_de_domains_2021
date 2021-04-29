@@ -1,0 +1,1335 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hkw.de/de/index.php",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "78ed9c92cff3af6d3ca26e11c69aab194e750ffeb5c8d368f0cb899f7c93d9b5",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "D-TRUST SSL Class 3 CA 1 EV 2009",
+        "countryName": "DE",
+        "organizationName": "D-Trust GmbH"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636037382.0,
+      "not_valid_before": 1572533382.0,
+      "serial_number": 121559358454678560286884138775618147224,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.kbb.eu",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Berlin",
+        "jurisdictionStateOrProvinceName": "Berlin",
+        "localityName": "Berlin",
+        "organizationName": "Kulturveranstaltungen des Bundes in Berlin (KBB) GmbH",
+        "postalCode": "10963",
+        "serialNumber": "HRB 29357",
+        "stateOrProvinceName": "Berlin",
+        "streetAddress": "Schoeneberger Strasse 15"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hkw.de/de/service/impressum/impressum.php",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hkw.de/",
+    "https://www.hkw.de/",
+    "https://www.hkw.de/de/index.php"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hkw.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/index.php"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/font.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/bootstrap.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/tosrus/css/jquery.tosrus.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/page-verteilseite.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/royalslider/royalslider.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/royalslider/skins/hkw-home-hero/rs-hkw-home-hero.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/touchcarousel/touchcarousel.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/touchcarousel/hkw-carousel-skin/hkw-carousel-skin.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/page-calendar.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/jquery-ui-1.10.3.custom.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/popover/popover.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/patch.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/app.css?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/jquery-1.10.2.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/jquery-migrate-1.2.1.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/jquery-ui-1.10.3.custom.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/bootstrap.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/jquery.hammer.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/FlameViewportScale.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/tosrus/js/jquery.tosrus.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/moment.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/underscore-min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/clndr-1.1.0.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/clndr-de.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/royalslider/jquery.royalslider.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/touchcarousel/jquery.touchcarousel-1.2.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/popover/jquery.popover-1.1.2.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/jquery.imagesloaded.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/isotope.2.2.0.pkgd.min.js?v=2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/hkw.js?v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/de/layout/img/logo_print.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_01_imgsize_buehne.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/bildungsschock_1/filipa_cesar_sonia_vaz_borges_skola_di_tarafe_film_still_imgsize_buehne.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2020/cc__world/meg_stuart_intermission_imgsize_buehne.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/hkw/mag/bernd_scherer_sars/model_of_the_alps_epfl_imgsize_buehne.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/hkw/berliner_erklaerung_der_vielen_imgsize_buehne.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2020/inspirationsketten/Inspiration_imgsize_buehne.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/the_white_west_iv/rajkamal_kahlon_die_voelker_der_erde_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/sos_schools_of_sustainability/raumlaborberlin_floating_university_berlin_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/das_neue_alphabet_publikationsreihe/das_neue_alphabet_publikationsreihe_04_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/anthropocene_curriculum_2021/anthropocene_campus_venice_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/werner_duettmann/Duettmann_0010_006_003_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/bildungsschock_1/kinder_group_ludic_quartier_de_la_grande_delle_hrouville_saint_clair_1968_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/bildungsschock_1/walter_gropius_schule_christopher_falbe_2020_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/european_culture_of_resistance_against_fascisms/european_culture_of_resistance_against_fascisms_anderwald_grond_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/newalphabetschool/majd_abdelhamid_man_on_the_ground_after_military_opened_fire_on_protestors_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2012_3/animismus_1/animismus_e_flux_2_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/bernd_scherer_zum_programm_juli_august_2019_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2019/bildungsschock/filipa_cesar_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2020/new_alphabet_school_1/new_alphabet_school_caring_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2017/schools_of_tomorrow/sharon_dodua_otoo_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2021/the_broken_archive/the_broken_archive_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/publikationen_1/publikationen_2020/cover_bildungsschock_publikation_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/de/bilder/publikationen_1/publikationen_2021/cover_das_neue_alphabet_band_5_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/de/bilder/publikationen_1/publikationen_2021/cover_das_neue_alphabet_band_4_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/de/bilder/publikationen_1/publikationen_2021/cover_gegen_lesen_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2020/anthropocene_curriculum/anthropocene_curriculum_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/publikationen_1/publikationen_2020/publikationen_cover_aby_warburg_bilderatlas_mnemosyne_imgsize_S.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/2019/new_alphabet_school/new_alphabet_school_blog_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/bilder/publikationen_1/2017_3/publikationen_woerterbuch_der_gegenwart_cover_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/de/logos_1/partner_sponsoren/b/bkm_logo_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/logos_1/partner_sponsoren/b/logo_bkm_neustart_kultur_imgsize_S.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/media/de/logos_1/partner_sponsoren/a/auswaertiges_amt_imgsize_S.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://platform.twitter.com/widgets.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/516706635?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/522849351?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/513015843?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/537723724?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/embed/ohntnh4AgQ4?modestbranding=1&showinfo=0&rel=0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/507143210?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/456541737?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://player.vimeo.com/video/452215858?dnt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1153351936%3Fsecret_token%3Ds-MG5msVWm3xh&color=%23588498&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1097443021&color=%23588498&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false%22"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/img/logo_large.png?v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/img/icons_share_xl.png?v=3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/img/caret.png?v=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/img/icon_search.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/img/metanav_dot.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/fonts/FaktPro-Normal.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/fonts/FaktPro-Blond.woff"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=zdEgEg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/js/royalslider/skins/hkw-home-hero/rs-hkw-home-hero.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://platform.twitter.com/widgets/widget_iframe.63899b173766ee6f8a729a72b542b0fb.html?origin=https%3A%2F%2Fwww.hkw.de"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/1070059090.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/1082862832.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/1113112631.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-4-3b6033ff5622.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-8-5842af0eec73.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-9-6301d869b37a.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/955116875.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-4-3b6033ff5622.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-8-5842af0eec73.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-9-6301d869b37a.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/1070065305.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/1050355866.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.vimeocdn.com/video/947614974.jpg?mw=80&q=85"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/js/player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f.vimeocdn.com/p/3.27.0/css/player.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=zdEgEg&v=5.0&tc=16189350137099&pagename=%3Ch1%3EHaus%20der%20Kulturen%20der%20Welt%20%7C%20Startseite%3C%2Fh1%3E%20%7C%20DE&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=Startseite&cc_url=https%3A%2F%2Fwww.hkw.de%2Fde%2Findex.php&et_source_url=https%3A%2F%2Fwww.hkw.de%2Fde%2Findex.php&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=78eb7a4ad65b353ccd22767060b934dd&et_cblk=1&et_cd=www.hkw.de&dh=0GRxOv%2F9TzhaRt%2FcygSrlOfrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/assets/images/logo-200x120-3190df52.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-widget.soundcloud.com/assignments/115774-939202-479668-522346?layers=widget_listening&format=json&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P&app_version=1612866744"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/assets/images/logo-200x120-3190df52.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-widget.soundcloud.com/assignments/167425-446757-58696-878027?layers=widget_listening&format=json&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P&app_version=1612866744"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://syndication.twitter.com/settings?session_id=c399dcbe2ee27f9845bac8fadc9d987334936eab"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-0-9f8639071487.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-2-8eb5bcb398d6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-1-d327b4afd7b4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-0-9f8639071487.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-2-8eb5bcb398d6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/widget-1-d327b4afd7b4.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwnjTlIa_fbbBNgPd3VRp4_5w82MvSF7HGReHN5x_gw=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi_webp/ohntnh4AgQ4/sddefault.webp"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-widget.soundcloud.com/playlists/1153351936?representation=full&secret_token=s-MG5msVWm3xh&format=json&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P&app_version=1612866744"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-90MRr3s9Ad3MtgEX-qUzGfw-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-f4ewO3RCJeYwtKVt-YBlZig-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-3ycBxiqR9UHcv0yC-ytSYRA-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-kHLc2VDZUQvA2zhs-A165Rg-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-RwWys0GKZCiByczU-sxDIgw-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-yLTlijDFAoh4zvhZ-zfiVZQ-t50x50.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-widget.soundcloud.com/playlists/1097443021?representation=full&format=json&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P&app_version=1612866744"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-YNHaisOPP1oj0uw9-7vzuhw-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-stCvV8CYDrzoLeku-7nflIQ-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-PVnXfVeuUE4F0Ywf-VkSCqg-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-eBdm2BpGWCJfZUEd-YNINig-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-M7nO06OAKyebUoy6-CXZzjA-t50x50.jpg"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-widget.soundcloud.com/tracks?ids=919547308%2C921935080%2C947154385&playlistId=1153351936&playlistSecretToken=s-MG5msVWm3xh&format=json&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P&app_version=1612866744"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api-widget.soundcloud.com/tracks?ids=919547308%2C921935080%2C947154385&playlistId=1153351936&playlistSecretToken=s-MG5msVWm3xh&format=json&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P&app_version=1612866744"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/generate_204?cD7ffw"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://wave.sndcdn.com/fZVArN1ZpGfO_m.json"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-90MRr3s9Ad3MtgEX-qUzGfw-t200x200.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/assets/images/share-4d6d0315.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://wave.sndcdn.com/7WAwytliZ0Mt_m.json"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-YNHaisOPP1oj0uw9-7vzuhw-t200x200.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://widget.sndcdn.com/assets/images/share-4d6d0315.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-hlT8aak6UnjNy89B-XCvdyA-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-mxyFZZiSmGn5egBc-WMZDFQ-tiny.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i1.sndcdn.com/artworks-yLTlijDFAoh4zvhZ-zfiVZQ-tiny.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/csi_204?v=2&s=youtube&action=embed&yt_sts=n&is_nav=1&csn=MC45MjY4NjE3MzgyNDI5MDc.&yt_vis=1&yt_lt=cold&rc=&st=28&cpn=rTf1N5YIDwLZ23id&rt=pe.1962,srt.200,nreqs.131,nress.200,nrese.237,ndnss.47,ndnse.73,ntcps.73,ntcpe.129,nstcps.96,wffs.844,wffe.1190,rsf_pc.837,rse_pc.885,fs.2249,ol.5728,aft.5728,ps.5728"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://l9bjkkhaycw6f8f4.soundcloud.com/me"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://l9bjkkhaycw6f8f4.soundcloud.com/me"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hkw.de/de/app/css/page-verteilseite.css?v=2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hkw.de\r",
+  "third_parties": {
+    "fqdns": [
+      "api-widget.soundcloud.com",
+      "code.etracker.com",
+      "f.vimeocdn.com",
+      "fonts.gstatic.com",
+      "i.vimeocdn.com",
+      "i.ytimg.com",
+      "i1.sndcdn.com",
+      "l9bjkkhaycw6f8f4.soundcloud.com",
+      "platform.twitter.com",
+      "player.vimeo.com",
+      "static.etracker.com",
+      "syndication.twitter.com",
+      "w.soundcloud.com",
+      "wave.sndcdn.com",
+      "widget.sndcdn.com",
+      "www.etracker.de",
+      "www.google.com",
+      "www.gstatic.com",
+      "www.youtube-nocookie.com",
+      "yt3.ggpht.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 93
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 8,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "widget.sndcdn.com",
+      "www.etracker.de",
+      "www.youtube-nocookie.com"
+    ]
+  }
+}

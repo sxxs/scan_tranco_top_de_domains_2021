@@ -1,0 +1,905 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".sat1.de",
+      "expires": 1681987992,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079205,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.2131487794.1618915993"
+    },
+    {
+      "domain": ".sat1.de",
+      "expires": 1619002392,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93605,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.1068958807.1618915993"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.sat1.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "cmpTracker",
+        "tracking_id": "UA-125952458-6"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "df46ddb5e9124ab2cdd00dac9402bcc1a2fab4755455b3745aa02441f281c54a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1649887199.0,
+      "not_valid_before": 1617832800.0,
+      "serial_number": 11387369652594002251327782644124244520,
+      "subject": {
+        "commonName": "www.7tv.com",
+        "countryName": "DE",
+        "localityName": "Unterf\u00f6hring",
+        "organizationName": "ProSiebenSat.1 Digital GmbH",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.sat1.de/service/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://sat1.de/",
+    "https://www.sat1.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://sat1.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sat1.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/df6fcc096bf27ff7984023bbf5748163.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/css/sat1.7869d22da4a01f820d8e04790fac07fcce4f5d81.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/sat1.9996b171552f92fd2bbc4ef497590d1bdd5ca91d.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/wli8lgi.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/runtime.de0db05c0f155aa4465c.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/vendor.536028983f673bef2d4c.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1/glomex-player.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/client.8e586f7340235794f571.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/cmp/cmp-sat1-web.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/glomex-player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://p.typekit.net/p.css?s=1&k=wli8lgi&ht=tk&f=44884&a=56836033&app=typekit&e=css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/glomex-player-module.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ad.71i.de/somtag/loader/loader.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://time.akamai.com/?iso"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sat1.de/services/embedded?path=%2Ftv%2Fran-racing-formel-e-wm%2Fhtml-teaser-fuer-widget-news&libraries=jquery"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/aaceqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWa-Fqkjs_a1ZRIEjPnBUfi4vSSW9db-GEpDpuXrcHbqM6-DmU5OHM11LnkL-1h0bfRa6yDtzt6CGe2ySGWWZVnpdCrlavh2lqg9RnM7jOC-ZwL4rv8p9-O2vpNRDlZczt31mULUDJ45Ye_KR4n8MxlWYifCbbrvhtJ6GhjKx9vJ73UIlBWb2qxa-OnyXjdpxG7BfsXHHESoH7O3o/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/9e7dqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtIeRtJljMKOx8bXlGlfzi7Yrq41KAiCrEte6PhDAETf0B_0pvj2iW3G-RejQ6w3pQ9k/profile:mag-120x213"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/26f8qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtILy7JcASSl49G4SEKfp99pZj1BICmE4RmG358Y8RbPdonTvebByCk/profile:mag-120x213"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/032bqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtIc8IJnZQgWOoQ5qDJNivk1llzFa_t15ujCvVRShOfolgscPh-gFG1a1wrvsZes4Q/profile:mag-120x213"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/2430qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtIbpqrpQG2pLG_GdF-7rIDcZDhR1KPXSXcJXAr8Zjry3i6rSQz4b4tHRt1cg1-8yc2Wdg/profile:mag-120x213"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/misc/fonts/RidleyGrotesk-Regular.woff2?v=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/index-5faf62a0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/visibility-e9bbd762.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/_rollupPluginBabelHelpers-56746811.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/create-uuid-5ea88561.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/_commonjsHelpers-17042db9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.508.1/index-349fdbdd.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/css/sat1.7869d22da4a01f820d8e04790fac07fcce4f5d81.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/sat1.9996b171552f92fd2bbc4ef497590d1bdd5ca91d.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.jquery.com/jquery-2.2.4.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/scripts/p7s1-widget.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://magellan-api.p7s1.io/epg-mini/sat1.de/graphql?operationName=&query=%20query%20EpgQuery(%24domain%3A%20String!%2C%20%24date%3A%20DateTime%2C%20%24subBrand%3A%20String)%20%7B%20site(domain%3A%20%24domain)%20%7B%20epgs%20%7B%20upcoming%3A%20broadcast(type%3A%20UPCOMING%2C%20date%3A%20%24date%2C%20subBrand%3A%20%24subBrand)%20%7B%20items%20%7B%20...fEpgItem%20%7D%20%7D%20primetime%3A%20broadcast(type%3A%20PRIMETIME%2C%20date%3A%20%24date%2C%20subBrand%3A%20%24subBrand)%20%7B%20items%20%7B%20...fEpgItem%20%7D%20%7D%20primenight%3A%20broadcast(type%3A%20PRIMENIGHT%2C%20date%3A%20%24date%2C%20subBrand%3A%20%24subBrand)%20%7B%20items%20%7B%20...fEpgItem%20%7D%20%7D%20%7D%20%7D%20%7D%0Afragment%20fEpgItem%20on%20EpgItem%20%7B%20id%20title%20description%20startTime%20endTime%20episode%20%7B%20number%20%7D%20season%20%7B%20number%20%7D%20tvShow%20%7B%20title%20id%20%7D%20images%20%7B%20url%20title%20copyright%20%7D%20links%20%7B%20href%20contentType%20title%20%7D%20%7D%20&variables=%7B%22date%22%3A%222021-04-20T10%3A50%3A00.000Z%22%2C%22domain%22%3A%22sat1.de%22%2C%22subBrand%22%3Anull%7D&queryhash=451299e9fb15a8e321b9d9c3e2644e16dd3b50a6090645a82c749c6609358e81&initialcv=browser-p7s1-1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/6942qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9_pTvZMUthKSdTYsrllfAU2laP6BVMyVS2hsfawMSmhsQ-QhffEuj2j7mpxfS7nfP30ykLrBu-l50EJjiNiDH7UOgbSKME4OwS0r-wvKAKu6UjDG0WwXZUCBSqnstf13BxOrlsiSXBUXf15hO4/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/97a3qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9jXXYTOaMdS_T6ATkanBWmMaeWT7r576rcOa-NB0QvyPHLJZxImaNBwEbtCuMHXI0V5kjy-RCXFRiZRBoBmZWngsA4IEvM5ylSoeWjsKOqtPGCUzWMj-L4D2B95gBEFjymw2L6M9WDM1yD7APLg1u6AE5na/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/1224qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWdQGrmWQWKbQDAf7CeWQDUDl_FH5oW3Z5cqI0Tu4NFCvSZ91aFZ_FFswK-1h2h75JBK8eb6h267a0jgV0LbJ8nHMJAeLhdoyKIELwkldVBnEYtN1jHL3-ZbOJPsNZ4B6AtDfoRIevwN8/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/e7f8qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9sEwiFe3hPtz1k54v045GnbZIsAj3Iu_DzYLy3kITvOx6RNkaLjZAZ-ZXTQqac7quzxTjQ9256Ewy3GZs_1aNI_awGQ2xIo_eRebiA-3xuxz4EYGuHLmv8W9nHpCjFEhh9hF0U3WeTZkkj2fxc4DL956MX1/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://middleware.p7s1.io/cmp/v1/vendorlist?key=db65350b11bd14f391bd9435a55cdd91"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=VhdL5rzsy"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/aaceqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWa-Fqkjs_a1ZRIEjPnBUfi4vSSW9db-GEpDpuXrcHbqM6-DmU5OHM11LnkL-1h0bfRa6yDtzt6CGe2ySGWWZVnpdCrlavh2lqg9RnM7jOC-ZwL4rv8p9-O2vpNRDlZczt31mULUDJ45Ye_KR4n8MxlWYifCbbrvhtJ6GhjKx9vJ73UIlBWb2qxa-OnyXjdpxG7BfsXHHESoH7O3o/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/6942qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9_pTvZMUthKSdTYsrllfAU2laP6BVMyVS2hsfawMSmhsQ-QhffEuj2j7mpxfS7nfP30ykLrBu-l50EJjiNiDH7UOgbSKME4OwS0r-wvKAKu6UjDG0WwXZUCBSqnstf13BxOrlsiSXBUXf15hO4/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/97a3qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9jXXYTOaMdS_T6ATkanBWmMaeWT7r576rcOa-NB0QvyPHLJZxImaNBwEbtCuMHXI0V5kjy-RCXFRiZRBoBmZWngsA4IEvM5ylSoeWjsKOqtPGCUzWMj-L4D2B95gBEFjymw2L6M9WDM1yD7APLg1u6AE5na/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/1224qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWdQGrmWQWKbQDAf7CeWQDUDl_FH5oW3Z5cqI0Tu4NFCvSZ91aFZ_FFswK-1h2h75JBK8eb6h267a0jgV0LbJ8nHMJAeLhdoyKIELwkldVBnEYtN1jHL3-ZbOJPsNZ4B6AtDfoRIevwN8/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/9e7dqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtIeRtJljMKOx8bXlGlfzi7Yrq41KAiCrEte6PhDAETf0B_0pvj2iW3G-RejQ6w3pQ9k/profile:mag-225x300"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/26f8qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtILy7JcASSl49G4SEKfp99pZj1BICmE4RmG358Y8RbPdonTvebByCk/profile:mag-225x300"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/032bqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZFJ2GKtIc8IJnZQgWOoQ5qDJNivk1llzFa_t15ujCvVRShOfolgscPh-gFG1a1wrvsZes4Q/profile:mag-225x300"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/e7f8qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9sEwiFe3hPtz1k54v045GnbZIsAj3Iu_DzYLy3kITvOx6RNkaLjZAZ-ZXTQqac7quzxTjQ9256Ewy3GZs_1aNI_awGQ2xIo_eRebiA-3xuxz4EYGuHLmv8W9nHpCjFEhh9hF0U3WeTZkkj2fxc4DL956MX1/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/misc/fonts/RidleyGrotesk-Regular.woff2?v=1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/d3d7qgELBzZ_waV508e45AuVz6MKHLtoT3q_r4nzFY032aqFAD2DSLibrT2Wi8yc5y8QY4yHNuPGiZsN--CVmxLrjPcQsQabX2Ie9IFavrOZ7k1VPuAnQQqBSqCMsD4Kmdf0DyArxu-FtmxBWp_7gNBCCK5yh6VB/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/6db7qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWa-Fqkjs_a1ZRIEjPnBUfi4vSSW9J_ZRPAovsINdXb5442mzu8LBmjlbX5f2iXT5RPWHkVFv31_JkG9SyA9NWwBnbTo77zfbkItqP9O38c5H5FaOw8U2Rx9w1QjY/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/878bqgELB38wdEB-ZftQHfHFPn4ON1n0D0sNVdu9rHUKluKYfgDlMngHvTNa2LT47rSV2L0OSH7T4oG06uYtGFqO-dUbaFWzs1w/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/ea0aqgELBzZ_waV508e45AuVz6MKHLtoT3q_r45S_qHeF3MteKAWgyZWN9jkcUpZb2Knk5pWiKgDq2Gst2tPyfdHz60sj8iV0WnZ-L20FjYaIbSp1_CgAqYUf_zBTy1PpjkLQjyCUgpErDBXjjFN0KjH9xgIAL-HBQ/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/4910qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWfRWbiRAAaztfNVxTQI2I5tETClcXrLP8gw69vD-YODZs4twDifrZMgR6o6nzYxjMyGdrusVVByvOFDbJnIp44GsB0SOpBT7I/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/c740qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWd-HRMX7QbUrtCjQfNcnPgxlgs2uvnxYgmgMrnhyntyigusdCGnHKOs74Iu6_RC2A7p_lzQIGu0bg5bwWE2MJ1-YR7WZSe_6ohXtbjQ9tv4_8TdjekJ_b6aTleM-hr9yUPAZw4qanV69FHw/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/1a22qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWa-Fqkjs_a1ZRIEjPnBUfi4vSSW9db-GEpDpuXx3nI0_6w-TS9XxRzywpmigJ2VRgRWMcUrhjCWPJ_9hS7n0GxFyf2ZT_0-f0QSRxULrnEuBbKHLFWKehIbhgbds_Z4V88lR7xe8AKO8x6ZfLhDjVR4MqHRKKTdFX-lM4IhVonPG6avT_h6E-wga42D9mM0Z_/profile:mag-300x170"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/campaign/a01307ed84bdff17634d98d911a9dfd96e5de590/widget/6"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.sat1.de/pis/ezone/1a22qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXauk1M9wuU4rv5_rLEYRvbq7E9XZCtzWa-Fqkjs_a1ZRIEjPnBUfi4vSSW9db-GEpDpuXx3nI0_6w-TS9XxRzywpmigJ2VRgRWMcUrhjCWPJ_9hS7n0GxFyf2ZT_0-f0QSRxULrnEuBbKHLFWKehIbhgbds_Z4V88lR7xe8AKO8x6ZfLhDjVR4MqHRKKTdFX-lM4IhVonPG6avT_h6E-wga42D9mM0Z_/profile:mag-648x366"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://cerberus.sqrt-5041.de/somtag/logs/error-tracking"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cerberus.sqrt-5041.de/somtag/logs/error-tracking"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,0LGNm0w3e@1.0.0,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2PLSJfB9b@6.2.0,3oMLZEPWY@2.1.0,4NIAkZsNE@2.2.0,56CqIjb0z@1.0.0,57b0LQPAS@1.0.17,5FP9tjYNG@1.0.0,5LFVxHGKz@6.1.0,6PEQM-sZb@2.1.15,71uePe1sF@1.0.0,7M0cXS2pQ@10.6.1,7jBdshciY@1.0.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,9_mINmsAo@1.0.0,AMItrBs0R@1.0.0,Aytn62TR@2.0.0,B1Pb9NoOiZQ@5.2.1,BJ1Q5NoOj-7@5.1.3,BJSN54susZX@6.1.0,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BkeKqEjuoZQ@9.3.5,ByOJZ54odjW7@11.3.1,CAh-PzD4@6.3.0,CVliYs1Zn@2.1.1,DG6-aLzBO@1.0.0,DswEq9TCs@1.0.1,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hkq1Xar5V@4.7.3,IA4SWi27g@1.0.0,JMsFnFMX2@4.1.0,Jy6PlrM3@2.2.0,KBFnjg2YU@1.0.0,L07_olkbD@1.0.0,LNxiCu4IM@2.1.0,LzUarVPjg@1.0.0,NjT2ojfFy@1.0.0,NlKLPqhTk@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,OD38XMAFy@3.1.1,QmkqgbGhi@1.1.0,RkzHS-jLm@2.0.0,S1Qe-Pn54@4.2.1,SJKM9Ns_ibQ@10.4.4,SJXtq4iOoZX@10.4.4,SyUQ54odobQ@6.4.2,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TxfLuXDLv@1.0.0,V9qWyLWRp@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XYQZBUojc@8.5.1,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,Zy_B5xcst@1.0.0,_-HsBkxn_@1.0.0,apGP5d1vF@1.0.0,bZv7Ew5Wb@1.0.0,dQ35oKOjc@1.0.0,diHQHT2cJ@1.0.1,droLLWFH0@1.0.0,eZcGJUfqZ@1.0.0,f6nkjdUL@3.4.0,gHY2exdu@5.2.0,ghszFQYfO@1.0.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,k2e416jYz@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,kbKHcT7Rf@1.0.0,ko1w5PpFl@23.10.10,mCKT4oRIh@1.0.58,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,nF8utBoMZ@1.0.0,oYX9i78KT@1.0.0,owYNQwDvZ@1.0.0,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.58,r1EWc4iuj-X@9.4.1,r1qWcNoOsW7@6.3.4,rAffn6LrC@1.0.45,rJOZc4jOiWQ@15.4.16,r_PeEMm-Z@1.0.0,rkqVqNoOib7@4.2.0,s8nQgU9A5@5.1.1,tavJ1OKSj@2.1.0,tnfBi7gwe@14.3.2,uNl9XGnZC@7.1.1,v5qsHjm64@1.0.16,w9RyVSEAG@1.0.0,wjTFh1LbY@1.0.0,xcThtDvvy@3.2.1,xpBsrsMfj@1.0.21,zHPuHon9t@1.0.0,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zqWojrT0P@15.7.6,ztvSJZUt2@2.1.15"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,0LGNm0w3e@1.0.0,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2PLSJfB9b@6.2.0,3oMLZEPWY@2.1.0,4NIAkZsNE@2.2.0,56CqIjb0z@1.0.0,57b0LQPAS@1.0.17,5FP9tjYNG@1.0.0,5LFVxHGKz@6.1.0,6PEQM-sZb@2.1.15,71uePe1sF@1.0.0,7M0cXS2pQ@10.6.1,7jBdshciY@1.0.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,9_mINmsAo@1.0.0,AMItrBs0R@1.0.0,Aytn62TR@2.0.0,B1Pb9NoOiZQ@5.2.1,BJ1Q5NoOj-7@5.1.3,BJSN54susZX@6.1.0,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BkeKqEjuoZQ@9.3.5,ByOJZ54odjW7@11.3.1,CAh-PzD4@6.3.0,CVliYs1Zn@2.1.1,DG6-aLzBO@1.0.0,DswEq9TCs@1.0.1,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hkq1Xar5V@4.7.3,IA4SWi27g@1.0.0,JMsFnFMX2@4.1.0,Jy6PlrM3@2.2.0,KBFnjg2YU@1.0.0,L07_olkbD@1.0.0,LNxiCu4IM@2.1.0,LzUarVPjg@1.0.0,NjT2ojfFy@1.0.0,NlKLPqhTk@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,OD38XMAFy@3.1.1,QmkqgbGhi@1.1.0,RkzHS-jLm@2.0.0,S1Qe-Pn54@4.2.1,SJKM9Ns_ibQ@10.4.4,SJXtq4iOoZX@10.4.4,SyUQ54odobQ@6.4.2,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TxfLuXDLv@1.0.0,V9qWyLWRp@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XYQZBUojc@8.5.1,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,Zy_B5xcst@1.0.0,_-HsBkxn_@1.0.0,apGP5d1vF@1.0.0,bZv7Ew5Wb@1.0.0,dQ35oKOjc@1.0.0,diHQHT2cJ@1.0.1,droLLWFH0@1.0.0,eZcGJUfqZ@1.0.0,f6nkjdUL@3.4.0,gHY2exdu@5.2.0,ghszFQYfO@1.0.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,k2e416jYz@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,kbKHcT7Rf@1.0.0,ko1w5PpFl@23.10.10,mCKT4oRIh@1.0.58,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,nF8utBoMZ@1.0.0,oYX9i78KT@1.0.0,owYNQwDvZ@1.0.0,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.58,r1EWc4iuj-X@9.4.1,r1qWcNoOsW7@6.3.4,rAffn6LrC@1.0.45,rJOZc4jOiWQ@15.4.16,r_PeEMm-Z@1.0.0,rkqVqNoOib7@4.2.0,s8nQgU9A5@5.1.1,tavJ1OKSj@2.1.0,tnfBi7gwe@14.3.2,uNl9XGnZC@7.1.1,v5qsHjm64@1.0.16,w9RyVSEAG@1.0.0,wjTFh1LbY@1.0.0,xcThtDvvy@3.2.1,xpBsrsMfj@1.0.21,zHPuHon9t@1.0.0,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zqWojrT0P@15.7.6,ztvSJZUt2@2.1.15"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/styles/bootstrap.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/styles/p7s1-widget.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ran.de/images/ran-logo.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/aac3qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYobtJ3eJld165bK72fVIybC3eDgt7F97WAVX3Unez2mGmTFCfMFKmhPokmAC1HlV4gxGGnUCVPjQ/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/5f87qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYoZldnHus6HC3t2VJcO9YH1ZBgUMBIaPxFTV5sOA1um3Rt7h1C8yFDcY1gq_2zgeOc96YGGHsrwJuC2EfI1tfFKny-SI0x19vaswOmAOg9bbIo/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/fd10qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYobtJ3eJld165bcG32tBrrb0Av6wtQyh1wUZ-gNnXdRVaZSooCtM76dxIprqoW4aRmo4V4xrVsT5zdnVEGldgYnolZSDJ3BS0VuiU0VcfzdFLyS5jkyvq-mfp6UY3kS0xReul8TB4GQQ1D8LLIcbyWN9dnZWE-/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/9ee4qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYoZldnHus7M-P_dDFT1GUjMLfmB9IyMJXob_NZjt9QEl7t_11uVEKoSOeM9gK2IH5uuzjXQN5EzR55LKo44vKgreibacecxqHg/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/3628qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYobtJ3eJld165bcG32tBrrb0Av6wtQyh1wUZ-gNn-sX6F6TcB7yYEtC94sUmvVkZetjIN7k0U8a0rOzO_4VQCxAv_U8FBG/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/a97dqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYoZldnHus6HC3t2VJcO9YWxQTEXJniNYlFK7eVZ0y3onrc5pMd5owWn5ZurdbrtNf_uP01Fxi4303vu15F/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/fonts/ARIALBD.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.12.1/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/f9c93d47df359ef340ab563b72494ca91d5da2519b7a8c825936ec123df32a19/analytics"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/f9c93d47df359ef340ab563b72494ca91d5da2519b7a8c825936ec123df32a19/analytics"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datalayer.p7s1.io/d40b37fb578cdefcc85b7b08c223c997.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/promis-unter-palmen/mag_bg.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/promis-unter-palmen/mag_logo_dt.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/the-voice-kids2/mag_logo_dt.jpg?v=1"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/fonts/NotoSans-Bold.woff2?v=1"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/fonts/NotoSans-Regular.woff2?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/fruestuecksfernsehen/mag_bg.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/fruestuecksfernsehen/mag_logo_dt.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/five-senses-for-love/mag_bg.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/five-senses-for-love/mag_logo_dt.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/luke-schule/mag_bg.jpg?v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/luke-schule/mag_logo_dt.jpg?v=3"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1108032261&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.sat1.de%2F&ul=en-us&de=UTF-8&dt=SAT.1%20-%20TV-Programm%2C%20Videos%20und%20Infos&sd=24-bit&sr=800x600&vp=785x600&je=0&ec=CMP%20Load%20Successful&ea=sat1-de_web&el=not%20set&_u=aEBAAUABEAAAAC~&cid=2131487794.1618915993&tid=UA-125952458-6&_gid=1068958807.1618915993&_slc=1&cd1=not%20set&cd2=not%20set&cd3=splash&cd4=sat1-de&cd5=web&cd6=not%20set&cd7=0&cd8=not%20set&cd16=1&cd17=1&cm6=1&z=1169902036"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&aip=1&a=1108032261&t=event&ni=1&_s=2&dl=https%3A%2F%2Fwww.sat1.de%2F&ul=en-us&de=UTF-8&dt=SAT.1%20-%20TV-Programm%2C%20Videos%20und%20Infos&sd=24-bit&sr=800x600&vp=785x600&je=0&ec=CMP%20Layer%20Open&ea=sat1-de_web&el=not%20set&_u=aEBAAUABEAAAAC~&cid=2131487794.1618915993&tid=UA-125952458-6&_gid=1068958807.1618915993&cd1=not%20set&cd2=not%20set&cd3=splash&cd4=sat1-de&cd5=web&cd6=not%20set&cd7=0&cd8=not%20set&cd16=1&cd17=1&cm1=1&z=715776314"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://magellan-api.p7s1.io/search-frequent-terms/sat1.de/graphql?operationName=&query=%20query%20FrequentSearchTermsQuery(%24domain%3A%20String!%2C%20%24limit%3A%20Int)%20%7B%20site(domain%3A%20%24domain)%20%7B%20frequentSearchTerms(limit%3A%20%24limit)%20%7B%20contentType%20domain%20path%20text%20%7D%20%7D%20%7D%20%0A&variables=%7B%22debug%22%3Afalse%2C%22domain%22%3A%22sat1.de%22%2C%22limit%22%3A5%7D&queryhash=9fa410d70ec08dca0e075ceb6b0493b3550b3825579be36b3747bc52ed988f14&initialcv=browser-p7s1-1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://magellan-api.p7s1.io/shows/sat1.de/graphql?operationName=&query=%20query%20ShowQuery(%24domain%3A%20String!)%20%7B%20site(domain%3A%20%24domain)%20%7B%20shows%20%7B%20...fShows%20%7D%20%7D%20%7D%20%0Afragment%20fShows%20on%20Shows%20%7B%20items%20%7B%20...fTeaserItem%20%7D%20%7D%20%0Afragment%20fTeaserItem%20on%20TeaserItem%20%7B%20id%20url%20info%20headline%20contentType%20channel%20%7B%20...fChannelInfo%20%7D%20branding%20%7B%20...fBrand%20%7D%20site%20picture%20%7B%20url%20%7D%20pictures%20%7B%20url%20dimension%20name%20title%20copyright%20description%20orientation%20imageOverlayTarget%20imageOverlayType%20kicker%20%7D%20videoType%20orientation%20date%20flags%20fsk%20videoId%20valid%20%7B%20from%20to%20%7D%20epg%20%7B%20episode%20%7B%20...fEpisode%20%7D%20season%20%7B%20...fSeason%20%7D%20duration%20nextEpgInfo%20%7B%20...fEpgInfo%20%7D%20%7D%20%7D%20%0Afragment%20fChannelInfo%20on%20ChannelInfo%20%7B%20title%20shortName%20cssId%20cmsId%20%7D%20%0Afragment%20fBrand%20on%20Brand%20%7B%20id%2C%20name%20%7D%20%0Afragment%20fEpisode%20on%20Episode%20%7B%20number%20%7D%20%0Afragment%20fSeason%20on%20Season%20%7B%20number%20%7D%20%0Afragment%20fEpgInfo%20on%20EpgInfo%20%7B%20time%20endTime%20primetime%20branding%20%7B%20name%20%7D%20%7D%20&variables=%7B%22domain%22%3A%22sat1.de%22%7D&queryhash=4d98d707138da34bae2f8c57005a8f3c1a1cf5080741cc217f4f9d0373ca7f9d&initialcv=browser-p7s1-1"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://sat1.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ad.71i.de",
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cerberus.sqrt-5041.de",
+      "cmp.p7s1.io",
+      "code.jquery.com",
+      "datalayer.p7s1.io",
+      "graphql.usercentrics.eu",
+      "i3-img.p7s1.io",
+      "magellan-api.p7s1.io",
+      "middleware.p7s1.io",
+      "p.typekit.net",
+      "player.glomex.com",
+      "s.p7s1.io",
+      "time.akamai.com",
+      "use.typekit.net",
+      "widgets.sevenone-sports.de",
+      "www.google-analytics.com",
+      "www.ran.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 75
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 20,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cerberus.sqrt-5041.de",
+      "graphql.usercentrics.eu",
+      "www.google-analytics.com"
+    ]
+  }
+}

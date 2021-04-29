@@ -1,0 +1,683 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".mp3tag.de",
+      "expires": 1652619137,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33703201,
+      "name": "__gads",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 106,
+      "value": "ID=590c3e45abfa8ee3-2212b2232cbb001a:T=1618923137:RT=1618923137:S=ALNI_MbOkWftCVG2IDWeYgNKOVSvHksN9w"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1652619137.672506,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 33703201.672506094,
+      "name": "IDE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 70,
+      "value": "AHWqTUna3tO9zEFRtFWYGyGlLmTyrStUTQImOT2yVhhct15CrsQLzUn4NupURnXl24o"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618926738.246574,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 10802.246573925018,
+      "name": "DSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 11,
+      "value": "NO_DATA"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.mp3tag.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "96778e0598bf920c080b05c875d6f720390649abd9f710f686484753ebb0ee3e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622997646.0,
+      "not_valid_before": 1615225246.0,
+      "serial_number": 328100477527082992712592973793898451434482,
+      "subject": {
+        "commonName": "mp3tag.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.mp3tag.de/contact.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://mp3tag.de/",
+    "https://mp3tag.de/",
+    "https://www.mp3tag.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://mp3tag.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mp3tag.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/cookieconsent.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/js/cookieconsent.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/js/cc.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/images/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/images/lang/uk.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/images/mp3tag-de.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/images/icons/feed-icon-14x14.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/images/icons/twitter.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://analytics.mp3tag.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/fonts/RobotoCondensed-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/fonts/RobotoCondensed-Light.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mp3tag.de/fonts/RobotoCondensed-Regular.woff"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://analytics.mp3tag.de/piwik/piwik.php?action_name=Mp3tag%20-%20der%20universelle%20Tag%20Editor%20(ID3v2%2C%20MP4%2C%20OGG%2C%20FLAC%2C%20...)&idsite=1&rec=1&r=107963&h=14&m=52&s=17&url=https%3A%2F%2Fwww.mp3tag.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=aBReho&pf_net=0&pf_srv=21.83500000683125&pf_tfr=0.9949999948730692"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/r20210415/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-1990453812094175&plah=www.mp3tag.de&amaexp=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/html/r20210415/r20190131/zrt_lookup.html"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://partner.googleadservices.com/gampad/cookie.js?domain=www.mp3tag.de&callback=_gfp_s_&client=ca-pub-1990453812094175"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://adservice.google.de/adsid/integrator.js?domain=www.mp3tag.de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://adservice.google.com/adsid/integrator.js?domain=www.mp3tag.de"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1990453812094175&output=html&h=92&slotname=4990711930&adk=21883569&adf=2896993837&pi=t.ma~as.4990711930&w=730&lmt=1617565115&rafmt=12&psa=0&format=730x92&url=https%3A%2F%2Fwww.mp3tag.de%2F&flash=0&wgl=1&dt=1618923137094&bpp=14&bdt=265&idt=95&shv=r20210415&cbv=r20190131&ptt=9&saldr=aa&abxe=1&correlator=7418195366357&frm=20&pv=2&ga_vid=1564674469.1618923137&ga_sid=1618923137&ga_hid=1662293824&ga_fc=0&u_tz=120&u_his=2&u_java=0&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_nplug=0&u_nmime=0&adx=67&ady=146&biw=785&bih=585&scr_x=0&scr_y=0&eid=44731610%2C44740079&oid=3&pvsid=4306833003162028&pem=265&eae=0&fc=896&brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&vis=1&rsz=%7C%7CleE%7C&abl=CS&pfx=0&fu=1280&bc=31&ifi=1&uci=a!1&fsb=1&xpc=PwoIee1GA5&p=https%3A//www.mp3tag.de&dtd=127"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1990453812094175&output=html&h=600&slotname=8839237909&adk=674303042&adf=3247881204&pi=t.ma~as.8839237909&w=160&lmt=1617565115&psa=0&format=160x600&url=https%3A%2F%2Fwww.mp3tag.de%2F&flash=0&wgl=1&dt=1618923137108&bpp=3&bdt=279&idt=142&shv=r20210415&cbv=r20190131&ptt=9&saldr=aa&abxe=1&prev_fmts=730x92&correlator=7418195366357&frm=20&pv=1&ga_vid=1564674469.1618923137&ga_sid=1618923137&ga_hid=1662293824&ga_fc=0&u_tz=120&u_his=2&u_java=0&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_nplug=0&u_nmime=0&adx=-12245933&ady=-12245933&biw=785&bih=585&scr_x=0&scr_y=0&eid=44731610%2C44740079&oid=3&pvsid=4306833003162028&pem=265&eae=0&fc=896&brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&vis=1&rsz=%7C%7ClpEr%7C&abl=CS&pfx=0&fu=1024&bc=31&ifi=2&uci=a!2&fsb=1&xpc=LDl3l3B8ma&p=https%3A//www.mp3tag.de&dtd=146"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1990453812094175&output=html&adk=1812271804&adf=3025194257&lmt=1617565115&plat=1%3A8%2C2%3A8%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32&format=0x0&url=https%3A%2F%2Fwww.mp3tag.de%2F&ea=0&flash=0&pra=7&wgl=1&dt=1618923137112&bpp=1&bdt=284&idt=167&shv=r20210415&cbv=r20190131&ptt=9&saldr=aa&abxe=1&prev_fmts=730x92%2C160x600&nras=1&correlator=7418195366357&frm=20&pv=1&ga_vid=1564674469.1618923137&ga_sid=1618923137&ga_hid=1662293824&ga_fc=0&u_tz=120&u_his=2&u_java=0&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_nplug=0&u_nmime=0&adx=-12245933&ady=-12245933&biw=785&bih=585&scr_x=0&scr_y=0&eid=44731610%2C44740079&oid=3&pvsid=4306833003162028&pem=265&eae=2&fc=896&brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=1024&bc=31&ifi=4&uci=a!4&fsb=1&dtd=174"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Google%20Sans%3A400%2C500"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/load_preloaded_resource_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/abg_lite_fy2019.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/adview?ai=CiNaKgc5-YKvCEYeegQetsoKIAZXoo4xh7tPE4PgI2dkeEAEgqsiLAmCVAqAB1fP40gPIAQGoAwHIA8sEqgTKAU_Q8X_XbG8ydBbYL4K2AwUksQD6Fxexh0h6DyX1TmwobIVrdCngwUEeDb_i_5MPcwQckoWdGeqK1vEOoO_1_GbgmCLBrzxoVNhy-xWC60GVaKNz0FJFh-_vKtlYfhXZxIdSIPSoH-BO6O4m3H9FPdNFZpgAEPvqf74O8cFwo_INuVgiVfP3O4Ppq728-f9UmQd5I6l-NvLFHRkdzFme0Z-Gf1a5fqwYwSMWpAanQL7q4y6vPU-vxTEJBLbMr0wHrzQkyzkX8KszL7zABLiSnsG0AZIFBAgEGAGSBQQIBRgEgAeTjIctqAfVyRuoB_DZG6gH8tkbqAeOzhuoB5PYG6gHugaoB-6WsQKoB6a-G6gH7NUb2AcB8gcFEMiHmQHSCAkIgOGAcBABGB-ACgHICwHYEwyIFAOyFxoKGAgAEhRwdWItMTk5MDQ1MzgxMjA5NDE3NQ&sigh=9De_nlFO-K0"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/window_focus_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/qs_click_protection_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/mysidia/b42b11247d0ebeb7b44892ca7e629453.js?tag=mysidia_one_click_handler_one_afma_2019"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Google%20Sans%3A400%2C500"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/load_preloaded_resource_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/abg_lite_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/window_focus_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/qs_click_protection_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/mysidia/b42b11247d0ebeb7b44892ca7e629453.js?tag=mysidia_one_click_handler_one_afma_2019"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/adview?ai=CPZqYgc5-YPO5EcSj7gPH1JRo3YDJp2Lynr6c1gzZ2R4QASCqyIsCYJUCoAHPyPr8A8gBCakCZa033qY7tD6oAwHIA8sEqgTPAU_QDd6XYpfYG5YLCY0ZLxZIZV16rPm_dCXBYKx29L7zXi1cwqAZL4LahaXk2PDN6Hq2WchXtGzOD3sPvgBqqOPQjy9fwGx8SVjh8i5WXRwh0E8U7padtfUeDXP-egl1u-pSKPvKiUDMd924QUI7iFVpc4nzlEOu79SVdAwxktooAHsVyjJDtyKCOdWacv7w5X_XpJA_7wCq1ZkBT9MwrCCL9mvcDboU2fCwlbPONKc8BjGENt2SGDXNTA__ubmrUSQ-XzMNZAbXSQzVuaft38AEuKe077oCkgUECAQYAZIFBAgFGASgBi6AB7nkl5gBqAfVyRuoB_DZG6gH8tkbqAeOzhuoB5PYG6gHugaoB-6WsQKoB6a-G6gH7NUb2AcA8gcEEPuCB9IICQiA4YBwEAEYH4AKAcgLAbgTiCfYEw2IFAGyFxoKGAgAEhRwdWItMTk5MDQ1MzgxMjA5NDE3NQ&sigh=Km502_sTBns&template_id=5000"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/drt/s?v=r20120211"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/googlesans/v27/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/googlesans/v27/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/bg/wkpRfPPcRT5gRuVOwfaUS9di2m_GhEf8-oTDdHI7uwk.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/pagead/drt/ui"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/drt/si"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gda&tv=r20210415&st=env"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/bg/wkpRfPPcRT5gRuVOwfaUS9di2m_GhEf8-oTDdHI7uwk.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/sodar/sodar2.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/sodar/sodar2/222/runner.html"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/aframe"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/bg/wkpRfPPcRT5gRuVOwfaUS9di2m_GhEf8-oTDdHI7uwk.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=222&li=gda_r20210415&jk=4306833003162028&rc="
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://adservice.google.de/adsid/integrator.js?domain=www.mp3tag.de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://adservice.google.com/adsid/integrator.js?domain=www.mp3tag.de"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1990453812094175&output=html&h=92&slotname=4467543533&adk=3383260784&adf=4274929953&pi=t.ma~as.4467543533&w=730&lmt=1617565115&rafmt=12&psa=0&format=730x92&url=https%3A%2F%2Fwww.mp3tag.de%2F&flash=0&wgl=1&dt=1618923137111&bpp=1&bdt=283&idt=155&shv=r20210415&cbv=r20190131&ptt=9&saldr=aa&abxe=1&cookie=ID%3D590c3e45abfa8ee3-2212b2232cbb001a%3AT%3D1618923137%3ART%3D1618923137%3AS%3DALNI_MbOkWftCVG2IDWeYgNKOVSvHksN9w&prev_fmts=730x92%2C160x600%2C0x0&nras=1&correlator=7418195366357&frm=20&pv=1&ga_vid=1564674469.1618923137&ga_sid=1618923137&ga_hid=1662293824&ga_fc=0&u_tz=120&u_his=2&u_java=0&u_h=600&u_w=800&u_ah=600&u_aw=800&u_cd=24&u_nplug=0&u_nmime=0&adx=67&ady=2930&biw=785&bih=585&scr_x=0&scr_y=627&eid=44731610%2C44740079&oid=3&psts=AGkb-H-Rwn4YYqOVmFPvU4O9yVS5RZ1EDZR6du4TiMvuYR-BqYBX0G28F5hUgmCNv70yV1gH73VTAnGqnw%2CAGkb-H8lPHuyHh_02AJPgPSRJV-Os3gZbvM1B-NK6PnKgas5smtYhVaUYZxjtrWYrlHlbN8HyWAETGwIEf6afqcPIp-hxV4nn1ERwDdH5h4&pvsid=4306833003162028&pem=265&eae=0&fc=896&brdim=0%2C0%2C0%2C0%2C800%2C0%2C800%2C600%2C800%2C600&vis=1&rsz=%7C%7CleEbr%7C&abl=CS&pfx=0&fu=1280&bc=31&ifi=3&uci=a!3&btvi=1&fsb=1&xpc=2H96fWD3z5&p=https%3A//www.mp3tag.de&dtd=1894"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=222&t=2&li=gda_r20210415&jk=4306833003162028&bg=!GhmlGV3NAAZUuIlwVLg7ACkAdvg8WsVB7QxRvXCSk_qOFVtv7WPCHSDpyFNLNY6QcOjZ-Yruw2lWRwIAAAFMUgAAAC9oAQcKAUUorc1kskSfltLmDNQYOWKNFuW-EZqqEqGH0uyGAJrTVItk5rv3pcafwejMem8wJscZO4pfsL5TWAKScc9RixCPTEZfW4GB4DPsvDEUSpFOITyhiaaRGcbJe6Hy-2e3zD77q4ZsZdUxLJlIRsrVVFGdg7XG5mH1YC6RFttzhTU1GKEAEDVBEf6PWK46n65ZBbk8Gyfenl1qTkWyZSi9A-L-et04AHfKN0Bk57H1wPL-5jh0wi39RKNGfL1-g4wKawp08DrlF8rSx8HQdwOMThMACwnXqYP1pJZ2zOOP9FS1bdxQpzx-H3HpHW_lGpqY8lczdVmfCoY-6Ri94EwZpgPHHJdjOumAALEvvf6rMefp969OUhvO4-6-cSjd12HyZznqks1ntqzxZz4cq_Dcwd_HAnJwtK6en9bAgShgfuxidhFOH5XMmQHTW_l2kS1SuiFLfmet-szyOrnEleKAl9VJFJFhoOWBt3cZi2qTZaIDljAFCczR4ZdQFnu5DhTN1yZXFj0KY-WYDV2-6T4-VkCUDBrQvzclRMRRynW_QBG3LNzwrZSTG9xRqdZqteMRztsH4BqhOsesjpxr7Vu8lIzUMbDtCSbP5juLnY9UulF8mnFEeW633BfK1pOcix9ENA6KsFYWWarARzWaPOtzUgJUb3sYshiBm2avdorDxB9NYYaRg2F16eeFKokFICgf5ZduY7aveF-Mue9-deKFvTCQx3kNT9a7uejo4KVT33C5ay-TBY3dGZf6F9SAi6WIv4S5XktQkdp1phzxqcYPc2IgamMKjNlQBvlJgcJuMgiv8b5zncv__wNRFJgM0TsT-pbr4_NndDDb1HR0zL2ocU_1V-Bz5RLcVEqVhrEgIFQdvdy9qoJN2HTlJyndekpXAEahx3boDoXjUnGshh_C676Rpfr1iheOoy3MWDCn_h2U6DKXISeDpHq-r4SFByA-rX98Vz2QxFb1oc8WO_udZYckSiSP_oI06dHPa1vAbe0ZnwwwBalfhfTQX9EH0P8KyilpLs8VosQOxKVyhhmp19Kdz3HzZyBbuFxA8AA"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Google%20Sans%3A400%2C500"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/load_preloaded_resource_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/abg_lite_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/window_focus_fy2019.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/pagead/js/r20210415/r20110914/client/qs_click_protection_fy2019.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.google.com/ads/measurement/l?ebcid=ALh7CaT9JbW-RKheOUHCa7sKKxLJ7m4hceuPWQe1jmVtgbceOMLm2VmvsgbmGlyJCAuyjjdA_VhY"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/mysidia/b42b11247d0ebeb7b44892ca7e629453.js?tag=mysidia_one_click_handler_one_afma_2019"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/adview?ai=CQ2Qeg85-YMCwAozcgAeZ3KOoBKOKvdtWy7nBlNIHnsLy-wMQASCqyIsCYJUCoAGguNn8AsgBAagDAcgDwwSqBM0BT9DNv8LUgkKfJJldji8q7V_xvkmQQ6M-V-_QxTow758qQ1C1nZ39w87mTJNhpRvp9Tbfpej2hWGSn5QbDiA9QmrTtvSQacuQJSMy7pRmSgSvFisidbvSNCAKYT5l6SB5LB7nsrONDG-xLG0crNdFaugl9G8KCGfA-3AQrtk15e9vtAeqkpVBq3qxRUP-aFqg4VT7TMCGzU8_H_0-p7KZubDwBaCZusla6UbH7S_IX0GCSt6f_CX3qfwJwofB0f9zfF4ZWU5SyJtcP8WTJcAE3vKl-02SBQQIBBgBkgUECAUYBKAGUYAHrqzaJagH1ckbqAfw2RuoB_LZG6gHjs4bqAeT2BuoB7oGqAfulrECqAemvhuoB-zVG9gHAfIHBRCmzJ4C0ggJCIDhgHAQARgfgAoByAsB2BMCshcaChgIABIUcHViLTE5OTA0NTM4MTIwOTQxNzU&sigh=8RMhkuz2qxs"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/googlesans/v27/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/googlesans/v27/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/bg/wkpRfPPcRT5gRuVOwfaUS9di2m_GhEf8-oTDdHI7uwk.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://mp3tag.de\r",
+  "third_parties": {
+    "fqdns": [
+      "adservice.google.com",
+      "adservice.google.de",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "googleads.g.doubleclick.net",
+      "pagead2.googlesyndication.com",
+      "partner.googleadservices.com",
+      "tpc.googlesyndication.com",
+      "www.google.com",
+      "www.googletagservices.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 55
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 45,
+    "trackers": [
+      "adservice.google.com",
+      "adservice.google.de",
+      "googleads.g.doubleclick.net",
+      "pagead2.googlesyndication.com",
+      "partner.googleadservices.com",
+      "tpc.googlesyndication.com",
+      "www.google.com",
+      "www.googletagservices.com"
+    ]
+  }
+}

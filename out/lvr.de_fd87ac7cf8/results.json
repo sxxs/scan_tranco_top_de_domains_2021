@@ -1,0 +1,793 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.lvr.de",
+      "expires": 1618924464.727233,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 8117.727232933044,
+      "name": "NSC_mc_wt_qspyz_DNTGbsn52_443_TTM",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 77,
+      "value": "ffffffff09091b0c45525d5f4f58455e445a4a42378b"
+    },
+    {
+      "domain": "www.lvr.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 42,
+      "value": "3E6714DDD2F0577E0E6A641CC61440BB"
+    },
+    {
+      "domain": "www.lvr.de",
+      "expires": 1652878749,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.1.5be0",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "b4b96c0b60ef0f8c.1618923549.1.1618923549.1618923549."
+    },
+    {
+      "domain": "www.lvr.de",
+      "expires": 1618925349,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.1.5be0",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.lvr.de/de/nav_main/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "be2ed059a00b1456f91025a03545fb741b9766d32255c46a685af700a33c9492",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1633989599.0,
+      "not_valid_before": 1601979440.0,
+      "serial_number": 25068274704579309675785421946506580843,
+      "subject": {
+        "commonName": "*.lvr.de",
+        "countryName": "DE",
+        "localityName": "Koeln",
+        "organizationName": "Landschaftsverband Rheinland",
+        "organizationalUnitName": "LVR-InfoKom",
+        "stateOrProvinceName": "NRW"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.lvr.de/de/nav_main/metanavigation_5/nav_meta/impressum_1/impressum.jsp",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.4.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://lvr.de/",
+    "https://www.lvr.de/",
+    "https://www.lvr.de/de/nav_main/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://lvr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/de/nav_main/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/screen.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/cookies.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/font_awesome_4.4.0/css_3/font-awesome.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://media.lvr.de/font_awesome/live/css/all.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/js/__basic_behaviour.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f1-eu.readspeaker.com/script/5363/webReader/webReader.js?pids=wr"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/logo_LVR_Logo_141x57.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/lupe.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/groerteaser/2020_1/Header-Corona_BuehneHomepage.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/groerteaser/2020_1/rheinland-reiseland-2021_BuehneHomepage.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/groerteaser/2019_4/BTHG_Banner_BuehneHomepage.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/groerteaser/2017_2/171120_Webteaser_Wege_zum_regular_BuehneHomepage.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/groerteaser/2015_4/rotierender-Teaser-Leichte-Sprache_BuehneHomepage.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/groerteaser/2014_und_aelter/freiwilligendienste_BuehneHomepage.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/temp/teaser_bereich_1_232x127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/dezernatsteaser/startseite-jugend_232x127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/dezernatsteaser/DSC_0080_232x127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/dezernatsteaser/schule_bildschirmarbeit_232x127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/dezernatsteaser/landesmuseumbonn_232x127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/dezernatsteaser/lvr_fahne_232x127.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/AusstellungPlay_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/Museum-BonnTab_play_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/DepressionTabPlay_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/IUnternehmenTabPlay_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/InklusionspauschaleTabPlay_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/ErklaerfilmPlay_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/2015_6/2016-11-25_14_27_04-Peer_Counseling_-_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/HalfeshofTabPlay_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/pressemodul/fb03_bilder_und_dateien_1/2014_3/schulen_1/dezernat_5_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/pressemodul/fb03_bilder_und_dateien_1/2014_3/kultur_1/11170Museumskarte2014LWL-LVRG_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/homepage/tabgalerie/spreadthesign_logo_klein_TabGalerie.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/kultur/kulturlandschaft/ul2l/UrbanLinks_TabGalerie.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/metanavigation/publikationen_4/rheinlandweit/Rheinlandweit_Stapel_202xX.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/derlvr/bilder_243/2017_1/Kinder_hinter_Glastuer_202xX.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/derlvr/organisation/bilder_26/fotolia_1321767_xs_202xX.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/wwwlvrde/derlvr/organisation/lvrdirektor/stabsstelle_inklusion_und_menschenrechte/lvr-vielfalt_202xX.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/lwr.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/rvk.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/kt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/kir.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/font_normal.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/font_big.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/font_huge.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/print.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles_images.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles_images_lvr.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles_lvr.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/am_videoplayer_standalone.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/pinuts.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f1-eu.readspeaker.com/script/5363/webReader/r/r1299/ReadSpeaker.Styles-Button.css?v=3.3.5.1299"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/body.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/corner_b_l.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/corner_b_r.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/sprite_leichte_sprache_alltag.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/gebaerde.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/body_dynamics.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/slideshow_controls.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/sprite.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/border_layout.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/corners_top.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/border.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/tabs-bg.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/tab-bg.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/gallery-tabs-arrows.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/corner_t_r.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/icon_asbutton.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/arrow_imageteaser.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/imageteaser_1_top.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/border_v.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/bgs/border_footer.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalytics.lvr.de/js/container_ykGMk4od.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalytics.lvr.de/matomo.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/gallery_pager_t_l.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/gallery_pager_t_r.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/close.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.lvr.de/media/mastervorlagen/img/icons/select.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalytics.lvr.de/matomo.php?action_name=LVR%20(Landschaftsverband%20Rheinland)&idsite=1&rec=1&r=608333&h=14&m=59&s=9&url=https%3A%2F%2Fwww.lvr.de%2Fde%2Fnav_main%2F&_id=b4b96c0b60ef0f8c&_idts=1618923549&_idvc=1&_idn=1&_refts=0&_viewts=1618923549&send_image=1&cookie=1&res=800x600&gt_ms=43&pv_id=cRFBOZ"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "304",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles_images.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "304",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles_images_lvr.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "304",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "304",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/styles_lvr.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "304",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/am_videoplayer_standalone.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "304",
+      "url": "https://www.lvr.de/media/mastervorlagen/css/pinuts.css"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://lvr.de\r",
+  "third_parties": {
+    "fqdns": [
+      "f1-eu.readspeaker.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

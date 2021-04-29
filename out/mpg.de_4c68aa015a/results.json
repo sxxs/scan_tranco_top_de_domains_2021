@@ -1,0 +1,446 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.mpg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "i18next",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 9,
+      "value": "de"
+    },
+    {
+      "domain": "www.mpg.de",
+      "expires": 1652804978,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.2.b3e9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "c5af243501d9d85e.1618849778."
+    },
+    {
+      "domain": "www.mpg.de",
+      "expires": 1618851577,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.2.b3e9",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": "www.mpg.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_mpg_session_r",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 208,
+      "value": "NTErYmZQL1hPZU1XMzJVSS9sN3pCa201SkZUcWpaYmV1ZUhRT2trT3RTNXZ2VjQwSXVwS1J0N2pOd1B1RjlURXNnRDdvOEh4U3JLdkhBUXhKV3pabnc9PS0tNFdQRnd3WnkzVERGQ0J6TFhxRHlYQT09--fb4a0b7fde67927e50c2ffee8cd8d1597f6838c0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.mpg.de/de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "572e63e47475269b3bb9c35ebecec898a76993a16b3dd512811544e45ea88ab2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "MPG CA - G02",
+        "countryName": "DE",
+        "localityName": "Muenchen",
+        "organizationName": "Max-Planck-Gesellschaft",
+        "stateOrProvinceName": "Bayern"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1652782293.0,
+      "not_valid_before": 1581592293.0,
+      "serial_number": 10644263685157138858944274318,
+      "subject": {
+        "commonName": "www.mpg.de",
+        "countryName": "DE",
+        "localityName": "Muenchen",
+        "organizationName": "Max-Planck-Gesellschaft",
+        "organizationalUnitName": "Max-Planck-Gesellschaft Generalverwaltung",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.mpg.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://mpg.de/",
+    "https://mpg.de/",
+    "https://www.mpg.de/",
+    "https://www.mpg.de/de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://mpg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://mpg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/de"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/merriweather-v22-latin-regular-e19e5fec549d0d871301c8196f4a954abe8d6913464a1ac511f81ef71529f89b.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive_live_green-5d4343bca92c05dfcda1e80b2ef0ad9ca64ce4b62f236f79b9a4a112a17adc2a.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/custom-header-e3c4e70532d2a25e4c6f9a731940a97d2768b3c3e7d6ed9ff250c313552aac7c.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/katex/katex-c4e1de60ef5c55e07248051d501fb6db1b0f648d0953bbd5fdf04119ddd88fd5.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/14902400/original-1618554486.jpg?t=eyJ3aWR0aCI6bnVsbCwiaGVpZ2h0Ijo2MDAsImZpdCI6ImNyb3AiLCJvYmpfaWQiOjE0OTAyNDAwfQ%3D%3D--d37af58f2e5e3408e999f47615e09bff6c1dfe25"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/logo-combined-exp-sm-2ce59c53d5c057b4dc3547a4961065b6a3db5ab9b12c09bad62ba9faf4a4cb67.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/roboto-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300-dc3fe423eb6c56fd8551c06a35e81db17226207f7892223c64b83b597ec56513.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/hottopic-headline-2ebb6351c952336bf3d3a7023385a270fb2f5a25da8db97983ce68acb3e02a1b.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/triangle_ul_gray-b1a0a2129034f95e5fd6a5e668182b24f9a438328fb56e0787a72aa931c0e81a.svg"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/mpg_icons-webfont-9bcce572c7eb4b7d4fde83a97f24418bd1dea64fd814565f5323869e5f5b6054.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/roboto-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700-2d7cd8f8f1b3fc7d668b9b06489397203443d93b6fb634433c5db6cd1ab80042.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.mpg.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/mpg_base-1aec70af2a9428397662be86d8c76a1c84eb33dd5fe474f857385ea9d4885ca9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/katex/katex-bbad797a3d57313a5417854ac813174c4ea860d3bbcbe1eeb178da6d1ec3c603.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.mpg.de/piwik/piwik.php?action_name=Startseite%20-%20Max-Planck-Gesellschaft&idsite=2&rec=1&r=613208&h=18&m=29&s=37&url=https%3A%2F%2Fwww.mpg.de%2Fde&_id=c5af243501d9d85e&_idn=0&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=RUSPHK&pf_net=32&pf_srv=47&pf_tfr=32&pf_dm1=272"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/mpg_fouc-0dfb3e412977804e2ac792d6a7c6f9e73dd6a53b431401580db3511f0fbb8bf4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/mpg_amd-c8dbe0c2917c4a364538e1d65bd5696544536c59f5ae43c56e89206b72c60ba5.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/loading-298ad3ffc38de0d78a845bf1b70f0dd317a3836af385ae9fcf94ed457d9aa1da.gif"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/extension_deferred/12255085/remote?_=1618849777616"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/extension_deferred/13939640/remote?_=1618849777617"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/extension_deferred/14072580/remote?_=1618849777618"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/mpg_amd_bundle-c5cf0857b4a498b59b88625be31d0c8da09cfdf7b2ad0b721658b30ce00323fc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/live/tabcard-b2999baedff100a74540267bdddd349ee22e7b75624fe4d654ca17ad461e063c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/mpg_common/live/intersection-observer-c8d08971cae53888a2f555e5be3576771746ed531b3237510ac60a6a92f074dd.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/mpg_common/live/lozad-0c44123ce4498324dadf2a3bf0bfcb4d3207c97750314d1738e81411aafeb79b.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/yt_logo_mono_dark_48-b8cd3b493795ae4b7f848fdeae0d9ba14d0b449885decc56d378c9ef123280ff.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/socialmedia_images?t=Imh0dHBzOi8vaS55dGltZy5jb20vdmkvRzRLMm1BOFFnNzAvbWF4cmVzZGVmYXVsdC5qcGci--70ef26f2ba7c93078bb8890a6d9ade096e0ca148"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://www.mpg.de/039429d1-e91d-4c93-8372-132110a32f5a"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/responsive/Twitter_Logo_WhiteOnImage-bb6bb4cfbe4afcbd2c8e082e29822a4661ec0be3f7d9ea2dda0d751b77ad380f.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/assets/roboto-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-300italic-c14f91265ebb7c2075da6aadc04265f3dba1f253d78d60685f31dab9da3e262c.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/socialmedia_images?t=Imh0dHBzOi8vcGJzLnR3aW1nLmNvbS9tZWRpYS9FekZDdDJ0WElBRTZ4S18uanBnIg%3D%3D--91212be9fac919657a28be53a2c75530977db80c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.mpg.de/socialmedia_images?t=Imh0dHBzOi8vc2NvbnRlbnQtZnJ0My0xLnh4LmZiY2RuLm5ldC92L3QxLjY0MzUtMC9wMTgweDU0MC8xNzQ0Nzg1ODJfNDE5MjU3Mjk4NzQyMDQ3Nl8zNzg3OTQ3Mzg0NTgxNjg5MzIwX24uanBnP19uY19jYXQ9MTA5JmNjYj0xLTMmX25jX3NpZD04MDI0YmImX25jX29oYz1WWkJVOUFRTmpra0FYOHo1V2pkJl9uY19odD1zY29udGVudC1mcnQzLTEueHgmdHA9NiZvaD0yN2I4ZjlhMDFkYjRhZDFlNjIyNTRlNTk4YjAxZWM5MiZvZT02MEExQjk5QyI%3D--3b7cf53d5a1c0d9ae08035da5e35067e34031ff8"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "piwik.mpg.de",
+        "statistics.mpg.de",
+        "analytics.mpg.de"
+      ],
+      "header_value": "frame-ancestors 'self' piwik.mpg.de statistics.mpg.de analytics.mpg.de;"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://mpg.de\r",
+  "third_parties": {
+    "fqdns": [
+      ""
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

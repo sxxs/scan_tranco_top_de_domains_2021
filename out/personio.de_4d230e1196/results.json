@@ -1,0 +1,768 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.personio.de",
+      "expires": 1619016650,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "wp-wpml_current_language",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 26,
+      "value": "de"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.personio.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a987fc031361a41a8ab3decf3c8d71f67f46cc2c8dc09f7329ad0cb5d6415e30",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1625747003.0,
+      "not_valid_before": 1617971003.0,
+      "serial_number": 279321305451922105678230402756375847488165,
+      "subject": {
+        "commonName": "www.personio.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.personio.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": "16.13.1",
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://personio.de/",
+    "http://www.personio.de/",
+    "https://www.personio.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://personio.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.personio.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/main.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style-8c93cf6de0a15e4bee2e9b80f7c69098.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/css/font-takota-44f80d27039655d4e4f304c642642576.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/tablepress/css/default.min-4e15325dc32abebf2d8ca5dfe5527934.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/personio-visual-composer-shortcodes/assets/css/personio-vc-sub-navigation-menu.min-57e501ffeb9a78ac0c6a74ebce4d6c70.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/personio-visual-composer-shortcodes/assets/css/personio-vc-asset-list-style.min.css?ver=7d98016289f712534863e381233473a1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/uploads/js_composer/js_composer_front_custom-5739d23e3af1c4a719b52d6f903105f3.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack/style/css/bootstrap-731b4a070f06ad836adffd698134c578.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack/style/css/icons-7bed2ea94b248147b0636ace7719fc1d.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack/style/css/plugins-d502b17e063a554aab12262f7748cad6.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/uploads/wp-less/stack/style/css/theme-7c0fd05026-7d5808d363083ed6db3ebf830cc1c3df.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/style-6e642a3a13ff397774ec9c7fa952facc.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack/style/css/iconsmind-58fff032a13de39860b832e45079f645.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/css/font-open-sans-1fa75b8d192a68d03b83d6e5a626c34b.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/gh/kenwheeler/slick@1.7.1/slick/slick-863b1e9a08ec74793124f309131c3153.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/gh/kenwheeler/slick@1.7.1/slick/slick-theme-49468d0e78e2523e1f25e47d36733209.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui-4eb1bc02daea75e8feb5b3b24c6a2595.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/icons/font-awesome-personio-b3b858b610e400bc0229b65efbfae407.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/uploads/wp-less/stack-child/css/less/personio-defaults-v4-d6eabccc30-fe8406d8a92634e1688ae926ebdd589a.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/sitepress-multilingual-cms/res/js/jquery.cookie-bbdb79716e9157d909e4bf8c922647cf.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie-4322c19664be6c25923d7dad2984fc05.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data-a9567be9206c5334e6d8d380aef838cf.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/ajax/libs/jqueryui/1.12.1/jquery-ui.min-0c3ecf20cd05b4a8c611bf17c2f803b0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min-6130c1b8460df453cbbd752e567bc3ba.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/js/personio-security-247403daa4e51d70dfb82cf192ea37a6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/js/menu-button-switcher-4b500084fd1c54053864def941d4adca.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/js/personio-misc-a155aee45f48a3698a4491a36e53f63d.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/personio_logo.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/ajax/libs/jquery-validate/1.17.0/jquery.validate-7d0705e12f58ba97ea89f6781903ab2c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/js/personio-hubspot-form-a9d93318c8b7079c679c82e112f77b7f.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/js_composer/assets/css/lib/isotope.min.css?ver=6.5.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/plugins/templatera/assets/css/front_style-5e472eb8baa673c2eeeb3fea3264a966.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/gh/kenwheeler/slick@1.7.1/slick/slick.min-a2a46a050a6d8780532f6502d7bba39b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack/style/js/parallax-65c8d3ae198c5d3b5621bc8018ec2462.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack/style/js/plugins-c088991969afd81c0f3835cb14da8baa.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/js/scripts_wp-70345a2ccfb7247c78924774c42aaba0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/cache/min/1/wp-content/themes/stack-child/js/scripts-82dd3f35d45c38ee49b424f843d39f3d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.5.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/js_composer/assets/lib/bower/imagesloaded/imagesloaded.pkgd.min.js?ver=6.5.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.5.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/dom-ready.min.js?ver=aca9d46a9f06d1759d4bcd73ba659133"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/vendor/react.min.js?ver=16.13.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/vendor/react-dom.min.js?ver=16.13.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/escape-html.min.js?ver=bf1b8a4ca2c3b18d741a467e1e911a36"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/element.min.js?ver=94cc04e5247c5da340a15732e1f75b45"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-includes/js/dist/i18n.min.js?ver=ac389435e7fd4ded01cf603f3aaba6a6"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/personio-visual-composer-shortcodes/assets/js/personio-vc-newsletter-widget-script.min.js?ver=adbb41441dcf1973afcaa53f42dfef13"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NVQZRL8"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/cloudy.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/path.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack/style/fonts/stack-interface.woff2?33839631"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/fonts/open-sans-v18-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/fonts/open-sans-v18-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/fonts/Takota.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/icons/fonts/icomoon.ttf?cwuw3o"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/checkmark.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/dropdown_arrows.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/icon_contact_phone.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/icons/social/linked-in.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/icons/social/facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/icons/social/instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/icons/social/twitter.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/session_id"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/uPUQCUKkS/latest/de.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=uPUQCUKkS"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/themes/stack-child/assets/img/brush_yellow.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/uploads/2020/04/Illustration_Hero_Home-768x432.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/uploads/2020/06/Recruiting-Screen-Homepage_compressed-1024x743.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/uploads/2020/06/Genehmigungen-1.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/uploads/2020/06/Mitarbeiter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.personio.de/wp-content/uploads/2020/06/Lohnabrechnung.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/cdcs-iframe-index.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=Hysgc4odiZ7@13.6.3,ko1w5PpFl@23.10.10,rkUcEjuoWm@16.5.4,YWbHHDowH@5.2.0,twMyStLkn@15.7.13,H1Vl5NidjWX@40.15.35,JQ2XQxIk@9.6.2,B1Hk_zoTX@17.2.13,S1_9Vsuj-Q@15.6.8,S1pcEj_jZX@21.7.3,HyEX5Nidi-m@12.4.1,BJz7qNsdj-7@15.7.10,HkocEodjb7@52.10.26,ry0QcNodoWQ@6.4.4,gkEBFID-V@5.2.2,9ieiiqaML@2.0.2,Kp0p--e6Q@2.1.1,XxW4PvQas@2.0.1,c-02Gs7Z4@2.1.1,6VdWLkjaT@3.0.5,S1kgcNo_j-m@6.3.4,ryDQcVoOoZQ@8.2.4,R14_GSIPE@1.0.4,Cq7cjkEB5@2.1.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/cdcs.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NVQZRL8"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "header_value": "upgrade-insecure-requests\nframe-ancestors https://community.personio.com https://community.personio.de https://www.personio.com https://www.personio.de https://personio.elearnio.com https://personio.elearnio.de",
+      "upgrade-insecure-requests": [
+        "frame-ancestors",
+        "https://community.personio.com",
+        "https://community.personio.de",
+        "https://www.personio.com",
+        "https://www.personio.de",
+        "https://personio.elearnio.com",
+        "https://personio.elearnio.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; preload",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://personio.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 12
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 12,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "privacy-proxy.usercentrics.eu",
+      "www.googletagmanager.com"
+    ]
+  }
+}

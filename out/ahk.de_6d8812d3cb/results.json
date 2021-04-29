@@ -1,0 +1,1434 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.ahk.de",
+      "expires": 1618917245,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9003,
+      "name": "_pk_id.a4c35308-45c9-4619-b79a-50995ecc1a7e.ae96",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 100,
+      "value": "8a266f39fee3ea79.1618915445.1.1618915445.1618915445."
+    },
+    {
+      "domain": "www.ahk.de",
+      "expires": 1618917245,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9003,
+      "name": "_pk_ses.a4c35308-45c9-4619-b79a-50995ecc1a7e.ae96",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 50,
+      "value": "*"
+    },
+    {
+      "domain": "www.ahk.de",
+      "expires": 1650451445,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543203,
+      "name": "ppms_privacy_a4c35308-45c9-4619-b79a-50995ecc1a7e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 436,
+      "value": "{%22consents%22:{%22analytics%22:{%22status%22:-1%2C%22historyId%22:%2284536d68-b171-4c45-be53-307fa558f8a2%22%2C%22updatedAt%22:%222021-04-20T10:44:05.219Z%22}}%2C%22visitorId%22:%22d793fad2-1c92-7779-31e4-f54c538514fd%22%2C%22domain%22:{%22normalized%22:%22www.ahk.de%22%2C%22isWildcard%22:false%2C%22pattern%22:%22www.ahk.de%22}%2C%22staleCheckpoint%22:%222021-04-20T10:44:05.160Z%22}"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ahk.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "1094149a9d71a91ebdf860e8ee761eb49cab0641862b73047503d5492200cb36",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622228888.0,
+      "not_valid_before": 1614456488.0,
+      "serial_number": 265957401685570331985921124523727522851650,
+      "subject": {
+        "commonName": "ahk.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ahk.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ahk.de/",
+    "https://ahk.de/",
+    "https://www.ahk.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://ahk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ahk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3temp/assets/compressed/merged-17954371f9f69317209ad3ed7d6f4d3c-a980b877894fceb0f6723fa4edc68b31.css?1618913241"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/fileadmin/user_upload/ahklogo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/09ce17bb-71dc-4e7b-93e0-be4615f4cc5b/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/fae605ce-ff2a-4f6f-95b6-2c6fd8c7e462/image/cropperjsfocus/160/90/0,0,1280,720,0,1,1/640,360?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4e50530e-4bc8-4b92-9e3d-d867ae0adb97/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c07b30c6-4c91-4f32-aa5c-5bff85df396b/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/159f2e9f-b07f-47da-83d8-de180d30910c/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f1bf3d83-c92f-48c2-92d5-9a751a0b46d9/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c12cdf3e-d493-4938-b937-56794a7771e8/image/cropperjsfocus/160/90/0,0,1280,720,0,1,1/640,360?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/422c3d79-30ca-4377-b8fb-06a8c11da3f9/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/579c6a03-1c58-45e2-ba56-be63fc398a47/image/autocrop/160/90/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/16620378-febf-448d-abbb-f38a5ffec271/image/cropperjsfocus/160/90/0,0,1280,720,0,1,1/640,360?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/d0970541-93dd-4604-855f-329e09381f91/image/cropperjsfocus/160/90/0,0,1280,720,0,1,1/640,360?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/456d018e-26ab-4090-949d-317406503a28/image/cropperjsfocus/160/90/0,0,1280,720,0,1,1/640,360?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/854dc5bc-d94a-40a8-9c14-97bae5abc444/image/cropperjsfocus/160/90/0,0,1280,720,0,1,1/640,360?poc=true"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_pinboard/Resources/Public/JavaScript/Vendor/moment-with-locales.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_pinboard/Resources/Public/JavaScript/jquery.AhkPinboard.js?1587975915"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8e9cf470-5613-4def-9484-0608b8e43787/image/autocrop/830/107/1?poc=true"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_1.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_1.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_2.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_2.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_3.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_3.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_4.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/FooterBanner/banner_4.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/botprovider.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3temp/assets/compressed/javascript-c8dc3c389b1c8cc512230d21e8c86de5.js?1618913241"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.containers.piwik.pro/a4c35308-45c9-4619-b79a-50995ecc1a7e.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_loupe.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Images/Flag/DE.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_dropdown_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_link.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f4d90c09-dbd5-464a-9190-9d680126989c/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4d30f022-a074-4ad8-9d06-551c70ca5e47/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/3327be33-4656-441e-b352-cf522613a60e/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/2971e426-8b58-421b-85e0-fd42c93016cc/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4abcc520-9d6c-46fe-9949-030e38b7f204/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/a7281a74-7c5b-4ebf-8ccc-af4b1c47cf8f/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8070b7eb-3f82-40fd-8407-2bac2b64704e/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4d18cd76-545b-4801-ad11-ba272a4842fb/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/e025a252-9051-40ba-80a4-558fd6fe45a7/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/1ca91542-3ad0-4e8a-99c8-43a94abddfae/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/a5795703-c092-4782-8b04-313b9cff6bce/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/93e1688e-1b9a-4d88-8f1a-0b7f36bd1dcd/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/9e552fa0-9b2c-42ef-9749-74e451a3495f/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/e24afc17-6290-491c-8009-b31c8b354f58/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/e17cc0a1-ef2b-45ef-9d58-7610d434e074/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4cec9bf2-c4f4-412e-9504-fc8dc6cde6e6/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/cd461ca7-43c9-468b-9559-85dfb8e79a04/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f0c2453f-0a82-40a3-925c-e525d4db1196/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f8286712-fe68-4717-8923-39c6b0a0e576/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/639af2f5-6b86-4e6d-8250-e58131d28dcb/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/707cff61-84c0-4cca-8d53-8bca3d00b202/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/33100d59-5685-45bc-a10b-efeaf3b7530c/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/a56b5211-d780-4a3e-9354-62daf4c45d10/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/627444d7-164f-40bd-b8c9-f54f85e1744b/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4cbb2aae-13e1-43f6-844e-df09a8427e40/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/dd8eb83f-e8ce-4ad1-a792-e45f0ad54a11/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/a8a60666-c6bd-41be-913f-e089501144ea/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/9ef13de9-d123-4056-aa01-0f0b0f3cab33/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/68b1cfb0-71ae-4057-9fc5-54fc6019cc4a/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/369f5c1d-dcc3-4d8c-9827-58275466fda9/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f3657cc8-69b3-417f-a5eb-5252816d6ecc/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8a38fb15-4856-4fb5-893c-29bb7e137083/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c4679cb9-4831-40e3-b6b3-45d9ebff70be/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/6370e75d-97ee-44b4-968a-b2eb42298310/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f9f1b78a-2fd0-4869-a24a-56dc62f101d8/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/a2e3cfd2-d7da-48fa-b406-99b9ac3b55e7/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/d1192fda-b964-43b0-ab67-5d0a292ff86e/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/31a57c22-19c0-438c-a80c-135d983bcde9/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/7beb53c3-7ec2-47d2-b2e4-0a3bee1afce5/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8cb4dc1c-9524-4006-8c1d-d2ced4b49ca7/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/b9a47057-ddc3-4f2a-a8cf-10bd8b996cf0/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4b17f1df-c7de-4e49-991b-aec2f48ac142/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/aa273f89-02f6-4b28-8ffe-467dd1e2f3be/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/5ae514a0-b332-4102-b8ed-96ffb9843505/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4be3bfc1-3151-4f11-b813-adf7606ec4b5/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c0f868a8-a4b5-44b8-b061-82304706d8f9/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/e89df039-155c-43d1-8a28-f62162380766/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/7102b961-106d-4480-bdc8-6cb18d19ab31/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/b4802e5d-02b6-4013-99e2-b3ecb50390a2/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/72d86b12-20ce-4ca0-995f-d163327cee8c/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/d6cf9a95-4bac-4046-96fd-ece0cf5409ef/image/autocrop/650/433/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c3a99cd2-f708-406f-93dd-ced0cfa4b194/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/917d9bb0-824a-452d-b449-7ae125ae1edd/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c1a0c919-9af5-4c63-bde8-6aa58014c89c/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/bb089191-8ef0-483f-b0a3-126785c45cc6/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/784994ad-7baf-45e6-bb54-2180227ea1c0/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/32f9ce7d-f65c-40ed-a5c2-d784cf09c375/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f8e4048d-a61a-4b9a-83f3-5101713eaee2/image/autocrop/28/18/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/0209d66d-1ea5-4aba-98f5-a424dd93a7a5/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/3abd6bc5-2d14-4dd7-8c36-ac118ff07d37/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/ae580eb1-bb38-4b85-8991-b7bc586dcfa2/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/ad75d62f-790e-4907-99cf-4fe3e23f3582/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/46a26718-d7ad-4644-a845-9b6404714381/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8aab5fe2-c2f1-4d61-b410-d71ef1c6098d/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/98c01961-1e55-453d-bcbb-e540cbd283f8/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/b26b1dca-7ac8-4a64-b486-f4be7068b213/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/5ba8a183-1a89-4044-b119-b3e74537b820/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f13b1127-d5cb-4e3f-aeb4-4261fa0635bd/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/33d779bb-5f7b-4dc3-86db-84c920b272f9/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/bdddf865-b844-49b0-b153-9e0404f35ae3/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/608a5f48-7b83-4f13-baaf-1ebd221d5c78/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/cad9c742-b23a-45e6-82c3-9fca810416c5/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/a4d61ef8-1ed3-43cd-93a5-0fa4d2a35677/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/5bf94555-b1b6-4c2a-8a54-f24819eeea9b/image/autocrop/50/33/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/3e4959e6-d178-4e85-aadd-61265f8beb97/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/e1e4a90e-4f45-4c66-a919-61b82fe68664/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/0a6eb031-4da2-4096-b0d0-0c57439a6d36/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/3317e10a-e44b-4439-bd18-768ea80f0107/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/f9bb9afb-8a66-432f-ae49-2c112aa2c84d/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/b26a85fd-8c76-4705-8dd5-618827fe3208/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/7686738e-cc23-4981-95f2-f45e7232313e/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/12a9eb82-1ffc-4847-b072-479e88f866bf/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4680cfb6-cfd0-4f0c-a496-85ede07588b9/image/autocrop/52/36/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/46a39a2a-82e0-430e-a0e0-47c7c3e48823/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/af1224a8-a88c-4719-b192-b61d3489918f/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/fc4e5005-3b5d-4287-b176-f97da1f07aae/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/44b2040b-dab5-45bb-b371-30d963db817d/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/90dda056-cb2a-4fee-974a-e4fdf791f438/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/7167c805-7e1a-4a22-9b79-ecdc6ffef5fb/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/591566e9-3049-4f5e-bd8f-c0c040bfc213/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/277d8df5-8dfb-41c9-ad75-7e7eadb67578/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/220e6ede-b465-43a6-a028-3dbffc9b5ae8/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/0475ae21-3a2b-49c4-a8ea-c84052536d82/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/7990c1d3-504e-4c7c-bf7c-3e6ed622b181/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/ee0bea65-05da-4687-9656-51ebe088893c/image/autocrop/50/34/1?poc=true"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_x.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_link_light.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_totop.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/bot_style.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/bot_script.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/script.php?id=0c0829e8571a8297d905b228897323e2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/Slider/icon_prev.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/b43d6662-94e5-44b4-b312-2a6cdf3932cc/image/autocrop/1331/843/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/75192f48-786b-4062-a8e5-56b78353a669/image/cropperjsfocus/1280/631/0,0,1280,631,0,1,1/806.5047120418848,539.4884816753927?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/4f1bccab-1627-4b05-9015-d065783ca724/image/cropperjsfocus/1280/669/0,0,1280,669,0,1,1/441.77777777777777,316.1164874551971?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/fc98951b-8a39-40fc-9bbc-5377da69d283/image/autocrop/830/480/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/e811c0da-a565-4901-9702-5fdbcd4d4706/image/autocrop/790/460/1?poc=true"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/Slider/icon_next.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/806ef25d-d1d3-4e8b-beb2-30709483a28c/image/autocrop/2000/500/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/c7f18bcf-5731-41f8-a145-f4f9c3313983/image/autocrop/300/174/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/988b9744-235c-4073-abbf-1e9565593346/image/autocrop/300/174/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/dfdf5b2b-05e0-4b81-9abe-14e96fafb3c0/image/autocrop/300/180/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8bb2eead-cf3d-4124-8cd5-03d62202b0dd/image/autocrop/300/174/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/b93424e7-accd-4894-93f8-4b38efa53c3d/image/autocrop/300/180/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/897ef5f4-e343-447f-b127-3d60bbbfd609/image/autocrop/830/480/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/ab575c22-ffaa-4e9b-8558-2a77cfee8278/image/autocrop/356/139/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/8052086c-90b2-4934-88c0-18ae6baeca22/image/autocrop/356/160/1?poc=true"
+    },
+    {
+      "mime_type": "application/rss+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/index.php?type=100&L=0&cuid=156879&id=15047&limit=3&t=1618915443949"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/index.php?type=13112019&L=0&cuid=156937&id=15047&limit=9&t=1618915443949"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/index.php?type=1481736394&pluginCeUid=202235&id=15047&t=1618915443949"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://filehub.admiralcloud.com/v5/deliverFile/0201e4e0-901a-4197-af87-98aad3c32208"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.piwik.pro/ppms.js"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://mediafra.admiralcloud.com/customer_609/ac5cdeb2-ac72-4387-b738-1fde9d9230d7?response-content-disposition=inline%3B%20filename%3D%22Clip_125_Jahre_AHK_Film.mp4.mp4%22&Expires=1618915799&Key-Pair-Id=APKAI2N3YMVS7R4AXMPQ&Signature=dAZW2Md4cu0Drjbzgm3QiX~N841w7iGFcsHmP7ug~uWEB4ZixKKN8DguoqNhYm6YIhRnad25EfYr6zvs-sYfZCR1l4U4YK3DScb0tRZiiZbmCtB0sO3WCG8eopH6PaQNm40jUkoXSJw2TEQ7UlLTteGVc73ORNrhtti4WlkLmDtBgDZDhGJ61CQGa6hwecgRAL002EQSnlVGowFTc0JqbgyQmS7WM1ionP1L-v1hPuMQOZBkZNXVuDud~b59GZd9QJDf0oh6XQDWYON36GUmsGmwL6uM149KISzwaTDvvBiZqSH3I2lPA7HiSxtX~tfaM2YQzqTrsYU5QXwzfJrlTA__"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.containers.piwik.pro/a4c35308-45c9-4619-b79a-50995ecc1a7e/privacy-templates.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.containers.piwik.pro/a4c35308-45c9-4619-b79a-50995ecc1a7e/privacy-templates.json"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.piwik.pro/ppms.php?action_name=AHK%20-%20F%C3%BCr%20die%20Wirtschaft.%20Weltweit%20vor%20Ort.&idsite=a4c35308-45c9-4619-b79a-50995ecc1a7e&rec=1&r=082853&h=12&m=44&s=5&url=https%3A%2F%2Fwww.ahk.de%2F&uia=1&_id=8a266f39fee3ea79&_idts=1618915445&_idvc=1&_idn=0&_viewts=1618915445&send_image=1&cookie=1&res=800x600&gt_ms=302&pv_id=IvF4M9"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://mediafra.admiralcloud.com/customer_609/ac5cdeb2-ac72-4387-b738-1fde9d9230d7?response-content-disposition=inline%3B%20filename%3D%22Clip_125_Jahre_AHK_Film.mp4.mp4%22&Expires=1618915799&Key-Pair-Id=APKAI2N3YMVS7R4AXMPQ&Signature=dAZW2Md4cu0Drjbzgm3QiX~N841w7iGFcsHmP7ug~uWEB4ZixKKN8DguoqNhYm6YIhRnad25EfYr6zvs-sYfZCR1l4U4YK3DScb0tRZiiZbmCtB0sO3WCG8eopH6PaQNm40jUkoXSJw2TEQ7UlLTteGVc73ORNrhtti4WlkLmDtBgDZDhGJ61CQGa6hwecgRAL002EQSnlVGowFTc0JqbgyQmS7WM1ionP1L-v1hPuMQOZBkZNXVuDud~b59GZd9QJDf0oh6XQDWYON36GUmsGmwL6uM149KISzwaTDvvBiZqSH3I2lPA7HiSxtX~tfaM2YQzqTrsYU5QXwzfJrlTA__"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://www.ahk.de/undefined"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/aeaf552c-df81-4a3d-89a8-16ddd6063ec5/image/cropperjsfocus/960/555/0,0,960,555,0,1,1/280.8684412839863,432.3019285851915?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/bf6b69c8-1eea-4ed3-9193-c89173fb9d7e/image/cropperjsfocus/1920/1215/0,0,1920,1215,0,1,1/959.9999999999999,607.5?poc=true"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ahk.de/typo3conf/ext/ahk_sitepackage/Resources/Public/_Default/Icons/icon_twitter.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/server.php?rqst=track&output=jcrpt&group=Bot&hg=Pw__&hcgs=MQ__&htgs=MQ__&ovltwo=MQ__&ovlv=djI_&ovltwo=MQ__&ovlc=MQ__&esc=I2QzZDlkZg__&epc=IzE0Mzc1Yw__&ovlts=MA__&hfk=MQ__&ovlapo=MQ__&nse=0.9373627821931676"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/resource.php?t=js&1=jsglobal.min.js&2=jsbox.min.js&3=jstrack.min.js&v=ahgzixd7&4=jsextern.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/resource.php?t=css&1=style.min.css&2=chat_ahgzixd7/style.min.css"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/fonts/roboto-v18-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/fonts/roboto-v18-latin-regular.woff2?x"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.piwik.pro/ppms.php?e_c=consent_form_impression&e_a=popup&idsite=a4c35308-45c9-4619-b79a-50995ecc1a7e&rec=1&r=179167&h=12&m=44&s=5&url=https%3A%2F%2Fwww.ahk.de%2F&uia=1&_id=8a266f39fee3ea79&_idts=1618915445&_idvc=1&_idn=0&_viewts=1618915445&send_image=1&cookie=1&res=800x600&gt_ms=302&pv_id=IvF4M9"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ahk.messengerbot.ai/chat/server.php?rqst=track&tv=2.3.1.3&b=NTQ1YjIwNGMwNg__&pc=MQ__&i=NmFhZDE0YzJiZQ__&ptl=de&cd=MjQ_&rh=NjAw&rw=ODAw&tzo=Mg__&dc=QUhLIC0gRsO8ciBkaWUgV2lydHNjaGFmdC4gV2VsdHdlaXQgdm9yIE9ydC4_&ue=YUhSMGNITTZMeTkzZDNjdVlXaHJMbVJsTHdfXw__&group=Bot&hg=Pw__&hcgs=MQ__&htgs=MQ__&ovltwo=MQ__&ovlv=djI_&ovlc=MQ__&esc=I2QzZDlkZg__&epc=IzE0Mzc1Yw__&ovlts=MA__&ovlapo=MQ__&full=1&sc=1&ri=MQ_"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/5b6b1ee6-c261-48d6-a7be-3a064225238d/image/autocrop/356/258/1?poc=true"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.admiralcloud.com/v3/deliverEmbed/1e0a2e8c-dbe9-44e0-a806-55dbdbc518c3/image/autocrop/356/177/1?poc=true"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://mediafra.admiralcloud.com/customer_609/ac5cdeb2-ac72-4387-b738-1fde9d9230d7?response-content-disposition=inline%3B%20filename%3D%22Clip_125_Jahre_AHK_Film.mp4.mp4%22&Expires=1618915799&Key-Pair-Id=APKAI2N3YMVS7R4AXMPQ&Signature=dAZW2Md4cu0Drjbzgm3QiX~N841w7iGFcsHmP7ug~uWEB4ZixKKN8DguoqNhYm6YIhRnad25EfYr6zvs-sYfZCR1l4U4YK3DScb0tRZiiZbmCtB0sO3WCG8eopH6PaQNm40jUkoXSJw2TEQ7UlLTteGVc73ORNrhtti4WlkLmDtBgDZDhGJ61CQGa6hwecgRAL002EQSnlVGowFTc0JqbgyQmS7WM1ionP1L-v1hPuMQOZBkZNXVuDud~b59GZd9QJDf0oh6XQDWYON36GUmsGmwL6uM149KISzwaTDvvBiZqSH3I2lPA7HiSxtX~tfaM2YQzqTrsYU5QXwzfJrlTA__"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff,nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://ahk.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ahk.containers.piwik.pro",
+      "ahk.messengerbot.ai",
+      "ahk.piwik.pro",
+      "filehub.admiralcloud.com",
+      "images.admiralcloud.com",
+      "mediafra.admiralcloud.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 147
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "ahk.containers.piwik.pro",
+      "ahk.piwik.pro"
+    ]
+  }
+}

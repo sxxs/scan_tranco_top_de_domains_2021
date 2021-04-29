@@ -1,0 +1,513 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.ftd.de",
+      "expires": 1653047067,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135201,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "consentmanager.mgr.consensu.org",
+      "expires": 1618919427.313572,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 7561.313571929932,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "2"
+    },
+    {
+      "domain": ".ftd.de",
+      "expires": 1620128667,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216801,
+      "name": "__cmpconsentx19332",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 98,
+      "value": "CPE83ISPE83ISAfU0BDEBWCgAAAAAAAAAAYgAAAO8gGAFOAM-ArABggDbwG4gNzAb4A7EB2wDuQHeAAA"
+    },
+    {
+      "domain": ".ftd.de",
+      "expires": 1620128667,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216801,
+      "name": "__cmpcvcx19332",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 21,
+      "value": "__s23__"
+    },
+    {
+      "domain": ".ftd.de",
+      "expires": 1620128667,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1216801,
+      "name": "__cmpcpcx19332",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 18,
+      "value": "____"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621511067.582714,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.582714081,
+      "name": "__cmpconsentx19332",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 98,
+      "value": "CPE83ISPE83ISAfU0BDEBWCgAAAAAAAAAAYgAAAO8gGAFOAM-ArABggDbwG4gNzAb4A7EB2wDuQHeAAA"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621511067.582785,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.582784891,
+      "name": "__cmpcvcx19332",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 21,
+      "value": "__s23__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621511067.582811,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.582811117,
+      "name": "__cmpcpcx19332",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 18,
+      "value": "____"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 0,
+    "third_party_long": 3,
+    "third_party_short": 1,
+    "trackers": [
+      "consensu.org"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ftd.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "6e65f647b678d3d0abd176dd7fa91d8fba45c35c4237e45da2cedf3e16c19d79",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622931195.0,
+      "not_valid_before": 1615158795.0,
+      "serial_number": 347781794669645935206531606119755912822712,
+      "subject": {
+        "commonName": "ftd.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ftd.de/impressum/#cmpnoscreen",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ftd.de/",
+    "http://www.ftd.de/",
+    "https://www.ftd.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://ftd.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.ftd.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/cache/autoptimize/css/autoptimize_031067dd01de7702cfd52787817b360a.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Lato%3A400%2C400i%2C700%2C700i%2C900&ver=5.6"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/cache/autoptimize/js/autoptimize_296dd4921763b40a7177d66cef57f518.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KM2XG5M"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/themes/ftd/assets/img/footer-logo.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/themes/ftd/assets/font/fontello.woff2?93467937"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh6UVSwiPGQ.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.fontawesome.com/releases/v5.8.1/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/lato/v17/S6u8w4BMUTPHjxsAXC-q.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2019/03/theguardian.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2019/03/bloomberg-320x60-1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2019/03/wikipedia-320x60.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2019/03/techcrunch-320x60.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2019/03/heise.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/themes/ftd/assets/img/small-logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2021/01/aktien-gluecksspiel-casino-wallstreet-389x256.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2020/12/gaming-esports-aktien-e1608039332492-389x256.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2020/11/neue-online-zahlungsanbieter-apple-pay-google-pay-samsung-pay-e1605605582336-389x256.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2020/10/coronakrise-gewinner-verlierer-online-cloud-389x256.jpeg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=19332&h=https%3A%2F%2Fwww.ftd.de%2F&&l=en&o=1618919067140"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?__cmpcc=1&id=19332&o=1618919067&h=https%3A%2F%2Fwww.ftd.de%2F&&l=en&odw=0&dlt=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfMTkzMzIuZF84NzQ2LnhfNy52LnRfODc0Ng.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/lang/langpurpose_de.min.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=19332&did=1&cfdid=5548&t=pv.d_ncs.d_ancs.d_bncs.cf.cfx&h=https%3A%2F%2Fwww.ftd.de%2F&o=1618919067448&l=DE&lv=15706&d=1&ct=14&e=&e2=&e3=&i=&sv=16&dv=7&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=19332&did=1&cfdid=1&t=cv&h=https%3A%2F%2Fwww.ftd.de%2F&o=1618919067453&l=DE&lv=15706&d=1&ct=14&e=&e2=&e3=&i=&sv=16&dv=7&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=19332&p=2&v=4&cvc=_s23_&cpc=__&c=CPE83ISPE83ISAfU0BDEBWCgAAAAAAAAAAYgAAAO8gGAFOAM-ArABggDbwG4gNzAb4A7EB2wDuQHeAAA&l=DE&lv=15706&d=1&ct=0&e=&h=https%3A%2F%2Fwww.ftd.de%2F&e2=&e3=&i=&sv=16&dv=7&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2020/10/fake-shops-389x256.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ftd.de/wp-content/uploads/2020/09/gambling-online-casino-unternehmen-corona-389x256.jpeg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://ftd.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "use.fontawesome.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 17
+  },
+  "tracking": {
+    "num_tracker_cookies": 4,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ]
+  }
+}

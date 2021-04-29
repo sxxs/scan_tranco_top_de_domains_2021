@@ -1,0 +1,868 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "zkm.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "has_js",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 7,
+      "value": "1"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "YSC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "Gh3dqJus5fs"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1634473249.794456,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 15559201.794456005,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "yLo2vjNkeEE"
+    },
+    {
+      "domain": "zkm.de",
+      "expires": 1621513250,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599202,
+      "name": "cookie-agreed-version",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 26,
+      "value": "1.0.0"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1652617250.977021,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 33703202.97702098,
+      "name": "IDE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 67,
+      "value": "AHWqTUmkndbi6iUcibCtUtPJ5dIzgUWSWI3twZz55rfQERp4EwL5-SKQXOEUGXpi"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 2,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net",
+      "youtube.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://zkm.de/de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": false,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "t0",
+        "tracking_id": "UA-53395341-1"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5271360492464456cc00d29482319fc6a9b824cfc9d145c3513db4817e1ba884",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1646493910.0,
+      "not_valid_before": 1612193110.0,
+      "serial_number": 11208749145045668063379894813,
+      "subject": {
+        "commonName": "zkm.de",
+        "countryName": "DE",
+        "localityName": "Karlsruhe",
+        "organizationName": "Zentrum fuer Kunst und Medien Karlsruhe",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://zkm.de/de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://zkm.de/",
+    "https://zkm.de/",
+    "https://zkm.de/de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://zkm.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/de"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/css/css_j_7NYe1KpibisRC-Y9iF96hUa1u9aY46O-h6ZqS2ZjQ.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/css/css_CkKjqqXQ93jtnudFp4FjViegTDRbF-ZhOvfpVvvKHbk.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/css/css_BuSkkhSvy2T4kpHVj00PLnLYV7fiZoAdIiTKuCckp98.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.jquery.com/jquery-migrate-1.4.1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/misc/jquery-extend-3.4.0.js?v=2.2.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/misc/jquery-html-prefilter-3.5.0-backport.js?v=2.2.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/misc/jquery.once.js?v=1.2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/misc/drupal.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/languages/de_wX4A-QJCLUab3wEMIigbdE6YAqTVxE__siZAlbQmLBk.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/apachesolr_autocomplete/apachesolr_autocomplete.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/apachesolr_autocomplete/jquery-autocomplete/jquery.autocomplete.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/libraries/colorbox/jquery.colorbox-min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/colorbox/js/colorbox.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/colorbox/styles/default/colorbox_style.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/colorbox/js/colorbox_inline.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/custom/zkm_digital/scripts/zkm_digital.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/google_analytics/googleanalytics.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/custom_BS.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/custom_audio.js?qrtb3x"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/logo_invert.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/zkm-berechenbar-unberechenbar-zdf-digitale-kunstalle.png?itok=6erc0mmt&c=0da94341074134f37160457afc47a6de"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/zkm000186235_bearbeitet.jpg?itok=tawaj8Cs&c=d52be24e55323caebdf697d9bf617822"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/crawlers_webbanner.jpg?itok=YQPyF1ex"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/tatue_klangdomkonzerte_bruemmer_1.jpg?itok=RTyY7RFa&c=e94d0d557189a12512833657366949d8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/_v5a8041_0.jpg?itok=7tKo6MiE"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/zkm_cz-banner_1280x800_1.png?itok=s_69CT2n"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/zkm_vernetzt_euch_mit_uns_deutsch.jpg?itok=YZP5G5EA"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_1280/public/bild/cz_assembly_diagram_website.jpg?itok=CPqLVIy8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/ligna-zerstreuung_c_dajana-lothert-8.jpg?itok=pW0JlspN"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_1280/public/bild/2020-we-link-sideways-7.png?itok=SD0UMnRt"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/_v5a8094.jpg?itok=Wl6VNnb2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/2021-digital-imaginaries-cover.png?itok=eW81cUWC"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/2016-zkm-giga-hertz-preis.jpg?itok=HiafScy7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720_v/public/bild/2017_zkm_pk_poetischeexpansionen_onuk_040.jpg?itok=xVsgOtXk"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/ipadmalerei_0013_elusch.jpg?itok=BdfzG9Nc"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/received_10155802951878234.jpeg?itok=3vPwkhpi"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_720/public/bild/franz_wamhof_aust_lichtkunst_001.jpg?itok=crCrHfX8&c=5b2c217ecddce4ec598fcdd597088fbb"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/stadt-karlsruhe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/bw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/enbw.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/ard.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/arte.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/swr2_logo_sw.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/kulturstiftung.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/baden-wuerttemberg_stiftung.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/ASS_Logo_sw.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/Ircam_logo.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/kit_logo_de.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/podium_logo.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/SWR_classic_ex_als_partner.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/hfg_karlsruhe.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/staedtische-galerie-karlsruhe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/tripadvisor-certificate.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/ready.min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/vendor.min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/main.min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/filter.min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/galleryWrapper.min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/js/eventHeader.min.js?qrtb3x"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?qrtb3x"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/embed/a2pCgqIsjsU?rel=0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/media/styles/r17_1280/public/bild/plot_zkm_web_nurkarte_20180608-2.jpg?itok=RKTRlbGE"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/logo_telegram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/logos/logo_linkedin.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/images/layout/footer/icon_footer_podcasts.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/fonts/4e8235ea-6c2d-4558-8333-b643573ae837.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://zkm.de/sites/all/themes/r17/assets/fonts/77e1b713-e44f-47f3-b078-5e69368a9b78.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-player-webp.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-embed-player.vflset/www-embed-player.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/player_ias.vflset/en_US/base.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/fetch-polyfill.vflset/fetch-polyfill.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/id"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.doubleclick.net/instream/ad_status.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/player_ias.vflset/en_US/remote.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/th/Eo2uQYGC3KjojdOpFFBTe1iI0pIiTcCZpunpdwcO764.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/player_ias.vflset/en_US/embed.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://yt3.ggpht.com/ytc/AAUvwnijz94pgpAll_TIn-3Fm65WdMxTQf6dcBdOn3GGnQ=s68-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.ytimg.com/vi_webp/a2pCgqIsjsU/maxresdefault.webp"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.youtube.com/generate_204?rhyUSw"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-FROM https://vr-easy.com",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://zkm.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.jquery.com",
+      "fonts.gstatic.com",
+      "googleads.g.doubleclick.net",
+      "i.ytimg.com",
+      "static.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.gstatic.com",
+      "www.youtube.com",
+      "yt3.ggpht.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 19
+  },
+  "tracking": {
+    "num_tracker_cookies": 3,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "googleads.g.doubleclick.net",
+      "static.doubleclick.net",
+      "www.google-analytics.com",
+      "www.youtube.com"
+    ]
+  }
+}

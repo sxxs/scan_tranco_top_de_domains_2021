@@ -1,0 +1,589 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".joyclub.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "FUP_sid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 47,
+      "value": "46102c498201aa70c2f5ae2f6ed41cc5d7a549aa"
+    },
+    {
+      "domain": ".joyclub.de",
+      "expires": 1618954955.39373,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 50401.393729925156,
+      "name": "FUP_vid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 39,
+      "value": "46102c498201aa70c2f5ae2f6ed41cc5"
+    },
+    {
+      "domain": "www.joyclub.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "FUPlid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 26,
+      "value": "331357706.20480.0000"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.joyclub.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e19279fec96e9ed51374af59235a1272f286509b0b8c7cf8e8adb58c1a9b617a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1653256799.0,
+      "not_valid_before": 1590098400.0,
+      "serial_number": 336087109155223175255002809860377486422,
+      "subject": {
+        "commonName": "*.joyclub.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.joyclub.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://joyclub.de/",
+    "https://www.joyclub.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://joyclub.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyclub.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/style/joyicons.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/vendor/glyphicons/glyphicons-halflings.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/vendor/glyphicons/glyphicons.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/bootstrap.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/style_main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul_main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul/navigation/navigation.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul/navigation/navbar.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/09633/vendor/jquery.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/0.d7bb13f9c0627e6d8565.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/wp_chunk/3.021ebcaee4d62fc2156a.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/wp_chunk/2.8b964a89357285d40a76.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/wp_chunk/1.192340ecd5b42a555522.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/413.9ff734d58533f95949db.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/startpage/joyclub_logo_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/logo/DE_claim.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/etc/tuev_gepruefter_datenschutz2_small.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/etc/testsiegel_getestet_de.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/etc/jc_veri_member_round.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.joyclub.de/img/_.gif"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul/about_joyclub.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul/startpage/startpage_i18n.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul/startpage/startpage.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/modul/ui/form_ui.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/09633/vendor/bootstrap/bootstrap.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/09633/vendor/bootstrap/bootstrap-dialog.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/172.ade0b6958bc7e6cf2b2b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/791.4b0879f65f1811baca08.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/153.456027c2b30b85665a7b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/148.f4cfc79953aadf2ff95a.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/167.d47e1fd2a6d33a410f16.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/163.b070b9f3803846377d7f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/149.b5878a182f3396e51f21.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/625.d2f296c2817ca73a0cae.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/621.fa1904b7420ae1795f21.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/wp_chunk/213.fd66391b2ee316a25eec.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/574.87db6315f16c216c2858.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/wp_chunk/204.52055bafa14b6cbe81cc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/js/549.65f004ac5ece99851e3e.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ma.joyclub.de/js/container_waZwRz8a.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/css/09633/print.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/bg/footer_loop.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/logo/joyclub_logo_gray.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/fonts/vendor/glyphicons/glyphicons-regular.woff2?cache=1618909557491"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/fonts/joyicons.woff2?cache=1618909557491"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/startpage/bg1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/startpage/maps.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.joyclub.de/session/keep_alive"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/etc/app_playstore.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cfnimg.joyclub.de/etc/app_itunes.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-996038837"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://ma.joyclub.de/matomo.php?action_name=JOYclub%20-%20Lebe%20deine%20Lust!%20%E2%9D%A4&idsite=1&rec=1&r=237259&h=11&m=42&s=36&url=https%3A%2F%2Fwww.joyclub.de%2F&_id=&_idts=1618911756&_idvc=1&_idn=1&_refts=0&_viewts=1618911756&send_image=0&cookie=1&res=800x600&dimension4=Gast&gt_ms=182&pv_id=OBrs1p"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self'; script-src https://cfnimg.joyclub.de/ *.joyclub.de https://maps.googleapis.com/ https://www.google.com/ https://www.googleadservices.com/ www.googletagmanager.com *.youtube.de *.youtube.com *.youtube.ch *.youtube.at *.youtube.be https://www.youtube-nocookie.com https://s.ytimg.com www.tenor.com *.giphy.com https://www.gstatic.com/ https://connect.facebook.net/ blob: https://googleads.g.doubleclick.net/ https://paygate.novalnet.de/v2/ 'unsafe-eval' 'unsafe-inline'; upgrade-insecure-requests",
+      "script-src": [
+        "https://cfnimg.joyclub.de/",
+        "*.joyclub.de",
+        "https://maps.googleapis.com/",
+        "https://www.google.com/",
+        "https://www.googleadservices.com/",
+        "www.googletagmanager.com",
+        "*.youtube.de",
+        "*.youtube.com",
+        "*.youtube.ch",
+        "*.youtube.at",
+        "*.youtube.be",
+        "https://www.youtube-nocookie.com",
+        "https://s.ytimg.com",
+        "www.tenor.com",
+        "*.giphy.com",
+        "https://www.gstatic.com/",
+        "https://connect.facebook.net/",
+        "blob:",
+        "https://googleads.g.doubleclick.net/",
+        "https://paygate.novalnet.de/v2/",
+        "'unsafe-eval'",
+        "'unsafe-inline'"
+      ],
+      "upgrade-insecure-requests": []
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16070400; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 16070400,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://joyclub.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "www.googleadservices.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

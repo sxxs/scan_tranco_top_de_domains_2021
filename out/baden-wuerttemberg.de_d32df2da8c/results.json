@@ -1,0 +1,1126 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.baden-wuerttemberg.de/de/startseite/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2b4d6e729b27ed559a68434b2066e77925b58d72db3ea4cbf74bc32d5d88a38e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648461600.0,
+      "not_valid_before": 1583276400.0,
+      "serial_number": 11083468940461926481105285028248710672,
+      "subject": {
+        "commonName": "*.baden-wuerttemberg.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.baden-wuerttemberg.de/de/startseite/de/header-und-footer/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.8.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://baden-wuerttemberg.de/",
+    "https://baden-wuerttemberg.de/de/startseite/",
+    "https://www.baden-wuerttemberg.de/de/startseite/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://baden-wuerttemberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://baden-wuerttemberg.de/de/startseite/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/de/startseite/"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/gudea-regular-optimized.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/typo3temp/assets/css/b51510c60f.css?1614097817"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/stylesheets/main.css?v=2.13.5"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/javascripts/head-sync.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/javascripts/head-async.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/images/logos/logo-bawue.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/images/logos/logo-beteiligungsportal.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/9/csm_dpa_64248371_Test-Labor-Coronavirus_2434x1310_424f907176.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/7/csm_Kretschmann_nachdenklich_dpa_57229220_2434x1310_a390185ac8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/2/csm_dpa_67657224_Impfzentrum-Stuttgart_2434x1310_08745d535b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/a/csm_201216_Auftakt_Buergerforum_Corona_1_2434x1310_9b2a8184cf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/4/csm_Paragraphen_vegefox_com_AdobeStock_135965812_2434x1310_b167e6c032.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/1/csm_Corona_Schnelltest_picturealliance-dpa-SebastianGollnow_232417007_2434x1310_a0e0db8c5b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/4/csm_210122_dpa_231201321_Corona_Impfung_2434x1310_5c8b925848.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/8/csm_dpa_67585652_Corona-rot-Fussgaenger_2434x1310_59fc533244.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/d/csm_Coronavirus-Impfung_dpa_69077037_2434x1310_04a80cb78a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/a/csm_210122_Corona_Gedenken_229742190_dpa_5263_x_3556_cf31420dfa.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/6/csm_210315_dpa_236135668_Schule_Corona_2434x1310_059de83e6a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/4/csm_ITC_Satellitenbau_Friedrichshafen_Airbus_2_c_Airbus_Space_2434x1310_6f071049ff.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/8/6/csm_dpa_68260246_Corona-Impfung_2434x1310_a317cf118b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/d/2/csm_Computerarbeitsplatz_dpa_63333767_2434x1310_184c8c8477.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/8/7/csm_170525_Arzt_Stethoskop_90990808_dpa_2434x1310_0126ab0e36.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/2/e/csm_210205_dpa_231216288_Corona_Impfung_2434x1310_b999473226.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/7/csm_210408_Regionalisierungsmittel_0be0c30ac8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/7/csm_201019_Masken_im_Unterricht_136574301_dpa_2434x1310_76a6d08fb6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/d/csm_210216_dpa_232387211_Corona_Schnelltest_2434x1310_f0c895e259.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/c/csm_Impfen-Ulm-201227_2434x1310_a02_57d5acbd5d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/c/csm_210407_Logo_%C3%96kostrom_im_Nahverkehr_2434x1310_56fe4528f9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/9/csm_Fussgaenger_Zebrastreifen_dpa_56178769_2434x1310_c85ad9809d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/4/csm_210210_Pressestatement_MPK_Videotitelbild_6e440ee6a9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/6/5/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-v66vLw-Dyrc_4c166ab8be.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/6/e/csm_210204_Screen_Juncker-Rede-Europa_2434x1310_a81e6fe776.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/b/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-VnE26jwSluo_a933b3ef0f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/1/csm_210128_Pressestatement_Entscheidung_Kita_GS_Startbild_Youtube_24807260db.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/f/csm_210125_Corona_podcast_Startbild_Youtube_bdae1d8f89.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/6/csm_210119_Statement_Kretschmann_MPK_2434x1310_5e3d03152e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/f/csm_210105_Screen_Video_Kretschmann_Pressestatement_MPK_Corona_2434x1310_800dc33848.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/4/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-vTAaEBQ2mQE_0be4d5e138.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/0/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-a8TOujtLEaA_12deafbbc8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/e/csm_201119_Vorlesetag_Kretschmann_Raeuber_Ratte_2434x1310_7ef88c9e92.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/c/csm_201116_Screen_Video-Kretschmann_2434x1310_e5623243c5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/7/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-p5V4qdiPBtU_120e53a43e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/3/csm_201028_Screen_Video-Kretschmann_2434x1310_9bb52017a2.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/0/csm_201017_Podcast_Kretschmann_Dritte_Pandemiestufe_Vorschau_1_70f5baefa6.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/1/csm_201015_Kretschmann_Landtag_136460565_dpa_2434c1310_6072eb19b2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/f/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-Jaq29tKmC-0_b072a546fb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/7/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-rzH56MHP5kI_6350d3def0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/2/3/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-wLIeDZqeq1w_85fbd26f87.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/d/9/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-t6s_Vr_lgWQ_00229efccb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/d/f/csm_200911_Podcast_Schulstart_Vorschaubild_9b03d9789e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/8/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-Dm0et-TlIys_a31550c8fb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/a/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-3JwTM74qn3U_8b935d83d2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/2/e/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-zvU4sda8Lak_e9ff382327.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/d/csm_200409_Stegmann_Schalte_Lenkungsgruppe_02_2434x1310_fce3b1f133.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/6/csm_Kretschmann-Interview-Bibliothek_dpa_86880848_2434x1310_176bb3a40f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/a/csm_180725_dpa_107494591_Kretschmann_2434x1310_c64b39cfb8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/0/csm_Corona_Demo_Querdenken_Reichsflagge_picture-alliance_Fabian-Sommer_dpa134443296_2434x1310_9c0a3c82b0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/b/csm_200917_SDA_Zwischenbilanz_Kretschmann_KDB4925_2aa17eed09.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/d/e/csm_200416_Telefoninterview_Badische_02_2434x1310_7252020597.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/6/csm_200408_Telefon_Interview_Spiegel_10_2434x1310_a00a4e2dca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/e/csm_130219_LPK-Kretschmann_dpa_37371646_2434x1310_2f605b9271.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/f/csm_190724_dpa_122790698_Kretschmann_Interview_2434x1310_ec06d8b0dc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/b/1/csm_Kretschmann_Interview_2015_dpa_64626637_2434x1310_2cd022ae99.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/6/csm_190820_dpa_123710787_Kretschmann_Waldbegehung_2434x1310_d9bbcfc1a5.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/icons/icons.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/EB_Garamond-Regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/EB_Garamond-Italic.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/EB_Garamond-SemiBold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/EB_Garamond-SemiBoldItalic.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/gudea-regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/gudea-bold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/fonts/gudea-italic.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/b/csm_IMG_0132_MIN_2434x1310_7fb1a5cd40.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/6/a/csm_Kretschmann-Portraet_2016_dpa_80936000_2434x1310_fbfd660988.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/2/1/csm_180916_Rolling_Stone_Kretschmann_Klinsmann_12_2434x1310_43dcafc005.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/b/csm_Susanne-Eisenmann_c-KM_2434x1310_54c0add6ed.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/0/csm_180423_Nefzer_01_efc7f2cff8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/5/csm_160726_Kamerun_Kretschmann_01_700x360_a099a1b883.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/e/csm_Hygieneregeln_Friseuer_Corona_picturealliance_ChristophSchmidt_dpa_132119724_2434x1310_609ea68194.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/f/csm_dpa_67560828_Corona-Impfzentren-Probelauf-Ulm_2434x1310_2d96059c38.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/b/csm_Biodiversitaets-Film-UMBW-2434x1310_79466af0a0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/2/csm_Montage-Solaranlage-NEU_dpa_27706542_2434x1310_f29ba6fdc5.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/3/csm_200915_Faktenclip_2te_Welle_7fd6737da8.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/1/csm_Erde_aus_dem_Weltall_Apollo_8_gemeinfrei_NASA_2434x1310_d3694896ae.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/7/csm_Corona_Test_Mannheim_picturealliance_UweAnspach_dpa_131279885_2434x1310_2875281100.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/8/5/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-trTB4t-00eI_5eaf107ae9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/e/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-IstgE8rZij4_b296edfc2e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/a/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-P3F4G1E76U4_66b272aaf2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/b/6/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-fGmttnaJuYE_88c3e0946c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/a/csm_Intensivstation_Beatmung_Corona_Covid19_picturealliance_MarijanMurat_dpa_131770071_2434x1310_13b67959c3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/d/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-IdXkyKrPB1M_0a88416a13.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/9/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-4AlQLxKB1e0_37bd689a47.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/b/csm_Maske_selbstgemacht_Lubo_AdobeStock_333467723_2434x1310_2125ddc2d2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/8/5/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-BJSLwk_X_mU_d07587ca64.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/d/csm_20191120_Oper_Stuttgart_a_sm2_2434_1310_c99a67c334.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/8/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-nVenTLLyC5I_a4b92a2475.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/d/csm_Schulbeginn-Schultuete_dpa_52017671_2434x1310_77318d815c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/5/csm_Symbolbild_Fake_News_pathdoc_AdobeStock_156381983_2434x1310_6a6ac692da.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/8/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-3RNujc7kK1s_5882139e57.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/c/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview--C46WNVWtW8_96dfcc69c0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/8/csm_100929_Geldscheine_Euro_dpa_39879721_2434x1310_1d9c6f73d3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/9/csm_tx_bwmediathekasset_item-tx_bwmediathekasset_video_preview-gYNWW0aLnzE_07753974bd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/c/csm_20161223_Rettungsgasse_700x360_d20aeeec66.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/c/csm_161208_Vorschau-Cluster-video_81eb0a2b7a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/9/csm_Energielabel_dpa_18601147_2434x1310_584af4ce62.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/2/9/csm_Symbolbild_Cybercrime_Internetkriminalitaet_dpa_105544394_2434x1310_d0fd0e9641.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/e/csm_180905_Aktien-Symbolbild_108692215_dpa_2434x1310_5f6691ff6d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/6/csm_Fuehrerschein_dpa_57576345_2434x1310_8b8b0dd986.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/7/csm_Tablet_Photovoltaik_Solar_dpa_44495437_2434x1310_c4b5b6c6a6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/0/7/csm_Tanken_Franziska_Kraufmann_dpa_49586928_2434x1310_aa620f16b0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/e/csm_100703_Hitze_Klimaschutz_Klimawandel_dpa_84497569_2434x1310_78663dbdc2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/c/csm_Ferienjob_Eisdiele_dpa_59570285_2434x1310_0e019e9909.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/e/a/csm_dpa_64105031_Coronavirus_2434x1310_34ab223865.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/3/csm_Kaeltebus_Stuttgart_DRK_Ehrenamt_dpa_87053074_2434x1310_19ca442cc1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/7/9/csm_Titelbild_Landesfamilienpass_2434x1310_68cf34b66a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/f/d/csm_190619_Wildbiene_2_Artenschutz_dpa_125823001_2434x1310_f53f86fa03.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/7/csm_Unsere-Elektrogeraete_UM_2434x1310_ead4f8b995.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/2/csm_190527_Twitter_RegierungBW_2434x1310_6fd7ad9880.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/6/csm_Elektronikmarkt_Fernseher_dpa_105526675_2434x1310_7503d7d874.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/b/csm_Collection_Wall_Kunsthalle_Mannheim_picture-alliance_Uwe-Anspach_dpa_108690529_2434x1310_2d2ddb8a86.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/4/a/csm_Stadtbahn-Stuttgart_dpa_53517680_2434x1310_a9c94d8c5b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/f/csm_Stromzaehler_dpa_34644613_2434x1310_cd4b75a2af.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/b/csm_Infos-Muetter-Vaeter-2018_2434x1310_612d1ebfeb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/b/csm_DKMS_Blutkrebs_dpa_54648037_2434x1310_60dcfea1b7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/a/5/csm_Pixabay_3552300_Ratte_2434x1310_18400ec58c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/c/csm_Stefan_Brink_Datenschutzbeauftragter_dpa_86144975_2434x1310_282ebf712d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/9/d/csm_Newsletter_Footer_Neckar_Weinberge_dpa_15069811_M_3e3aebb334.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2//images/logos/logo-beteiligungsportal.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/javascripts/main.js?v=2.13.5"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/javascripts/legacy/jquery-1.8.2.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/javascripts/legacy/tablesorter/jquery.tablesorter.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.baden-wuerttemberg.de/piwik.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/5/8/csm_dpa_67585652_Corona-rot-Fussgaenger_2434x1310_bd8fb868e1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/3/1/csm_OP_Maske_MKS_AdobeStock_396439644_2434x1310_3c204fbbe2.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://assets.baden-wuerttemberg.de/2/images/logos/lion.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/templates/gfx/corey/corey_closed.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/templates/gfx/corey/corey_opened.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.baden-wuerttemberg.de/piwik.php?action_name=Startseite%3A%20Baden-W%C3%BCrttemberg.de&idsite=1&rec=1&r=729092&h=10&m=54&s=55&url=https%3A%2F%2Fwww.baden-wuerttemberg.de%2Fde%2Fstartseite%2F&_id=&_idts=1618908895&_idvc=1&_idn=1&_refts=0&_viewts=1618908895&send_image=1&cookie=0&res=800x600&gt_ms=68&pv_id=oiTMsw"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/1/7/csm_Kretschmann_nachdenklich_dpa_57229220_2434x1310_0909fe70fd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baden-wuerttemberg.de/fileadmin/_processed_/c/6/csm_210315_dpa_236135668_Schule_Corona_2434x1310_521593fc8e.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": {
+      "header_value": "worker-src 'none'",
+      "worker-src": [
+        "'none'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768001",
+      "includeSubDomains": false,
+      "max-age": 15768001,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://baden-wuerttemberg.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

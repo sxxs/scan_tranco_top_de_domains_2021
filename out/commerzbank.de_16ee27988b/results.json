@@ -1,0 +1,491 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.commerzbank.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 47,
+      "value": "0000P69nt0uNNpA3O-CTDrpycWM:1ba7e25ro"
+    },
+    {
+      "domain": ".commerzbank.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "qSession",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 24,
+      "value": "bcce0c702bdcd56b"
+    },
+    {
+      "domain": ".commerzbank.de",
+      "expires": 1650387827.217784,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543200.217783928,
+      "name": "cif-language",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "de_DE"
+    },
+    {
+      "domain": "www.commerzbank.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "FESAX",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 26,
+      "value": "1362825388.47873.0000"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.commerzbank.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "eea83b7ff951991628c4862b9a29569a9458b13896756a4f8d91de6a10b04803",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign Extended Validation CA - SHA256 - G3",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624953902.0,
+      "not_valid_before": 1557299465.0,
+      "serial_number": 28773742952728025433123738572,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.commerzbank.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Frankfurt am Main",
+        "jurisdictionStateOrProvinceName": "Hessen",
+        "localityName": "Frankfurt",
+        "organizationName": "Commerzbank AG",
+        "serialNumber": "HRB 32000",
+        "stateOrProvinceName": "Hessen",
+        "streetAddress": "Kaiserstrasse 16"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.commerzbank.de/portal/de/footer1/impressum/impressum_1.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://commerzbank.de/",
+    "https://www.commerzbank.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://commerzbank.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/uccustom_css.css?_c=1610522272320"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/css/main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/css/cms.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/css/header_login.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/jquery_1_12_4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/jquery_ui_1_12_1.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/lib_head.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/lib_smartbanner.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/images/logo_big_svg.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/images/neu_png.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/service-und-hilfe/social-media/grafiken-2019/facebook-icon-25x25.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/service-und-hilfe/social-media/grafiken-2019/twitter-icon-25x25.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/service-und-hilfe/social-media/grafiken-2019/instagram-icon-25x25.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/service-und-hilfe/social-media/grafiken-2019/linkedin-icon-25x25.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/service-und-hilfe/social-media/grafiken-2019/xing-icon-25x25.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/service-und-hilfe/social-media/grafiken-2019/youtube-icon-25x25.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/lib_main.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/lib_cms.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/lib_header_login.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/js/html5shiv-printshiv.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N6W8QC"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/images/bg_metanav_gif.gif"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/fonts/icons_woff.woff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-10-produkte/konten/giro/novo-1/frsau-mit-karte-stoerer/frau-mit-karte-21x9-mit-stoerer.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-10-produkte/wertpapiere/direktdepot/teaser-ohne-stoerer/direkt-depot-21x9_Phone.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-10-produkte/finanzierung/ratenkredit/trio/teaser-453/onlinekredit-lead-21x9_Phone.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-10-produkte/wertpapiere/sparplan/standard-maerz-juni-2021/WP-sparen-handy-maedchen-21x9_Phone.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/-togetherstronger/CoBa_FuF_Zuschnitte_05-Website_Header-1100x419_21zu9_Phone.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/ratgeber/blog/ifo-index/konjunktur-unternehmen_deutschland-21x9_Phone.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/a-20-themen/nachhaltigkeit-5/wissenswertes/wissenswertes-jugendliche-nachhaltig-PORTAL-21x9_Phone.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/main.js?_c=1616494755827"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/de/internal/coba_news/coba_news.js?jscb=news&jscb=cobanews&_=1618851828408"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/bundle.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/settings_de.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=undefined"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/cdcs-iframe-index.html?_fs=www"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/consents.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/portal/media/system/usercentrics/cdcs.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.commerzbank.de/dmconsentmgmt/v1/consents/save"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "Not Modified",
+      "url": "https://www.commerzbank.de/portal/media/system/30.124.24/css/cms.css"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://commerzbank.de\r",
+  "third_parties": {
+    "fqdns": [
+      "app.usercentrics.eu",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "app.usercentrics.eu",
+      "www.googletagmanager.com"
+    ]
+  }
+}

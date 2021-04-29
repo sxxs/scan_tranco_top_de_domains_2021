@@ -1,0 +1,458 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".google.com",
+      "expires": 1634485934.883646,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559202.883646011,
+      "name": "_GRECAPTCHA",
+      "path": "/recaptcha",
+      "priority": "High",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 100,
+      "value": "09ANblmnh_Ea1zlUXwY1qPl-YgN_PEk3JxfvExuhakSib0LopSuqJa64v9GBWwac0mDIs9GcT4sHgLrU2vttSH9so"
+    },
+    {
+      "domain": "drschwenke.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 41,
+      "value": "d65741976e0834aa3f643da24b2d0fc3"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://drschwenke.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [
+        {
+          "arguments": [
+            "image/png"
+          ],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "819d125ed78d39bba553d687249088c8abe2efb2e9a251bba932bd65ad8ab149",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622789353.0,
+      "not_valid_before": 1615016953.0,
+      "serial_number": 366161599706668545378036226521102373217421,
+      "subject": {
+        "commonName": "drschwenke.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://drschwenke.de/service/kontakt/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://drschwenke.de/",
+    "https://drschwenke.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://drschwenke.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/cache/min/1/046a70dbf4035afe5637d66535a93d62.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Cinzel:400%7CGreat+Vibes:400%7CRaleway:400&display=swap"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2017/02/Dr-Thomas-Schwenke-Main-v1_1_2000origcompr.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/dist/hooks.min.js?ver=50e23bed88bcb9e6e14023e9961698c1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/dist/i18n.min.js?ver=db9a9a37da262883343e941c3731bc67"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/dist/vendor/lodash.min.js?ver=4.17.19"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/dist/url.min.js?ver=0ac7e0472c46121366e7ce07244be1ac"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-includes/js/dist/api-fetch.min.js?ver=a783d1f442d2abefc7d6dbd156a44561"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api.js?render=6LdUhIcUAAAAAPtfYShlxcKL2P0BPUpP4so4EEeR&ver=3.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/cache/min/1/9f61f50142cd9745f2f511557314ac31.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/raleway/v19/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/smile_fonts/ronneby/icomoon.woff?t0y29j"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/themes/ronneby/assets/fonts/soc-icons.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/cinzel/v11/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2015/07/dr-schwenke-Profil-Zeigefinger-jpg.jpg?id=19005"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2015/07/website-background-phone_805.jpg?id=18995"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/greatvibes/v8/RWmMoKWR9v4ksMfaWd_JN9XFiaQ.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/themes/ronneby/assets/fonts/fontello.woff?2586346"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/themes/ronneby/assets/fonts/dfd-added-font-icon.ttf?uwi5vc"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js?version=5.4.8"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js?version=5.4.8"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2017/03/logo-dr-schwenke-v2012.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2020/04/dsg-creative-genie-logo-quadtrat2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2020/10/rechtsbelehrung-logo-1024x1024-1-80x80.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2021/04/kurzer_freitag_wake_up_podcast-drschwenke-1-80x80.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/plugins/revslider/public/assets/assets/loader.gif"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdUhIcUAAAAAPtfYShlxcKL2P0BPUpP4so4EEeR&co=aHR0cHM6Ly9kcnNjaHdlbmtlLmRlOjQ0Mw..&hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb&size=invisible&cb=x5zzfsueqk0u"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/styles__ltr.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/bg/sR-PPUH_JfEvmJmKzZpkrzje93EVJEp5B_I-I03HbT0.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/reload?k=6LdUhIcUAAAAAPtfYShlxcKL2P0BPUpP4so4EEeR"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2020/10/rechtsbelehrung-logo-1024x1024-1-350x350.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2021/04/kurzer_freitag_wake_up_podcast-drschwenke-1-350x350.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://drschwenke.de/wp-content/uploads/2021/03/logo-mailchimp-usa-datentransfers-usa-dsgvo-datenschutz-generator-schwenke-350x350.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://drschwenke.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "www.google.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 15
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "image.ard.de",
+      "expires": 1653036588.339732,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135201.33973193,
+      "name": "atidx",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 41,
+      "value": "48D8C686-4095-4D7E-950D-688A595B3F08"
+    },
+    {
+      "domain": "image.ard.de",
+      "expires": 1653036588.339811,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135201.33981109,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "48D8C686-4095-4D7E-950D-688A595B3F08"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ard.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8f644e25def96f9c92b6feb721f1817c73b3f9161b6b9ca60cd13b357f274918",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624399199.0,
+      "not_valid_before": 1617746400.0,
+      "serial_number": 4492974227932145713058931039245716508,
+      "subject": {
+        "commonName": "www.ard.de",
+        "countryName": "DE",
+        "localityName": "Stuttgart",
+        "organizationName": "Suedwestrundfunk Anstalt des oeffentlichen Rechts",
+        "stateOrProvinceName": "Baden-W\u00fcrttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://ard.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ard.de/",
+    "https://www.ard.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://ard.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/css/2.200dd19f.chunk.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/js/2.29a86528.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/js/main.a9263d73.chunk.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/ard.4e2b73c4.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/wirSindDeins.83dca676.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/TheSans_LT_TT4_.27156109.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://composer.ardmediathek.de/core/api/ardpage"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image.ard.de/ard.gif?s=511893&ts=1618908588273&vtag=5.13.2&ptag=js&r=800x600x24x24&re=800x600&hl=10x49x48&lng=en-US&idp=1049489620336&jv=0&p=Startseite::ARD.de/Startseite&s2=1&vrn=1&x1=ARD.de/Startseite&x2=https%3A%2F%2Fwww.ard.de%2F&x4=0&x11=S&x12=Station%C3%A4r&x16=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.114%20Safari%2F537.36&ref="
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image.ard.de/ard.gif?s=511893&ts=1618908588273&vtag=5.13.2&ptag=js&r=800x600x24x24&re=800x600&hl=10x49x48&lng=en-US&idp=1049489620336&jv=0&p=Startseite::ARD.de/Startseite&s2=1&vrn=1&x1=ARD.de/Startseite&x2=https%3A%2F%2Fwww.ard.de%2F&x4=0&x11=S&x12=Station%C3%A4r&x16=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F89.0.4389.114%20Safari%2F537.36&ref=&Rdt=On"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/appIcon.mt.3077714a.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/appIcon.ts.c0071c64.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/appIcon.sp.b6d2516f.png"
+    },
+    {
+      "mime_type": "application/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/templates/pages/export/metaplus/1.2.0/rss_metaplus_https.xml"
+    },
+    {
+      "mime_type": "application/vnd.ard.widget+json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://page.ardmediathek.de/page-gateway/widgets/ard/editorials/64MwMDrpXaACsg4kUuCwcQ"
+    },
+    {
+      "mime_type": "application/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/templates/pages/export/metaplus/1.2.0/rss_metaplus_https.xml"
+    },
+    {
+      "mime_type": "application/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sportschau.de/sportschauindex100~_type-rdf_format-mp120.feed"
+    },
+    {
+      "mime_type": "application/hal+json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://audiothek.ardmediathek.de/homescreen"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/bka-verdachtsliste-101~_v-videowebl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/soeder-545~_v-videowebl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/pressemitarbeiter-101~_v-videowebl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.tagesschau.de/multimedia/bilder/wirecard-ausschuss-109~_v-videowebl.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.ard.de/static/media/TheSans_LT_TT6_.a5efb1d2.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.ardmediathek.de/vrwifdtrtsys/5htuK1pA4dOen8zfunUIww/7c25177ece70d50b900fd5f4f523884a/16x9_AW.jpg?w=960"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.ardmediathek.de/vrwifdtrtsys/7tB6SQ88zP888eagLpb43V/580d5c28cd621b3c5b73f2d9dd29fe7f/F1_Mapa_2.jpg?w=960"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.ardmediathek.de/vrwifdtrtsys/1xnt0evaBa7030IEEfr8pa/d22090937a40b3235a5f424c5d04514e/__filename__?w=960"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.ardmediathek.de/vrwifdtrtsys/rizhlQVVnOkr8brfo660d/dbde64592cf291852f2fbf64bd4b8377/Klassik-premiumteaser-16-9.jpg?w=960"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.ardmediathek.de/standard/00/88/41/89/88/-1774185891/16x9/960?mandant=ard"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.ardmediathek.de/standard/00/88/41/95/38/-1774185891/16x9/960?mandant=ard"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.ardmediathek.de/standard/00/88/40/72/76/-1774185891/16x9/960?mandant=ard"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img.ardmediathek.de/standard/00/88/32/20/00/-1774185891/16x9/960?mandant=ard"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://image.ard.de/ard.gif?s=511893&ts=1618908589570&vtag=5.13.2&ptag=js&r=800x600x24x24&re=800x600&hl=10x49x49&lng=en-US&ati=PUB-[ARD.de/Startseite]-[Axel%20Wagner%20und%20die%20Klimakrise%20|%20Eindrucksvolle%20Dokuserie]-[Sendung]-[Station%C3%A4r]-[ARD-Mediathek%20|%20Pos.%201]-[https://www.ardmediathek.de/ard/sendung/die-klimakrise-oder-dokuserie/Y3JpZDovL3N3ci5kZS9zZGIvc3RJZC8xMzEz/]-[ARD.de%20|%20Pos.%201%20|%20S]-[https://www.ardmediathek.de/ard/sendung/die-klimakrise-oder-dokuserie/Y3JpZDovL3N3ci5kZS9zZGIvc3RJZC8xMzEz/]&type=AT&stc="
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sportschau.de/fussball/bundesliga/Allianz-arena-muenchen100~_v-ARDFotogalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sportschau.de/fussball/nationalmannschaft/joachim-loew-498~_v-ARDFotogalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sportschau.de/regional/mdr/mdr-julian-nagelsmann-rb-leipzig-image104~_v-ARDFotogalerie.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.sportschau.de/fussball/bundesliga/fussball-bundesliga-leverkusen-hannes-wolf-100~_v-original.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "*.ardmediathek.de",
+        "*.tagesschau.de",
+        "*.sportschau.de",
+        "*.kika.de"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "font-src": [
+        "'self'",
+        "data:"
+      ],
+      "header_value": "default-src 'self';img-src 'self' data: *;font-src 'self' data:;connect-src 'self' *.ardmediathek.de *.tagesschau.de *.sportschau.de *.kika.de;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.ioam.de;style-src 'self' 'unsafe-inline'",
+      "img-src": [
+        "'self'",
+        "data:",
+        "*"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "*.ioam.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": "max-age=0",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15552000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 15552000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "0",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://ard.de\r",
+  "third_parties": {
+    "fqdns": [
+      "audiothek.ardmediathek.de",
+      "composer.ardmediathek.de",
+      "images.ardmediathek.de",
+      "img.ardmediathek.de",
+      "page.ardmediathek.de",
+      "script.ioam.de",
+      "www.sportschau.de",
+      "www.tagesschau.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 23
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

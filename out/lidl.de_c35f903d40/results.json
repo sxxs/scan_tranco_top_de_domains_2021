@@ -1,0 +1,1541 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.lidl.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "overlay-trigger",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 21,
+      "value": "active"
+    },
+    {
+      "domain": "www.lidl.de",
+      "expires": 1620148854,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 1303203,
+      "name": "regionalizationPopoverHasBeenShown",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 38,
+      "value": "true"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.lidl.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "af7a9e1cd730a2458c607ffc35104f5c1bcbf0622b803013ea83affe61c390d0",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "SwissSign EV Gold CA 2014 - G22",
+        "countryName": "CH",
+        "organizationName": "SwissSign AG"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1628920157.0,
+      "not_valid_before": 1565761757.0,
+      "serial_number": 423413644744418376714948778981852398928988511278,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.lidl.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Stuttgart",
+        "jurisdictionStateOrProvinceName": "Baden-W\u00fcrttemberg",
+        "localityName": "Neckarsulm",
+        "organizationName": "Lidl Stiftung & Co. KG",
+        "serialNumber": "HRB 107937",
+        "stateOrProvinceName": "Baden-W\u00fcrttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.lidl.de/de/impressum/s5",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://lidl.de/",
+    "https://lidl.de/",
+    "https://www.lidl.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://lidl.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://lidl.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/cdn/assets/6.5.0/LidlFontCondPro-Regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/cdn/assets/6.5.0/LidlFontCondPro-Semibold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/cdn/assets/6.5.0/LidlFontCondPro-Bold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/cdn/assets/6.7.0/lidl-dings-repaint-de-20201006.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/other/addonjs.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/js/bundle/startpage.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/js/leci_cookie-free.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravenjs.com/3.10.0/raven.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/js/raven_config.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://z9q9kj37oy.kameleoon.eu/kameleoon.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://wartebereich.lidl.de/pkpcontroller/wp/default/resources/peakprotect.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/css/storefront.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/css/smartbanner.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.epoq.de/flow/lidl-de.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/lidl-logo-svg.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/Lidl_Plus_App_Icon_L_180px_RGB.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/feedback_widget.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/speechbubble-rating.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/speechbubble-question-answer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/lidl-contact.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/insider.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/ie-info-banner-logo-chrome.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/ie-info-banner-logo-firefox.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/ie-info-banner-logo-safari.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/imgs/ie-info-banner-logo-edge.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Garten2__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Garten2__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Garten2__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__baumarkt2__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__baumarkt2__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__baumarkt2__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__sport_fahrrad__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__sport_fahrrad__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__sport_fahrrad__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__moebel__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__moebel__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__moebel__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__mode__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__mode__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__mode__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__haushalt__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__haushalt__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__haushalt__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__kinderwelt__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__kinderwelt__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__kinderwelt__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__multimedia__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__multimedia__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__multimedia__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Supersale__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Supersale__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Supersale__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__wein__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__wein__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__wein__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__spirituosen__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__spirituosen__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__spirituosen__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__gutschein__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__gutschein__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__gutschein__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Lidl_Marken__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Lidl_Marken__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Lidl_Marken__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__smarthome__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__smarthome__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__smarthome__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Ratgeber__XS.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Ratgeber__LG.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/category-overview__Ratgeber__MD.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2115_Mastercard_HPFB_Desktop_1182x300px.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2115_Mastercard_HPFB_Mobile_746x250px.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2116_MCC_Fullbanner_Desktop.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2116_MCC_Fullbanner_Mobile_neu.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2114_Panini_2Sticker_HPFB_Desktop_1182x300px.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2114_Panini_2Sticker_HPFB_Mobile_746x250px.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/general-invoice.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/prepayment.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/mastercard.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/visa.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/sepa-lastschrift.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/paypal.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/advice-purchase.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/giftcard.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/apple-appstore-badge.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/google-play-badge.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/DHB.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/haendlerDesJahres.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/Mydealz-2019.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/lidl-award-retail-2020.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/ehi.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/hermes.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/logos/dhl.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/consentconfig/18213ebe-abff-412c-9ad6-2f74aad720d7/lidl.de/configuration.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://wartebereich.lidl.de/pkpcontroller/jsaccess.do?AT=%5B%5D&source=https%3A%2F%2Fwww.lidl.de%2F&customerToken=009f23fcea112b87c04e2e96954838e343fcaac5414091b770892e99c609031e"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/other/addoncss.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-53SQS6"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/navigation-menu?displayMode=onlyFlyout&f=1&depth=6&navigationNodeId=47450"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/basket/flyout"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://eu-tlp03.kameleoon.eu/geolocation.gif"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://eu-tlp04.kameleoon.eu/ip.gif"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://storage.kameleoon.eu/scripts/tiny_slider/2_9_2/tiny_slider.min.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/campaign/0/0/3/1/3/6/2/a9ff1929-d939-428e-a63d-0f81832dd591.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/campaign/0/0/3/1/5/2/6/55e3647b-a3e2-4624-8075-3e80460080a3.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/campaign/0/0/3/1/5/4/4/aa60de30-e0db-4ee3-bfa6-11335c0e630a.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/named_node/0/0/0/9/0/0/3/d91e3adb-d1b6-4168-94bf-9c0561c46f4a.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/campaign/0/0/3/0/8/8/7/8f9263e8-5669-4727-a3de-eb5975e452a3.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/campaign/0/0/3/1/5/2/4/f1f01eab-b91d-4f06-8cd7-8ed0876bcf8a.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/campaign/0/0/3/1/5/2/2/64a877b3-9bfe-4064-ae55-351f421d2ae0.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/named_node/0/0/0/7/6/0/8/7bc46099-d478-4f59-85a7-1e290ccfd8db.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/navigation-menu?displayMode=onlyFlyout&f=2&depth=6&navigationNodeId=47450"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.ravenjs.com/3.10.0/raven.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/js/raven_config.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/bop-brandlogo-SilverCrest.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/bop-brandlogo-Parkside.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/bop-brandlogo-Lupilu.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://storage.kameleoon.eu/lidl/Markenband/Florabest.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/m_Livarno_LOGB_large.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/m_Crivit_LOGB_large.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/18213ebe-abff-412c-9ad6-2f74aad720d7/cc.js?renew=false&referer=www.lidl.de&dnt=false&forceshow=false&cbid=18213ebe-abff-412c-9ad6-2f74aad720d7&brandid=Cookiebot&framework="
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2115_ReisenNWL_Rotation_Teaser_764x444px.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2115_KuecheundHaushalt_rotation_2.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/2040_Teaser-Rotation_LNHB-ohne.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/asset/images/1939_Teaser-Rotation_Recruiting.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/secproxy/Recommendation?categorypath=/&scenarioid=top_selling&numrecs=15&jsonp_callback=jQuery3410008659933919253904_1618852851995&_=1618852851996"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100326998&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100325044&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100326090&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100324083&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100324085&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100326634&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100324086&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100324064&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100319946&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100319927&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100324082&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100322819&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100318348&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100321316&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/product-grid-box?scenario=top_selling&cssClass=c-2%20processed_article%20hide%20&erpNumber=100322570&hideNotOnlineOrderable=true"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/de/fragment/yoochoose_rendered?erpNumbers=100326998%2C100325044%2C100326090%2C100324083%2C100324085%2C100326634%2C100324086%2C100324064%2C100319946%2C100319927%2C100324082%2C100322819%2C100318348%2C100321316%2C100322570&erpNumber=0"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/7/7/1/4/9/5er-set-boson-biotech-rapid-sars-cov-2-antigen-schnelltest-regular.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/7/3/7/5/6/camp-david-sweatshorts-herren-leger-geschnitten-regular.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/7/6/8/1/7/5er-set-clungene-covid-19-rapid-antigen-schnelltests-regular.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/6/9/8/8/3/florabest-polsterauflage-fuer-hochlehner-mit-stehsaum-regular--5.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/6/9/8/6/8/florabest-polsterauflage-hochlehner-ca-50-x-120-x-8-cm-regular--12.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/7/3/7/5/5/camp-david-hemd-herren-leger-und-locker-geschnitten-regular.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/7/3/7/2/1/parkside-akku-gras-und-strauchschere-pgsa-4-regular.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/6/8/1/6/4/florabest-klappsessel-houston-aluminium-grau-2er-set-regular.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/media/product/0/3/7/0/8/3/8/ffp2-masken-20er-regular.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lidl.de/kameleoon-iframe"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "https://www.google.com",
+        "https://www.google.de",
+        "'self'",
+        "blob:",
+        "data:",
+        "intent:",
+        "wss://127.0.0.1:*",
+        "https://*.8select.io",
+        "https://*.adyen.com",
+        "https://*.criteo.com",
+        "https://*.criteo.net",
+        "https://*.demoup.com",
+        "https://*.doubleclick.net",
+        "https://*.facebook.com",
+        "https://*.facebook.net",
+        "https://*.fitanalytics.com",
+        "https://*.kameleoon.com",
+        "https://*.kameleoon.eu",
+        "https://*.lidl-flyer.com",
+        "https://*.lidl-shop.com",
+        "https://*.lidl.de",
+        "https://*.livebuy.io",
+        "https://*.online-metrix.net",
+        "https://*.parcellab.com",
+        "https://*.peakprotect.com",
+        "https://*.semtrack.de",
+        "https://*.simplesurance.de",
+        "https://*.sit.sys.odj.cloud",
+        "https://*.virtualearth.net",
+        "https://analytics.google.com",
+        "https://balancechecks.tx-gate.com",
+        "https://event.yoochoose.net",
+        "https://facebook.com",
+        "https://fonts.gstatic.com",
+        "https://h.online-metrix.net",
+        "https://lidl.media01.eu",
+        "https://lidlde.int.userwerk.com",
+        "https://s.kelkoogroup.net",
+        "https://searchhub.io",
+        "https://tracking.s24.com",
+        "https://www.bing.com",
+        "https://www.google-analytics.com",
+        "https://www.googletagmanager.com",
+        "https://www.lacmp.net",
+        "https://csp-server.prod.varnish-poc.lidl-shop.com"
+      ],
+      "frame-ancestors": [
+        "'self'",
+        "https://*.lidl.com",
+        "https://*.lidl.de",
+        "https://*.livebuy.io",
+        "https://beeem.co"
+      ],
+      "frame-src": [
+        "https://www.google.com",
+        "'self'",
+        "intent:",
+        "https://*.adyen.com",
+        "https://*.criteo.com",
+        "https://*.criteo.net",
+        "https://*.doubleclick.net",
+        "https://*.facebook.com",
+        "https://*.facebook.net",
+        "https://*.ftrace.com",
+        "https://*.lidl-info.com",
+        "https://*.lidl-onlinenewsletter.de",
+        "https://*.lidl.com",
+        "https://*.lidl.de",
+        "https://*.livebuy.io",
+        "https://*.mynetfair.com",
+        "https://*.sit.sys.odj.cloud",
+        "https://*.vrxs.de",
+        "https://ar.lidl.com",
+        "https://balancechecks.tx-gate.com",
+        "https://consentcdn.cookiebot.com",
+        "https://facebook.com",
+        "https://h.online-metrix.net",
+        "https://ldl.viewer.cit-fusion.com",
+        "https://lidlde.int.userwerk.com",
+        "https://review.apps.01.cf.eu01.stackit.cloud",
+        "https://searchhub.io",
+        "https://web.secmedia.de",
+        "https://www.awin1.com",
+        "https://www.edge-cdn.net",
+        "https://www.lidl-gewinnspiel.de",
+        "https://www.youtube-nocookie.com",
+        "https://www.youtube.com"
+      ],
+      "header_value": "frame-src https://www.google.com 'self' intent: https://*.adyen.com https://*.criteo.com https://*.criteo.net https://*.doubleclick.net https://*.facebook.com https://*.facebook.net https://*.ftrace.com https://*.lidl-info.com https://*.lidl-onlinenewsletter.de https://*.lidl.com https://*.lidl.de https://*.livebuy.io https://*.mynetfair.com https://*.sit.sys.odj.cloud https://*.vrxs.de https://ar.lidl.com https://balancechecks.tx-gate.com https://consentcdn.cookiebot.com https://facebook.com https://h.online-metrix.net https://ldl.viewer.cit-fusion.com https://lidlde.int.userwerk.com https://review.apps.01.cf.eu01.stackit.cloud https://searchhub.io https://web.secmedia.de https://www.awin1.com https://www.edge-cdn.net https://www.lidl-gewinnspiel.de https://www.youtube-nocookie.com https://www.youtube.com ; object-src https://www.google.com data: https://*.facebook.com https://*.facebook.net https://*.lidl-flyer.com https://*.livebuy.io https://*.online-metrix.net https://facebook.com https://h.online-metrix.net https://searchhub.io ; img-src https://www.google.at https://www.google.ba https://www.google.be https://www.google.bg https://www.google.ch https://www.google.co.uk https://www.google.com https://www.google.com.bd https://www.google.com.tr https://www.google.com.ua https://www.google.cz https://www.google.de https://www.google.dk https://www.google.es https://www.google.fr https://www.google.gr https://www.google.hr https://www.google.hu https://www.google.ie https://www.google.is https://www.google.it https://www.google.lt https://www.google.lu https://www.google.lv https://www.google.md https://www.google.nl https://www.google.no https://www.google.pl https://www.google.pt https://www.google.ro https://www.google.rs https://www.google.ru https://www.google.se https://www.google.sk 'self' data: moz-extension: http://www.adobe.com https://*.360yield.com https://*.addthis.com https://*.adition.com https://*.adnxs.com https://*.adscale.de https://*.advertising.com https://*.adyen.com https://*.casalemedia.com https://*.criteo.com https://*.criteo.net https://*.demdex.net https://*.demoup.com https://*.doubleclick.net https://*.facebook.com https://*.facebook.net https://*.fitanalytics.com https://*.kameleoon.com https://*.kameleoon.eu https://*.lidl-flyer.com https://*.lidl-onlinenewsletter.de https://*.lidl-shop.com https://*.lidl.de https://*.livebuy.io https://*.online-metrix.net https://*.openx.net https://*.parcellab.com https://*.pubmatic.com https://*.searchhub.io https://*.semtrack.de https://*.simplesurance.de https://*.sit.sys.odj.cloud https://*.stickyadstv.com https://*.taboola.com https://*.twiago.com https://*.virtualearth.net https://*.yahoo.com https://*.yieldlab.net https://analytics.google.com https://balancechecks.tx-gate.com https://contextual.media.net https://event.yoochoose.net https://facebook.com https://h.online-metrix.net https://lidl.de https://lidlde.int.userwerk.com https://match.sharethrough.com https://s.kelkoogroup.net https://searchhub.io https://sync.outbrain.com https://translate.google.com https://via.placeholder.com https://visitor.omnitagjs.com https://www.adobe.com https://www.awin1.com https://www.bing.com https://www.bizrate.com https://www.google-analytics.com https://www.googletagmanager.com https://www.gstatic.com https://x.bidswitch.net ; report-uri https://csp-server.prod.varnish-poc.lidl-shop.com/csp/report ; frame-ancestors 'self' https://*.lidl.com https://*.lidl.de https://*.livebuy.io https://beeem.co ; style-src https://www.google.com 'self' 'unsafe-inline' https://*.fitanalytics.com https://*.lidl-flyer.com https://*.lidl.de https://*.parcellab.com https://*.sit.sys.odj.cloud https://facebook.com https://searchhub.io https://www.bing.com ; default-src https://www.google.com https://www.google.de 'self' blob: data: intent: wss://127.0.0.1:* https://*.8select.io https://*.adyen.com https://*.criteo.com https://*.criteo.net https://*.demoup.com https://*.doubleclick.net https://*.facebook.com https://*.facebook.net https://*.fitanalytics.com https://*.kameleoon.com https://*.kameleoon.eu https://*.lidl-flyer.com https://*.lidl-shop.com https://*.lidl.de https://*.livebuy.io https://*.online-metrix.net https://*.parcellab.com https://*.peakprotect.com https://*.semtrack.de https://*.simplesurance.de https://*.sit.sys.odj.cloud https://*.virtualearth.net https://analytics.google.com https://balancechecks.tx-gate.com https://event.yoochoose.net https://facebook.com https://fonts.gstatic.com https://h.online-metrix.net https://lidl.media01.eu https://lidlde.int.userwerk.com https://s.kelkoogroup.net https://searchhub.io https://tracking.s24.com https://www.bing.com https://www.google-analytics.com https://www.googletagmanager.com https://www.lacmp.net https://csp-server.prod.varnish-poc.lidl-shop.com ; script-src https://www.google.com 'self' 'unsafe-eval' 'unsafe-inline' blob: https://*.8select.io https://*.adyen.com https://*.criteo.com https://*.criteo.net https://*.demoup.com https://*.doubleclick.net https://*.epoq.de https://*.facebook.com https://*.facebook.net https://*.fitanalytics.com https://*.kameleoon.com https://*.kameleoon.eu https://*.lidl-flyer.com https://*.lidl.com https://*.lidl.de https://*.livebuy.io https://*.online-metrix.net https://*.parcellab.com https://*.peakprotect.com https://*.searchhub.io https://*.semtrack.de https://*.simplesurance.de https://*.virtualearth.net https://ajax.googleapis.com https://balancechecks.tx-gate.com https://cdn.ravenjs.com https://code.etracker.com https://consent.cookiebot.com https://consentcdn.cookiebot.com https://facebook.com https://h.online-metrix.net https://lidl.de https://lidl.media01.eu https://lidlde.int.userwerk.com https://s.ytimg.com https://searchhub.io https://tracking.s24.com https://www.bing.com https://www.dwin1.com https://www.etracker.de https://www.google-analytics.com https://www.googleadservices.com https://www.googletagmanager.com https://www.lacmp.net https://www.youtube.com ;",
+      "img-src": [
+        "https://www.google.at",
+        "https://www.google.ba",
+        "https://www.google.be",
+        "https://www.google.bg",
+        "https://www.google.ch",
+        "https://www.google.co.uk",
+        "https://www.google.com",
+        "https://www.google.com.bd",
+        "https://www.google.com.tr",
+        "https://www.google.com.ua",
+        "https://www.google.cz",
+        "https://www.google.de",
+        "https://www.google.dk",
+        "https://www.google.es",
+        "https://www.google.fr",
+        "https://www.google.gr",
+        "https://www.google.hr",
+        "https://www.google.hu",
+        "https://www.google.ie",
+        "https://www.google.is",
+        "https://www.google.it",
+        "https://www.google.lt",
+        "https://www.google.lu",
+        "https://www.google.lv",
+        "https://www.google.md",
+        "https://www.google.nl",
+        "https://www.google.no",
+        "https://www.google.pl",
+        "https://www.google.pt",
+        "https://www.google.ro",
+        "https://www.google.rs",
+        "https://www.google.ru",
+        "https://www.google.se",
+        "https://www.google.sk",
+        "'self'",
+        "data:",
+        "moz-extension:",
+        "http://www.adobe.com",
+        "https://*.360yield.com",
+        "https://*.addthis.com",
+        "https://*.adition.com",
+        "https://*.adnxs.com",
+        "https://*.adscale.de",
+        "https://*.advertising.com",
+        "https://*.adyen.com",
+        "https://*.casalemedia.com",
+        "https://*.criteo.com",
+        "https://*.criteo.net",
+        "https://*.demdex.net",
+        "https://*.demoup.com",
+        "https://*.doubleclick.net",
+        "https://*.facebook.com",
+        "https://*.facebook.net",
+        "https://*.fitanalytics.com",
+        "https://*.kameleoon.com",
+        "https://*.kameleoon.eu",
+        "https://*.lidl-flyer.com",
+        "https://*.lidl-onlinenewsletter.de",
+        "https://*.lidl-shop.com",
+        "https://*.lidl.de",
+        "https://*.livebuy.io",
+        "https://*.online-metrix.net",
+        "https://*.openx.net",
+        "https://*.parcellab.com",
+        "https://*.pubmatic.com",
+        "https://*.searchhub.io",
+        "https://*.semtrack.de",
+        "https://*.simplesurance.de",
+        "https://*.sit.sys.odj.cloud",
+        "https://*.stickyadstv.com",
+        "https://*.taboola.com",
+        "https://*.twiago.com",
+        "https://*.virtualearth.net",
+        "https://*.yahoo.com",
+        "https://*.yieldlab.net",
+        "https://analytics.google.com",
+        "https://balancechecks.tx-gate.com",
+        "https://contextual.media.net",
+        "https://event.yoochoose.net",
+        "https://facebook.com",
+        "https://h.online-metrix.net",
+        "https://lidl.de",
+        "https://lidlde.int.userwerk.com",
+        "https://match.sharethrough.com",
+        "https://s.kelkoogroup.net",
+        "https://searchhub.io",
+        "https://sync.outbrain.com",
+        "https://translate.google.com",
+        "https://via.placeholder.com",
+        "https://visitor.omnitagjs.com",
+        "https://www.adobe.com",
+        "https://www.awin1.com",
+        "https://www.bing.com",
+        "https://www.bizrate.com",
+        "https://www.google-analytics.com",
+        "https://www.googletagmanager.com",
+        "https://www.gstatic.com",
+        "https://x.bidswitch.net"
+      ],
+      "object-src": [
+        "https://www.google.com",
+        "data:",
+        "https://*.facebook.com",
+        "https://*.facebook.net",
+        "https://*.lidl-flyer.com",
+        "https://*.livebuy.io",
+        "https://*.online-metrix.net",
+        "https://facebook.com",
+        "https://h.online-metrix.net",
+        "https://searchhub.io"
+      ],
+      "report-uri": [
+        "https://csp-server.prod.varnish-poc.lidl-shop.com/csp/report"
+      ],
+      "script-src": [
+        "https://www.google.com",
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "blob:",
+        "https://*.8select.io",
+        "https://*.adyen.com",
+        "https://*.criteo.com",
+        "https://*.criteo.net",
+        "https://*.demoup.com",
+        "https://*.doubleclick.net",
+        "https://*.epoq.de",
+        "https://*.facebook.com",
+        "https://*.facebook.net",
+        "https://*.fitanalytics.com",
+        "https://*.kameleoon.com",
+        "https://*.kameleoon.eu",
+        "https://*.lidl-flyer.com",
+        "https://*.lidl.com",
+        "https://*.lidl.de",
+        "https://*.livebuy.io",
+        "https://*.online-metrix.net",
+        "https://*.parcellab.com",
+        "https://*.peakprotect.com",
+        "https://*.searchhub.io",
+        "https://*.semtrack.de",
+        "https://*.simplesurance.de",
+        "https://*.virtualearth.net",
+        "https://ajax.googleapis.com",
+        "https://balancechecks.tx-gate.com",
+        "https://cdn.ravenjs.com",
+        "https://code.etracker.com",
+        "https://consent.cookiebot.com",
+        "https://consentcdn.cookiebot.com",
+        "https://facebook.com",
+        "https://h.online-metrix.net",
+        "https://lidl.de",
+        "https://lidl.media01.eu",
+        "https://lidlde.int.userwerk.com",
+        "https://s.ytimg.com",
+        "https://searchhub.io",
+        "https://tracking.s24.com",
+        "https://www.bing.com",
+        "https://www.dwin1.com",
+        "https://www.etracker.de",
+        "https://www.google-analytics.com",
+        "https://www.googleadservices.com",
+        "https://www.googletagmanager.com",
+        "https://www.lacmp.net",
+        "https://www.youtube.com"
+      ],
+      "style-src": [
+        "https://www.google.com",
+        "'self'",
+        "'unsafe-inline'",
+        "https://*.fitanalytics.com",
+        "https://*.lidl-flyer.com",
+        "https://*.lidl.de",
+        "https://*.parcellab.com",
+        "https://*.sit.sys.odj.cloud",
+        "https://facebook.com",
+        "https://searchhub.io",
+        "https://www.bing.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 63072000,
+      "preload": true
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://lidl.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ajax.googleapis.com",
+      "cdn.epoq.de",
+      "cdn.ravenjs.com",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "eu-tlp03.kameleoon.eu",
+      "eu-tlp04.kameleoon.eu",
+      "storage.kameleoon.eu",
+      "www.googletagmanager.com",
+      "z9q9kj37oy.kameleoon.eu"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 14
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 10,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "eu-tlp03.kameleoon.eu",
+      "eu-tlp04.kameleoon.eu",
+      "storage.kameleoon.eu",
+      "www.googletagmanager.com",
+      "z9q9kj37oy.kameleoon.eu"
+    ]
+  }
+}

@@ -1,0 +1,857 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundesgesundheitsministerium.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "b9bcd9d7c19ae82553f8e2e26ba946ccbfacfdd2e72669aa451ae6def62b5011",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 3072,
+        "type": "RSA"
+      },
+      "not_valid_after": 1661592911.0,
+      "not_valid_before": 1590399311.0,
+      "serial_number": 10806790931198571464916949849,
+      "subject": {
+        "commonName": "bundesgesundheitsministerium.de",
+        "countryName": "DE",
+        "localityName": "Koeln",
+        "organizationName": "Deutsches Institut f. Medizinische Dokumentation und Information",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "http://www.bundesgesundheitsministerium.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundesgesundheitsministerium.de/",
+    "https://bundesgesundheitsministerium.de/",
+    "https://www.bundesgesundheitsministerium.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://bundesgesundheitsministerium.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bundesgesundheitsministerium.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3temp/Assets/71eb1e6335.css?1618298988"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/bundes-sans-webfontkit/bundesfont.css?1618298884"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/bootstrap.min.css?1618298884"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/build.css?1618298884"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmg_sitepackage/Resources/Public/Frontend/Base/stylesheets/main.css?1618298889"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/modernizr-2.8.3.min.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/jquery-1.11.2.min.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3temp/Assets/a114399574.js?1618298988"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bzgavideoplayer/Resources/Public/Jwplayer/jwplayer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bzgavideoplayer/Resources/Public/Js/bzgavideoplayer.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/brand-icon.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/brand-typo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/brand.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/icons/BMG_Kontakt_Grau.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/icons/BMG_Gebaerdensprache_Grau.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/icons/BMG_Leichtesprache_Grau.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/Corona_Schaubild_V2_Newsteaser.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/7/b/csm_Zeitungen670x446_f0ce3f2863.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/6_Section-Teaser/Meldungen_News_560x373.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/6/d/csm_Presse-Interview_Spahn_670px_586b1985e2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/6_Section-Teaser/Spahn/BM_Jens_Spahn_Bundestag_560x373.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/5/9/csm_BM_Jens_Spahn_Interview_1_61ae83a31b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/1/9/csm_Mikrofone6670x446_5550795640.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/6_Section-Teaser/Termine570x373.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/0/6/csm_BM_Spahn_DM_Testzentrum_MallOfBerlin_1900x950_e2dbc103bd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/1/1/csm_Impfstoffherstellung_zgc_440px_514a3aeeae.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/Impfen_Arztpraxis_Mann_440x293.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/Corona_Schaubild_NEU_Newsteaser.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/4/b/csm_Spahn_Merkel_PK-im_Kanzleramt_440x293_469f885ae2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/5/f/csm_Frau_am_Flughafen_440x293_fd5fdb84f3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/b/2/csm_Prof_Gerlach-SVR_PSt_Gebhart_440x293_99d5e1ca77.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/1/7/csm_AErztin_mit_Mundschutz_440px_19c33f30fc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/1/9/csm_Spahn_Interview__c_MeikeKenn_440px_c19a1c9edb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/7/1/csm_Forscher_am_Mikroskop_440px_0d1bb9b124.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/6/b/csm_Forscher_im_Labor_440px_54757ee903.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/5/b/csm_Spahn_PK_Statement_440px_cf2270cf74.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/2/6/csm_Spahn_BPK_2021_440x293_e6d67c7aa4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/2/a/csm_Arzt_Kreuz_virtuelle_Oberflaeche_440x293_e72ba42cf8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/4/3/csm_Flugzeug_440px_40bbda7c6d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/c/a/csm_Vater_im_Homeoffice_440x293_166325e433.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/9/d/csm_Arzt_Tablet_Digitalisierung_440_7646a509e4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/4/7/csm_Patient-Krankenhaus-Herz_440px_3c37d2ec4f.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/a/8/csm_475x280_de_8f044fe010.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/d/6/csm_Pflegerin_mit_alter_Frau_440px_c4816d5998.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/5/4/csm_Finanzen_Euro_GettyImages-942954896_a093dfa11b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/3/e/csm_BM_Jens_Spahn_Bundestag_500x500_ed54b8446a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/9/4/csm_Pflegerin_mit_zwei_Patienten_490x293px_a83eda4e2a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/c/3/csm_WHO-Flagge_440px_2dde6117da.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/b/c/csm_Apothekerin_440px_d85dfa017b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/4/6/csm_Pflegekraft_mit_iPad_440x293_74d1eec2f6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/5/d/csm_Spahn_Impfpass_BPK_500x500_ea91a92aaf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/aelteres_Ehepaar_440px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/Nationale_Demenzstrategie_440.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/1/b/csm_Psychische_Gesundheit_Home-Office_0559f086db.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/Krankenhaus_Eingangsbereich_Masken_440x293.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/e/3/csm_Beleuchtungsaktion_WHO_Berliner_Fernsehturm_70524b83fd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/4/1/csm_Pflegekraft_Heimbewohner_440x293_0fb3b5785c.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/icons/BMG_Mehr_Laden.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/_processed_/5/9/csm_Spahn_PK_Statement_440px_ca1c79d31a.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Mobil/Pflege.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Mobil/Krankenversicherung.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Mobil/Praevention.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Mobil/Gesundheitswesen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Mobil/InternationaleGesundheitspolitik.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Desktop/Pflege.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Desktop/Krankenversicherung.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Desktop/Praevention.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Desktop/Gesundheitswesen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/mainsubjects/Desktop/InternationaleGesundheitspolitik.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/quickentry/GesetzeundVerordnungen.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/quickentry/Pflegeleistungshelfer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/mask/quickentry/Publikationen.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/2_Newsteaser/Menschen_von_oben_440px.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/4_Bild_Text-Teaser/Wissenschaftler_shutterstock_wavebreakmedia_235x165.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/7_Teaser_Images/6_Section-Teaser/BMG-Gebaeude-Bonn-Berlin_670px.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/img/icons/BMG_PfeilOben_Grau.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/bootstrap-3.3.7/bootstrap.min.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/masonry/masonry.min.4.2.2.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/masonry/imagesloaded.min.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/plugins/custom-plugins.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/plugins/autocomplete.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/bmg.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmg_sitepackage/Resources/Public/Frontend/Base/javascript/main.js?1618298889"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/consentconfig/930c2f28-1e5c-4683-bbe2-556cb021fe92/bundesgesundheitsministerium.de/configuration.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/img/icons/BMG_Suche_Schwarz.svg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/bundes-sans-webfontkit/BundesSansWeb-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/bundes-sans-webfontkit/BundesSerifWeb-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/bundes-sans-webfontkit/BundesSansWeb-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/Css/2018/bundes-sans-webfontkit/BundesSerifWeb-Italic.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bzgavideoplayer/Resources/Public/Jwplayer/jwplayer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bzgavideoplayer/Resources/Public/Js/bzgavideoplayer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/bootstrap-3.3.7/bootstrap.min.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/masonry/masonry.min.4.2.2.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/vendors/masonry/imagesloaded.min.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/plugins/custom-plugins.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/plugins/autocomplete.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmgconfig/Resources/Public/JavaScript/2018/bmg.js?1618298884"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.bundesgesundheitsministerium.de/typo3conf/ext/bmg_sitepackage/Resources/Public/Frontend/Base/javascript/main.js?1618298889"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/930c2f28-1e5c-4683-bbe2-556cb021fe92/cc.js?renew=false&referer=www.bundesgesundheitsministerium.de&culture=DE&dnt=false&forceshow=false&cbid=930c2f28-1e5c-4683-bbe2-556cb021fe92&brandid=Cookiebot&framework="
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bundesgesundheitsministerium.de\r",
+  "third_parties": {
+    "fqdns": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com"
+    ]
+  }
+}

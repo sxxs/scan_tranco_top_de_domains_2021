@@ -1,0 +1,585 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.udk-berlin.de",
+      "expires": 1652884986,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.6.b2a5",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 65,
+      "value": "67854a18aefc385e.1618929786.1.1618929786.1618929786."
+    },
+    {
+      "domain": "www.udk-berlin.de",
+      "expires": 1618931586,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9002,
+      "name": "_pk_ses.6.b2a5",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.udk-berlin.de/startseite/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "644b15f3bd6c13379343cb510c3f460161ae1318e80722441530d861294d8d34",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1650174610.0,
+      "not_valid_before": 1615877410.0,
+      "serial_number": 11276712487191184813802935066,
+      "subject": {
+        "commonName": "www.udk-berlin.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Universitaet der Kuenste Berlin",
+        "organizationalUnitName": "DVOrg",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.udk-berlin.de/schnellzugriff/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.9.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://udk-berlin.de/",
+    "https://www.udk-berlin.de/",
+    "https://www.udk-berlin.de/startseite/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://udk-berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/startseite/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/fonts/1572283/98ade8b2-89f0-43a5-87d1-a005ec31711b.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/fonts/1572291/f613167f-bea4-4da9-886e-453d157dff7d.woff"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/fonts/1572299/0c84ca39-6f05-4db7-91c7-9fb771a47622.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/js/9a38f34785.js?1602773996"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/javascripts/main-head.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/stylesheets/main.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_j_13.21_cover_image_DSC_0479_6bb0892d45_1bd5835352.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_Slider-Ausschreibung_561d707c25_b6764c1546.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_WDK_WIV_A5_Programm_04_d415ceb0ae_2104489b09.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_rundgang_str_mw_2016__164__43fb9993fb_3a1ebaa224.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_Vorbilder_nachbilder_Slider_e7e91786fe_6dae9a5393.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_SeenBy_Samet_Durgun_1_b43ab53a44_b5cb6f66ca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_IN_STANNIOLPAPIER_Slider_website_ca34a3c61b_9df8dfb434.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/Artist_Training_DIGITAL_BASICS_general_cover_e892ca0443.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_SUAB2021_WEBSITE_1900x800_69fcf054ad_3fe9a3ea74.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/typo3temp/assets/images/csm_AG_ONline_Lehre_blur_6d11c8bd06_75af3fbbd0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/public/_processed_/4/5/csm_csm_20150810_Wegweiser_rot_151020_f43b727127.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/b/b/csm_CORONA3_8b0c607f5d.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/9/5/csm_CORONA4_4cca747ed3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/6/a/csm_Kachel_Gremienwahlen_Bild_b98984e74c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/b/8/csm_j_13.21_cover_image_DSC_0479_a2943ee76c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/2/b/csm_Kachel_Startseite_LA_Bewerbung_b0b561a01c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/d/7/csm_Offizielles-Portraet-Steinmeier-download_93c08c5876.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/4/8/csm_Timeline-printxl-00192542_e8ada851d2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/a/5/csm_Zhora_Sargsyan__c__Kohei_Hirotsu_20171209-KHP_2208_cd64d620d5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/c/2/csm_NEB_Bil_3_3f8f4b952d.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/6/1/csm_WDK_WIV_A5_Programm_04_cb37061bb7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/b/5/csm__15B6425_quadratisch_55c1a703e4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/b/4/csm_SynchroniCities_001_831a82ad9b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/0/c/csm_glanz_oder_harnisch_b62dea61e9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/b/a/csm_SeenbyRoom14_89863434b4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/d/2/csm_OU_Quadrate_1080_4_eb0e85f606.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/e/d/csm_Vorbilder_nachbilder_teaser_4d9b9f1ed8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/f/5/csm_ARTIST_CAREER_FORUM_II_Postkarte_bf93fe8da4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/1/c/csm_SUAB2021_WEBSITE_1320x619_442452203d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/6/4/csm_Rescue_Horizon_Europe_259b545996.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/f/8/csm_Unterstuetzung_fuer_Studierende_f93c222329.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/3/1/csm_KLIMANOTSTAND-DEF-UDK_KLIMA_WEBSITE-HEADER-UNTERSEITE_00d49943ce.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/e/5/csm_EAA_a2a14ad070.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/public/_processed_/e/2/csm_foyer_a57d4b7885.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/7/4/csm_Gendergerechtigkeit2.jpg_c7c1ca5c49.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/5/0/csm_UDKLIMA-STARTSEITE-_c_C.BITTERMANN_2a095a914c.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/f/a/csm_DIE_VIELEN_KUNSTBLEIBTVIELE__copyright_Die_Vielen__5bedd40ddb.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/1/9/csm_KunstRaumStadt_Artist_Training_d8b4beccc2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/0/5/csm_Teaser_Umgang_Diskriminierung_1e12def4a5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.udk-berlin.de/fileadmin/_processed_/b/c/csm_Presseseite-Illustration-Yves_Haltner-Pressekonferenz_der_Tiere_670ecc235c.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/components/requirejs/require.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/lt/1.css?apiType=css&c=20743bff-522a-49e2-be3e-8186809c72ee&fontids=1572283,1572291,1572299"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/images/graphics.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/fonts/1572283/440f5248-b769-4a60-8e59-5a0797a60c6b.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/fonts/1572291/958efb55-70db-4b73-a7d4-a937bde80e39.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/components/genericons/genericons/Genericons.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tuvok.udk-berlin.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/javascripts/main.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tuvok.udk-berlin.de/piwik/piwik.php?action_name=Universit%C3%A4t%20der%20K%C3%BCnste%20Berlin&idsite=6&rec=1&r=527745&h=16&m=43&s=6&url=https%3A%2F%2Fwww.udk-berlin.de%2Fstartseite%2F&_id=67854a18aefc385e&_idts=1618929786&_idvc=1&_idn=1&_refts=0&_viewts=1618929786&send_image=1&cookie=1&res=800x600&gt_ms=23&pv_id=T1aWVp"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/icons/icons.svg?v=1.4.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.udk-berlin.de/1.4.0/www.udk-berlin.de/javascripts/nls/de/application.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/lt/1.css?apiType=css&c=20743bff-522a-49e2-be3e-8186809c72ee&fontids=1572283,1572291,1572299"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://udk-berlin.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fast.fonts.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

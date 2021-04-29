@@ -1,0 +1,709 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".mastercard.de",
+      "expires": 1618923818.958045,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14400.958045005798,
+      "name": "ak_bmsc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 310,
+      "value": "F4CB9F1703D80E5E8CBD8AB3CB03BAAE58DDD665365E00000AB57E609848B448~plvQNL9zwSS8x8JkTCZ7ivaCqXVRQKgc5XVU+GOHAI6LrCt2p179Khm3vc9HKljGN9EGkrQ1leHF63Rz5GwGtkpPhHnkQFbIMs076D952vmZK9osf8q7SjifHCdk7KtdVfQ1v5L3f/Ge9NSYzX1YtjzQmfksdmd8XNG5Bp+riR5GlaSvNVAg29sNdjpCes1aAek+aqLLtFGIm1Hbfc6uTFtLgDEa32ATyehy4FcSyMBsw="
+    },
+    {
+      "domain": ".mastercard.de",
+      "expires": 1650452620,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 602,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+13%3A03%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.14.0&consentId=fd6e9f0f-ba4b-4dd5-80d4-38dfeb339f2f&interactionCount=0&landingPath=https%3A%2F%2Fwww.mastercard.de%2Fde-de.html&groups=C0001%3A1%2CC015%3A1%2CC016%3A1%2CC0002%3A0%2CC006%3A0%2CC0003%3A0%2CC028%3A0%2CBG28%3A0%2CC011%3A0%2CC020%3A0%2CC0004%3A0&hosts=H573%3A1%2CH227%3A1%2CH97%3A1%2CH108%3A1%2CH116%3A1%2CH215%3A1%2CH36%3A0%2CH144%3A0%2CH244%3A0%2CH245%3A0%2CH184%3A0%2CH247%3A0%2CH203%3A0%2CH106%3A0%2CH240%3A0%2CH248%3A0%2CH289%3A0%2CH243%3A0%2CH260%3A0%2CH355%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.mastercard.de/de-de.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "18677e6079ca37b1be766c7c1a4ab4ab48dd03181ad7c9eb63e1818c4e084d47",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Entrust Certification Authority - L1K",
+        "countryName": "US",
+        "organizationName": "Entrust, Inc.",
+        "organizationalUnitName": "(c) 2012 Entrust, Inc. - for authorized use only"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636381627.0,
+      "not_valid_before": 1612189627.0,
+      "serial_number": 158178581351381857765207988225006039600,
+      "subject": {
+        "commonName": "www.mastercard.com",
+        "countryName": "BE",
+        "localityName": "Waterloo",
+        "organizationName": "MasterCard International Incorporated"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.mastercard.de/de-de/datenschutz/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://mastercard.de/",
+    "https://www.mastercard.de/de-de.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://mastercard.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/de-de.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/dxp-web.esm.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/etc.clientlibs/dxp/clientlibs/clientlib-base.bfaffb2780e3c3ddb6ba3692efa4ef57.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/etc.clientlibs/dxp/clientlibs/clientlib-base.4f3a642727c8eb9f344403597e34e02f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-4ec7a199.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-14539333.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/5cf06a35-1ece-487c-8bb9-694519b868a3/5cf06a35-1ece-487c-8bb9-694519b868a3.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/dxp-fonts.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/dxp.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/themes/dxp-theme-b2b.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/themes/dxp-theme-white.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/themes/dxp-theme-black.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/themes/dxp-theme-light-grey.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/css/themes/dxp-theme-rich-grey.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-gtzdmlxw.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-e56kffrt.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-9kho7sav.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-zauurfkl.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-yu86btsr.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-u2opvyzy.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-6ovrxncb.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-y4e5wzk3.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-ybqk3v2o.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-mzyu1cal.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-cllwgokr.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-m265epek.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-z7xrwp3b.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-2niqemot.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-kvsgumzo.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-vfcewtg6.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.14.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-6e656b80.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-b3acfb79.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/5cf06a35-1ece-487c-8bb9-694519b868a3/1fca1845-d075-4b1d-a6fc-657fcd9a2aab/de-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/mastercardcom/de/de.dxppagesdata.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/meta/public/admin/mastercardcom/us/en/regiontest1.dxpregionlang.json"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/logo/mc-logo-52.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-xsef5yiv.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-tinx5i1r.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-wlcpqbav.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-wbxq3jjx.entry.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/images/svgs/audio-sprite.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/dam/dxp/fonts/Mark-For-MC/MarkForMC.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/dam/dxp/fonts/Mark-For-MC-Narrow/MarkForMCNrw.woff2"
+    },
+    {
+      "mime_type": "audio/mpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/mea/za/audio/MastercardSoundscape.mp3"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-6lbwaxv3.entry.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/dam/dxp/fonts/Mark-For-MC/MarkForMC-ExtraLt.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-7caos84h.entry.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/images/icons/caret-down-white.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/dam/dxp/fonts/Mark-For-MC/MarkForMC-Lt.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/dam/dxp/fonts/Mark-For-MC/MarkForMC-Bold.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/mastercardcom/de/de.dxpdeepnavigationlist.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.14.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.14.0/assets/otPcTab.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-kidg77cn.entry.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/images/icons/globe.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-phtxvdf1.entry.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Home/Kartenprodukte_Banner.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-sq96fpnz.entry.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Privatkunden/engagement-und-aktionen/aktionen-V2-mobile.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/content/dam/dxp/fonts/Mark-For-MC/MarkForMC-Med.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Privatkunden/content_item_mobile_campaign_2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/na/us/en/homepage/Home/small_video-still-sunset-over-bridge_2017x1135.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Privatkunden/engagement-und-aktionen/priceless_planet_teaser.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/other/newsroom_valentienstag.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Newsroom/newsroom-vantik.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Privatkunden/ID-Check/sca_banner_medium_v2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/Newsroom/newsroom-db.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/icon/footer-atm-24.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/icon/card-icon-24.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/icon/support-international-icon-24.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.mastercard.de/content/dam/public/mastercardcom/eu/de/images/icon/support-icon-24.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/images/icons/socialshare.svg"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://mastercard-a.akamaihd.net/videos/RSA_Header_video_1080p_new.mp4?autoplay=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-styles@5.1.2/images/icons/sprite.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-bjgrnxvb.entry.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://asset.mastercard.com/dxp-ui/dxp-web@5.1.2/dxp-web/p-nxchhum0.entry.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "https://maps.googleapis.com",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://mastercard.de\r",
+  "third_parties": {
+    "fqdns": [
+      "asset.mastercard.com",
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com",
+      "mastercard-a.akamaihd.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 61
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "cdn.cookielaw.org"
+    ]
+  }
+}

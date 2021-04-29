@@ -1,0 +1,397 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.denic.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "6be809ab4faf5dcb694f7a2ec8e8668f2f5370fd5226ef17ee43e45ff7c7b3e4",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Organization Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621202399.0,
+      "not_valid_before": 1557957600.0,
+      "serial_number": 12591568903519265789287667656907068759,
+      "subject": {
+        "commonName": "www.denic.de",
+        "countryName": "DE",
+        "localityName": "Frankfurt am Main",
+        "organizationName": "DENIC eG",
+        "organizationalUnitName": "Multi-Domain SSL",
+        "postalCode": "60329",
+        "stateOrProvinceName": "Hessen",
+        "streetAddress": "Kaiserstr. 75-77"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.denic.de/ueber-denic/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.1.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://denic.de/",
+    "https://www.denic.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://denic.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/typo3temp/Assets/a3780f6374.css?1593172936"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Stylesheets/screen.css?1617961925"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_testfiles/additional.css?1585042139"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/typo3conf/ext/magaloneflipbook/Resources/Public/Styles/magalone.min.css?1617961926"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/icon?family=Material+Icons"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/typo3conf/ext/magaloneflipbook/Resources/Public/Styles/style.css?1617961926"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/sg_cookie_optin/siteroot-1/cookieOptin.css?1614262405"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/sg_cookie_optin/siteroot-1/cookieOptin.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Icons/burger.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Icons/logo_denic.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/8/d/csm_Willkommen_bei_DENIC_35be79b9b1.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/images/icons/icon-mail.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/b/3/csm_TRANSIT_9f69169bf5.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/Aktuelles/Domain_pulse_2021_2022_quadratisch.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/Aktuelles/PM_TB_2019.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/0/3/csm_GAIA-X_NEWS_4eaae65f3c.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/0/8/csm_ICANN_69_b7acaeafd3.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/csm_domaincounter_image_75de50af90.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Images/iso_27001.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Images/iso_22301.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/typo3conf/ext/magaloneflipbook/Resources/Public/JavaScript/magalone.min.js?1617961926"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Javascript/denic.js?1617961925"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/f/9/csm_iStock-643843280_0fecf1990c.jpg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Fonts/denic-icons.woff2?-dy3a9k"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Fonts/2F209A_15_0.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Fonts/2F209A_16_0.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/assets/Fonts/2F209A_13_0.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/Aktuelles/Willkommen_bei_DENIC.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/b/3/csm_TRANSIT_8e2984ac10.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/0/3/csm_GAIA-X_NEWS_2d3386e922.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/0/8/csm_ICANN_69_36ea0d1492.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/fileadmin/public/_processed_/csm_domaincounter_image_8082a6f1bf.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.denic.de/clear.gif"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-src": [
+        "'self'"
+      ],
+      "header_value": "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; object-src 'self'; script-src 'self' https://matomo-dev.cloud.denic.de 'unsafe-inline'; img-src 'self' https://www.denic.de https://matomo-dev.cloud.denic.de; frame-src 'self'",
+      "img-src": [
+        "'self'",
+        "https://www.denic.de",
+        "https://matomo-dev.cloud.denic.de"
+      ],
+      "object-src": [
+        "'self'"
+      ],
+      "script-src": [
+        "'self'",
+        "https://matomo-dev.cloud.denic.de",
+        "'unsafe-inline'"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://fonts.googleapis.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15552000",
+      "includeSubDomains": false,
+      "max-age": 15552000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://denic.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 1
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

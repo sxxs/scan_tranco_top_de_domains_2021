@@ -1,0 +1,477 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".7pass.de",
+      "expires": 1682004973,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079200,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1367852222.1618932974"
+    },
+    {
+      "domain": ".7pass.de",
+      "expires": 1619019373,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93600,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.920712995.1618932974"
+    },
+    {
+      "domain": ".7pass.de",
+      "expires": 1618933033,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7260,
+      "name": "_gat",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 5,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://7pass.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 1,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "t0",
+        "tracking_id": "UA-59443568-3"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "cf12163f735dadc979c369a73fc7ba820ff58f90426dcef46759b1722ccf6a75",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Amazon",
+        "countryName": "US",
+        "organizationName": "Amazon",
+        "organizationalUnitName": "Server CA 1B"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1628157600.0,
+      "not_valid_before": 1593900000.0,
+      "serial_number": 1906427402086744463668097147720466153,
+      "subject": {
+        "commonName": "7pass.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://7pass.de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://7pass.de/",
+    "https://7pass.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://7pass.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/css/7pass-marketing-website.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/js/7pass-marketing-website.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/7Pass_powered_positiv.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/services.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/about.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/prosieben_logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/Sat1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/Kabel1.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/sixx.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/Gold.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/7Maxx.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/cmp/cmp-7pass-standalone-web.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/sprite_user.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/home.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/icons_sprite.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/sprite_intro.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/img/plus.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/fonts/interstateplus_light-webfont.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/fonts/interstateplus_bold-webfont.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://7pass.de/assets/fonts/interstateplus_regular-webfont.woff"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1884314670&t=pageview&_s=1&dl=https%3A%2F%2F7pass.de%2F&ul=en-us&de=UTF-8&dt=7Pass%20%7C%20Der%20zentrale%20Anmeldedienst%20von%20ProSiebenSat.1&sd=24-bit&sr=800x600&vp=785x600&je=0&_u=YEBAAEABAAAAAC~&jid=1159509015&gjid=1561910736&cid=1367852222.1618932974&tid=UA-59443568-3&_gid=920712995.1618932974&_r=1&_slc=1&z=306526916"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/v91axdVul/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/v91axdVul/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://middleware.p7s1.io/cmp/v1/vendorlist?key=db65350b11bd14f391bd9435a55cdd91"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=v91axdVul"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/v91axdVul/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/v91axdVul/latest/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2PLSJfB9b@6.2.0,3d_zXyiF3@1.0.0,3hRUClNKd@1.0.16,3oMLZEPWY@2.1.0,458ZXOCa7@1.0.0,4NIAkZsNE@2.2.0,57b0LQPAS@1.0.17,59SFKcLbU@1.0.17,5LFVxHGKz@6.0.0,64sqiCjqt@1.0.0,6JhzOIUTb@1.0.0,6PEQM-sZb@2.1.0,7M0cXS2pQ@10.6.1,7V8HWDzj6@1.0.0,7gNTj7prM@1.0.0,7jBdshciY@1.0.0,7tNwk5fZ9@1.1.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,8u-otMeLg@3.1.1,9Q2qrmB3@7.3.1,9_mINmsAo@1.0.0,Aytn62TR@2.0.0,B1Pb9NoOiZQ@5.2.1,B1QLcNsujb7@5.1.0,BJ1Q5NoOj-7@5.1.3,BJSN54susZX@6.1.0,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BkeKqEjuoZQ@9.3.5,By7zl9NiOoWX@5.3.0,ByOJZ54odjW7@11.3.1,ByiGqViusWX@15.3.1,CAh-PzD4@6.3.0,CVliYs1Zn@2.1.1,D54OYklIe@1.0.0,DswEq9TCs@1.0.1,EEGp0Nfi5@1.0.0,F8H6nhx8h@1.0.16,FZ72hT8fW@2.1.0,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hkq1Xar5V@4.7.3,IzbZdzMbe@1.0.0,JMsFnFMX2@4.1.0,JZ5Fyc-rv@1.0.0,Jy6PlrM3@2.2.0,KjGuCO5fR@1.0.0,Kow812ahs@1.0.0,LFB7KaXwd@2.1.0,LNxiCu4IM@2.1.0,LXHJg4kRq@1.0.0,MHGrt2O9A@2.1.0,N13fTqTBN@1.0.0,NjT2ojfFy@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,OD38XMAFy@3.1.1,OfcG-xEne@1.0.0,QmkqgbGhi@1.1.0,R9wIGhJhM@2.1.0,RkzHS-jLm@2.0.0,Rl5Afmh9a@2.1.0,S1Qe-Pn54@4.2.1,S1kgcNo_j-m@6.3.4,SJKM9Ns_ibQ@10.4.4,SJXtq4iOoZX@10.4.4,SyUQ54odobQ@6.4.2,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TQTiGR5d5@1.0.0,TxfLuXDLv@1.0.0,V3wuPTpCz@2.1.0,V9qWyLWRp@1.0.0,W-Ep9eMuA@1.0.0,W0wzTGeX_@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XYQZBUojc@8.5.1,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,Z_Opm-uL-@1.0.0,_zVOsAeiE@2.1.0,aDbGF8BGv@1.0.0,aYIkC47ga@1.0.0,apGP5d1vF@1.0.0,asMSlSHHt@1.0.0,codpeWIqV@4.0.0,d_5HNF7Yc@9.1.2,diHQHT2cJ@1.0.1,eCAHFq27-@1.0.0,gHY2exdu@5.2.0,gIaHug97S@1.0.0,hpfYG4q4P@2.1.0,j31lIl5Xp@2.1.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,jk8sj365b@1.0.0,k4en3lAF3@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,mCKT4oRIh@1.0.16,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,mhSAJ2EnW@1.0.0,oVp4lE7r1@1.0.16,owYNQwDvZ@1.0.0,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.16,qkMgGJxeV@2.1.0,r1BTxcEiuibQ@4.2.0,r1KU9EjOs-m@3.0.0,r1qWcNoOsW7@6.3.4,rAffn6LrC@1.0.45,rJOZc4jOiWQ@15.4.16,ryXAe5Vidi-m@4.0.0,s8nQgU9A5@5.1.1,tMw5iWQZ9@1.0.0,tavJ1OKSj@2.1.0,tnfBi7gwe@14.3.2,uJzNEl6Sr@1.0.0,uNl9XGnZC@7.1.1,v5qsHjm64@1.0.16,vFJX03YEz@5.1.1,w9RyVSEAG@1.0.0,wuZDXU1-P@1.0.0,xcThtDvvy@3.2.1,xpBsrsMfj@1.0.21,yui8ye1r0@2.1.0,ywGTiSQd3@1.0.0,yy4wLaA_Q@1.0.0,zHPuHon9t@1.0.0,zLYthe0wL@2.0.10,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zpjqzQgar@2.1.0,zqWojrT0P@15.7.6,ztvSJZUt2@1.0.0"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2PLSJfB9b@6.2.0,3d_zXyiF3@1.0.0,3hRUClNKd@1.0.16,3oMLZEPWY@2.1.0,458ZXOCa7@1.0.0,4NIAkZsNE@2.2.0,57b0LQPAS@1.0.17,59SFKcLbU@1.0.17,5LFVxHGKz@6.0.0,64sqiCjqt@1.0.0,6JhzOIUTb@1.0.0,6PEQM-sZb@2.1.0,7M0cXS2pQ@10.6.1,7V8HWDzj6@1.0.0,7gNTj7prM@1.0.0,7jBdshciY@1.0.0,7tNwk5fZ9@1.1.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,8u-otMeLg@3.1.1,9Q2qrmB3@7.3.1,9_mINmsAo@1.0.0,Aytn62TR@2.0.0,B1Pb9NoOiZQ@5.2.1,B1QLcNsujb7@5.1.0,BJ1Q5NoOj-7@5.1.3,BJSN54susZX@6.1.0,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BkeKqEjuoZQ@9.3.5,By7zl9NiOoWX@5.3.0,ByOJZ54odjW7@11.3.1,ByiGqViusWX@15.3.1,CAh-PzD4@6.3.0,CVliYs1Zn@2.1.1,D54OYklIe@1.0.0,DswEq9TCs@1.0.1,EEGp0Nfi5@1.0.0,F8H6nhx8h@1.0.16,FZ72hT8fW@2.1.0,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hkq1Xar5V@4.7.3,IzbZdzMbe@1.0.0,JMsFnFMX2@4.1.0,JZ5Fyc-rv@1.0.0,Jy6PlrM3@2.2.0,KjGuCO5fR@1.0.0,Kow812ahs@1.0.0,LFB7KaXwd@2.1.0,LNxiCu4IM@2.1.0,LXHJg4kRq@1.0.0,MHGrt2O9A@2.1.0,N13fTqTBN@1.0.0,NjT2ojfFy@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,OD38XMAFy@3.1.1,OfcG-xEne@1.0.0,QmkqgbGhi@1.1.0,R9wIGhJhM@2.1.0,RkzHS-jLm@2.0.0,Rl5Afmh9a@2.1.0,S1Qe-Pn54@4.2.1,S1kgcNo_j-m@6.3.4,SJKM9Ns_ibQ@10.4.4,SJXtq4iOoZX@10.4.4,SyUQ54odobQ@6.4.2,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TQTiGR5d5@1.0.0,TxfLuXDLv@1.0.0,V3wuPTpCz@2.1.0,V9qWyLWRp@1.0.0,W-Ep9eMuA@1.0.0,W0wzTGeX_@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XYQZBUojc@8.5.1,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,Z_Opm-uL-@1.0.0,_zVOsAeiE@2.1.0,aDbGF8BGv@1.0.0,aYIkC47ga@1.0.0,apGP5d1vF@1.0.0,asMSlSHHt@1.0.0,codpeWIqV@4.0.0,d_5HNF7Yc@9.1.2,diHQHT2cJ@1.0.1,eCAHFq27-@1.0.0,gHY2exdu@5.2.0,gIaHug97S@1.0.0,hpfYG4q4P@2.1.0,j31lIl5Xp@2.1.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,jk8sj365b@1.0.0,k4en3lAF3@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,mCKT4oRIh@1.0.16,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,mhSAJ2EnW@1.0.0,oVp4lE7r1@1.0.16,owYNQwDvZ@1.0.0,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.16,qkMgGJxeV@2.1.0,r1BTxcEiuibQ@4.2.0,r1KU9EjOs-m@3.0.0,r1qWcNoOsW7@6.3.4,rAffn6LrC@1.0.45,rJOZc4jOiWQ@15.4.16,ryXAe5Vidi-m@4.0.0,s8nQgU9A5@5.1.1,tMw5iWQZ9@1.0.0,tavJ1OKSj@2.1.0,tnfBi7gwe@14.3.2,uJzNEl6Sr@1.0.0,uNl9XGnZC@7.1.1,v5qsHjm64@1.0.16,vFJX03YEz@5.1.1,w9RyVSEAG@1.0.0,wuZDXU1-P@1.0.0,xcThtDvvy@3.2.1,xpBsrsMfj@1.0.21,yui8ye1r0@2.1.0,ywGTiSQd3@1.0.0,yy4wLaA_Q@1.0.0,zHPuHon9t@1.0.0,zLYthe0wL@2.0.10,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zpjqzQgar@2.1.0,zqWojrT0P@15.7.6,ztvSJZUt2@1.0.0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.12.1/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/53f65b57de56dd3a83ed019863aadf8c14f465de794b802d4b8c9e16afa479fa/analytics"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/53f65b57de56dd3a83ed019863aadf8c14f465de794b802d4b8c9e16afa479fa/analytics"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://7pass.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cmp.p7s1.io",
+      "graphql.usercentrics.eu",
+      "middleware.p7s1.io",
+      "s.p7s1.io",
+      "www.google-analytics.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 21
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 17,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "www.google-analytics.com"
+    ]
+  }
+}

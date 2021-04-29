@@ -1,0 +1,779 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bod.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "appRelease",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 24,
+      "value": "20210414162514"
+    },
+    {
+      "domain": ".bod.de",
+      "expires": 1626707904,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7783202,
+      "name": "_gcl_au",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "1.1.692069237.1618931904"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bod.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "1a1454ed08ffe7dd913a34e0e6b5a2d024dd5f7b761aee66dc2c96f06d1c1319",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1654898399.0,
+      "not_valid_before": 1588543200.0,
+      "serial_number": 152552749056683572578515270772206352651,
+      "subject": {
+        "commonName": "*.bod.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "RSA",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bod.de/bod-impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bod.de/",
+    "http://www.bod.de/",
+    "https://www.bod.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bod.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.bod.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/typo3temp/stylesheet_71e90835af.css?1607945729"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/typo3conf/ext/infoleven_package/Resources/Public/Css/bod-navigation-style.min.css?1617726746"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/typo3conf/ext/infoleven_package/Resources/Public/JavaScript/bod-navigation.min.js?1617726742"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/cssapi/f100466c-87ad-4562-a348-bdfa50d74e6e.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/libs/js/statics/jquery-ui-1.11.4/jquery-ui.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/html/stylesheets/screen.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/html/images/bod-logo-126-60.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Buehne/BoD-Veroeffentlichen-Sie-Ihr-Buch-mit-BoD.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Shop-Logos/BoD-Shop-Logos.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Showcase-Galerie/BoD-Showcase-Bild-1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Showcase-Galerie/BoD-Showcase-Bild-2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Showcase-Galerie/BoD-Showcase-Bild-3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Showcase-Galerie/BoD-Showcase-Bild-4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Showcase-Galerie/BoD-Showcase-Bild-5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Showcase-Galerie/BoD-Showcase-Bild-6.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/das-geheimnis-der-orangen-ella-wuensche-9783752687101.jpg/400/400/Das_Geheimnis_der_Orangen.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/kuess-mich-noch-mal-teufel-eva-herzsprung-9783752600803.jpg/400/400/K%C3%BCss_mich_noch_mal,_Teufel!.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/traumtyp-per-mausklick-susanne-kammerer-9783753406244.jpg/400/400/Traumtyp_per_Mausklick.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/kleinstadtglitzern-helene-rose-9783752617177.jpg/400/400/Kleinstadtglitzern.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/beanstock-mord-auf-parsley-manor-1-buch-a-w-benedict-9783752642254.jpg/400/400/Beanstock_-_Mord_auf_Parsley_Manor_(1._Buch).jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/gnadenlose-aida-krinke-rehberg-9783751971584.jpg/400/400/Gnadenlose_AIDA.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/elbfang-nicole-wollschlaeger-9783751952835.jpg/400/400/ELBFANG.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/der-seenebelmord-ulrike-busch-9783752645286.jpg/400/400/Der_Seenebelmord.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/transport-7-ursprung-phillip-p-peterson-9783752690149.jpg/400/400/Transport_7:_Ursprung.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/maerchenwaldchronik-band-1-alice-valere-9783752640274.jpg/400/400/M%C3%A4rchenwaldchronik:_Band_1.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/das-haus-in-der-mitte-der-strasse-marvin-grauwolf-9783753407791.jpg/400/400/Das_Haus_in_der_Mitte_der_Strasse.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/under-the-moon-maria-winter-9783752604276.jpg/400/400/Under_the_Moon.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/mutterwut-muttermut-rona-duwe-9783752667219.jpg/400/400/Mutterwut_Muttermut.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/mit-cellreset-in-ein-neues-leben-nikky-seifert-9783752684773.jpg/400/400/Mit_cellRESET_in_ein_neues_Leben.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/blase-gut-alles-gut-stephan-roth-9783752668674.jpg/400/400/Blase_gut_-_alles_gut.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/deutschland-schwarz-weiss-noah-sow-9783746006819.jpg/400/400/Deutschland_Schwarz_Wei%C3%9F.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/heitere-resignation-heike-dahlmanns-9783738644821.jpg/400/400/Heitere_Resignation.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/papercuts-andrea-benesch-9783753402826.jpg/400/400/Papercuts.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/die-duestern-tannen-saeumen-meinen-weg-alice-quadflieg-9783753403878.jpg/400/400/Die_d%C3%BCstern_Tannen_s%C3%A4umen_meinen_Weg.jpg"
+    },
+    {
+      "mime_type": "image/jpg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.bod.com/images/das-leben-schreibt-sich-selbst-dana-fischer-9783750429741.jpg/400/400/Das_Leben_schreibt_sich_selbst.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Medienbanner/BoD-ARD-Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Medienbanner/BoD-ZDF-Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Medienbanner/BoD-FAZ-Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Medienbanner/BoD-Die-Welt-Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Homepage/Medienbanner/BoD-Boersenblatt-Logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Sondergrafiken/icon-facebook.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Sondergrafiken/icon-instagram.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Sondergrafiken/icon-twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/user_upload_de_ch/Sondergrafiken/icon-YouTube.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/base/base.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/typo3conf/ext/sms_components/Resources/Public/JavaScript/Components/ThumbnailGallery/index.min.js?1617726691"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/typo3conf/ext/sms_components/Resources/Public/JavaScript/Components/BookshopTeaser/index.min.js?1617726691"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/typo3conf/ext/sms_components/Resources/Public/JavaScript/Components/TabContainer/index.min.js?1617726691"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/css/base/base.min.css?v=20.4.2021"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=f100466c-87ad-4562-a348-bdfa50d74e6e"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NNW23G"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/9bcb625d-81de-48c2-ba0c-664558d197e3.woff2?d44f19a684109620e484167ba190e81849e23c9ede02452329c2206d489f0f290ba4110d54cec0a68b34bd3f144164b4e50470ef56a957803f0229da4323dbb48e9a11de4b73be3ae8fbaad4e0a83ff8b857110ffd909c32653e1d620ccaaae33787dc95d778a657bac49e19a65104d6620d84f4ee8ac103e17beaa987de5a007200223709f1f25ea755515951510c31e116dd456fc79806fb553f8c92a7e17836f046a258a41877171e242fe2c60336b1b8c718a3d33314c618960042f861c69e3cd3a3d288892f5bc2e9ae745e1364f404ab432e715680bbca833d19b075c93ac0&projectId=f100466c-87ad-4562-a348-bdfa50d74e6e"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/fonts/LigatureSymbols-2.11.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/8615ad8e-b061-4554-9786-17ca85e8199a.woff2?d44f19a684109620e484167ba190e81849e23c9ede02452329c2206d489f0f290ba4110d54cec0a68b34bd3f144164b4e50470ef56a957803f0229da4323dbb48e9a11de4b73be3ae8fbaad4e0a83ff8b857110ffd909c32653e1d620ccaaae33787dc95d778a657bac49e19a65104d6620d84f4ee8ac103e17beaa987de5a007200223709f1f25ea755515951510c31e116dd456fc79806fb553f8c92a7e17836f046a258a41877171e242fe2c60336b1b8c718a3d33314c618960042f861c69e3cd3a3d288892f5bc2e9ae745e1364f404ab432e715680bbca833d19b075c93ac0&projectId=f100466c-87ad-4562-a348-bdfa50d74e6e"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fast.fonts.net/dv2/14/65cde95a-ac33-4c65-8198-e37857968d1a.woff2?d44f19a684109620e484167ba190e81849e23c9ede02452329c2206d489f0f290ba4110d54cec0a68b34bd3f144164b4e50470ef56a957803f0229da4323dbb48e9a11de4b73be3ae8fbaad4e0a83ff8b857110ffd909c32653e1d620ccaaae33787dc95d778a657bac49e19a65104d6620d84f4ee8ac103e17beaa987de5a007200223709f1f25ea755515951510c31e116dd456fc79806fb553f8c92a7e17836f046a258a41877171e242fe2c60336b1b8c718a3d33314c618960042f861c69e3cd3a3d288892f5bc2e9ae745e1364f404ab432e715680bbca833d19b075c93ac0&projectId=f100466c-87ad-4562-a348-bdfa50d74e6e"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner/283736951/static/js/1.c82b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner/283736951/static/js/2.3a3f.chunk.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner/283736951/static/css/0.7cc1.chunk.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner/283736951/static/js/0.7546.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/views/Application.min.js?v=20210414162514"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/views/General/DialogContainer.min.js?v=20210414162514"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/views/MobileNavigation.min.js?v=20210414162514"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/views/NewSlider.min.js?v=20210414162514"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/views/BoDContentElements/imageGallery.min.js?v=20210414162514"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/build/js/views/BoDContentElements/pricetable.min.js?v=20210414162514"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cookiefirst.com/sites/bod.de-0dfbbb42-5815-40b8-af68-660457db899d/version.json?v=1618931904426"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/html/javascripts/vendor/jquery.flexslider-min.js?_=1618931903937"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cookiefirst.com/sites/bod.de-0dfbbb42-5815-40b8-af68-660457db899d/config.json?v=1618533334"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.cookiefirst.com/bc/handler.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.cookiefirst.com/bc/bc-handler.min.js?v=1618931904688"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/html/javascripts/vendor/jquery.flexslider-min.js?_=1618931903938"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bod.de/fileadmin/bod/html/javascripts/vendor/jquery.flexslider-min.js?_=1618931903939"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cookiefirst.com/sites/bod.de-0dfbbb42-5815-40b8-af68-660457db899d/lang-widget-de.json?v=1618533334"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner/283736951/static/css/3.53df.chunk.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiefirst.com/banner/283736951/static/js/3.7f9c.chunk.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cookiefirst.com/sites/bod.de-0dfbbb42-5815-40b8-af68-660457db899d/styles.css?v=1618533334"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 304,
+      "status_text": "",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=f100466c-87ad-4562-a348-bdfa50d74e6e"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "blob:",
+        "erm-chat.bod.de:8080",
+        "*.bod.de",
+        "images.bod.com",
+        "*.bod.com",
+        "*.trustpilot.com",
+        "*.googletagmanager.com",
+        "ssl.google-analytics.com",
+        "*.google-analytics.com",
+        "*.facebook.net",
+        "*.facebook.com",
+        "*.facebook.de",
+        "*.bing.com",
+        "*.twitter.com",
+        "static.ads-twitter.com",
+        "t.co",
+        "*.google.com",
+        "googleads.g.doubleclick.net",
+        "*.adfarm1.adition.com",
+        "connect.facebook.net",
+        "fast.fonts.net",
+        "*.fonts.net",
+        "*.google.de",
+        "stats.g.doubleclick.net",
+        "*.googleadservices.com",
+        "*.googleapis.com",
+        "*.gstatic.com",
+        "*.cookiefirst.com",
+        "*.bootstrapcdn.com",
+        "*.cloudflare.com",
+        "*.youtube.com",
+        "*.youtu.be",
+        "*.vimeo.com"
+      ],
+      "header_value": "default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: erm-chat.bod.de:8080 *.bod.de images.bod.com *.bod.com  *.trustpilot.com *.googletagmanager.com ssl.google-analytics.com *.google-analytics.com *.facebook.net *.facebook.com *.facebook.de *.bing.com *.twitter.com static.ads-twitter.com t.co *.google.com googleads.g.doubleclick.net *.adfarm1.adition.com connect.facebook.net fast.fonts.net *.fonts.net *.google.de stats.g.doubleclick.net *.googleadservices.com *.googleapis.com *.gstatic.com *.cookiefirst.com *.bootstrapcdn.com *.cloudflare.com *.youtube.com *.youtu.be *.vimeo.com; img-src 'self' data: blob: https:;",
+      "img-src": [
+        "'self'",
+        "data:",
+        "blob:",
+        "https:"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000; includeSubdomains",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bod.de\r",
+  "third_parties": {
+    "fqdns": [
+      "app.cookiefirst.com",
+      "consent.cookiefirst.com",
+      "fast.fonts.net",
+      "images.bod.com",
+      "static.cookiefirst.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 40
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 14,
+    "trackers": [
+      "app.cookiefirst.com",
+      "consent.cookiefirst.com",
+      "static.cookiefirst.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

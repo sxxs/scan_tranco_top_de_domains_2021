@@ -1,0 +1,322 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.brandenburg.de/de/portal/bb1.c.473964.de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f8b1e817de7945e02269a2c70f1ea0cff54b2335572c1486b855e8c8c2db4052",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1631829599.0,
+      "not_valid_before": 1599796276.0,
+      "serial_number": 3480576210455519235698912418368888963,
+      "subject": {
+        "commonName": "*.brandenburg.de",
+        "countryName": "DE",
+        "localityName": "Potsdam",
+        "organizationName": "Landesverwaltung Brandenburg",
+        "organizationalUnitName": "Brandenburgischer IT-Dienstleister",
+        "stateOrProvinceName": "Brandenburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.brandenburg.de/de/impressum/bb1.c.476206.de",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.2.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://brandenburg.de/",
+    "https://www.brandenburg.de/",
+    "https://www.brandenburg.de/de/portal/bb1.c.473964.de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://brandenburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/de/portal/bb1.c.473964.de"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2018.HhFrameworks.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2020.Screen.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/bildergalerie.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2018.JQuery.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2018.HhFrameworks.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2018.Site.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3779.de/leichte_sprache.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/logo-brb@1.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/Vergr%C3%B6%C3%9Ferung%20%20Cropped.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/Sachsenhausen%20Slider.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/Ausbildung_Slider.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/impfen1080.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/slider_instagram.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/cor-ff-masken.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/coronaproben.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/6322/20180831_fahrraeder.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2018.Print.css"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/StkBB.2018.Template.Menu.Desktop.html"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.brandenburg.de/piwik.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/open-sans-v13-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/open-sans-v13-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.brandenburg.de/media_fast/bb1.a.3795.de/BB.20200319.Structure.xml"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Content",
+      "url": "https://piwik.brandenburg.de/piwik.php?action_name=Startseite%20%7C%20Landesregierung%20Brandenburg&idsite=32&rec=1&r=822214&h=11&m=42&s=11&url=https%3A%2F%2Fwww.brandenburg.de%2Fde%2Fportal%2Fbb1.c.473964.de&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=26b3k9&pf_net=0&pf_srv=22.505000000819564&pf_tfr=12.905000010505319"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://brandenburg.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.jsdelivr.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 2,
+    "trackers": [
+      "cdn.jsdelivr.net"
+    ]
+  }
+}

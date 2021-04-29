@@ -1,0 +1,432 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://tu-dresden.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a0b699df0fa8cf2ae500ef42ad8487bb266cff0eb753135e31538dbf2037045c",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TU Dresden CA",
+        "countryName": "DE",
+        "localityName": "Dresden",
+        "organizationName": "Technische Universitaet Dresden",
+        "stateOrProvinceName": "Sachsen"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1652872763.0,
+      "not_valid_before": 1618571963.0,
+      "serial_number": 11326484404890039702162512647,
+      "subject": {
+        "commonName": "tu-dresden.de",
+        "countryName": "DE",
+        "localityName": "Dresden",
+        "organizationName": "Technische Universitaet Dresden",
+        "organizationalUnitName": "D7",
+        "stateOrProvinceName": "Sachsen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://tu-dresden.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://tu-dresden.de/",
+    "https://tu-dresden.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://tu-dresden.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_css/tud.theme.webcms2/themetud.theme.webcms2cssanonymous.min-cachekey-5b0b8caf64fad699536f4db5030cceac.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_css/tud.theme.webcms2/resourceplone.formwidget.contenttreecontenttree-cachekey-b5cd3e796fed48d1314915c59935f973.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/themetud.theme.webcms2jslibs.min-cachekey-448c8da7a3d1581bc1dc1618e0965385.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/jquery.highlightsearchterms-cachekey-0d96b3f53e06b4af1da08efe84a88f14.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/resourcetud.boxes.webcmsjsboard-cachekey-1aa28da37bc858e038fb03777256cce6.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/themetud.theme.webcms2jsmodules.min-cachekey-befdc61fb81275dd44a2fc7dfb09d2d2.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/popupforms-cachekey-e5605054bc3eaf461b80e7a6f95129c7.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/formUnload-cachekey-7ec9264c0574808902e35b241574dccf.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/portal_javascripts/tud.theme.webcms2/unlockOnFormUnload-cachekey-1b5f4a71cb179115cf4b750209209242.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/img/flags/flag-en.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/img/flags/flag-de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/img/tud-logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseite_forschungsprofillinien/PoL_stockage_EXC.jpg/@@images/288a116b-32f7-4604-8578-081c49d36e06.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseite_forschungsprofillinien/Chip_panthermedia.jpg/@@images/edaef928-b906-4484-b912-02a33a859623.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseite_forschungsprofillinien/Aluminium_Tobias-Ritz.jpg/@@images/1b768446-55b5-4365-afb2-dea44a8e21f3.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseite_forschungsprofillinien/AdobeStock_305375756-c-malp-stock-adobe-com.jpeg/@@images/88921a08-1646-40fe-9b27-af1b6dfeb21d.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseite_forschungsprofillinien/Menschenmasse_pixabay.jpg/@@images/da2f35de-c533-450b-83cf-58d92b5c3cbf.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/dd-concept-logo/@@images/d8b9945c-9994-4814-9c6b-b739234862e4.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/tu-dresden/newsportal/ressourcen/bilder/news-bilder/fotos/Wasserbau.jpg/@@images/2021d818-5e52-489e-aa04-a8a95a04ccb2.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/tu-dresden/newsportal/ressourcen/bilder/news-bilder/fotos/Corona_Schild-Maskenpflicht_Quelle-HHensel-IOER-Media_RS12524_P4152508.jpg/@@images/53b6eba7-d4f3-4478-b03e-21bbb300a0d1.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/med/mf/ressourcen/bilder/news/Medic-Studiengang-Klinikum-Chemnitz-3.jpg/@@images/07284a75-cbbd-4817-8752-a29e63bd5cac.jpeg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/img/sachsen-signet-gruen.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/img/border-main.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/buehne/2021-04_TUD_Banner_HSZ-Sicher-Gemeinsam-Digital___Buehne.jpg/@@images/2cd55b67-2afd-45d3-9d9b-bb3922e565ed.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/buehne/RS9634_Studierende-mit-Maske-01_DSC6395-2-scr.jpg/@@images/cd7dff96-2d93-47dd-ad1c-22a35888e0bc.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/buehne/zukunftslabore-2021/LogoZL21.jpg/@@images/5dce2e90-a87a-49a2-bd11-654c3ab990ab.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/tu-dresden/universitaetskultur/ressourcen/bilder/pexels-ivan-samkov-4458548.jpg/@@images/9e0b231c-fc0e-43cd-9fcf-3bff9d9bc301.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/buehne/RS9528_28205920_10630_Forschung_Corona_PantherMedia-Gudrun-Krebs.jpg/@@images/25be0372-5806-4d24-adec-573707ba8ead.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/buehne/kachel-international/Kachel-Incoming_Amac-Garbe.jpg/@@images/76b9527e-96bb-4742-8468-22e90ec50fc5.jpeg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2//img/icons/lighthouse.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/campus-navigator-placeit.jpg/@@images/b338eb59-0b2c-487c-8d6a-ec5f809025af.jpeg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/fonts/OpenSans/opensans-regular.woff2"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/fonts/tud-icons.woff?6913"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/fonts/OpenSans/opensans-light.woff2"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/fonts/MarketWeb.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/fonts/OpenSans/opensans-semibold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/++theme++tud.theme.webcms2/fonts/OpenSans/opensans-bold.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.mz.tu-dresden.de/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseitenbanner/scs-banner/@@images/13293623-0c41-43df-9478-aa07502d43de.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tu-dresden.de/ressourcen/bilder/startseitenbanner/sony-1455035_1920pixabay_Lirofilm.jpg/@@images/3240ceab-71c5-4dc9-b0a6-2da311ed43b8.jpeg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.mz.tu-dresden.de/piwik.php?action_name=Technische%20Universit%C3%A4t%20Dresden%20%E2%80%94%20TU%20Dresden&idsite=101&rec=1&r=186723&h=18&m=55&s=32&url=https%3A%2F%2Ftu-dresden.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=7gOEh2&pf_net=33.910000000105356&pf_srv=1081.5899999997782&pf_tfr=18.73500000056083"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "https://piwik.mz.tu-dresden.de"
+      ],
+      "header_value": "frame-ancestors 'self' https://piwik.mz.tu-dresden.de"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://tu-dresden.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

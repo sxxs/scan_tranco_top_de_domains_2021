@@ -1,0 +1,408 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "auswaertiges-amt.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 48,
+      "value": "5565e4c6e6cd701b55ca6b72d083381f8fe431a4"
+    },
+    {
+      "domain": "www.auswaertiges-amt.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 48,
+      "value": "39785dc71ad2605921b521cd51e44bf5e0a3c55d"
+    },
+    {
+      "domain": "www.auswaertiges-amt.de",
+      "expires": 1619023794,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 180001,
+      "name": "aamtCookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 14,
+      "value": "true"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.auswaertiges-amt.de/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "44766ddbe0c75fa496ecf0bfaf54376e428259e7a26b3cf9ffb632bd8e050d12",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign ECC OV SSL CA 2018",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1629974443.0,
+      "not_valid_before": 1563428644.0,
+      "serial_number": 18366513399783253541977193332,
+      "subject": {
+        "commonName": "www.auswaertiges-amt.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Ausw\u00e4rtiges Amt",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_ECDSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.auswaertiges-amt.de/de/impressum-node",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://auswaertiges-amt.de/",
+    "https://auswaertiges-amt.de/",
+    "https://www.auswaertiges-amt.de/",
+    "https://www.auswaertiges-amt.de/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://auswaertiges-amt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://auswaertiges-amt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/resources/768/75/styles.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/resources/770/6/label-css.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/resources/808/3/duplicate.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/blob/774/043b311bf7ef66e7fe96e3da3f0c8bb4/aamt-logo-tb-data.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2454736/16x9/944/531/3cbf1af12da99739f2534d9b55e3f6e0/Lf/virtueller-rat-fuer-auswaertige-angelegenheiten--3-.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/resources/754/68/print.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2453718/16x9/340/191/78997ccdbba5fc9c018c885faeceb3ef/ow/210413-hilde-domin-bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2453660/16x9/340/191/8ab5c19e885244def363399b68908704/cH/210413-2-2japanbild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/1785568/16x9/340/191/b052764f075dcca6dd4d63dfd4d4bf07/rc/bm-maas-offiziell.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2490/16x9/944/531/a55aa3bf74b9aead5fc8b11b69740cb7/mg/laendersuche-background.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://strassburg-europarat.diplo.de/image/2411980/123x55/1230/550/85783e230cee49fc55a7972babf1daa/kt/logo-deu-vorsitz-bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2396320/123x55/1230/550/a4e9b416e008a328e2856899c55209e5/DP/200923-impfung-symbolbild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2326946/123x55/1230/550/d893c123af7d5bd23165fa66def35650/Xp/reisewarnung-eu.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://bfaa.diplo.de/image/2426968/123x55/1230/550/73af6644159070a873116c9ea3652685/GC/bfaa-brandenburg-naethewinde.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/2226020/123x55/1230/550/774cd06c0d165cf81efcf96fa25a6875/TO/neuer-inhalt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/264218/16x9/944/531/1602528fe4517ea7782cbd32dc119a95/hS/arbeitgeber-bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/258628/16x9/450/253/fd8596f49adf3be01f955ea8c680272/Ly/berufsbild-bild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/image/214886/16x9/450/253/7e71a756bf4b3087ebc71e5ecc88e631/ig/bild-teaser-berufsbild.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/resources/1802/1/1015999319/de.js"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/blob/1006/0f2c7cc8874fc993995c3f2ab4345f13/bundessansweb-regular-woff-data.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/resources/182/69/icons-data-svg.css"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/blob/1018/b30de1d307b11d7efed6728b5e4ef08c/bundesserifweb-regular-woff-data.woff"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/static/appdata/filter/de/taxonomyautocomplete.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/static/appdata/filter/de/laenderseite.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.auswaertiges-amt.de/matomo.js"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/blob/1012/7d0022b50e3bd1306f1515afc70f665c/bundessansweb-bold-woff-data.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/blob/1024/ab21f167be4e7d52a278302b3601ae5b/bundesserifweb-italic-woff-data.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.auswaertiges-amt.de/blob/1030/1ba778546a4a341401c03d08949196c7/bundesserifweb-bolditalic-woff-data.woff"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.auswaertiges-amt.de/matomo.php?action_name=AAChannel%2FAusw%C3%A4rtiges%20Amt&idsite=1&rec=1&r=416267&h=18&m=49&s=55&url=https%3A%2F%2Fwww.auswaertiges-amt.de%2Fde%2F&_id=&_idts=1618850995&_idvc=1&_idn=1&_refts=0&_viewts=1618850995&send_image=1&cookie=0&res=800x600&gt_ms=50&pv_id=62SY9F"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=604800",
+      "includeSubDomains": false,
+      "max-age": 604800,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://auswaertiges-amt.de\r",
+  "third_parties": {
+    "fqdns": [
+      "bfaa.diplo.de",
+      "strassburg-europarat.diplo.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

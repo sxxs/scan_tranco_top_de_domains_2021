@@ -1,0 +1,1106 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.alternate.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 53,
+      "value": "1IzrGhfLwfiKvKKWFmauTeo8gtP8woRcR7k3pwSl.06"
+    },
+    {
+      "domain": "www.alternate.de",
+      "expires": 1650456640.498865,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543200.49886489,
+      "name": "permanent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 69,
+      "value": "954a263be613ba4e15348e9947e8f55543ff3aedd0bcce8727cd1eec1ce5"
+    },
+    {
+      "domain": "www.alternate.de",
+      "expires": 4102444799,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2483531359,
+      "name": "TLECookieAcceptance",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 50,
+      "value": "{\"v\":4,\"r\":0,\"p\":0,\"s\":0,\"m\":0}"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.alternate.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "7bc1f2dd4c5b10070afbce8dddc64e1e97f778e6473f70dbb1efed7be5affc64",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1652004000.0,
+      "not_valid_before": 1587679200.0,
+      "serial_number": 9273372343131523928431787067541424669,
+      "subject": {
+        "commonName": "*.alternate.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.alternate.de/HILFE/ALTERNATE/Impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://alternate.de/",
+    "https://alternate.de/",
+    "https://www.alternate.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://alternate.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alternate.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/js-bs4/script.min.js.xhtml?ln=minified&v=424"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/static/cookieAcceptance/cookieAcceptance.min.js?v=424"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/static/mobile/header.js?v=424"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/jsf.js.xhtml?ln=javax.faces"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/burger.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/ALTERNATE_Logo.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/Search-new.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/Profile-new_Business.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/Profile-new.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/Warenkorb-black.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/burger-white.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/icons/Arrow_Back_To_Top.svg.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/css-bs4/style.min.css.xhtml?ln=minified&v=424"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/css-bs4/fonts.min.css.xhtml?ln=minified&v=424"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/static/cookieAcceptance/cookieAcceptance.min.css?v=424"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/static/cookieAcceptance/i18n_de_DE.properties?v=424"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/lato/S6uyw4BMUTPHjx4wXg.woff2.xhtml?ln=fonts"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/lato/S6u9w4BMUTPHh6UVSwiPGQ.woff2.xhtml?ln=fonts"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/fa-regular-400.woff2.xhtml?ln=fonts"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/fa-solid-900.woff2.xhtml?ln=fonts"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/spa/public/v4/spa/ads/page"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/static/cookieAcceptance/TLECookieConsentAcceptance.template?v=424"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/index.xhtml"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/javax.faces.resource/ajax-loader.gif.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/lato/S6u9w4BMUTPHh50XSwiPGQ.woff2.xhtml?ln=fonts"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/campaign_countdown.xhtml"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/index.xhtml"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alt.tlecdn.net/static/pix/product/energyEfficiency/a-g2021/f.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alt.tlecdn.net/static/pix/product/energyEfficiency/a-g2021/e.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alt.tlecdn.net/static/pix/product/energyEfficiency/a-g2021/d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alt.tlecdn.net/static/pix/product/energyEfficiency/a-g2021/g.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1607903/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1694067/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1645737/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1713291/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1478433/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1616606/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1592070/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1738243/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1572486/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1273277/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1610416/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1213003/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1377453/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1295611/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1740680/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1278977/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1325632/false"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/json/productInfo/1459476/false"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/3c81cdb87235333b84dd70e8a4ce89b4;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/b09c50f25334348aebd32fccf1801db2;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/19716ab141946a94f9895964d41d6161;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/8f9e7f46ef8c4340521ccfc8199e6945;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/67cc62b12f6d208a06b3cac39f912c60;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/8ce610e4efb8c5bedd5142061b7e250c;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/034a6daaeb1a2d8463fee468634a6dc0;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/776a5743c106823981c0d46d9c323b9a;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/ff4c0abcc735484c0ee048af028b2560;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/329dcab80d8cc6f04ae27f00c9d0188c;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/3493db669870d97fd7eb65af6fb4f00a;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/313ef762b1c16889e285ac977bd8c4a1;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/7c192484be641ed189b7a41b2d52191b;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/90a4045b36d9b6cce2d4cf6f8eafb588;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/a8d7d987b808413d793ec27b80ac0164;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/4f69b34de76042fff4de974456de516f;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/591dafdadde49c94418acab08ccdffee;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/1837c88146896de7b4de96962b58b8bb;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/8c993f007159343cd7ce0cab39b83264;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/5d93b3c3b4b348809192736cb9759693;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/00d733bccf0bd8497ab8cec38c123282;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/5f5485d4abf5866f92db2e83e5a87144;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/a5e5c619c6de25d09a5819f25a1840e6;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/65433bfbefa8cbf46a7c4dddd8842da5;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/d89d9c263ccee49df06044ccdda88c60;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/d3f8586d5a3df9acae50fe05f51d0b0e;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/5bc9d8fed6e8dc3e3a570294724d26dc;0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://click.alternate.de/track/51/view/b12ebcd664bc70fa59be8c183828233e;0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78419/teaser/desktop/MAR-78419_Stage_d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-77941/teaser/mobile/MAR-77941_Cont_kl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78176/teaser/desktop/MAR-78176_Sky.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78325/teaser/desktop/MAR-78325_Stage_d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78243/teaser/mobile/MAR-78243_Cont_kl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-77114/teaser/mobile/MAR-77114_Cont_kl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78371/teaser/desktop/MAR-78371_Stage_d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78025/teaser/mobile/MAR-78025_Cont_kl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-77252/teaser/desktop/MAR-77709_Stage_dV2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/tw/mar-78133/teaser/desktop/MAR-78133_Stage_d.jpg"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/index.xhtml"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk7.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk13.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk14198.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk8.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk15.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk14.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk12.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk14528.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk10.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk8062.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk9.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk13574.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk12174.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk17566.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk20328.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk20870.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk15464.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk5306.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk5304.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/javax.faces.resource/categories/tk9157.png.xhtml?ln=pix"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/9/BEKO_DE744RX1__W_rmepumpen_Kondensationstrockner@@9fvedx64.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alt.tlecdn.net/static/pix/product/energyEfficiency/a+++-d/a++.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/7/6/Samsung_RS6GA8831WW_EG_RS8000__Side_by_Side@@1694067.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/7/3/Hisense_55U8QF__QLED_Fernseher@@1645737.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/1/9/Acer_Predator_X25__Gaming_Monitor@@1713291.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/9/Wera_Drehmomentschl_ssel_mit_Umschaltknarre_Click_Torque_A_5@@9hdaaw03_30.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/v/AOC_27B2H__LED_Monitor@@v6lm48.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/3/4/be_quiet__Silent_Loop_2_360mm__Wasserk_hlung@@1738243.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/0/7/LEGO_42111_Technic_The_Fast_and_the_Furious_Dom_s_Dodge_Charger__Konstruktionsspielzeug@@1592070.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/9/Bosch_WTH83002_Serie___4__W_rmepumpen_Kondensationstrockner@@9fvech00.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://alt.tlecdn.net/static/pix/product/energyEfficiency/a+++-d/a+.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/9/DeLonghi_MultiFry_FH1163__Hei_luftfritteuse@@9gff1d10.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/h/AMD_Ryzen__5_1600__Prozessor@@hr5a11_30.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/1/Theo_Klein_Bosch_Heckenschere__Gartenspielger_t@@1sszwb0w.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/3/5/Logitech_BRIO_Stream__Webcam@@1377453.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/n/Logitech_G910_Orion_Spectrum__Gaming_Tastatur@@ntzlg401.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/0/8/MSI_B550_A_PRO___AMD__Ryzen__5_5600X___HyperX_DIMM_16_GB_DDR4_3200_Kit__Set@@1740680.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/9/Knipex_Werkzeugkoffer_002105HLS__24_teilig__Werkzeug_Set@@9hfffk04_30.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/9/Bomann_DTR_353__K_hl__Gefrierkombination@@9fradb29.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/200x200/i/HyperX_DIMM_16_GB_DDR4_3200_Kit__Arbeitsspeicher@@ieig7u22.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/160x160/1/BIG_Traktor_Eicher_Diesel_ED_16__Kinderfahrzeug@@1ssifb1m.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/p/160x160/1/Smoby_Rutsche_KS_rd@@1ssivs1h.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.alternate.de/mobile/campaign_countdown.xhtml"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://alternate.de\r",
+  "third_parties": {
+    "fqdns": [
+      "alt.tlecdn.net"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 6
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

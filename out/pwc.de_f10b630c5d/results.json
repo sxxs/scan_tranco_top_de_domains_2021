@@ -1,0 +1,530 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "YSC",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 14,
+      "value": "3eu0MK8VTVo"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1634476360.004285,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559203.004285097,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "08rp8yG0P9s"
+    },
+    {
+      "domain": ".www.pwc.de",
+      "expires": 1650460360,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543203,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 231,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+15%3A12%3A40+GMT%2B0200+(Central+European+Summer+Time)&version=6.10.0&landingPath=https%3A%2F%2Fwww.pwc.de%2F&groups=1%3A1%2C102%3A0%2C2%3A0%2C103%3A0%2C4%3A0%2C0_144177%3A1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.pwc.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "1c60a1aec8264bde6e662d7c0a9913e2220bef2e73f32a8283a3288874473cb5",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1623339301.0,
+      "not_valid_before": 1615566901.0,
+      "serial_number": 273241985784504634239424654474756414178663,
+      "subject": {
+        "commonName": "www.pwc.co.uk"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.pwc.de/de/impressum.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": "1.5.8",
+    "React": null,
+    "jQuery": "1.12.4-aem"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://pwc.de/",
+    "http://www.pwc.de/",
+    "https://www.pwc.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://pwc.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.pwc.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/clientlibs/granite/jquery.min.8e23e5ad8c1b5c588cca8d71df0aef0b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/clientlibs/granite/utils.min.308082b4c347f4fec37ffef277d39d0e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/clientlibs/granite/jquery/granite.min.d9075d4175ab7b0e3ccf4305a4089645.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/foundation/clientlibs/jquery.min.dd9b395c741ce2784096e26619e14910.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/components-digitaldataanalytics.min.046b8b1a000a26481953e8075d9650fc.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/foundation/clientlibs/shared.min.d8eee0685f08a5253a1d753a2619a08f.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/langswitch/bc27a94b-f1d2-4156-a90e-6c94331cc7b4.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/longform/style-colors-rebrand.min.d997798a4f8db669816f0a85d214330f.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors.min.feeb35821724e3e994b80e901b3d823a.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/handlebars.min.4b6cde342715b81c00225413e17fd0e3.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/de/de/base_newV2.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/de/de/baseV2.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/de/ceosurvey/ceo-survey-2021-16302-670x377.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/de/images/maenner-meeting-office-tisch-buero-1133779344-670x377.jpg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/de/images/kurvige-landstrasse-durch-einen-wald-927215026-670x377.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/angular.min.93a9c76c33fc9f89c3f8386e4a84f9f3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/facetednavigation-global.min.1d398242cc2c2b83b0fdf2d047a8e396.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/pdf.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/components/content/text/clientlibs-button.min.84209d7438dd0b2eb90a9ffcb44b8817.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/network/follow/follow_twitter.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/network/follow/follow_linkedin.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/network/follow/follow_youtube.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/network/follow/follow_instagram.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/network/follow/follow_pinterest.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors.min.a3a2ccc84b94994674edfc30fa6e82d3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/longform/script.min.b858bbeda445ba6c632442972bd7b0eb.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/libs/granite/csrf/token.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/7d295bca-c77a-4659-8d55-3af609ed7b6a.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N7JFX57&l=dataLayer_deutsch"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/pwc/script/network/parallax/PwC-logo.svg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/longform/style-colors-rebrand/resources/fonts/6f7f55b5-d511-474f-9652-affbdac0a19e.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/longform/style-colors-rebrand/resources/fonts/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/etc.clientlibs/pwc/clientlibs/longform/style-colors-rebrand/resources/fonts/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/trust-in-transformation/trust-in-transformation-visual-buehne-startseite-v4-1600x900.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/skins/6.10.0/default_flat_center_two_button_white/v2/css/optanon.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/iframe_api"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/.shorturl.json?currentUrl=https%3A%2F%2Fwww.pwc.de%2F"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/gx/en/brand-simplified/teaser-images-670/real-estate/damil-gettyimages-688256246-670.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/gesundheitswesen-und-pharma/pwc-53704-soziale-determinanten-2020-teaser-670x377.png/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/images/mann-regen-spiegelung-571691905-670x377.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/images/frau-im-homeoffice-667663029-670x377.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/images/russland-kreml-nachts-670x377.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/bilder/windrad-schiff-370x208.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/images/stift-statistiken-taschenrechner-370x208.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/content/dam/pwc/de/de/bilder/hammer-gericht-370x208.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.pwc.de/de/bilder/pwc-laptop-presseseite-555x312.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://www.pwc.de/fe0cf3f9-f24c-4e85-8ae3-c5e2d1b2bb95"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.youtube.com/s/player/ba95ea16/www-widgetapi.vflset/www-widgetapi.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000 ; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://pwc.de\r",
+  "third_parties": {
+    "fqdns": [
+      "",
+      "cdn.cookielaw.org",
+      "www.googletagmanager.com",
+      "www.youtube.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 6
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "cdn.cookielaw.org",
+      "www.googletagmanager.com"
+    ]
+  }
+}

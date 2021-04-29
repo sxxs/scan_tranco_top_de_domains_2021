@@ -1,0 +1,1001 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.zum.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "adaptive_image",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 17,
+      "value": "800"
+    },
+    {
+      "domain": "www.zum.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "has_js",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 7,
+      "value": "1"
+    },
+    {
+      "domain": "www.zum.de",
+      "expires": 1652874372,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.1.d5d3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "c7817c5133057f38.1618919172."
+    },
+    {
+      "domain": "www.zum.de",
+      "expires": 1618920971,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.1.d5d3",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618920072.203523,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 8102.2035229206085,
+      "name": "test_cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "CheckForPermission"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": [
+      "doubleclick.net"
+    ]
+  },
+  "failed_requests": [
+    {
+      "error_type": "d",
+      "url": "https://www.zum.de:3002/?url=https%3A%2F%2Fwww.zum.de%2Fportal%2F"
+    }
+  ],
+  "final_url": "https://www.zum.de/portal/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "99b39206fb2095d1de4681fc94d2f024f9481a93a90637218b88c4bf6781005a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621271466.0,
+      "not_valid_before": 1613499066.0,
+      "serial_number": 395856142190115383358466452324818433992897,
+      "subject": {
+        "commonName": "www.zum.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.zum.de/portal/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.7.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://zum.de/",
+    "http://www.zum.de/",
+    "http://www.zum.de/portal",
+    "https://www.zum.de/portal",
+    "https://www.zum.de/portal/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://zum.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.zum.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.zum.de/portal"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/modules/system/system.base.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/jquery_update/replace/ui/themes/base/jquery.ui.core.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/jquery_update/replace/ui/themes/base/jquery.ui.theme.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/adaptive_image/css/adaptive-image.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/calendar/css/calendar_multiday.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/date/date_api/date.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/date/date_repeat_field/date_repeat_field.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/modules/field/theme/field.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/fitvids/fitvids.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/google_cse/google_cse.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/views/css/views.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/back_to_top/css/back_to_top.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/ckeditor/css/ckeditor.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/colorbox/styles/default/colorbox_style.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/ctools/css/ctools.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/panels/css/panels.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/libraries/tablesorter/themes/custom/style.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/tagclouds/tagclouds.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/libraries/shariff/build/shariff.complete.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/css/style.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/css/print.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Abel:regular|Advent+Pro:100,200,300,500,600,700,regular|Open+Sans+Condensed:300,700|Patrick+Hand:regular|Permanent+Marker:regular&subset=latin,greek,latin-ext"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/DIN-normal-normal/stylesheet.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/myriadpro-italic-bold/stylesheet.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/myriadpro-normal-bold/stylesheet.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/myriadpro-normal-normal/stylesheet.css?ps66rf"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/Shadows_Into_Light-normal-normal/stylesheet.css?ps66rf"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/libraries/respondjs/respond.min.js?ps66rf"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.jquery.com/jquery-1.7.2.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_vSTPeI5n3qRsfyWQqdB0k_WGa29dNwY_qLduR_iiSi0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.jquery.com/ui/1.10.2/jquery-ui.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_n2bf97AEM81iJqX-u_Uw54-Xh0cQTq4EXXQ2uvbP-LM.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_ZgjqDf3yznHd-d28fpM4Xz3AbI5ffKhuK_qa3vrrC8Y.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_5VS2pV40_YKLhfInZRgtBe-gzpjoIArIr9gDtF2bEJs.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/logo.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/goethe_etc.gif?itok=VkItwhIy"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/ocancity.jpg?itok=rH6bvuuy"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/Import-Export%20zumpad-480x303.png?itok=KTkZYQCU"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/novellen4.png?itok=VN-YNpBX"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/dwuAnimationWeiterhin.png?itok=UUgRdyXN"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/Tastaturtraining.png?itok=9yKDQKv7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/Krimstein%20Arendt.jpg?itok=tLPimZz9"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/misc/feed.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/small_custom/adaptive-image/public/images/foto-gast/LO-Logo_400x400_0_0.png?itok=2jYNQLeJ"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/blog/Abbildung%201-digitale-Tools%20mit%20%C2%A9.jpg?itok=x5tozOrP"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/small_custom/adaptive-image/public/images/foto-gast/Twitter-post-27.png?itok=3b3QBSwp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/blog/Facts-1024x377-transparent-1.png?itok=yGAIi1yj"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/thumbnail/adaptive-image/public/images/user/picture-126-1558641225.png?itok=AP92Rxe1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/medium_custom/adaptive-image/public/images/blog/Golsstandard_fuer_OER.jpg?itok=-7hMAIPc"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/small_custom/adaptive-image/public/images/foto-gast/Ziko-van-Dijk-2019-768x576.jpg?itok=Py2zI52H"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/styles/small_custom/adaptive-image/public/images/foto-gast/LO-Logo_400x400_0.png?itok=nNOyr6mQ"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adscript.php?pid=40&ord=[timestamp]"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/eduversum/pflanzwerk.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_tqC0xSbhZO_YGs08n9CwrrPj091CkUFnc8Rnjlybb3I.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/js/js_cq6vDIKftsgmUgq7CyfdhcVKGenxCMp3zgmdBKGMkrY.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/images/rauten.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/myriadpro-normal-normal/MYRIADPRO-REGULAR.woff"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/default/files/fontyourface/local_fonts/Shadows_Into_Light-normal-normal/shadowsintolight-webfont.ttf"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/abel/v12/MwQ5bhbm2POE2V9BPQ.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/bootstrap/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/asm_pageview.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adview.php?tz=1618919171344316040tzmacro&&pid=40&kid=198&wmid=712&gdpr_consent=&nvc=1&target=-"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/lehreronline/198/2021-03-26/0_Facebook_Super_Banner.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adframe.php?pid=42&ord=[timestamp]"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adframe.php?pid=45&ord=[timestamp]"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://stats.zum.de/piwik.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/images/speachbubble-left.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/images/speachbubble-right.png"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.zum.de:3002/?url=https%3A%2F%2Fwww.zum.de%2Fportal%2F"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/libraries/shariff/build/fontawesome-webfont.woff2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adpageview.php?&wsid=3&sid=0&sid2=0&sid3=0&gdpr_consent=&tz=1618919171633"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://stats.zum.de/piwik.php?action_name=Zentrale%20f%C3%BCr%20Unterrichtsmedien%20im%20Internet%20e.V.%20(ZUM.de)&idsite=1&rec=1&r=796217&h=13&m=46&s=11&url=https%3A%2F%2Fwww.zum.de%2Fportal%2F&_id=c7817c5133057f38&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=zMuQed&pf_net=0&pf_srv=220&pf_tfr=14&pf_dm1=685"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adview.php?tz=1618919171869324942tzmacro&&pid=42&kid=198&wmid=669&gdpr_consent=&nvc=1&target=-"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/lehreronline/198/2021-02-19/0_MR_ZUM-Banner-Ref-Dossier.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/asm_pageview.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/adasync.min.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adframe.php?pid=45&ord=%5Btimestamp%5D&wpcn=asmpvx6549161618919171&&ref=https%3A%2F%2Fwww.zum.de%2F&pmrz=asm_45x9452482"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adpageview.php?&wsid=3&sid=0&sid2=0&sid3=0&gdpr_consent=&tz=1618919171843"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://lehreronline.adspirit.de/adview.php?tz=1618919171862582045tzmacro&&pid=45&kid=287&wmid=729&gdpr_consent=&sid=1&nvc=1&target1=-"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/dcm/dcmads.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.adspirit.de/banner/asm_pageview.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/dcm/impl_v70.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ad.doubleclick.net/ddm/adi/N1390580.3624917EDUVERSUMDE/B25753518.301115109;dc_ver=70.202;dc_eid=40004001;sz=160x600;u_sd=1;gdpr=0;dc_adk=1884024142;ord=k8nagk;click1=https%3A%2F%2Flehreronline.adspirit.de%2Fadclick.php%3Ftz%3D161891917145729519503%26pid%3D45%26kid%3D287%26wmid%3D729%26wsid%3D3%26sid%3D1%26ord%3D1618919171%26vlx%3Dcc2%26target%3D;dc_rfl=2,https%3A%2F%2Fwww.zum.de%2F$0;xdt=1;crlt=Z)RpCYRt_B;gcsr=m;sttr=43;prcl=s"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/js/r20210415/r20110914/elements/html/omrhp.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_271.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/sodar/UFYwWwmt.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tpc.googlesyndication.com/sodar/Enqz_20U.html"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagservices.com/activeview/js/current/rx_lidar.js?cache=r20110914"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/index.html"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjst01XvNZ9NzImWJ-aCWHs1ka4msoc6ZVsmMDps61AKlS1TC1LUHHltQYEzFZCXMaudSaJ8JyIeYu5RWoewxuR2CGRCsII4bX86I0F2XcSI4RjVgzboc&sig=Cg0ArKJSzKPzK9E7pozWEAE&cry=1&urlfix=1&omid=0&rm=1&ctpt=159&cbvp=1&cstd=146&cisv=r20210415.35417&adurl="
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://tps.doubleverify.com/visit.jpg?ctx=10978971&cmp=25753518&sid=6819303&plc=301115109&num=&adid=&advid=10485789&adsrv=1&btreg=494255476&btadsrv=doubleclick&crt=149410108&crtname=&chnl=&unit=&pid=&uid=&tagtype=video&dvtagver=6.1.img&"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.createjs.com/1.0.0/createjs.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/index.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/bg/wkpRfPPcRT5gRuVOwfaUS9di2m_GhEf8-oTDdHI7uwk.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/images/bg.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjst01XvNZ9NzImWJ-aCWHs1ka4msoc6ZVsmMDps61AKlS1TC1LUHHltQYEzFZCXMaudSaJ8JyIeYu5RWoewxuR2CGRCsII4bX86I0F2XcSI4RjVgzboc&sig=Cg0ArKJSzKPzK9E7pozWEAE&cry=1&urlfix=1&omid=0&rm=1&ctpt=441&vt=11&dtpt=282&dett=3&cstd=146&cisv=r20210415.35417&adurl="
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/images/bg2.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/images/boy.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/images/Image.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s0.2mdn.net/sadbundle/6864113365821393749/160x600/images/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.zum.de/portal/sites/all/themes/bootstrap_subtheme/images/backtotop.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar&v=30&t=2&bgai=BP9XvBL9-YLGmCq_G7_UPtLG--AkAAAAAOAHgBAI&bg=!hYalhsLNAAZUuIlwVLg7ACkAdvg8Wo4GhXMToB2vqkIgY8lyRbfnrPrnkrXOHmR1Cl6v12N-zZhhwQIAAAGQUgAAAA5oAQcKAQNxumgneuEkqFFxlud7ZclSRCxSxLZy4axo0UZjyjM6zlvAl9gcZILyL22E47VCVVZ91D9zT1YR6xc3kNJx9aIZirWAnHk6OnUSF9hv3uuj-vPGnHFnZDu1lHDCl-MeBgFKO2u1vH8wo0M-OW7ahRrcG9axvHUQulRh6X34T6p6tVUHn9UqQlimb3IUdNDjIvEDbxaEXGIvOkWvjHnlVbxQgT4p0JJFOKod9_agyI13qoikj7QxQjpVKSmIHWz1uXi0yS-V1yupV2XgDRmuXNnLsOiH1F_tYNfsWSrqDojOtse88xUbsWY4uuqX47ylASGwE-7vc53ZjwOHa8ecpDnl8uclmQJzHlTjUPyeaC-1s5ldt-unEWIdX6drHGLr0funO75yxxNWudrjLLOYGQT4Odu9zq8wdPYBaALcRvVV9oCSk3Rg8oKtH3wId-FGT3_xtDJSxZvt5NQXHDldxw6Pe0qMenu1qmZa7_TUP1E-A7pdZMfZDww0o_Lwt2xtAjV4Yry_kTI5D7SN7bPvUlyz8UV7JwlsfodfajLh6nrcm2xzhKrEIoRmXlYponlf24ig4YpkRPwUoVcW4T6XVOLY0G0hKlDKH2aZO4n17esF27oS7mI4eOrNRA0JLR3J-wLezXJXZwp0BVSQDZCQOsW_Mb6JSACHUG6D5IesbptuLaVfj3kvXye8yH48dI4Hmtql2AhoilxQf-5qkR-9sDSv1y2YJimGiGBZc9d1nv7fBMWGdIXGIMovZJEQk7HP8Yg3it68o5UdHoKn27pbYqNMrJnZDbfZAiBdMn4fIrMrYlmd2OriH2oeAkGIJGLtUxgLzfZ6iOlzGnVKpkcnFia9W1QScmJAD2zTjZMtnt5knBD5Rmfqgq9MEultuLwKQjrSeeZFYNIEhyYaspfQER_HgDh_72VYanVVRjcQjrYdK8AwAqfoWck4-nP7VFL0loonD3HbDg8GRP1MLYx67WGllof492iXkBEIhpU2dR-GdkjAOBK1iK5o3CTFWXavZAzAuUNUYCuwYP-eGo0sPCTu-M9b7EA5xJANGyOG_adi0uH7CMruxqjhI48ipGgnh6M3nUGwioqraH6-NjJ_KiSyEhAqcJx15vVPCcXxnKd7G29A-igrpjwIUBGl63V9qVZGIM_RZEm38fkiLv7hbluRbx8EVZ2mJPfF"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIsbi18d-M8AIVL-O7CB20mA-fEAAYACC8op9H;met=1;&timestamp=1618919182682;eid1=871060;ecn1=1;etm1=0;eid2=2;ecn2=1;etm2=10;"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://zum.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ad.doubleclick.net",
+      "ade.googlesyndication.com",
+      "cdn.adspirit.de",
+      "code.createjs.com",
+      "code.jquery.com",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "googleads4.g.doubleclick.net",
+      "lehreronline.adspirit.de",
+      "pagead2.googlesyndication.com",
+      "s0.2mdn.net",
+      "tpc.googlesyndication.com",
+      "tps.doubleverify.com",
+      "www.googletagservices.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 41
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 36,
+    "trackers": [
+      "ad.doubleclick.net",
+      "ade.googlesyndication.com",
+      "cdn.adspirit.de",
+      "googleads4.g.doubleclick.net",
+      "lehreronline.adspirit.de",
+      "pagead2.googlesyndication.com",
+      "s0.2mdn.net",
+      "tpc.googlesyndication.com",
+      "tps.doubleverify.com",
+      "www.googletagservices.com"
+    ]
+  }
+}

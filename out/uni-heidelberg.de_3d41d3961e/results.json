@@ -1,0 +1,347 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "webanalyse.urz.uni-heidelberg.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "",
+      "path": "/piwik",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 8,
+      "value": "HttpOnly"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-heidelberg.de/en",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "fda53412ab008ce61a4f600c92cc2106e342311ee37776faeb0ae67b025b05e7",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1636799234.0,
+      "not_valid_before": 1565602034.0,
+      "serial_number": 10349361862474605864169283512,
+      "subject": {
+        "commonName": "sg-web-test-11.urz.uni-heidelberg.de",
+        "countryName": "DE",
+        "localityName": "Heidelberg",
+        "organizationName": "Ruprecht-Karls-Universitaet Heidelberg",
+        "organizationalUnitName": "URZ",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-heidelberg.de/en/imprint",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-heidelberg.de/",
+    "https://uni-heidelberg.de/",
+    "http://www.uni-heidelberg.de/",
+    "https://www.uni-heidelberg.de/",
+    "https://www.uni-heidelberg.de/en"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-heidelberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://uni-heidelberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.uni-heidelberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/en"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/main.8a80093f37735c7e9128970e17d259e7.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_1024/public/2019-06/uh.jpg?h=074a1bd2&itok=4j7hM_8S"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0016/public/2021-04/illustration_settele.jpg?h=28268c17&itok=4_y5R97T"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0016/public/2019-05/4eu_imageteaser.png?h=ae1281eb&itok=EfSZZJpH"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0021/public/2018-06/bilder-266965-275361-original.jpg?h=a0951a4d&itok=33aTlP0Z"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0021/public/2019-06/AdobeStock_131216681.jpeg?h=47f00bb3&itok=AtSxHfp2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0021/public/2019-05/Studium_bearbeitet.jpg?h=4994e1c7&itok=gVZVbnhY"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0021/public/2018-06/bilder-215983-222841-original.jpg?h=50f41ecc&itok=7gESovnP"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0016/public/2020-05/screenwall_heionline_abgedunkelt.jpg?h=5e582eb3&itok=gT-LRIVr"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0016/public/2021-02/ruca17_cover_imageteaser.jpg?h=d1cb525d&itok=k5F4XtXq"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0016/public/2021-04/hintergrund_ottomeyerhof_1x1.jpg?h=6ef11317&itok=KLapO7to"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0016/public/2018-09/unispiegel-teaser_800.jpg?h=2d42a78c&itok=0vTouQWt"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/c3a732374fdf5d95b1af03dab860451b.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/aa3e87117db2b3c27801cbb8dfe40c6c.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/a2647ffe169bbbd94a3238020354c732.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/68b24b48f11ff8e947976b529c6f5941.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/bootstrap.f7dc8d5e9b70711a2242.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-heidelberg.de/main.f7dc8d5e9b70711a2242.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalyse.urz.uni-heidelberg.de/piwik/matomo.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0768/public/2021-04/illustration_settele.jpg?h=28268c17&itok=u0nTPmXE"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_16_9_aspect_0768/public/2019-05/4eu_imageteaser.png?h=ae1281eb&itok=oeNTk61k"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0768/public/2018-06/bilder-266965-275361-original.jpg?h=a0951a4d&itok=lXzSEIal"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://webanalyse.urz.uni-heidelberg.de/piwik/matomo.php?action_name=Heidelberg%20University%20%E2%80%93%20Heidelberg%20University&idsite=83&rec=1&r=118637&h=18&m=39&s=22&url=https%3A%2F%2Fwww.uni-heidelberg.de%2Fen&_id=&_idts=1618850362&_idvc=1&_idn=1&_refts=0&_viewts=1618850362&send_image=1&cookie=0&res=800x600&gt_ms=88&pv_id=z99arm"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0768/public/2019-06/AdobeStock_131216681.jpeg?h=47f00bb3&itok=GpYBg9WV"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0768/public/2019-05/Studium_bearbeitet.jpg?h=4994e1c7&itok=MXTokUST"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://backend-484.uni-heidelberg.de/sites/default/files/styles/img_21_9_aspect_0768/public/2018-06/bilder-215983-222841-original.jpg?h=50f41ecc&itok=A5OxixvF"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-heidelberg.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

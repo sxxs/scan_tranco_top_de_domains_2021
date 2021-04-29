@@ -1,0 +1,454 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://digitale-sammlungen.de/en/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "fde088d79f6a6df48be481cf41ccc25dba9ec8dc3bd45d9886360cc9fc12e4f2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639809981.0,
+      "not_valid_before": 1605509181.0,
+      "serial_number": 11085452409991237705066913908,
+      "subject": {
+        "commonName": "www.digitale-sammlungen.de",
+        "countryName": "DE",
+        "localityName": "Muenchen",
+        "organizationName": "Bayerische Staatsbibliothek",
+        "organizationalUnitName": "DBB",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://digitale-sammlungen.de/",
+    "https://digitale-sammlungen.de/",
+    "https://digitale-sammlungen.de/en/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://digitale-sammlungen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/en/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/css/index.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/index.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/mdzlogo-long.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/mdzlogo-short.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/iiif-logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/hero_bg_sm.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00087481_00007/202,159,4023,6252/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00004502_00001/pct:3.60465,1.86522,93.99225,96.35981/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060115_00188/pct:2.45931,0.9311,93.16456,96.08939/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00002134_00005/pct:13.19018,9.3258,79.65235,79.4319/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00003409_00472/pct:6.20253,3.63114,73.13291,89.18495/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00021200_00029/92,112,4327,6203/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00004647_00013/pct:1.91011,2.96,96.01124,93.52/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/5b63aba2-fec0-43ea-bd0f-59385bc3c3ee/full/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/b72cf770-542f-45b5-9640-348814ddfb94/full/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103729_00014/pct:3.36318,1.0797,95.74129,98.25259/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/be9e8f2f-9a95-4724-bfc2-61809ae2b15e/full/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/a91521b5-3d0f-405e-8096-de08b8fa4c39/full/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00110131_00019/98,50,4566,7042/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/fb167832-e1d2-4729-a3b9-f68af5fca0c3/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/442cec3d-b5f6-4769-bc09-9ee6333886a0/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/e4dcb94e-f88d-41a8-9549-f1cfaf5118eb/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/a207e9b1-4670-44cc-b892-a7994bea83ba/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/0af36d86-e731-49c6-b3b6-5592b1957018/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/f7dfacb9-ecbe-4563-89a4-502d4352fdc6/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/9af54555-7ea9-4c26-8093-96c279ab8d1d/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/5a62cb17-6557-443b-bd54-424a5ed95762/full/600,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/fbb40357-26c1-4d78-9d39-44b9978caacc/full/400,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/41339256-80d1-46de-945f-646622af56a1/full/200,/0/default.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/5c2ba040-7aa3-4310-84e0-8fc9d8d1f90b/full/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/287cf461-918c-477a-92cc-3523d931a04b/full/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/bsblogo_en.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/hero_bg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/images/scan_scene.jpg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/bitter-latin-700.87b6b3f9.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/lato-normal.79fe9942.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/lato-heavy.54971487.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/lato-normal-italic.5e162e9d.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/bitter-latin-400.16492fb6.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://digitale-sammlungen.de/static/tiny-slider.module.50d63598.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00003409_00472/196,139,2311,3414/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00060115_00188/68,40,2576,4128/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00004647_00013/34,74,1709,2338/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00002134_00005/516,545,3116,4642/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00004502_00001/93,62,2425,3203/200,/0/default.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00103729_00014/169,76,4811,6916/200,/0/default.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://digitale-sammlungen.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.fes.de",
+      "expires": 1652864675,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962404,
+      "name": "_pk_id.1.9e08",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "6f45fb37b613cc3d.1618909475."
+    },
+    {
+      "domain": "www.fes.de",
+      "expires": 1618911275,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9004,
+      "name": "_pk_ses.1.9e08",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.fes.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "cbf74b88c74c1b36eeb4e6da1ca64cf91c72ade9dfce4842fb00f483c9ef066d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Organization Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1667516399.0,
+      "not_valid_before": 1596578400.0,
+      "serial_number": 324235642397797884384114000730168193,
+      "subject": {
+        "commonName": "*.fes.de",
+        "countryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Friedrich-Ebert-Stiftung e.V.",
+        "organizationalUnitName": "HQ",
+        "postalCode": "53175",
+        "stateOrProvinceName": "NRW",
+        "streetAddress": "Godesberger Allee 149"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.fes.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fes.de/",
+    "https://www.fes.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://fes.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/merged-3c5fe6f148ec6c88e6ee55a1212b9d7a-4aad39f48e3fb4f2986e6537569fa589.css.gzip?1618907863"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/jquery.min-a28077b0339b299632e44b8350717d74.js.gzip"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Img/Pagelayout/fes-logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=406144&token=866169d78dc1ba3388cb287800b98365b6667ddc"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=404325&token=46eee30e901de7475c6b7de0f90922f321612ac2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=402103&token=e0db94c6ac85910a78e6b3440715e393cbbb6838"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=399794&token=31ff477369ab8443431371845aef0ddb42f0c663"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=398608&token=a83c9150708355dcea5cfb21b88cf95e9c0f399e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=382958&token=6e151ab6d7a889179e4fee3e6192f2c49ec328cf"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=382954&token=6c6a4a4ba93109103bb8ea46efe6280b8b75dfb0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=382961&token=3b2da992118954f3a5772726c7ce07d89b8840c4"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=382965&token=125eccb3ebabbf5d56c700814caa15460327bc1f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/uploads/pics/digbibcache/publication_17715_150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/uploads/pics/digbibcache/publication_17732_150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/uploads/pics/digbibcache/publication_17727_150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/uploads/pics/digbibcache/publication_17266_150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=403827&token=fa94de5c70c5c6dff12cfc395e36e7c00577a1f5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=403833&token=0e5d253f70bfa391077b50d866453654afcc8582"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=403835&token=8705671a0c86b6629af4a51d30d9fdee08012608"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=403842&token=6fc2a60d3f22cb1d154559717ed34d98b00b0b81"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=403849&token=737fd8b1baad853df4b16aa1480fb567ccbf2d28"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=403850&token=c10012da22151e301961929b39b390f0da5a7398"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=396050&token=6b7ab03ed9462f24b270b878176973b0dbe2a209"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=f&f=63009&token=6ea79c3d952666586b8b3fb316f1a77f9519121e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=p&p=382531&token=3a5ca69e45b482b760d7a246955b239afaf073f6"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/page.scripts-75cdb3bd64244303c4b3fd91e390423f.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/T3ddy-558448006482f3f6858da253bb707561.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/jquery.datetimepicker.min-cf9068a415d69c4ea2f89c18fae1fbc9.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/parsley.min-58c3ed66ec2ab8f3407c3ec835391457.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/Tabs.min-daedf59119a38f8ec70bc0de73b49fe3.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/Form.min-b7e5faa87818e30cb4ae9815c64e7044.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/main-5faae798034fab0b7542b9b85924f653.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/hexagonMenu-330b63da9611e1675d61f7edcdc66fbd.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3temp/assets/compressed/hyphenate.min-b2b66823ceb95cfcaeefbd0416b371f8.js.gzip?1618574550"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/fes_de_events/Resources/Public/Icons/foundation-icons.css"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Fonts/lato-v14-latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Img/Pagelayout/hexagon-arrow.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Img/Pagelayout/hexagon-arrow-blue.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Img/Pagelayout/Icons/play-button.svg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Fonts/FontAwesome/icomoon.woff?ulms0y"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Fonts/lato-v14-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Fonts/lato-v14-latin-300.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/typo3conf/ext/siteassets/Resources/Public/Fonts/lato-v14-latin-italic.woff2"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=f&f=63010&token=01a0b694010285366fe4d048c6050dd686653e99"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/index.php?eID=dumpFile&t=f&f=63008&token=16f7345d15899b3717c072947092b30c180ce26a"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.fes.de/piwik/piwik.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://www.fes.de/piwik/piwik.php?action_name=Friedrich-Ebert-Stiftung&idsite=1&rec=1&r=635291&h=11&m=4&s=35&url=https%3A%2F%2Fwww.fes.de%2F&_id=6f45fb37b613cc3d&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=xbS8d7&pf_net=73.60999999946216&pf_srv=1594.939999995404&pf_tfr=20.564999998896383"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://fes.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

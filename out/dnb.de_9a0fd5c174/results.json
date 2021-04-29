@@ -1,0 +1,596 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "dnb.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 77,
+      "value": "ASavx!uO5hjSEfaf_eOytTb6bjjDydJH7Du508mya_IZTHmFrhzjmBk_6neT0JUhcNmO"
+    },
+    {
+      "domain": "dnb.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_BALANCE-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 64,
+      "value": "$xc/g5487dqYQZnixtZoaGlrRvEKgFp6CEGE3ZxgVs1gcHhVU2ix"
+    },
+    {
+      "domain": "www.dnb.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 77,
+      "value": "AdeFyLYKkSpmbnStjS8OUGFRceORNXnDBSYRbCg!Bh1F89uiRUG!jsRK5SJB3VAujvHC"
+    },
+    {
+      "domain": "www.dnb.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_BALANCE-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 64,
+      "value": "$xc/DwaSGmxdRQuy22imrR8Ta!BfrTFCCfDHzGN2kTHUXROURg3Q"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 4,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.dnb.de/DE/Home/home_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0ad97dc4120ca0add9ef5bb3f31bef3e54b99c0ccf380fba8a02281c63328767",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1633426995.0,
+      "not_valid_before": 1562233395.0,
+      "serial_number": 10287221417011802725892612308,
+      "subject": {
+        "commonName": "www.dnb.de",
+        "countryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Informationstechnikzentrum Bund (ITZBund)",
+        "organizationalUnitName": "Betrieb",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.dnb.de/DE/Home/DE/Service/Impressum/impressum_node.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://dnb.de/",
+    "https://dnb.de/",
+    "https://www.dnb.de/DE/Home/home_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://dnb.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://dnb.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/DE/Home/home_node.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/normalize.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/_libs.css?v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/small.css?v=34"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/medium.css?v=24"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/large.css?v=22"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/xlarge.css?v=12"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/custom.css?v=12"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/addon_materna.css?v=46"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/logo.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/logo.svg?__blob=square&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/DE/Service/Gebaerdensprache/gebaerdensprache_node.jpg?__blob=picture&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/DE/Service/LeichteSprache/leichtesprache_node.svg?__blob=picture&v=9"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/konto_icon.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/DE/Service/Suche/suche_node.svg?__blob=picture&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Forms/DNBWeb/_components/Buttons/Servicesuche_Submit.svg?__blob=image&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Buehnen/Startseite/01_leipzigEb4Aussen_buehne.jpg?__blob=normal&v=7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Kulturell/Fachveranstaltungen/vdhd2021DnbLab_buehne_ateaser.jpg?__blob=wide&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Kulturell/Sonstige/benutzungseinfuehrungLeipzig.jpg?__blob=wide&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Kulturell/VirtuelleAusstellungen/ruehrmichnichtan/ruehrmichnichtan__tteaser.jpg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Kulturell/Ausstellungen/dea/wa_2020_erikamann/erikaMann_cteaserGross.jpg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Buehnen/Startseite/11_leipzigMuseumslesesaal_zielgruppenmodul.jpg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Styles/addon_print.css?v=12"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Ueber-uns/DBSM/DBSM_kachel.jpg?__blob=wide&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Ueber-uns/DEA/dea_kachel.jpg?__blob=wide&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Ueber-uns/DMA/DMA-kachel.jpg?__blob=wide&v=4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/nav2top-b.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Professionell/Projekte_Kooperationen/Kooperationen/ddb/ddbLogo_transparent.png?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SharedDocs/Bilder/DE/Ueber-uns/bkm_logo.png?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/JavaScript/init/global.js?v=16"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/globe.png?__blob=normal"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/sprite.svg?__blob=normal&v=7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/dnb_pattern_turqoise.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/dnb_pattern_lightgreen.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/dnb_pattern_yellow.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/static/fonts/Montserrat/Montserrat-Medium.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/static/fonts/Montserrat/Montserrat-SemiBold.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/static/fonts/Montserrat/Montserrat-Bold.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/static/fonts/Montserrat/Montserrat-Light.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/static/fonts/Crimson_Text/CrimsonText-Regular.ttf"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Modules/DNBWeb/MobileNavigation/DE/Allgemein/MobileNavigation.html?view=renderMobileNavigation"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/facebook_w.svg?__blob=normal&amp;v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/twitter_w.svg?__blob=normal&amp;v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.dnb.de/SiteGlobals/Frontend/DNBWeb/Images/icons/close_x.svg?__blob=normal&v=3"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "child-src": [
+        "*.facebook.com",
+        "*.twitter.com",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.youtube.com",
+        "*.googleapis.com",
+        "piwik.itzbund.de",
+        "my.matterport.com"
+      ],
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "jobs.b-ite.com",
+        "*.userlike.com",
+        "*.umd.userlike.com",
+        "wss://umd.userlike.com/"
+      ],
+      "font-src": [
+        "'self'",
+        "data:",
+        "*.googleapis.com",
+        "*.gstatic.com",
+        "piwik.itzbund.de",
+        "d3dc1lgancj6l0.cloudfront.net"
+      ],
+      "frame-ancestors": [
+        "dnbweb-editor.preview.kkn.zd.intranet.bund.de",
+        "piwik.itzbund.de"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' jobs.b-ite.com *.userlike.com *.umd.userlike.com wss://umd.userlike.com/; style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com piwik.itzbund.de; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.youtube.com *.googleapis.com piwik.itzbund.de script.ioam.de de.ioam.de s.ytimg.com static.b-ite.com cs-assets.b-ite.com api.userlike.com userlike-cdn-widgets.s3-eu-west-1.amazonaws.com d3dc1lgancj6l0.cloudfront.net; object-src 'self' piwik.itzbund.de; media-src 'self' *.youtube.com www.quirksmode.org *.googleapis.com piwik.itzbund.de youtu.be files.dnb.de c18004-vod.l.core.cdn.streamfarm.net; child-src *.facebook.com *.twitter.com *.google.com *.gstatic.com *.youtube.com *.googleapis.com piwik.itzbund.de my.matterport.com; img-src 'self' data: *.google.com *.gstatic.com *.youtube.com *.googleapis.com piwik.itzbund.de *.tile.openstreetmap.org userlike-cdn-operators.s3-eu-west-1.amazonaws.com; font-src 'self' data: *.googleapis.com *.gstatic.com piwik.itzbund.de d3dc1lgancj6l0.cloudfront.net; frame-ancestors dnbweb-editor.preview.kkn.zd.intranet.bund.de piwik.itzbund.de",
+      "img-src": [
+        "'self'",
+        "data:",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.youtube.com",
+        "*.googleapis.com",
+        "piwik.itzbund.de",
+        "*.tile.openstreetmap.org",
+        "userlike-cdn-operators.s3-eu-west-1.amazonaws.com"
+      ],
+      "media-src": [
+        "'self'",
+        "*.youtube.com",
+        "www.quirksmode.org",
+        "*.googleapis.com",
+        "piwik.itzbund.de",
+        "youtu.be",
+        "files.dnb.de",
+        "c18004-vod.l.core.cdn.streamfarm.net"
+      ],
+      "object-src": [
+        "'self'",
+        "piwik.itzbund.de"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "*.youtube.com",
+        "*.googleapis.com",
+        "piwik.itzbund.de",
+        "script.ioam.de",
+        "de.ioam.de",
+        "s.ytimg.com",
+        "static.b-ite.com",
+        "cs-assets.b-ite.com",
+        "api.userlike.com",
+        "userlike-cdn-widgets.s3-eu-west-1.amazonaws.com",
+        "d3dc1lgancj6l0.cloudfront.net"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "*.googleapis.com",
+        "*.gstatic.com",
+        "piwik.itzbund.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=16070400",
+      "includeSubDomains": false,
+      "max-age": 16070400,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://dnb.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

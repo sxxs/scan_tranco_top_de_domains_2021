@@ -1,0 +1,694 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.targobank.de",
+      "expires": 1650461826.511796,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201.511795998,
+      "name": "nid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 43,
+      "value": "12D901054E4D418F6AFC6ECD3F6610AD6EBA6E8B"
+    },
+    {
+      "domain": "www.targobank.de",
+      "expires": 1618931226.518523,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 12601.518522977829,
+      "name": "%5Fwirt%5Ftargodmziiwfcmcicfr%5FGOPA%5FAPPLIWEB%5Fsaguid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 102,
+      "value": "aDvbYXqJ9EOtMBoG5TJFrQ=%3DMTAuMy4xLjEzNDo4MDAz"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [
+    {
+      "error_type": "d",
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-bold.woff2"
+    },
+    {
+      "error_type": "d",
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-medium.woff2"
+    },
+    {
+      "error_type": "d",
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-bold.woff"
+    },
+    {
+      "error_type": "d",
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/CircularPro-Bold.ttf"
+    },
+    {
+      "error_type": "d",
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-medium.woff"
+    },
+    {
+      "error_type": "d",
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/CircularPro-Medium.ttf"
+    }
+  ],
+  "final_url": "https://www.targobank.de/de/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f35dadc3234f20d66c6f529bffc6cf1cf729f1115bd8394b74ee2d390b7eb38d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign Extended Validation CA - SHA256 - G3",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1655416799.0,
+      "not_valid_before": 1584525007.0,
+      "serial_number": 24708000334733641617656968311,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.targobank.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "D\u00fcsseldorf",
+        "jurisdictionStateOrProvinceName": "Nordrhein-Westfalen",
+        "localityName": "D\u00fcsseldorf",
+        "organizationName": "TARGOBANK AG",
+        "serialNumber": "HRB 83351",
+        "stateOrProvinceName": "Nordrhein-Westfalen",
+        "streetAddress": "Kasernenstr. 10"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.targobank.de/de/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://targobank.de/",
+    "https://targobank.de/",
+    "https://www.targobank.de/",
+    "https://www.targobank.de/de/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://targobank.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://targobank.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/index.html"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/webfonts/circular/lineto-circular-pro-book.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/webfonts/circular/lineto-circular-pro-medium.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/webfonts/circular/lineto-circular-pro-black.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/webfonts/circular/lineto-circular-pro-bold.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/css-ace/swiper.min.css?v=20210408"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/css-ace/style.css?v=20210408"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/css-ace/tab.core.css?v=20210408"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/javascript/shared/trk_func.js?v=20180820"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/tab.main.js?v=20210319"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/tab.vtm.js?v=20210319"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/swiper.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/script.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/tab.runtime.js?v=20210319"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/tab.vendors.js?v=20210319"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/javascript-ace/tab.core.js?v=20210319"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/targobank-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-mobile-phone.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-mobile-form.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/07_services/38_ekomi/4dot5stars.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/07_services/38_ekomi/siegel_gold.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/07_services/38_ekomi/0stars.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-tab.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-social-facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-social-instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-social-twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-social-xing.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-social-linkedin.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-social-youtube.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MKXMFSQ"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/images/svg/sprites.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-search-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-accordion-arrow-down.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-menu-find-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-menu-branch-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-menu-contact-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-menu-login-white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-menu-menu-white.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/hero-00-00-a/hero-s.jpg?nocache"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/0_card/depotmodelle.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/0_card/online-kredit-2-620x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/0_card/online-banking-620x450-S-L.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/02_konto/13-kontaktlos_bezahlen/kontaklos_mobil_bezahlen_620x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/0_card/geld-abheben-620x450-S-L.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/app/gopa_appliweb.html?service=ekomi&type=feedbacks"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/sprites/content.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/sprites/ui.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-swiper-right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-swiper-left.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/07_services/38_ekomi/5stars.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/hero-00-00-a/hero-m.jpg?nocache"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-resources/css-ace/tab.consent.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://targobank.de/de/amc-content/svg/assets/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-bold.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://targobank.de/de/amc-content/svg/assets/icon-close.svg"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-medium.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-arrow-right.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/svg/assets/icon-close.svg"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-bold.woff"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/lineto-circular-pro-medium.woff"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/CircularPro-Bold.ttf"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://targobank.de/de/amc-ressources/webfonts/circular/CircularPro-Medium.ttf"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/seal/seal-34.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/seal/seal-36.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/seal/seal-07.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/0_tinf/banking-app-920x450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.targobank.de/de/amc-content/images/0_tinf/services-920x450.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "https://www.targobank.de",
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "www.targoversicherung.de"
+      ],
+      "header_value": "frame-ancestors 'self' www.targoversicherung.de;"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://targobank.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 1
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "www.googletagmanager.com"
+    ]
+  }
+}

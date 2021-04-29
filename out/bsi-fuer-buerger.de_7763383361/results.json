@@ -1,0 +1,658 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "bsi-fuer-buerger.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": true,
+      "size": 75,
+      "value": "AQgGkABUltTcnZ4PHq8fe3_FyrWgAmm!Ay41GGMmTZdOfFW1ok09JpiPrnzEgtVEh7ZR"
+    },
+    {
+      "domain": "www.bsi.bund.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "session": true,
+      "size": 54,
+      "value": "725C7AAE33475354B0AFDA69F1FB504C.internet082"
+    },
+    {
+      "domain": "www.bsi.bund.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "AL_SESS-S",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 77,
+      "value": "ATPmOFHZhVNfUeGsE0Z8KIGMuOuRtaJ2TRseGavy7dLmTz9sUwJLCVypNOaYpfdlfD7X"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e483acb8a91a01346b18a512d59ce5754d021f467f8977c26913d60e3627ad6f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "D-TRUST SSL Class 3 CA 1 EV 2009",
+        "countryName": "DE",
+        "organizationName": "D-Trust GmbH"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1643624508.0,
+      "not_valid_before": 1611829308.0,
+      "serial_number": 160391174651554685785165787091327462019,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "www.bsi.bund.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Bundesamt fuer Sicherheit in der Informationstechnik",
+        "postalCode": "53175",
+        "serialNumber": "01.01.1991",
+        "stateOrProvinceName": "Nordrhein-Westfalen",
+        "streetAddress": "Godesberger Allee 185-189"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/DE/Service/Impressum/impressum_node.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bsi-fuer-buerger.de/",
+    "https://www.bsi.bund.de/BSIFB",
+    "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bsi-fuer-buerger.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/BSIFB"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/verbraucherinnen-und-verbraucher_node.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/_libs.css?v=6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/small.css?v=13"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/medium.css?v=8"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/large.css?v=9"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/xlarge.css?v=6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/xxlarge.css?v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/custom.css?v=22"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/logo.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/_config/AdditionalLogo.svg?__blob=value&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/logo-bsi-smaller.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/close.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/search.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/search-blue.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Forms/_components/Buttons/Servicesuche_Submit.svg?__blob=image&v=3"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Styles/addon_print.css?v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Newsletter/buergerCertNewsletter_buehne.jpg?__blob=wide&v=8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Teaser_1/podcast_buehne.jpg?__blob=wide&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Bilder_extern/Fotolia/Aerztin_Patientin_Gesundheit_eHealth_141411242.jpg?__blob=wide&v=11"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1185272717/Grafik-21-1185272717.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1208323707/Grafik-1_1208323707.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1200055680/Grafik-1_1200055680.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_1/Bild_29_BSI1.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1172287189/Grafik-24_1172287189.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_1/Bild_28_BSI1.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_2/Bild_38_BSI2.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_2/Bild_34_BSI2.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1185272717/Grafik-1-1185272717.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1206595116/Grafik-15-1206595116.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1187860522/Grafik-28-1187860522.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/Getty_oder_in_Mockup/Grafik-5-334461.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1172287189/Grafik-1_1172287189.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_5/Bild_16_BSI5.svg?__blob=square&v=4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1210146626/Grafik-50-1210146626.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_118685632/Grafik-3-118685632.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1185272717/Grafik-18-1185272717.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1185272717/Grafik-12-1185272717.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1205926022/Grafik-12-1205926022.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1172287189/Grafik-7_1172287189.svg?__blob=square&v=4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1205926022/Grafik-27-1205926022.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1185272717/Grafik-17-1185272717.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_2/Bild_4_BSI2.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_118685632/Grafik-9-118685632.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/Getty_oder_in_Mockup/Grafik-8-334461.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/GettyImages_1205926022/Grafik-9-1205926022.svg?__blob=square&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_1/Bild_31_BSI1.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Icons/BSI_1/Bild_24_BSI1.svg?__blob=square&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/Bilder_extern/Fotolia/Service/service-center_83900014.jpg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SharedDocs/Bilder/DE/BSI/Newsletter/buergerCertNewsletter_neu.jpg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/JavaScript/init/global.js?v=7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/sprite.svg?__blob=normal&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/welle.svg?__blob=normal&v=5"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/static/fonts/BundesSchrift-v3/BundesSerifWeb-Regular.woff"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/static/fonts/BundesSchrift-v3/BundesSansWeb-RegularItalic.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/static/fonts/BundesSchrift-v3/BundesSansWeb-Regular.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/static/fonts/BundesSchrift-v3/BundesSansWeb-Bold.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Modules/MobileNavigation/DE/MobileNavigation.html?view=renderMobileNavigation"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Functions/SlideshowNavigation/SlideshowNavigation.html?view=renderSlideshowNavigation"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/facebook-white.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/twitter-white.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/close-white.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Frontend/Images/icons/slick/icon_ajax_loader.gif?__blob=normal&v=3"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "font-src": [
+        "'self'"
+      ],
+      "frame-ancestors": [
+        "'none'"
+      ],
+      "header_value": "base-uri 'self'; style-src 'self'; script-src 'self' piwik.itzbund.de; object-src 'self' multimedia.gsb.bund.de; media-src 'self' multimedia.gsb.bund.de; img-src 'self' piwik.itzbund.de; font-src 'self'; frame-ancestors 'none'; upgrade-insecure-requests;",
+      "img-src": [
+        "'self'",
+        "piwik.itzbund.de"
+      ],
+      "media-src": [
+        "'self'",
+        "multimedia.gsb.bund.de"
+      ],
+      "object-src": [
+        "'self'",
+        "multimedia.gsb.bund.de"
+      ],
+      "script-src": [
+        "'self'",
+        "piwik.itzbund.de"
+      ],
+      "style-src": [
+        "'self'"
+      ],
+      "upgrade-insecure-requests": []
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bsi-fuer-buerger.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

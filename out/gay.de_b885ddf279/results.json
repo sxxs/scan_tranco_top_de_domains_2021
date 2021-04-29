@@ -1,0 +1,640 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".gay.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "session_id",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 36,
+      "value": "7qhejgc9549oh0jk8nftnqoomm"
+    },
+    {
+      "domain": ".gay.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "invitation",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 53,
+      "value": "-1%2Ahttps%253A%252F%252Fwww.gay.de%252F%2A"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [
+    {
+      "error_type": "l",
+      "url": "data:"
+    }
+  ],
+  "final_url": "https://www.gay.de/",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [],
+          "functionName": "getCanvasFp",
+          "location": {
+            "columnNumber": 19390,
+            "lineNumber": 0
+          },
+          "url": "https://www.gay.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+        },
+        {
+          "args": [
+            {
+              "data": [
+                {
+                  "key": "language",
+                  "value": "en-US"
+                },
+                {
+                  "key": "color_depth",
+                  "value": 24
+                },
+                {
+                  "key": "device_memory",
+                  "value": 2
+                },
+                {
+                  "key": "pixel_ratio",
+                  "value": 1
+                },
+                {
+                  "key": "hardware_concurrency",
+                  "value": 1
+                },
+                {
+                  "key": "resolution",
+                  "value": [
+                    800,
+                    600
+                  ]
+                },
+                {
+                  "key": "available_resolution",
+                  "value": [
+                    800,
+                    600
+                  ]
+                },
+                {
+                  "key": "timezone_offset",
+                  "value": -120
+                },
+                {
+                  "key": "session_storage",
+                  "value": 1
+                },
+                {
+                  "key": "local_storage",
+                  "value": 1
+                },
+                {
+                  "key": "indexed_db",
+                  "value": 1
+                },
+                {
+                  "key": "open_database",
+                  "value": 1
+                },
+                {
+                  "key": "cpu_class",
+                  "value": "unknown"
+                },
+                {
+                  "key": "navigator_platform",
+                  "value": "Linux x86_64"
+                },
+                {
+                  "key": "do_not_track",
+                  "value": "unknown"
+                },
+                {
+                  "key": "regular_plugins",
+                  "value": []
+                }
+              ]
+            }
+          ],
+          "functionName": "canvasKey",
+          "location": {
+            "columnNumber": 5415,
+            "lineNumber": 0
+          },
+          "url": "https://www.gay.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+        },
+        {
+          "args": [
+            null
+          ],
+          "functionName": "get",
+          "location": {
+            "columnNumber": 1348,
+            "lineNumber": 0
+          },
+          "url": "https://www.gay.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+        },
+        {
+          "args": [
+            null
+          ],
+          "functionName": "",
+          "location": {
+            "columnNumber": 241,
+            "lineNumber": 1
+          },
+          "url": "https://www.gay.de/sfCombine/amd/ea66232fc92d4a985d39ef99d6a3ae3f/pjax/0.js"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            2,
+            15
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz, \ud83d\ude03",
+            4,
+            45
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0af99fafac2d6e2352995273cb10eb4ebd3b05bac73bce58f8bce192ac0fa3e1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1642892399.0,
+      "not_valid_before": 1611270000.0,
+      "serial_number": 198294458350804127189949948183023461395,
+      "subject": {
+        "commonName": "*.gay.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.gay.de/imprint-gays",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "2.2.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://gay.de/",
+    "https://www.gay.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://gay.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/sfCombine/css/0767c11fe52b2f51af97dfc11908d1ce/pjax/0/mq/1.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/sfCombine/css/e833d2da25d9c764e42306d10fbb1e34/pjax/0/mq/1.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gay.de/asset/Landingpages_CruisingOutdoor.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-a.gay.de/asset/Landingpages_gay-chat_chat768-min.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gay.de/asset/App_GaydeAppneu.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gay.de/asset/App_badge_apple_EN.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gay.de/asset/App_badge_google_EN.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/community/uploads/reactions/react_like_gay-min.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gays.com/asset/App_Gaudi-apple_store_GER.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gays.com/asset/App_Gaudi-Playstore_GER.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/sfCombine/js/a9130ce675b2b6463b767e8c61cf705b/pjax/0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/sfCombine/js/1e64606d9525a5c2217971637925dc9b/pjax/0.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/images/blank-4k-3k.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/sfCombine/amd/ea66232fc92d4a985d39ef99d6a3ae3f/pjax/0.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-a.gay.de/header/be4fa8a0e330554a25ea8af39da075d2.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-a.gays.com/header/0cad3f88d92d5044ed6a4f38307fd7d1.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/fonts/roboto-v15/latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/images/landing/nearby-bg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/images/landing/nearby-radar.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/community/uploads/monthly_2021_04/shutterstock_616213424.thumb.jpg.f02e04953f93e63fa04108fe334b77b8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/community/uploads/monthly_2021_04/joanna-nix-walkup-VWAzEW0bi58-unsplash.thumb.jpg.86566b99e8f54e92c5045bb0457aec96.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/community/uploads/monthly_2021_04/AAAABcFK4QoqkOkYmoqGn79juS5v17128C0S-6CmJF_0j08s6EXA5y3YNtAkj8w0Bxg0SocJbhZ3ig9QycPrb29_QNVTP0FjPDZfCRCrG4cqukbzX6wQ.thumb.jpeg.e60142979b3e67e531b27ecbb5faf860.jpeg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/fonts/font-awesome-4.7.0/fontawesome-webfont.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/fonts/roboto-condensed-v13/latin-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/fonts/roboto-v15/latin-300.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/fonts/roboto-v15/latin-500.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/fonts/roboto-condensed-v13/latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/lib/smartbanner-1.13.0/smartbanner.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/lib/fingerprintjs2.js-1.6.1/fingerprint2.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/lib/socket.io-client-2.0.3/socket.io.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/firebasejs/7.14.1/firebase-messaging.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/ajax-api/landing/user/photo"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gay.de/ajax-api/landing/user/radar"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-0.gay.de/1/m/image/6861988/1/fsk16/0/1/3/6861988-0137C30D98466AFAD4C4741427040046_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-e.gay.de/1/m/image/7204406/1/fsk16/E/6/C/7204406-E6C79F79D9498DC852DDAB0E80CC96ED_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-b.gay.de/1/m/image/7236154/1/fsk16/B/D/E/7236154-BDEA18CB45041B7CB1AD2259AE482C3C_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-7.gay.de/1/m/image/6867676/1/fsk16/7/D/7/6867676-7D73409FCEA9770E1991BEBA88A2AA5C_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-3.gay.de/1/m/image/6579350/1/fsk16/3/5/0/6579350-350861F3E9D669BEDC9ADD29F0E4442A_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-a.gay.de/1/m/image/7174792/1/fsk16/A/7/1/7174792-A719C9525D3A445CC84EF520C5728971_150_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-8.gay.de/1/m/image/6330746/1/fsk16/8/0/D/6330746-80DBE19815DA52DBE21D9470873FC83F_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-5.gay.de/1/m/image/7482488/1/fsk16/5/9/E/7482488-59EAAAA78DA470BE4BA20774D399D88E_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-8.gay.de/1/m/image/6382490/1/fsk16/8/C/E/6382490-8CE11C8C54182AB2D969C451ADA54C99_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-7.gay.de/1/m/image/7343338/1/fsk16/7/B/3/7343338-7B399A693D7B0FEA4F7212B76D8FCCF4_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-e.gay.de/1/m/image/7482610/1/fsk16/E/4/8/7482610-E48AA1BD263CBC8B45E52F721EE5D842_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-6.gay.de/1/m/image/7448474/1/fsk16/6/1/C/7448474-61C0BF832339094139E72EC30087F4CB_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-0.gay.de/1/m/image/7484228/1/fsk16/0/0/2/7484228-002FC9BE14362814B3D2C589C46C4A49_300_sq.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://img-e.gay.de/1/m/image/7204406/1/fsk16/E/6/C/7204406-E6C79F79D9498DC852DDAB0E80CC96ED_300_sq.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://gay.de\r",
+  "third_parties": {
+    "fqdns": [
+      "img-a.gays.com",
+      "img-b.gays.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,666 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".uni-passau.de",
+      "expires": 1619006880,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "lastpageuid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 12,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-passau.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "4a705e9f48399ec1edcbeb6ce7e9f46ffef6c92b9a80e20c5554911ceced0320",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648544715.0,
+      "not_valid_before": 1614247515.0,
+      "serial_number": 11246646192706822190003996817,
+      "subject": {
+        "commonName": "uni-passau.de",
+        "countryName": "DE",
+        "localityName": "Passau",
+        "organizationName": "Universitaet Passau",
+        "organizationalUnitName": "ZIM",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-passau.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-passau.de/",
+    "https://uni-passau.de/",
+    "https://www.uni-passau.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://uni-passau.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uni-passau.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1580198758"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3temp/assets/compressed/merged-4989e4f26deecee15ecc851191811fba.css?1617353908"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/js/jquery.min.js?1548775145"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/pannellum/pannellum.js?1554733992"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3temp/assets/vhs-assets-vimeocss.css?1618920410"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/baseline-menu-24px.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/4/6/csm_Ringvorlesung-Plattform-%C3%96konomie_8093850d84.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/4/6/csm_Ringvorlesung-Plattform-%C3%96konomie_96697f7c63.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/a/4/csm_FIM-Campus_d16b3771ad.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/a/4/csm_FIM-Campus_9a4c4c0277.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/9/e/csm_Studieren_3084e64250.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/9/e/csm_Studieren_52831d39c2.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/8/f/csm_Face_ae75c3f490.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/8/f/csm_Face_1c72a1e41e.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/0/4/csm_Forschung_f1cc28fd49.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/d/5/csm_Forschung_526ff08e59.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/3/3/csm_RS13313_1-14323-lpr_c37ff0b66d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/3/3/csm_RS13313_1-14323-lpr_d2f36b1498.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/8/4/csm_Schriftzug_Nachhaltigkeit_grau_c4f3254626.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/c/1/csm_Logo_Weltoffene_Hochschulen_gegen_Fremdenfeindlichkeit_grau_1ee635c640.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/4/7/csm_FidH_Logo_grau__002__3d9a12dba8.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/a/3/csm_CMS_grau_42dc17cc9f.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/4/2/csm_COLOURBOX49348220_040cc9e7ec.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/4/2/csm_COLOURBOX49348220_e8c18cc6c4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/f/5/csm_csm_gruppenfoto_primary_programming__c__up_3ae92d1d5d_516c01289d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/4/b/csm_COLOURBOX32563795_114a7fd696.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/d/e/csm_5-Euro-Business-Wettbewerb_2a2f19e77a.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/fileadmin/_processed_/2/4/csm_preview_COLOURBOX8705767_59e70aeb59.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/baseline-arrow_drop_up-24px.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/twotone-share-24px.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/videocam-24px.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/print.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/share.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/vimp_import/Resources/Public/js/vimpimport.min.js?1564647846"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/vimp_import/Resources/Public/js/custom.js?1564647846"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/js/popper.min.js?1605618636"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/bootstrap/js/bootstrap.min.js?1547645131"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/fontawesome/js/all.min.js?1547645136"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/slick/slick.min.js?1548333552"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/slick-lightbox/slick-lightbox.min.js?1548757762"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/js/jquery.columnizer.min.js?1548768529"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/featherlight/featherlight.js?1548775040"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/matchheight/jquery.matchHeight-min.js?1548860911"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/mmenu/jquery.mmenu.all.js?1551105474"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/wow/wow.js?1554125234"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/jquery-ui/jquery-ui.min.js?1557922112"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/pdfviewer/pdfjs/pdf.js?1556809215"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/pdfviewer/pdf-viewer.min.js?1556809950"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/dflip/js/dflip.min.js?1559141079"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/js/main.js?1616507357"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/jquery.datetimepicker.min.js?1612859327"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/parsley.min.js?1612859327"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.js?1612859327"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1612859327"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3temp/assets/vhs-assets-vimeonewsjs.js?1618920410"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/bg.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/flags.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/more-link-slide.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/localnav-arrows.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/baseline-chevron_right-24px.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/orange-arrow.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/fonts/open-sans-v16-greek-ext_cyrillic-ext_latin-ext_latin_cyrillic_greek-regular.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/fonts/open-sans-v16-greek-ext_cyrillic-ext_latin-ext_latin_cyrillic_greek-600.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/fonts/open-sans-v16-greek-ext_cyrillic-ext_latin-ext_latin_cyrillic_greek-italic.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-passau.de/piwik.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-passau.de/piwik.php?action_name=Universit%C3%A4t%20Passau&idsite=1&rec=1&r=634023&h=14&m=8&s=0&url=https%3A%2F%2Fwww.uni-passau.de%2F&_id=&_idts=1618920480&_idvc=1&_idn=1&_refts=0&_viewts=1618920480&send_image=1&cookie=1&res=800x600&gt_ms=19&pv_id=CsDp6n"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/slick/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/img/pagination.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/typo3conf/ext/upatheme/Resources/Public/slick/fonts/slick.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-passau.de/mnav/20190226/1/"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-passau.de/piwik.php?action_name=Universit%C3%A4t%20Passau&idsite=1&rec=1&r=125577&h=14&m=8&s=0&url=https%3A%2F%2Fwww.uni-passau.de%2F&_id=&_idts=1618920480&_idvc=1&_idn=1&_refts=0&_viewts=1618920480&send_image=1&cookie=1&res=800x600&gt_ms=19&pv_id=Ncny53"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-passau.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

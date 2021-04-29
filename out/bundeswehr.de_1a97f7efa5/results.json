@@ -1,0 +1,935 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bundeswehr.de",
+      "expires": 1618928845.131894,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 13495.131894111633,
+      "name": "NSC_CPM_ENA_Q_iuuq",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 62,
+      "value": "ffffffffa218eb1a45525d5f4f58455e445a4a423660"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundeswehr.de/de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "09f8e7be59ca830430495c04d1997cad597b83ee441636e8fb86ab957f723334",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1624399199.0,
+      "not_valid_before": 1592373486.0,
+      "serial_number": 29220821491606009639321688834511703556,
+      "subject": {
+        "commonName": "bundeswehr.de",
+        "countryName": "DE",
+        "localityName": "Strausberg",
+        "organizationName": "BWI GmbH",
+        "organizationalUnitName": "D-CIS-CP-DMZ",
+        "stateOrProvinceName": "Brandenburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains",
+        "no-max-age"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bundeswehr.de/de/organisation/weitere-bmvg-dienststellen/zentrum-militaergeschichte-sozialwissenschaften/zmsbw-presse-service-amr-fragen-buecher-bestellen/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundeswehr.de/",
+    "https://bundeswehr.de/",
+    "https://www.bundeswehr.de/",
+    "https://www.bundeswehr.de/de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bundeswehr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bundeswehr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/css/app.bundle.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/logo-bw-desktop-standard.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/logo-bw-mobile.svg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/css/print.bundle.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/117060/landscape_ratio18x7/200/78/822ceadb7da109a6e8e7c9abeea8cebf/Xu/soldaten-sichern-hubschrauber.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/162150/landscape_ratio18x7/200/78/8740c06fb8f9d51427b2cbd0b662a133/QV/bild-sar-luh-teaser.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5021912/landscape_ratio18x7/200/78/e4b45af0a1bc823ad6df78c4c1317dc9/gR/covid-impfung-bundeswehrangehoerige.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/1659512/landscape_ratio18x7/200/78/457b12ee4c73eae2d771e3e4d517face/mc/y-magazin-cover-ausgaben.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-army.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-airforce.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-navy.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-medical-service.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-armed-forces.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-cyber-information.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-equipment.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-infrastructure.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-is-people.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/icon-tsk-show-more.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5056970/landscape_ratio16x9/200/113/3f31d7b801e84b5428f24b16a178e5b/wA/scharfschuetze-feuerkampf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/549186/landscape_ratio18x7/200/78/c9a779de1a88bac7c5ce3f45b6581040/bd/bild1-grundausbildung-karte-kompass.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027120/landscape_ratio18x7/200/78/5d219d49289865d2e6fbb0e35a909899/eV/teaser-bild-startseite.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5054908/landscape_ratio16x9/200/113/a4a60ac8a951270fdea09de94259d342/om/bild-modell-g-cap.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5055258/landscape_ratio16x9/200/113/643c52ab6112368b24e19637da3f9576/rB/bild1-unterschrift.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5050878/landscape_ratio16x9/200/113/4724d4bbb83cb370bbed5aa70562b921/cr/nemp-mit-leopard.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5048832/landscape_ratio16x9/200/113/8b7d528d7e94332e317effbaea350005/ac/citadel-jupiter.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5049338/landscape_ratio16x9/200/113/537c8eff9544a2ac149820c0f55bc936/jJ/bild3-regale.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5029112/landscape_ratio16x9/200/113/22fd21dcdb3806755addf95f3579a4ef/xN/joint-arctic-training-2021.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5048082/landscape_ratio16x9/200/113/a9ab08ff1febfe53612d8d06d9e898ba/ym/fregatte-f125-sah-einfahrt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5046010/landscape_ratio16x9/200/113/d78a1c73e0119ce659cd019a7fb89a8e/yR/standbild-03-schuetzenpanzer-puma-trifft-auf-smart-targets.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5042482/landscape_ratio16x9/200/113/8416afb153a22071dd7b5b751e88d0b4/Rs/artikel-2-bild-1-bms-testlauf-zu-beginn.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5042170/landscape_ratio16x9/200/113/f512c033f5ae078adda49803d233e0c1/lb/artikel-1-bild-1-bms-erklaerstueck-am-system.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5033202/portrait_ratio1x1/40/40/934dd77619c7e250c8307ff617b9c495/pU/kampfpanzer-leopard-faehrt-durch-gelaende.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027272/portrait_ratio1x1/40/40/1689e759d01d10f8af762f06b1256a0d/rS/soldatin-aktualisiert-lagekarte-am-gefechtsstand.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027312/portrait_ratio1x1/40/40/af5f1529388457bd5fbc2ea058c6b8f2/kg/soldatin-weist-eurofighter-ein.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027280/portrait_ratio1x1/40/40/9216c4a6fe897e06ab9115caf4e4f134/ZL/arbeitssitzung-fnc-treffen-berlin.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027282/portrait_ratio1x1/40/40/d40dc64862b20e455ef7a591a53f469a/iY/soldaten-der-efp-battlegroup-im-gespraech.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027288/portrait_ratio1x1/40/40/9b74dcffee52cee995941e18f4be89b3/us/soldaten-am-tablet-im-network-operation-center.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027290/portrait_ratio1x1/40/40/bb79a2dc27cb69feab4097cfb0fe3f10/RE/angetretene-soldaten-beim-feierlichen-geloebnis.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5027314/portrait_ratio1x1/40/40/267f79d5f6a3a0a3665ed49dc75bbbc6/cj/kanonenjagdpanzer-bei-feldparade.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/33398/landscape_ratio16x9/800/450/6088985214be4400f33b785b754be3b/dl/fahrzeugkolonne-im-kosovo.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/117952/landscape_ratio16x9/800/450/e1521d029f1dd25e89d9e3b90a4acb74/Ny/schiessausbildung-in-mali.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/54230/landscape_ratio16x9/800/450/91112f5a783a200a7302447e662a0afa/BV/dingos-in-der-wueste.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/117060/landscape_ratio16x9/800/450/91789de918751dda43018a09d593cb00/Wm/soldaten-sichern-hubschrauber.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/101832/landscape_ratio16x9/800/450/b35f37861405e0cbfac0f9dedf2e0b67/gB/deutscher-militaerbeobachter-in-jemen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/49642/landscape_ratio16x9/800/450/f62acdf8ef750cbedf4a7c68db26422e/By/startbild-atalanta.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/41886/landscape_ratio16x9/800/450/80801b50a3a147f5eb0ffcaacbb811ee/fO/bild-startseite-alt.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/94932/landscape_ratio16x9/800/450/1108463685ef5a72d37f057c7ea79b13/bc/efp-befehlsausgabe.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/64034/landscape_ratio16x9/800/450/44979bc956a3b136eb9250c09c7f34fc/Xi/beobachter-auf-patrouille.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/95048/landscape_ratio16x9/800/450/2b27a04b84849e7c32c999e6d7f916e8/mt/auswerfen-der-uebungsmine-vom-achterdeck.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/67932/landscape_ratio16x9/800/450/3d3c64c976cd5a1f5266ca3b8cab392c/eq/auseinanderfahrende-schiffsformation.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/40294/landscape_ratio16x9/800/450/c8a00dbda640e7831cde314842a32360/aw/sea-guardian-soldaten-schiff-bruecke-fernglas-seeraum-ueberwachung.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/143014/landscape_ratio16x9/800/450/69ccb6b631ec4b83f0f576b4cb346613/Hp/formationsfahrt-bei-der-snmg-1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/57802/landscape_ratio16x9/800/450/aecdebb842e2846ea5a0064eb467869e/ek/transportpanzer-der-un.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/105690/landscape_ratio16x9/800/450/5fe10138001958fd33d282bc00b588f3/Ni/minenjagdboot-bad-bevensen-bei-der-snmcmg-2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/255788/landscape_ratio16x9/800/450/4639b9b5a89238a2565867f02c2c8b01/sh/p3c-orion.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/33440/landscape_ratio16x9/800/450/9b5f56dd48c92b678dc9d2554f99f18d/rR/a400m-betankt-tornado.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/142852/landscape_ratio16x9/800/450/4218f40ed38142300f8074c660eeb9f4/Ju/fregatte-hessen-vor-dem-stromboli.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/955500/landscape_ratio16x9/800/450/e3a1e563c0d963e8ebab98075aefbe97/mR/vapb1.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/102324/landscape_ratio16x6/200/75/c53fae434fcf6eba4041b34c607425/ik/freisteller-des-airbus-a400m.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/98884/landscape_ratio16x6/200/75/39c2b0d90dc4b41c4d7d71769b460873/nb/freisteller-wolf.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/119002/landscape_ratio16x6/200/75/21a46f723398dd341388b8ab5b263af/Br/h145m-freisteller.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/138128/landscape_ratio16x6/200/75/984f8c718f3bc0f86512de5f93518858/TI/freisteller-vom-flugabwehrsystem-mantis.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/99968/landscape_ratio16x6/200/75/ec7097c37b887d6dcddcf8789e09ea39/rf/freisteller-des-schuetzenpanzers-puma.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/101372/landscape_ratio16x6/200/75/ad8ccbfc343ffac28b0c22aaeefce9dc/dY/freisteller-des-mehrzweckhubschraubers-nh-90.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/113412/landscape_ratio16x6/200/75/6d6fc072154a1085f56961a895092845/TZ/eurofighter-freisteller.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/103996/landscape_ratio16x6/200/75/72b4ff9cfa4597698abe88d7738b2075/MM/freisteller-vom-panzerabwehrsystem-mells.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/98872/landscape_ratio16x6/200/75/1943c1865ddcbeda50fe59ad95f758ae/wl/lkw-2t-gl-unimog-freisteller.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/99724/landscape_ratio16x6/200/75/1b9e4b1f02bf65d97793382d0105d11a/eL/freisteller-des-kampfpanzers-leopard-2a7.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/crblob/5040898/f5c0abcc47d00895a839a47f05bb03e7/icontwitter-data.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/crblob/5040900/a5a6f129e3d62ccd8671dc89016643a7/iconfacebook-data.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/crblob/5040896/cbc040bc37dfa24cad6372809446f0fc/iconinstagram-data.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/crblob/5040864/4a4f540fd91415f959eb9982c9465c5c/iconyoutube-data.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/crblob/5040894/acf36d9ba761f287bd7366d7f1f12d5b/iconflickr-data.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/scripts/app.bundle.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/sprites/sprites-sprite.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-heer.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-luftwaffe.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-marine.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-sanitaetsdienst.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-streitkraeftebasis.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-cyber.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-ausruestung.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-infrastruktur.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/icons/svg/icon-tsk-w-bg-personal.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/startpage-polygon@2x.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/globe/stardust.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/bg-camouflage-bright_w.jpg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/fonts/pt-sans-v9-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/fonts/Bebas-Neue-Bold.ttf.woff"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/fonts/pt-sans-v9-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/fonts/pt-sans-v9-latin-italic.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/blueprint/themes/bwre/scripts/three.bundle.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/117060/landscape_ratio4x3/800/600/fb2b1cd6f3b0bc141038ddbdca64075d/AC/soldaten-sichern-hubschrauber.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/1659512/landscape_ratio4x3/800/600/7e71794f4b82a62667620200f68997b3/WF/y-magazin-cover-ausgaben.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/162150/landscape_ratio4x3/800/600/7754518286db48180101b0ec70b81e47/gQ/bild-sar-luh-teaser.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5056970/landscape_ratio16x9/800/450/3f31d7b801e84b5428f24b16a178e5b/qy/scharfschuetze-feuerkampf.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/marker/marker_inactive.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/globe/Earth_Clouds.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/themes/bwre/img/globe/Earth_Diffuse.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundeswehr.de/resource/image/5021912/landscape_ratio4x3/800/600/74b94dc7e640fdc5843ea24e9f42e690/bC/covid-impfung-bundeswehrangehoerige.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "https:",
+        "blob:",
+        "data:",
+        "wss:"
+      ],
+      "default-src": [
+        "https:",
+        "blob:",
+        "data:"
+      ],
+      "font-src": [
+        "data:",
+        "www.bundeswehr.de",
+        "*.bmvg.de",
+        "*.video-cdn.net",
+        "fonts.gstatic.com"
+      ],
+      "header_value": "default-src https: blob: data:; script-src data: 'unsafe-inline' 'unsafe-eval' blob: https: piwik.bmvg.de *.video-cdn.net *.bundeswehr.de *.bmvg.de maps.googleapis.com maps.gstatic.com; style-src data: 'unsafe-inline' https: *.bundeswehr.de *.bmvg.de ; img-src data: *.bundeswehr.de *.bmvg.de *.ytimg.com *.fbcdn.net *.twimg.com *.staticflickr.com *.video-cdn.net *.facebook.com *.akamaihd.net *.gstatic.com maps.googleapis.com syndication.twitter.com platform.twitter.com scontent.cdninstagram.com; font-src data: www.bundeswehr.de *.bmvg.de *.video-cdn.net fonts.gstatic.com; connect-src https: blob: data: wss:; report-uri https://piwik.bmvg.de/report-uri/",
+      "img-src": [
+        "data:",
+        "*.bundeswehr.de",
+        "*.bmvg.de",
+        "*.ytimg.com",
+        "*.fbcdn.net",
+        "*.twimg.com",
+        "*.staticflickr.com",
+        "*.video-cdn.net",
+        "*.facebook.com",
+        "*.akamaihd.net",
+        "*.gstatic.com",
+        "maps.googleapis.com",
+        "syndication.twitter.com",
+        "platform.twitter.com",
+        "scontent.cdninstagram.com"
+      ],
+      "report-uri": [
+        "https://piwik.bmvg.de/report-uri/"
+      ],
+      "script-src": [
+        "data:",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "blob:",
+        "https:",
+        "piwik.bmvg.de",
+        "*.video-cdn.net",
+        "*.bundeswehr.de",
+        "*.bmvg.de",
+        "maps.googleapis.com",
+        "maps.gstatic.com"
+      ],
+      "style-src": [
+        "data:",
+        "'unsafe-inline'",
+        "https:",
+        "*.bundeswehr.de",
+        "*.bmvg.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000\nmax-age=31536000 ; includeSubDomains\nmax-age=63072000",
+      "includeSubDomains": false,
+      "max-age": null,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bundeswehr.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

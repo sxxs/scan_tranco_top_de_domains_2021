@@ -1,0 +1,665 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.baua.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "session": true,
+      "size": 47,
+      "value": "353404850C874676F0E42040252AAD65.s1t2"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.baua.de/DE/Home/Home_node.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "19844fc8be068e15aa91d210eece1af3c1b31a290c105a61545475dd3617053e",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1644620399.0,
+      "not_valid_before": 1612998000.0,
+      "serial_number": 19433727864627403002478615906137514928,
+      "subject": {
+        "commonName": "www.baua.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.baua.de/DE/Home/DE/Services/Impressum/Impressum_node.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://baua.de/",
+    "https://www.baua.de/",
+    "https://www.baua.de/DE/Home/Home_node.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://baua.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Home_node.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/normalize.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/_libs.css?v=2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/small.css?v=48"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/medium.css?v=21"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/large.css?v=11"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/xlarge.css?v=22"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/addon_leichtesprache.css?v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Services/Gebaerdensprache/Gebaerdensprache_node.svg?__blob=picture&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Services/Leichte-Sprache/Leichte-Sprache_node.svg?__blob=picture&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/logo.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/close.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Aufgaben/Forschung/Schwerpunkt-Digitale-Arbeit/Bilder/Schwerpunkt-Digitale-Arbeit.jpg?__blob=wide&v=8"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/navigation_childnodes.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/navigation_childnodes_w.svg?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Styles/addon_print.css?v=7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/lupe_navigation.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/mobile_menu.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/topthema_b%C3%BChne.jpg?__blob=landscape&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/kleine_Buehne-links.jpg?__blob=portrait&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/kleine_Buehne-rechts.jpg?__blob=portrait&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/toptipp.jpg?__blob=panorama&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Praxis/Sonderformate/Bilder/GHS-Memocard.jpg?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Berichte/Bilder/F2386.gif?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Aktuell/Bilder/ba1-21.gif?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Berichte/Bilder/F2410.gif?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Praxis/Sonderformate/Bilder/EMKG-Drehscheiben.jpg?__blob=cover&v=6"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Praxis-kompakt/Bilder/F93.gif?__blob=cover&v=3"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Fachbuecher/Bilder/Gefaehrdungsbeurteilung.gif?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Praxis/Bilder/A84.gif?__blob=cover&v=3"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Fakten/Bilder/BIBB-BAuA-35.gif?__blob=cover&v=4"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Fakten/Bilder/BIBB-BAuA-34.gif?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Berichte/Bilder/Suga-2019.gif?__blob=cover&v=2"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Angebote/Publikationen/Praxis/Bilder/A101.gif?__blob=cover&v=3"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/Helpdesk.png?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/Forschungsschwerpunkt_1_Anwendungssichere-Chemikalien-Produkte.jpg?__blob=landscape&v=5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/Forschungsschwerpunkt_2_Arbeitsgestaltung-Betrieb.jpg?__blob=landscape&v=11"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/Forschungsschwerpunkt_3_Arbeit-und-Gesundheit.jpg?__blob=landscape&v=6"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/2021_Q1c/Forschungsschwerpunkt_4_Arbeitswelt-Arbeitsschutz-Wandel.png?__blob=landscape&v=8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/DASA.jpg?__blob=wide&v=2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/MSE.jpg?__blob=wide&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/GDA.jpg?__blob=wide&v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/INQA.jpg?__blob=wide&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/BMAS-Ausschuesse%20(Startseite%20Teaser).jpg?__blob=wide&v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/demowanda.png?__blob=wide&v=7"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/DE/Home/Bilder/InWiGe.png?__blob=wide&v=2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/JavaScript/init/global.js?v=9&nn=8580646"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/sprite.svg?__blob=normal&v=6"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/quote.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/aktuelle_informationen.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/broschueren.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/handlungshilfen.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/statistiken.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/regelwerk.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/produktsicherheit.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/anwendungssichere_chemikalien_gruen.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/static/fonts/scalasans/ScalaSansBold.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/static/fonts/scalasans/ScalaSansItalic.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/static/fonts/scalasans/ScalaSansRegular.woff"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/static/fonts/scalasans/ScalaSansBoldItalic.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/piwik/matomo.js?_=1618923387296"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/broschueren_blau.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Modules/MobileNavigation/BAuA/DE/MobileNavigation.html?view=renderMobileNavigation"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/piwik/matomo.php?action_name=www.baua.de%2FBAuA%20-%20Startseite%20-%20Bundesanstalt%20f%C3%BCr%20Arbeitsschutz%20und%20Arbeitsmedizin&idsite=42&rec=1&r=499484&h=14&m=56&s=27&url=https%3A%2F%2Fwww.baua.de%2FDE%2FHome%2FHome_node.html&_id=&_idts=1618923388&_idvc=1&_idn=1&_refts=0&_viewts=1618923388&send_image=1&cookie=0&res=800x600&gt_ms=508&pv_id=m0zuo3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/digitalisierung.svg?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/navigation_back.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/icons/navigation_backtofirst.svg?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.baua.de/SiteGlobals/Frontend/Images/logo-ohneuntertitel.svg?__blob=normal&amp;v=1"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "default-src": [
+        "'self'"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "frame-src": [
+        "www.baua.de"
+      ],
+      "header_value": "default-src 'self'; base-uri 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.baua.de; object-src 'self' www.baua.de; media-src 'self' www.baua.de; frame-src www.baua.de; img-src 'self' data: www.baua.de uvi.bfs.de; frame-ancestors 'self';",
+      "img-src": [
+        "'self'",
+        "data:",
+        "www.baua.de",
+        "uvi.bfs.de"
+      ],
+      "media-src": [
+        "'self'",
+        "www.baua.de"
+      ],
+      "object-src": [
+        "'self'",
+        "www.baua.de"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "www.baua.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://baua.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

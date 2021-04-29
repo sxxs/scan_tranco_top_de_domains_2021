@@ -1,0 +1,875 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".rp-online.de",
+      "expires": 2145916555.136007,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 527072712.1360071,
+      "name": "creid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 24,
+      "value": "1697488352439602690"
+    },
+    {
+      "domain": ".rp-online.de",
+      "expires": 1648572644,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 29728801,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 124,
+      "value": "0017b8b3ca833aebf607db4e4:1648572644991:1618851044991:.rp-online.de:2:rponl:RP-Homepage:noevent:1618851044991:lq2paj"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1647736063.165982,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 28892220.165982008,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00287940715a9102b607db4e50001%3B607db4e5%3B623674ff"
+    },
+    {
+      "domain": ".rp-online.de",
+      "expires": 1619628644,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784801,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618851045814"
+    },
+    {
+      "domain": ".rp-online.de",
+      "expires": 1621443046,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599203,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 321,
+      "value": "isIABGlobal=false&datestamp=Mon+Apr+19+2021+18%3A50%3A46+GMT%2B0200+(Central+European+Summer+Time)&version=6.16.0&hosts=&consentId=dca9987e-6ff5-4bb8-a9f4-da2571566067&interactionCount=0&landingPath=https%3A%2F%2Frp-online.de%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A0%2CC0004%3A0%2CC0005%3A0%2CSTACK42%3A0"
+    },
+    {
+      "domain": "rp-online.weekli.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "sid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 35,
+      "value": "5db616f14e29913d96b209eb5977adb8"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://rp-online.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "0ed54e46c6be9e67be5bc70c276c5c8da3f71142c02ff02f22f4ce3bfcc37178",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1646175599.0,
+      "not_valid_before": 1611874800.0,
+      "serial_number": 118033574977250079146283056385150635280,
+      "subject": {
+        "commonName": "*.rp-online.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://rp-online.de/info/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://rp-online.de/",
+    "https://rp-online.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://rp-online.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/fonts/Merriweather-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/fonts/SourceSansPro-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/fonts/SourceSansPro-Semibold.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/skins/rp-online/head.css?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/head.js?v=1618462601"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ads.pubmatic.com/AdServer/js/pwt/158201/3601/pwt.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ads.pubmatic.com/AdServer/js/pwt/158201/1438/pwt.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/7/1/9/1/3/tok_05f444a1876154c759903b996ef35c29/w950_h713_x1491_y732_DPA_bfunk_dpa_5FA526003F6054DC-bd8a152a74fc4540.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/main.es6.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/widgets/vendor.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/slots.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/33/7/7/3/1/0/3/6/Abo_Variante_3-75ed410acba809d1.jpg"
+    },
+    {
+      "mime_type": "image/jsvg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/images/sprite.sportsclubs.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/7/1/9/1/3/tok_27aba307ff47d1a5088d4e8bccce0a1f/w600_h450_x1491_y732_DPA_bfunk_dpa_5FA526003F6054DC-bd8a152a74fc4540.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/images/news/RPO_75_online_grafik_C_neu.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/6/4/8/1/5/tok_d11da5ac8d65810e2353a5eba0d2e2f2/w400_h228_x819_y546_DPA_bfunk_dpa_5FA5220025AF5A82-9092c41bc00fadc8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/9/4/6/1/1/tok_4578a70b721aa6a5b54f6066301b7f62/w400_h228_x960_y540_49183dceeb9d895f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/8/6/8/8/1/tok_d2d50523ee3c6285c80348b4350d103d/w400_h228_x1756_y1018_BacheloretteSchweizPatrickPharrell-f51e89fb43f446f1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/1/7/6/1/4/2/9/tok_3f58ef83c38e8ff54ae1b73b4ee5b66f/w400_h228_x1796_y1197_RP_H_und_M-0127-db9037327a03f421.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/8/4/6/6/1/tok_5a79add1a4929209fe496daf8a05fd0e/w400_h228_x960_y540_bb8ca49cb2171b53.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/8/1/1/2/5/tok_437789a33897f18f6fd53fe29ee2df60/w400_h228_x960_y540_1c3f6e15a6dea7fc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/8/0/5/8/3/tok_999e4edd954d06d0d23e114a2aa644be/w400_h228_x960_y540_790a00e16a51f63e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/1/5/4/7/7/6/9/tok_b4c9e632fb97328d663bcec6b324c3d3/w400_h228_x1500_y1083_DPA_bfunk_dpa_5F9A1C00E4DBA0BD-3629fc1108aa9219.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/7/6/1/1/3/tok_5c5794906fae0799308f1a6f358ce4a2/w400_h228_x960_y540_8ae9a138c54a694a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/3/9/7/7/2/8/1/5/tok_80b5ed641116357a1ddc1f6042972a70/w400_h228_x800_y600_AAAWhatsApp_Image_2021-04-19_at_12.26.12-c160b1d32ea769e0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/5/3/1/0/5/tok_5719e6cb678f7aeaa03a9f22f3b7c9e2/w400_h228_x1500_y1000_AP_32A51C00FA1DD523-22d44926101ec078.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/6/6/5/6/1/tok_35f491b6c789914970b4b849846d713a/w400_h228_x1796_y1347_IMG_2933-254dc64b9ca8c7bb.JPG"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.weekli.systems/www/img/logo_240x97.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.weekli.systems/www/widgets/widget-loader-1.5.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/20/stimme-des-westens-der-abend/abendnewsletter.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/widgets/weather.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/widgets/traffic.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/6/9/3/9/9/1/9/tok_a6081f617c1d450b1f741d5d804d03b9/w950_h526_x1500_y1000_DPA_bfunk_dpa_5FA524004CC1C7A7-94d691c8c704a2e2.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/6160ad01-a367-45a2-9832-1195aa0afc25/6160ad01-a367-45a2-9832-1195aa0afc25.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/skins/rp-online/main.css?v=1618462601"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/skins/rp-online/print.css?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N938K5"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/api/tree?output=html&currentNode=50327&absolute=0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/widgets/navigation.js?v=1618462601"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/rpo/corona-zahlen-im-ueberblick/nrw2.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/news/ig/rpo/corona-zahlen-im-ueberblick/corona-dataviz2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/7/8/5/3/7/tok_a2fdbeef37519e9be02308ddb5ddf2ac/w400_h300_x1654_y1865_DPA_bfunk_dpa_5FA52600567FDFB0-212683fbc6cfe006.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/5/6/1/6/1/tok_edf6d2bb120b168b2061120e70c89f17/w400_h300_x1500_y1028_DPA_bfunk_dpa_5FA17400590438E6-e1fa659738bd9b0f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/7/8/7/9/2/9/0/5/tok_092d061ac6c0a416401ff5668438c8b2/w400_h300_x1500_y1000_DPA_bfunk_dpa_5FA51A008155DCD6-6e1905eaa4634773.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/6/0/6/5/2/3/tok_d881fd178a43dbcc4e5ab5e61e0629f2/w400_h300_x1500_y881_AP_32A51E00E8B727C6-601e5c5cc4b1bc4d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/6/1/0/2/1/7/tok_46b68a60faae62304c1f83ab086ca8cf/w400_h300_x1500_y1000_DPA_bfunk_dpa_5FA320009855E9DF-5a818fa72163949e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/5/8/2/5/1/9/tok_609fc3b0ea1f4e42baef9da97713439b/w400_h300_x2500_y1666_RP_NOP_8665_b-145fc6d93bae120a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/6/1/0/5/6/3/tok_fdedbf1e8867375a05e04b4a72eda416/w400_h300_x1711_y565_DPA_bfunk_dpa_5FA526002DE15730-d1fd4dde4e2499be.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/3/0/1/0/3/7/5/tok_f0e1633d477ed0dd376fc39e17afca3d/w100_h75_x1796_y1245_RP_Kamp_-_Lintfort_-_Rainer_Bonk_Geburtstag_003-6087e0bfd702eff2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/imgs/32/1/0/1/5/5/6/7/3/9/tok_3ffc5fad0336fb9d40c92808f8575310/w100_h75_x1796_y566_RP_gemuesestand-9039-11cd0938510a933c.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=rponl&cp=RP-Homepage&sv=ke&co=https%3A%2F%2Frp-online.de%2F&sc=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=rp-online.de&xy=800x600x24&lo=DE%2FBerlin&cb=0017&i2=0017b8b3ca833aebf607db4e4&ep=1647993205&vr=423&id=30n7mb&i3=0017b8b3ca833aebf607db4e4%3A1648572644991%3A1618851044991%3A.rp-online.de%3A1%3Arponl%3ARP-Homepage%3Anoevent%3A1618851044991&n1=1&dntt=0&lt=1618851044993&ev=&cs=8f2yax&mo=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/jobs-rponline/"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://r.rp-online.de/images/pic.gif?m=rp&b=7725599&cstr=6840336&l=&tit=Aktuelle+Nachrichten+%7C+RP+ONLINE&url=https%3A%2F%2Frp-online.de%2F&sep=%7C&tce=1&tid=50327&tn=Startseite&tp=50327&tpn=Startseite&random=0.8742253090680778&r=&json=1&con=1&sz=800x600x24&cs=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=rponl&cp=RP-Homepage&sv=ke&co=https%3A%2F%2Frp-online.de%2F&sc=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=rp-online.de&xy=800x600x24&lo=DE%2FBerlin&cb=0017&i2=0017b8b3ca833aebf607db4e4&ep=1647993205&vr=423&id=30n7mb&i3=0017b8b3ca833aebf607db4e4%3A1648572644991%3A1618851044991%3A.rp-online.de%3A1%3Arponl%3ARP-Homepage%3Anoevent%3A1618851044991&n1=1&dntt=0&lt=1618851044993&ev=&cs=8f2yax&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/widgets/twig-worker.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/6160ad01-a367-45a2-9832-1195aa0afc25/66d5a76f-7dbb-4426-8dcf-e69493be8e5f/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otTCF.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/jobs-rponline/styles/normalize.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/jobs-rponline/styles/such-snippet.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/jobs-rponline/scripts/jquery-3.3.1.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/jobs-rponline/scripts/such-snippet.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-assets.rp-online.de/jobs-rponline/images/jobs.rp-online_Logo.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.weekli.de/widget-loader?wkliid=1&slot=15&host=rp-online.weekli.de&key=1A1C94CD-8BB4-41D4-8A67-0D6EC1449C65&targetBlank=true&autoplay=3&utm_source=rpo&utm_medium=widget_billboard&showTitle=true&region=gesamtausgabe"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/cre-1.0/tracking/call.js?serviceid=rpo&origin=web&cms_id=6840336&contentid=%2F&channel=50327&subchannel=undefined&doctype=section&kicker=undefined&heading=undefined&entitlementid=digital_web&_u=https%3A%2F%2Frp-online.de%2F&_c=cre_callback_10330"
+    },
+    {
+      "mime_type": "image/jsvg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/images/sprite.sportsclubs.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/popper.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://r.rp-online.de/images/pic.gif?m=rp&b=7725599&cstr=6840336&l=&tit=Aktuelle+Nachrichten+%7C+RP+ONLINE&url=https%3A%2F%2Frp-online.de%2F&sep=%7C&tce=1&tid=50327&tn=Startseite&tp=50327&tpn=Startseite&random=0.0012896982581778182&r=&json=1&con=1&sz=800x600x24&cs=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/v2/otPcCenter.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/otCookieSettingsButton.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/assets/widgets/twig-worker.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c2.taboola.com/nr/rponline/newsroom.js"
+    },
+    {
+      "mime_type": "text/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.stellenanzeigen.de/widget/app.asp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.de/cre-1.0/tracking/device.js?width=800&height=600&dpi_x=96&dpi_y=96&tracking_id=1697488352439602690&_c=cre_callback_44565"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.weekli.systems/www/js/lazysizes/lazysizes.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.weekli.systems/www/js/jquery/jquery-3.4.1.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.weekli.de/widgets/scroll-widget/scroll-widget-1.9.min.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nr-events.taboola.com/newsroom/1.0/rponline/get-action?page.url=https%3A%2F%2Frp-online.de%2F&view.id=179549582229991792&page.template=home&page.dashboard=home"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://rp-online.weekli.de/api/a/list?v=1.2&key=1A1C94CD-8BB4-41D4-8A67-0D6EC1449C65&pub=rp&region=gesamtausgabe&slot=15&utm_medium=widget_billboard&utm_source=rpo"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://nr-events.taboola.com/newsroom/1.0/rponline/notify-impression?page.url=https%3A%2F%2Frp-online.de%2F&view.id=179549582229991792&page.template=home&page.dashboard=home"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "http://toolpool.circit.de",
+        "https://toolpool.circit.de"
+      ],
+      "header_value": "frame-ancestors 'self' http://toolpool.circit.de https://toolpool.circit.de"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://rp-online.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ads.pubmatic.com",
+      "app.stellenanzeigen.de",
+      "c.amazon-adsystem.com",
+      "c2.taboola.com",
+      "cdn.cookielaw.org",
+      "de.ioam.de",
+      "geolocation.onetrust.com",
+      "nr-events.taboola.com",
+      "rp-online.weekli.de",
+      "script.ioam.de",
+      "securepubads.g.doubleclick.net",
+      "static.weekli.systems",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 29
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 19,
+    "trackers": [
+      "ads.pubmatic.com",
+      "c.amazon-adsystem.com",
+      "c2.taboola.com",
+      "cdn.cookielaw.org",
+      "de.ioam.de",
+      "nr-events.taboola.com",
+      "securepubads.g.doubleclick.net",
+      "www.googletagmanager.com"
+    ]
+  }
+}

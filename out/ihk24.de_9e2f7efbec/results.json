@@ -1,0 +1,623 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "ihk24.de",
+      "expires": 1618952885.399962,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 36000.399961948395,
+      "name": "IHK24PROD-20480",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 27,
+      "value": "MKFKLNAKFAAA"
+    },
+    {
+      "domain": "www.ihk24.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "CM_LIVE_SESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 49,
+      "value": "9762935AC866DFFC0DB6E0568187DD22"
+    },
+    {
+      "domain": "www.ihk24.de",
+      "expires": 1618952885.715804,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 36000.71580410004,
+      "name": "IHK24PROD-47873",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 27,
+      "value": "MKFKLNAKFAAA"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ihk24.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "c95d5a15b4c53c105288ff9c4eb36912b61ceb9a6f27d708317e5ff179172bfb",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "D-TRUST SSL Class 3 CA 1 2009",
+        "countryName": "DE",
+        "organizationName": "D-Trust GmbH"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1650192330.0,
+      "not_valid_before": 1617683605.0,
+      "serial_number": 143142705538082899868598501696013809548,
+      "subject": {
+        "commonName": "www.ihk24.de",
+        "countryName": "DE",
+        "localityName": "Dortmund",
+        "organizationName": "IHK Gesellschaft fuer Informationsverarbeitung mbH",
+        "serialNumber": "CSM025845813",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ihk24.de/datenschutz-3110656",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ihk24.de/",
+    "http://www.ihk24.de/",
+    "https://www.ihk24.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://ihk24.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://www.ihk24.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/css/1316954/1316954/ef734bd3df6c6771220c12686d563e66/body.css"
+    },
+    {
+      "mime_type": null,
+      "sets_cookie": false,
+      "status_code": null,
+      "status_text": null,
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/system/design/ihk24/css/css/patches/patch-3140244-78.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/1318342/1549ce61ee325b8576d96b887d416c15/logo-handelskammer-png-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/image/1317490/teaserimage/900/600/456d8a478b7e025ef349d2e6053a7668/ts/peo-3187737.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/image/1317526/teaserimage/900/600/b0905ab16a3d961cd85c348f7fc489d9/JR/erklaerfilm.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/image/1317502/teaserimage/900/600/e132d184a68e5a3077e6b07654d01e13/BP/farbpalette.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/5079340/bd955539a23c22376487ad9f77a81835/empty-large-png-data.png"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/themes/ihk24-2020/js/gfilibs-4822722-10.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/themes/ihk24-2020/js/highcharts-4861962-3.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/themes/ihk24-2020/js/ihk24-2020-4803386-43.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/themes/ihk24-2020/js/gfiWebComponents-4837102-6.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/themes/ihk24-2020/js/gfiCookie-4953036-3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/load-image.all.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery_ui_widget_js.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery_iframe_transport.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery_xdr_transport_js.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/canvas-to-blob.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery_fileupload_9_11_2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery_fileupload_process_9_11_2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery_fileupload_image_9_11_2.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery-format.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/default/responsive/js/vendor/webforms9/jquery-webforms.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/4803306/8489109afa2827c69dc1831698c73a4c/sourcesanspro-bold-webfont-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/4803362/265925f64acbdf5b0947583af8930207/sourcesanspro-regular-webfont-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/4803272/23aeda9396f2298ffa334c5daeca1e48/korb-webfont-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/4803372/0f6202a6bd6c5a9ef14884a32216e2f7/sourcesanspro-semibold-webfont-woff2-data.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/4803270/f58d8766e2a9b1fec874f98393098740/icons-woff2-data.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=eggSM9"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/serviceport/layernavigation/v2/1316954"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/crblob/4837098/9a0867fa71faf0c01362982a97d85a47/loader-gif-data.gif"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/image/1317454/teaserimage/882/588/893d507ccaf34cacea71ee798f61ca74/yZ/zusatzmodule.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.ihk24.de/blueprint/servlet/resource/image/1317496/teaserimage/882/588/dbb1d095413a4bf251fbcbaf8c9d1f7b/GX/lsb-13702648small.jpg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/api/v6/tracking/webEvents"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=eggSM9&v=5.0&tc=16189240866354&pagename=%5Bihk24%20IHK24%5D%20Startseite%20%5B1316954-1316954%5D%20&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=IHK24%2Fihk24%2Fihk24_channel&et_se=1&cc_url=www.ihk24.de%2Fblueprint%2Fservlet%2Fihk24%2F&et_source_url=https%3A%2F%2Fwww.ihk24.de%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&et_seg2=%5Bnicht%20angemeldet%5D&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=ddfc1e9874dbd3faf2b91bc2f25f79f0&et_cblk=1&et_cd=www.ihk24.de&dh=pecD1%2FYKb7eZ3m8VURJxoefrv1N0WZ3M&clt=24"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=B09yQx&v=5.0&tc=16189240866424&pagename=%5Bihk24%20IHK24%5D%20Startseite%20%5B1316954-1316954%5D%20&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=IHK24%2Fihk24%2Fihk24_channel&et_se=1&cc_url=www.ihk24.de%2Fblueprint%2Fservlet%2Fihk24%2F&et_source_url=https%3A%2F%2Fwww.ihk24.de%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&et_seg2=%5Bnicht%20angemeldet%5D&block_cookies=true&respect_dnt=true&et_bs=1&coid=ddfc1e9874dbd3faf2b91bc2f25f79f0&et_cblk=1&et_cd=www.ihk24.de&dh=pecD1%2FYKb7eZ3m8VURJxoefrv1N0WZ3M&clt=24"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "data:",
+        "24703.online-adventskalender.de",
+        "*.b-ite.com",
+        "*.bitkomplex.de",
+        "*.bright-guide.de",
+        "*.cdn.office.net",
+        "*.cloudfront.net",
+        "*.cookiebot.com",
+        "*.dvinci-hr.com",
+        "*.etracker.com",
+        "*.etracker.de",
+        "*.exmap.de",
+        "*.facebook.com",
+        "*.flickr.com",
+        "*.google-analytics.com",
+        "*.google.com",
+        "*.google.de",
+        "*.googleapis.com",
+        "*.gstatic.com",
+        "*.haffhus.de",
+        "*.highcharts.com",
+        "*.hk24.de",
+        "*.ihk.de",
+        "*.ihk24.de",
+        "*.jobcluster.de",
+        "*.linkedin-ei.com",
+        "*.linkedin.com",
+        "*.mateforevents.com",
+        "*.microsoft.com",
+        "*.multipage.online",
+        "*.newsletter2go.com",
+        "*.office.com",
+        "*.office365.com",
+        "*.podigee-cdn.net",
+        "*.spotify.com",
+        "*.staticflickr.com",
+        "*.stream24.net",
+        "*.thinglink.com",
+        "*.thinglink.me",
+        "*.twimg.com",
+        "*.twitch.tv",
+        "*.twitter.com",
+        "*.unikam.de",
+        "*.userlike.com",
+        "*.vimeo.com",
+        "*.wahlplus.de",
+        "*.walls.io",
+        "*.wirecard.com",
+        "*.xing-events.com",
+        "*.youtube.com",
+        "api.mapbox.com",
+        "app.cituro.com",
+        "app.sli.do",
+        "b6df6a39-9bba-47b4-b1e3-367604039de3.rlets.com",
+        "bc.pressmatrix.com",
+        "berufsausbildung-aachen-ihk.de",
+        "cdn.contentful.com",
+        "cdn.doo.net/assets/js/viovendi-embed-static-1.js",
+        "cdn.podigee.com",
+        "cdn.rlets.com",
+        "cdnjs.cloudflare.com",
+        "code.createjs.com",
+        "code.jquery.com/jquery-3.1.1.min.js",
+        "con.arbeitsagentur.de",
+        "connect.facebook.net",
+        "consentcdn.cookiebot.com",
+        "corona.conterra.de",
+        "cottbus-ihk-pruefungen.de",
+        "covid19.webtvcampus.de",
+        "datawrapper.dwcdn.net",
+        "dbaw.specials-bahn.de",
+        "detmold.ihk-beitragsrechner.de",
+        "dihk.imageplant.de",
+        "doo.net",
+        "e.issuu.com",
+        "e.video-cdn.net",
+        "editor.signavio.com",
+        "embed.nexx.cloud",
+        "events-to-impress.activehosted.com",
+        "expertenpool.automatisierungsregion.de",
+        "geoportal-hamburg.de",
+        "haffhus.s3.eu-central-1.amazonaws.com",
+        "handelskammer-bremen.appointmind.net",
+        "hk24.perbit-job.de",
+        "hk24.perbit-job.de",
+        "html5-player.libsyn.com",
+        "iframe.wvd-portfolio.de",
+        "ihk-ar.ycms.rocks",
+        "ihk-darmstadt-portal.rexx-recruitment.com",
+        "ihk-potsdam.perbit-job.de",
+        "ihk-schwerin.wahlplus.de",
+        "ihk-weiterbildung-oldenburg.de",
+        "ihk.selbstdenker.com",
+        "ihkob.wekando.eu",
+        "imagemarker.com",
+        "ims-files-cdn.net",
+        "infographic.statista.com",
+        "inx.odav.de",
+        "isi.hdb-hamburg.de",
+        "komsis.inecos.de",
+        "kvg-kassel.widget-generator.de",
+        "link.webropolsurveys.com",
+        "live.c3networking.de",
+        "livestream.watch/vp/nachhaltigkeitsdialog.html",
+        "maxcdn.bootstrapcdn.com",
+        "pam.ihk-schleswig-holstein.de",
+        "playout.3qsdn.com",
+        "plugins.flockler.com",
+        "roundme.com",
+        "routenplaner.bus-bahn-thueringen.de",
+        "service.tecintelli.de",
+        "start.video-stream-hosting.de",
+        "static-exp1.licdn.com",
+        "static.dvinci-easy.com",
+        "static.issuu.com",
+        "tecintelli-static-ttl.obs.eu-de.otc.t-systems.com/",
+        "tuerchen.com",
+        "umap.openstreetmap.fr",
+        "userlike-cdn-operators.s3-eu-west-1.amazonaws.com",
+        "userlike-cdn-widgets.s3-eu-west-1.amazonaws.com",
+        "vimeo.com",
+        "vstdbv3",
+        "w.soundcloud.com",
+        "walls.io",
+        "web.ihk-pfalz.net",
+        "web.inxmail.com",
+        "wss://chat.userlike.com/chat/",
+        "wss://umd.userlike.com/umd/",
+        "www.ausbildungslauf.de",
+        "www.azubi-magdeburg-ihk.de",
+        "www.bahn.de",
+        "www.berufe.tv",
+        "www.bso-hessen.de",
+        "www.etermin.net",
+        "www.finest-jobs.com",
+        "www.forschungsfinder-hessen.de",
+        "www.gatewatch.eu",
+        "www.giu-kalender.org",
+        "www.google.analytics.com",
+        "www.googletagmanager.com",
+        "www.hvv.de",
+        "www.ihk-arbeitsgemeinschaft-rlp.de",
+        "www.ihk-berlin.de",
+        "www.ihk-berlin.org",
+        "www.ihk-bw.digital",
+        "www.ihk-ecofinder.de",
+        "www.ihk-gfi.de",
+        "www.ihk-koblenz.de",
+        "www.ihk-lehrstellenboerse.de",
+        "www.ihk-lueneburg.de",
+        "www.ihk-magdeburg.de",
+        "www.ihk-ostbrandenburg.de",
+        "www.ihk-praktikumsportal.de",
+        "www.ihk-rlp.de",
+        "www.ihk-wiesbaden.de",
+        "www.ihkac-anwendungen.de",
+        "www.instagram.com",
+        "www.iwd.de",
+        "www.kandidatenmanagement.de",
+        "www.leg-thueringen.de",
+        "www.onlinebewerbungsserver.de",
+        "www.plattform-i40.de",
+        "www.powr.io",
+        "www.praktikum.info",
+        "www.rmv.de",
+        "www.terminland.de",
+        "www.tfaforms.com",
+        "www.vvs.de",
+        "www.youtube-nocookie.com"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' 'unsafe-eval' data:  24703.online-adventskalender.de *.b-ite.com *.bitkomplex.de *.bright-guide.de *.cdn.office.net *.cloudfront.net *.cookiebot.com *.dvinci-hr.com *.etracker.com *.etracker.de *.exmap.de *.facebook.com *.flickr.com *.google-analytics.com *.google.com *.google.de *.googleapis.com *.gstatic.com *.haffhus.de *.highcharts.com *.hk24.de *.ihk.de *.ihk24.de *.jobcluster.de *.linkedin-ei.com *.linkedin.com *.mateforevents.com *.microsoft.com *.multipage.online *.newsletter2go.com *.office.com *.office365.com *.podigee-cdn.net *.spotify.com *.staticflickr.com *.stream24.net *.thinglink.com *.thinglink.me *.twimg.com *.twitch.tv *.twitter.com *.unikam.de *.userlike.com *.vimeo.com *.wahlplus.de *.walls.io *.wirecard.com *.xing-events.com *.youtube.com api.mapbox.com app.cituro.com app.sli.do b6df6a39-9bba-47b4-b1e3-367604039de3.rlets.com bc.pressmatrix.com berufsausbildung-aachen-ihk.de cdn.contentful.com cdn.doo.net/assets/js/viovendi-embed-static-1.js cdn.podigee.com cdn.rlets.com cdnjs.cloudflare.com code.createjs.com code.jquery.com/jquery-3.1.1.min.js con.arbeitsagentur.de connect.facebook.net consentcdn.cookiebot.com corona.conterra.de cottbus-ihk-pruefungen.de covid19.webtvcampus.de datawrapper.dwcdn.net dbaw.specials-bahn.de detmold.ihk-beitragsrechner.de dihk.imageplant.de doo.net e.issuu.com e.video-cdn.net editor.signavio.com embed.nexx.cloud events-to-impress.activehosted.com expertenpool.automatisierungsregion.de geoportal-hamburg.de haffhus.s3.eu-central-1.amazonaws.com handelskammer-bremen.appointmind.net hk24.perbit-job.de hk24.perbit-job.de  html5-player.libsyn.com iframe.wvd-portfolio.de ihk-ar.ycms.rocks ihk-darmstadt-portal.rexx-recruitment.com ihk-potsdam.perbit-job.de ihk-schwerin.wahlplus.de ihk-weiterbildung-oldenburg.de ihk.selbstdenker.com ihkob.wekando.eu imagemarker.com ims-files-cdn.net infographic.statista.com inx.odav.de isi.hdb-hamburg.de komsis.inecos.de kvg-kassel.widget-generator.de link.webropolsurveys.com live.c3networking.de livestream.watch/vp/nachhaltigkeitsdialog.html maxcdn.bootstrapcdn.com pam.ihk-schleswig-holstein.de playout.3qsdn.com plugins.flockler.com roundme.com routenplaner.bus-bahn-thueringen.de service.tecintelli.de start.video-stream-hosting.de static-exp1.licdn.com static.dvinci-easy.com static.issuu.com tecintelli-static-ttl.obs.eu-de.otc.t-systems.com/ tuerchen.com umap.openstreetmap.fr userlike-cdn-operators.s3-eu-west-1.amazonaws.com userlike-cdn-widgets.s3-eu-west-1.amazonaws.com vimeo.com vstdbv3 w.soundcloud.com walls.io web.ihk-pfalz.net web.inxmail.com wss://chat.userlike.com/chat/ wss://umd.userlike.com/umd/ www.ausbildungslauf.de www.azubi-magdeburg-ihk.de www.bahn.de www.berufe.tv www.bso-hessen.de www.etermin.net www.finest-jobs.com www.forschungsfinder-hessen.de www.gatewatch.eu www.giu-kalender.org www.google.analytics.com www.googletagmanager.com www.hvv.de www.ihk-arbeitsgemeinschaft-rlp.de www.ihk-berlin.de www.ihk-berlin.org www.ihk-bw.digital www.ihk-ecofinder.de www.ihk-gfi.de www.ihk-koblenz.de www.ihk-lehrstellenboerse.de www.ihk-lueneburg.de www.ihk-magdeburg.de www.ihk-ostbrandenburg.de www.ihk-praktikumsportal.de www.ihk-rlp.de www.ihk-wiesbaden.de www.ihkac-anwendungen.de www.instagram.com www.iwd.de www.kandidatenmanagement.de www.leg-thueringen.de www.onlinebewerbungsserver.de www.plattform-i40.de www.powr.io www.praktikum.info www.rmv.de www.terminland.de www.tfaforms.com www.vvs.de www.youtube-nocookie.com  ;  report-uri /blueprint/servlet/serviceport/rest/csplogging/logViolation ;",
+      "report-uri": [
+        "/blueprint/servlet/serviceport/rest/csplogging/logViolation"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://ihk24.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 5,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}

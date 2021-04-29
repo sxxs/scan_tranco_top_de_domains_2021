@@ -1,0 +1,909 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".ticketmaster.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "NDMA",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 7,
+      "value": "610"
+    },
+    {
+      "domain": ".ticketmaster.de",
+      "expires": 1650472328.202815,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201.202815056,
+      "name": "BID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 27,
+      "value": "ddb21589821f4999bfa2aa64"
+    },
+    {
+      "domain": ".ticketmaster.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 27,
+      "value": "a7d3dc643d3042f6989049c5"
+    },
+    {
+      "domain": ".ticketmaster.de",
+      "expires": 1621528328.943485,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599201.9434850216,
+      "name": "reese84",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 591,
+      "value": "3:BUHSVDi661j9Qm1bR2qVFA==:rRNy9D70XHSJ9UOE0SDubIc9o0ONZ+U9nfoqLs15rOg+8ENP27RFTHPpfWxnLtz4rqtNic9RXSeoCZ6maCcurDkA1BENwTdl3vkhtN7rDj4B9ynqjgT1wi2xYJ0LvV1Pe0Jjslu0OIQ9niyz6CjgmeQcOxaIn8bTWs8JM9QZkRMSCMZJ2bZVvWqgauQiZqo6O2ICDjuctX2ajAQ0z6B409b8xYW81eL0hTRg+hy0i7BBBXfmKirAIz0/RlHVEEzl84zKYSWymGqMfwpOreFU6Qv7C7C3lOtCfXGIGMNOfo1tikikEvKY4AvfITQg98+2xQTNbu9KuF4funHT8JtWtEVkFIax4tYSiXwIp2vvphrWmbUkumMBeRJfCpLC0D3KT4REQnp7VNHlsJg5/hIq7Jy1NLWRDQje63vNskQaYntTwWMniSnVNzUKgZWVt1uZkTZaXYU7YEhjWPMCEhx+7jUe0He4yOZOGYmiISvH0orAuy6bQfuSAUwbTTplry0o:JIG5GLE1XiRAR50J0+BXgP/gGoiam9u5x0vjR5b/EjM="
+    },
+    {
+      "domain": ".ticketmaster.de",
+      "expires": 1650472329,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 327,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+18%3A32%3A09+GMT%2B0200+(Central+European+Summer+Time)&version=6.8.0&hosts=&consentId=14a36245-ecdb-4da8-bddf-5c1e862e5415&interactionCount=0&landingPath=https%3A%2F%2Fwww.ticketmaster.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A0%2CSTACK42%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.ticketmaster.de/",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [],
+          "functionName": "",
+          "location": {
+            "columnNumber": 21901,
+            "lineNumber": 0
+          },
+          "url": "https://www.ticketmaster.de/tmol-dstlxhr.js"
+        },
+        {
+          "args": [],
+          "functionName": "sg",
+          "location": {
+            "columnNumber": 48191,
+            "lineNumber": 0
+          },
+          "url": "https://www.ticketmaster.de/tmol-dstlxhr.js"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "image/webp"
+          ],
+          "method": "HTMLCanvasElement.toDataURL"
+        },
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz,",
+            2,
+            15
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "Cwm fjordbank glyphs vext quiz,",
+            4,
+            45
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2c2143f994dcef9d2d019eb21029f8e29901d20ae12710ddd4f5a09d96ec0d29",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GlobalSign CloudSSL CA - SHA256 - G3",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648910022.0,
+      "not_valid_before": 1617287622.0,
+      "serial_number": 12862363274250612047046491674,
+      "subject": {
+        "commonName": "ticketmaster3.map.fastly.net",
+        "countryName": "US",
+        "localityName": "San Francisco",
+        "organizationName": "Fastly, Inc.",
+        "stateOrProvinceName": "California"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.ticketmaster.de/help/imprint.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://ticketmaster.de/",
+    "https://www.ticketmaster.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://ticketmaster.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ticketmaster.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/main-ba40d8d7d5eaf047a7c6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/webpack-c4ba0104aeb88f2eaa46.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/framework.0d373e6f481ee0c85e06.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/commons.f58633d164f64ad8aff9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/b34ffd3ceb2336279e4502a2f0bda91d0696563d.636c3267221b7eadaa2f.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/05ab5dcfcd831255617986c011e23930d822af3d.a96841f811276585682b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/95a39d2e249164b874a3efb0140f5ab4f0e4b8b5.fb48e96da75665bda0c9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/5f38625624983bf5bf66b96b761cd0a46fc0cd6d.e2ea2886a56b10531701.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/1325cf501ae351c5df9b118f7342890038213348.6bb6ea2237ef657a07be.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/7bf88aa3452501f40f717bd36df0ae1e83f16ad9.4593827f4b01186b8645.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/b9eb452e2404e804c58b9b0ef6bf6b356144ea03.4b7117952d9be915d36b.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/pages/_app-c3669322563cd89014f4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/e91a6687972280824a4815de6209ce0604655519.806379b63dfb051e4800.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/850b756e8e6cb9dfbbcc76627821b7badec061b7.1be1110e5b74da05eda4.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/5f64cd7c83c98b38408072b3b2cc28811b247125.6b90eebc47eca14a5a51.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/a76557ca78eea7728efc3fbc7d4bf0483a79ccf8.93a6db6a57f81a71c371.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/3711f65b70cc16d418e13bc51c25d34ab8249ae5.319c27ab3f2c54b881ca.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/e2247f59fc5bbeb60e8d5b84f05414048d6819d0.e36316340024d3e34750.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/ea3233efa674496c779990f017c6fe68991dd13a.0bb4a2ec66ee7149180c.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/0a2a21e9ca7417596c2941ca3e4fe992c71892bd.7e5e3f3b50702a4a4ee7.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/be8beb2da4e1d173959f1a2889e3bcd8aa0cda8d.24a2690e3740993ada48.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/a9417e2843c0bc903b46de526824044d5b34a6b5.13d4403a81274a17d165.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/f086c8100880330cb568b0d296cc8c75c01a0920.33f20cb8c876e8d5cd0d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/af2f5c2701ae9719830e82d9ac7a3b9641580be5.7e55ddb89e51011463e3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/chunks/pages/home-6611587d7c2555bac724.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/blog.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/youtube.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/xing.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/linkedin.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/apple-store/de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/google-store/de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/livenation.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/images/logo/universe.svg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/fonts/averta-regular.woff2"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/5secondsofsummer1440.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/wincent-weiss-presale-2021-720x405.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/alvaro-soler-2021-presale-720x405.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/dualipa720v3.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/the-weeknd-2021-neu-720x405.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/mother-mother-368x207.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/THUNDERMOTHER_368x207.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/SOLSTAFIR-KATATONIA-368x207.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/ole-party-2021-368x207.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/kudamm-berlin-368x207.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/harrypotter720v2.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/LiveStreams_Website_PopularTickets_720by405.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/trustpilot_720x405.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/TicketTrust_CCP_PopularTickets_720x405kje.jpg?height=1&quality=1&auto=webp"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/fonts/averta-semibold.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/fonts/averta-extrabold.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/EF7qGTWxNZE6f-S10BGft/_buildManifest.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/production-9-169-0-2928782/_next/static/EF7qGTWxNZE6f-S10BGft/_ssgManifest.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ticketmaster.de/api/cookies"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ticketmaster.de/tmol-dstlxhr.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NMSNF2L"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://analytics.ticketmaster.de/api/page/view?destinationURL=https%3A%2F%2Fwww.ticketmaster.de%2F&platform=ccp&domain=TM_DE&language=de-de&environment=production&publisher=ticketmaster&publisherDivision=DE&pageName=TM_DE%3A+Home&pageType=Home&pageChannel=Home"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/wincent-weiss-presale-2021-720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/alvaro-soler-2021-presale-720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/strandkorb-opne-air-2021-720.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/dasschlumpfabenteuer720v4.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/unter-freiem-himmel-720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MCTLMT9&l=dataLayer"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/jeremias-2021-spotlight-720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/720x405_BerBer.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/dualipa720v3.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/the-weeknd-2021-neu-720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/mother-mother-368x207.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/THUNDERMOTHER_368x207.jpg?auto=webp"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/7d285a73-401e-46e3-94c6-36e188cc1d59/7d285a73-401e-46e3-94c6-36e188cc1d59.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ticketmaster.de/tmol-dstlxhr.js?d=www.ticketmaster.de"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/SOLSTAFIR-KATATONIA-368x207.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/ole-party-2021-368x207.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/kudamm-berlin-368x207.jpg?auto=webp"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/harrypotter720v2.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/LiveStreams_Website_PopularTickets_720by405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/trustpilot_720x405.jpg?auto=webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uk.tmconst.com/ccp-salesforce-images/DE/TicketTrust_CCP_PopularTickets_720x405kje.jpg?auto=webp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.8.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/7d285a73-401e-46e3-94c6-36e188cc1d59/dd573520-8936-45b6-a431-a1c8bb1556f8/en.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.8.0/otTCF.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.8.0/assets/otFloatingRoundedIcon.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.8.0/assets/v2/otPcTab.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/logos/ba6f9c5b-dda5-43bd-bac4-4e06afccd928/8939324a-e068-4153-b8be-2a089893a1dc/db2fe0c5-4d2e-4f60-8846-2131785ce0b8/ticketmaster-wordmark.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'none'"
+      ],
+      "header_value": "frame-ancestors 'none';"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "Deny",
+    "X-XSS-Protection": {
+      "header_value": "1",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://ticketmaster.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com",
+      "uk.tmconst.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 86
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "cdn.cookielaw.org",
+      "www.googletagmanager.com"
+    ]
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".hessenschau.de",
+      "expires": 1934275744,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 315367201,
+      "name": "datapolicy",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 99,
+      "value": "{\"ard_mediathek\":true,\"arte_concert\":true,\"arte_concert_new\":true,\"datawrapper_cdn\":true}"
+    },
+    {
+      "domain": ".hessenschau.de",
+      "expires": 1934275744,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 315367201,
+      "name": "tracking",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 42,
+      "value": "{\"agf\":true,\"ati\":true,\"ivw\":true}"
+    },
+    {
+      "domain": ".hessenschau.de",
+      "expires": 1650451744,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "xtvrn",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 13,
+      "value": "$551104$"
+    },
+    {
+      "domain": ".hessenschau.de",
+      "expires": 1621334944,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618915744573"
+    },
+    {
+      "domain": ".xiti.com",
+      "expires": 1653043744.586347,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135201.5863471,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "6C7F86CE-4A7E-4793-9728-3F8747C6E217"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1643519872.668712,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 24611329.6687119,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "00289f78f9f19d04d607eb1a00001%3B607eb1a0%3B61f61f80"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 0,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de",
+      "xiti.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hessenschau.de/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "b5a003470952542ea3eb5c1347eb628683d53194a03589905dfb1ff01043bbba",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1642460399.0,
+      "not_valid_before": 1578956400.0,
+      "serial_number": 194104598566492418249505829974702774896,
+      "subject": {
+        "commonName": "*.hessenschau.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hr.de/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hessenschau.de/",
+    "https://www.hessenschau.de/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hessenschau.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/index.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/library.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/vendor/modernizr.cust.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/index.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/hr-scriptload.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/hrQuery.js"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/font/RobotoSlabbed.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/font/DINPro-Bold.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/font/RobotoCondensed.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/font/DINPro.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/font/Merriweather-Italic.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/base/icons/icons/svgmap.min.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/base/icons/logo/svgmap.min.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/sui-connector.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/base/icons/icons/svgmap.min.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/base/icons/logo/svgmap.min.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/modules/teaser/cluster-teaser/logos/svgmap.min.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hr.de/app/news/tagesschau/tagesschau-image-6324~_t-1618521901106_v-16to7.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/sui.html?optin=false&ps=de1&m=no_mediaid&r=www.hessenschau.de"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js//feature/initServiceWorker.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/toggleClass.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/clickTracking.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/flyoutMenu.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/searchSuggest.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/burgerMenu.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/contentBackground.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/mediaplayerLoader.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/groupTabbed.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/toplink.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/dataPolicySettings.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/trackingScriptLoader.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/atiHelper.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/vendor/zepto.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/vendor/awesomplete.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/videoLivestream.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/videoOnDemandPlayer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/audioElement.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/datapolicyCookie.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/trackingCookie.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/sui.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://de-config.sensic.net/suigenerator?optin=false&ps=de1&m=no_mediaid&r=www.hessenschau.de&f=json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/atiMediaHelper.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/assets_3.18.0/js/vendor/xtcore.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/panorama/corona-coronavirus-sujet-102~_t-1583235764383_v-16to9__medium.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/gesellschaft/kirche-hessen-100~_t-1618905911583_v-16to9__medium.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/gesellschaft/dannenroeder-wald-104~_t-1618897384844_v-16to9__small.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/huetter-342~_t-1618895985542_v-16to9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/panorama/brand-wehrheim-104~_t-1618897699920_v-16to9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/gesellschaft/kita-corona-test-100~_t-1618855030238_v-16to9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/morgenticker/festnahme-118~_t-1618890652771_v-16to9__small.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/gesellschaft/corona-test-114~_t-1618847587859_v-16to9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/gesellschaft/corona-klinik-100~_t-1618828673172_v-16to9__small.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/panorama/erstaufnahme-100~_t-1469712245580_v-16to9__small.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/huetteringladbach-100~_t-1618840625723_v-16to9__small.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hessenschau.de/sport/fussball/darmstadt-98/anfang-fuerth-100~_t-1618858420080_v-16to9__small.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1406.xiti.com/hit.xiti?s=551104&s2=1&p=hessenschau_index&vrn=1&pid=2012706422&pchap=&pidt=202104201216&x1=startseite-100&x2=hr-nt%3Aindex&x5=20150506&lng=en-US&idp=1249047414785&jv=0&re=800x600&vtag=4.5.7&hl=12x49x4&r=800x600x24x24&stc={%22displayMode%22%3A%22browser-tab%22}&ref="
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://046f449bb3fb0f1b6f07a58e7429cdd531e9d5def0628a4c876276cb.trk.sensic.net/tp.gif?m=no_mediaid&r=www.hessenschau.de&p=de-config"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://046f449bb3fb0f1b6f07a58e7429cdd531e9d5def0628a4c876276cb.trk.sensic.net/tp.gif?m=no_mediaid&r=www.hessenschau.de&p=de-config"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=hr&cp=hessenschaung&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.hessenschau.de&xy=800x600x24&lo=DE%2FBerlin&cb=0014&i2=001486efc67592bd7607eb1a0&ep=1641202047&vr=424&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618915744577&ev=&cs=eyw1zp&mo=1"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1406.xiti.com/hit.xiti?s=551104&s2=1&p=hessenschau_index&vrn=1&pid=2012706422&pchap=&pidt=202104201216&x1=startseite-100&x2=hr-nt%3Aindex&x5=20150506&lng=en-US&idp=1249047414785&jv=0&re=800x600&vtag=4.5.7&hl=12x49x4&r=800x600x24x24&stc={%22displayMode%22%3A%22browser-tab%22}&ref=&Rdt=On"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=hr&cp=hessenschaung&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.hessenschau.de&xy=800x600x24&lo=DE%2FBerlin&cb=0014&i2=001486efc67592bd7607eb1a0&ep=1641202047&vr=424&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618915744577&ev=&cs=eyw1zp&mo=1&sr=71"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hessenschau.de\r",
+  "third_parties": {
+    "fqdns": [
+      "046f449bb3fb0f1b6f07a58e7429cdd531e9d5def0628a4c876276cb.trk.sensic.net",
+      "de-config.sensic.net",
+      "de.ioam.de",
+      "logs1406.xiti.com",
+      "script.ioam.de",
+      "www.hr.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 12
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 10,
+    "trackers": [
+      "046f449bb3fb0f1b6f07a58e7429cdd531e9d5def0628a4c876276cb.trk.sensic.net",
+      "de-config.sensic.net",
+      "de.ioam.de",
+      "logs1406.xiti.com"
+    ]
+  }
+}

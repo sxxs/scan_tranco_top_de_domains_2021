@@ -1,0 +1,1137 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "br-online.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 10,
+      "value": "s1"
+    },
+    {
+      "domain": "www.br-online.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SERVERID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 10,
+      "value": "s2"
+    },
+    {
+      "domain": "www.br.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ns_cookietest",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 17,
+      "value": "true"
+    },
+    {
+      "domain": "www.br.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ns_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 14,
+      "value": "true"
+    },
+    {
+      "domain": "www.br.de",
+      "expires": 1634641921.109538,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15732003.109538078,
+      "name": "atidvisitor",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 191,
+      "value": "%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-596277-%22%7D%2C%22options%22%3A%7B%22path%22%3A%22%2F%22%2C%22session%22%3A15724800%2C%22end%22%3A15724800%7D%7D"
+    },
+    {
+      "domain": ".br.de",
+      "expires": 1621336321,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426403,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0000000000&1618917121130"
+    },
+    {
+      "domain": ".xiti.com",
+      "expires": 1653045121.180484,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135203.18048406,
+      "name": "atid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 40,
+      "value": "EDB08208-1FBA-4F0F-A6C6-6A96B6292386"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1648808842.228883,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 29898924.228883028,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c9d06468acf1e6607eb7010001%3B607eb701%3B6246d38a"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 4,
+    "third_party_long": 2,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de",
+      "xiti.com"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.br.de/index.html",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "078b58d8891ff3c18e36845fc62d3f9ce6f762e509f5ad97c2c56ff3dd29a369",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1627552800.0,
+      "not_valid_before": 1588111200.0,
+      "serial_number": 11570231704068480655523087201178421589,
+      "subject": {
+        "commonName": "*.br.de",
+        "countryName": "DE",
+        "localityName": "M\u00fcnchen",
+        "organizationName": "Bayerischer Rundfunk",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.br.de/unternehmen/service/impressum/index.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.12.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://br-online.de/",
+    "http://www.br-online.de/",
+    "https://www.br.de/",
+    "https://www.br.de/index.html"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://br-online.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.br-online.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/index.html"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/index~styles_bundle-1_ie-bm9uZQ%3D%3D_media-c2NyZWVuLCBwcm9qZWN0aW9u_-067c4a0339955f0548e25b5dd70d3805ada7f900.css?version=cbf1c"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/index~styles_bundle-2_ie-bm9uZQ%3D%3D_media-c2NyZWVuLCBwcm9qZWN0aW9u_-9f370ead45a168366af0c447d3417e0e29f1fec3.css?version=cbf1c"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/index~script.js?version=cc496"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/js/br.webfont.config.js?version=1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/index~jsMessages_locale-de_-9280ebcc8e10d5b9c20919c929c5e4037429afff.js?version=5aa65"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ico/wetter/ico_weather_north.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ico/wetter/leichtbew.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ico/wetter/fastwolkenlos.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ico/wetter/ico_weather_south.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ico/wetter/wolken-stark.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ico/wetter/wolkig.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/verkehrskarte/tiles/basiskarte/9/273/178.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/verkehrskarte/tiles/traffic/9/273/178.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/verkehrskarte/tiles/signs/9/273/178.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/1999ebdf-861d-4954-89be-addfee277ac1.jpeg?q=80&rect=1,19,1885,1061&w=996&h=560"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/9562c2b4-bc40-4d69-bf21-028dd5cd0c35.jpeg?q=80&rect=0,162,3000,1686&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/8f3af6ee-bf8f-4463-b818-c7e63c136df0.jpeg?q=80&rect=0,533,3781,2127&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/cc33eb59-39b3-406c-a837-1f490d97787e.jpeg?q=80&rect=2,198,2998,1688&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/4283e90d-ff98-41ca-befe-6aa797a405ad.jpeg?q=80&rect=1,0,1276,719&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/301eb2fa-7638-4bcf-8e3f-e58aa15bef8e.jpeg?q=80&rect=0,415,4016,2258&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/171c4166-e2e5-4be5-a950-4fd8b39af54c.jpeg?q=80&rect=110,236,5890,3315&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/9772c4a5-2ea6-46e8-b583-d0b6386a43b2.jpeg?q=80&rect=0,401,5200,2923&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/716b372e-1a48-4d76-aff7-4e15615bbdc9.jpeg?q=80&rect=130,80,5342,3003&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img.br.de/36d2f8bd-443b-432c-b44d-f586eb17a44d.jpeg?q=80&rect=0,89,1080,607&w=776&h=436&fit=crop"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/corona-infos-br24-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=a7228"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/coronavirus-datailansicht-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=b47af"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/sendungen/iq-wissenschaft-und-forschung/biontech-impfung-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=1c6cf"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/markus-soeder-406~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=6c5c5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/inhalt/film-und-serie/lebenslinien-1754~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=82d92"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/schule-daheim-teaserbild-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=28a0a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/sendungen/lust-aufs-land/lust-aufs-land-folge-3-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=6873b"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/programmkalender/broadcastimage-140934~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=0f2a3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/querbeet-radieschen-blaetter-verarbeiten-108~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=e404e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/sendungen/sonntags-stammtisch/210418-sonntags-stammtisch-teaser-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=aaaee"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/sendungen/unter-unserem-himmel/was-uns-bewegte-1971-2021-04-bild-118~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=657a5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/programmkalender/broadcastimage-140878~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=8f9d8"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/fernsehen/key-visual-podcast-saal-einhunderteins-104~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=88e9f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/extra/juedisches-leben/juedisches-leben110~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=b7783"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/layout/img/wellen/b1-wellenbild-100~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=31dc8"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/ressourcen/bilder/programmfahne_mit_logo/b2-wellenlogo-102~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=0af80"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/ressourcen/bilder/programmfahne_mit_logo/b3-wellenlogo100~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=a867f"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/layout/img/wellen/logo106~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=98a69"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/layout/img/wellen/logo108~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=e9c3c"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/layout/img/wellen/puls-106~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=971e1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/layout/img/wellen/br-schlager-wellenbild-100~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=79016"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/layout/img/wellenbild-br-heimat-100~_h-65_v-img__1__1__m_w-65_-45e562995cdf12d25016e7b64d4bcce302915a54.png?version=d78d0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern1/teaserbild-sohnsuchtvater-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=2055f"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/presse/inhalt/pressemitteilungen/screenshot-website-interaktiver-tatort-hoellenfeuer-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=dd2e2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/jobstories-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=b6463"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/index~styles_bundle-1_ie-bm9uZQ%3D%3D_media-cHJpbnQ%3D_-0a505c83cacd0334c05320709dc23835ad08920d.css?version=cbf1c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/karl-valentin-podcast-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=d863c"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/service/3d-audio-wald-grafik100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=772bb"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/eltern-ohne-filter-teaser-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=0f11e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/podcast-bergfreundinnen-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=86e7b"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/alles-geschichte-podcast-radiowissen-history-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=e1598"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/extra/mediathek/br-mediathek-kinder-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=783e3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/fit-mit-felix-beweg-dich-schlau-104~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=0bc1a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/chex-schule-warum-eigentlich-104~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=35e62"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/kinder/schauen/checker-can-checker-tobi/checker-can-checker-tobi-checker-julian-110~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=97f0a"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/kinder/schauen/anna-paula-pia-welt/anna-paula-pia-wilde-welt-bild-mit-logo-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=a1f4e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/kinder/br-kinder-teaserbild-startseite-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=05406"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/wissen/2020-waermste-drei-jahre-klimawandel-who-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=85f82"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/wissen/mars-hubschrauber-ingenuity-flug-mars-rover-perseverance-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=166ab"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/nachricht/br24-teaser/br24-wissen-indische-corona-mutante-mutation-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=38a43"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/nachricht/br24-teaser/br24-wissen-corona-tirschenreuth-immun-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=32fa7"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/wissen/altersforschung-senioren-hundertjaehrig-104~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=11a62"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/wissen/alternsforschung-langes-leben-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=08991"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/wissen/fisch-red-snapper-malabar-schnapper100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=fcb53"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/sternenhimmel/sternbild-grosser-baer-wagen-sternzeichen-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=5c583"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/wissen/corona-tests-gurgeltest-spucktest-lollitest-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=628c2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/nachricht/br24-teaser/br24-kultur-image134~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=a06a3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/sendungen/bergauf-bergab/rennrad-runde-am-arber-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=e4594"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/b5-aktuell/sendungen/computermagazin/tastatur-schriftzug-haters-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=493c4"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/fernsehen/newsletter-vererbungsteaser-br-mediathek-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=2ea6d"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/sendungen/wir-in-bayern/rezepte/teaserbild-schmankerlpost-button-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=a2748"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/nachricht/br24-nl-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=e9c9e"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/podcast-newsletter-bayern-2-bild-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=bc651"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br-fernsehen/sendungen/abendschau/teaser-lauf-10-newsletter-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=0caa0"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern1/foto-bild-newsletter-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=280b5"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/extra/mediathek/themenseiten/teaserbild-themenseite-klassik-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=68c69"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/unternehmen/inhalt/organisation/logo-brklassik-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=d5126"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/br-klassik/klassik-fuer-klugscheisser-bild-104~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=db7f6"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/br-klassik/konzertkalender/muenchner-rundfunkorchester-sonntagskonzert-2020-21-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=18fa2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/br-klassik/konzertkalender/brso-familientag-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=ecca9"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/presse/inhalt/pressemitteilungen/christian-thielemann-126~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=05c51"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/br-klassik/konzertkalender/klassik-zum-staunen-tour-johann-strauss-sohn-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=ac95b"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/br-klassik/konzertkalender/anne-sophie-mutter-geigerin-110~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=65d86"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br-klassik.de/orchester-und-chor/br-klassik-cds/rundfunkorchester/cd-vasks-cellokonzert-cover-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=a7c29"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/br-klassik/musik_einleitung-und-koenigsmarsch-des-loewen_karneval-der-tiere-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=73895"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br-klassik.de/orchester-und-chor/br-klassik-cds/br-chor/cd-arvo-paert-miserere-106~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=aa0ff"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/radio/bayern2/sendungen/radiowissen/sophie-scholl-102~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=5a261"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/medienkompetenzprojekte/inhalt/br-macht-schule/medienkompetenztag-2021-mensch-medien-br-macht-schule-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=15262"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/extra/karriere/inhalt/schueler/gd_studiofranken-114~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=f29cd"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/presse/inhalt/pressemitteilungen/dossier-stille-besuch-bei-einem-senner-114~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=4d373"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/puls/ueber-uns/puls-talente/puls-talente-video-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=1139e"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/unternehmen/inhalt/veranstaltungen/bayern-1-ballon-taschen-122~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=a7b23"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/extra/mediathek/br-mediathek-allgemeine-bewerbung-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.jpg?version=42a44"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/br24-neu-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=5a75c"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/footernavi/service/newsletter/newsletter-br-100~_v-img__16__9__l_-1dc0e8f74459dd04c91a0d45af4972b9069f1135.png?version=b1b5b"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/bg/blank.gif?v=cbf1c"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/css/br_webfont.css?version=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/bg/sprite_br.png?v=cbf1c"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/bg/sprite_medtyp.png?v=cbf1c"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/bg/bg_306px_shadow.png?v=cbf1c"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/bg/br24_hg_brde.jpg?v=cbf1c"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/bg/bg_arena_content_text.png?v=cbf1c"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://tag.aticdn.net/596277/smarttag.js?_=1618917118659"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/img/ajax/loader_ani.gif?v=cbf1c"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://79423.analytics.edgekey.net/html5/akamaihtml5-min.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/font/open_sans/OpenSans-Regular.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/font/open_sans/OpenSans-Light.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/font/open_sans/OpenSans-Bold.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/static/font/open_sans/OpenSans-SemiBold.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.br.de/doTrack/pixel.png?docId=homepage-140&docExternalId=a5dac62a-e2a1-499e-80e8-905ab1bcd063&docPath=742b4918-0463-4767-af7c-927922135c50&docType=startPage&contentType=standard&cs=75d77b592821060bfaf85489aee21310&dnsLookup=0&connect=0&ttfb=14&basePage=13&r=&d=14253.077724012875"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1413.xiti.com/hit.xiti?s=596277&ts=1618917121111&vtag=5.14.0&ptag=js&r=800x600x24x24&re=800x600&hl=13x12x1&lng=en-US&idp=1312015392132&jv=0&p=[homepage-140]&s2=1&vrn=1&x1=[BR-Homepage]&x6=[Startseite]&x7=[homepage-140]&x8=[Nachrichten%20von%20BR24%2C%20Highlights%20aus%20der%20BR%20Mediathek%2C%20Live%20Radio%20h%C3%B6ren%20und%20BR.de-Specials%20-%20die%20Startseite%20f%C3%BCr%20Bayern]&x9=[|Sendungs%20verpasst|BR24|BR%20Mediathek|Bayern%203|]&x10=20210419&x11=[https%3A%2F%2Fwww.br.de%2Findex.html]&x12=[4VPEICf]&x14=[Web]&x15=[BR%20%7C%20Bayerischer%20Rundfunk]&x16=[Linux%20x86_64]&ref="
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=bronline&cp=br_online%2Fsophora%2Fbrde%2F&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.br.de&xy=800x600x24&lo=DE%2FBerlin&cb=000e&i2=000e3efb4b1235740607eb6ff&ep=1644434262&vr=424&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618917121133&ev=&cs=rhewew&mo=1"
+    },
+    {
+      "mime_type": "application/xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ma140-r.analytics.edgekey.net/config/beacon-8764.xml"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://logs1413.xiti.com/hit.xiti?s=596277&ts=1618917121111&vtag=5.14.0&ptag=js&r=800x600x24x24&re=800x600&hl=13x12x1&lng=en-US&idp=1312015392132&jv=0&p=[homepage-140]&s2=1&vrn=1&x1=[BR-Homepage]&x6=[Startseite]&x7=[homepage-140]&x8=[Nachrichten%20von%20BR24%2C%20Highlights%20aus%20der%20BR%20Mediathek%2C%20Live%20Radio%20h%C3%B6ren%20und%20BR.de-Specials%20-%20die%20Startseite%20f%C3%BCr%20Bayern]&x9=[|Sendungs%20verpasst|BR24|BR%20Mediathek|Bayern%203|]&x10=20210419&x11=[https%3A%2F%2Fwww.br.de%2Findex.html]&x12=[4VPEICf]&x14=[Web]&x15=[BR%20%7C%20Bayerischer%20Rundfunk]&x16=[Linux%20x86_64]&ref=&Rdt=On"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=bronline&cp=br_online%2Fsophora%2Fbrde%2F&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.br.de&xy=800x600x24&lo=DE%2FBerlin&cb=000e&i2=000e3efb4b1235740607eb6ff&ep=1644434262&vr=424&id=30n7mb&i3=nocookie&n1=4&dntt=0&lt=1618917121133&ev=&cs=rhewew&mo=1&sr=71"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15724800",
+      "includeSubDomains": false,
+      "max-age": 15724800,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://br-online.de\r",
+  "third_parties": {
+    "fqdns": [
+      "79423.analytics.edgekey.net",
+      "de.ioam.de",
+      "logs1413.xiti.com",
+      "ma140-r.analytics.edgekey.net",
+      "script.ioam.de",
+      "tag.aticdn.net",
+      "www.br-klassik.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 10
+  },
+  "tracking": {
+    "num_tracker_cookies": 2,
+    "num_tracker_requests": 7,
+    "trackers": [
+      "79423.analytics.edgekey.net",
+      "de.ioam.de",
+      "logs1413.xiti.com",
+      "ma140-r.analytics.edgekey.net",
+      "tag.aticdn.net"
+    ]
+  }
+}

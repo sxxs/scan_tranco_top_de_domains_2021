@@ -1,0 +1,725 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.weltbild.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "sid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 35,
+      "value": "2980ee4a417d7e672a285aa3df72ac27"
+    },
+    {
+      "domain": "www.weltbild.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "mw",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 45,
+      "value": "28C66A1F2D6872B76A6BAB7DA3862179.CLGR20a010"
+    },
+    {
+      "domain": "www.weltbild.de",
+      "expires": 1621514797.510261,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599200.510261059,
+      "name": "up",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 45,
+      "value": "9RT4bXcAbbAalqsaatl%2BaJpD9mrNsaSbsGn1D3uVS"
+    },
+    {
+      "domain": "www.weltbild.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": true,
+      "size": 39,
+      "value": "92facbda-a3cd-d656-e204-e3595c903f30"
+    },
+    {
+      "domain": ".weltbild.de",
+      "expires": 1624106797.510308,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 5191200.510308027,
+      "name": "t",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 52,
+      "value": "%7B%22list_02%22%3A%22K%22%2C%22aa1%22%3A%22A%22%7D"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 3,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.weltbild.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "736526da65b6af46a37b1e6da4dc0a7d972b805f4bd0d8b5a99c58915deb7b9d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1639436399.0,
+      "not_valid_before": 1605135600.0,
+      "serial_number": 243090408219151417212200341345323571449,
+      "subject": {
+        "commonName": "*.weltbild.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://weltbild.de/",
+    "https://weltbild.de/",
+    "https://www.weltbild.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://weltbild.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://weltbild.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/fonts/wbicons.c76dda58.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/fonts/pt-serif-v9-latin-regular.bf8db531.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/fonts/roboto-v18-latin-300.55536c8e.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/fonts/roboto-v18-latin-500.28546717.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/fonts/roboto-condensed-v16-latin-300.47d23646.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/fonts/leckerli-one-v8-latin-regular.1672d93b.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/1.8a240c3a.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/landingpage.1117e22d.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/wb.caa97283.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/logo-wb.png?wp=_h80-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_01e_b.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/default.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_02e.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_03f.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_04f.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_06f.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_05f.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_11e.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/magazin-search-icon.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-10858_icon_suche.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_07e.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-10976_icon_suche.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/IR_in_KP-13742_Ernaehrung_de.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-10780_icon_suche.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-2381_icon_suche_09e.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-9057_Icon_Subhome_Garten.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-10779_icon_suche.png?wp=_w88h50-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17706_Icon_Navi_1280x320_poetschke.png?wp=_navitem-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/Orbisana-Gesundheitswelt.png?wp=_navitem-png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17580_Icon_teNeues_2020_ganzklein.png?wp=_navitem-png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-19492_Garten_in_Banner_TB_800x400_de.jpg?wp=_homepage-topbanner-m&v=7"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-19188_Katalog_in_Banner_WF_218x150_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-19298_Deko_in_Banner_4er-Kachel_650x467_02_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-19441_DHDL_qinao_in_Banner_2er-Kachel_650x467_A_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-19539_Muttertag_in_Banner_4er-Kachel_650x467_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-18947_Follett_in_Banner_Kachel_650x467_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/loader2.png?tr=w-159,h-210,cm-pad_extract"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/basic-x2.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M6S89C7&gtm_auth=pQkp4I9Ob--ZSHH9lRGfCA&gtm_preview=env-2&gtm_cookies_win=x"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17176_Rebrush_Sale_in_Banner_D_4K_306x220_Schaeppchen.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-19368_WB_HomeAcademy_in_Banner_Kachel_650x467_C_quer_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/x.jpg?wp=_list-xl"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17004_Rebrush_Digital_in_Banner_D_WS_218x150_G_Klanmmer.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-18504_Rebrush_in_Banner_Kachel_650x467_Home-Academy_Logo_de.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17004_Rebrush_Digital_in_Banner_D_4K_306x220_Radio.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17004_Rebrush_Digital_in_Banner_D_4K_306x220_Videothek.jpg?wp=_load"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/KP-17004_Rebrush_Digital_in_Banner_D_4K_306x220_WeBook.jpg?wp=_load"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/runtime.36f3d2f9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/0.a31293b3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/mobilemenu.8b26f903.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/1.6f21aae3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/landingpage.39e32bb5.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/2.ac6d0b34.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/wb-components.54e88474.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/basic-exclusive-new.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/basic-stars-b1.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://pagead2.googlesyndication.com/pagead/landing?gcs=G100&gcd=G100&rnd=1208214135.1618922798&url=https%3A%2F%2Fwww.weltbild.de%2F&gtm=2wg472M6S89C7"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ade.googlesyndication.com/ddm/activity/src=9592588;type=pageview;cat=weltb0;ord=2741759499337;gtm=2wg472;gcs=G100;u15=nein;u16=undefined;~oref=https%3A%2F%2Fwww.weltbild.de%2F?"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/basic-band2-right.svg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ade.googlesyndication.com/ddm/activity/src=9592588;dc_pre=CNr4ubLtjPACFZFjGAod0ooIWA;type=pageview;cat=weltb0;ord=2741759499337;gtm=2wg472;gcs=G100;u15=nein;u16=undefined;~oref=https%3A%2F%2Fwww.weltbild.de%2F?"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/_/navigation/children"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/_/session-icons"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/_/service/kampagne/pos.global.pagelayer?s=_prod&path=%2F"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/8.e9944f56.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/8.b08fd3bf.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/10.598c88fc.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://i.weltbild.de/v/basic-header-arrow-up-1_2.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/5.55fadcce.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/parsley-i18n-de.863e1c89.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.weltbild.de/build/parsley-i18n-de-extra.739d04e2.js"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://weltbild.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ade.googlesyndication.com",
+      "pagead2.googlesyndication.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 4
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "ade.googlesyndication.com",
+      "pagead2.googlesyndication.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

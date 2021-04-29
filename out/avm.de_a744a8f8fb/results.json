@@ -1,0 +1,580 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://avm.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "d7abd964856d996b8424128a179e777f8dee47a5e0fea827e1dc4c0b07d156cc",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1647212400.0,
+      "not_valid_before": 1575932400.0,
+      "serial_number": 19368531551256142020975068827225130007,
+      "subject": {
+        "commonName": "*.avm.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "AVM Computersysteme Vertriebs GmbH",
+        "organizationalUnitName": "IT"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://avm.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://avm.de/",
+    "https://avm.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://avm.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-e61b30377363c18eaf8545927f1f15b4.css?1618301045"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-a259f368599c44aac8e656e0dbb9c159.css?1618301006"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-f64408a259ef54aedbefc4adc4fbac96.js?1618301044"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-47a4f4dc956efa726cd6a54bcae1efbe.js?1605776701"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/Images/logo.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/7/d/csm_fritzfon_c6_stiftung_warentest_fg_2048x1400_d074a3d91d.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Aufmacher/2021/fritzos_725_fg_753x399.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/d/f/csm_fritzapp_fon_zu_hause_3840x2560_679ff66360.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/d/7/csm_fritz_talk_38_3840x2560_df72fe1266.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/6/3/csm_fritzbox_7590_gaming_01_3840x2560_07a4550d8d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/4/3/csm_fritzfon_c6_black_displays_3840x2560_68a1645998.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/5/2/csm_wlan_3840x2560_0d4855d3d3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/f/2/csm_frag_fritz_3840x2560_da7c41c486.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/b/3/csm_videostreaming_tablet_3840x2560_cf50ad71a3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/8/7/csm_fritzbox_5530_fiber_bg_3840x2560_c2b1c34ae8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/5/2/csm_wlan_3840x2560_6fd9836fa0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/6/3/csm_fritzbox_7590_gaming_01_3840x2560_5212f0a13a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/e/9/csm_fritzbox_6660_cable_sofa_surfing_3840x2560_46763c266e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/6/e/csm_fritzbox_7590_gaming_stadia_3840x2560_97de1de850.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/0/5/csm_fritzbox_und_wlan_lautsprecher_detail_3840x2560_bf406615f5.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/de.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/en.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/at.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/nl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/es.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/it.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/pl.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/bel.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/lux.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/flags/ch.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-36f572b544e8752c9e5f76be78ed6557.js?1618301048"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/Vendor/plyr/plyr.min.js?1618298636"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/Vendor/plyr/plyr.polyfilled.min.js?1618298636"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-a37c8e48471d44b6f8fbcd77dd38d9f6.js?1618301035"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3temp/assets/compressed/merged-1455e750eb768e8986d99e5a7219ca7e.css?1618300998"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-search.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Aufmacher/2021/fritzfon_c6_stiftung_warentest_bg_1920x625.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Aufmacher/2021/fritzos_725_bg_1920x625.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/5/c/csm_highspeed_mit_glasfaser_3840x1250_d7a6977d6e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/_processed_/9/b/csm_smart_home_3840x1250_de_983e5ce2fd.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/blau-grau/spr-support.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/blau-grau/spr-labor.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/blau-grau/spr-fritz_optimiert.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/fileadmin/user_upload/Global/Icons/blau-grau/spr-newsletter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-arrow-down.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-newsletter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-instagram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-telegram.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-youtube.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-close-small-blue.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/Fonts/8af14602-a05c-4855-b6ae-5f65dff396d7.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/Fonts/798e4df5-1452-4afb-80af-4dfadf543003.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-hamburger.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://avm.de/typo3conf/ext/avm/Resources/Public/CSS/Images/ico-fritz-labor-navigation.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.avm.de/piwik//piwik.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.avm.de/piwik//piwik.php?action_name=Alles%20f%C3%BCr%20das%20Heimnetz%20%7C%20AVM%20Deutschland&idsite=1&rec=1&r=636442&h=13&m=11&s=4&url=https%3A%2F%2Favm.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&_cvar=%7B%221%22%3A%5B%22Browserviewport%22%2C%22785x600%22%5D%7D&pv_id=aZk609&devicePixelRatio=1&pf_net=30.00999998766929&pf_srv=13.935000009951182&pf_tfr=15.799999993760139"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "noembed.com",
+        "static.zdassets.com",
+        "ekr.zdassets.com",
+        "avm.zendesk.com",
+        "v2.zopim.com",
+        "wss://widget-mediator.zopim.com",
+        "vimeo.com",
+        "player.vimeo.com",
+        "vimeocdn.com",
+        "*.vimeocdn.com",
+        "ytimg.com",
+        "s.ytimg.com",
+        "aax-eu.amazon-adsystem.com",
+        "data:",
+        "service.avm.de",
+        "news.avm.de",
+        "bingo.avm.de",
+        "scope.avm.de",
+        "piwik.avm.de",
+        "track.adform.net",
+        "maps.google.com",
+        "*.googleapis.com",
+        "*.gstatic.com",
+        "shoplogos.commerce-connector.de",
+        "www.commerce-connector.com",
+        "i.ytimg.com",
+        "https://www.youtube-nocookie.com",
+        "https://www.youtube.com",
+        "img.youtube.com",
+        "*.xx.fbcdn.net",
+        "www.surveygizmo.eu",
+        "'unsafe-inline'",
+        "'unsafe-eval'"
+      ],
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "default-src 'self' noembed.com static.zdassets.com ekr.zdassets.com avm.zendesk.com v2.zopim.com wss://widget-mediator.zopim.com vimeo.com player.vimeo.com vimeocdn.com *.vimeocdn.com ytimg.com s.ytimg.com aax-eu.amazon-adsystem.com data: service.avm.de news.avm.de bingo.avm.de scope.avm.de piwik.avm.de track.adform.net maps.google.com *.googleapis.com *.gstatic.com shoplogos.commerce-connector.de www.commerce-connector.com i.ytimg.com https://www.youtube-nocookie.com https://www.youtube.com img.youtube.com *.xx.fbcdn.net www.surveygizmo.eu 'unsafe-inline' 'unsafe-eval'; media-src 'self' *.avm.de data: blob: *.avm.de;frame-ancestors 'self'",
+      "media-src": [
+        "'self'",
+        "*.avm.de",
+        "data:",
+        "blob:",
+        "*.avm.de"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://avm.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.aerztezeitung.de",
+      "expires": 1618919512,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "SpringerSsoLastCheckSessionState",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 45,
+      "value": "1618917712115"
+    },
+    {
+      "domain": "signon.springer.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "SESSION",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 43,
+      "value": "8237280b-826a-43c9-bc94-a030c874d4bf"
+    },
+    {
+      "domain": ".aerztezeitung.de",
+      "expires": 253402300799,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 251783390288,
+      "name": "ima_data_cf0d927bd76dc5e2294dc1135cbfe771a0d94b7c",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "session": false,
+      "size": 473,
+      "value": "XmP5zzZrx11qiCI7PCtjLw%3D%3DjRP2F7RTm7%2BccVzSeDMtkxFm96CAxtFPcXi1xsTHg%2BivUo6uTBlEcHlob4FM%2FCYMEuOLZELiO9x455DpiKSctiB%2FkZYEM099PHFdMJYWOzWn%2FBg8TP3iajj%2FJJjtr%2BiUfDLkJ2qJwiMixnYCDzV4d5rBTVqd9k6BCxJH%2FwvS5Ss8ceu%2FfF17hsGoRfJ740M1i6GhkWUp530sFcAUUm%2BpNHi%2BsHbd6HO74vRD70HyERsiF%2FdUf%2FQrBu3yE1RBdyLDjlOhJZqLI2uP2omZAdeuiLiUvCAw4LZ4pkCnqKF1XJt%2BAiEAuYB9NZymbgzCO4b1QKITAK%2F6VTlgSAw9khHss6RreLpHUpcKFpRzjk5WBtY%3D"
+    },
+    {
+      "domain": ".aerztezeitung.de",
+      "expires": 253402300799,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 251783390288,
+      "name": "ima_data_checksum_cf0d927bd76dc5e2294dc1135cbfe771a0d94b7c",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Strict",
+      "secure": true,
+      "session": false,
+      "size": 98,
+      "value": "6d3c4eae0d192dc11d848dca6977a075794db3e3"
+    },
+    {
+      "domain": ".aerztezeitung.de",
+      "expires": 1650453713,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543202,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 351,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+13%3A21%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=6.13.0&hosts=&consentId=c900b9ae-fe5f-4e05-a5fb-af9359a8b1ad&interactionCount=0&landingPath=https%3A%2F%2Fwww.aerztezeitung.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CC0005%3A0%2CC0009%3A0%2CSTACK42%3A0%2Cgad%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 1,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.aerztezeitung.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 0,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": false,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "gtm7",
+        "tracking_id": "UA-240770-1"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "e9219e54492e6f8a2a7fd4dd7c52408c3b9e83cc7f3d2bfcfa1907bf6eb2d8d1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626731999.0,
+      "not_valid_before": 1563314400.0,
+      "serial_number": 157690214843428552320837587782870648574,
+      "subject": {
+        "commonName": "aerztezeitung.de",
+        "organizationalUnitName": "PositiveSSL"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.aerztezeitung.de/Service/Impressum-Aerzte-Zeitung-online-20698.html",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.9.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://aerztezeitung.de/",
+    "https://aerztezeitung.de/",
+    "https://www.aerztezeitung.de/",
+    "https://signon.springer.com/login?gateway=true&service=https%3A%2F%2Fwww.aerztezeitung.de%2FUser%2FModules%2FLoginModuleHandler.ashx%3FCmd%3DSmSsoLogin%26CurrentUrl%3D%252F",
+    "https://www.aerztezeitung.de/User/Modules/LoginModuleHandler.ashx?Cmd=SmSsoLogin&CurrentUrl=%2F",
+    "https://www.aerztezeitung.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://aerztezeitung.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://aerztezeitung.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/open-sans/font/greek_greek-ext_latinreek-ext_latin-300.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/open-sans/font/greek_greek-ext_latinreek-ext_latin-700.woff2"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/awesome/font/aez-awesome.woff?50118667"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Bootstrap/CSS/web-portal-bootstrap.min.css?_=3747edbd"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout.min.css?_=-1134930446"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Custom/aez-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Custom/springermedizin-white.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://signon.springer.com/login?gateway=true&service=https%3A%2F%2Fwww.aerztezeitung.de%2FUser%2FModules%2FLoginModuleHandler.ashx%3FCmd%3DSmSsoLogin%26CurrentUrl%3D%252F"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/User/Modules/LoginModuleHandler.ashx?Cmd=SmSsoLogin&CurrentUrl=%2F"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/open-sans/font/greek_greek-ext_latinreek-ext_latin-300.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/open-sans/font/greek_greek-ext_latinreek-ext_latin-700.woff2"
+    },
+    {
+      "mime_type": "application/x-font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/awesome/font/aez-awesome.woff?50118667"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Bootstrap/CSS/web-portal-bootstrap.min.css?_=3747edbd"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout.min.css?_=-1134930446"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://netdna.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Custom/aez-logo.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Custom/springermedizin-white.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/bundles/js/util.js?v=R5Z-B2Acj06vGngGuVMCFiCBDmUFLqWD5IDFpZ5hAJc1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/755dcb49-9d40-4955-8eb6-2193bc45f064/755dcb49-9d40-4955-8eb6-2193bc45f064.json"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Core.min.js?_=-773104561"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/User/Modules/LoginModuleHandler.ashx?Cmd=GetSessionInfo&_=1618917712433"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T75G7P2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://data-51c17cab74.aerztezeitung.de/sensor.modern.ncl.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://data-51c17cab74.aerztezeitung.de/sensor.modern.ncl.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/open-sans/font/greek_greek-ext_latinreek-ext_latin-600.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Custom/fonts/open-sans/font/greek_greek-ext_latinreek-ext_latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Layout/Custom/sprite.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/news/modules/WatchListModuleWs.asmx/GetWatchListCount"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Api/Custom/AZUserNote/index?strUrl=https%3A%2F%2Fwww.aerztezeitung.de%2F"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.13.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://data-51c17cab74.aerztezeitung.de/arztzeit-config.json"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Was-in-vielen-asiatischen-Laendern-schon-lange-Standard-ist-195000.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Wegen-Corona-arbeitet-mittlerweile-jeder-Bundesbuerger-von-194999m.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Vor-dem-Start-der-elektronischen-Patientenakte-im-Sommer-194995m.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/755dcb49-9d40-4955-8eb6-2193bc45f064/c9289110-278d-4641-b86a-60ece3ad45a0/en.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.13.0/otTCF.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://data-51c17cab74.aerztezeitung.de/relay.io?api=YzPGhaAw3Ym5xmAK7I4ryg%3D%3D%2FjvUPKQA3EyUNRW2%2FeTsH7Ic15dXrlzcUiThQaxRsqqcXwgOQ%2FZPybECNy%2BnteHShqerdQVEvm9KHchNkqMxg4JKuDn78UHlSpyKL6Axe88kdab9ddwRR9JusyE%2FlLutVmy%2FFI2JsSj7GnK3VbbT4hufeuykI0IxnB2iPZm2uEkGNCiNjEuzTR8C6%2Bf5zdkk4ygN71V76TaCTwjVxnWR9at8ZNdxCZCkXU8fCbJDt55Dq3D%2F0R91aQrbCNKwo9ZFFpxoHNPvBQEvYz98xbqeNjA4PgxhDhAWzZkpkRBI1fRlGNejijAOGo3tAMJX5n0fwx8Yia%2F%2BYNpnG7kUdKptLiXzMAKy%2FGs4xxj4rDtgm0yHfwQf3%2FdvHcN0TPX5fj1fn1%2BBRI%2BOfBtqvhj3vXTfrFSJYMdcV3ToTA7dahE5f5EDVuycENUxt%2BFyEHGK6KZbs1Yvb7XDIaaKUWDpgzmiy%2B0mNZD5yuP9a5FmXW8HyH%2F5HLfIxkby5SvJtmBZOV2CtymwkERd%2FFxhfTk0qvAIBwV%2BfOyW99HFcp9hKCq6pvID3kg90rs7OAA%2BMYYAzYagnrvZcLmsWpD9xP2NIR3uOXGnB1uJ5CFrJjRUEDvMvfs0NnC1hlzYvLcG%2BsqY%2ByuwMH3a6ZnehNvH9E%2FhbMavpTqKJgYQwFXnDFH85cQg%2BgZu7rjj%2FBfsZoOQggmH6ZlrljbiYqlU1Q91%2B5lwVnibN1yY2pagRgphtU0f7By8YVwz5rRwlDgd1txL08Do0B7bmzHkTXWVrRHP18vSK2fpJgafiOuyBWO%2BnWs0lo44X6sKNVkbhRf60WXYlOMZTkgllDnoU2JlvAlH%2BLNi99zDXsyFuQ3zSMIrBkyKKY%2BrcmdB5MBJBXZKiaPNtljrebZYjvG4x%2F9WZVjBi30NnleqhFPNyXLW%2FzpzJL5pf%2FsENdo%2F0ziSy8Zdsq%2FzLzB5UQ%2BzXsiWUZRP258uTWcvj3MOk50DcnMC5ah4eJxPqU3buudaSip7p8EnFFzR%2B6UfFIs8Ix5KPcLL8q0%2FPUR%2FDnoND6S2OZ67ECf%2FeXWm6GePFyf6NxqayYDA%2FkyC6vHVafDLbvMNIl8oV64XnLe9oXeVwsNR2o6SVcG19otYC3WqF1br%2FIk4lQAajmSxQRnUS4eS1fvbxGmiqDejo%2BfK9vjumN0fa1vXGTo6crk0u37MFE0%2Bfx3q8nuFPWbKHd6JpTiM&rsa=Ss6H8L5AcXC5gaS0mmhpbKv63kPtdfrrcudHEmEwcpVMO0pgocUOUIFekluXJHP3OQVbtFTpqu%2F5eGNKuZJOflIF1lCZN7IVFDUNZ2NNaEWsXa811MNtf3rSt9I2e43INayHicbDs3LRxkAjSaX8wMiitvy1Z4tVRmUIEKuGZGU%3D&cs=a85eba9e07acd1bca05b8b173ee175609611f739&mo=0&rp=1&sm=1&tc=T1%3A74T0%3A659T3%3A1T4%3A93"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.13.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.13.0/assets/v2/otPcCenter.json"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Bild-194916.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Lebensbedrohlicher-Notfall-Fuenf-Prozent-der-Patienten-mit-194982m.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Medikamente-fuer-den-Wochenbedarf-auffuellen-Welche-194997m.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aerztezeitung.de/Bilder/Check-des-Natrium-Spiegels-Bei-Werten-zwischen-130-und-135-195002m.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://aerztezeitung.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ajax.googleapis.com",
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com",
+      "netdna.bootstrapcdn.com",
+      "script.ioam.de",
+      "signon.springer.com",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 19
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "cdn.cookielaw.org",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

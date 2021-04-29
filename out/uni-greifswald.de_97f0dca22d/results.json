@@ -1,0 +1,945 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-greifswald.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "97e76937ff0459a3ceae7f96fc493c92768388e09f4a0dfeb8550b08c7dc11b0",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1665224955.0,
+      "not_valid_before": 1594031355.0,
+      "serial_number": 10873790292180537391351505863,
+      "subject": {
+        "commonName": "www.uni-greifswald.de",
+        "countryName": "DE",
+        "localityName": "Greifswald",
+        "organizationName": "Universitaet Greifswald",
+        "stateOrProvinceName": "Mecklenburg-Vorpommern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-greifswald.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-greifswald.de/",
+    "https://uni-greifswald.de/",
+    "https://www.uni-greifswald.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://uni-greifswald.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uni-greifswald.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1610473610"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3temp/DynCss/import.scss-904db6be-c0d3a56e-2118c97b.css?1615552544"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/einrichtungen/rechenzentrum/Resources/Public/style/extendedSytle.css?1559131771"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Ressources/Public/css/rte.css?1502169665"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Ressources/Public/css/content.css?1571984299"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/Contrib/JsLibs/modernizr.min.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/Contrib/JsLibs/jquery-1.11.3.min.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3temp/assets/js/301d3defed.js?1615374520"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Ressources/Public/Images/uni-greifswald_opt.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/0/d/csm_Forschung-GYN-HGW-PM-_DSF5642-300dpi-1000xnn_d45e0dfa52.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/e/d/csm_symbolbild-forschung-sandlabor-20160331-IMG_5820_300dpi-2000xnn-kd-300dpi-archiv-2000xnn-srgb_6193e9b403.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/f/1/csm_Marketing_2020_20200924_DSC_3414_LS_350dpi_sRGB_6a4492e1a4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/8/3/csm_nordischer-Klang-2021-motiv-Webhead2-300dpi-archiv-2000xnn-srgb_f8386cd611.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/4/9/csm_Seminar_1_2.12.1_PM-150dpi-archiv-1500xnn-srgb-web_da737c0d9b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/e/9/csm_coronavirus-4914026_1920-pixabay-kostenlos-tumisu_2c5cedfbab.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/f/d/csm_Marketing-Symbolfotos-Shooting-27-Juni-2019-20190627_L1007262_TJ_150dpi_977ad413fb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/7/6/csm_DSC05027_Ole_Kracht-150dpi_48461f0235.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/b/c/csm_Marketing_2020_20200924_DSC_3125_LS_bearbeitet_finale_Datei_01_bf09e97dc0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/c/2/csm_Campusfuehrung_20201019_DSC_5474_LS_350dpi_sRGB_7895e3d23f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/7/c/csm_Marketing_2020_alter_campus_innenhof_20200818_DSC_2102_LV_726877f066.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Ressources/Public/css/print.css?1575368066"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/b/7/csm_UNI_Greifswald_HIT_Onlinebanner_hochkant_2021-01_730b89f8ed.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/e/6/csm_Online-Kurs_zur_Einschreibung_a9fbe9a798.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/e/8/csm_Greifswald_Gutschein_Visual_Ansicht-1-150-1000xnn_c07815935a.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/e/d/csm_Heimathafen_logo_3b17fc36aa.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/6/2/csm_UNI_WhatsApp_1500x1125px_19f6f02799.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/1/0/csm_luca_06_23a1f57f75.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/b/7/csm_UNI_Greifswald_HIT_Onlinebanner_hochkant_2021-01_96d9eb07ec.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/5/b/csm_Online-Kurs_zur_Studienorientierung_2_960f5b22e5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/f/1/csm_Marketing_2020_20200924_DSC_3191_LS-200dpi-2000xnn-srgb_8f13055550.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/1/7/csm_symbolfoto-forschung_20180321_IMG_6162_TJ-300dpi-1000xnn-srgb_76c897b9d4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/1/0/csm_luca_06_09bfd3eddf.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/e/0/csm_Banner_UNIQUE-100dpi-1200xnn_aa8dc0d5c6.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/3/f/csm_symbolbild-senat-20140716-_DSC4978-jm-300dpi-2000xnn-srgb_0c8adccf45.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/f/6/csm_symbolbild-mailaccount_20190228_IMG_5956_TJ-100dpi-2000xnn-srgb-print-matt_d88ca1f2d5.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/7/6/csm_screen-nova-100dpi-1500xnn_ea3e4f8f1a.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/2/f/csm_logo_weltoffen_hrk_200dpi-1500xnn_7dc7b3608f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/4/c/csm_Logo-Charta_Familie-mit_Hintergrund-200dpi-1333x1333_ace6112a42.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Ressources/Public/Information/Zentrale_Dokumente/Logos/2014_Siegel_Audit_Englisch_xl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/_processed_/8/7/csm_HR-Logo-internet-greifswald-200dpi-2000xnn_fddd7e86cc.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Appstore/appstore.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Appstore/get-it-in-google-play-store.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/main-menu.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/sub-menu.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/header-submenu.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/jquery.accordion.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/slick.min.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/jquery.touchSwipe.min.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/jquery.magnific-popup.min.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/lightbox-init.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/scroll-top.js?1612346965"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.js?1615198332"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1615198332"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/JavaScript/tab-map.js?1612346965"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv_greifswald/Resources/Public/Fonts/RobotoCondensed-Regular.woff"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv/Resources/Public/Fonts/hsmv-icons.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/videos/embed/10ebacf2-85df-4f45-a5d1-b5d868661bd8?"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/videos/embed/8cea3769-9436-44e7-96f8-b4ee244862b6?start=2&autoplay=1&muted=1&"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv_greifswald/Resources/Public/Images/Footer-Map/campus-innenstadt.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/storages/uni-greifswald/Ressources/Public/Images/Maps/ugw_marker_germany.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-greifswald.de/typo3conf/ext/theme_hsmv_greifswald/Resources/Public/Fonts/RobotoCondensed-Bold.woff"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/video-embed.0a5cb115a1a76df08bc5.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/video-embed.0a5cb115a1a76df08bc5.bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/video-embed.0a5cb115a1a76df08bc5.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/video-embed.0a5cb115a1a76df08bc5.bundle.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/api/v1/config"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/7.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/11.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/api/v1/videos/10ebacf2-85df-4f45-a5d1-b5d868661bd8"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/api/v1/config"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/7.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/11.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/api/v1/videos/8cea3769-9436-44e7-96f8-b4ee244862b6"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/api/v1/videos/10ebacf2-85df-4f45-a5d1-b5d868661bd8/captions"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/lazy-static/previews/10ebacf2-85df-4f45-a5d1-b5d868661bd8.jpg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/api/v1/videos/8cea3769-9436-44e7-96f8-b4ee244862b6/captions"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/0.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/3.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/10.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/12.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/9.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/0.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/3.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/10.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/12.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/9.0a5cb115a1a76df08bc5.chunk.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/10ebacf2-85df-4f45-a5d1-b5d868661bd8/segments-sha256.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/segments-sha256.json"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/3f0f736e86764018c7c6b88a54eba3cf.svg"
+    },
+    {
+      "mime_type": "application/vnd.apple.mpegurl",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/10ebacf2-85df-4f45-a5d1-b5d868661bd8/master.m3u8"
+    },
+    {
+      "mime_type": "application/vnd.apple.mpegurl",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/master.m3u8"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/client/standalone/videos/f1d6600cc9dc82138256969d2dd6e96a.svg"
+    },
+    {
+      "mime_type": "application/vnd.apple.mpegurl",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/360.m3u8"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "blob:https://grypstube.uni-greifswald.de/1937b300-c375-426b-8cd1-f0defb79fe31"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "",
+      "url": "https://grypstube.uni-greifswald.de/static/streaming-playlists/hls/8cea3769-9436-44e7-96f8-b4ee244862b6/8cea3769-9436-44e7-96f8-b4ee244862b6-360-fragmented.mp4"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000;",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff,nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-greifswald.de\r",
+  "third_parties": {
+    "fqdns": [
+      ""
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

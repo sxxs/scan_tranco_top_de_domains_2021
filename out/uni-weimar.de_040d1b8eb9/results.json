@@ -1,0 +1,645 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-weimar.de/de/universitaet/start/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5db139d7670e302b92ff80badcd374c155790be164f26fcee88125008f6338c2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1662800055.0,
+      "not_valid_before": 1591606455.0,
+      "serial_number": 10829058777210521712620197848,
+      "subject": {
+        "commonName": "www.uni-weimar.de",
+        "countryName": "DE",
+        "localityName": "Weimar",
+        "organizationName": "Bauhaus-Universitaet Weimar",
+        "organizationalUnitName": "SCC",
+        "stateOrProvinceName": "Thueringen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-weimar.de/de/fs/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": "1.6.5",
+    "React": null,
+    "jQuery": "1.11.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-weimar.de/",
+    "https://uni-weimar.de/",
+    "https://www.uni-weimar.de/",
+    "https://www.uni-weimar.de/de/universitaet/start/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://uni-weimar.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://uni-weimar.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/de/universitaet/start/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/Assets/9905f0ad4d.css?1568388128"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/Assets/fd316a95c5.css?1568387928"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/Bootstrap/css/bootstrap.min.css?1611836141"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/ResponsiveBauhaus/responsiveBauhaus.css?1613033268"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/Fonts/Fira/fira.min.css?1611836141"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/Fonts/icomoon/style.min.css?1611836141"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/ResponsiveBauhaus/contrast.min.css?1612188210"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/powermail/Resources/Public/Css/Basic.css?1513976989"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/jh_magnificpopup/Resources/Public/css/magnific-popup.css?1473513824"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/skin/imagecycle.css?1611836141"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/skin/tint_uni.css?1612188210"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/Assets/34b39598c0.css?1598025182"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/modernizr.custom-f0ad0628a921738280fc50f44c1459d8.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/9a38f34785-24325675c4bf44f95d9ff2fd93039bd5.js?1610460867"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/images/logo_bw.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/images/nothingFondSofar42.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/8/f/csm_Thueringer_Forschungreis_Bild_2_a4919a9c79.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/8/b/csm_tmue20210330a006_a865e8703c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/0/5/csm_hochX_03_7f65840b82.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/a/8/csm_Studieren_unter_Corona-Bedingungen_1080_1080_0cabf3bda4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/1/6/csm_Europa__isches_Bauhaus_Weimar_dt_neutral_9bf346c0d4.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/f/6/csm_2020_Corona_Banner_de_600b842de6.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/d/2/csm_2019_Mut.Neugier.Zuversicht_729x243_de_01_klein_84b97e089b.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/user/uni/hauptseiten/Universitaet/Profil/Werkstaetten_300x100.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_processed_/2/f/csm_Showcase_141526c0e5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/_migrated/pics/Treppe_cut_01.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/ResponsiveBauhaus/print.min.css?1611836141"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/uploads/tx_t3jquery/jquery-1.11.x-1.10.x-1.2.x.js?1474132096"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/jquery.magnific-popup.min-a5562fe5b166bd3ee786357a51334f51.js?1610460867"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/jquery.filter-isImageFile.min-23f7d7b0d5ec0980160432f4239a1507.js?1610460867"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/jquery.cycle2.min-89417d82e7638f20e6e3737e8e11e35b.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/commons-42475c15a6d57ac700e8ade511a7499f.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/angular.min-156fc628605ce1104c62c1bc6394815c.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/angular-cookies.min-247851fe89eed0e25275c932549a23f9.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/bauhausapp-8cc5f30102ebd43d7fff78bd033cbef1.js?1613053686"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/masonry.pkgd.min-b4039edf3bae9547eb908544a7de4a13.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/PowermailCondition.min-53b94fda80b4a9ce2080b8295889b563.js?1610460867"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/imagecycle-cea71d7b154d5056efd01d5ebdc24b39.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/imageurl-98983a4788f0a5e0ca67f8171123c4b5.js?1611836167"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/Postscribe-bf87ac44111505c5eb5a3131b5ba45e7.js?1610460943"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/SfBanners-4532e1a9ef65edf1f3300214da59ab69.js?1610460943"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/compressor/ddaf43ebbf-b4a4845746d494089afe3d6f1ee140cd.js?1610460873"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/Php/GetPiwikVariables.php"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/slimResponsiveBauhaus/contentElements.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/slimResponsiveBauhaus/accessibility/contentElementsBarriereModal.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/slimResponsiveBauhaus/accessibility/contentElementsBarriereModal3Col.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/slimResponsiveBauhaus/accessibility/focusFeedback.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/slimResponsiveBauhaus/contentElements/contentElementTextPic.css"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/Fonts/Fira/woff/FiraSans-Book.woff"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/images/bauhaus_logo_einzeilig_weiss.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/images/farbverlauf_uni.png"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/Fonts/icomoon/fonts/Bauhaus-Uni-Icons.ttf?wi9sxe"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/Fonts/Fira/woff/FiraSans-Bold.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-weimar.de/piwik.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/de/universitaet/start/?type=9001&tx_sfbanners_pi1%5Baction%5D=getBanners&tx_sfbanners_pi1%5Bcontroller%5D=Banner&tx_sfbanners_pi1%5BcurrentPageUid%5D=504&tx_sfbanners_pi1%5Bhmac%5D=e9ccd8cc6799e9433158f8c52847d19c2bd283b8&tx_sfbanners_pi1%5BstartingPoint%5D=11943%2C11942%2C11941&tx_sfbanners_pi1%5BdisplayMode%5D=allRandom&cHash=0b5cc5aa5a270449306e26ab9b7f0c68"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/js/libs/jQuery-Touch-Events-master/src/jquery.mobile-events.min.js?_=1618923989667"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3conf/ext/buw_fe_skin/Resources/Public/css/images/bJButtonDE.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/uploads/tx_buwfeskin/sitemap.de_md5.txt?"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/uploads/tx_buwfeskin/sitemap.de.html"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.uni-weimar.de/piwik.php?action_name=Bauhaus-Universit%C3%A4t%20Weimar%3A%20Universit%C3%A4t&idsite=14&rec=1&r=875950&h=15&m=6&s=30&url=https%3A%2F%2Fwww.uni-weimar.de%2Fde%2Funiversitaet%2Fstart%2F&_id=&_idts=1618923990&_idvc=1&_idn=1&_refts=0&_viewts=1618923990&send_image=1&cookie=1&res=800x600&_cvar=%7B%221%22%3A%5B%22Extern%7CIntern%22%2C%22Extern%22%5D%7D&gt_ms=29&pv_id=5o1Jl6"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/f/d/csm_2019_Mut.Neugier.Zuversicht_729x243_de_01_klein_5a1d7402cf.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/8/1/csm_2020_Banner_Anschubfinanzierung_gross2_01_d7e9350540.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/d/e/csm_Freundeskreis_banner_klein_be12da59d2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/2/7/csm_Banner_Publikation_0822e79623.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/c/1/csm_unisport_86aacec261.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/3/f/csm_Banner_girlsDay_2021_cfdc51515f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/3/d/csm_banner_froy_de_234ab80ce9.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/9/c/csm_Digital_orientieren_bf4c662269.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/8/1/csm_Studieren_unter_Corona-Bedingungen_729_243_5917aa58d4.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/typo3temp/_processed_/0/8/csm_2020_Corona_Banner_01_a3396b26c7.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.uni-weimar.de/fileadmin/user/uni/hauptseiten/Universitaet/Banner/2018/08/Bauhaus100_dt_neu.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff,nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://uni-weimar.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

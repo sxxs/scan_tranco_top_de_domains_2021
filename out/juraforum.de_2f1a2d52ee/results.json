@@ -1,0 +1,908 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.juraforum.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "juraforum",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 35,
+      "value": "6tir92j5n8tcov7rob3mkqphr2"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1618913441.092603,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10801.092602968216,
+      "name": "version",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 14,
+      "value": "desktop"
+    },
+    {
+      "domain": ".doubleclick.net",
+      "expires": 1618910740.932909,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 8100.932909011841,
+      "name": "test_cookie",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 29,
+      "value": "CheckForPermission"
+    },
+    {
+      "domain": "consentmanager.mgr.consensu.org",
+      "expires": 1653037840.934258,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 34135200.934257984,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "www.juraforum.de",
+      "expires": 1653037841,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135201,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1619514641,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612001,
+      "name": "__cmpconsent1667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 60,
+      "value": "CPE8gmvPE8gmvAfYGBDEBWCgAAAAAAAAAAigAAAAAAAA"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1619514641,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612001,
+      "name": "__cmpcvcu1667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 24,
+      "value": "__s23_s24__"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1619514641,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 612001,
+      "name": "__cmpcpcu1667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 17,
+      "value": "____"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621501841.583991,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.5839910507,
+      "name": "__cmpconsent1667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 60,
+      "value": "CPE8gmvPE8gmvAfYGBDEBWCgAAAAAAAAAAigAAAAAAAA"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621501841.584051,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.584050894,
+      "name": "__cmpcvcu1667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 24,
+      "value": "__s23_s24__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621501841.584074,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599201.5840740204,
+      "name": "__cmpcpcu1667",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 17,
+      "value": "____"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1681981841,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079201,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 29,
+      "value": "GA1.2.798058281.1618909842"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1618996241,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93601,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 31,
+      "value": "GA1.2.1573302440.1618909842"
+    },
+    {
+      "domain": ".juraforum.de",
+      "expires": 1618909901,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 7261,
+      "name": "_gat",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 5,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 6,
+    "first_party_short": 3,
+    "third_party_long": 4,
+    "third_party_short": 1,
+    "trackers": [
+      "consensu.org",
+      "doubleclick.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.juraforum.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 1,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "t0",
+        "tracking_id": "UA-4742560-1"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a3b5c38f0ed4a49d767c7457253dd645616f0c837c13380098f83d35c5adddcd",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Starfield Secure Certificate Authority - G2",
+        "countryName": "US",
+        "localityName": "Scottsdale",
+        "organizationName": "Starfield Technologies, Inc.",
+        "organizationalUnitName": "http://certs.starfieldtech.com/repository/",
+        "stateOrProvinceName": "Arizona"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622265395.0,
+      "not_valid_before": 1588137395.0,
+      "serial_number": 9914425043374765746,
+      "subject": {
+        "commonName": "www.juraforum.de",
+        "organizationalUnitName": "Domain Control Validated"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.juraforum.de/impressum#cmpnoscreen",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.8.3"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://juraforum.de/",
+    "https://www.juraforum.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://juraforum.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/js/jquery-1.8.3.min.js.pagespeed.jm.0IhQ85x_cu.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/css/A.juraforum-2015.css+adsense-2012.css,Mcc.XN_0DYUAet.css.pagespeed.cf.-h5U1elLy1.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/jf-logo.svg"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/xra-eintrag-testen.png.pagespeed.ic.Gjb17HYxiN.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/recht-gesetz/xmaske-beim-autofahren-gefaehrdet-die-verkehrssicherheit-2104390.pagespeed.ic.q_yZUQ8YPc.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/recht-gesetz/xkontaktbeschraenkungen-im-freien-von-olg-eingeschraenkt-2104389.pagespeed.ic.otNwjX3VUf.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/recht-gesetz/xkeine-amnestie-bei-verbrechen-gegen-die-menschlichkeit-2104387.pagespeed.ic.gC5nlFAUwi.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/ratgeber/bilder/x624-180x120_8169.pagespeed.ic.oeL7K-kZap.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/ratgeber/bilder/x617-80x60_9069.pagespeed.ic.arHljRD73w.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/ratgeber/bilder/x616-80x60_7180.pagespeed.ic.2x69IOzKIT.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-ratgeber-familienrecht.jpg.pagespeed.ic.QUEY9ctpe-.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-ratgeber-erbrecht.jpg.pagespeed.ic.lfQr1Nogue.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-ratgeber-mietrecht.jpg.pagespeed.ic.2tYhQypJXw.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-ratgeber-verkehrsrecht.jpg.pagespeed.ic.ENT06XQHHH.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-ratgeber-strafrecht.jpg.pagespeed.ic.4CT1AkbKah.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-ratgeber-arbeitsrecht.jpg.pagespeed.ic.oGoNs4eCKL.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/recht-gesetz/xpersoenliche-anschrift-fuer-behoerdenauskunft-erforderlich-2103403,qformat=xs.pagespeed.ic.U5aPOZjs-u.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/arbeitsrecht/xfreistellungstage-sind-nicht-mit-urlaub-vergleichbar-2102202,qformat=xs.pagespeed.ic.R8jljAASgN.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/internetrecht/xurheberrechtsschutz-der-eu-verbietet-schrankenloses-framing-2093173,qformat=xs.pagespeed.ic.OEMUido-BX.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/verkehrsrecht/xfuer-kaskoschutz-am-unfallort-warten-2100583,qformat=xs.pagespeed.ic.lQjwQYbYTr.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/wirtschaftsrecht-steuerrecht/xerleichterungen-im-ehegattenarbeitsverhaeltnis-2094041,qformat=xs.pagespeed.ic.pfhyN2vCgw.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/mietrecht/xder-mietendeckel-in-berlin-ist-verfassungswidrig-2103412,qformat=xs.pagespeed.ic.2B7MZS8h8f.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/nachrichten/bilder/familienrecht-erbrecht/xnach-heirat-abgeschlossener-ehevertrag-kann-unwirksam-sein-2103017,qformat=xs.pagespeed.ic.Rvxl37PMDZ.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top20-orte-1.jpg.pagespeed.ic.tqkkf9xRDW.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top20-orte-2.jpg.pagespeed.ic.4DcAbbqUSQ.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top20-rechtsgebiete-1.jpg.pagespeed.ic.87f5VlhMbB.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top20-rechtsgebiete-2.jpg.pagespeed.ic.GzmrwAKrA2.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top20-lexikon-1.jpg.pagespeed.ic.D262bkGTWo.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top12-muster-1.jpg.pagespeed.ic.84SrWBHrJn.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/xindex-top12-muster-2.jpg.pagespeed.ic.jMfDsEATGn.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/xdsgvo-vorlagen.png.pagespeed.ic.DuZl_SPx3T.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/rechtsberatung/xrechtsberatung-banner-06-2018-rechts.gif.pagespeed.ic.8gIsv8_c1H.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/muster-vorlagen/dsgvo/xdsgvo-vorlage.png.pagespeed.ic._6JS8bGAmB.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/muster-vorlagen/dsgvo/xdsgvo-generator.png.pagespeed.ic.ot0HiZiHsR.webp"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/26309-45x60"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/8978-45x60"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/32206-45x60"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/32190-45x60"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/32102-45x60"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/32086-45x60"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/rechtsanwalt/bilder/32088-45x60"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/fx/corona/xgemeinsam-gegen-corona.png.pagespeed.ic.iY-ijACbhS.webp"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1072222360/?value=0&guid=ON&script=0"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/footer/xlogo-social.png.pagespeed.ic.L6aSCpAQzm.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/rechtsberatung/170xNxnotfall-rot.gif.pagespeed.ic.krhMhTPMdx.webp"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/anwalt-eintragen-banner.gif.pagespeed.ce.RiPoO1yDdw.gif"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/logos/150xNxwelt-siegel-2019-5.png.pagespeed.ic.dpcS2pOuaZ.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/logos/126xNxfocus_money_testsieger.jpg.pagespeed.ic.WTPlloZyJQ.webp"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=1542&h=https%3A%2F%2Fwww.juraforum.de%2F&&l=en&o=1618909840749"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/xfooter-background.png.pagespeed.ic.RBqG_UxRGR.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/xmenuseparator.png.pagespeed.ic.pqxDZAUyfq.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/xhintergrund-rechts.png.pagespeed.ic.EX9Jpczmu-.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/rechtsberatung/banner/1/xfja-button.png.pagespeed.ic._WubxZicfE.webp"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/elemente/pfeil_weiss_auf_blau.gif.pagespeed.ce.Px9ljfgsPn.gif"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/elemente/pfeil_weiss_auf_rot.gif.pagespeed.ce.SeEm8nu9Qg.gif"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/fuer-anwaelte/intro/xintro-klein.jpg.pagespeed.ic.8E8C7jQxMY.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/juraexamen/intro/xhintergrund-blau-klein.jpg.pagespeed.ic.2iDvwSh8oQ.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/juraexamen/intro/xintro-klein.jpg.pagespeed.ic.-cVLwJpRzR.webp"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.juraforum.de/grafiken/layout/footer/xspacer.png.pagespeed.ic.RLYL-Kekht.webp"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/pagead/1p-user-list/1072222360/?value=0&guid=ON&script=0&is_vtc=1&random=3054001974"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.de/pagead/1p-user-list/1072222360/?value=0&guid=ON&script=0&is_vtc=1&random=3054001974&ipr=y"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?__cmpcc=1&id=1542&o=1618909840&h=https%3A%2F%2Fwww.juraforum.de%2F&&l=en&odw=0&dlt=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfMTU0Mi5kXzM1MzAueF80OS52LnRfMzUzMA.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/lang/langpurpose_de.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=1542&did=1&cfdid=6206&t=pv.d_ncs.d_ancs.d_bncs.cf.cfx&h=https%3A%2F%2Fwww.juraforum.de%2F&o=1618909841498&l=DE&lv=20217&d=1&ct=14&e=&e2=&e3=&i=&sv=18&dv=49&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=1542&did=1&cfdid=1&t=cv&h=https%3A%2F%2Fwww.juraforum.de%2F&o=1618909841498&l=DE&lv=20217&d=1&ct=14&e=&e2=&e3=&i=&sv=18&dv=49&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=1542&p=1&v=4&cvc=_s23_s24_&cpc=__&c=CPE8gmvPE8gmvAfYGBDEBWCgAAAAAAAAAAigAAAAAAAA&l=DE&lv=20217&d=1&ct=0&e=&h=https%3A%2F%2Fwww.juraforum.de%2F&e2=&e3=&i=&sv=18&dv=49&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/img/logo1595422767x4534.gif"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1924967681&t=pageview&_s=1&dl=https%3A%2F%2Fwww.juraforum.de%2F&ul=en-us&de=UTF-8&dt=Recht-Portal%20mit%20Anwaltssuche%20-%20JuraForum.de&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=YEBAAEABAAAAAC~&jid=929804320&gjid=2143230068&cid=798058281.1618909842&tid=UA-4742560-1&_gid=1573302440.1618909842&_r=1&_slc=1&z=682030360"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://juraforum.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "cdnjs.cloudflare.com",
+      "consentmanager.mgr.consensu.org",
+      "googleads.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.google.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 17
+  },
+  "tracking": {
+    "num_tracker_cookies": 5,
+    "num_tracker_requests": 15,
+    "trackers": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "googleads.g.doubleclick.net",
+      "www.google-analytics.com",
+      "www.google.com"
+    ]
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bmas.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 64,
+      "value": "9F8035F71B88FB769131AE4DA818510F.delivery2-replication"
+    },
+    {
+      "domain": "www.bmas.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "ROUTEID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 29,
+      "value": ".delivery2-replication"
+    },
+    {
+      "domain": "www.bmas.de",
+      "expires": 1653040265,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 34135202,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 8,
+      "value": "1"
+    },
+    {
+      "domain": "consentmanager.mgr.consensu.org",
+      "expires": 1618912625.651838,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 7562.651838064194,
+      "name": "__cmpcc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 8,
+      "value": "2"
+    },
+    {
+      "domain": ".bmas.de",
+      "expires": 1618998665,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "__cmpcvcx23129",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 35,
+      "value": "__s23_s135_s905_s24__"
+    },
+    {
+      "domain": ".bmas.de",
+      "expires": 1618998665,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93602,
+      "name": "__cmpcpcx23129",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 20,
+      "value": "__51__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621504266.027609,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599203.02760911,
+      "name": "__cmpconsentx23129",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 18,
+      "value": ""
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621504266.027665,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599203.0276649,
+      "name": "__cmpcvcx23129",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 35,
+      "value": "__s23_s135_s905_s24__"
+    },
+    {
+      "domain": ".consensu.org",
+      "expires": 1621504266.027685,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 2599203.027684927,
+      "name": "__cmpcpcx23129",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 20,
+      "value": "__51__"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 2,
+    "third_party_long": 3,
+    "third_party_short": 1,
+    "trackers": [
+      "consensu.org"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bmas.de/DE/Startseite/start.html;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "18b4075d538d71c610a777f59e3aecae2bfddb70ce29abfaedbd3f9caccf0f80",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust TLS RSA CA G1",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626170400.0,
+      "not_valid_before": 1560463200.0,
+      "serial_number": 20693422133190907795242178972238687475,
+      "subject": {
+        "commonName": "www.bmas.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Bundesministerium fuer Arbeit und Soziales",
+        "organizationalUnitName": "Referat LA 5 Oeffentlichkeitsarbeit",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bmas.de/DE/Infos/Impressum/impressum.html;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bmas.de/",
+    "https://www.bmas.de/DE/Startseite/start.html;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "http://bmas.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/DE/Startseite/start.html;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/modern/vendors.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/modern/components.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/style.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/loader.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NKNSM8V"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/fonts/BundesSansWeb-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/fonts/BundesSansWeb-Bold.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/spritemap.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SiteGlobals/Functions/MiniNewsroom/DE/MiniNewsroom.html?view=renderMiniNewsroom[JSON]"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/modern/chunks/swiper.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/DE/Arbeit/arbeit.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=picture&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/DE/Soziales/soziales.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=picture&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/DE/Europa-und-die-Welt/europa-und-die-welt.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=picture&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/DE/Ministerium/ministerium.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=picture&v=7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/DE/Service/service.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=picture&v=7"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SiteGlobals/Frontend/Bilder/bmas-logo-de.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SiteGlobals/Frontend/Bilder/bmas-logo-de.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=thumbnail&v=2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Startseite/stoerer-schmal-blau.png;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Startseite/Meldungsbilder/Arbeitsschutz/corona-test.jpg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Startseite/bild-ministerzitat.png;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=8"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Startseite/stoerer-breit-podcast.jpg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=9"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Rente/grundrente.jpg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=thumbnail&v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Arbeitsrecht/Mindestlohn/erhoehung-ml-neu.jpg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=thumbnail&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-gesetz.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-publikationen.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-terminkalender.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-mindestlohn-rechner.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=8"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-buergertelefon.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-teilzeit-rechner.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=5"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-kontakt-auf-startseite.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=6"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/Icons/Serviceangebote/icon-newsletter.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=4"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/facebook.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/facebook-hover.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/instagram.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/instagram-hover.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/twitter.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/twitter-hover.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=3"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/youtube.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "200",
+      "url": "https://www.bmas.de/SharedDocs/Bilder/DE/social-media/youtube-hover.svg;jsessionid=9F8035F71B88FB769131AE4DA818510F.delivery2-replication?__blob=normal&v=1"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/fonts/BundesSansWeb-Medium.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/fonts/BundesSerifWeb-Italic.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?id=23129&h=https%3A%2F%2Fwww.bmas.de%2FDE%2FStartseite%2Fstart.html%3Bjsessionid%3D9F8035F71B88FB769131AE4DA818510F.delivery2-replication&&l=en&o=1618912265469"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmp_en.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/cmp.php?__cmpcc=1&id=23129&o=1618912265&h=https%3A%2F%2Fwww.bmas.de%2FDE%2FStartseite%2Fstart.html%3Bjsessionid%3D9F8035F71B88FB769131AE4DA818510F.delivery2-replication&&l=en&odw=0&dlt=1"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/content/icon-twitter.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/content/icon-facebook.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmas.de/static/releases/current/public/content/icon-youtube.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/customdata/bV8xLndfMjMxMjkuZF8xMDE2Mi54XzE3LnYudF8xMDE2Mg.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/lang/langpurpose_de.min.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=23129&did=1&cfdid=3530&t=pv.d_ncs.d_ancs.d_bncs.cf.cfx&h=https%3A%2F%2Fwww.bmas.de%2FDE%2FStartseite%2Fstart.html%3Bjsessionid%3D9F8035F71B88FB769131AE4DA818510F.delivery2-replication&o=1618912265943&l=DE&lv=21233&d=1&ct=14&e=&e2=&e3=&i=&sv=35&dv=17&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/pixel.php?id=23129&did=1&cfdid=1&t=cv&h=https%3A%2F%2Fwww.bmas.de%2FDE%2FStartseite%2Fstart.html%3Bjsessionid%3D9F8035F71B88FB769131AE4DA818510F.delivery2-replication&o=1618912265944&l=DE&lv=21233&d=1&ct=14&e=&e2=&e3=&i=&sv=35&dv=17&"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consentmanager.mgr.consensu.org/delivery/consent.php?id=23129&p=2&v=4&cvc=_s23_s135_s905_s24_&cpc=_51_&c=&l=DE&lv=21233&d=1&ct=0&e=&h=https%3A%2F%2Fwww.bmas.de%2FDE%2FStartseite%2Fstart.html%3Bjsessionid%3D9F8035F71B88FB769131AE4DA818510F.delivery2-replication&e2=&e3=&i=&sv=35&dv=17&cookieallowed=1&reg=1&usps=1---"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.consentmanager.mgr.consensu.org/delivery/cmplogo.svg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "base-uri": [
+        "'self'"
+      ],
+      "child-src": [
+        "*.google.com",
+        "*.gstatic.com",
+        "*.youtube.com",
+        "*.pixelpark.com",
+        "*.twitter.com",
+        "*.twimg.com",
+        "*.podigee.com",
+        "*.bmbf.de"
+      ],
+      "default-src": [
+        "'self'",
+        "*.bmas.de",
+        "www.etracker.de"
+      ],
+      "font-src": [
+        "'self'",
+        "data:",
+        "*.podigee.com"
+      ],
+      "frame-ancestors": [
+        "'self'",
+        "*.facebook.com"
+      ],
+      "header_value": "default-src 'self' *.bmas.de  www.etracker.de; base-uri 'self'; style-src 'self' 'unsafe-inline' *.openlayers.org openlayers.org *.openstreetmap.org *.twitter.com *.twimg.com *.podigee.com cdn.consentmanager.mgr.consensu.org consentmanager.mgr.consensu.org; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.googleapis.com *.google.com *.gstatic.com *.openlayers.org openlayers.org *.pixelpark.com *.openstreetmap.org *.twitter.com *.twimg.com *.google-analytics.com *.podigee.com cdn.consentmanager.mgr.consensu.org consentmanager.mgr.consensu.org static.etracker.com code.etracker.com www.etracker.de https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/tables.js https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/landmarks.js https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/images.js https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/lists.js https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/lang.js https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/focus.js; object-src 'self'; font-src 'self' data: *.podigee.com; media-src 'self' blob: *.youtube.com *.bmas.de; child-src *.google.com *.gstatic.com *.youtube.com *.pixelpark.com *.twitter.com *.twimg.com *.podigee.com *.bmbf.de; img-src 'self' data: *.google.com *.gstatic.com *.youtube.com *.openlayers.org openlayers.org *.openstreetmap.org *.pixelpark.com *.twitter.com *.twimg.com  *.google-analytics.com cdn.consentmanager.mgr.consensu.org consentmanager.mgr.consensu.org; frame-ancestors 'self' *.facebook.com",
+      "img-src": [
+        "'self'",
+        "data:",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.youtube.com",
+        "*.openlayers.org",
+        "openlayers.org",
+        "*.openstreetmap.org",
+        "*.pixelpark.com",
+        "*.twitter.com",
+        "*.twimg.com",
+        "*.google-analytics.com",
+        "cdn.consentmanager.mgr.consensu.org",
+        "consentmanager.mgr.consensu.org"
+      ],
+      "media-src": [
+        "'self'",
+        "blob:",
+        "*.youtube.com",
+        "*.bmas.de"
+      ],
+      "object-src": [
+        "'self'"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "*.googletagmanager.com",
+        "*.googleapis.com",
+        "*.google.com",
+        "*.gstatic.com",
+        "*.openlayers.org",
+        "openlayers.org",
+        "*.pixelpark.com",
+        "*.openstreetmap.org",
+        "*.twitter.com",
+        "*.twimg.com",
+        "*.google-analytics.com",
+        "*.podigee.com",
+        "cdn.consentmanager.mgr.consensu.org",
+        "consentmanager.mgr.consensu.org",
+        "static.etracker.com",
+        "code.etracker.com",
+        "www.etracker.de",
+        "https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/tables.js",
+        "https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/landmarks.js",
+        "https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/images.js",
+        "https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/lists.js",
+        "https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/lang.js",
+        "https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/focus.js"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "*.openlayers.org",
+        "openlayers.org",
+        "*.openstreetmap.org",
+        "*.twitter.com",
+        "*.twimg.com",
+        "*.podigee.com",
+        "cdn.consentmanager.mgr.consensu.org",
+        "consentmanager.mgr.consensu.org"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "same-origin",
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1;mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bmas.de\r",
+  "third_parties": {
+    "fqdns": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 11
+  },
+  "tracking": {
+    "num_tracker_cookies": 4,
+    "num_tracker_requests": 11,
+    "trackers": [
+      "cdn.consentmanager.mgr.consensu.org",
+      "consentmanager.mgr.consensu.org",
+      "www.googletagmanager.com"
+    ]
+  }
+}

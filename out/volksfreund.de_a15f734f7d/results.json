@@ -1,0 +1,974 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".volksfreund.de",
+      "expires": 1648306642,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 29383201,
+      "name": "ioam2018",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 126,
+      "value": "0013d4ba38e6b83ff607eebd2:1648306642810:1618930642810:.volksfreund.de:2:rponl:TV-Homepage:noevent:1618930642810:lvkltt"
+    },
+    {
+      "domain": ".ioam.de",
+      "expires": 1649146817.012624,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 30223376.012624025,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003c50bd238eb68ca607eebd20001%3B607eebd3%3B624bfbc1"
+    },
+    {
+      "domain": ".volksfreund.de",
+      "expires": 2145916555.131376,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 526993114.131376,
+      "name": "creid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 24,
+      "value": "1697571818041073578"
+    },
+    {
+      "domain": ".volksfreund.de",
+      "expires": 1621349842,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426401,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618930643549"
+    },
+    {
+      "domain": ".volksfreund.de",
+      "expires": 1650466644,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543203,
+      "name": "OptanonConsent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 327,
+      "value": "isIABGlobal=false&datestamp=Tue+Apr+20+2021+16%3A57%3A24+GMT%2B0200+(Central+European+Summer+Time)&version=6.16.0&hosts=&consentId=af1de60c-154c-46a5-a15f-10ff95d87e12&interactionCount=0&landingPath=https%3A%2F%2Fwww.volksfreund.de%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CSTACK42%3A0%2CC0004%3A0%2CC0005%3A0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 4,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.volksfreund.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "4cdc3234b2e63bc236a34904af08483f408506834c70a20ac0d3e1a250974d9d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Sectigo RSA Domain Validation Secure Server CA",
+        "countryName": "GB",
+        "localityName": "Salford",
+        "organizationName": "Sectigo Limited",
+        "stateOrProvinceName": "Greater Manchester"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1661205599.0,
+      "not_valid_before": 1596751200.0,
+      "serial_number": 186612780345003689259766449719929995724,
+      "subject": {
+        "commonName": "*.volksfreund.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.volksfreund.de/infos/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://volksfreund.de/",
+    "https://www.volksfreund.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://volksfreund.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/fonts/Merriweather-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/fonts/SourceSansPro-Regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/fonts/SourceSansPro-Semibold.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/skins/trierischer-volksfreund/head.css?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/head.js?v=1618462601"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ads.pubmatic.com/AdServer/js/pwt/158201/1473/pwt.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/5/6/1/9/3/tok_96e9730e7e4398d78ccdd9e31607bf9a/w950_h713_x1500_y1000_DPA_bfunk_dpa_5FA4FA00CF0B74D6-b56c9b2e1099676d.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/main.es6.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/widgets/vendor.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/30/2/8/4/9/9/2/4/Abo_icon_gelb_rand-13f770239b7ff8be.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/5/6/1/9/3/tok_1f08946612fef2f9808b4afec08e0d84/w600_h450_x1500_y1000_DPA_bfunk_dpa_5FA4FA00CF0B74D6-b56c9b2e1099676d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/2/3/8/1/3/5/3/tok_e23fa2920a3cad85b70a00a15747bf45/w400_h228_x1500_y985_DPA_bfunk_dpa_5FA524000779EF7E-90410360f4ee2561.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/7/9/8/7/0/0/7/7/tok_db2cea4181268103a3438d1f3170088c/w400_h228_x2397_y961_DPA_bfunk_dpa_5FA0D600F0B50E83-3e5637cfcc48ef25.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/8/0/6/9/0/3/2/3/tok_fd46939a21aa03c207e87ca18129cc39/w400_h228_x1796_y2694_image00004-db6b191c8297009f.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/8/0/4/9/7/9/0/9/tok_69cb27afd65bfb341af26b948802d37e/w400_h228_x1500_y844_DPA_bfunk_dpa_5FA08600D41AF286-e09ae94191816a0e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/8/0/3/6/6/3/5/3/tok_6bdbed34c5a82cf769e22947ade9ff7a/w400_h228_x1796_y1199_D75_7494-e3502d64b8111702.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/8/0/2/6/7/7/5/7/tok_187eb4af1664f649e9a2a8a3fe0f5c63/w400_h228_x1571_y1092_Ve._Thomas_Roth12-003a7d81db8865d0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/1/2/9/6/3/5/tok_0b78f98cf21444bd0469b09a15b38962/w950_h526_x1500_y980_DPA_bfunk_dpa_5FA52400FBCA0A1B-b11bba9503059dec.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/3/3/9/8/7/tok_b137884421da8200751f9cfbc21ddc25/w400_h228_x442_y1268_aprilmorgen_fpl-c11f56b251312a77.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/5/8/4/0/3/5/tok_2ce0a2c4b080c0264693a7d78fc652da/w400_h228_x1796_y1347_IMG_1536-0db580ee9a7c3b94.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/5/1/0/1/3/5/tok_24c44fe8e20dfea8228f26b37fca6ff5/w400_h228_x1796_y1347_170421_Brand_Irsch__2_-be2bc4be2412e583.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/5/0/1/2/8/7/tok_ccbabb88d0c578e639672ca427809777/w400_h228_x1252_y897_ger4pl3i9_ger4pl3i9.1-82896e2bc3b48626.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/4/6/5/2/9/9/tok_de809ae86953ac3be55d800dc971d577/w400_h228_x1796_y1198_DSC_6789-45cffa35447b4f6c.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/4/5/6/7/8/1/tok_99f1462330c32b69d66dcd2aee973c3c/w400_h228_x472_y446_Verlegung_der_L141_bei_Hetzerath_160x151mm_Korr1_online-649b622b57aa244f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/4/3/9/3/4/1/tok_3476b928d73b54eea78ca22c280f13aa/w400_h228_x1796_y1199_IRT_Erweiterung_DSC_9020-a0ce9eb543a99671.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/3/4/8/2/9/9/tok_cada8ab5ae5861fc45be8bb795c9a6e3/w400_h228_x675_y450_27131046097060777-0681e7d4875b2c6e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/2/8/4/6/4/3/tok_05d99b16453a54b6f8ac5b974f232227/w400_h228_x1796_y1347_IMG_20210413_164506-5df3dce1a64ceea5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/2/4/1/2/4/5/tok_677cb87c6fcfe5b709dc7307b3cfd7f4/w400_h228_x1796_y1347_IMG_0378-cfd22033a50dfdf7.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/2/1/3/9/3/1/tok_01b388e128cc2efdc1c4ed5000e92437/w400_h228_x960_y540_Paul_Batteux_1-c54c37964d950270.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/1/9/4/1/9/1/tok_f05d20233a3222ab8e2a2d65131b0492/w400_h228_x1416_y907_Wolsfeld_2018_elektro04-4303b326d3c368fd.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/1/0/1/7/2/5/tok_a48341a954e53749dbcc573d60effbd1/w400_h228_x1796_y1199_D75_2865-e114d7e706c06c4d.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/0/8/1/6/0/1/tok_9fa77219570800b78976157fbe93f1af/w400_h228_x960_y540_060A2B340101010501010D43130000006FBC2818149305CE0080458234D5C011__00.00.24.14_-9a854b163caf1ded.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/0/6/5/7/1/7/tok_6074477a44c88c30433ca20265a89b63/w400_h228_x1024_y681_DSC_0237-fcbb4845f5d42171.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/0/4/1/6/9/5/tok_4f5db70ab6c2777cf08220db89669c53/w400_h228_x1796_y1198_DSC_6927-e2d91cec8360454d.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/7/8/1/7/6/1/tok_3ecb632d35ed5c816e9ea4c74b1626a9/w400_h228_x1796_y1199_D75_2600b-7a9c34f97f938e53.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/7/7/5/8/0/1/tok_4440b16504efe2d13954d0103469b1dc/w400_h228_x1796_y1199_D75_2473-902ee8f5e02d2428.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/5/8/6/0/4/5/tok_c523869c4e589b0c19d77db0aab69cdc/w400_h228_x1796_y1197_TV_mdb_27111183316157437-600e3373d729a50b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/5/8/2/5/9/3/tok_f005678b85713d3078f46fa7d67788e4/w400_h228_x1796_y1010_PXL_20210319_064958301-ee56b707274b93c4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/4/9/2/9/2/5/tok_d7fb37e94ad254bd5677a01cfdfbee28/w400_h228_x1488_y992_TV_mdb_27111183316156610-6362ce264aff379e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/3/9/9/8/9/1/tok_ca80b87e6b4b19c5a6927a11902445db/w400_h228_x1796_y1347_PXL_20210327_145109559-f19024ace389a71f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/2/8/7/2/0/5/tok_c78c78d24c48cb69a225a98b8e7cd16f/w400_h228_x1796_y1347_IMG_0786-f2f4894b8a202ae2.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/3/6/7/3/1/tok_c8b33fc1135befc275f115b540b191e1/w400_h228_x960_y540_060A2B340101010501010D43130000007637BD54249305F30080458234D5C011__00.00.01.20_-6cb43bd2597b660d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/2/9/9/5/9/9/tok_5f2aa66cbf808704d08c0404f4477576/w400_h228_x960_y540_060A2B340101010501010D431300000000473676189305E50080458234D5C011__00.00.11.07_-37f284e45a4056a5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/2/0/1/1/6/3/tok_825ef1033d5f8ef1ec4051b4e7f3faeb/w400_h228_x2592_y1728_120421_Unfall_Palzem__6_von_19_-85aed2ad66ad48cb.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/0/8/1/5/7/1/tok_fe88372cb50c8d477bc593f15dd8d6c1/w400_h228_x960_y540_060A2B340101010501010D43130000007BB21614149305C80080458234D5C011__00.00.16.08_-1f7998e41b314c32.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/5/9/9/6/0/3/tok_db074c546d351ece49bd8fff1460be3f/w400_h228_x1796_y1197_IMG_0254-4afda5854738b4f0.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/3/9/9/6/4/3/tok_39f5883af324bb01e87f6b8613044d7e/w400_h228_x960_y540_060A2B340101010501010D43130000002C72F9D8009305E20080458234D5C011__00.00.03.12_-5d85350c94ca56d0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/1/9/6/9/5/6/7/tok_180c9d2a20c0eeba3d6c07bd49d9d151/w400_h228_x960_y540_060A2B340101010501010D43130000006FCF9E92939205C90080458234D5C011__00.00.22.10_-8b4a498291082134.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/0/2/6/5/5/3/7/tok_32d9ff9de3a990b01a2c1d0adafd7056/w400_h228_x1796_y1197_IMG_0266-dbd7b1e1e1a5c4f4.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/9/9/9/6/6/1/3/tok_8025a9af01758d9df86147e942cf67aa/w400_h228_x960_y540_060A2B340101010501010D43130000006896B176619205ED0080458234D5C011__00.00.04.02_-c31cf924b8c2c92d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/9/4/2/5/8/6/1/tok_96148a991a9571de4d23352f269601da/w400_h228_x2592_y1728_06_02_21_Eule_Saarburg__1_von_7_-c582c4eb1c2dafec.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/9/4/2/4/5/8/1/tok_9e1a4c60e1c1150d5b815fb4a6d9a114/w400_h228_x1504_y1000_Uerzig5-0d6bf318c750486e.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/9/3/6/9/8/3/1/tok_8ac5afbea50a6e9c96e1f271aa9b6742/w400_h228_x960_y540_060A2B340101010501010D431300000018CAF39B509205EE0080458234D5C011__00.00.08.20_-ce710ed0fc09d9f9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/1/6/8/5/7/6/5/tok_4ca372af64a1b7604172156059cfb49a/w400_h228_x960_y540_060A2B340101010501010D43130000008C2A025D899205F30080458234D5C011__00.00.01.22_-b4aa1e052548efe4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/9/3/8/8/1/5/3/tok_9d2a6b724402e076880d70c4e84421d9/w400_h228_x1796_y1347_PXL_20210205_145929183-9c9050a90a1028e4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/9/1/2/3/5/8/3/tok_fb152253ea5c0a7eaeca6e53d5176db4/w400_h228_x1500_y998_DPA_bfunk_dpa_5FA48200B9E47B75-fb963194e010e665.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/7/7/4/8/4/1/1/tok_c5d5e6e055d45e6cf6e883aa7f792713/w400_h228_x960_y540_Foto_100046-78b0943c150c0ead.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/7/4/4/8/1/2/3/tok_d2f169cfb399b69329fa4782b6c0361b/w400_h228_x1824_y1216_IMG_0026-311fbbeab8495c59.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/7/2/6/9/2/5/7/tok_7c25d946becfafeae92d4f1fc6d34fc8/w400_h228_x512_y384_1024-768-max__1_-f39b3cd1b9a02eb6.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/7/0/3/4/8/8/1/tok_ac718dcc023703e883fd3482aa8a8cb1/w400_h228_x1796_y1347_PXL_20201227_070839639.MP-7e9e9d3783f0724c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/5/6/1/4/9/2/5/tok_d1cf634517b5e5b5cfa3d1af9c421217/w400_h228_x1796_y1347_IMG_4907-4ee88ab11c8d282e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/3/0/1/3/3/7/3/tok_5e8c643ec4ea43764511f951e36ad5ea/w400_h228_x787_y1050_image7-74db1c0ce530ff77.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/2/9/8/6/4/8/1/tok_6df9253a7a401a5b73c73ca567293224/w400_h228_x1008_y756_IMG_2065-5cda0e55cd944d50.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/1/3/0/3/9/4/7/tok_0b596794e41913ae8e6af2c9d006ea15/w400_h228_x950_y633_TV_mdb_26845667078963876-b0f2d68a39867719.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/9/0/9/3/2/7/4/5/tok_9b8d19f4df80591d622df54df1dbaa51/w400_h228_x960_y540_060A2B340101010501010D431300000089E04DAD119105C80080458234D5C011__00.00.13.08_-6af1a5b5a0361e0a.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/widgets/weather.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/widgets/traffic.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/8ece6b93-2d49-48cb-96bd-90ea1fbfc99b/8ece6b93-2d49-48cb-96bd-90ea1fbfc99b.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/skins/trierischer-volksfreund/main.css?v=1618462601"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/skins/trierischer-volksfreund/print.css?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K7RHCCM"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/5/9/4/4/1/tok_222bd87af5da95487f9f5aff7c77ab75/w400_h300_x1632_y1224_Autobahn_A1_Hasborn-19eb55f1029150df.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/6/3/0/5/5/tok_76455fe12ac17258b6020fc07f6b51a4/w400_h300_x1726_y613_DPA_bfunk_dpa_5FA4F200269B30C5-ddbc041f03cf9c57.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/5/9/9/3/5/3/tok_e1427667764557727d412732a765c3b7/w400_h300_x1363_y949_DPA_bfunk_dpa_5FA33C009B68618D-5477414f463082bf.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/3/6/3/7/7/tok_9fef392086a36c7805c28539f52492a0/w400_h300_x960_y540_060A2B340101010501010D43130000007637BD54249305F30080458234D5C011__00.00.01.20_-6cb43bd2597b660d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/2/5/4/7/5/tok_d0da37e4132e12d57b16b1dd527191cc/w400_h300_x400_y300_urn-newsml-dpa-com-20090101-210420-99-275903_large_4_3-b69c38d2d67177bb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/5/5/4/5/8/9/tok_14ecd738199fec8b265f54d09235235d/w400_h300_x1016_y343_barbara_spoo_fpl-a076bdfea6ffc9bf.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/5/9/0/1/0/7/tok_c68a7cc00a66beb9ecb23cdbec0667b7/w400_h300_x1853_y1494_imago0087512061h-cacc48b82fd12c49.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/3/6/4/1/9/1/9/tok_00fe6d4ba7fd60f5bae5e0652f372f0c/w400_h300_x1796_y1197_GLADIATORS_SPIELTAG_c_Simon_Engelbert-4142-b99a99bb140ed100.jpg"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=rponl&cp=TV-Homepage&sv=ke&co=https%3A%2F%2Fwww.volksfreund.de%2F&sc=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.volksfreund.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013d4ba38e6b83ff607eebd2&ep=1643611574&vr=424&id=30n7mb&i3=0013d4ba38e6b83ff607eebd2%3A1648306642810%3A1618930642810%3A.volksfreund.de%3A1%3Arponl%3ATV-Homepage%3Anoevent%3A1618930642810&n1=1&dntt=0&lt=1618930642812&ev=&cs=inpc7s&mo=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/imgs/28/1/0/2/1/2/9/7/2/7/tok_5ed24cc38cbfcb073ca75b849c3f97b5/w950_h526_x1500_y1125_DPA_bfunk_dpa_5FA52800A8784381-c8c8a6c4346a7768.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/api/tree?output=html&currentNode=25876&absolute=0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/widgets/navigation.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=rponl&cp=TV-Homepage&sv=ke&co=https%3A%2F%2Fwww.volksfreund.de%2F&sc=yes&ct=0000000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.volksfreund.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013d4ba38e6b83ff607eebd2&ep=1643611574&vr=424&id=30n7mb&i3=0013d4ba38e6b83ff607eebd2%3A1648306642810%3A1618930642810%3A.volksfreund.de%3A1%3Arponl%3ATV-Homepage%3Anoevent%3A1618930642810&n1=1&dntt=0&lt=1618930642812&ev=&cs=inpc7s&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/consent/8ece6b93-2d49-48cb-96bd-90ea1fbfc99b/4bf6f213-4bd4-497b-91b9-d3762c00f4b9/de.json"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/vendorlist/iab2Data.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otTCF.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/cre-1.0/tracking/call.js?serviceid=tv&origin=web&cms_id=2504495&contentid=%2F&channel=25876&subchannel=undefined&doctype=section&kicker=undefined&heading=undefined&entitlementid=digital_web&_u=https%3A%2F%2Fwww.volksfreund.de%2F&_c=cre_callback_62188"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/popper.js?v=1618462601"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://r.volksfreund.de/images/pic.gif?m=tv&b=2846477&cstr=2504495&l=&tit=Nachrichten+f%FCr+Trier%2C+Eifel%2C+Mosel+%26+Luxemburg&url=https%3A%2F%2Fwww.volksfreund.de%2F&sep=%7C&tce=1&tid=25876&tn=Home&tp=25876&tpn=Home&random=0.4586661719204319&r=&json=1&con=1&sz=800x600x24&cs=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/widgets/twig-worker.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://c2.taboola.com/nr/volksfreund/newsroom.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/otCenterRounded.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.cookielaw.org/scripttemplates/6.16.0/assets/v2/otPcCenter.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/cre-1.0/tracking/device.js?width=800&height=600&dpi_x=96&dpi_y=96&tracking_id=1697571818041073578&_c=cre_callback_77575"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.volksfreund.de/assets/slots.js?v=1618462601"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://nr-events.taboola.com/newsroom/1.0/volksfreund/get-action?page.url=https%3A%2F%2Fwww.volksfreund.de%2F&view.id=332818823699363368&page.template=home&page.dashboard=home"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://nr-events.taboola.com/newsroom/1.0/volksfreund/notify-impression?page.url=https%3A%2F%2Fwww.volksfreund.de%2F&view.id=332818823699363368&page.template=home&page.dashboard=home"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "http://toolpool.circit.de",
+        "https://toolpool.circit.de"
+      ],
+      "header_value": "frame-ancestors 'self' http://toolpool.circit.de https://toolpool.circit.de"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://volksfreund.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ads.pubmatic.com",
+      "c.amazon-adsystem.com",
+      "c2.taboola.com",
+      "cdn.cookielaw.org",
+      "de.ioam.de",
+      "geolocation.onetrust.com",
+      "nr-events.taboola.com",
+      "script.ioam.de",
+      "securepubads.g.doubleclick.net",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 19
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 17,
+    "trackers": [
+      "ads.pubmatic.com",
+      "c.amazon-adsystem.com",
+      "c2.taboola.com",
+      "cdn.cookielaw.org",
+      "de.ioam.de",
+      "nr-events.taboola.com",
+      "securepubads.g.doubleclick.net",
+      "www.googletagmanager.com"
+    ]
+  }
+}

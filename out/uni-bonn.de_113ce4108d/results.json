@@ -1,0 +1,793 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.uni-bonn.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "I18N_LANGUAGE",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 17,
+      "value": "\"en\""
+    },
+    {
+      "domain": "www.uni-bonn.de",
+      "expires": 1652806170,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962402,
+      "name": "_pk_id.2.723e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 41,
+      "value": "10a033e7c9d3dd67.1618850970."
+    },
+    {
+      "domain": "www.uni-bonn.de",
+      "expires": 1618852769,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.2.723e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": false,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.uni-bonn.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "cbafa58bc6a34eff1cf94ccef10b741bca7f80ec22be9c31b4e781419cb36c83",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1646556626.0,
+      "not_valid_before": 1612255826.0,
+      "serial_number": 11209905852782277260901730319,
+      "subject": {
+        "commonName": "www.uni-bonn.de",
+        "countryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Rheinische Friedrich-Wilhelms-Universitaet Bonn",
+        "organizationalUnitName": "Hochschulrechenzentrum",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.uni-bonn.de/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.4.4"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://uni-bonn.de/",
+    "http://www.uni-bonn.de/",
+    "https://www.uni-bonn.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://uni-bonn.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.uni-bonn.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/base-cachekey0816.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/dropdown-menu-cachekey0428.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/ploneKss-cachekey9903.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/resourcesb_stylesheetssocial_bookmark-cachekey8389.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/maps-cachekey1176.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/resourceplonetruegallery-portlet-cachekey1883.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/++resource++unibonn.fontawesome/font-awesome.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/resourcejquery-ui-autocomplete.themejquery.ui.all-cachekey6847.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/resourceProducts.Doormat.stylesheetsdoormat-cachekey9658.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/collage-cachekey8109.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/resourceeasySlider-cachekey3761.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/resourceeasyslider-portlet-cachekey2569.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/unibonnstartseite-cachekey0415.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/ploneglossary_popup-cachekey0776.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/++resource++unibonn.storytelling/juxtapose.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/ploneCustom-cachekey7549.css"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/jquery-1.12.0.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/jquery-integration-1.12.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/jquery.cycle2.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/footnote-links.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/jquery-cachekey1170.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/jquery.json.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/cookie_plugin.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/cssQuery-cachekey0757.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/calendar_formfield-cachekey0651.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/sarissa-cachekey9246.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourcekukit-cachekey4649.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourcedropdown-menu-cachekey7005.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceunibonn.audiencemanagement.javascriptsaudiencemanagement-cachekey8392.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++unibonn.youtube.javascripts/main.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++unibonn.youtube.javascripts/kuputools.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++unibonn.youtube.javascripts/initcustomtools.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++cwx.protectemails.javascript/protectemails.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++cwx.protectemails.javascript/jquery.base64.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceplonetruegallery-portlet-cachekey6423.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceunibonn.shortenerjqtxtex-cachekey3415.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceunibonn.shortenershrtn-cachekey4472.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++unibonn.courses/main.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourcejquery-ui-autocomplete.min-cachekey8103.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourcecollage-resourcescollage-cachekey8712.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceeasySlider-cachekey8496.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceeasyslider-portlet-cachekey9081.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/breakpoints.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/unibonntheme2016.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/resourceunibonn.rootobject.staticsearch-cachekey7790.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++unibonn.storytelling/juxtapose.min.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_javascripts/unibonn_theme2016/++resource++unibonn.storytelling/storytelling.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/startpage/sublogo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/the-new-rectorate"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/slider-60-2021-2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/slider-049-2021.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/news/091-2021/ZEF-Arabuko-Sokoke-C.-Schmitt-Kenya.JPG/image_preview"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/news/protection-of-vines-from-introduced-diseases/vine/image_preview"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/news/088-2021/section/image_preview"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/news/086-2021/AMC-Photo-4-3.jpg/image_preview"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/news/how-do-creatures-transform-into-a-fossil/225-million-year-old-rainbow-wood/image_preview"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/news/083-2021/Yu_Peng_BFro_003_a.jpg/image_preview"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/Illustr_250x150pix_Rectorate_engl.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/Illustr_250x150pix_impdigitalstudies.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/Illustr_250x150pix_SignsOfLife.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/Weltoffen-englisch.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/images/wissenschaftsrallye-poppelsdorf-2021.jpg/image_OneFourth"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/startpage/3/1/unifest/image_one_fourth"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/startpage/3/2/kinderuni/image_one_fourth"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/startpage/3/3/studienberatung/image_one_fourth"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/startpage/3/4/karneval/image_one_fourth"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/spinner.gif"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/++resource++unibonn.fontawesome/++resource++unibonn.fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_css/unibonn_theme2016/++resource++unibonn.theme2016.static/Exo2-Regular.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://webstat.hrz.uni-bonn.de/matomo.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_kss/unibonn_theme2016/at-cachekey9949.kss"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_kss/unibonn_theme2016/resourcesb_stylesheetsshare-cachekey2155.kss"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/portal_kss/unibonn_theme2016/fckeditor_plone-cachekey2549.kss"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.uni-bonn.de/logo_200jahre.jpeg"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://webstat.hrz.uni-bonn.de/matomo.php?action_name=University%20of%20Bonn%20%E2%80%94%20Universit%C3%A4t%20Bonn&idsite=2&rec=1&r=963612&h=18&m=49&s=29&url=https%3A%2F%2Fwww.uni-bonn.de%2F&_id=10a033e7c9d3dd67&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=pQ56qu&pf_net=83.74999999978172&pf_srv=19.470000000183063&pf_tfr=19.19999999972788"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "https://webstat.hrz.uni-bonn.de",
+        "https://cms-webstat3.rhrz.uni-bonn.de",
+        "https://shortener.rhrz.uni-bonn.de",
+        "https://apis.google.com"
+      ],
+      "default-src": [
+        "'self'",
+        "https://*.rhrz.uni-bonn.de"
+      ],
+      "font-src": [
+        "'self'",
+        "https://fonts.gstatic.com"
+      ],
+      "frame-ancestors": [
+        "'self'",
+        "https://*.uni-bonn.de"
+      ],
+      "frame-src": [
+        "'self'",
+        "https://*.uni-bonn.de:*",
+        "https://content-youtube.googleapis.com",
+        "https://www.youtube.com",
+        "https://www.youtube-nocookie.com",
+        "https://content.googleapis.com",
+        "mailto://*"
+      ],
+      "header_value": "default-src 'self' https://*.rhrz.uni-bonn.de; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.rhrz.uni-bonn.de https://www.youtube.com https://s.ytimg.com https://maps.google.com https://maps.googleapis.com https://apis.google.com https://ajax.googleapis.com https://webstat.hrz.uni-bonn.de https://cms-webstat3.hrz.uni-bonn.de; img-src 'self' data: https://*.rhrz.uni-bonn.de https://i.ytimg.com https://maps.gstatic.com https://maps.google.com https://www.uni-bonn.de https://*.googleapis.com https://*.uni-bonn.de; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'self' blob:; frame-src 'self' https://*.uni-bonn.de:* https://content-youtube.googleapis.com https://www.youtube.com https://www.youtube-nocookie.com https://content.googleapis.com mailto://*; frame-ancestors 'self' https://*.uni-bonn.de; connect-src 'self' https://webstat.hrz.uni-bonn.de https://cms-webstat3.rhrz.uni-bonn.de https://shortener.rhrz.uni-bonn.de https://apis.google.com;",
+      "img-src": [
+        "'self'",
+        "data:",
+        "https://*.rhrz.uni-bonn.de",
+        "https://i.ytimg.com",
+        "https://maps.gstatic.com",
+        "https://maps.google.com",
+        "https://www.uni-bonn.de",
+        "https://*.googleapis.com",
+        "https://*.uni-bonn.de"
+      ],
+      "object-src": [
+        "'self'",
+        "blob:"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "https://*.rhrz.uni-bonn.de",
+        "https://www.youtube.com",
+        "https://s.ytimg.com",
+        "https://maps.google.com",
+        "https://maps.googleapis.com",
+        "https://apis.google.com",
+        "https://ajax.googleapis.com",
+        "https://webstat.hrz.uni-bonn.de",
+        "https://cms-webstat3.hrz.uni-bonn.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://fonts.googleapis.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15552001",
+      "includeSubDomains": false,
+      "max-age": 15552001,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://uni-bonn.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

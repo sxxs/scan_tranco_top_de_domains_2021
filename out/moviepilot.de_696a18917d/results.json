@@ -1,0 +1,806 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.moviepilot.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "_moviepilot_de_session",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 216,
+      "value": "bTRGN0w1emI2aEZ2TXB2OURuT2JSbVVVL0ROaGJDTUpJVUt1NEdlOTM2SWpEZ3c1cE5xT2hsdmdFVmF6VUtlckpPMlZqcitqaDhiaHNQaGYzWVMvNlE9PS0tUlEybFNFNjlXSEJmajJuL1hDL2p3UT09--96accba3e8ee7a927545d226aa23c724f7729d08"
+    },
+    {
+      "domain": ".moviepilot.de",
+      "expires": 1650538835,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31629603,
+      "name": "didomi_token",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 200,
+      "value": "eyJ1c2VyX2lkIjoiMTc4ZWVmMDYtM2RhMC02OTYwLWIxMDEtNjc5MzE4NTU0NTdjIiwiY3JlYXRlZCI6IjIwMjEtMDQtMjBUMTE6MDA6MzUuMDAzWiIsInVwZGF0ZWQiOiIyMDIxLTA0LTIwVDExOjAwOjM1LjAwM1oiLCJ2ZXJzaW9uIjpudWxsfQ=="
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.moviepilot.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "dc24055c808353e69528ed28692a1d0a79f492a73558b7b5a7bab8e008350be2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "AlphaSSL CA - SHA256 - G2",
+        "countryName": "BE",
+        "organizationName": "GlobalSign nv-sa"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626515854.0,
+      "not_valid_before": 1592564607.0,
+      "serial_number": 38102882545641653493335883605,
+      "subject": {
+        "commonName": "*.moviepilot.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.moviepilot.de/pages/imprint",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.2"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://moviepilot.de/",
+    "http://www.moviepilot.de/",
+    "https://www.moviepilot.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://moviepilot.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.moviepilot.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/v1/moviepilot-8fcf0eea5e45f8f9c70d54d9e8f029eac3463c177c2de84971017a093ee36674.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/v1/core-79480ccc93fc4628687698c8b54829215d89da62a1774f118a756f92ec330970.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/v1/deferred-desktop-b9f70049dcf60aac1ef614e0c92114a1afd58bdb361d7a1c5df7ec0305759f7c.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/packs/be91b7821574a2164a8d.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/packs/9148cd20419943f09af7.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/packs/4821e0316a1f871bded3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/packs/be91b7821574a2164a8d.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/javascripts/dfp/wbd_dfp.98f7ad22.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700|Roboto:700,700italic,400,400italic"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/v1/home-b72f6c78586d7b7be69d94ad6e6da24fa2bb85f06f194743d924c402a45e0a92.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/92cafa9c7108b40bfb80b3dbc5a0286e3735b48a28a871fe49c31c046a30/limit/590/1000/Fear-the-Walking-Dead-Meinung"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/0abd84785924dbdd69cd1a9f9c96c2ca0b6f32ebfec6242522a84168ffab/limit/590/1000/Schwarze-Adler-Fu%C3%9Fball-bei-Amazon-prime.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/b63b64653a895ffbe39c4f74d596e51d294a002f1559a933c038d411ae0b/limit/590/1000/game-of-thrones-01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/bc0d83957ade1c3345dce69d5b89bad60dce570ba5a27dd9aea17193faaf/limit/590/1000/captain-america-03.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/5b74b31344e1bf4ea1ef227841502d88b3fc2fd4b6902351830ceb38cc8e/limit/590/1000/Thor+3+Headerbild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/e45b6aae238fff800d032006e64b6a94ac7e997e4280a8e9745b2f392043/limit/590/1000/harry-potter-heiligtumer-des-todes-2-verlierer-lupin-remus-schaden.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/9f678c9b87d3253d231135d1600444268aa0d859ff032127702171b1e32e/limit/590/1000/Under+the+Shadow.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/df479882c73596981fb3ae17524fa89aba58beb5a606700f76c971230e87/limit/590/1000/Shameless"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/da693a3e22da4faa9096c3b6e9b48018099b9fad6613e7320f50f5763a7d/limit/590/1000/harry+potter+1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/c0ca0165c9c14ebc62e655635e45bbe9a95198a94f72a04ee9803a31a223/fill/200/96/mad-max-fury-road.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/c9e5ba20ba1ca66f1bf22c60213dc2a53ed212dd8f8c21183ac7f29b25bf/fill/200/96/Batman.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/02f3dba7fb6d852f38a9ea3821ec150a1fe2a7424d6779cad32e6901234b/fill/200/96/Kaley-Cuoco-The-Flight-Attendant-Amazon.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/2b507110ba349b0d71e67838d5f07a713e9653187dafd7ee2fabd82e7804/fill/200/96/ginny+georgia+.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/8799c6a8cc480b7511fdef731a0f51d9ae6c32202499580453e9a1a2bb8c/fill/200/96/star-wars-obi-wan-anakin.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/215cad2c2904b8ed1ec5779ef786c4566aee324018629e756c872f1dc217/fill/200/96/love-death-robots-staffel-2-trailer.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/ac08b37325a24b577d1433f67bc0ede315ef7f37805da4a1fb0b784050cc/fill/106/150/MV5BNzMxMzJhYzQtNjVhMS00ZjkwLWI4MjQtMWEzMjEyYjUxNzFjXkEyXkFqcGdeQXVyMTA4NjE0NjEy.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/70058ab0f37bd8eeee7dcfd5efb574f1480202ce50730992793daba7e21c/fill/106/150/MV5BYTU1ZDk2NTMtMjczZC00MWYwLWFiNDUtMjNhMTEzNGY3OTBjXkEyXkFqcGdeQXVyNDQ3NjExMjE%40.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/ea8920eaa70e65b803beb5a705112fd9fba6f949342401f7ef9495e27da8/fill/106/150/Woman_Plakat_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/2160d66b04b2e77ba64bcff22cffeae015dafe2456fa0c98cb61832170ab/fill/106/150/DasMdchenDeinerTrume_Plakat_01.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/images/v1/no_poster.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/a7b0770f22f7a41a26a9615cab238a17b5afe8f3c64835e7cd2b1af471b3/fill/106/150/Scars-A1-DE.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/92917df2b3cbed431d54bd4539ddbbdd17220ebfd410ad41b17704e43246/fill/106/150/Oeconomia_Plakat_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/1c28f3dd28d69c1bc6ada030107903ecb1ee9f1430619a3c07c47241071d/fill/106/150/22A_HOPS_GermanyPayoff_B1_Germany.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/0114b0999dadd1c3f83d59b5f38d7274f2a48a1811fb3e33e959176deaea/fill/106/150/b1780x1450.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/885a6f8692fc09e6d603e2aa3ae661ddf7d73e1b248ca01242516d853a2b/fill/106/150/MV5BNTRlMGE4OGMtNzc4OC00ZTEwLTk5NjgtNDQ4YTgxOGY0NTZjXkEyXkFqcGdeQXVyMTA3MDk2NDg2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/22d3949e5a7da4c3626eef0742f012a8f4bd34bcabd1d464d8931af1e2ba/fill/106/150/2019-10-10_TESS_Plakat_A4_300dpi.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/d1ed5499fbd8df135a40ec7a4add65b48c32e78609ad31bda9d02e1954d9/fill/106/150/Ema_Plakat_01.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/69faad004dbc9f0d3001f39eafc0b548f300591201047d63c3026a65d87f/fill/106/150/DieDirigentin_Plakat_01_DE.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/f6d32f2698942f89eff0387c5090947e16a87f822deaf7a8333998f0d3e6/fill/106/150/1_Allmen_u_d_Geheimnis_d_Erotik_Titel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/3f1f8b1b724bea8a44fc6d0876c02c736a4d0f14fa21cbb2ca30c60f1d21/fill/106/150/91DaqhhJv5L.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/48073baf3aa7afdd410ce8c9cc6d3804339b65b0929fce9347d29bba8268/fill/106/150/psych.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/abc9bcbca7b9468ba25c95055636ba8792caa1da833ade722a04d8463d2a/fill/106/150/UeberDieUnendlichkeit_10x15.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/bef8b28581151cd315e67ff53c0067f2d17d1c717651e6977be550b5f353/fill/106/150/DCM_Pelikanblut_Artwork.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/bbfcc76beec26973829793c4228d6d3967dc2129bcec2320c198fa49a9bf/fill/106/150/heat-plakat-1.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/8a17898155a88f501971292da6a01200a28f56746e275f78462817729308/fill/106/150/zzzzzzz.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/d5bc13f1e89dd3bda443d381a598ca482af8400ba02958bb0035e0d3dd30/fill/106/150/sleepers.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/44d9a036d220589c17d68155ea788fb3b4f3a6962c1fd041993e2ddb4762/fill/106/150/Good_will_hunting_poster.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/f729b812432cd45a3121c145ab1b29920d9662f5793bba5b1c599af66c55/fill/106/150/killbill.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/326eede9eedd05a300e3a4e1c1b04c7eca26e67c4ea69bf2577de49aac93/fill/106/150/eleven.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/15ca533a852d0ef390a2605cba59ef46ac79deb50c1bc5ac93d9f242cde7/fill/106/150/MPW-54981.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/2bb4033389aa1e9a7a20365d993eb684bae70219906df750d6f44bf531fc/fill/106/150/zzzzzzz.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/5cf5ffda21bc92a64f9d9835af9ec9f97d9b1dbcdfae0d91b8c2bd400d55/fill/106/150/21009.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/0013e01b82395e488dfae9e8346a05fa8ecb47cee6b0bd19e3df1c7ccdb5/fill/106/150/42451.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/b6052eaa6b17e087cef1bb877eb45fa537b5079ab0ff22c307f9e0330e76/fill/106/150/48f164cfe0480.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/c06b8c343db98f984a18a3d6d1af29448991a16fc36c3b34baedfe4f86f6/fill/106/150/The_Cleaners_Plakat_01_deutsch.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/offer/vod_banner-4c6782cd0d2f893095c9cec0f1349f197c7e2509b23009faf089a956da634826.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/4c2c6f3c90ea7ca3b779a2a8add1f4ec7a4f2e1d349e94dc01ec81fc49f7/limit/98/47/MP+Gewinnspiel_Marvel_Find+your+Power.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/22cd08056a36854bca5fc1fd035460c4a00a1469ff3c6788e07e7a09e02d/limit/98/47/baby-yoda-gewinnspiel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/e9400321f444bb7e054b7505196b757527831c1ed6fe4b7ed073e18a76f7/limit/98/47/GWS_MP_TheWitchNextDoor.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/autotrack-9b652da7f173d756fe050fbf255719d29493711f09fb0d217b73ff3b27d66c46.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/969f779f-570e-47ae-af54-36b8692b345e/loader.js?target=www.moviepilot.de"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/api/session"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/icons-de56612e1ad82d6f29233776fbf0ba5bfe2a7fb91a7a6a0c4136e03402d33698.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/26268f45a293ec567da0d940cec51e0bf43e04ef6819fd896dcc91e1492a/limit/286/1000/MV5BOWYyZmQwNGUtYzMyNy00YzJmLWFlODctYWE5NTg4N2FmN2Q4XkEyXkFqcGdeQXVyMzI2MDYxMTI%40.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/da02864b1ef36bb4cff2a773eb2828fd62647c04d52e7a45121a84a05bd8/limit/150/200/MV5BNmEwZWUwYmQtYzBmZC00MjQ0LWI5MjYtOWMxMDhhODlmZjliXkEyXkFqcGdeQXVyMTI5Mzk1NTc2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/88d12f80eb60b943fc83821a4aba28442538966f14244b628e54a3ff7005/limit/150/200/serpent_xlg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/616f4f5a540a1b65df0e1cd6cadbd14fbb8eb36d7bf354dceb0bd9b93f94/limit/150/200/irregulars_xlg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/e9e438a41c68adab2401399e3f6c1a5f27b0e9668acea06b1083344e1650/limit/150/200/your_honor_xlg.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/c4f6d9005e7d6a1bc2168b2b78453bfc6f63f4ccfc78d13fe72d610756e0/limit/150/200/FWS_Digital_Payoff_KeyArt_v1b_Lg.jpg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYbw.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/javascripts/dfp/prebid.3bd98a80.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/javascripts/dfp/ias.51fbc7f6.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/javascripts/libs.js?20170912"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/assets/rating-d7508b7ba47a2da09b38acf9cd131fddf326dcfdd56f132127d5e580b609a776.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/fonts/mp-icons.ttf?-5gdc8t"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/sdk.882eed468c296960a1e82ca6b5bc759f70e9820c.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/3cd0072697f6dead966c4008af770af16bbf664a04d5dad6778586f62754/limit/70/100/chaos-walking.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/4ed665eadd1346acf82a4aca736fc9dd337992aded39830d33ef5de1ba11/limit/70/100/promising-young-woman.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/488f1462c387c68b7705b0acbebbda9e05c19fc58ca3b98375c5d6e019b8/limit/70/100/nobody--2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/48c661d7bd744e17415557170fa189d2c32c9e0439ea6e2932a5620a60e2/limit/70/100/mortal-kombat--2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://assets.cdn.moviepilot.de/files/58dfd6727afd81af65a6eb8c7c1db88ba2746c7ddf3f5f32b2770165efcf/limit/70/100/the-father--2.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/ui-gdpr-de.882eed468c296960a1e82ca6b5bc759f70e9820c.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.moviepilot.de/images/logos/moviepilot_logo_cmp.svg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "https:",
+        "wss:",
+        "data:",
+        "blob:"
+      ],
+      "default-src": [
+        "https:"
+      ],
+      "header_value": "default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' data:; style-src https: 'unsafe-inline'; media-src http: 'unsafe-inline' https: data: blob:; connect-src https: wss: data: blob:; img-src * data: https: android-webview-video-poster:",
+      "img-src": [
+        "*",
+        "data:",
+        "https:",
+        "android-webview-video-poster:"
+      ],
+      "media-src": [
+        "http:",
+        "'unsafe-inline'",
+        "https:",
+        "data:",
+        "blob:"
+      ],
+      "script-src": [
+        "https:",
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "data:"
+      ],
+      "style-src": [
+        "https:",
+        "'unsafe-inline'"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://moviepilot.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "sdk.privacy-center.org"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 7
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "sdk.privacy-center.org"
+    ]
+  }
+}

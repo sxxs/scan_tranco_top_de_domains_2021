@@ -1,0 +1,525 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.charite.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "f15b667de0d3bd0f56e65b98449aabb452e370193c72e93089bd05a58523043f",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1653464289.0,
+      "not_valid_before": 1582274289.0,
+      "serial_number": 10656844302941742918422260437,
+      "subject": {
+        "commonName": "*.charite.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Charite - Universitaetsmedizin Berlin",
+        "organizationalUnitName": "GB IT",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.charite.de/service/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://charite.de/",
+    "https://www.charite.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://charite.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/css/main.css?1618498553"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/_processed_/b/2/csm_Banner_Med-Masken-Abstand_dt_01-04-2021_7c29fe2150.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/_processed_/f/5/csm_Banner_Besuchsverbot_2021-04_Deutsch_d105c217a2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/klinikum/Buehnenbilder/WPE_6192_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/studium/buehnenbilder/charite-besprechung_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/forschung/Buehnenbilder/Lab040018_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/karriere/Buehnenbilder/4982_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/bilderpool/fallback_presse_portal/presse200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/_processed_/8/5/csm_05_Kryo-TEM_af95c7bc34.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/bilderpool/fallback_event_1er_kachel/VA_05_200x200.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/logos-u-siegel/newsweek/Newsweek_2021_200x200.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/Themen/Charite-Serie_Staffel_3/Charite_Dreh_Staffel_3_2020_3_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/diverse/GeDenkOrt_Ausschnitt02_200x200.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/logos-u-siegel/audit_bf_200x200.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/diverse/BUA_Logo_200x200.JPG"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/diverse/Quest_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/_processed_/4/a/csm_Kachel_Kollektion_internet_9d6ebb5ac1.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/logos-u-siegel/WHS_logo_2015_mehr_Rand_200x200.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/logos-u-siegel/BMM_Logo_PUR_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/Veranstaltungen/WPE_5387_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/studium/buehnenbilder/Deutschlandstipendium_200x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/microsites/sonstige/alumni/AlumniStart_200x200.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/_processed_/a/1/csm_logo-nominiert_f9f359eb05.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/main.js?1618498553"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/powermail/frontend.js?1618498553"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/font-2020/charite-icons-erstehilfe.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/img/svg/1_german.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/img/svg/1_english.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/img/svg/1_russian.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/Images/googlelogo_lightgrey_46x16dp.png"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/font/roboto/roboto-300.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/img/svg/logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/klinikum/themen/Coronavirus-2020/Seite_1Jahr_940x420.jpg"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/font-2020/charite-icons-2020.woff?1bbzt4"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/font/roboto/roboto-500.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/jquery/jquery.min.js?basket-unique=1.11.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/modernizr/modernizr.custom.min.js?basket-unique=2.8.1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/piwik/piwik/piwik.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/bra/loadmodule/jquery.loadmodule.min.js?basket-unique=1.0.0"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/piwik/piwik/piwik.php?action_name=Charit%C3%A9%20%E2%80%93%20Universit%C3%A4tsmedizin%20Berlin&idsite=30000000&rec=1&r=172037&h=11&m=11&s=33&url=https%3A%2F%2Fwww.charite.de%2F&_id=&_idts=1618909893&_idvc=1&_idn=1&_refts=0&_viewts=1618909893&send_image=1&cookie=1&res=800x600&gt_ms=124&pv_id=JE4P4s"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/jquery-cookie-master/src/jquery.cookie.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/placeholder/placeholders.min.js?basket-unique=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/underscore/underscore-min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/flexslider/jquery.flexslider-min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/typeahead/typeahead.bundle.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/jquery-ui-1.11.4.custom/jquery-ui.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/jquery-oncssanimationend/jquery.oncssanimationend.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/Gutes-tun/Gutes-Tun-Buehne-final_940x420.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/Images/Icons/icon-gutestun-4c.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/a21typeahead/src/bloodhound/a21bloodhound.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/typo3conf/ext/charite_site/Resources/Public/js/libs/vendor/jquery-ui-1.11.4.custom/jquery-ui.min.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/klinikum/themen/12_1Jahr_COVID-19/Corona_Buehne_visual_940x420.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/Themen/Prokop/BMM_Prokop_KeyVisual_940x420_o-Text.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/die-charite/Strategie-2030/Startseitenbuehne_01_940x420-d.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/klinikum/themen/12_1Jahr_COVID-19/Buehne_Visual_940x420_lars.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.charite.de/fileadmin/user_upload/portal_relaunch/klinikum/themen/12_1Jahr_COVID-19/Virus_Buehne_visual_940x420.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://charite.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

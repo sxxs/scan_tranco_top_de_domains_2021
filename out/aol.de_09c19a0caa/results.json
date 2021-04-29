@@ -1,0 +1,272 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".aol.de",
+      "expires": 1618851552.420713,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001.420712947845,
+      "name": "GUCS",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 12,
+      "value": "AQtGnpzj"
+    },
+    {
+      "domain": ".aol.de",
+      "expires": 1650385752.420819,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201.420819044,
+      "name": "BX",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 24,
+      "value": "f8r6t21g7rbuo&b=3&s=ck"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_8236ee08-a526-43f5-aced-01da9efc45b0",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "75be4cfd074285ce81fdb2535c0a964dd780aca09e360de11a3ee93660c45b85",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 High Assurance Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1620165599.0,
+      "not_valid_before": 1606172400.0,
+      "serial_number": 4618567957122387076968716984409157281,
+      "subject": {
+        "commonName": "consent.oath.com",
+        "countryName": "US",
+        "localityName": "Sunnyvale",
+        "organizationName": "Oath Inc",
+        "stateOrProvinceName": "California"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://aol.de/",
+    "https://www.aol.de/",
+    "https://guce.aol.de/consent?brandType=eu&gcrumb=C0aenOM&lang=de-DE&done=https%3A%2F%2Fwww.aol.de%2F",
+    "https://guce.advertising.com/collectIdentifiers?sessionId=3_cc-session_6ffcb0c3-0443-4067-a020-b232b7fe9c2d",
+    "https://guce.aol.de/consent?apidSessionId=3_cc-session_6ffcb0c3-0443-4067-a020-b232b7fe9c2d&done=https%3A%2F%2Fwww.aol.de%2F%3Fguccounter%3D1&lang=de-DE&brandType=eu&gcrumb=C0aenOM&trapType=ats&bucketed=false&src=null",
+    "https://api.login.aol.com/oauth2/request_auth?client_id=dj0yJmk9bjJVM2RKSTVHYUZPJmQ9WVdrOVRYQm9lbFJ5TjJrbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wNA--&response_type=code&scope=guce-w&prompt=none&redirect_uri=https%3A%2F%2Fguce.aol.de%2Fconsent&state=YXBpZFNlc3Npb25JZD0zX2NjLXNlc3Npb25fNmZmY2IwYzMtMDQ0My00MDY3LWEwMjAtYjIzMmI3ZmU5YzJkfGJyYW5kVHlwZT1ldXxidWNrZXQ9Y29uc2VudF9yZWplY3RfYWxsXzJ8ZG9uZVVybD1odHRwczovL3d3dy5hb2wuZGUvP2d1Y2NvdW50ZXI9MXxnY3J1bWI9QzBhZW5PTXxsYW5nPWRlLURFfHNyYz1udWxsfHRyYXBUeXBlPWF0cw==",
+    "https://api.login.aol.com/oauth2/request_auth_fe?client_id=dj0yJmk9bjJVM2RKSTVHYUZPJmQ9WVdrOVRYQm9lbFJ5TjJrbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wNA--&response_type=code&scope=guce-w&prompt=none&redirect_uri=https%3A%2F%2Fguce.aol.de%2Fconsent&state=YXBpZFNlc3Npb25JZD0zX2NjLXNlc3Npb25fNmZmY2IwYzMtMDQ0My00MDY3LWEwMjAtYjIzMmI3ZmU5YzJkfGJyYW5kVHlwZT1ldXxidWNrZXQ9Y29uc2VudF9yZWplY3RfYWxsXzJ8ZG9uZVVybD1odHRwczovL3d3dy5hb2wuZGUvP2d1Y2NvdW50ZXI9MXxnY3J1bWI9QzBhZW5PTXxsYW5nPWRlLURFfHNyYz1udWxsfHRyYXBUeXBlPWF0cw==",
+    "https://guce.aol.de/consent?error=login_required&error_description=login_required&state=YXBpZFNlc3Npb25JZD0zX2NjLXNlc3Npb25fNmZmY2IwYzMtMDQ0My00MDY3LWEwMjAtYjIzMmI3ZmU5YzJkfGJyYW5kVHlwZT1ldXxidWNrZXQ9Y29uc2VudF9yZWplY3RfYWxsXzJ8ZG9uZVVybD1odHRwczovL3d3dy5hb2wuZGUvP2d1Y2NvdW50ZXI9MXxnY3J1bWI9QzBhZW5PTXxsYW5nPWRlLURFfHNyYz1udWxsfHRyYXBUeXBlPWF0cw%3D%3D",
+    "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_8236ee08-a526-43f5-aced-01da9efc45b0"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://aol.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.aol.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://guce.aol.de/consent?brandType=eu&gcrumb=C0aenOM&lang=de-DE&done=https%3A%2F%2Fwww.aol.de%2F"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://guce.advertising.com/collectIdentifiers?sessionId=3_cc-session_6ffcb0c3-0443-4067-a020-b232b7fe9c2d"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://guce.aol.de/consent?apidSessionId=3_cc-session_6ffcb0c3-0443-4067-a020-b232b7fe9c2d&done=https%3A%2F%2Fwww.aol.de%2F%3Fguccounter%3D1&lang=de-DE&brandType=eu&gcrumb=C0aenOM&trapType=ats&bucketed=false&src=null"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api.login.aol.com/oauth2/request_auth?client_id=dj0yJmk9bjJVM2RKSTVHYUZPJmQ9WVdrOVRYQm9lbFJ5TjJrbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wNA--&response_type=code&scope=guce-w&prompt=none&redirect_uri=https%3A%2F%2Fguce.aol.de%2Fconsent&state=YXBpZFNlc3Npb25JZD0zX2NjLXNlc3Npb25fNmZmY2IwYzMtMDQ0My00MDY3LWEwMjAtYjIzMmI3ZmU5YzJkfGJyYW5kVHlwZT1ldXxidWNrZXQ9Y29uc2VudF9yZWplY3RfYWxsXzJ8ZG9uZVVybD1odHRwczovL3d3dy5hb2wuZGUvP2d1Y2NvdW50ZXI9MXxnY3J1bWI9QzBhZW5PTXxsYW5nPWRlLURFfHNyYz1udWxsfHRyYXBUeXBlPWF0cw=="
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://api.login.aol.com/oauth2/request_auth_fe?client_id=dj0yJmk9bjJVM2RKSTVHYUZPJmQ9WVdrOVRYQm9lbFJ5TjJrbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wNA--&response_type=code&scope=guce-w&prompt=none&redirect_uri=https%3A%2F%2Fguce.aol.de%2Fconsent&state=YXBpZFNlc3Npb25JZD0zX2NjLXNlc3Npb25fNmZmY2IwYzMtMDQ0My00MDY3LWEwMjAtYjIzMmI3ZmU5YzJkfGJyYW5kVHlwZT1ldXxidWNrZXQ9Y29uc2VudF9yZWplY3RfYWxsXzJ8ZG9uZVVybD1odHRwczovL3d3dy5hb2wuZGUvP2d1Y2NvdW50ZXI9MXxnY3J1bWI9QzBhZW5PTXxsYW5nPWRlLURFfHNyYz1udWxsfHRyYXBUeXBlPWF0cw=="
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://guce.aol.de/consent?error=login_required&error_description=login_required&state=YXBpZFNlc3Npb25JZD0zX2NjLXNlc3Npb25fNmZmY2IwYzMtMDQ0My00MDY3LWEwMjAtYjIzMmI3ZmU5YzJkfGJyYW5kVHlwZT1ldXxidWNrZXQ9Y29uc2VudF9yZWplY3RfYWxsXzJ8ZG9uZVVybD1odHRwczovL3d3dy5hb2wuZGUvP2d1Y2NvdW50ZXI9MXxnY3J1bWI9QzBhZW5PTXxsYW5nPWRlLURFfHNyYz1udWxsfHRyYXBUeXBlPWF0cw%3D%3D"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_8236ee08-a526-43f5-aced-01da9efc45b0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/css/site-ltr-f5af91e0.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/wm/assets/images/ns/aol-logo-black-v.0.0.2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/wm/assets/images/ybar/aol-logo-white-v0.0.4.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/js/site-02d621ab.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/images/home_f85f9a6ec27318b6.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.yimg.com/oa/build/images/scroll-arrow-2x_673d08f24769fbac.png"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://aol.de\r",
+  "third_parties": {
+    "fqdns": [
+      "api.login.aol.com",
+      "guce.advertising.com",
+      "s.yimg.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 9
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 1,
+    "trackers": [
+      "guce.advertising.com"
+    ]
+  }
+}

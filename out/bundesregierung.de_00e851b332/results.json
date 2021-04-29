@@ -1,0 +1,451 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bundesregierung.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "cookie-allow-necessary",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 23,
+      "value": "1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bundesregierung.de/breg-de",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "576f57fd7041a8ffa32905a9b365dd159de1866be725c8fc481afa6f88924ec2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Extended Validation Class 3 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1634680799.0,
+      "not_valid_before": 1602670687.0,
+      "serial_number": 79871826857822696568556477459522064640,
+      "subject": {
+        "businessCategory": "Government Entity",
+        "commonName": "bundesregierung.de",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Berlin (Charlottenburg)",
+        "jurisdictionStateOrProvinceName": "Berlin",
+        "localityName": "Berlin",
+        "organizationName": "Presse- und Informationsamt der Bundesregierung (BPA)",
+        "organizationalUnitName": "Internetredaktion",
+        "serialNumber": "1949-09-15",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bundesregierung.de/breg-de/impressum?view=",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bundesregierung.de/",
+    "https://www.bundesregierung.de/breg-de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bundesregierung.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/breg-de"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/themes/relaunch/css/relaunch-1562520-49.css"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1891270/16x9/1023/575/fd5f453ee6fb6fcdc6bb57bc586464fd/sG/2021-04-18-gedaechtniskirche.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/blob/973812/1884730/034334cf8e709802f6bb34037bd69bc8/2021-04-08-corona-zahlen-grafik-uebersicht-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1890212/16x9/945/532/36116c8e92c831779f2d33a4af512530/Ht/2021-04-16-bkin-btag.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1891508/16x9/945/532/4d1a4291003f836b05a425688ce0e628/xF/2021-04-19-homeoffice.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1889662/16x9/453/255/9ac4cb18fb180baf85b84eadc66954fb/wN/2021-04-15-bundesgesundheitsminister-jens-spahn-und-lothar-wieler-bei-der-bundespressekonferenz-15-04-2021.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1888790/16x9/453/255/b6fc9b4ae81f1fa6a176ab9f3d1c4dbf/DN/2021-04-13-corona-test-unternehmen.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1891592/16x9/453/255/5196342e362362e83a1b9ba89d597c5d/jR/2021-04-19-impf-wissen-ciesek-startbild.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1887108/16x9/453/255/5ef67afb7f6adc80b86bb80e5c04c271/kc/2021-04-09-impf-wissen-watzl-startbild.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1829914/16x9/453/255/112678a25c1d70271a2b91e8197644d8/yO/bild-impfen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1737912/16x9/453/255/23484b59762d65ae676ea52f4a36081/ga/bild-fremdsprachen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1790656/8x3/1024/384/be08134c513598d797a144e7e46f41d5/BF/bild-coronavirus-rot.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1790660/4x3/512/384/3d715bcd275ea46fd4482366d9b01545/QM/bild-info-dunkelrot.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1790674/4x3/512/384/e1ffb082239bfe1d696fda3dff1604c8/vM/bild-sprechblase-orange.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1891084/16x9/945/532/5c0d2050dfffb5611199566e3bba7574/OV/11.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1891024/16x9/945/532/5975ffd728ea0a4f6176a946d40290ed/GG/2021-04-16-newsletter-bundesregierung-aktuell.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1889942/16x9/453/255/fec2c72263fea303afa11f5adc447d4b/JO/2021-04-15-grafik-kriminalstatistik.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1888954/16x9/453/255/53090281577a1561896e085c33c3dc97/SM/2021-04-13-vermeintliche-paket-sms.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1654778/16x9/945/532/a5b68de4c5631c00473d24593a1c57a5/iz/2019-08-05-baustelle.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1888780/16x9/453/255/5cac80b515bf35e016e41a2db86b4b83/RR/2021-04-13-grafik-stadtentwicklung.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1888964/16x9/453/255/c26f823fea43d9271f19e14e91b45464/IF/2021-04-13-kinderkrankengeld.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/blob/975228/1889700/93b986e78799b0dbefbcdfe67d8bd247/2021-04-15-eu-jahr-schiene-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/blob/975226/1889146/68a675b30e900084f6f65812ceb5bbcf/klima-kampagnenmotiv-1-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1889160/16x9/453/255/ae5a4a5264ecd785ea41a4fcd1468d96/KA/klima-kamganenmotiv-e-sauele.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1882132/16x9/945/532/e1e6e77aa5b700c8e0f6f73fb34e5243/JL/bild-wieklickst-du.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1889440/16x9/453/255/90eef6a0284fcf89d8d268f21516146f/Rf/2021-04-15-update-deutschland.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/image/1861562/16x9/453/255/d3b7eb891cffd64e6cb24e7f84be306d/YF/2021-02-25-update-deutschland-titelbild.png"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/themes/relaunch/js/relaunch-1562518-46.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/crblob/61538/31f73246f715bdef7ed52d795ac71a09/sprites-svg-data.svg"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/crblob/1562482/02231d2e5caf772651e36de0b0b6e49a/bundessansweb-bold-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/crblob/1562500/d8317899c6afc22b400a5773fb87c457/bundessansweb-regular-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/crblob/1562494/ccbc3e92f8d5f0d780422e3503655a34/bundessansweb-italic-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://analytics.bundesregierung.de/piwik.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ssl.p.jwpcdn.com/player/v/8.5.5/jwpsrv.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ssl.p.jwpcdn.com/player/v/8.5.5/related.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bundesregierung.de/resource/blob/1669376/1891448/9973aa297c407ef6e684a2406b86d46d/2021-04-19-aus-regierungskreise-folge-20-startbild-data.png"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://video.bundesregierung.de/2021/04/19/644eaf-bpa_podcas-master.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://video.bundesregierung.de/2021/04/19/644eaf-bpa_podcas-master.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://video.bundesregierung.de/2021/04/19/644eaf-bpa_podcas-master.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://video.bundesregierung.de/2021/04/19/644eaf-bpa_podcas-master.mp4"
+    },
+    {
+      "mime_type": "video/mp4",
+      "sets_cookie": false,
+      "status_code": 206,
+      "status_text": "Partial Content",
+      "url": "https://video.bundesregierung.de/2021/04/19/644eaf-bpa_podcas-master.mp4"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000 ; includeSubDomains",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff,nosniff",
+    "X-Frame-Options": "bundesregierung.de",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bundesregierung.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ssl.p.jwpcdn.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 2
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

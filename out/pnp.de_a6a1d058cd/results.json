@@ -1,0 +1,1178 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".ioam.de",
+      "expires": 1647460781.115654,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": 28549685.11565399,
+      "name": "i00",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 54,
+      "value": "003cc3bfdfd215814607ebb990001%3B607ebb99%3B623241ad"
+    },
+    {
+      "domain": "www.pnp.de",
+      "expires": 1652873497,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 33962401,
+      "name": "_pk_id.2.478e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 65,
+      "value": "16136bb690b6d0b5.1618918297.1.1618918297.1618918297."
+    },
+    {
+      "domain": "www.pnp.de",
+      "expires": 1618920097,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 9001,
+      "name": "_pk_ses.2.478e",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "Lax",
+      "secure": true,
+      "session": false,
+      "size": 15,
+      "value": "1"
+    },
+    {
+      "domain": ".pnp.de",
+      "expires": 1621337496,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2426400,
+      "name": "iom_consent",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 35,
+      "value": "0100000000&1618918298428"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": [
+      "ioam.de"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://www.pnp.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "37ed07ed79ac161e2315826b85b4c30e79243c4d0ef8bd566178cdf3605ae2fb",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GeoTrust RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1647298799.0,
+      "not_valid_before": 1612998000.0,
+      "serial_number": 15099806400376609679421486995009646496,
+      "subject": {
+        "commonName": "*.pnp.de",
+        "countryName": "DE",
+        "localityName": "Passau",
+        "organizationName": "Passauer Neue Presse GmbH",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.pnp.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.3.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://pnp.de/",
+    "http://www.pnp.de/",
+    "https://www.pnp.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://pnp.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.pnp.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-stub-latest.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://script.ioam.de/iam.js?m=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sas.pnp.de/cmp/js/pnp.de.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static-eu.cleverpush.com/channel/loader/4WoEdeP26pzdPkSs7.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_cms/globals/csslibs.php?em_client=relaunch&em_subclient=relaunch&em_ssc=LCwsLA==&em_view=desktop&em_cache_css=1618918273"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_cms/globals/jslibs.php?em_client=relaunch&em_subclient=relaunch&em_ssc=LCwsLA==&em_view=desktop&em_cache_js=1618918254"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/neu_pnp.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJG5no5Q_N5TemNiiv1SI45dX_GJf52jTJYV6UW5dN0ygMiCpJUu6k8g/170828-1550-fuchs-ernst.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJG5no5Q_N5Tchqx0QibfF0CxEJ5HV9jnXWTM6IH5c184qTsWJSbFrtA/170522-1143-birkenseer-karl.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJNCFmNStnu6FRu1dXbXKj1BXkLsWBJ1XtsFu4ZRnMZ5xJjld8htd4B8UlNiCBcKMo/210420-0012-29-87680880-218505818.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJNCFmNStnu6ErsclOET4WZ-w3joOfaW-RLx6Eq2W-uMd3l0UPzfCqnvfTuM9hdBY-EmvmJwUmGVN1nSh8grx3CmvQh0Qp90a0KsVh0f-KjqwpI80ADqzChIRlX807k5wc/210419-2335-29-87676416-imago-sp-0419-0913-sport-themen-der-woche-kw15-0031-1002167883.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJNCFmNStnu6G3RmaUDQXfPsiqvpZUq1Vz1_t-PkhJql3qef1_x0GIg_VqnMtKrXoo-LxPfOeAPlpTQG8BGzb9aDSd-UBN_67W/210415-1435-29-87608195-whatsapp-image-2021-04-15-at-09.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bmU1mp2ML1IQgMnIJPiHXIbT8VTc7xNNfBIbgUi_ryGg56DuUa2k6j58EyS4XLnRquc0iKeYyDpFAJGa9lr463FdLdxT8ZjT6YDyNvvKfeoWX70Pb7mItDi4Tz7g-Svhq4/210401-0915-29-87348693-fotolisaederoutdoordreharbeiten2019.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJNCFmNStnu6EGTl1VvzVCOaICiJEHmWlZTHhs80jK0fyy2Y8aUVg5TN0ErlUzKzES/210304-1100-29-86774546-scherr3.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xOO9zryjx5bkuIAT0qnqSjlel2T5trwjJNCFmNStnu6HR-tM4e_Zf9eku_uTAhVZy-u1ZgHXNUw26Yu_fitfn97WPDV5RBQoc/210223-1801-29-86591821-img-2033.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backoffice.transmatico.com/get/?token=ueyr2zc943xexrm2n64b3ar5yhtk57jd&domain=sonderthemen.pnp.de&schema=v2&block-name=SIMPLE-ARTICLE-LIST&service=inwidget&scriptid=trm-widget-a3aYN5qN8Uzn4yu2SlXl-9"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sas.pnp.de/cmp/js/outbrain.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-latest.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/tcf-v2/cmp-latest.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TJBXTK"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://matomo.pnp.de/matomo/js/container_H3X8gMoP.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=mobpnp&sv=ke&cp=homepage&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.pnp.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013f6d5178b6c6ab607ebb98&ep=1649172190&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618918296924&ev=&cs=ewedx0&mo=1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.ioam.de/tx.io?st=mobpnp&sv=ke&cp=homepage&ct=0100000000&pt=CP&ps=lin&er=N22&rf=&r2=&ur=www.pnp.de&xy=800x600x24&lo=DE%2FBerlin&cb=0013&i2=0013f6d5178b6c6ab607ebb98&ep=1649172190&vr=424&id=30n7mb&i3=nocookie&n1=1&dntt=0&lt=1618918296924&ev=&cs=ewedx0&mo=1&sr=71"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/pnp.de/settings.json?"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://files.upscore.com/async/upScore.js"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/OpenSans-Bold.ttf"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/OpenSans-Regular.ttf"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://matomo.pnp.de/matomo/matomo.php?action_name=PNP.de%20%7C%20Nachrichten%20aus%20Niederbayern%2C%20Oberbayern%20und%20der%20Oberpfalz&idsite=2&rec=1&r=558842&h=13&m=31&s=37&url=https%3A%2F%2Fwww.pnp.de%2F&_id=16136bb690b6d0b5&_idts=1618918297&_idvc=1&_idn=0&_refts=0&_viewts=1618918297&send_image=1&cookie=1&res=800x600&dimension2=false&gt_ms=47&pv_id=R2BAzv"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdntrf.com/lib/templates/index.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/img/loading-bubbles.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/_layout/pnp_plus.png"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/fa-solid-900.woff2"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?modul=5955&em_city=Passau"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/np-intern/a/marketing/muttertag2021/"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/OpenSans-Light.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/fa-regular-400.woff2"
+    },
+    {
+      "mime_type": "application/font-sfnt",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/OpenSans-SemiBold.ttf"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/fa-light-300.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/weathericons-regular-webfont.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/pnp.de/style.css?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/pnp.de/vendor-list-en.json?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.opencmp.net/publisher/dvl/pnp.de/translation-en.json?"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/jobs/json/gesamt/"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sas.pnp.de/immo/immobilien/gesamt/"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/kfz/fahrzeuge/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://files.upscore.com/config/pnp.de.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_emY9Ca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_gyLLdS.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_E35IS7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://trmcdn.eu/system-images/Thumbnails/image_zTnJIl.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/relaunch/assets/fonts/fa-brands-400.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_daten/relaunch/last_arcticle.php?_=1618918296838"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/np-intern/a/marketing/muttertag2021/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6567"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=5999"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6000"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6001"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6168"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6711"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6004"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6170"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6169"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6171"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6172"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6173"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6058"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?em_role=&modul=6059"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xwjCIeDBEp7LUz6lejvZ3iyMZPWWHMHQyG-XaKhvmhRruTeY6xG3Hhs98-eIkvgsWoN59mxPyaSn9XJ8awZHEM7HLKyWdceYZ/210420-1104-29-87697366-38a528009df13c05.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xgcNm5pxEKe3GiSGUiIv1NtF-XxYKJbJEP-rMVY628RjfYMXKq2Y7yNFicGorw3FydpUbkSAE7sGt9-jmak8Vz9p8LpOvrXSW/210420-0634-29-87690647-38a52800049d3f96.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xgcNm5pxEKe3GiSGUiIv1NqkWzwGPfSJTDLq89kjE9Ki0TjdTCDdkx3noT_cmubTv0Gf6W74KaLA/210306-0731-intensivbetten.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xgcNm5pxEKe3GiSGUiIv1NtF-XxYKJbJEGjMzR8kleP8JBpJ_n50A85enJ4XbbhWeOx1NvOd_Hv9sPRXaNT6VkBbJ2dcqSRIb/200401-1045-29-79729429-dpa-5fa0c6000364e74f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHaUUlpz0cjXOZcl65oJ9Ypqn8dLmhr117jVySWvXpq_GpUa-6fjH-z0od1rwZ9U42-/210420-1253-29-87694182-38a528009ce3dc20.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHaUUlpz0cjXOZFnzMBQMnycALQ2_xJ6mHvDxiuFwFB2hhAxZNejWF0BXhi9wOQmGKm/210420-1237-29-87697178-38a2ec0000dd2568.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHaR8ycpZmLfrkYxVKzHgNugz1SN8rIDJcKW-ys-PBPkyy3U2QzPQFhpzdavjnkY4_R/210420-1132-29-87693822-38a52600783a893a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHaCSPoSWtTz9NCEaFQ8Gvw_SsKdphaSDe8Ka8f9-kVcAXy-s0DCtiy00o2KiQ4yqMVuEC1wvhHpRo/210420-1016-29-87694178-coronavirus-schulbeg-65168709.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHau3oVm-WfWU4xwxKhG9wYONe9e7WI90E96Oxr3eN4T9UbWnMtLENiDwVG1Qpk8L_d/210420-0955-29-87694180-dpa-1ca52600dab1736a.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHaMjlI8mVaxpWrChwdaEmwel6ywhkfOo_6S5x03l7Y3EOLk2aFw9PIGyDBZuPOtvIj/210420-0841-29-87690654-38a52600c4ca1990.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.pnp.de/_em_daten/_cache/image/1xO2V2UftCFdCyQBUEgl7dKJd6cMeOyiHa6a9h5-r0fHEuDpTWvoTJAyL3HBd8r0QZGBXS-FjC_llz_V3__OG3wdITu8X_kRjp1sAOFS7Qrghvm-Vq9AiQouzajgBGrqEdp8GgCYRJDyUcj2tFZ7a4Rt1Iu4Gc09RL/210419-1545-29-87674168-imago-sp-0419-0913-sport-themen-der-woche-kw15-0031-1002167883.jpg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/_em_cms/globals/modul.php?modul=6026&_=1618918296839"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sas.pnp.de/cmp/logo/pnp.de.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://d2wu036mkcz52n.cloudfront.net/i?v=1&sr=800x600&vp=800x600&cd=24&md=false&h=13&t=13%3A31%3A38&d=2021-04-20&u=https%253A%252F%252Fwww.pnp.de%252F&do=www.pnp.de&ud=%2239oZjqJQANaG3NIMIb0S%22&type=%22pu%22&tte=0.001&domain=%22pnp.de%22&amp=0&pr=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/allesregionalgeniessen/Resources/Public/pois-widget/Plugin/index.1618918299.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/allesregional/Resources/Public/allesregional-widget/Plugin/index.1618918299.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/allesregionalgeniessen/Resources/Public/pois-widget/Plugin/App/index.html?region=12"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/allesregional/Resources/Public/allesregional-widget/Plugin/App/index.html?app-mode=offers&region-title=&region-lat=&region-lon=&region-radius="
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/allesregionalgeniessen/Resources/Public/pois-widget/Plugin/App/pois-widget.1618918300.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/allesregional/Resources/Public/allesregional-widget/Plugin/App/allesregional-widget.1618918300.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/np-intern/a/marketing/muttertag2021/Schriftzug.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/np-intern/a/marketing/muttertag2021/Blume2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/np-intern/a/marketing/muttertag2021/Blume1.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.pnp.de/np-intern/a/marketing/muttertag2021/Hintergrund.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Rubik:700,700i,900,900i%7CRoboto:400,400i,700,700i&subset=latin,latin"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/theme/Resources/Public/Assets/css/app.1618918300.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/allesregionalgeniessen/Resources/Public/pois-widget/Assets/js/chunk-vendors.1618918300.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Rubik:700,700i,900,900i%7CRoboto:400,400i,700,700i&subset=latin,latin"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/theme/Resources/Public/Assets/css/app.1618918300.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/allesregional/Resources/Public/allesregional-widget/Assets/js/chunk-vendors.1618918300.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/allesregionalgeniessen/Resources/Public/pois-widget/Assets/js/app.1618918300.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/allesregional/Resources/Public/allesregional-widget/Assets/js/app.1618918300.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/theme/Resources/Public/Assets/img/allesregional-geniessen.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hub.geniessen.allesregional.de/api/filter/random/12/12"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://es.allesregional.de/offers/content/_search"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/theme/Resources/Public/Assets/img/logo.png"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://es.allesregional.de/offers/content/_search"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/74e1bcf8-f3c3-4621-951b-813486144f9e/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/e04b66c4-74ee-4926-9730-e256751b1caf/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/c242c7d6-ca61-47a0-a479-32e1b54feb38/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/2d802426-8bc8-47d7-bf3e-dd9803abe8ac/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/aa98c0cf-55fb-46c6-aef6-15b2d57a8b10/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/9da94f93-920a-4db2-afd8-a00fdb75578f/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/c10feca0-f903-48b1-a848-c0ea8e5a336c/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/68679b75-5ff0-4baa-8e31-1455b376a414/460/460"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.geniessen.allesregional.de/media/get/5fc724a3-88f1-4c91-8a13-77ac320cb10c/460/460"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://geniessen.allesregional.de/typo3conf/ext/theme/Resources/Public/Assets/fonts/icomoon/icomoon.woff?obgm9i"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/5810/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/7568/small"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/8189/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/8206/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/7872/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/7053/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/8569/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/2957/small"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://cdn.allesregional.de/uploads/get/5473/small"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.allesregional.de/typo3conf/ext/theme/Resources/Public/Assets/fonts/icomoon/icomoon.woff?1jdzlh"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://hit-pool.upscore.com/"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://positions.upscore.com/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://pnp.de\r",
+  "third_parties": {
+    "fqdns": [
+      "backoffice.transmatico.com",
+      "cdn.allesregional.de",
+      "cdn.geniessen.allesregional.de",
+      "cdn.opencmp.net",
+      "cdnjs.cloudflare.com",
+      "cdntrf.com",
+      "d2wu036mkcz52n.cloudfront.net",
+      "de.ioam.de",
+      "es.allesregional.de",
+      "files.upscore.com",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "geniessen.allesregional.de",
+      "hit-pool.upscore.com",
+      "hub.geniessen.allesregional.de",
+      "positions.upscore.com",
+      "script.ioam.de",
+      "static-eu.cleverpush.com",
+      "trmcdn.eu",
+      "www.allesregional.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 72
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 19,
+    "trackers": [
+      "cdn.opencmp.net",
+      "cdntrf.com",
+      "d2wu036mkcz52n.cloudfront.net",
+      "de.ioam.de",
+      "files.upscore.com",
+      "hit-pool.upscore.com",
+      "positions.upscore.com",
+      "static-eu.cleverpush.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

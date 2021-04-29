@@ -1,0 +1,711 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bzga.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "6240c18fbf659a01c9204a4b1cd7c5d0788a76e34f79773d15e902b003db42e1",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 3072,
+        "type": "RSA"
+      },
+      "not_valid_after": 1653115580.0,
+      "not_valid_before": 1618814780.0,
+      "serial_number": 11330963660985313269349317482,
+      "subject": {
+        "commonName": "bzga.de",
+        "countryName": "DE",
+        "localityName": "Bonn",
+        "organizationName": "Bundesinstitut fuer Arzneimittel und Medizinprodukte",
+        "stateOrProvinceName": "Nordrhein-Westfalen"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bzga.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bzga.de/",
+    "https://www.bzga.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bzga.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1541668062"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3temp/assets/css/0435facee0.css?1591085392"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/css/featherlight/featherlight.css?1530696391"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/bootstrap_grids/Resources/Public/Flexslider2/flexslider.css?1531208246"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/bzga_shop/Resources/Public/Css/fe.css?1600327329"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/solr/Resources/Public/StyleSheets/Frontend/results.css?1541668308"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/solr/Resources/Public/StyleSheets/Frontend/loader.css?1541668308"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick.min.css?1585556391"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick-theme.min.css?1585556391"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/CSS/default.min.css?1585556375"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/powermail/Resources/Public/Css/Basic.css?1592403717"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/ww_bzga_avmedien/Resources/Public/css/fe.css?1608645944"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/ww_bzga_matomo/Resources/Public/Css/base.css?1613978196"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/css/all.min.css?1530696391"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/css/screen.css?1614682182"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/css/mobile.css?1592832409"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3temp/assets/css/b4b2cd43d4.css?1591085392"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/js/lib/jquery.min.js?1602072611"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/bzga_shop/Resources/Public/js/fe.js?1600327330"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/js/extend.js?1591771012"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3temp/assets/js/7cfa1614f0.js?1591085392"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/logo-bzga.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/haende.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/leser.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/lupe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slider/Corona-Schutzimpfung-BZgA-Informationen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slider/Corona-Selbsttest-bzga.de-infektionsschutz.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slider/infektionsschutz_slider_v2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slider/Alltagsmaske-infektionsschutz-AHA-Formel-BZgA-Informationen.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slider/masken-alltag-bzgade-Slider.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slider/BZgA-Was-wir-tun-Webseite.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Aktuelle_Meldungen__keine_Presse_/Datenbank-Fortbildung-Sexualisierte-Gewalt-BZgA.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Aktuelle_Meldungen__keine_Presse_/Frau-Unterleibsschmerzen-Waermflasche.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Weltgesundheitstag-2021-Frau-Krokusblumen-Credit-dmytrogilitukha.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/zusammengegencorona.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/aelter-werden-in-balance-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/liebesleben_01.PNG"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/infektionsschutz.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/elternsein.info.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/familienplanung.PNG"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/diabinfo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/Kooperationsverbund.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Slick_Slider_Logos/gesund-aktiv-aelter-werden_01.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Aktuelle_Meldungen__keine_Presse_/Coronavirus-Wissen-kompakt-Videoreihe-BZgA.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Aktuelles/Aktuelle_Meldungen__keine_Presse_/Team-in-Bewegung-KSM.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/video_richtig-husten.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/css/print.css?1565359712"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Studien/Images/Drogenaffinitaet_2019_Teilband_Computerspiele.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Studien/Images/Drogenaffiniaet_2019.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Studien/Images/Survey_Gluecksspielverhalten_Deutschland_2019.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/user_upload/Studien/Images/Infektionsschutzstudie_2018.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/twitter_white.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/youtube_white.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/up2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/img/logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/haende2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/leser2.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/erklaerung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/barriere-melden.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/js/lib/featherlight/featherlight.js?1530696391"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/bootstrap_grids/Resources/Public/Flexslider2/jquery.flexslider-min.js?1531208246"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/bsdist/theme/js/scripts.min.js?1530696391"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/JavaScript/slick-1.9.0/slick/slick.min.js?1585556391"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/JavaScript/randomize.js?1585556376"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/jquery.datetimepicker.min.js?1592403717"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Libraries/parsley.min.js?1592403717"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Tabs.min.js?1592403717"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1592403717"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/ww_bzga_avmedien/Resources/Public/js/fe.js?1609318467"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/ww_bzga_matomo/Resources/Public/Js/matomo.js?1613978196"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3temp/assets/js/48c6866d20.js?1609319350"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/gt.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/gt_on_blue.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/video.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/bootstrap_grids/Resources/Public/Flexslider2/fonts/flexslider-icon.woff"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik.bzga.de/piwik.js"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/JavaScript/slick-1.9.0/slick/ajax-loader.gif"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/ltbox.png"
+    },
+    {
+      "mime_type": "application/font-woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/typo3conf/ext/slick/Resources/Public/JavaScript/slick-1.9.0/slick/fonts/slick.woff"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bzga.de/fileadmin/files/gtbox.png"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "No Response",
+      "url": "https://piwik.bzga.de/piwik.php?action_name=www.bzga.de%2FBZgA%3A%C2%A0Startseite&idsite=1&rec=1&r=091628&h=14&m=51&s=52&url=https%3A%2F%2Fwww.bzga.de%2F&_id=&_idn=1&_refts=0&send_image=0&cookie=1&res=800x600&pv_id=JlVoDn&pf_net=88&pf_srv=24&pf_tfr=18&pf_dm1=684"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "default-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "data:",
+        "https://piwik.bzga.de/",
+        "https://service.bzga.de/",
+        "https://a.tile.openstreetmap.org/",
+        "https://b.tile.openstreetmap.org/",
+        "https://c.tile.openstreetmap.org/"
+      ],
+      "header_value": "default-src 'self' 'unsafe-inline' data: https://piwik.bzga.de/ https://service.bzga.de/ https://a.tile.openstreetmap.org/ https://b.tile.openstreetmap.org/ https://c.tile.openstreetmap.org/"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bzga.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

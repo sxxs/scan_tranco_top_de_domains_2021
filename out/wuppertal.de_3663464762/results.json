@@ -1,0 +1,415 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.wuppertal.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "5d3bcd493e7a10fcc9e677e65f6928d85316a83442aea0bc10d02888302cf7f2",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "RapidSSL RSA CA 2018",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1637838000.0,
+      "not_valid_before": 1582671600.0,
+      "serial_number": 12449314601434196063318317442179569859,
+      "subject": {
+        "commonName": "*.wuppertal.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.wuppertal.de/service/impressum.php",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://wuppertal.de/",
+    "https://www.wuppertal.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://wuppertal.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/fonts/Muli/Muli-Light.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/fonts/Muli/Muli.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/fonts/Muli/Muli-Italic.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/fonts/Muli/Muli-Bold.woff2"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/fonts/Muli/Muli-BoldItalic.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/css/style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/sitekit-module/2.81.6/css/sitekit-js.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/js/head.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/js/body.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/images/wuppertal-main.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/images/wuppertal-white.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/presse/meldungen/meldungen-2021/april121/corona-notbremse.php.media/382755/1_Masken-Schilder-Fussgaengerzone-FuZo-Nov-2020-_uk.jpg.scaled/c6bac236c7ce7f8d3a747a8d2d312d44.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/presse/meldungen/meldungen-2021/maerz21/kacheltext-impfen.php.media/377132/Impfen-Nahaufnahme.jpg.scaled/09874d140dfdf6e5ca258d0e2594b133.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/rathaus-buergerservice/corona/corona-schnelltestzentren-ueberblick.php.media/377752/DSC_0174.JPG.scaled/bca17f0b1b5c8bbe8b75373201096dc4.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/rathaus-buergerservice/verwaltung/pressebereich/info-sammlung-corona.php.media/353144/Virus-Symbolbild.png.scaled/fcde2557666aed7d92816a3aa3f27687.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/presse/meldungen/meldungen-2021/april121/gedenken.php.media/383255/71993e2b338b0ea2f8853ee0a16aa192.jpg.scaled/a5d3cdf90edfd7a540aec48064ce4012.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/presse/meldungen/meldungen-2020/mai20/Verordnungen-Corona-ueberblick.php.media/353147/Corona-Schutzverordnung-Symbolbild.JPG.scaled/567b0a2f3e6f1290b4e90ecb54d90f29.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/rathaus-buergerservice/corona/impfzentrum-faq.php.media/372679/DSC_0149.JPG.scaled/094a09d5cccdebe82c14a11d416d19c7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/index.php.media/382564/girls-boys-day-2021.JPG.scaled/cfb76310cb3c6d908bab3c5e89b3a861.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/index.php.media/378255/buecherregal.jpg.scaled/6e96624dff2b2d6d024d23ae0b1b135b.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/presse/meldungen/meldungen-2021/maerz21/mobilitaetskonzept.php.media/380303/ampel_08.jpg.scaled/b8da775bc1cb30ee2f27ae063a472a32.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/images/wuppertal-small.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/sitekit-module/2.81.6/js/sitekit-js.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/sitekit-module/2.81.6/js/sitekit-js-renderer-arvedui.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/js/thirdparty.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/js/main.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/sitekit-formsolutions/2.4/js/sitekit-formsolutions.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik1.wuppertal.de/piwik.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/sitekit-module/php/SP/SiteKit/Rpc/Server/Port.php"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/WEB-IES/wuppertal-module/2.25/svg-icons/svg-icons.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/images/willkommen/COVID_19_JPG.jpg.scaled/bda9e8ce79879eac7ae7597a905b673f.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://piwik1.wuppertal.de/piwik.php?action_name=Startseite%20wuppertal.de%20%7C%20Wuppertal&idsite=1&rec=1&r=064752&h=17&m=10&s=31&url=https%3A%2F%2Fwww.wuppertal.de%2F&_id=&_idts=1618931432&_idvc=1&_idn=1&_refts=0&_viewts=1618931432&send_image=1&cookie=0&res=800x600&gt_ms=101&pv_id=magxlC"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/rathaus-buergerservice/index.php.media/210335/rathaus_01_g.jpg.scaled/c6a54202de9a8c8f09cd9d27bf31431d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/kultur-bildung/index.php.media/220775/EVITA_Foto_Uwe_Stratmann.JPG.scaled/f0e26c785387c0242cd1a974d38729c4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/tourismus-freizeit/index.php.media/220215/2015_haus_fahrenkamp_03ret.jpg.scaled/9f5bd2b58ec1de251690b44d70b723a7.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/wirtschaft-stadtentwicklung/index.php.media/291203/IMG_2879.JPG.scaled/6996ddc85aac11d66a3e5b30b02c1a7c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/images/willkommen/Doeppersberg-B-7-Perspektive.jpg.scaled/ad814d4c8cbbdd2d7375c03b95d57508.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/images/willkommen/Fotoware-_2013-nordbahntrasse_Fot-medienzentrum.jpg.scaled/0bdcd25730085482bf85d9a78b86f373.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/images/willkommen/Klein-2-WMG_Logo_Wirtschaftspreis_2021_sw.jpg.scaled/e488495d6bc0273bb1b09e035751ed9e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/images/willkommen/Joseph-Beuys_Badewanne-1961-1985_Sammlung-Thaddaeus-Ropac_-c-Estate-Joseph-Beuys-VG-Bildkunst-Bonn-2021_Foto-Michael-Richter_2.jpg.scaled/21bd8d500d8f412ab0515d9d00bb9681.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.wuppertal.de/images/willkommen/twitter_web_01.jpg.scaled/01884fcd614ab32bbb1fed05309503fd.jpg"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=63072000",
+      "includeSubDomains": false,
+      "max-age": 63072000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "ALLOW-ACCESS http://gars.nrw.de,ALLOW-ACCESS http://www.gars.nrw.de",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://wuppertal.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

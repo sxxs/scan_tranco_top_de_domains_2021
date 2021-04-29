@@ -1,0 +1,496 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".google.com",
+      "expires": 1634485403.550416,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559202.550415993,
+      "name": "_GRECAPTCHA",
+      "path": "/recaptcha",
+      "priority": "High",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 100,
+      "value": "09ANblmniILOu62Yx77BX9yV-z7aC8Ny1fnT33UGc_rbFhrDJp4diMPHkLpH1a8ZbPeSzE8uyQ-8xHauLdANFndDc"
+    },
+    {
+      "domain": ".fotolia.com",
+      "expires": 1650469401.899418,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543200.899418116,
+      "name": "foui",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 36,
+      "value": "de1da65617535b2ebb2b15cccb5591fc"
+    },
+    {
+      "domain": ".fotolia.com",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "PHPSESSID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 41,
+      "value": "59a02f0798948b5ae9422f1c56361fe4"
+    },
+    {
+      "domain": ".fotolia.com",
+      "expires": 1621611801.89956,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2685600.8995599747,
+      "name": "lvts",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 14,
+      "value": "1618933401"
+    },
+    {
+      "domain": ".fotolia.com",
+      "expires": 1650469402,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543201,
+      "name": "thumbnail_size",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 17,
+      "value": "220"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 1,
+    "third_party_long": 1,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://de.fotolia.com/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ea62917b8df48947b1035691a96e1fe90a746f40ae20d8916c1c361f335f09be",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1626429600.0,
+      "not_valid_before": 1562882400.0,
+      "serial_number": 5197483822484566344057211440035102175,
+      "subject": {
+        "commonName": "fotolia.com",
+        "countryName": "US",
+        "localityName": "San Jose",
+        "organizationName": "Adobe Systems Incorporated",
+        "organizationalUnitName": "Adobe Stock",
+        "stateOrProvinceName": "California"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.10.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://fotolia.de/",
+    "https://de.fotolia.com/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://fotolia.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://de.fotolia.com/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/b17bfb4a0e252390ba5e86f98fa8efd057acf99c/css/all_hashes_ssl.min.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/5032fec4abbbb3f848e960be805c7cb930c160c8/js/all.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/f7c978b1652f27bff0ffda77d3ef13950873c9ab/pics/all/hab/icon_to_cloud.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/b618f82ebd62aa1571a096d6ee18d960aa95b65d/pics/all/page/interception/stock_logo_bw.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/c47542b103b874badf16fdc3efbc6b6b0c89b061/pics/all/page/interception/galeries-business.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/1fb799505bc9139804f6165d74896d992f44e0c0/pics/all/page/interception/galeries-food.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/91af01f6330506aa8ca8baed9e4b4e4e7947b430/pics/all/page/interception/galeries-travel.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/e48ef92c2769bdb9e1786f7eb0a80b1a3d6fd763/pics/all/page/interception/galeries-pets.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/4b908ad846cb7a78b8a1de932082fdac8dc728b4/pics/all/page/interception/galeries-family.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/7dba160b8ae2f1ae106a170cc0197efbf45bbfa4/pics/all/page/interception/galeries-nature.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/b4d694d65e2236cc183a49bcfae2f3d1170be737/pics/all/page/interception/user.svg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/4c7023b3617433b3130aa6ae9a8d8bc22e481ea2/pics/all/page/interception/surfer.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/0383daeb63945bc60e397aace3cbc92fcda49ec0/pics/all/page/interception/small-down-arrow.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/e267c0895e63be63218fa81a3704e64bff9f30f2/pics/all/page/interception/search_icon.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/085b2b09bc28294662023f052fe172616a85e401/pics/all/page/interception/discover-visual-search-bw.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/af146aa8bc1c1aed7d1a3b5f2b14ab2a96966475/pics/all/page/interception/power-point-bw.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.ftcdn.net/r/v2013/db0867eaa600f5420f6bf68ef6a5a5ce894cfe4e/pics/all/page/interception/water.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeEdiwUAAAAAJRR2dgwJRrTpzg2kMqHcMmT-cmw&co=aHR0cHM6Ly9kZS5mb3RvbGlhLmNvbTo0NDM.&hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb&size=invisible&cb=f3czduz0tnw8"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/styles__ltr.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/bg/sR-PPUH_JfEvmJmKzZpkrzje93EVJEp5B_I-I03HbT0.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb&k=6LeEdiwUAAAAAJRR2dgwJRrTpzg2kMqHcMmT-cmw&cb=9m792smjf84z"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/styles__ltr.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/reload?k=6LeEdiwUAAAAAJRR2dgwJRrTpzg2kMqHcMmT-cmw"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/refresh_2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/audio_2x.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/info_2x.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtfBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/bg/sR-PPUH_JfEvmJmKzZpkrzje93EVJEp5B_I-I03HbT0.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/payload?p=06AGdBq243zTF2GHh_kxNWFTtGoETtAsDKxFgBmHhHfq41a60iefMtKEJTj5fsK0n-ECQCWpio-LWefOfeRQ5I-joLrF_BVeFDL5DXMNHAXx82WWYyCoZhw6C2ts0GBgwRFJ-X_O3ank4kteKXQBg-wfyPBB64MiGDr8AB_QwX8rHvf0GnX6eCD77DE7b7jzy26Wo5XfyG1mdDwQarFstevF_pk0Y_nFp_QQ&k=6LeEdiwUAAAAAJRR2dgwJRrTpzg2kMqHcMmT-cmw"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://fotolia.de\r",
+  "third_parties": {
+    "fqdns": [
+      "fonts.gstatic.com",
+      "s.ftcdn.net",
+      "www.google.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 39
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

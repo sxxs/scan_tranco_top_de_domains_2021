@@ -1,0 +1,917 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".prosieben.de",
+      "expires": 1681924381,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63079205,
+      "name": "_ga",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.1807626409.1618852382"
+    },
+    {
+      "domain": ".prosieben.de",
+      "expires": 1618938781,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 93605,
+      "name": "_gid",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 30,
+      "value": "GA1.2.974244371.1618852382"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.prosieben.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "anonymize": {
+      "aip_ineffective": false,
+      "all_set_js": true,
+      "any_set_js": true,
+      "num_requests_aip": 2,
+      "num_requests_no_aip": 0
+    },
+    "has_ga_js": true,
+    "has_ga_object": true,
+    "has_gat_object": false,
+    "has_requests": true,
+    "trackers": [
+      {
+        "anonymize_ip": true,
+        "name": "cmpTracker",
+        "tracking_id": "UA-125952458-6"
+      }
+    ]
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "df46ddb5e9124ab2cdd00dac9402bcc1a2fab4755455b3745aa02441f281c54a",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Secure Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1649887199.0,
+      "not_valid_before": 1617832800.0,
+      "serial_number": 11387369652594002251327782644124244520,
+      "subject": {
+        "commonName": "www.7tv.com",
+        "countryName": "DE",
+        "localityName": "Unterf\u00f6hring",
+        "organizationName": "ProSiebenSat.1 Digital GmbH",
+        "stateOrProvinceName": "Bayern"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.prosieben.de/service/impressum",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://prosieben.de/",
+    "https://www.prosieben.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://prosieben.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.prosieben.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/df6fcc096bf27ff7984023bbf5748163.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/css/prosieben.59661c4bc780943c0fe650bb75ce34103d868c57.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/prosieben.d41082b1951dccabb887b91d85626199d2e114f3.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://use.typekit.net/wli8lgi.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/runtime.de0db05c0f155aa4465c.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/vendor.536028983f673bef2d4c.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1/glomex-player.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/js/client.8e586f7340235794f571.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/cmp/cmp-prosieben-web.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/glomex-player.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://p.typekit.net/p.css?s=1&k=wli8lgi&ht=tk&f=44884&a=56836033&app=typekit&e=css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/glomex-player-module.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ad.71i.de/somtag/loader/loader.js"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://time.akamai.com/?iso"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.prosieben.de/services/embedded?path=%2Fcrossteaser-widgets%2Fran-de-widget&libraries=jquery"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/150cqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNR8ak87vvuA6-io4yruplk_GYNDmtmytEsajspGAaIswxa06fdFHkRFcTrXVvDPUi1NAAbsLm2uIv6LRIm_CBpWGI5IYVZA9qcy1CneF6kazRHhZFF8Fp5fwS-IS2mg8hAycTk16kL19j3lAC3tQcGbv9RD8ZRYfFdaam9abidTqKp4lg/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/9ea4qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9tSMcK3FCu7MUisJXTeL-V0hPW1O2iHonvCYZM6CCkUtcJ2ilj0X6eQlcdU4Q3Zdhr86xqKm63hamampt_nDzKEA3lNhojgmE8DtXuoscLcNXV1GEWoNaEZ1RGUlGk36b3VEFLiMwcqhpPB6u1HuC8/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/ced2qgELBzZ_waV508e45AuVz6MKHLtoT3q_r96QWMNjkfxJa7oyHRDtDkptxSxlDQdliaa1w-ONTz2JK0_pyT-w6ErBeROSidudYNt_qvX80C2B8gyQPUHMVEvhkJgJkiy1n-aFlVRBs0to9FCCUbga5kTyhoFOGsrDxXB-6jZzXXYxfPgLOSG3SMI/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/a82cqgELBzZ_waV508e45AuVz6MKHLtoT3q_r9sCIc1sb9aX4A37fSyiq1laaBo70UpHhRVy9D_Il71qcGZK7he40qPQjAzaw-s0TFvW8bF-CcH6SawVuapCwN4IKIEbXn5FX0ofDG9XSSfsdTO-updStSuydq37gEBn8kmoAEbTldl-QjGGpF8tDgA/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/640aqgELBzZ_waV508e45AuVz6MKHLtoT3q_r4_WZoptP3xe8ajEKk136u3YzbHl3nHkkxks_X0eVpQTbaVfsC9RF-kh3moWDu2l6cZFbra4_eGiTXtMDR4_9N34hxt2Ba4ykHQPDoohVQKkSbxpJkgtgO6LiSzxic9aEUMI-Zt5v8jcuIDICN8CMYM/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/b7a1qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FWn5jn6Cmo0rf7RwD-LNjHHh7VDvpFh2WvJZraRbSZmx7EjBszjLkIWsjNz-Sqq23HuSGA7FQ6yRtA/profile:mag-120x213"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/2b2fqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FX7NodxBAIF6-DR6G4BSd3z-_JbBdbu6aTXUlL4WvhgFukKiRW1HkOY-N1WnrgBC_spTrFWoZKZyqSiMIgeIWHjm/profile:mag-120x213"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/1b9eqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FXyRz9t0MHBL0PskVjjbuW2DiWmhbGRN_4DSUTaAztg6BKTDDX70OrTGBGizPCfCjCS_eb4NZZvYJKj3tPzuMvWqJewrZA/profile:mag-120x213"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/b178qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FXkHrjmbz3NT6I_n7qzS6W7EZ3vJshgwcPpY0g8CHK3_8mFwCvY87Nq0gXniMXGYkWhcyXOlWe4WRylfcmFwdQYL6cDaTw/profile:mag-120x213"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/fonts/Campton-Light.woff2?v=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/index-5faf62a0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/visibility-e9bbd762.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/_rollupPluginBabelHelpers-56746811.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/create-uuid-5ea88561.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/_commonjsHelpers-17042db9.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://player.glomex.com/integration/1.507.0/index-349fdbdd.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/css/prosieben.59661c4bc780943c0fe650bb75ce34103d868c57.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/prosieben.d41082b1951dccabb887b91d85626199d2e114f3.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.jquery.com/jquery-2.2.4.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/scripts/p7s1-widget.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://magellan-api.p7s1.io/epg-mini/prosieben.de/graphql?operationName=&query=%20query%20EpgQuery(%24domain%3A%20String!%2C%20%24date%3A%20DateTime%2C%20%24subBrand%3A%20String)%20%7B%20site(domain%3A%20%24domain)%20%7B%20epgs%20%7B%20upcoming%3A%20broadcast(type%3A%20UPCOMING%2C%20date%3A%20%24date%2C%20subBrand%3A%20%24subBrand)%20%7B%20items%20%7B%20...fEpgItem%20%7D%20%7D%20primetime%3A%20broadcast(type%3A%20PRIMETIME%2C%20date%3A%20%24date%2C%20subBrand%3A%20%24subBrand)%20%7B%20items%20%7B%20...fEpgItem%20%7D%20%7D%20primenight%3A%20broadcast(type%3A%20PRIMENIGHT%2C%20date%3A%20%24date%2C%20subBrand%3A%20%24subBrand)%20%7B%20items%20%7B%20...fEpgItem%20%7D%20%7D%20%7D%20%7D%20%7D%0Afragment%20fEpgItem%20on%20EpgItem%20%7B%20id%20title%20description%20startTime%20endTime%20episode%20%7B%20number%20%7D%20season%20%7B%20number%20%7D%20tvShow%20%7B%20title%20id%20%7D%20images%20%7B%20url%20title%20copyright%20%7D%20links%20%7B%20href%20contentType%20title%20%7D%20%7D%20&variables=%7B%22date%22%3A%222021-04-19T17%3A10%3A00.000Z%22%2C%22domain%22%3A%22prosieben.de%22%2C%22subBrand%22%3Anull%7D&queryhash=e87dd2cb5ebd5c7cc3dda5af8f1ee23816edd5554dff2d046e833993deeeb35a&initialcv=browser-p7s1-1"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/2fcbqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRrRrYWsMaBfCkuKMQAx8Ph15AroBJbl6a2_m6KWId0BZSvZcquJfjKMhCa7wlzrKJop8LnH1KUn6IP8mxSQ9oyoOJIrNmKU9J1YM6Qf9phkgulCZo03Goauz9tGsbMO23AHeIEb1HR-_ifMDOc1P-YlS8/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/a615qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRvW7vVuIrz8rYDnzF4NiJrMRzIKILk05fk5eYu-SrTxBlb3SLgB8bV9H8xaGeCuth7JQg/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/abb5qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9RPTQe-uAXVt80ykVehQFx6r-8RJcLwyTKdpuFmmoa-HRM63D15aok0_wbgGLOTMvDbjTB6OuijuH7DvqCzVE_UrMTkJ1zukgj6-OVmD0f4fLkCwUp_fuXN2iZsShoZH-vELOqt0GA7oV9NwvtP2HKDUG0j/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/130fqgELBzZ_waV508e45AuVz6MKHLtoT3q_r9Wg895sP7U3VckDKf7tlFNpNzZE1fmEgPIjxaQ0OZ56Y1OdlwsnC6lBZgaNxray64WEAFHuDwf1iQIBks58GtzRAWFjXwJHUEBwLYczx1Wnkg5JmJPWjxfHHjgCkIOG28lFg99cyynDH-xR3b0dOsr_KMfC/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/d09cqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRmvm402lJGC8gqLr0zPSJPT41j6Gvw3VI3gktgEGexOSUjYg2VFaNDv3RDyBB0H91KQmUxN4e35cJ3ObVQgVHsf4-hakla1ZJh2tSUmayp7W4JLbpgcEeJJrYqhUhRJp1m4xFiWfXuWyjpC3cW0jMJkAAVuINQqK0EY4RpSb2ZFlFwBcq-5WSajImkYclbkQEh1wviBZnFdUB27BsoGE5oqDOoTiUjHtDrtuzPa01hbmXA-hZGupE/profile:mag-ct-213x94"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/languages.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://middleware.p7s1.io/cmp/v1/vendorlist?key=db65350b11bd14f391bd9435a55cdd91"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=VhdL5rzsy"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/150cqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNR8ak87vvuA6-io4yruplk_GYNDmtmytEsajspGAaIswxa06fdFHkRFcTrXVvDPUi1NAAbsLm2uIv6LRIm_CBpWGI5IYVZA9qcy1CneF6kazRHhZFF8Fp5fwS-IS2mg8hAycTk16kL19j3lAC3tQcGbv9RD8ZRYfFdaam9abidTqKp4lg/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/2fcbqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRrRrYWsMaBfCkuKMQAx8Ph15AroBJbl6a2_m6KWId0BZSvZcquJfjKMhCa7wlzrKJop8LnH1KUn6IP8mxSQ9oyoOJIrNmKU9J1YM6Qf9phkgulCZo03Goauz9tGsbMO23AHeIEb1HR-_ifMDOc1P-YlS8/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/a615qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRvW7vVuIrz8rYDnzF4NiJrMRzIKILk05fk5eYu-SrTxBlb3SLgB8bV9H8xaGeCuth7JQg/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/abb5qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9RPTQe-uAXVt80ykVehQFx6r-8RJcLwyTKdpuFmmoa-HRM63D15aok0_wbgGLOTMvDbjTB6OuijuH7DvqCzVE_UrMTkJ1zukgj6-OVmD0f4fLkCwUp_fuXN2iZsShoZH-vELOqt0GA7oV9NwvtP2HKDUG0j/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/130fqgELBzZ_waV508e45AuVz6MKHLtoT3q_r9Wg895sP7U3VckDKf7tlFNpNzZE1fmEgPIjxaQ0OZ56Y1OdlwsnC6lBZgaNxray64WEAFHuDwf1iQIBks58GtzRAWFjXwJHUEBwLYczx1Wnkg5JmJPWjxfHHjgCkIOG28lFg99cyynDH-xR3b0dOsr_KMfC/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/b7a1qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FWn5jn6Cmo0rf7RwD-LNjHHh7VDvpFh2WvJZraRbSZmx7EjBszjLkIWsjNz-Sqq23HuSGA7FQ6yRtA/profile:mag-225x300"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/2b2fqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FX7NodxBAIF6-DR6G4BSd3z-_JbBdbu6aTXUlL4WvhgFukKiRW1HkOY-N1WnrgBC_spTrFWoZKZyqSiMIgeIWHjm/profile:mag-225x300"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/1b9eqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIaSQl8FXyRz9t0MHBL0PskVjjbuW2DiWmhbGRN_4DSUTaAztg6BKTDDX70OrTGBGizPCfCjCS_eb4NZZvYJKj3tPzuMvWqJewrZA/profile:mag-225x300"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ad.71i.de/somtag/config/v5/pro7/default.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/d09cqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRmvm402lJGC8gqLr0zPSJPT41j6Gvw3VI3gktgEGexOSUjYg2VFaNDv3RDyBB0H91KQmUxN4e35cJ3ObVQgVHsf4-hakla1ZJh2tSUmayp7W4JLbpgcEeJJrYqhUhRJp1m4xFiWfXuWyjpC3cW0jMJkAAVuINQqK0EY4RpSb2ZFlFwBcq-5WSajImkYclbkQEh1wviBZnFdUB27BsoGE5oqDOoTiUjHtDrtuzPa01hbmXA-hZGupE/profile:mag-ct-648x286"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/6bf5qgELBzZ_waV508e45AuVz6MKHLtoT3q_r90vbkXDZBCrwjxWyRstenb593zdnoJcEZoHHm8MnlupcLTJzY-QalXfsGQWW5i_AxgdbVRLQnzi96P3rt_6MvqepCNn6-FylR57rxhOLjzcoeNmLOkGCbThqrQXJL4W0w/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/4fd8qgELBzZ_waV508e45AuVz6MKHLtoT3q_r4p64BD2doPw4Xk85-MlNND0xR-1PmCsfVAV9dFUnzc3ZXAJt14URJgiwSYhOk7UYKxyGIsedp6u9SjGlM0cM03Isgo14IsftLr47roTF1VQKswWYYQ/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/8f5bqgELBzZ_waV508e45AuVz6MKHLtoT3q_r9ryDYTBko2EQEmFAmHLcLYvXYjy6v367kb7QPA5QRfj9t6lM5ACYFrMCrd-gFfFU0RqSgwez0CNSBNVXBsuzKsIKfc4hDAkTP1Ma5tySmU3DdsmmtEaV2KsaeO81GfebjQaXtN5lm3sxHsBgGsEqHyq0uH3bGg18d3y0ASlxh7RLpyl7A/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/1ab9qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNRvW7vVuIrz8rYDgGb27vgEYcjhrGAGgjFhFMpLq9UnITpxArlxoF_6V_1BJEo/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/cbaeqgELBzZ_waV508e45AuVz6MKHLtoT3q_r9_oWkQEbWIUE4AyuiWtR5McIJtLpalugEBaZkKGkFOMBkgoNzmp9wRpz2fEhDzsCKrfGQA5dypd2Iglo4tYvuiRI1Pu3IPvizTOUeDhL3Skuw/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/9ce0qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXaheiyCf8r-rAPqXoJhS5ccKE64i1AGkynIEgNQ15VqDb4ooFQqGNrxuRYzHRAQVqSvGGaHHCKqyXKpKDwxxZOneUJANSPCjz_1yL0Y/profile:mag-300x170"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/8c89qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9-_qaA3jFTukd1GdKYr8HOAG2D8C7oidF4HtFndTmTFjgD34ehjljVJg3vqz62B0eW-prdBlRRPOiI9JKMT6iAaV0a_m-vebJbvxfHEy8-C7woqnesqJm-ImdxUeoKaw_Vr8ffYSKmEGOyhTJ3kIjk/profile:mag-300x170"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/campaign/359652023da24c0c48c3203584314603936c3183/widget/10"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.prosieben.de/pis/ezone/8c89qgELBzZ_waV508e45AuVz6MKHLtoT3q_r9-_qaA3jFTukd1GdKYr8HOAG2D8C7oidF4HtFndTmTFjgD34ehjljVJg3vqz62B0eW-prdBlRRPOiI9JKMT6iAaV0a_m-vebJbvxfHEy8-C7woqnesqJm-ImdxUeoKaw_Vr8ffYSKmEGOyhTJ3kIjk/profile:mag-648x366"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/fonts/Campton-Light.woff2?v=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/VhdL5rzsy/latest/de.json"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://ad.71i.de/somtag/config/v5/pro7/default.css"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,0LGNm0w3e@1.0.0,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2PLSJfB9b@6.2.0,3oMLZEPWY@2.1.0,4NIAkZsNE@2.2.0,56CqIjb0z@1.0.0,57b0LQPAS@1.0.17,5FP9tjYNG@1.0.0,5LFVxHGKz@6.1.0,6PEQM-sZb@2.1.15,71uePe1sF@1.0.0,7M0cXS2pQ@10.6.1,7jBdshciY@1.0.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,9_mINmsAo@1.0.0,AMItrBs0R@1.0.0,Aytn62TR@2.0.0,B1Pb9NoOiZQ@5.2.1,BJ1Q5NoOj-7@5.1.3,BJSN54susZX@6.1.0,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BkeKqEjuoZQ@9.3.5,ByOJZ54odjW7@11.3.1,CAh-PzD4@6.3.0,CVliYs1Zn@2.1.1,DG6-aLzBO@1.0.0,DswEq9TCs@1.0.1,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hkq1Xar5V@4.7.3,IA4SWi27g@1.0.0,JMsFnFMX2@4.1.0,Jy6PlrM3@2.2.0,KBFnjg2YU@1.0.0,L07_olkbD@1.0.0,LNxiCu4IM@2.1.0,LzUarVPjg@1.0.0,NjT2ojfFy@1.0.0,NlKLPqhTk@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,OD38XMAFy@3.1.1,QmkqgbGhi@1.1.0,RkzHS-jLm@2.0.0,S1Qe-Pn54@4.2.1,SJKM9Ns_ibQ@10.4.4,SJXtq4iOoZX@10.4.4,SyUQ54odobQ@6.4.2,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TxfLuXDLv@1.0.0,V9qWyLWRp@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XYQZBUojc@8.5.1,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,Zy_B5xcst@1.0.0,_-HsBkxn_@1.0.0,apGP5d1vF@1.0.0,bZv7Ew5Wb@1.0.0,dQ35oKOjc@1.0.0,diHQHT2cJ@1.0.1,droLLWFH0@1.0.0,eZcGJUfqZ@1.0.0,f6nkjdUL@3.4.0,gHY2exdu@5.2.0,ghszFQYfO@1.0.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,k2e416jYz@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,kbKHcT7Rf@1.0.0,ko1w5PpFl@23.10.10,mCKT4oRIh@1.0.58,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,nF8utBoMZ@1.0.0,oYX9i78KT@1.0.0,owYNQwDvZ@1.0.0,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.58,r1EWc4iuj-X@9.4.1,r1qWcNoOsW7@6.3.4,rAffn6LrC@1.0.45,rJOZc4jOiWQ@15.4.16,r_PeEMm-Z@1.0.0,rkqVqNoOib7@4.2.0,s8nQgU9A5@5.1.1,tavJ1OKSj@2.1.0,tnfBi7gwe@14.3.2,uNl9XGnZC@7.1.1,v5qsHjm64@1.0.16,w9RyVSEAG@1.0.0,wjTFh1LbY@1.0.0,xcThtDvvy@3.2.1,xpBsrsMfj@1.0.21,zHPuHon9t@1.0.0,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zqWojrT0P@15.7.6,ztvSJZUt2@2.1.15"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/de?templates=-KZPzxAsf@1.0.16,0LGNm0w3e@1.0.0,13v5rUCXc@1.0.0,18U8DAGGh@1.0.0,1ba4yQk0W@4.1.1,1xpTEWY44@1.0.0,2PLSJfB9b@6.2.0,3oMLZEPWY@2.1.0,4NIAkZsNE@2.2.0,56CqIjb0z@1.0.0,57b0LQPAS@1.0.17,5FP9tjYNG@1.0.0,5LFVxHGKz@6.1.0,6PEQM-sZb@2.1.15,71uePe1sF@1.0.0,7M0cXS2pQ@10.6.1,7jBdshciY@1.0.0,8G7U3J2Xc@4.2.1,8haTzpme2@2.1.0,8qf0IdI8M@2.1.0,9_mINmsAo@1.0.0,AMItrBs0R@1.0.0,Aytn62TR@2.0.0,B1Pb9NoOiZQ@5.2.1,BJ1Q5NoOj-7@5.1.3,BJSN54susZX@6.1.0,BJTzqNi_i-m@5.3.4,BJz7qNsdj-7@15.7.10,BkeKqEjuoZQ@9.3.5,ByOJZ54odjW7@11.3.1,CAh-PzD4@6.3.0,CVliYs1Zn@2.1.1,DG6-aLzBO@1.0.0,DswEq9TCs@1.0.1,H1Vl5NidjWX@40.15.35,HJI5SmLm7@4.0.18,HJOygqNo_sZX@7.2.2,Hk9Lx5VoOoWQ@4.2.0,HkIVcNiuoZX@5.3.1,HkJjj2yqP@1.0.0,Hkq1Xar5V@4.7.3,IA4SWi27g@1.0.0,JMsFnFMX2@4.1.0,Jy6PlrM3@2.2.0,KBFnjg2YU@1.0.0,L07_olkbD@1.0.0,LNxiCu4IM@2.1.0,LzUarVPjg@1.0.0,NjT2ojfFy@1.0.0,NlKLPqhTk@1.0.0,Nuuxwa3gy@1.0.16,O3JScppCm@1.0.1,OD38XMAFy@3.1.1,QmkqgbGhi@1.1.0,RkzHS-jLm@2.0.0,S1Qe-Pn54@4.2.1,SJKM9Ns_ibQ@10.4.4,SJXtq4iOoZX@10.4.4,SyUQ54odobQ@6.4.2,SyaxeqEi_oWX@4.1.0,SyfKc4oOjWQ@10.3.1,Syg-54jdiZX@9.4.0,TxfLuXDLv@1.0.0,V9qWyLWRp@1.0.0,W5WeAt85L@1.0.51,WJdT8GMXV@1.0.16,WrGHcfNwy@2.1.0,XYQZBUojc@8.5.1,Y8bSDnAVX@1.0.0,YbH2KLexG@1.0.16,Zy_B5xcst@1.0.0,_-HsBkxn_@1.0.0,apGP5d1vF@1.0.0,bZv7Ew5Wb@1.0.0,dQ35oKOjc@1.0.0,diHQHT2cJ@1.0.1,droLLWFH0@1.0.0,eZcGJUfqZ@1.0.0,f6nkjdUL@3.4.0,gHY2exdu@5.2.0,ghszFQYfO@1.0.0,jD5L7x2k7@1.0.0,jbqSHNuJq@1.0.23,k2e416jYz@1.0.0,kDgm-HFUj@5.2.0,kY2jC6sFp@2.1.0,kbKHcT7Rf@1.0.0,ko1w5PpFl@23.10.10,mCKT4oRIh@1.0.58,mIksTJp55@2.1.0,mbZSCBMEy@2.1.0,nF8utBoMZ@1.0.0,oYX9i78KT@1.0.0,owYNQwDvZ@1.0.0,p7TQJpfGc@2.1.0,pWv4ozUVB@1.0.58,r1EWc4iuj-X@9.4.1,r1qWcNoOsW7@6.3.4,rAffn6LrC@1.0.45,rJOZc4jOiWQ@15.4.16,r_PeEMm-Z@1.0.0,rkqVqNoOib7@4.2.0,s8nQgU9A5@5.1.1,tavJ1OKSj@2.1.0,tnfBi7gwe@14.3.2,uNl9XGnZC@7.1.1,v5qsHjm64@1.0.16,w9RyVSEAG@1.0.0,wjTFh1LbY@1.0.0,xcThtDvvy@3.2.1,xpBsrsMfj@1.0.21,zHPuHon9t@1.0.0,zN7ECIEKl@2.1.0,zOADr5mUO@1.0.16,zXzeio7tQ@2.1.0,zbEMidVmL@1.0.0,zqWojrT0P@15.7.6,ztvSJZUt2@2.1.15"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/styles/bootstrap.min.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/styles/p7s1-widget.css"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.ran.de/images/ran-logo.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/translations/translations-de.json"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/e6a9qgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5DRUyV1urJ83N-d0t6TzEyVcNyF4915zFPgdvX8_FBiUCoQc-48rpUP7fA5IyNHqM0KHg8LyIZFRHvU9nJtNtFGuGIbU23NncUHGQx5i-F87MOT9LUaMAAIG_rVigbDnW23ghG_rWM7WBtIdaHvM8bZ77u_shTV-34ZsncOF6KWz1LDn2PoHnZJ1LsISSxtxqnkN6RYkEkOvB6Zy3pW2h0ZRsAA3wRojjUCYugKuGg_ZYtpwOJWlpAq8gYJoPb08HQvffVpPOH62g/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/bc0cqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5IFtTKiVdkmIxzXpYobtJ3eJld165be99hlcPdMd1Fz4Zi3QmsHO8tm4uBj12TG4OM5r-q5RX0KDz8_cCZaUvA2C6GXpcSOo7-ww69KrMn4UP86BBhfU1_SLEsFgevKbxE_JLmY-5bNdIB54TkLBVSkBAHn_OlBWrJF3DEuZsDkAJb3M86b5A48C3karGtO_Jcgds/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/e09bqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5DRUyV1urJ83NzquanmlVvxsWIqzHBTi8-4k6dYnqDtz5A_DNVKUm-weQ5FES5CGrTxMxvXwl4FfRdcz4Ym2am52JFoKJs6qshY6Jax8czwkeBGi2uOH1mny54i0sXVMn1HxlQnKBiVeecR9dW_dDt2-k1C1L5QjBKZbTXt2x2G1zANFlD067D6I9C2vNrNcZ0hQOzh4Pz7p93XJe_FRgcPj6cYoNFDbel6JxHscBlCb2YfHvllnDk_GoXnPbgZrU88umB2x0F10esCI6R5P_BQ3J4-ool6tc0Ea7gJDQXHbZbFsAXGgI9SFRxSvMkTKjon09bKob6-ko_sA/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/2c4fqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5DRUyV1urJ83N1UGsnYAkbBw1dgi0iHDwVbfq3u6Ms961nsqXpTLoxwzpfg64Yr_XBM_4HfDNyg5G2BTqKYVZJhu2MvqWc5xCdxoqEUY5hv1wilmaVZZleCyClNyUvSony1GYuxphihIUF8XdKapumbSjqopx4UObuuYkwopim29CsRSzp2viypT710J_xtZ1hmvDuep62y_-EISsHjHDWptQUoWC7GBFXO1tDaUdOwUfl56jf3vrk-gFTfrRIwzrwumoCiEyjHnOHgtOap_h-Ghs/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/b56bqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5DRUyV1urJ83N1S3yVHt3UKtklFWEIdVgdq_HzvtxsJ8idv4Hp_YdkP268CJlO8swepeThzGazRfkUYwFYp7Y13Brqp3UrWDnUF-_sFhQmgjwU14fzQY4Cz3GO5DGcHGkJ5X9iK5gOobrj2v7Qh1cAxhHkSPzkD2yzeSNcP0ynK259Pp3JYLLSBahN_IRmWv6_ozbGD4R6qgjdB03Z03mpEKDY/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://i3-img.p7s1.io/pis/ezone/4fcfqgELB38wdEB0AB1fHPDQCtTDCJ4UYl_Ic-IXCoYylZ0mXar255psZunNxEf6nIbS_ptHLX5DRUyV1urJ83Ny2xZLblDsLrC4IvzndeP313xk8PLRzzNlK7kVXK-lgxw6rqJW_9ViWw5e9jvuL0j7k7En1jnTrBh4kt5cEE6xWRHuZPEEX7zt5XjMAVQAu32dEEwcLoR5Witd-nab6t0VBf70Fbsh3q4Q4iapImZJUT90C3qJoAp8zrXZIfnIcSKVYozIkcBF9JWwyJlR4nYfIAXw2P75Otz1j1hS6gcXVjhLej2GEwZYrd-DfhoWwZgXH_-tDmxMPxKcbbJmDdaljHI4fwWP99HS5wzeeUkwTyAzrZRA/profile:ran_app_1280x720"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://widgets.sevenone-sports.de/public/fonts/ARIALBD.woff"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/browser-sdk/1.12.1/cross-domain-bridge.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/en.json"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/tcf2/de.json"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/a1db1f9ad2abcf7d7b2d1cb0f79b222a73dd9213aecc4305a9c2d930f512a062/analytics"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://cmp.p7s1.io/a1db1f9ad2abcf7d7b2d1cb0f79b222a73dd9213aecc4305a9c2d930f512a062/analytics"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://datalayer.p7s1.io/d40b37fb578cdefcc85b7b08c223c997.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/analytics.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/gntm/mag_logo_dt.jpg?v=3"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/fonts/NotoSans-Bold.woff2?v=1"
+    },
+    {
+      "mime_type": "binary/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/fonts/NotoSans-Regular.woff2?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/joko-klaas-gegpro7/mag_bg.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/joko-klaas-gegpro7/mag_logo_dt.jpg?v=1"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/galileo2014/mag_bg.jpg?v=3"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://s.p7s1.io/magellan/static/formats/assets/galileo2014/mag_logo_dt.jpg?v=3"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j89&aip=1&a=1563701016&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.prosieben.de%2F&ul=en-us&de=UTF-8&dt=ProSieben%20-%20TV%20Programm%2C%20Videos%20und%20Infos%20zu%20allen%20Sendungen&sd=24-bit&sr=800x600&vp=785x600&je=0&ec=CMP%20Load%20Successful&ea=prosieben-de_web&el=not%20set&_u=aEBAAUABEAAAAC~&cid=1807626409.1618852382&tid=UA-125952458-6&_gid=974244371.1618852382&_slc=1&cd1=not%20set&cd2=not%20set&cd3=splash&cd4=prosieben-de&cd5=web&cd6=not%20set&cd7=0&cd8=not%20set&cd16=1&cd17=1&cm6=1&z=997646629"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j89&aip=1&a=1563701016&t=event&ni=1&_s=2&dl=https%3A%2F%2Fwww.prosieben.de%2F&ul=en-us&de=UTF-8&dt=ProSieben%20-%20TV%20Programm%2C%20Videos%20und%20Infos%20zu%20allen%20Sendungen&sd=24-bit&sr=800x600&vp=785x600&je=0&ec=CMP%20Layer%20Open&ea=prosieben-de_web&el=not%20set&_u=aEBAAUABEAAAAC~&cid=1807626409.1618852382&tid=UA-125952458-6&_gid=974244371.1618852382&cd1=not%20set&cd2=not%20set&cd3=splash&cd4=prosieben-de&cd5=web&cd6=not%20set&cd7=0&cd8=not%20set&cd16=1&cd17=1&cm1=1&z=1297821556"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://magellan-api.p7s1.io/search-frequent-terms/prosieben.de/graphql?operationName=&query=%20query%20FrequentSearchTermsQuery(%24domain%3A%20String!%2C%20%24limit%3A%20Int)%20%7B%20site(domain%3A%20%24domain)%20%7B%20frequentSearchTerms(limit%3A%20%24limit)%20%7B%20contentType%20domain%20path%20text%20%7D%20%7D%20%7D%20%0A&variables=%7B%22debug%22%3Afalse%2C%22domain%22%3A%22prosieben.de%22%2C%22limit%22%3A5%7D&queryhash=6cfd8065532f3d4c05d4bc748c71ef78696781930287c7d2b60e35817c72d3ee&initialcv=browser-p7s1-1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://magellan-api.p7s1.io/shows/prosieben.de/graphql?operationName=&query=%20query%20ShowQuery(%24domain%3A%20String!)%20%7B%20site(domain%3A%20%24domain)%20%7B%20shows%20%7B%20...fShows%20%7D%20%7D%20%7D%20%0Afragment%20fShows%20on%20Shows%20%7B%20items%20%7B%20...fTeaserItem%20%7D%20%7D%20%0Afragment%20fTeaserItem%20on%20TeaserItem%20%7B%20id%20url%20info%20headline%20contentType%20channel%20%7B%20...fChannelInfo%20%7D%20branding%20%7B%20...fBrand%20%7D%20site%20picture%20%7B%20url%20%7D%20pictures%20%7B%20url%20dimension%20name%20title%20copyright%20description%20orientation%20imageOverlayTarget%20imageOverlayType%20kicker%20%7D%20videoType%20orientation%20date%20flags%20fsk%20videoId%20valid%20%7B%20from%20to%20%7D%20epg%20%7B%20episode%20%7B%20...fEpisode%20%7D%20season%20%7B%20...fSeason%20%7D%20duration%20nextEpgInfo%20%7B%20...fEpgInfo%20%7D%20%7D%20%7D%20%0Afragment%20fChannelInfo%20on%20ChannelInfo%20%7B%20title%20shortName%20cssId%20cmsId%20%7D%20%0Afragment%20fBrand%20on%20Brand%20%7B%20id%2C%20name%20%7D%20%0Afragment%20fEpisode%20on%20Episode%20%7B%20number%20%7D%20%0Afragment%20fSeason%20on%20Season%20%7B%20number%20%7D%20%0Afragment%20fEpgInfo%20on%20EpgInfo%20%7B%20time%20endTime%20primetime%20branding%20%7B%20name%20%7D%20%7D%20&variables=%7B%22domain%22%3A%22prosieben.de%22%7D&queryhash=e30887d3930e7a04f4c692523457cfd3b8eaf7ae5a1c307e7888d69a176ff226&initialcv=browser-p7s1-1"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://prosieben.de\r",
+  "third_parties": {
+    "fqdns": [
+      "ad.71i.de",
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "cmp.p7s1.io",
+      "code.jquery.com",
+      "datalayer.p7s1.io",
+      "graphql.usercentrics.eu",
+      "i3-img.p7s1.io",
+      "magellan-api.p7s1.io",
+      "middleware.p7s1.io",
+      "p.typekit.net",
+      "player.glomex.com",
+      "s.p7s1.io",
+      "time.akamai.com",
+      "use.typekit.net",
+      "widgets.sevenone-sports.de",
+      "www.google-analytics.com",
+      "www.ran.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 71
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 18,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "www.google-analytics.com"
+    ]
+  }
+}

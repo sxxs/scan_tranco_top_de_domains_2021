@@ -1,0 +1,566 @@
+{
+  "chrome_error": null,
+  "cookies": [],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.gfz-potsdam.de/startseite/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "ce970615fd18e1ccf087b3864f5ce5ea477c4cbb3fc871f000b73175406e8943",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 4096,
+        "type": "RSA"
+      },
+      "not_valid_after": 1622955522.0,
+      "not_valid_before": 1551765522.0,
+      "serial_number": 10094056809914273177883695147,
+      "subject": {
+        "commonName": "www.gfz-potsdam.de",
+        "countryName": "DE",
+        "localityName": "Potsdam",
+        "organizationName": "Helmholtz-Zentrum Potsdam - Deutsches GeoForschungsZentrum GFZ",
+        "stateOrProvinceName": "Brandenburg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.gfz-potsdam.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://gfz-potsdam.de/",
+    "http://www.gfz-potsdam.de//",
+    "https://www.gfz-potsdam.de/",
+    "https://www.gfz-potsdam.de/startseite/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://gfz-potsdam.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://www.gfz-potsdam.de//"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/startseite/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/bootstrap/css/bootstrap.min.css?1572878134"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/slick.css?1572878134"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/slick-lightbox.css?1572878134"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/font-awesome/css/font-awesome.min.css?1572878134"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/news/Resources/Public/Css/news-basic.css?1505199874"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3temp/Assets/dbc29c4066.css?1602067867"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/index.css?1572878134"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_jobs/Resources/Public/Css/index.css?1618212568"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/JavaScript/jquery-3.4.1.min.js?1572878134"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/bootstrap/js/bootstrap.min.js?1572878134"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/JavaScript/slick.min.js?1572878134"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3temp/Assets/dd82474708.js?1597051531"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/gfz/GFZ.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/gfz/HelmholtzBrand.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/1/1/csm_11436_Barge_on_Lake_Towuti_Drone_Kallmeyer-GFZ-1_3fb35f2a9d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/gfz/medien_kommunikation/Meldungen_2021/PM/11428-slider_Pyrite-weathering-Lishan_Kristen-Cook-GFZ.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/0/0/csm_11426_Gasreiche_Fl%C3%BCssigkeitseinschl%C3%BCsse_f0fb732e55.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/a/a/csm_11423_Ancient-kauri-tree-log-from-Ngawha-NZ_Nelson-Parker_ec3dc633c0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/8/a/csm_Polarlicht_Kangerlussuaq_Groenland_Foto_J%C3%BCrgen_Matzka_small_d862089cdd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/0/5/csm_Personalia_Frank_Flechtner_77cade0dec.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/b/7/csm_Wagner_Dirk_Rechte_Karla_Fritze_66cc5c0726.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/6/b/csm_Personalia_Dirk_Sachse_fe31e0d441.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-3-Erdbeben-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-4-Daten-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-2-KpIndex-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-1-Satellit-gfz.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/a/f/csm_Programm_mit_Topics_1a6817deb6.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/e/f/csm_T1_Foto_Original_he_9234ff112b.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/3/a/csm_T2_Foto_final_lower_resolution_45b56b7481.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/5/6/csm_T3_Foto_Maule_Beben_final_52b2888896.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/3/d/csm_T5_Foto_Original_3ef1a6dcfe.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/4/6/csm_T8_Foto_und_Banner_Island_neu_c693e32e4e.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/b/0/csm_MESI_neu_64455e73fa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/9/a/csm_SynCom-en-grau_he_27358b9674.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-6-Infothek-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-5-BibLis-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-8-TT-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-7-Talentmanagement-gfz.svg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/d/1/csm_eskp_Logo_Startseite_ohne_Hintergrund_34e5d758c8.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/0/4/csm_ICDP_Logo3_8011ead011.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/1/6/csm_GeoX_LogoEN_2170458eaa.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/2/8/csm_FFGFZ_Logo_Startseite_ohne_Hintergrund_5d77a87048.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/e/2/csm_logo-ef_12894da200.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/3/9/csm_genderdax_e2e0c1a46f.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/_processed_/b/b/csm_2017_H_Logo_RGB_untereinander_DE_gross_6dc11b43b5.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/JavaScript/main.min.js?1572878134"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/Images/topographic-pattern.png"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/fonts/source-sans-pro-v13-latin-regular.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/fonts/source-sans-pro-v13-latin-700.woff2"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/Images/cd-top-arrow.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/Images/user.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-3-Erdbeben-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-4-Daten-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-2-KpIndex-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-1-Satellit-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-6-Infothek-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-5-BibLis-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-8-TT-gfz.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/fileadmin/Service-Icons_svgs/icon-7-Talentmanagement-gfz.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.gfz-potsdam.de/typo3conf/ext/gfz_frontend/Resources/Public/CSS/fonts/source-sans-pro-v13-latin-300.woff2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://gfz-potsdam.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

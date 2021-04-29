@@ -1,0 +1,827 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".lto.de",
+      "expires": 1681941600,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 63019707,
+      "name": "stellenmarktLastVisited",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 61,
+      "value": "b8716049-c6ad-406a-9c85-e190f0ec2145.0"
+    },
+    {
+      "domain": "www.lto.de",
+      "expires": 1621521104,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599211,
+      "name": "newsletterLayerStatus",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 25,
+      "value": "down"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 2,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.lto.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "02204bf864498a510ad81e5bb245113d7fa9c527d4f64f80f9472bbba1527b19",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "Go Daddy Secure Certificate Authority - G2",
+        "countryName": "US",
+        "localityName": "Scottsdale",
+        "organizationName": "GoDaddy.com, Inc.",
+        "organizationalUnitName": "http://certs.godaddy.com/repository/",
+        "stateOrProvinceName": "Arizona"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1628100743.0,
+      "not_valid_before": 1596564743.0,
+      "serial_number": 2375298944011287455,
+      "subject": {
+        "commonName": "lto.de",
+        "organizationalUnitName": "Domain Control Validated"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "missing-preload",
+        "no-include-subdomains",
+        "no-max-age"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.lto.de/rechtliches/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "1.11.0"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://lto.de/",
+    "http://www.lto.de/",
+    "https://www.lto.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://lto.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.lto.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/"
+    },
+    {
+      "mime_type": "font/woff",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Fonts/Ltoicons/ltoicons.woff?-c4wrvh"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Fonts/bootstrap/glyphicons-halflings-regular.woff2"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3temp/assets/css/01424d13ff.css?1616583683"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Stylesheets/screen.css?1616581906"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.googleapis.com/css?family=Merriweather:400,700,300,300italic,400italic&display=swap"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3temp/assets/compressed/merged-19daf6c7c1ca6d61b3d441027f8e26cd.js?1616583684"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Images/logo.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/e/7/csm_AdobeStock_104635459_bcf6165bfa.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/8/6/csm_Valetta_Malta_8b91e5abd5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/e/1/csm_BAMF-Berlin_974a637ef0.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/4/1/csm_AdobeStock_307412738_17d4194ef9.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/7/8/csm_logo-neu_074f8cd2af.jpeg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backend.lto-karriere.de/rest/v1/image-reference/1014251/width%7C75,maxHeight%7C75/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backend.lto-karriere.de/rest/v1/image-reference/1012949/width%7C75,maxHeight%7C75/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backend.lto-karriere.de/rest/v1/image-reference/959544/width%7C75,maxHeight%7C75/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backend.lto-karriere.de/rest/v1/image-reference/1012197/width%7C75,maxHeight%7C75/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backend.lto-karriere.de/rest/v1/image-reference/978743/width%7C75,maxHeight%7C75/"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://backend.lto-karriere.de/rest/v1/image-reference/983309/width%7C75,maxHeight%7C75/"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/5/5/csm_HP-Grafik307x307ShopMerch_0e179a81bc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/1/4/csm_AdobeStock_311633784_767faed38e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/f/8/csm_AdobeStock_53879091_5f4694abc8.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/9/8/csm_90814241_ec2cbe1bbd.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/7/9/csm_Ausgangssperre_9d3d386cca.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/f/4/csm_berlinskylinini_620_2cff67e604.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/e/2/csm_LTO-Presseschau_ee2fd98bb9.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KVLPND"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/2/0/csm_AdobeStock_267258533_d965cf3ee3.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/8/0/csm_Dr._Michael_Schneider_f63bead710.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/4/9/csm_AdobeStock_172121426_d9795f136d.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/b/7/csm_Maske_Klausur_e4d2f8d2a8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/1/e/csm_IMR080-LTO-Background-Homepage-je-Episode_e3284ef4ca.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/d/8/csm_Aktenstapel_3912e6c5f2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/a/7/csm_Rechtsanwaelte_im_Bundestag_5a6b8067a1.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/5/a/csm_beA-Sicherheit_Fotor_ea8de1fa3c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/5/4/csm_AdobeStock_283639917_34932f45c8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/7/6/csm_BVerwG_zum_richterlichen_Amtsgeschaeft_b961d260b4.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/1/8/csm_bamfschildi_620_5a3f6fbe76.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/1/f/csm_AdobeStock_249564505_14e88990e9.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/e/8/csm_AdobeStock_29145407_d2fa21067e.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/a/0/csm_Eichmann_dpa_bc30a38736.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/5/a/csm_Bagger_edee0b1850.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/0/9/csm_Fitnessstudio_Fotor_fd6da07e1f.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/5/8/csm_Basketball-Crash_817e47b960.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/d/5/csm_IMR081-LTO-Background-Homepage-je-Episode_b7b0b71f49.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/3/5/csm_AdobeStock_167812762_6e757d1b9d.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/6/e/csm_jobs-der-woche3_7feefd2f06.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/f/e/csm_thoenes_1200_54db2f7e6e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/b/4/csm_Bild-Thoenissen_LTO-Interview_1900x1080px_393a5e3fee.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/6/0/csm_glns_kachel_3fe94d59f4.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/8/d/csm_2Zipper_Partner_Kachel_34ed5cfae8.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/6/1/csm_Bird_Bird_agkachel_23e785753c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/2/1/csm_Gantefuehrer_kachel_1a479e54eb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/f/d/csm_redeker-kachel_73dc48cdac.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/0/6/csm_cbh-neu-kachel_18954163c8.jpg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?483962301"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3temp/assets/_processed_/f/1/csm_LOGO_WKD_neg_862e8b666f.png"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3temp/assets/compressed/merged-ae03c2f2c8d9fb47044ff7c88f93dfd5.js?1616582486"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://img06.en25.com/i/livevalidation_standalone.compressed.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3temp/assets/compressed/merged-d47c232b8748fa148df1c98f13b24e92.js?1616582486"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/JavaScript/tracking.min.js?1616581905"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/b/a/csm_Juristen-Transfermarkt_Q1-2021_0bdb3220c6.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/0/5/csm_AdobeStock_219776591_7b81271a75.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/a/8/csm_Kinder_Maske_6abd7262d5.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/f/5/csm_Schnelltest_32989535bb.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/fileadmin/_processed_/7/9/csm_Ausgangssperre_5c2d1d9964.jpeg"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5-fCZM.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Images/lto_jobs_header.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Images/link-arrow.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Images/icon-down.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Images/arrow_red_right.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?356422083&_=1618929094075"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?558848386&_=1618929094076"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?785168629&_=1618929094077"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/typo3conf/ext/lto/Resources/Public/Images/JQueryUi/ui-bg_highlight-hard_100_f7f7f7_1x100.png"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://t.lto.connectaserver.de/t.php?ht=p&in=&pp=https%3A%2F%2Fwww.lto.de%2F&sr=800x600&vp=800x600&debug=0-1618929094304&cid=b8716049-c6ad-406a-9c85-e190f0ec2145&dt=LTO.de%20-%20Legal%20Tribune%20Online%20-%20Aktuelles%20aus%20Recht%20und%20Justiz&rf=&z=1618929094305"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/uc.js?cbid=34d3bf8e-457b-452f-9e5a-b3d716886d09"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?356422083&t=1&tt=1618929094-f27535bb&cb=16189290944290.9053867714946975&screen=800x600&availscreen=800x600&framed=0&vb=1&referer=https%3A%2F%2Fwww.lto.de%2F&bt=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?558848386&t=1&tt=1618929094-17731081&cb=16189290944320.7784754826039719&screen=800x600&availscreen=800x600&framed=0&vb=1&referer=https%3A%2F%2Fwww.lto.de%2F&bt=1"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/?785168629&t=1&tt=1618929094-5443fa02&cb=16189290944370.35869520686927614&screen=800x600&availscreen=800x600&framed=0&vb=1&referer=https%3A%2F%2Fwww.lto.de%2F&bt=1"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.lto.de/?type=5123&last_visited=0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/imp"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/vb"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/imp"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/vb"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.lto.de/t42d0c87f/img/eq4fz_u649x2_eed35ae4.jpg"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.lto.de/t42d0c87f/img/eq4fz_vszm58_d85ea105.gif"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://consent.cookiebot.com/34d3bf8e-457b-452f-9e5a-b3d716886d09/cc.js?renew=false&referer=www.lto.de&dnt=false&forceshow=false&cbid=34d3bf8e-457b-452f-9e5a-b3d716886d09&brandid=CookieConsent&framework="
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://engine.lto.de/vb"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://t.lto.connectaserver.de/t.php?ht=e&in=Verweildauer%7C%7CTimeOnPage%7C%7C0m%2010s&pp=https%3A%2F%2Fwww.lto.de%2F&sr=800x600&vp=800x600&cid=b8716049-c6ad-406a-9c85-e190f0ec2145&dt=LTO.de%20-%20Legal%20Tribune%20Online%20-%20Aktuelles%20aus%20Recht%20und%20Justiz&rf=&z=1618929104400"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": ": max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": null,
+      "preload": false
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://lto.de\r",
+  "third_parties": {
+    "fqdns": [
+      "backend.lto-karriere.de",
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "fonts.googleapis.com",
+      "fonts.gstatic.com",
+      "img06.en25.com",
+      "t.lto.connectaserver.de",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 16
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 4,
+    "trackers": [
+      "consent.cookiebot.com",
+      "consentcdn.cookiebot.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

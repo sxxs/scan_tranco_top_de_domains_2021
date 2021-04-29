@@ -1,0 +1,692 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".google.com",
+      "expires": 1634478186.811333,
+      "httpOnly": true,
+      "is_thirdparty": true,
+      "is_tracker": false,
+      "lifetime": 15559202.811332941,
+      "name": "_GRECAPTCHA",
+      "path": "/recaptcha",
+      "priority": "High",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": false,
+      "size": 100,
+      "value": "09ANblmniLHbwV-_o-DDs41z4gwotJZFW3AFGvveY2dSLbjHk5X-APh3kmbjexC98c0Zv1h5rhO_DEEW2zJJBL-T4"
+    },
+    {
+      "domain": ".mein-mmo.de",
+      "expires": 1650548585,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31629601,
+      "name": "didomi_token",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 200,
+      "value": "eyJ1c2VyX2lkIjoiMTc4ZWY4NTItZDIyNy02ZGM0LWJlYTUtNzU2YTM0ZTRkZjY2IiwiY3JlYXRlZCI6IjIwMjEtMDQtMjBUMTM6NDM6MDUuODE3WiIsInVwZGF0ZWQiOiIyMDIxLTA0LTIwVDEzOjQzOjA1LjgxN1oiLCJ2ZXJzaW9uIjpudWxsfQ=="
+    },
+    {
+      "domain": ".nr-data.net",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": true,
+      "is_tracker": true,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "sameSite": "None",
+      "secure": true,
+      "session": true,
+      "size": 26,
+      "value": "c8dc2876ec027ef4"
+    },
+    {
+      "domain": "mein-mmo.de",
+      "expires": 1713620587.209444,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 94701603.20944405,
+      "name": "vchideactivationmsg",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 20,
+      "value": "1"
+    },
+    {
+      "domain": "mein-mmo.de",
+      "expires": 1713620587.209482,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 94701603.20948195,
+      "name": "vchideactivationmsg_vc11",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 29,
+      "value": "6.6.0"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 3,
+    "first_party_short": 0,
+    "third_party_long": 1,
+    "third_party_short": 1,
+    "trackers": [
+      "nr-data.net"
+    ]
+  },
+  "failed_requests": [],
+  "final_url": "https://mein-mmo.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "08333d565329f3ae9319649222dfdad512d3c659ecc4f6a1102bb82bb2d16a9d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "R3",
+        "countryName": "US",
+        "organizationName": "Let's Encrypt"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1621633541.0,
+      "not_valid_before": 1613861141.0,
+      "serial_number": 277896059686683450857361713054297314483270,
+      "subject": {
+        "commonName": "mein-mmo.de"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-384",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://mein-mmo.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": "16.13.1",
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://mein-mmo.de/",
+    "https://mein-mmo.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://mein-mmo.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/cache/autoptimize/css/autoptimize_f453bd22c2ad6da86a0350d956fce7cf.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/cache/autoptimize/css/autoptimize_cc123e854a2172bf70db995225466d05.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/969f779f-570e-47ae-af54-36b8692b345e/loader.js?target=mein-mmo.de"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/superpwa-manifest.json"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/js/jquery.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/plugins/mmo-home/dist/mmo-home.min.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/images/Mein-MMO-Logo.png"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.cgames.de/gs_cb/assets/core/images/webedia_Logo_cutout.svg"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/vendor/lodash.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/vendor/wp-polyfill.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/vendor/react.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/vendor/react-dom.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/escape-html.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/element.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/hooks.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/i18n.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/url.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-includes/js/dist/api-fetch.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api.js?render=6Ld0rzUaAAAAAMpOnoabiZC0GiiVLlVKK_2-1Ues"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/cache/autoptimize/js/autoptimize_f27af2ca833c6fee72499b6b24ca5a67.js"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/fyng-spring-2021-ticker/?website=meinmmo&darkmode=no"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/images/discord-ffffff.svg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber/lib/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/fonts/open-sans-condensed-v14-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/fonts/open-sans-v17-latin-regular.woff2"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2020/10/ps5-konsolen-780x438.jpeg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2018/09/new-world-packshot.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2020/03/Baldurs-Gate-3-Packshot-neu.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2020/03/The-Cycle-packshot-2.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2021/04/Swords-of-Legends-Online-Packshot.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2017/06/skulls-bones-packshot-150x200.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/medien/2020/01/beste-mmos-576x356.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/fonts/open-sans-v17-latin-700.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/sdk.474e3f0ad27c4eba6a6f87f3ef893b650ce62084.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-content/themes/huber-child/assets/images/GameStar-Logo.png"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-includes/css/dist/block-library/style.min.css?ver=5.7"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/plugins/wbd-gutenberg/dist/wbd-gutenberg.style.min.css?ver=1617169460"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/plugins/wp-polls/polls-css.css?ver=2.75.6"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/plugins/wp-quiz-pro/assets/frontend/css/animate.css?ver=3.6.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/plugins/wp-quiz-pro/assets/frontend/css/wp-quiz.css?ver=2.1.7"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/themes/wbd-toolbox/assets/css/all.css?ver=1.0.0"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/themes/wbd-toolbox/assets/css/meinmmo.css?ver=1.0.0"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/plugins/wp-polls/polls-js.js?ver=2.75.6"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/themes/wbd-toolbox/assets/js/all.js?ver=1.0.0"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-includes/js/wp-embed.min.js?ver=5.7"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-includes/js/wp-emoji-release.min.js?ver=5.7"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Ld0rzUaAAAAAMpOnoabiZC0GiiVLlVKK_2-1Ues&co=aHR0cHM6Ly9tZWluLW1tby5kZTo0NDM.&hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb&size=invisible&cb=aycwep1zf8sy"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://sdk.privacy-center.org/ui-gdpr-de.474e3f0ad27c4eba6a6f87f3ef893b650ce62084.js"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/uploads/sales/other/FYNG-Background-Spring.jpg"
+    },
+    {
+      "mime_type": "application/octet-stream",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://toolbox.webediagaming.de/wp-content/themes/wbd-toolbox/assets/fonts/open-sans-v17-latin-700.woff2"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://images.mein-mmo.de/wp-content/themes/huber-child/assets/images/Mein-MMO-Logo-black.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mein-mmo.de/wp-admin/admin-ajax.php"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/styles__ltr.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/releases/dpzVjBAupwRfx3UzvXRnnAKb/recaptcha__en.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://js-agent.newrelic.com/nr-1208.min.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/js/bg/sR-PPUH_JfEvmJmKzZpkrzje93EVJEp5B_I-I03HbT0.js"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=dpzVjBAupwRfx3UzvXRnnAKb"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam-cell.nr-data.net/1/fc08b81ab7?a=141634381&v=1208.49599aa&to=MlVSNhFTXRJSVUFeXgsfcQEXW1wPHEVcWVYJVQ%3D%3D&rst=1866&ck=1&ref=https://toolbox.webediagaming.de/fyng-spring-2021-ticker/&ap=150&be=1068&fe=1608&dc=1568&perf=%7B%22timing%22:%7B%22of%22:1618926184491,%22n%22:0,%22f%22:0,%22dn%22:23,%22dne%22:43,%22c%22:43,%22s%22:71,%22ce%22:103,%22rq%22:104,%22rp%22:133,%22rpe%22:134,%22dl%22:253,%22di%22:1460,%22ds%22:1568,%22de%22:1568,%22dc%22:1607,%22l%22:1608,%22le%22:1609%7D,%22navigation%22:%7B%7D%7D&fp=1454&fcp=1454&at=HhJRQFlJThw%3D&jsonp=NREUM.setToken"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/recaptcha/api2/reload?k=6Ld0rzUaAAAAAMpOnoabiZC0GiiVLlVKK_2-1Ues"
+    },
+    {
+      "mime_type": "image/gif",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://bam-cell.nr-data.net/events/1/fc08b81ab7?a=141634381&v=1208.49599aa&to=MlVSNhFTXRJSVUFeXgsfcQEXW1wPHEVcWVYJVQ%3D%3D&rst=11868&ck=1&ref=https://toolbox.webediagaming.de/fyng-spring-2021-ticker/"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'"
+      ],
+      "header_value": "frame-ancestors 'self'"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000; includeSubDomains; preload",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://mein-mmo.de\r",
+  "third_parties": {
+    "fqdns": [
+      "bam-cell.nr-data.net",
+      "fonts.gstatic.com",
+      "js-agent.newrelic.com",
+      "sdk.privacy-center.org",
+      "static.cgames.de",
+      "toolbox.webediagaming.de",
+      "www.google.com",
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 34
+  },
+  "tracking": {
+    "num_tracker_cookies": 1,
+    "num_tracker_requests": 6,
+    "trackers": [
+      "bam-cell.nr-data.net",
+      "js-agent.newrelic.com",
+      "sdk.privacy-center.org"
+    ]
+  }
+}

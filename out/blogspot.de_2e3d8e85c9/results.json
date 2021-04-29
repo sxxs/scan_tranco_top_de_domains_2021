@@ -1,0 +1,222 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".google.com",
+      "expires": 2145916800.113681,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 527074347.1136811,
+      "name": "CONSENT",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 18,
+      "value": "PENDING+168"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 1,
+    "first_party_short": 0,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.google.com/?gws_rd=ssl",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "a39cca8bccea61b65b2febfe9ba8ccc290e2cfe1da7f5aff4e0847c2fba3b5a9",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "GTS CA 1O1",
+        "countryName": "US",
+        "organizationName": "Google Trust Services"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1623738379.0,
+      "not_valid_before": 1616484380.0,
+      "serial_number": 142715184488894537513142360157429946209,
+      "subject": {
+        "commonName": "www.google.com",
+        "countryName": "US",
+        "localityName": "Mountain View",
+        "organizationName": "Google LLC",
+        "stateOrProvinceName": "California"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": true,
+      "is_ready": true
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://blogspot.de/",
+    "http://www.google.com/",
+    "https://www.google.com/?gws_rd=ssl"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://blogspot.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://www.google.com/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/?gws_rd=ssl"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "mime_type": "image/webp",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.google.com/images/searchbox/desktop_searchbox_sprites302_hr.webp"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_84x28dp.png"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.google.com/gen_204?ei=dq99YNKfAYqmUK3ChNgI&vet=10ahUKEwjSssr03IrwAhUKExQKHS0hAYsQhJAHCBU..s&gl=DE&pc=SEARCH_HOMEPAGE&isMobile=false"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/og/_/js/k=og.qtm.en_US.8dERVtYpEbk.O/rt=j/m=qabr,q_d,qcwid,qmutsd,qapid,qald/exm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/rs=AA2YrTtK8xRmj0fyGPTOEIIC57ejY0deLQ"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.gstatic.com/og/_/ss/k=og.qtm.DcFyqEcRUTY.L.W.O/m=qcwid/excm=qaaw,qadd,qaid,qein,qhaw,qhbr,qhch,qhga,qhid,qhin,qhpr/d=1/ed=1/ct=zgms/rs=AA2YrTtSjyfGhHQrwA20fAkBWvJK9pi4mQ"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://www.google.com/gen_204?s=webhp&t=aft&atyp=csi&ei=dq99YNKfAYqmUK3ChNgI&rt=wsrt.382,aft.186,prt.131&imn=7&ima=3&imad=0&aftp=600&bl=f_Ps"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.jcYff4gdSOQ.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_CvAHQybwQAZJQL2tdeysMj0HgHw/cb=gapi.loaded_0"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://ogs.google.com/widget/app/so?bc=1&origin=https%3A%2F%2Fwww.google.com&cn=app&pid=1&spid=538&hl=de"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000",
+      "includeSubDomains": false,
+      "max-age": 31536000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "0",
+      "is_active": null,
+      "mode": null
+    }
+  },
+  "site_url": "http://blogspot.de\r",
+  "third_parties": {
+    "fqdns": [
+      "www.gstatic.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 3
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

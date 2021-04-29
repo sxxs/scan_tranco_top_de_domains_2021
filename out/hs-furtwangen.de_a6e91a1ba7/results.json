@@ -1,0 +1,312 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.hs-furtwangen.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "hfu_distribution__solr-filtering",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 34,
+      "value": "no"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 1,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.hs-furtwangen.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "2fd3e505749c4414299b7e9a9cf10e36720e8ece49474e5c8ce2c7c6c5b2ab7d",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DFN-Verein Global Issuing CA",
+        "countryName": "DE",
+        "organizationName": "Verein zur Foerderung eines Deutschen Forschungsnetzes e. V.",
+        "organizationalUnitName": "DFN-PKI"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1634648838.0,
+      "not_valid_before": 1600348038.0,
+      "serial_number": 10990312500955955742674098609,
+      "subject": {
+        "commonName": "www.hs-furtwangen.de",
+        "countryName": "DE",
+        "localityName": "Furtwangen",
+        "organizationName": "Hochschule Furtwangen",
+        "organizationalUnitName": "IMZ IT-Applications",
+        "stateOrProvinceName": "Baden-Wuerttemberg"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_128_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "fail_reasons": [
+        "max-age-too-short",
+        "missing-preload",
+        "no-include-subdomains"
+      ],
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "P-256",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.hs-furtwangen.de/impressum/",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.4.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://hs-furtwangen.de/",
+    "https://www.hs-furtwangen.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://hs-furtwangen.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/we_cookie_consent/Resources/Public/JavaScript/Controller/ConsentController.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/we_cookie_consent/Resources/Public/Library/klaro/klaro.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3temp/assets/compressed/merged-c584be7c80321a6b9f418ec7594f22fb-min.js.1617115099.gzip"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3temp/assets/compressed/merged-2ff7f8fe1fd1f030960e9d1410cfb9bf-min.js.1617115099.gzip"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3temp/assets/compressed/merged-00c983d7e928a39196dd56c72967ef20-min.js.1617115099.gzip"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3temp/assets/compressed/merged-505c48bd654443ed3ffd986146275745-min.css.1617115099.gzip"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Keyvisuals/HFU_1600x660_15_DE.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/1/a/csm_Prom_Macht_der_Daten_f97c2d0312.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/b/1/csm_2021_SoSe_Preisverleihung_Grundstudiumspreis_78788be9be.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/9/d/csm_PM_2021-04-14_SG_Gantner_13ab228edc.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/5/9/csm_NL_Einladung_KTUR_neu_41cf4afc2c.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/2/1/csm_Fakultaeten_b9f4a73a4e.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/c/6/csm_Einrichtungen_f1001ab5af.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/4/4/csm_Forschung_fef6c70943.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/fileadmin/_processed_/2/2/csm_Studiengaenge_1a02f19fb2.jpg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Logos/IBH.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Logos/WeltoffeneHS.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Logos/GATE.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Logos/FIDH.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Logos/Trinational.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/Images/Logos/EMAS.svg"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/fonts/roboto-v18-latin_latin-ext-500.woff2"
+    },
+    {
+      "mime_type": "application/font-woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.hs-furtwangen.de/typo3conf/ext/hfu_distribution/Resources/Public/fonts/roboto-v18-latin_latin-ext-regular.woff2"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": null,
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": {
+      "header_value": "max-age=15768000",
+      "includeSubDomains": false,
+      "max-age": 15768000,
+      "preload": false
+    },
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": null,
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://hs-furtwangen.de\r",
+  "third_parties": {
+    "fqdns": [],
+    "num_http_requests": 0,
+    "num_https_requests": 0
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 0,
+    "trackers": []
+  }
+}

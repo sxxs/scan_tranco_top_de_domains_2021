@@ -1,0 +1,989 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": ".zalando.de",
+      "expires": 1618866595.002218,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 21601.00221800804,
+      "name": "bm_sz",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 334,
+      "value": "D2FADC1E270323598170DEEE648152CB~YAAQv+8ZuNu52ud4AQAAtioc6wu/mfeYDi1SXsRpkKwIPjF0mkP61//pDb16pE81anxDZzdlb9MOWx1wXmVZPRkIDEsWvq+ei2YrelkCSq8wZHyFbMHOFsPGfJuub/nSnOH5fWWFoTMArTOTSWYNdDePB26cobFiDsNLBr3zlxKxS+pn9qAbNayUHNCyTRWtGCRhJsH7KdSkVx0GGG2sdlSZacHG59q0+4oQpsbcKHrPFkjNYF6dmaYLlRGVFptaRRGLe4X8vexEVVvVZWkDe1N6oLtyW2tO/Ntmwg=="
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1619629795.071282,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 784801.07128191,
+      "name": "fvgs_ml",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 13,
+      "value": "mosaic"
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1618855795.071318,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10801.071317911148,
+      "name": "frsx",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 156,
+      "value": "AAAAAGxOuJD1_vEb8KcHIiHUVGBdICwbo23f7WWFlEmS5_8VTv_GF0dCTQm_HTM8gIzv1hbi2xg5IjWrMocu8QSQvGAC9IV4yErsz4na6kEIrE5sO2cCbQDOXu5gEL3_LMmc1zRriZwcqceJqX2h2Jc="
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1634404210.922934,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 15559216.922934055,
+      "name": "Zalando-Client-Id",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 53,
+      "value": "5ddcad75-a9a8-4ab3-b6fb-945d69f61777"
+    },
+    {
+      "domain": ".en.zalando.de",
+      "expires": 1618855795.071358,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 10801.07135796547,
+      "name": "mpulseinject",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 17,
+      "value": "false"
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1934212195,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 315367201,
+      "name": "language-preference",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 21,
+      "value": "en"
+    },
+    {
+      "domain": "en.zalando.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "JSESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": true,
+      "size": 59,
+      "value": "59AF6A2B7FEAA4DFB48DA7BC56D3E896.jvm_http35_p0121"
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1621444196.163754,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 2599202.1637539864,
+      "name": "PESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 47,
+      "value": "z2fdples6rh6qt-z1xfpyj0br7nrx-z13d1g6k"
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1934212196.163786,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 315367202.16378593,
+      "name": "CUSTOMER",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 244,
+      "value": "GzMrtc9tEOfqnu8InIjihDpkZ3f0IJZKSKvmnroXpYoYU7SDo2TSBEBe0t69cQ+ol/sfq+PR3JcVDrhLGQr3K61Yxd+cgu7H2q1/2m15QGL851pxLNznt6PFCU29fIUXap3rvB3awNTYZmhoKLojxvgVMmhzBe/Y9vD5UTRbhS5xwRPflsrZ5ranrVbDwczQS9j74VkcaMj4FTJocwXv2F4nY0EC6900RzTq6kA1Bs0="
+    },
+    {
+      "domain": "en.zalando.de",
+      "expires": -1,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "BIGipServerzalando_http",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 43,
+      "value": "589381642.20480.0000"
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1618859396.163854,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14402.163853883743,
+      "name": "bm_mi",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 274,
+      "value": "097CEAAD507F8DAC09936731BA62ABD6~MpPsywm7tMfBVltsbkc5BityKtb0RdvYz//tIK1Ak2C3ix5JBt6y7KtQvbklHwKiT+xruw0vVp9k2lxB/RsUFauom5nFcBAE2ba3rDDf99cM9IJz25kWtgF7sZAqn3zNoRRg7QF51NnB90rtL4eGOST+6pL19ZBVuHvslB2RuNxA3AlSVxgNYZZDpfpVI15AowUvh9weZaAc9Yk2hq7fH1CGyOSc9kwe9wYPWjO3ruA="
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1618859395.694968,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14401.694967985153,
+      "name": "bm_sv",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 210,
+      "value": "1003F95313F839DAF297D6F81EAEBF3A~1km3a6JKiuJ9vefbLFgGSriwa06X4aUOlXvpASP7p9IOUsxmBT0AXmFfrwAVHjw9pmZpIw8pSNNMZFAMKS1ipsGAKdXvGnBFLX2OKT59vMyRex5t8LwFI59MiUNvv9LIQxuk6PTudMVN4iZqGOMKY1bewEcS2m/4/GO+j3l+EWI="
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1618859395.977506,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 14401.977505922318,
+      "name": "ak_bmsc",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": false,
+      "size": 647,
+      "value": "D7E9FE14914D9C53632614516F0105BD~000000000000000000000000000000~YAAQv+8ZuBS62ud4AQAAbTIc6wsnkqfNYYanen4g5lVecLo4flx93UXmRtJCpMzBsvUmr+IL6vhJxeMC/SPsA+jA9HoNgUebl71Vmeapw9yJ7OQ86ZzqyTjcco6OE8FfCsIN4L8UHx9DX2ujBYkPlviH5tzVKvHoeZajM/yqnBWv4GCBqXTQas+lREsqpkPI6ujI9GApK2EewA/qEuCvvUSYkAuglwWiFeOo27cSWTNXFWLzcTW2PeJticfGP4aHpzEzJyWl+n5Tw33almZ7VXU6OMKppIkgpycoGeWNQYHHhHpdmmMpyRjU7LQLC6P1xmC0RoxV73bn1P/fAuYRSD8MD5ftTSEuJv2wqO35WdAwX0OHRjkcgOIDfrVSHAqyILLYjyj7en/3I3J1fTqn2Bt64ODf5AKZk//eWf14qRC8QXN+cktbvNJos6q9oggNjkBg6GfPYlRyz9oHDBCdPcE7vkNL75ZJloP4v+vvGfiuZjemhxBMFPNeUaEKfPZIZwFomAjIym+Dz0f7bU7aL890y6+q627Gixwf2TGIBpUDchtCLvXTmlC1eG7q/A=="
+    },
+    {
+      "domain": ".zalando.de",
+      "expires": 1650388197.025901,
+      "httpOnly": false,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": 31543203.02590108,
+      "name": "_abck",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": true,
+      "session": false,
+      "size": 526,
+      "value": "85BFB93D0A5FF03046B1CC01D0EA2866~-1~YAAQv+8ZuBW62ud4AQAAnDIc6wVEstRgg6bDxQBrFg5qQRStL2TGXns1HBGxHL5fNw04+2iWDTA/vKIh7lOs52Gw2YYg0+WR8+gZCvkLq0OYXoDq5v7QC7e2rO8ZhV8Ve+Ow30pHnImEMzw9ftbA2vsDoR2aGxDjdcnNddfa69ndvd4i2AjynSB7RxceuBBX0P8NHQAEAbSBERHtZpYSIbuF+zbaeyPGL3CGcZkxgW55PnP/uRSWBy7JipzWmmETzcmLDrWOCoWGWem9nDvOnelktLK565IUGoxJmcckwtMQ+HxxsmM9cc97sA69oUJi3pYlTdyF4hacCP3WnPmArvV0u5UKZz0JycwaAPWobS0os2EgsjHnKxFUd7ccwCqGOLyWiXvvzxNOyWafNDTGC0Jp4EtzAALpDoOXSBWjFQeOeckTiZzi0/WVywK28KKsPJYDARTVmLa91690k7ziqFdz9WWV~-1~-1~-1"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 6,
+    "first_party_short": 8,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://en.zalando.de/?_rfl=de",
+  "fingerprinting": {
+    "canvas": {
+      "call_stack": [
+        {
+          "args": [
+            "m,Ev!xV67BaU> eh2m<f3AG3@"
+          ],
+          "functionName": "a.<computed>",
+          "location": {
+            "columnNumber": 69687,
+            "lineNumber": 0
+          },
+          "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+        },
+        {
+          "args": [],
+          "functionName": "a.<computed>",
+          "location": {
+            "columnNumber": 68627,
+            "lineNumber": 0
+          },
+          "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+        },
+        {
+          "args": [],
+          "functionName": "a.<computed>",
+          "location": {
+            "columnNumber": 68094,
+            "lineNumber": 0
+          },
+          "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+        },
+        {
+          "args": [],
+          "functionName": "calc_fp",
+          "location": {
+            "columnNumber": 65740,
+            "lineNumber": 0
+          },
+          "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+        }
+      ],
+      "calls": [
+        {
+          "arguments": [
+            "Soft Ruddy Foothold 2",
+            2,
+            2
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [
+            "!H71JCaj)]# 1@#",
+            4,
+            8
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        },
+        {
+          "arguments": [
+            "<@nv45. F1n63r,Pr1n71n6!",
+            10,
+            40
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        },
+        {
+          "arguments": [
+            "m,Ev!xV67BaU> eh2m<f3AG3@",
+            10,
+            40
+          ],
+          "method": "CanvasRenderingContext2D.fillText"
+        },
+        {
+          "arguments": [],
+          "method": "HTMLCanvasElement.toDataURL"
+        }
+      ],
+      "is_fingerprinting": true
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "98c06c980ca0087c0ab58c96a21d849e59fdc24140af83a1e492f2b9f71ad9fa",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "DigiCert SHA2 Extended Validation Server CA",
+        "countryName": "US",
+        "organizationName": "DigiCert Inc",
+        "organizationalUnitName": "www.digicert.com"
+      },
+      "key": {
+        "curve": "secp256r1",
+        "size": 256,
+        "type": "ECC"
+      },
+      "not_valid_after": 1635980399.0,
+      "not_valid_before": 1617832800.0,
+      "serial_number": 14854253216748036272897457193958670493,
+      "subject": {
+        "businessCategory": "Private Organization",
+        "commonName": "www.zalando.com",
+        "countryName": "DE",
+        "jurisdictionCountryName": "DE",
+        "jurisdictionLocalityName": "Charlottenburg",
+        "jurisdictionStateOrProvinceName": "Berlin",
+        "localityName": "Berlin",
+        "organizationName": "Zalando SE",
+        "serialNumber": "HRB 158855",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "CHACHA20_POLY1305",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": false
+    },
+    "key_exchange": "",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.3",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": null,
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": null
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://zalando.de/",
+    "https://www.zalando.de/",
+    "https://en.zalando.de/?_rfl=de"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "http://zalando.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.zalando.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/?_rfl=de"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Regular.v1.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nsg/dx-ui/fonts/HelveticaNowText-Bold.v1.woff2"
+    },
+    {
+      "mime_type": "font/woff2",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nsg/dx-ui/fonts/TiemposText-Regular.v1.woff2"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/base-assets/require-2.1.22.min.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/base-assets/5-7-0/assets/bundle.js"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/base-assets/5-7-0/assets/style.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nsg/dx-ui/atom-61.0.1.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/akam/11/4bd41ab4"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nvg/z-header-fragment/1b7a08cb5ec8a5d0778d-header.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nvg/z-header-fragment/948edb5456f4cb65aac3-header.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nvg/z-header-fragment/zalando-logo/logo_default.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nvg/z-header-fragment/zalando-logo/discoverPlus_en.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic04.ztat.net/tdz/landing/usp_august_2020_v4/t_assortment.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic04.ztat.net/tdz/landing/usp_august_2020_v4/t_delivery.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/tdz/landing/usp_august_2020_v4/t_brands.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/tdz/landing/usp_august_2020_v4/t_return.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/tdz/landing/usp_august_2020_v4/t_personalisation.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/tdz/landing/usp_august_2020_v4/t_sustainability.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/tdz/landing/usp_august_2020_v4/t_payment.jpg"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/seo/glados/ab7620238020b69eae17-main.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/nvg/z-footer-fragment/4bd771e7a439999bced6-footer.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/lny/reef/labelModal.8c66c936ff2eac638d0b.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/cst/mini-cart-k8s/2dc1a5ae2c995aaf750e/miniCart.css"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/rnd/ng/smart-banner-assets/7bce36644402b32b9c4b.css"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/rnd/ng/runtime-d54281fb1f8636ef58fa.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/rnd/ng/re-commons-chunk-8b958df6-69db-4905-8e5f-d2c93717123c/index-c5d7a90c56266f55d324.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/navigation/banners?gender=unisex&membership=eligible&url=https%3A%2F%2Fen.zalando.de%2F%3F_rfl%3Dde"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/navigation"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic03.ztat.net/seo/glados/c1b6be49c62bb4136552-main.js"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nsg/dx-ui/logistics-439fe32d.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nsg/dx-ui/payment-1ee8e720.svg"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 404,
+      "status_text": "",
+      "url": "https://en.zalando.de/undefined"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/nvg/z-footer-fragment/d737fe0010053ec3d4bf-footer.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/lny/reef/labelModal.44f3b2bca9e39ebc98d3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/pnl/2021.03.19-b43c89d-master-15/live/tff.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/cst/mini-cart-k8s/2dc1a5ae2c995aaf750e/miniCart.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/rnd/ng/customer_gender-split-view/index-7e1bc5955ba8cdf7dfd3.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/rnd/ng/newsletter-consent_banner/index-a7ba3aa68ccd1fbf69b5.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/rnd/ng/smart-banner-assets/f204120c22186c5ffd36.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/t/i"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nvg/z-footer-fragment/production/svg-icons/en-DE/1616080839473/1616080839473.svg"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/pr/sajax?flowId=HVeriAjyzS%2BipGLH&try=1"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/e"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/e"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/akam/11/pixel_4bd41ab4"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M6DK9B"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T3W9FX&l=dataLayer"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/t/i"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://en.zalando.de/clientlibs/878a1f43cno19752ff908935b212acd"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic01.ztat.net/pnl/consent-ui/latest/zalando/consent.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/main.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://mosaic02.ztat.net/nvg/z-header-fragment/da1e65cc1036bea84fb5-0.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/bundle.js"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://api.usercentrics.eu/settings/arL_G7jv7/latest/en.json"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/session/1px.png?settingsId=arL_G7jv7"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/cdcs-iframe-index.html"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://aggregator.service.usercentrics.eu/aggregate/en?templates=HJI5SmLm7@4.0.12,4FFTFOUfw@6.1.23,OfRP5u93B@3.1.13,ud-BhTWHh@2.1.12,7BLli4HdG@2.1.11,JUHF592x1@2.1.12,pTfPhQRxT@5.7.20,frQR1dFxd@2.1.14,e4rmSQ-NB@1.0.11,F9kjQKHZZ@4.1.12,6h9KiT_Rq@1.0.11,mRwT7KEFT@4.4.19,JmpddCKLv@2.1.12,Jg7Dwto8D@1.0.11,ifC61ZkUu@2.1.12,3MQivcsxe@5.8.21,mI5sBySIK@1.0.11,bterRCIk9@4.2.14,0zRPpfae1@4.2.15,hgWEDp0rF@3.2.12,hppbBpXvW@7.1.12,W7j5xW3-S@2.1.12,uP5CDW97i@6.1.16,wZ3S1Uakq@2.1.12,PK03xx464@3.1.12,RfAyCYwd9@4.4.18,rWgisaQJg@3.1.12,0wfzOgXF3@3.1.12,hjqhr6Zk3@4.2.14,tZVHDIhcx@3.2.11,XTFmGFMVt@3.1.14,mlo0BusyC@3.1.14,IrPsVpY_7@4.1.16,Ei1picq_7@1.5.20,zwX3yNXmC@1.0.4,7Vprndr3H@1.0.11,PnywnKoll@3.1.6,tJvbUQAP9@3.1.6,_mU7q5MqI@4.1.7,Sen7Y3j3N@4.0.15,tiCk9jgVL@2.0.12,jD_pwzOLG@2.0.12,VCqr8ngAv@2.0.21,HDh_oPGqu@3.1.8,yQ1Cg7P1W@1.0.4,f1s_sHf-f@1.0.4,o-rjTZh0F@1.0.4,17T4JUt5k@1.0.4,o_qvG2pue@4.0.11,QrCdKQ6XL@2.2.8,DJ7Zrh0_T@4.6.36,l5-1-jFAu@3.1.18,SVRllMzF9@2.1.18,Dwm5T2qI2@1.0.4,jZ1nrZHf-@1.0.17,9w44CLHWN@2.1.19,AZvGMv38M@3.1.8,LamHKofN8@4.1.12,UO57ub_cG@5.2.27,ZUDDwJDiM@1.0.3,BOczKv7I3@1.0.0,vu4D5DKDw@1.0.0,hwWTsZLSQ@1.0.0,m-hsgxiEP@1.0.0,jGjv9y6Xf@1.0.0,yckiG1scZ@1.0.0,CJC7KUBNW@1.0.0"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://app.usercentrics.eu/latest/cdcs.js"
+    },
+    {
+      "mime_type": "",
+      "sets_cookie": false,
+      "status_code": 204,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://graphql.usercentrics.eu/graphql"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://w.usabilla.com/ef4c1f2bab3f.js?s1"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://w.usabilla.com/b947a5295d9a.js?lv=1"
+    },
+    {
+      "mime_type": "text/plain",
+      "sets_cookie": false,
+      "status_code": 201,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/consents"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/e"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/t/i"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/e"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/t/i"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/e"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/t/i"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/rr/e"
+    },
+    {
+      "mime_type": "application/json",
+      "sets_cookie": false,
+      "status_code": 202,
+      "status_text": "",
+      "url": "https://en.zalando.de/api/t/i"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "frame-ancestors": [
+        "'self'",
+        "https://content.solutions.zalando.com"
+      ],
+      "header_value": "frame-ancestors 'self' https://content.solutions.zalando.com"
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": null,
+    "Strict-Transport-Security": null,
+    "X-Content-Type-Options": null,
+    "X-Frame-Options": "sameorigin",
+    "X-XSS-Protection": null
+  },
+  "site_url": "http://zalando.de\r",
+  "third_parties": {
+    "fqdns": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "mosaic01.ztat.net",
+      "mosaic02.ztat.net",
+      "mosaic03.ztat.net",
+      "mosaic04.ztat.net",
+      "w.usabilla.com",
+      "www.googletagmanager.com"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 51
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 13,
+    "trackers": [
+      "aggregator.service.usercentrics.eu",
+      "api.usercentrics.eu",
+      "app.usercentrics.eu",
+      "graphql.usercentrics.eu",
+      "w.usabilla.com",
+      "www.googletagmanager.com"
+    ]
+  }
+}

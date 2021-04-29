@@ -1,0 +1,769 @@
+{
+  "chrome_error": null,
+  "cookies": [
+    {
+      "domain": "www.bmfsfj.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "CM_SESSIONID",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 44,
+      "value": "7B7B2285B7AF86B249F10B2EAD69A2D3"
+    },
+    {
+      "domain": "www.bmfsfj.de",
+      "expires": -1,
+      "httpOnly": true,
+      "is_thirdparty": false,
+      "is_tracker": false,
+      "lifetime": -1,
+      "name": "934c2398f1559e8ded4850e5345055b6",
+      "path": "/",
+      "priority": "Medium",
+      "sameParty": false,
+      "secure": false,
+      "session": true,
+      "size": 64,
+      "value": "8e0e6f17d068234a6524468320fd3d21"
+    }
+  ],
+  "cookiestats": {
+    "first_party_long": 0,
+    "first_party_short": 2,
+    "third_party_long": 0,
+    "third_party_short": 0,
+    "trackers": []
+  },
+  "failed_requests": [],
+  "final_url": "https://www.bmfsfj.de/",
+  "fingerprinting": {
+    "canvas": {
+      "calls": [],
+      "is_fingerprinting": false
+    }
+  },
+  "google_analytics": {
+    "has_ga_js": false,
+    "has_ga_object": false,
+    "has_gat_object": false,
+    "has_requests": false
+  },
+  "https": {
+    "certificate": {
+      "fingerprint_sha256": "8e7dcdcd2ce9e5e44c0850e3e8124e9eea2573ed20784a240052d0bda60ad488",
+      "is_expired": false,
+      "issuer": {
+        "commonName": "TeleSec ServerPass Class 2 CA",
+        "countryName": "DE",
+        "localityName": "Netphen",
+        "organizationName": "T-Systems International GmbH",
+        "organizationalUnitName": "T-Systems Trust Center",
+        "postalCode": "57250",
+        "stateOrProvinceName": "Nordrhein Westfalen",
+        "streetAddress": "Untere Industriestr. 20"
+      },
+      "key": {
+        "size": 2048,
+        "type": "RSA"
+      },
+      "not_valid_after": 1648418399.0,
+      "not_valid_before": 1616405860.0,
+      "serial_number": 30116695717461861410910447766098128926,
+      "subject": {
+        "commonName": "bmfsfj.de",
+        "countryName": "DE",
+        "localityName": "Berlin",
+        "organizationName": "Bundesministerium fuer Familie, Senioren, Frauen und Jugend",
+        "organizationalUnitName": "IT",
+        "stateOrProvinceName": "Berlin"
+      },
+      "version": "v3"
+    },
+    "cipher": "AES_256_GCM",
+    "has_tls": true,
+    "hsts_preload": {
+      "is_preloaded": false,
+      "is_ready": true
+    },
+    "key_exchange": "ECDHE_RSA",
+    "key_exchange_group": "X25519",
+    "mac": null,
+    "protocol": "TLS 1.2",
+    "redirects_insecure": false,
+    "redirects_secure": true,
+    "same_content": null,
+    "same_content_score": null
+  },
+  "imprint_url": "https://www.bmfsfj.de/bmfsfj/impressum-99480",
+  "insecure_content": {
+    "contained_mixed_form": false,
+    "displayed_content_with_cert_errors": false,
+    "displayed_mixed_content": false,
+    "has_cert_errors": false,
+    "has_mixed_content": false,
+    "ran_content_with_cert_errors": false,
+    "ran_mixed_content": false
+  },
+  "javascript_libraries": {
+    "AngularJS": null,
+    "React": null,
+    "jQuery": "3.5.1"
+  },
+  "reachable": true,
+  "redirect_chain": [
+    "http://bmfsfj.de/",
+    "https://www.bmfsfj.de/"
+  ],
+  "requests": [
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "http://bmfsfj.de/"
+    },
+    {
+      "mime_type": "text/html",
+      "sets_cookie": true,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/css/bmfsfj-169874-1.css"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/dependencies/jquery-2.2.1-169642-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/dependencies/jquery-ui-1.12.0-169644-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/dependencies/jquery-ui-bmfsfj-custom-169646-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/vendors/base64-169652-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/vendors/autocomplete-169650-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/vendors/jwplayer-169654-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/vendors/picturefill.min-169656-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/commons-169640-1.js"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/themes/bmfsfj/js/bmfsfj-169638-1.js"
+    },
+    {
+      "mime_type": "application/x-javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://static.etracker.com/code/e.js"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f1-eu.readspeaker.com/script/9905/webReader/webReader.js?pids=wr"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/107422/e9f6e66b1d3e0f18cbe46632c697f729/logo-data.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/111822/e9f6e66b1d3e0f18cbe46632c697f729/logo-mobile-data.svg"
+    },
+    {
+      "mime_type": "image/svg+xml",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/107136/c0f3e2f57d1ec0e1f274da1ada6c36d3/bmfsfj-logo-responsiv-data.svg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/178184/16x7/1023/448/3dc8744cad69f1389dddb2dc658cd870/4892C717DE970356C333E91112934FA1/20210416-giffey-eroeffnung-jugendparlament.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/178218/3x2/993/662/db104c7d1f2fce349251faf92d7c1a74/6C1454784CB33B0090167BF6E105E6AB/20210419-deutscher-multimediapreis-mb21-bewerbungsstart.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/178124/3x2/993/662/688503ef43d86cd2a0b81e0edc855c0e/A87872AB5C56CAD2BED233EBC2EC3CC8/20210416-festival-augenblick-mal.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/176920/3x2/993/662/7a60481d9fa6d8e04b1b54b4989fb8cc/F2A143BA4EBD582EA9DEEFB389EA490F/20210326-kantar-befragung-gleichstellung.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/165102/5ca668c4bbf792087e59814101cd4db0/kampagnenkachel-kinderkrankentage-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/162184/3e16c955b737a5c711edcd83ff8858ca/kampagnenkachel-staerker-als-gewalt-data.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/116586/409f15e134eb93ca624ec14018c51465/grafik-gleichstellungsatlas-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/142916/uncropped/0/295/a5dc59d8f47d70b950046a4041104999/DA972AEBF9390C3DAF9AD5B22AC36A72/checkheft-starke-familien-ab-2021.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/152966/uncropped/0/295/59c05036ce856d30b601e1cf64d58729/488FD3043D1FC3A9E11EAA656AD519F1/unerfuellter-kinderwunsch-broschuere-fuer-maenner.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/91954/uncropped/0/295/1bd71583bfc087cef5b07e324b802ddf/18E3BE48A80FBA4EBC5EC0347052063B/nie-zu-alt-fuers-internet.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/162490/uncropped/0/295/b9369849bdcceee2fc8066f0287dff5d/790214E6EEACECC242C0071DBF7673A4/kindertagesbetreuung-kompakt-ausbaustand-und-bedarf-2019-ausgabe05b.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/91006/uncropped/0/295/729e58e499f458b54ac75e9cd99e8f92/CF096F265D95F3FF6B9F816DF45834C6/bundesprogramm-sprach-kitas-weil-sprache-der-schluessel-zur-welt-ist-flyer.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/137186/uncropped/0/295/41cb3c044698e08192aa4b53678ebff9/14BF3C7D2D0D43EA39EE335CCB38E1AD/flyer-familienkasse-kinderzuschlag-fuer-familie-mit-kleinen-einkommen.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/99356/82bc88458180608ba802c13f3bb5c413/bafza-logo-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/113316/uncropped/220/0/cc49d2f01d5f6bb23725bebfa024ad91/9D037864467509802020B82BF5834592/fpo-logo.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108454/uncropped/220/0/6773d265a84536259fa486345dc0e9c0/81DF70188810D949164B51E18C57DBFF/kinderministerium.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/130808/uncropped/220/0/fba13df6807f06c8ddab49645fc1333f/A80A65E3FB5D82382B7FAE4CDD2E11C0/hilfetelefon-gewalt-gegen-frauen-neu.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/136720/c51cdab36d8b95170a1d900f5aef9a68/regenbogen-portal-logo-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/159958/b9d8fe8ddf93773417327cf7ac26e06f/logo-gute-kita-gesetz-data.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/121010/uncropped/220/0/9e765a2a87118c7c5d5c7dae981b9ef6/13AE3F080D6E2B9DA149F0CEC2B6C298/pausentaste-logo.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/117638/uncropped/220/0/df056459681a72f607dfd39355647210/B3403DD3C0819711C03AD1EF39AB9B4E/logo-kinderschutzhotline.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/122142/uncropped/220/0/a288809dd3639216ca958215fa8a0cf3/C43898753308BCC506C33FC8A571A39A/schwangere-in-not-logo.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/154728/uncropped/220/0/8d9c562d31ce43e8f1749e3a11d8b208/35AB703D8EE76CDCEFE47E16B5796E6F/20200416-deutsch-franzoesischer-buergerfornds.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/117246/c8f034cc4135175b914805cb86d11403/informationsportal-kinderwunsch-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/106866/1fd44efb8dd5420562dc24f74f1b0276/jugendmigrationsdienste-data.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/118134/846c4797b9a4cb04df39b242ba241847/logo-aktion-zusammen-wachsen-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/115334/uncropped/220/0/ed087c05392c65939b8cd6c7a8e46d79/4BC9A6151BB58269D8B02BBC4DB1B52E/logo-hilfe-im-haushalt.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/106868/uncropped/220/0/4f921f3261efb935483f91c00ba538a/FFD27E112139AE298460C79A2DA7E2F9/fonds-heimerziehung.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/106872/uncropped/220/0/891af88d63725cf146a478515e84694d/5B1B6456344949ED45AD1F1FA9D67E81/fonds-sozialer-missbrauch.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/106910/uncropped/220/0/cc455c607969d5becb627f2c2c4a1886/984DA3096B1929BA0746A65C66929FA0/bundesstiftung-mutter-kind.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/106908/ef02d422bec472a599af6ad9fb23f4b4/jugendrecht-data.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/85684/uncropped/220/0/efffb5485835ff7db2e2a2bda0a12a00/E463D62F7D4A2320C10A8E504CE93ACB/jugend-staerken-logo.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/85686/049c2cbb09f2b478b261ce25c246a519/jugend-staerken-quartier-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/115406/uncropped/220/0/126495f01f952197c8c685e5a8d8e8fb/D7CAE461520E57BCCD64624D4DD32D66/raus-von-zuhaus.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/85636/uncropped/220/0/f5e143428da812b49966d5e805675978/0D5ABC70A1F5E924AFBDE67B5CF7191B/fruehe-chancen-topmeldung.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/134642/8a8d1e5dba47b5cde3058401d5ece883/logo-fruehe-hilfen-neu2019-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/115718/a4af73f8aab78aed5bfea0f708554022/demografiewerkstatt-kommunen-data.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108442/uncropped/220/0/7ed821142768295240d292309552e66d/65BD9A1637D09A940D43A45FF2ACC611/logo-pflegeausbildung-net.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108430/uncropped/220/0/fc959aec05c4ac8762dc8d2e2317ddc7/F170D8166F0EDE9CAAB0C1B91DF60375/logo-bfd.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/154152/da94856466dd5997b2556a73edc85704/demokratie-leben-data.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108432/uncropped/220/0/fb51ee5f36fddcad006df85526b4a957/9F74B27F4EEB2825D5E1F976E413D3C7/logo-elternchance.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108436/uncropped/220/0/7df3748606acf70bb0b263e93d4658c7/1A5ED2C9E0E235C1D789C6A8472A2B22/logo-wegweiser-demenz.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/116602/82933d999eb38f741620a37f1f5c5a18/erfolgsfaktor-familie-weisser-hintergrund-data.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108428/uncropped/220/0/e1433af6556b1e6ac729023c0c195b35/24697545E4684A4CDA0773DE84C40692/stark-im-beruf.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108446/uncropped/220/0/64117893a0fbfc82ec82aed16c0552e/68D4B54BBBD7A466F682534B59B49B1E/logo-helene-weber-kolleg.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108448/uncropped/220/0/2847b1e36aaaa8cdf259cf9fc2a26e4/1D3569E4F7006E34485E77454DE89E6E/lokale-buendnisse.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/108452/e4165b605b88ea7fd8cd942b8b55c625/mgh-logo-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108426/uncropped/220/0/8372dbb936731d916e6344e877ce805f/1DDE62D50779A5BCDB501DC0702E52F0/pwe.jpg"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108450/uncropped/220/0/6afaa7c835529f7d9e5ba93c1ea8a5f8/ABB996950509C7BBC48738AB49A39365/logo-programm-altersbilder.png"
+    },
+    {
+      "mime_type": "image/png",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108438/uncropped/220/0/24bb89c502da33ac342714472af090ef/1B39D8DEA983C64FBB81CBEE073B0EC1/zuhause-im-alter.png"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108414/uncropped/220/0/1a3a893de4823038d5dfb79b7878a6f1/C0096961B7C962FEA4A8414CCFB60429/wege-zur-pflege.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/120252/f00d59ad9fd1a9937063553fe69ecdfb/klischee-frei-logo-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/blob/108416/47b59c31a48494db37e9ff2500e3b428/boys-day-logo-logoleiste-data.jpg"
+    },
+    {
+      "mime_type": "image/jpeg",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/image/108420/uncropped/220/0/f6048752ae2a40e8e3637dfbe4b4273f/60A955873C7C1FBAF4886333C5E6B06C/girls-day-logo-logoleiste.jpg"
+    },
+    {
+      "mime_type": "text/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://code.etracker.com/t.js?v=f77863&et=h5EsEK"
+    },
+    {
+      "mime_type": "text/css",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://f1-eu.readspeaker.com/script/9905/webReader/r/r1299/ReadSpeaker.Styles-Button.css?v=3.3.5.1299"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/crblob/169124/60b976ee7df35722d449b06ac154ef05/bundessansweb-regular-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/crblob/169144/60bc0b22bda855c4756d2feaeaf11873/bmfsfjicon-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/crblob/169112/fcf8ee650ef2fbe73848c315e746cbac/bundessansweb-bold-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/x-font-ttf",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "OK",
+      "url": "https://www.bmfsfj.de/resource/crblob/169128/79595c4d9324f88e1d64753ef8bb2b31/bundesserifweb-bold-ttf-data.ttf"
+    },
+    {
+      "mime_type": "application/javascript",
+      "sets_cookie": false,
+      "status_code": 200,
+      "status_text": "",
+      "url": "https://www.etracker.de/cntcc?&&et=h5EsEK&v=5.0&tc=16189125546477&pagename=__INDEX__BMFSFJ&ilevel=1&swidth=800&sheight=600&scolor=24&slang=en-US&areas=Thema&cc_url=https%3A%2F%2Fwww.bmfsfj.de%2F&et_source_url=https%3A%2F%2Fwww.bmfsfj.de%2F&cc_ordercurr=EUR&cc_ordertype=lead&cc_baskettype=basket&block_cookies=true&respect_dnt=true&et_bs=1&et_sbscr=0&coid=f84177d36527d88fed50057f5edd9461&et_cblk=1&et_cd=www.bmfsfj.de&dh=uFEgsaRF0DxKNq6KFvvx1%2Bfrv1N0WZ3M&clt=24"
+    }
+  ],
+  "security_headers": {
+    "Access-Control-Allow-Origin": null,
+    "Content-Security-Policy": {
+      "connect-src": [
+        "'self'",
+        "https://*.readspeaker.com",
+        "https://*.geodatenzentrum.de",
+        "https://*.etracker.com",
+        "https://*.etracker.de",
+        "https://*.jwpcdn.com"
+      ],
+      "default-src": [
+        "'self'",
+        "blob:"
+      ],
+      "font-src": [
+        "'self'",
+        "data:",
+        "https://*.readspeaker.com",
+        "https://*.jwpcdn.com"
+      ],
+      "frame-src": [
+        "'self'",
+        "https://*.readspeaker.com",
+        "https://*.youtube.com",
+        "https://app.sli.do",
+        "https://*.cloudfront.net",
+        "https://*.streamshark.io"
+      ],
+      "header_value": "style-src 'self' 'unsafe-inline' https://*.readspeaker.com ; connect-src 'self' https://*.readspeaker.com https://*.geodatenzentrum.de https://*.etracker.com https://*.etracker.de https://*.jwpcdn.com ; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.etracker.com https://*.etracker.de https://*.readspeaker.com https://ssl.p.jwpcdn.com/ https://*.jwplayer.com https://*.bmfsfj.de ; media-src 'self' blob: data: https://*.readspeaker.com https://*.streamfarm.net ; frame-src 'self' https://*.readspeaker.com https://*.youtube.com https://app.sli.do https://*.cloudfront.net https://*.streamshark.io ; img-src 'self' data: 'unsafe-inline' https://*.geodatenzentrum.de https://*.jwpltx.com ; default-src 'self' blob: ; font-src 'self' data: https://*.readspeaker.com https://*.jwpcdn.com",
+      "img-src": [
+        "'self'",
+        "data:",
+        "'unsafe-inline'",
+        "https://*.geodatenzentrum.de",
+        "https://*.jwpltx.com"
+      ],
+      "media-src": [
+        "'self'",
+        "blob:",
+        "data:",
+        "https://*.readspeaker.com",
+        "https://*.streamfarm.net"
+      ],
+      "script-src": [
+        "'self'",
+        "'unsafe-eval'",
+        "'unsafe-inline'",
+        "https://*.etracker.com",
+        "https://*.etracker.de",
+        "https://*.readspeaker.com",
+        "https://ssl.p.jwpcdn.com/",
+        "https://*.jwplayer.com",
+        "https://*.bmfsfj.de"
+      ],
+      "style-src": [
+        "'self'",
+        "'unsafe-inline'",
+        "https://*.readspeaker.com"
+      ]
+    },
+    "Expect-CT": null,
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Strict-Transport-Security": {
+      "header_value": "max-age=31536000 ; includeSubDomains; preload;",
+      "includeSubDomains": true,
+      "max-age": 31536000,
+      "preload": true
+    },
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": {
+      "header_value": "1; mode=block",
+      "is_active": true,
+      "mode": "block"
+    }
+  },
+  "site_url": "http://bmfsfj.de\r",
+  "third_parties": {
+    "fqdns": [
+      "code.etracker.com",
+      "f1-eu.readspeaker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ],
+    "num_http_requests": 0,
+    "num_https_requests": 5
+  },
+  "tracking": {
+    "num_tracker_cookies": 0,
+    "num_tracker_requests": 3,
+    "trackers": [
+      "code.etracker.com",
+      "static.etracker.com",
+      "www.etracker.de"
+    ]
+  }
+}
