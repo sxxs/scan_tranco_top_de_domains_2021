@@ -49,6 +49,17 @@ m.exactag.com (**12**)
 
 Note that some of these domains, in particular consensu.org (which belongs to the IAB), seem to be related with consent management. consensu.org, however, sets cookies with large random content that cannot be distinguished from unique identifiers.
 
+#### Cookie Banners
+
+The domains below (46 in total) show **no** banner but set third-party cookies nonetheless:
+
+`ardmediathek.de`, `bahn.de`, `daserste.de`, `deutschlandfunk.de`, `hessenschau.de`, `hr-online.de`, `kika.de`, `mdr.de`, `ndr.de`, `radiobremen.de`, `radioeins.de`, `rbb-online.de`, `rbb24.de`, `sportschau.de`, `swr.de`, `swr3.de`, `tagesschau.de`, `wdr.de`, `wdrmaus.de`, ...
+
+On the other hand, these domains (262 in total)
+show a banner while also setting third-party cookies. That is, before any interaction with the banner:
+
+`spiegel.de`, `ebay-kleinanzeigen.de`, `t-online.de`, `welt.de`, `bild.de`, `heise.de`, `zeit.de`, `zdf.de`, `sueddeutsche.de`, `focus.de`, `goethe.de`, `n-tv.de`, `tagesspiegel.de`, `stern.de`, `br.de`, `taz.de`, ...
+
 
 ### Tracking URL Requests
 
